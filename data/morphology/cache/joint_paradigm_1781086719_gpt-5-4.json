@@ -1,0 +1,131 @@
+{
+  "grammar": {
+    "run_key": "veyru/1781086719",
+    "slots": [],
+    "segmentation": {
+      "DIM": [
+        "DIM"
+      ],
+      "BRIGHT1": [
+        "BRIGHT1"
+      ],
+      "WOBB": [
+        "WOBB"
+      ],
+      "DRIFT": [
+        "DRIFT"
+      ],
+      "FLICK": [
+        "FLICK"
+      ],
+      "OVER": [
+        "OVER"
+      ],
+      "LEAK": [
+        "LEAK"
+      ],
+      "BLAZE": [
+        "BLAZE"
+      ],
+      "PULSE": [
+        "PULSE"
+      ],
+      "DEAD": [
+        "DEAD"
+      ],
+      "STALL": [
+        "STALL"
+      ],
+      "SPLIT": [
+        "SPLIT"
+      ],
+      "THERM": [
+        "THERM"
+      ],
+      "VOID": [
+        "VOID"
+      ],
+      "STABLE": [
+        "STABLE"
+      ]
+    },
+    "head_index": {
+      "DIM": 0,
+      "BRIGHT1": 0,
+      "WOBB": 0,
+      "DRIFT": 0,
+      "FLICK": 0,
+      "OVER": 0,
+      "LEAK": 0,
+      "BLAZE": 0,
+      "PULSE": 0,
+      "DEAD": 0,
+      "STALL": 0,
+      "SPLIT": 0,
+      "THERM": 0,
+      "VOID": 0,
+      "STABLE": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "DIM": "all faces dim, faint hum, washed patterns",
+      "BRIGHT1": "1 face blazing, whine, localized vibration",
+      "WOBB": "wobbling edges, bulging faces, muffled hum",
+      "DRIFT": "drifting light, blurred edges, wavering pitch",
+      "FLICK": "chaotic face flicker, broken irregular hum",
+      "OVER": "too bright all over, layered hum, frozen faces",
+      "LEAK": "corners and edges dim, center fine, thin hollow hum",
+      "BLAZE": "all faces blazing white, loud buzz, surface heat",
+      "PULSE": "opposite faces alternating bright and dark, 2-tone sync hum",
+      "DEAD": "1-2 corners bright and hot, clicking or ticking sound",
+      "STALL": "frozen dim patterns, silence, cold surface",
+      "SPLIT": "2 clashing tones, 2 alternating patterns, shimmering edges",
+      "THERM": "very hot and dim, low rumble, reddish tint, rough surface",
+      "VOID": "normal outside, hollow tap sound, dark center",
+      "STABLE": "fully stabilized"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1781086719",
+    "n_codes": 15,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible paradigm network is supported by the codebook. The only suggested family, shared prefix STA in STALL and STABLE, fails the paradigm tests: there is no clear shared morphotactic frame with contrasting fillers making corresponding meaning contrasts, and the meanings are not compositionally predictable from a common STA contribution plus residues. More broadly, the symbols behave like opaque condition labels rather than products of a productive construction. Therefore the safest analysis is a flat lexicon with no segmented entries.",
+    "lexical_symbols": [
+      "DIM",
+      "BRIGHT1",
+      "WOBB",
+      "DRIFT",
+      "FLICK",
+      "OVER",
+      "LEAK",
+      "BLAZE",
+      "PULSE",
+      "DEAD",
+      "STALL",
+      "SPLIT",
+      "THERM",
+      "VOID",
+      "STABLE"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

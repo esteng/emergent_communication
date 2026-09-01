@@ -1,0 +1,131 @@
+{
+  "grammar": {
+    "run_key": "veyru/1778880321",
+    "slots": [],
+    "segmentation": {
+      "void": [
+        "void"
+      ],
+      "resonance": [
+        "resonance"
+      ],
+      "boundary": [
+        "boundary"
+      ],
+      "pulse": [
+        "pulse"
+      ],
+      "fade": [
+        "fade"
+      ],
+      "silent": [
+        "silent"
+      ],
+      "split": [
+        "split"
+      ],
+      "echo": [
+        "echo"
+      ],
+      "low": [
+        "low"
+      ],
+      "high": [
+        "high"
+      ],
+      "drift": [
+        "drift"
+      ],
+      "deadlock": [
+        "deadlock"
+      ],
+      "stall": [
+        "stall"
+      ],
+      "alignment": [
+        "alignment"
+      ],
+      "thermal": [
+        "thermal"
+      ]
+    },
+    "head_index": {
+      "void": 0,
+      "resonance": 0,
+      "boundary": 0,
+      "pulse": 0,
+      "fade": 0,
+      "silent": 0,
+      "split": 0,
+      "echo": 0,
+      "low": 0,
+      "high": 0,
+      "drift": 0,
+      "deadlock": 0,
+      "stall": 0,
+      "alignment": 0,
+      "thermal": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "void": "a hollow tap and a dark center, indicating Core Void",
+      "resonance": "one face bright with a whining sound, indicating Resonance Cascade",
+      "boundary": "wobbling or bulging with a muffled hum, indicating Boundary Softening",
+      "pulse": "strict opposite-face bright and dark alternation with synchronized two-tone sound",
+      "fade": "dim corners, indicating Leak Instability",
+      "silent": "frozen, dim, and cold with no hum; this corresponds to stall",
+      "split": "split or clashing tones with alternating patterns and shimmering edges",
+      "echo": "overbright with a layered hum and frozen faces",
+      "low": "dim light with a whispering sound",
+      "high": "blazing white with buzzing and heat",
+      "drift": "drifting light with smeared edges and a wavering hum",
+      "deadlock": "bright and hot with clicking corners",
+      "stall": "frozen, dim, and cold with no hum",
+      "alignment": "chaotic random flicker with a broken irregular hum, with edges remaining normal",
+      "thermal": "hot, dim, red, with rumbling and roughness"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1778880321",
+    "n_codes": 15,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible paradigm survives the evidence requirements. The only suggested family is a shared suffix -ent in silent and alignment, but there is no stable compositional meaning for ent across those two forms, no substitution frame with corresponding meaning contrast, and the proposed residues do not form a coherent class. Other symbols also do not show any exact, meaning-consistent alternation pattern that would justify segmentation into recurring morphemes. Because false morphology is worse than a flat analysis, all symbols are treated as opaque lexical entries.",
+    "lexical_symbols": [
+      "void",
+      "resonance",
+      "boundary",
+      "pulse",
+      "fade",
+      "silent",
+      "split",
+      "echo",
+      "low",
+      "high",
+      "drift",
+      "deadlock",
+      "stall",
+      "alignment",
+      "thermal"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

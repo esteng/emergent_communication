@@ -1,0 +1,1196 @@
+{
+  "grammar": {
+    "run_key": "veyru/1778883170",
+    "slots": [
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "C-",
+            "gloss": "color",
+            "support": 2,
+            "is_defined": false
+          },
+          {
+            "form": "HM",
+            "gloss": "hum",
+            "support": 13,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "suffix",
+        "fillers": [
+          {
+            "form": "1",
+            "gloss": "high whine",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "2",
+            "gloss": "2-tone split",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "B",
+            "gloss": "blue",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "R",
+            "gloss": "red",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "b",
+            "gloss": "buzz",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "c",
+            "gloss": "clicking",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "h",
+            "gloss": "hollow or thin",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "l",
+            "gloss": "layered",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "m",
+            "gloss": "muffled",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "ok",
+            "gloss": "normal",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "p",
+            "gloss": "pulsing",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "q",
+            "gloss": "quiet or whisper",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "r",
+            "gloss": "rumble",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "s",
+            "gloss": "silent",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "w",
+            "gloss": "wavering",
+            "support": 1,
+            "is_defined": false
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "AC": [
+        "AC"
+      ],
+      "DE": [
+        "DE"
+      ],
+      "ES": [
+        "ES"
+      ],
+      "LI": [
+        "LI"
+      ],
+      "LO": [
+        "LO"
+      ],
+      "HI": [
+        "HI"
+      ],
+      "PI": [
+        "PI"
+      ],
+      "RC": [
+        "RC"
+      ],
+      "CD": [
+        "CD"
+      ],
+      "BS": [
+        "BS"
+      ],
+      "PS": [
+        "PS"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "TB": [
+        "TB"
+      ],
+      "CV": [
+        "CV"
+      ],
+      "BR": [
+        "BR"
+      ],
+      "DM": [
+        "DM"
+      ],
+      "FL": [
+        "FL"
+      ],
+      "HMl": [
+        "HM",
+        "l"
+      ],
+      "HMw": [
+        "HM",
+        "w"
+      ],
+      "HMs": [
+        "HM",
+        "s"
+      ],
+      "HMp": [
+        "HM",
+        "p"
+      ],
+      "HOT": [
+        "HOT"
+      ],
+      "COLD": [
+        "COLD"
+      ],
+      "SH": [
+        "SH"
+      ],
+      "C-R": [
+        "C-",
+        "R"
+      ],
+      "C-B": [
+        "C-",
+        "B"
+      ],
+      "L": [
+        "L"
+      ],
+      "R": [
+        "R"
+      ],
+      "F": [
+        "F"
+      ],
+      "K": [
+        "K"
+      ],
+      "T": [
+        "T"
+      ],
+      "B": [
+        "B"
+      ],
+      "opp": [
+        "opp"
+      ],
+      "all": [
+        "all"
+      ],
+      "bl": [
+        "bl"
+      ],
+      "st": [
+        "st"
+      ],
+      "cl": [
+        "cl"
+      ],
+      "fn": [
+        "fn"
+      ],
+      "lp": [
+        "lp"
+      ],
+      "bd": [
+        "bd"
+      ],
+      "sf": [
+        "sf"
+      ],
+      "tn": [
+        "tn"
+      ],
+      "drape": [
+        "drape"
+      ],
+      "fan": [
+        "fan"
+      ],
+      "chime": [
+        "chime"
+      ],
+      "warm": [
+        "warm"
+      ],
+      "sound": [
+        "sound"
+      ],
+      "illum": [
+        "illum"
+      ],
+      "rest": [
+        "rest"
+      ],
+      "rotate": [
+        "rotate"
+      ],
+      "place": [
+        "place"
+      ],
+      "HMh": [
+        "HM",
+        "h"
+      ],
+      "HMr": [
+        "HM",
+        "r"
+      ],
+      "HMb": [
+        "HM",
+        "b"
+      ],
+      "HMq": [
+        "HM",
+        "q"
+      ],
+      "HMm": [
+        "HM",
+        "m"
+      ],
+      "HMc": [
+        "HM",
+        "c"
+      ],
+      "HM2": [
+        "HM",
+        "2"
+      ],
+      "HM1": [
+        "HM",
+        "1"
+      ],
+      "HMok": [
+        "HM",
+        "ok"
+      ],
+      "near": [
+        "near"
+      ],
+      "sim": [
+        "sim"
+      ],
+      "+": [
+        "+"
+      ],
+      "AND": [
+        "AND"
+      ]
+    },
+    "head_index": {
+      "AC": 0,
+      "DE": 0,
+      "ES": 0,
+      "LI": 0,
+      "LO": 0,
+      "HI": 0,
+      "PI": 0,
+      "RC": 0,
+      "CD": 0,
+      "BS": 0,
+      "PS": 0,
+      "HS": 0,
+      "TB": 0,
+      "CV": 0,
+      "BR": 0,
+      "DM": 0,
+      "FL": 0,
+      "HMl": 0,
+      "HMw": 0,
+      "HMs": 0,
+      "HMp": 0,
+      "HOT": 0,
+      "COLD": 0,
+      "SH": 0,
+      "C-R": 0,
+      "C-B": 0,
+      "L": 0,
+      "R": 0,
+      "F": 0,
+      "K": 0,
+      "T": 0,
+      "B": 0,
+      "opp": 0,
+      "all": 0,
+      "bl": 0,
+      "st": 0,
+      "cl": 0,
+      "fn": 0,
+      "lp": 0,
+      "bd": 0,
+      "sf": 0,
+      "tn": 0,
+      "drape": 0,
+      "fan": 0,
+      "chime": 0,
+      "warm": 0,
+      "sound": 0,
+      "illum": 0,
+      "rest": 0,
+      "rotate": 0,
+      "place": 0,
+      "HMh": 0,
+      "HMr": 0,
+      "HMb": 0,
+      "HMq": 0,
+      "HMm": 0,
+      "HMc": 0,
+      "HM2": 0,
+      "HM1": 0,
+      "HMok": 0,
+      "near": 0,
+      "sim": 0,
+      "+": 0,
+      "AND": 0
+    },
+    "attested_orderings": [
+      [
+        "stem",
+        "suffix"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [],
+    "form_positions": {
+      "HM": 0,
+      "l": 1,
+      "w": 1,
+      "s": 1,
+      "p": 1,
+      "h": 1,
+      "r": 1,
+      "b": 1,
+      "q": 1,
+      "m": 1,
+      "c": 1,
+      "2": 1,
+      "1": 1,
+      "ok": 1,
+      "C-": 2,
+      "R": 3,
+      "B": 3
+    },
+    "position_labels": {
+      "0": "Hum base",
+      "1": "Hum quality/type",
+      "2": "Color base",
+      "3": "Color value"
+    },
+    "positions_by_symbol": {
+      "HMl": [
+        0,
+        1
+      ],
+      "HMw": [
+        0,
+        1
+      ],
+      "HMs": [
+        0,
+        1
+      ],
+      "HMp": [
+        0,
+        1
+      ],
+      "HMh": [
+        0,
+        1
+      ],
+      "HMr": [
+        0,
+        1
+      ],
+      "HMb": [
+        0,
+        1
+      ],
+      "HMq": [
+        0,
+        1
+      ],
+      "HMm": [
+        0,
+        1
+      ],
+      "HMc": [
+        0,
+        1
+      ],
+      "HM2": [
+        0,
+        1
+      ],
+      "HM1": [
+        0,
+        1
+      ],
+      "HMok": [
+        0,
+        1
+      ],
+      "C-R": [
+        2,
+        3
+      ],
+      "C-B": [
+        2,
+        3
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "HM": "hum"
+      },
+      "1": {
+        "l": "layered",
+        "w": "wavering",
+        "s": "silent",
+        "p": "pulsing",
+        "h": "hollow or thin",
+        "r": "rumble",
+        "b": "buzz",
+        "q": "quiet or whisper",
+        "m": "muffled",
+        "c": "clicking",
+        "2": "2-tone split",
+        "1": "high whine",
+        "ok": "normal"
+      },
+      "2": {
+        "C-": "color"
+      },
+      "3": {
+        "R": "red",
+        "B": "blue"
+      }
+    },
+    "meaning_by_symbol": {
+      "AC": "Alignment Collapse",
+      "DE": "Drift Escalation",
+      "ES": "Echo Sat",
+      "LI": "Leak Instab",
+      "LO": "Low Intensity",
+      "HI": "High Intensity",
+      "PI": "Phase Inv",
+      "RC": "Resonance Casc",
+      "CD": "Corner Deadlock",
+      "BS": "Boundary Softening",
+      "PS": "Propagation Stall",
+      "HS": "Harmonic Split",
+      "TB": "Thermal Bleed",
+      "CV": "Core Void",
+      "BR": "brightness",
+      "DM": "dim",
+      "FL": "flicker",
+      "HMl": "layered hum",
+      "HMw": "wavering hum",
+      "HMs": "silent hum",
+      "HMp": "pulsing hum",
+      "HOT": "hot",
+      "COLD": "cold",
+      "SH": "motion or shaking",
+      "C-R": "color red",
+      "C-B": "color blue",
+      "L": "left face",
+      "R": "right face",
+      "F": "front face",
+      "K": "back face",
+      "T": "top face",
+      "B": "bottom face",
+      "opp": "opposite face",
+      "all": "all 6 faces, in order L, F, R, K, T, B unless a start face is given",
+      "bl": "bell",
+      "st": "stone",
+      "cl": "cloth",
+      "fn": "fan",
+      "lp": "lamp",
+      "bd": "board",
+      "sf": "soft surface, specifically the cool cloth folded to serve as a soft surface",
+      "tn": "tone, using the voice",
+      "drape": "drape",
+      "fan": "fan",
+      "chime": "chime",
+      "warm": "warm",
+      "sound": "sound",
+      "illum": "illuminate",
+      "rest": "rest",
+      "rotate": "rotate",
+      "place": "place",
+      "HMh": "hollow or thin hum",
+      "HMr": "rumble hum",
+      "HMb": "buzz hum",
+      "HMq": "quiet or whisper hum",
+      "HMm": "muffled hum",
+      "HMc": "clicking hum",
+      "HM2": "2-tone split hum",
+      "HM1": "high whine hum",
+      "HMok": "normal hum",
+      "near": "approximately a hand's width away from the named face",
+      "sim": "simultaneously",
+      "+": "combine different tools acting at the same time",
+      "AND": "when targeting multiple specific faces with one action, name each face explicitly with AND"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1778883170",
+    "n_codes": 64,
+    "n_multimorpheme": 15,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "stem",
+        "label": "Hum base",
+        "fillers": [
+          {
+            "form": "HM",
+            "gloss": "hum",
+            "count": 13
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.8666666666666667,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "suffix",
+        "label": "Hum quality/type",
+        "fillers": [
+          {
+            "form": "1",
+            "gloss": "high whine",
+            "count": 1
+          },
+          {
+            "form": "2",
+            "gloss": "2-tone split",
+            "count": 1
+          },
+          {
+            "form": "b",
+            "gloss": "buzz",
+            "count": 1
+          },
+          {
+            "form": "c",
+            "gloss": "clicking",
+            "count": 1
+          },
+          {
+            "form": "h",
+            "gloss": "hollow or thin",
+            "count": 1
+          },
+          {
+            "form": "l",
+            "gloss": "layered",
+            "count": 1
+          },
+          {
+            "form": "m",
+            "gloss": "muffled",
+            "count": 1
+          },
+          {
+            "form": "ok",
+            "gloss": "normal",
+            "count": 1
+          },
+          {
+            "form": "p",
+            "gloss": "pulsing",
+            "count": 1
+          },
+          {
+            "form": "q",
+            "gloss": "quiet or whisper",
+            "count": 1
+          },
+          {
+            "form": "r",
+            "gloss": "rumble",
+            "count": 1
+          },
+          {
+            "form": "s",
+            "gloss": "silent",
+            "count": 1
+          },
+          {
+            "form": "w",
+            "gloss": "wavering",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 13,
+        "obligatoriness": 0.8666666666666667,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos2",
+        "role": "stem",
+        "label": "Color base",
+        "fillers": [
+          {
+            "form": "C-",
+            "gloss": "color",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.13333333333333333,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos3",
+        "role": "suffix",
+        "label": "Color value",
+        "fillers": [
+          {
+            "form": "B",
+            "gloss": "blue",
+            "count": 1
+          },
+          {
+            "form": "R",
+            "gloss": "red",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.13333333333333333,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 13,
+        "possible_combos": 13,
+        "saturation": 1.0
+      },
+      {
+        "slot_a": "pos2",
+        "slot_b": "pos3",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ],
+      [
+        "pos2",
+        "pos3"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "HMl": [
+        "pos0",
+        "pos1"
+      ],
+      "HMw": [
+        "pos0",
+        "pos1"
+      ],
+      "HMs": [
+        "pos0",
+        "pos1"
+      ],
+      "HMp": [
+        "pos0",
+        "pos1"
+      ],
+      "HMh": [
+        "pos0",
+        "pos1"
+      ],
+      "HMr": [
+        "pos0",
+        "pos1"
+      ],
+      "HMb": [
+        "pos0",
+        "pos1"
+      ],
+      "HMq": [
+        "pos0",
+        "pos1"
+      ],
+      "HMm": [
+        "pos0",
+        "pos1"
+      ],
+      "HMc": [
+        "pos0",
+        "pos1"
+      ],
+      "HM2": [
+        "pos0",
+        "pos1"
+      ],
+      "HM1": [
+        "pos0",
+        "pos1"
+      ],
+      "HMok": [
+        "pos0",
+        "pos1"
+      ],
+      "C-R": [
+        "pos2",
+        "pos3"
+      ],
+      "C-B": [
+        "pos2",
+        "pos3"
+      ]
+    },
+    "construction_by_symbol": {
+      "HMl": "CX_HUM_DESC",
+      "HMw": "CX_HUM_DESC",
+      "HMs": "CX_HUM_DESC",
+      "HMp": "CX_HUM_DESC",
+      "HMh": "CX_HUM_DESC",
+      "HMr": "CX_HUM_DESC",
+      "HMb": "CX_HUM_DESC",
+      "HMq": "CX_HUM_DESC",
+      "HMm": "CX_HUM_DESC",
+      "HMc": "CX_HUM_DESC",
+      "HM2": "CX_HUM_DESC",
+      "HM1": "CX_HUM_DESC",
+      "HMok": "CX_HUM_DESC",
+      "C-R": "CX_COLOR",
+      "C-B": "CX_COLOR"
+    },
+    "construction_labels": {
+      "CX_HUM_DESC": "Hum description",
+      "CX_COLOR": "Color expression"
+    },
+    "construction_templates": {
+      "CX_HUM_DESC": [
+        "pos0",
+        "pos1"
+      ],
+      "CX_COLOR": [
+        "pos2",
+        "pos3"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "Two defensible compositional families survive. First, HMl/HMw/HMs/HMp/HMh/HMr/HMb/HMq/HMm/HMc/HM2/HM1/HMok form a tight minimal-pair paradigm: the constant initial HM contributes 'hum' and the alternating residues contribute stable hum qualities/types ('layered', 'wavering', 'silent', etc.), so each whole meaning is compositionally predictable. Second, C-R/C-B form a smaller but still valid contrastive frame: C- contributes 'color' and the alternating fillers contribute 'red' vs 'blue'. All other symbols lack evidence for productive substitution in a shared frame, or fail the opaque-index test, so they remain lexical.",
+    "lexical_symbols": [
+      "AC",
+      "DE",
+      "ES",
+      "LI",
+      "LO",
+      "HI",
+      "PI",
+      "RC",
+      "CD",
+      "BS",
+      "PS",
+      "HS",
+      "TB",
+      "CV",
+      "BR",
+      "DM",
+      "FL",
+      "HOT",
+      "COLD",
+      "SH",
+      "L",
+      "R",
+      "F",
+      "K",
+      "T",
+      "B",
+      "opp",
+      "all",
+      "bl",
+      "st",
+      "cl",
+      "fn",
+      "lp",
+      "bd",
+      "sf",
+      "tn",
+      "drape",
+      "fan",
+      "chime",
+      "warm",
+      "sound",
+      "illum",
+      "rest",
+      "rotate",
+      "place",
+      "near",
+      "sim",
+      "+",
+      "AND"
+    ],
+    "classes": [
+      {
+        "class_id": "CLS_HUM_BASE",
+        "label": "Hum base",
+        "description": "Fixed hum-denoting base in the hum-description construction.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CLS_HUM_QUALITY",
+        "label": "Hum quality/type",
+        "description": "Contrasting descriptors of the hum.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CLS_COLOR_BASE",
+        "label": "Color base",
+        "description": "Fixed color-denoting base in the color construction.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CLS_COLOR_VALUE",
+        "label": "Color value",
+        "description": "Contrasting color values in the color construction.",
+        "repeatable": false,
+        "declared_fillers": []
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "CX_HUM_DESC",
+        "label": "Hum description",
+        "description": "A hum base followed by a hum quality/type marker.",
+        "class_sequence": [
+          "CLS_HUM_BASE",
+          "CLS_HUM_QUALITY"
+        ]
+      },
+      {
+        "construction_id": "CX_COLOR",
+        "label": "Color expression",
+        "description": "A color base followed by a color-value marker.",
+        "class_sequence": [
+          "CLS_COLOR_BASE",
+          "CLS_COLOR_VALUE"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "HMl",
+        "construction_id": "CX_HUM_DESC",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "HM",
+            "class_id": "CLS_HUM_BASE",
+            "gloss": "hum"
+          },
+          {
+            "form": "l",
+            "class_id": "CLS_HUM_QUALITY",
+            "gloss": "layered"
+          }
+        ]
+      },
+      {
+        "symbol": "HMw",
+        "construction_id": "CX_HUM_DESC",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "HM",
+            "class_id": "CLS_HUM_BASE",
+            "gloss": "hum"
+          },
+          {
+            "form": "w",
+            "class_id": "CLS_HUM_QUALITY",
+            "gloss": "wavering"
+          }
+        ]
+      },
+      {
+        "symbol": "HMs",
+        "construction_id": "CX_HUM_DESC",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "HM",
+            "class_id": "CLS_HUM_BASE",
+            "gloss": "hum"
+          },
+          {
+            "form": "s",
+            "class_id": "CLS_HUM_QUALITY",
+            "gloss": "silent"
+          }
+        ]
+      },
+      {
+        "symbol": "HMp",
+        "construction_id": "CX_HUM_DESC",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "HM",
+            "class_id": "CLS_HUM_BASE",
+            "gloss": "hum"
+          },
+          {
+            "form": "p",
+            "class_id": "CLS_HUM_QUALITY",
+            "gloss": "pulsing"
+          }
+        ]
+      },
+      {
+        "symbol": "HMh",
+        "construction_id": "CX_HUM_DESC",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "HM",
+            "class_id": "CLS_HUM_BASE",
+            "gloss": "hum"
+          },
+          {
+            "form": "h",
+            "class_id": "CLS_HUM_QUALITY",
+            "gloss": "hollow or thin"
+          }
+        ]
+      },
+      {
+        "symbol": "HMr",
+        "construction_id": "CX_HUM_DESC",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "HM",
+            "class_id": "CLS_HUM_BASE",
+            "gloss": "hum"
+          },
+          {
+            "form": "r",
+            "class_id": "CLS_HUM_QUALITY",
+            "gloss": "rumble"
+          }
+        ]
+      },
+      {
+        "symbol": "HMb",
+        "construction_id": "CX_HUM_DESC",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "HM",
+            "class_id": "CLS_HUM_BASE",
+            "gloss": "hum"
+          },
+          {
+            "form": "b",
+            "class_id": "CLS_HUM_QUALITY",
+            "gloss": "buzz"
+          }
+        ]
+      },
+      {
+        "symbol": "HMq",
+        "construction_id": "CX_HUM_DESC",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "HM",
+            "class_id": "CLS_HUM_BASE",
+            "gloss": "hum"
+          },
+          {
+            "form": "q",
+            "class_id": "CLS_HUM_QUALITY",
+            "gloss": "quiet or whisper"
+          }
+        ]
+      },
+      {
+        "symbol": "HMm",
+        "construction_id": "CX_HUM_DESC",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "HM",
+            "class_id": "CLS_HUM_BASE",
+            "gloss": "hum"
+          },
+          {
+            "form": "m",
+            "class_id": "CLS_HUM_QUALITY",
+            "gloss": "muffled"
+          }
+        ]
+      },
+      {
+        "symbol": "HMc",
+        "construction_id": "CX_HUM_DESC",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "HM",
+            "class_id": "CLS_HUM_BASE",
+            "gloss": "hum"
+          },
+          {
+            "form": "c",
+            "class_id": "CLS_HUM_QUALITY",
+            "gloss": "clicking"
+          }
+        ]
+      },
+      {
+        "symbol": "HM2",
+        "construction_id": "CX_HUM_DESC",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "HM",
+            "class_id": "CLS_HUM_BASE",
+            "gloss": "hum"
+          },
+          {
+            "form": "2",
+            "class_id": "CLS_HUM_QUALITY",
+            "gloss": "2-tone split"
+          }
+        ]
+      },
+      {
+        "symbol": "HM1",
+        "construction_id": "CX_HUM_DESC",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "HM",
+            "class_id": "CLS_HUM_BASE",
+            "gloss": "hum"
+          },
+          {
+            "form": "1",
+            "class_id": "CLS_HUM_QUALITY",
+            "gloss": "high whine"
+          }
+        ]
+      },
+      {
+        "symbol": "HMok",
+        "construction_id": "CX_HUM_DESC",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "HM",
+            "class_id": "CLS_HUM_BASE",
+            "gloss": "hum"
+          },
+          {
+            "form": "ok",
+            "class_id": "CLS_HUM_QUALITY",
+            "gloss": "normal"
+          }
+        ]
+      },
+      {
+        "symbol": "C-R",
+        "construction_id": "CX_COLOR",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "C-",
+            "class_id": "CLS_COLOR_BASE",
+            "gloss": "color"
+          },
+          {
+            "form": "R",
+            "class_id": "CLS_COLOR_VALUE",
+            "gloss": "red"
+          }
+        ]
+      },
+      {
+        "symbol": "C-B",
+        "construction_id": "CX_COLOR",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "C-",
+            "class_id": "CLS_COLOR_BASE",
+            "gloss": "color"
+          },
+          {
+            "form": "B",
+            "class_id": "CLS_COLOR_VALUE",
+            "gloss": "blue"
+          }
+        ]
+      }
+    ]
+  }
+}

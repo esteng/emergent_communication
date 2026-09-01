@@ -1,0 +1,70 @@
+{
+  "per_slot": {
+    "pos0": [
+      [
+        "Bk",
+        "back face"
+      ],
+      [
+        "Bot",
+        "bottom face"
+      ],
+      [
+        "F",
+        "front face"
+      ],
+      [
+        "L",
+        "left face"
+      ],
+      [
+        "R",
+        "right face"
+      ],
+      [
+        "T",
+        "top face"
+      ]
+    ],
+    "pos1": [
+      [
+        "blaze",
+        "extremely bright"
+      ],
+      [
+        "flash",
+        "flashing light"
+      ],
+      [
+        "flicker",
+        "flickering light or faces"
+      ],
+      [
+        "shimmer",
+        "shimmering light"
+      ],
+      [
+        "washed",
+        "washed out"
+      ]
+    ]
+  },
+  "stackable": [
+    [
+      "g",
+      "gentle intensity"
+    ],
+    [
+      "lo",
+      "low intensity; light touch or soft sound"
+    ],
+    [
+      "mod",
+      "moderate intensity; normal touch or normal sound"
+    ],
+    [
+      "hi",
+      "high intensity; firm touch or loud sound"
+    ]
+  ]
+}

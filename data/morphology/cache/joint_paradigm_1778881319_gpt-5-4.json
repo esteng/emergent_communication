@@ -1,0 +1,617 @@
+{
+  "grammar": {
+    "run_key": "veyru/1778881319",
+    "slots": [
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "x",
+            "gloss": "repeat",
+            "support": 2,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "suffix",
+        "fillers": [
+          {
+            "form": "3",
+            "gloss": "three times",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "5",
+            "gloss": "five times",
+            "support": 1,
+            "is_defined": false
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "drift": [
+        "drift"
+      ],
+      "echo": [
+        "echo"
+      ],
+      "leak": [
+        "leak"
+      ],
+      "resonance": [
+        "resonance"
+      ],
+      "bl": [
+        "bl"
+      ],
+      "st": [
+        "st"
+      ],
+      "fn": [
+        "fn"
+      ],
+      "cl": [
+        "cl"
+      ],
+      "bd": [
+        "bd"
+      ],
+      "lm": [
+        "lm"
+      ],
+      "T": [
+        "T"
+      ],
+      "B": [
+        "B"
+      ],
+      "N": [
+        "N"
+      ],
+      "S": [
+        "S"
+      ],
+      "E": [
+        "E"
+      ],
+      "W": [
+        "W"
+      ],
+      "all": [
+        "all"
+      ],
+      "g": [
+        "g"
+      ],
+      "m": [
+        "m"
+      ],
+      "s": [
+        "s"
+      ],
+      "face?": [
+        "face?"
+      ],
+      "dur?": [
+        "dur?"
+      ],
+      ";": [
+        ";"
+      ],
+      "L": [
+        "L"
+      ],
+      "R": [
+        "R"
+      ],
+      "F": [
+        "F"
+      ],
+      "K": [
+        "K"
+      ],
+      "f": [
+        "f"
+      ],
+      "opp": [
+        "opp"
+      ],
+      "adj": [
+        "adj"
+      ],
+      "ctr": [
+        "ctr"
+      ],
+      "crn": [
+        "crn"
+      ],
+      "edg": [
+        "edg"
+      ],
+      "x3": [
+        "x",
+        "3"
+      ],
+      "x5": [
+        "x",
+        "5"
+      ],
+      "on": [
+        "on"
+      ],
+      "by": [
+        "by"
+      ],
+      "@": [
+        "@"
+      ],
+      "over": [
+        "over"
+      ],
+      "alt": [
+        "alt"
+      ],
+      "from": [
+        "from"
+      ],
+      "Stall": [
+        "Stall"
+      ],
+      "cool": [
+        "cool"
+      ],
+      "fold": [
+        "fold"
+      ],
+      "warm": [
+        "warm"
+      ],
+      "dim": [
+        "dim"
+      ],
+      "bright": [
+        "bright"
+      ],
+      "flat": [
+        "flat"
+      ],
+      "remove": [
+        "remove"
+      ],
+      "tone": [
+        "tone"
+      ],
+      "hum": [
+        "hum"
+      ],
+      "Void": [
+        "Void"
+      ],
+      "Deadlock": [
+        "Deadlock"
+      ],
+      "Thermal": [
+        "Thermal"
+      ],
+      "Boundary": [
+        "Boundary"
+      ],
+      "Phase": [
+        "Phase"
+      ],
+      "Align": [
+        "Align"
+      ],
+      "LowI": [
+        "LowI"
+      ],
+      "HighI": [
+        "HighI"
+      ],
+      "Split": [
+        "Split"
+      ],
+      "simul": [
+        "simul"
+      ],
+      "seq": [
+        "seq"
+      ],
+      "ea": [
+        "ea"
+      ],
+      "tot": [
+        "tot"
+      ],
+      "→": [
+        "→"
+      ]
+    },
+    "head_index": {
+      "drift": 0,
+      "echo": 0,
+      "leak": 0,
+      "resonance": 0,
+      "bl": 0,
+      "st": 0,
+      "fn": 0,
+      "cl": 0,
+      "bd": 0,
+      "lm": 0,
+      "T": 0,
+      "B": 0,
+      "N": 0,
+      "S": 0,
+      "E": 0,
+      "W": 0,
+      "all": 0,
+      "g": 0,
+      "m": 0,
+      "s": 0,
+      "face?": 0,
+      "dur?": 0,
+      ";": 0,
+      "L": 0,
+      "R": 0,
+      "F": 0,
+      "K": 0,
+      "f": 0,
+      "opp": 0,
+      "adj": 0,
+      "ctr": 0,
+      "crn": 0,
+      "edg": 0,
+      "x3": 0,
+      "x5": 0,
+      "on": 0,
+      "by": 0,
+      "@": 0,
+      "over": 0,
+      "alt": 0,
+      "from": 0,
+      "Stall": 0,
+      "cool": 0,
+      "fold": 0,
+      "warm": 0,
+      "dim": 0,
+      "bright": 0,
+      "flat": 0,
+      "remove": 0,
+      "tone": 0,
+      "hum": 0,
+      "Void": 0,
+      "Deadlock": 0,
+      "Thermal": 0,
+      "Boundary": 0,
+      "Phase": 0,
+      "Align": 0,
+      "LowI": 0,
+      "HighI": 0,
+      "Split": 0,
+      "simul": 0,
+      "seq": 0,
+      "ea": 0,
+      "tot": 0,
+      "→": 0
+    },
+    "attested_orderings": [
+      [
+        "stem",
+        "suffix"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [],
+    "form_positions": {
+      "x": 0,
+      "3": 1,
+      "5": 1
+    },
+    "position_labels": {
+      "0": "REPEAT_OPERATOR",
+      "1": "REPEAT_COUNT"
+    },
+    "positions_by_symbol": {
+      "x3": [
+        0,
+        1
+      ],
+      "x5": [
+        0,
+        1
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "x": "repeat"
+      },
+      "1": {
+        "3": "three times",
+        "5": "five times"
+      }
+    },
+    "meaning_by_symbol": {
+      "drift": "drifting colors, blurred edges, wavering pitch",
+      "echo": "too bright, layered hum, frozen patterns",
+      "leak": "dim corners, faint edges",
+      "resonance": "one face very bright and a whine",
+      "bl": "bell",
+      "st": "stone",
+      "fn": "fan",
+      "cl": "cloth; when used alone later, plain cloth at room temperature",
+      "bd": "board",
+      "lm": "lamp",
+      "T": "top face",
+      "B": "bottom face",
+      "N": "north face",
+      "S": "south face",
+      "E": "east face",
+      "W": "west face",
+      "all": "all faces",
+      "g": "gentle intensity",
+      "m": "moderate intensity",
+      "s": "strong intensity",
+      "face?": "which face?",
+      "dur?": "what duration?",
+      ";": "separator between chained procedure steps",
+      "L": "left face",
+      "R": "right face",
+      "F": "front face",
+      "K": "back face",
+      "f": "firm intensity",
+      "opp": "opposite face or opposite faces",
+      "adj": "adjacent face or adjacent faces",
+      "ctr": "center",
+      "crn": "corners",
+      "edg": "edges",
+      "x3": "repeat three times",
+      "x5": "repeat five times",
+      "on": "touching or pressed on",
+      "by": "beside or near, with no contact",
+      "@": "bell strike at",
+      "over": "cloth drape covering",
+      "alt": "alternate between the specified faces",
+      "from": "starting from the specified face; start there without implying a full fixed order unless one is explicitly given",
+      "Stall": "propagation stall: frozen, dim, silent, cold",
+      "cool": "cool variant; for fan, cool air; for cloth, cool cloth",
+      "fold": "folded variant, as in folded cloth",
+      "warm": "warm variant, as in warm stone or warm cloth",
+      "dim": "dim variant, as in dim lamp",
+      "bright": "bright variant, as in bright lamp",
+      "flat": "flat variant, as in flat board",
+      "remove": "remove the previously applied cloth before the next step",
+      "tone": "a sustained vocal or whistled note made by humming or voice, not a bell",
+      "hum": "a sustained vocal or whistled note made by humming or voice, not a bell",
+      "Void": "core void: normal surface but dark center, hollow tap",
+      "Deadlock": "corner deadlock: 1-2 corners bright, clicking, hot",
+      "Thermal": "thermal bleed: hot all over but dim, red tint, rumble",
+      "Boundary": "boundary soft: edges wobble, faces bulge, muffled hum",
+      "Phase": "phase inversion: opposite faces pulse alternating",
+      "Align": "alignment collapse: flicker patches, broken hum",
+      "LowI": "low intensity: dim overall, faint hum",
+      "HighI": "high intensity: blazing white, harsh buzz, hot",
+      "Split": "harmonic split: two clashing tones, alternating patterns",
+      "simul": "simultaneously; all at once for the stated total time",
+      "seq": "sequentially",
+      "ea": "each unit or each face/pair gets the stated duration",
+      "tot": "total time across all specified faces or targets, not each separately",
+      "→": "explicit required order from one face to the next"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1778881319",
+    "n_codes": 65,
+    "n_multimorpheme": 2,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "stem",
+        "label": "REPEAT_OPERATOR",
+        "fillers": [
+          {
+            "form": "x",
+            "gloss": "repeat",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "suffix",
+        "label": "REPEAT_COUNT",
+        "fillers": [
+          {
+            "form": "3",
+            "gloss": "three times",
+            "count": 1
+          },
+          {
+            "form": "5",
+            "gloss": "five times",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "x3": [
+        "pos0",
+        "pos1"
+      ],
+      "x5": [
+        "pos0",
+        "pos1"
+      ]
+    },
+    "construction_by_symbol": {
+      "x3": "K1",
+      "x5": "K1"
+    },
+    "construction_labels": {
+      "K1": "repeat-count"
+    },
+    "construction_templates": {
+      "K1": [
+        "pos0",
+        "pos1"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "Most symbols are best treated as opaque lexical items or standalone key labels. The candidate surface families ('ll', 're', 'al', 'to') do not show coherent compositional contrasts in shared frames, so they are rejected. One defensible paradigm survives: x3 and x5 form a minimal pair with stable compositional meaning 'repeat' + literal count. No other multi-symbol constructions are evidenced by the supplied codebook.",
+    "lexical_symbols": [
+      "drift",
+      "echo",
+      "leak",
+      "resonance",
+      "bl",
+      "st",
+      "fn",
+      "cl",
+      "bd",
+      "lm",
+      "T",
+      "B",
+      "N",
+      "S",
+      "E",
+      "W",
+      "all",
+      "g",
+      "m",
+      "s",
+      "face?",
+      "dur?",
+      ";",
+      "L",
+      "R",
+      "F",
+      "K",
+      "f",
+      "opp",
+      "adj",
+      "ctr",
+      "crn",
+      "edg",
+      "on",
+      "by",
+      "@",
+      "over",
+      "alt",
+      "from",
+      "Stall",
+      "cool",
+      "fold",
+      "warm",
+      "dim",
+      "bright",
+      "flat",
+      "remove",
+      "tone",
+      "hum",
+      "Void",
+      "Deadlock",
+      "Thermal",
+      "Boundary",
+      "Phase",
+      "Align",
+      "LowI",
+      "HighI",
+      "Split",
+      "simul",
+      "seq",
+      "ea",
+      "tot",
+      "→"
+    ],
+    "classes": [
+      {
+        "class_id": "C1",
+        "label": "REPEAT_OPERATOR",
+        "description": "Operator indicating repetition.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "C2",
+        "label": "REPEAT_COUNT",
+        "description": "Literal repetition count following the repeat operator.",
+        "repeatable": false,
+        "declared_fillers": []
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "K1",
+        "label": "repeat-count",
+        "description": "A repetition operator followed by a literal count.",
+        "class_sequence": [
+          "C1",
+          "C2"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "x3",
+        "construction_id": "K1",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "x",
+            "class_id": "C1",
+            "gloss": "repeat"
+          },
+          {
+            "form": "3",
+            "class_id": "C2",
+            "gloss": "three times"
+          }
+        ]
+      },
+      {
+        "symbol": "x5",
+        "construction_id": "K1",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "x",
+            "class_id": "C1",
+            "gloss": "repeat"
+          },
+          {
+            "form": "5",
+            "class_id": "C2",
+            "gloss": "five times"
+          }
+        ]
+      }
+    ]
+  }
+}

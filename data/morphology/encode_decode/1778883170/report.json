@@ -1,0 +1,135 @@
+{
+  "run_key": "veyru/1778883170",
+  "status": "analyzed",
+  "n_codes": 64,
+  "n_multimorpheme": 15,
+  "report": {
+    "encoder_agent": "stabilization_engineer",
+    "decoder_agent": "field_observer",
+    "encoder_model": "claude-opus-4-7",
+    "decoder_model": "claude-opus-4-7",
+    "context_budget": 800,
+    "n_cells": 87,
+    "exact_match_rate": 0.2413793103448276,
+    "swapped_order_rate": 0.0,
+    "bag_match_rate": 0.2413793103448276,
+    "decode_rate": 0.6724137931034483,
+    "decoder_valid_rate": 0.367816091954023,
+    "decode_negative_control_rate": 0.75,
+    "decode_positive_control_rate": 1.0,
+    "per_role": [
+      {
+        "slot_id": "CX_COLOR",
+        "slot_label": "Color expression",
+        "n": 2,
+        "exact_match_rate": 1.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 1.0,
+        "decode_rate": 1.0
+      },
+      {
+        "slot_id": "CX_HUM_DESC",
+        "slot_label": "Hum description",
+        "n": 85,
+        "exact_match_rate": 0.2235294117647059,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.2235294117647059,
+        "decode_rate": 0.6647058823529411
+      }
+    ],
+    "per_depth": [
+      {
+        "length": 2,
+        "n": 87,
+        "exact_match_rate": 0.2413793103448276,
+        "decode_rate": 0.6724137931034483
+      }
+    ],
+    "per_purpose": [
+      {
+        "purpose": "grounded_control",
+        "n": 15,
+        "exact_match_rate": 1.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 1.0,
+        "decode_rate": 1.0
+      },
+      {
+        "purpose": "grounded_novel_role_pooled",
+        "n": 72,
+        "exact_match_rate": 0.08333333333333333,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.08333333333333333,
+        "decode_rate": 0.6041666666666666
+      }
+    ],
+    "per_construction": [
+      {
+        "construction_id": "CX_COLOR",
+        "n": 2,
+        "n_control": 2,
+        "n_novel": 0,
+        "exact_match_rate": 1.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 1.0,
+        "decode_rate": 1.0,
+        "novel_exact_match_rate": 0.0,
+        "novel_decode_rate": 0.0
+      },
+      {
+        "construction_id": "CX_HUM_DESC",
+        "n": 85,
+        "n_control": 13,
+        "n_novel": 72,
+        "exact_match_rate": 0.2235294117647059,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.2235294117647059,
+        "decode_rate": 0.6647058823529411,
+        "novel_exact_match_rate": 0.08333333333333333,
+        "novel_decode_rate": 0.6041666666666666
+      }
+    ],
+    "per_slot_generalization": [
+      {
+        "slot_id": "pos0",
+        "slot_label": "Hum base",
+        "slot_role": "stem",
+        "pooled": false,
+        "n": 4,
+        "valid_rate": 0.5,
+        "exact_match_rate": 0.0,
+        "decode_rate": 0.5
+      },
+      {
+        "slot_id": "pos0",
+        "slot_label": "Hum base",
+        "slot_role": "stem",
+        "pooled": true,
+        "n": 68,
+        "valid_rate": 0.22058823529411764,
+        "exact_match_rate": 0.08823529411764706,
+        "decode_rate": 0.6102941176470589
+      },
+      {
+        "slot_id": "pos1",
+        "slot_label": "Hum quality/type",
+        "slot_role": "suffix",
+        "pooled": false,
+        "n": 52,
+        "valid_rate": 0.25,
+        "exact_match_rate": 0.0,
+        "decode_rate": 0.6153846153846154
+      },
+      {
+        "slot_id": "pos1",
+        "slot_label": "Hum quality/type",
+        "slot_role": "suffix",
+        "pooled": true,
+        "n": 20,
+        "valid_rate": 0.2,
+        "exact_match_rate": 0.3,
+        "decode_rate": 0.575
+      }
+    ]
+  }
+}

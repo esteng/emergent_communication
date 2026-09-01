@@ -1,0 +1,203 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780443972",
+    "slots": [],
+    "segmentation": {
+      "C": [
+        "C"
+      ],
+      "S": [
+        "S"
+      ],
+      "B": [
+        "B"
+      ],
+      "F": [
+        "F"
+      ],
+      "L": [
+        "L"
+      ],
+      "P": [
+        "P"
+      ],
+      "R": [
+        "R"
+      ],
+      "T": [
+        "T"
+      ],
+      "Bo": [
+        "Bo"
+      ],
+      "Fr": [
+        "Fr"
+      ],
+      "Bk": [
+        "Bk"
+      ],
+      "g": [
+        "g"
+      ],
+      "m": [
+        "m"
+      ],
+      "f": [
+        "f"
+      ],
+      "opp": [
+        "opp"
+      ],
+      "ea": [
+        "ea"
+      ],
+      "ctr": [
+        "ctr"
+      ],
+      "cor": [
+        "cor"
+      ],
+      "cors": [
+        "cors"
+      ],
+      "adj": [
+        "adj"
+      ],
+      "trace": [
+        "trace"
+      ],
+      "all6": [
+        "all6"
+      ],
+      "vib": [
+        "vib"
+      ],
+      "CornerProc": [
+        "CornerProc"
+      ],
+      "RotateProc": [
+        "RotateProc"
+      ],
+      "Scors": [
+        "Scors"
+      ],
+      "Bctr": [
+        "Bctr"
+      ]
+    },
+    "head_index": {
+      "C": 0,
+      "S": 0,
+      "B": 0,
+      "F": 0,
+      "L": 0,
+      "P": 0,
+      "R": 0,
+      "T": 0,
+      "Bo": 0,
+      "Fr": 0,
+      "Bk": 0,
+      "g": 0,
+      "m": 0,
+      "f": 0,
+      "opp": 0,
+      "ea": 0,
+      "ctr": 0,
+      "cor": 0,
+      "cors": 0,
+      "adj": 0,
+      "trace": 0,
+      "all6": 0,
+      "vib": 0,
+      "CornerProc": 0,
+      "RotateProc": 0,
+      "Scors": 0,
+      "Bctr": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "C": "cloth; drape the cloth over the entire device at once, covering all faces simultaneously when used as a tool instruction",
+      "S": "stone; place the stone beside the named face, not on top; when used with each face, move the stone to each face one at a time",
+      "B": "bell; chime the bell near the named location, not touching the device",
+      "F": "fan; wave air at the named faces simultaneously, not sequentially",
+      "L": "left face",
+      "P": "board; rest the board flat against the named face",
+      "R": "rotate the device slowly and steadily",
+      "T": "tone; sound a steady tone",
+      "Bo": "bottom face",
+      "Fr": "front face",
+      "Bk": "back face",
+      "g": "gentle intensity",
+      "m": "moderate intensity",
+      "f": "firm intensity",
+      "opp": "the face directly opposite the named face",
+      "ea": "each; apply in turn to each item in the set",
+      "ctr": "center of a face",
+      "cor": "corner",
+      "cors": "corners",
+      "adj": "adjacent to or bordering the named face; for cloth on adjacent edges, the two edges that border the named face",
+      "trace": "after the stone step, run a fingertip along each edge of the named face; for face tracing, trace only the four edges of that named face, not all twelve edges of the device",
+      "all6": "all six faces",
+      "vib": "vibration",
+      "CornerProc": "for each corner of the named face, chime the bell, then place the stone on both edges meeting at that corner, hold for the specified duration, gentle",
+      "RotateProc": "rotate slowly for the specified duration while holding a tone at the named face and its opposite face simultaneously, then bell once at each corner",
+      "Scors": "place the stone near each of the four corners of the named face, one corner at a time, for the specified duration per corner at the given intensity; the stone should be near the corner, not touching it",
+      "Bctr": "chime the bell near the center of a face"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780443972",
+    "n_codes": 27,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No multi-entry compositional paradigm is securely supported. Although some symbols contain apparent substrings also listed independently (e.g. Bctr vs B + ctr, Scors vs S + cors, CornerProc/RotateProc vs *Proc), the required paradigm evidence is missing. There is no stable substitution frame with contrasting fillers whose meaning contributions remain consistent across multiple whole codes. In particular: (1) 'Proc' does not contribute a predictable shared meaning across CornerProc and RotateProc; these are best treated as opaque procedure names. (2) 'ors' and 'tr' do not form validated suffix classes, because the residues do not participate in a coherent shared construction with predictable whole meanings. Scors adds duration/intensity/per-corner procedural content not recoverable from S + cors. (3) cor/cors are semantically related, but there is no productive frame showing a number-like alternation inside larger codes. Since false morphology is worse than a flat lexicon, all symbols are treated as lexical.",
+    "lexical_symbols": [
+      "C",
+      "S",
+      "B",
+      "F",
+      "L",
+      "P",
+      "R",
+      "T",
+      "Bo",
+      "Fr",
+      "Bk",
+      "g",
+      "m",
+      "f",
+      "opp",
+      "ea",
+      "ctr",
+      "cor",
+      "cors",
+      "adj",
+      "trace",
+      "all6",
+      "vib",
+      "CornerProc",
+      "RotateProc",
+      "Scors",
+      "Bctr"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

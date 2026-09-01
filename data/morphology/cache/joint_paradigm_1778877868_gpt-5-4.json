@@ -1,0 +1,1477 @@
+{
+  "grammar": {
+    "run_key": "veyru/1778877868",
+    "slots": [
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "fan",
+            "gloss": "fan cool air",
+            "support": 3,
+            "is_defined": false
+          },
+          {
+            "form": "pr",
+            "gloss": "press stone against",
+            "support": 3,
+            "is_defined": false
+          },
+          {
+            "form": "tr",
+            "gloss": "trace with fingertip",
+            "support": 2,
+            "is_defined": false
+          },
+          {
+            "form": "wm",
+            "gloss": "hold heated stone near, not touching",
+            "support": 3,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "suffix",
+        "fillers": [
+          {
+            "form": "All",
+            "gloss": "all 6 faces",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "C",
+            "gloss": "corners",
+            "support": 3,
+            "is_defined": true
+          },
+          {
+            "form": "E",
+            "gloss": "edges",
+            "support": 3,
+            "is_defined": true
+          },
+          {
+            "form": "F",
+            "gloss": "face",
+            "support": 3,
+            "is_defined": true
+          },
+          {
+            "form": "Pair",
+            "gloss": "specified face and opposite face",
+            "support": 1,
+            "is_defined": false
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "align": [
+        "align"
+      ],
+      "drift": [
+        "drift"
+      ],
+      "echo": [
+        "echo"
+      ],
+      "leak": [
+        "leak"
+      ],
+      "lowI": [
+        "lowI"
+      ],
+      "hiI": [
+        "hiI"
+      ],
+      "phase": [
+        "phase"
+      ],
+      "reso": [
+        "reso"
+      ],
+      "cor": [
+        "cor"
+      ],
+      "bnd": [
+        "bnd"
+      ],
+      "prop": [
+        "prop"
+      ],
+      "harm": [
+        "harm"
+      ],
+      "therm": [
+        "therm"
+      ],
+      "void": [
+        "void"
+      ],
+      "B": [
+        "B"
+      ],
+      "S": [
+        "S"
+      ],
+      "C": [
+        "C"
+      ],
+      "P": [
+        "P"
+      ],
+      "L": [
+        "L"
+      ],
+      "F": [
+        "F"
+      ],
+      "T": [
+        "T"
+      ],
+      "H": [
+        "H"
+      ],
+      "Bo": [
+        "Bo"
+      ],
+      "N": [
+        "N"
+      ],
+      "E": [
+        "E"
+      ],
+      "W": [
+        "W"
+      ],
+      "Fr": [
+        "Fr"
+      ],
+      "Bk": [
+        "Bk"
+      ],
+      "R": [
+        "R"
+      ],
+      "opp": [
+        "opp"
+      ],
+      "all": [
+        "all"
+      ],
+      "FP": [
+        "FP"
+      ],
+      "Ns": [
+        "Ns"
+      ],
+      "xN": [
+        "xN"
+      ],
+      "p12": [
+        "p12"
+      ],
+      "gentle": [
+        "gentle"
+      ],
+      "mod": [
+        "mod"
+      ],
+      "firm": [
+        "firm"
+      ],
+      "!": [
+        "!"
+      ],
+      "x": [
+        "x"
+      ],
+      "/": [
+        "/"
+      ],
+      "?": [
+        "?"
+      ],
+      "*": [
+        "*"
+      ],
+      "wmC": [
+        "wm",
+        "C"
+      ],
+      "prC": [
+        "pr",
+        "C"
+      ],
+      "wmE": [
+        "wm",
+        "E"
+      ],
+      "prE": [
+        "pr",
+        "E"
+      ],
+      "wmF": [
+        "wm",
+        "F"
+      ],
+      "S:pl": [
+        "S:pl"
+      ],
+      "prF": [
+        "pr",
+        "F"
+      ],
+      "trE": [
+        "tr",
+        "E"
+      ],
+      "trC": [
+        "tr",
+        "C"
+      ],
+      "chC": [
+        "chC"
+      ],
+      "chE": [
+        "chE"
+      ],
+      "chF": [
+        "chF"
+      ],
+      "chF_all": [
+        "chF_all"
+      ],
+      "drF": [
+        "drF"
+      ],
+      "drE2": [
+        "drE2"
+      ],
+      "drAll": [
+        "drAll"
+      ],
+      "fanF": [
+        "fan",
+        "F"
+      ],
+      "fanAll": [
+        "fan",
+        "All"
+      ],
+      "fanPair": [
+        "fan",
+        "Pair"
+      ],
+      "shF": [
+        "shF"
+      ],
+      "shPair": [
+        "shPair"
+      ],
+      "restF": [
+        "restF"
+      ],
+      "tone6": [
+        "tone6"
+      ],
+      "rotTone": [
+        "rotTone"
+      ],
+      "soft": [
+        "soft"
+      ],
+      "chCwmE": [
+        "chCwmE"
+      ],
+      "+chCx1": [
+        "+chCx1"
+      ]
+    },
+    "head_index": {
+      "align": 0,
+      "drift": 0,
+      "echo": 0,
+      "leak": 0,
+      "lowI": 0,
+      "hiI": 0,
+      "phase": 0,
+      "reso": 0,
+      "cor": 0,
+      "bnd": 0,
+      "prop": 0,
+      "harm": 0,
+      "therm": 0,
+      "void": 0,
+      "B": 0,
+      "S": 0,
+      "C": 0,
+      "P": 0,
+      "L": 0,
+      "F": 0,
+      "T": 0,
+      "H": 0,
+      "Bo": 0,
+      "N": 0,
+      "E": 0,
+      "W": 0,
+      "Fr": 0,
+      "Bk": 0,
+      "R": 0,
+      "opp": 0,
+      "all": 0,
+      "FP": 0,
+      "Ns": 0,
+      "xN": 0,
+      "p12": 0,
+      "gentle": 0,
+      "mod": 0,
+      "firm": 0,
+      "!": 0,
+      "x": 0,
+      "/": 0,
+      "?": 0,
+      "*": 0,
+      "wmC": 0,
+      "prC": 0,
+      "wmE": 0,
+      "prE": 0,
+      "wmF": 0,
+      "S:pl": 0,
+      "prF": 0,
+      "trE": 0,
+      "trC": 0,
+      "chC": 0,
+      "chE": 0,
+      "chF": 0,
+      "chF_all": 0,
+      "drF": 0,
+      "drE2": 0,
+      "drAll": 0,
+      "fanF": 0,
+      "fanAll": 0,
+      "fanPair": 0,
+      "shF": 0,
+      "shPair": 0,
+      "restF": 0,
+      "tone6": 0,
+      "rotTone": 0,
+      "soft": 0,
+      "chCwmE": 0,
+      "+chCx1": 0
+    },
+    "attested_orderings": [
+      [
+        "stem",
+        "suffix"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [
+      {
+        "stem": "B",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "B+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "Bk",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "Bk+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "Bo",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "Bo+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "C",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "C+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "E",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "E+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "F",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "F+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "FP",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "FP+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "Fr",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "Fr+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "H",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "H+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "L",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "L+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "N",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "N+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "Ns",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "Ns+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "P",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "P+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "R",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "R+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "S",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "S+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "T",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "T+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "W",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "W+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "align",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "align+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "all",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "all+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "bnd",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "bnd+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "chC",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "chC+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "chCwmE",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "chCwmE+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "chE",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "chE+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "chF",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "chF+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "cor",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "cor+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "drAll",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "drAll+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "drE2",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "drE2+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "drF",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "drF+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "drift",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "drift+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "echo",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "echo+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "fanAll",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "fanAll+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "fanF",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "fanF+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "fanPair",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "fanPair+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "firm",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "firm+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "gentle",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "gentle+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "harm",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "harm+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "hiI",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "hiI+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "leak",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "leak+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "lowI",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "lowI+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "mod",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "mod+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "opp",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "opp+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "p12",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "p12+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "phase",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "phase+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "prC",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "prC+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "prE",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "prE+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "prF",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "prF+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "prop",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "prop+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "reso",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "reso+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "restF",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "restF+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "rotTone",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "rotTone+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "shF",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "shF+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "shPair",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "shPair+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "soft",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "soft+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "therm",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "therm+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "tone6",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "tone6+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "trC",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "trC+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "trE",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "trE+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "void",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "void+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "wmC",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "wmC+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "wmE",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "wmE+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "wmF",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "wmF+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "x",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "x+chCx1",
+        "delimiter": "+"
+      },
+      {
+        "stem": "xN",
+        "affix": "+chCx1",
+        "role": "suffix",
+        "form": "xN+chCx1",
+        "delimiter": "+"
+      }
+    ],
+    "form_positions": {
+      "wm": 0,
+      "pr": 0,
+      "tr": 0,
+      "C": 1,
+      "E": 1,
+      "F": 3,
+      "fan": 2,
+      "All": 3,
+      "Pair": 3
+    },
+    "position_labels": {
+      "0": "localized procedure action",
+      "1": "target locus on a face",
+      "2": "air application action",
+      "3": "air application scope"
+    },
+    "positions_by_symbol": {
+      "wmC": [
+        0,
+        1
+      ],
+      "wmE": [
+        0,
+        1
+      ],
+      "wmF": [
+        0,
+        1
+      ],
+      "prC": [
+        0,
+        1
+      ],
+      "prE": [
+        0,
+        1
+      ],
+      "prF": [
+        0,
+        1
+      ],
+      "trC": [
+        0,
+        1
+      ],
+      "trE": [
+        0,
+        1
+      ],
+      "fanF": [
+        2,
+        3
+      ],
+      "fanAll": [
+        2,
+        3
+      ],
+      "fanPair": [
+        2,
+        3
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "wm": "hold heated stone near, not touching",
+        "pr": "press stone against",
+        "tr": "trace with fingertip"
+      },
+      "1": {
+        "C": "corners",
+        "E": "edges",
+        "F": "face"
+      },
+      "2": {
+        "fan": "fan cool air"
+      },
+      "3": {
+        "F": "specified face",
+        "All": "all 6 faces",
+        "Pair": "specified face and opposite face"
+      }
+    },
+    "meaning_by_symbol": {
+      "align": "flicker random broken hum, Alignment Collapse",
+      "drift": "sliding blur wavering pitch, Drift Escalation",
+      "echo": "bright hard layered frozen, Echo Saturation",
+      "leak": "corners dim edges fading hollow, Leak Instability",
+      "lowI": "dim faint whisper washed, Low Intensity",
+      "hiI": "blazing bright hot loud buzz, High Intensity",
+      "phase": "opposite faces pulse alt, Phase Inversion",
+      "reso": "one face bright whine, Resonance Cascade",
+      "cor": "corner bright clicking hot, Corner Deadlock",
+      "bnd": "edges wobble bulge muffled, Boundary Soft",
+      "prop": "frozen dim silent cold, Propagation Stall",
+      "harm": "two clashing tones shimmer, Harmonic Split",
+      "therm": "hot dim rumble red, Thermal Bleed",
+      "void": "hollow tap dark center, Core Void",
+      "B": "bell",
+      "S": "stone, warm stone or heated stone",
+      "C": "cloth",
+      "P": "board, flat board",
+      "L": "left face",
+      "F": "fan, hand fan",
+      "T": "tone, voice or sustained vocal tone",
+      "H": "hand or finger",
+      "Bo": "bottom face",
+      "N": "north side face",
+      "E": "east side face",
+      "W": "west side face",
+      "Fr": "front face, facing me",
+      "Bk": "back face",
+      "R": "right face",
+      "opp": "opposite face or opposite pair",
+      "all": "all 6 faces",
+      "FP": "face-pair",
+      "Ns": "N seconds",
+      "xN": "N cycles or N repetitions",
+      "p12": "12 seconds pause",
+      "gentle": "gentle intensity",
+      "mod": "moderate intensity",
+      "firm": "firm intensity or firm contact pressure",
+      "!": "prefix meaning a new symptom has appeared mid-round",
+      "x": "ineffective, no symptom change",
+      "/": "prefix meaning an execution-fix delta, shorthand was right but the expansion was wrong",
+      "?": "prefix meaning a request for clarification about the bit that is not understood",
+      "*": "prefix meaning the following procedure is plain English and not in the shorthand table",
+      "wmC": "Hold heated stone NEAR, not touching, each corner of the specified face for N seconds at the specified intensity, in sequence",
+      "prC": "Press heated stone against each corner of the specified face for N seconds at the specified intensity, in sequence",
+      "wmE": "Hold heated stone NEAR, not touching, each edge of the specified face for N seconds at the specified intensity, in sequence",
+      "prE": "Press heated stone against each edge of the specified face for N seconds at the specified intensity, in sequence",
+      "wmF": "Place or hold a warm stone NEAR the specified face for N seconds at the specified intensity",
+      "S:pl": "Place warm stone beside the specified face for N seconds at the specified intensity",
+      "prF": "Press stone against the specified face for N seconds at the specified intensity",
+      "trE": "Trace each edge of the specified face with fingertip",
+      "trC": "Trace each corner of the specified face with fingertip",
+      "chC": "Chime bell once near each corner of the specified face at the specified tone intensity",
+      "chE": "Chime bell near each edge of the specified face the specified number of times at the specified tone intensity",
+      "chF": "Chime bell near center of the specified face once at the specified tone intensity",
+      "chF_all": "Chime bell near center of each face once at the specified tone intensity, starting from the specified face",
+      "drF": "Drape folded cloth over the specified face for N seconds at the specified coverage intensity",
+      "drE2": "Drape cloth over 2 adjacent edges near the specified face for N seconds",
+      "drAll": "Drape cool cloth over whole Veyru for N seconds",
+      "fanF": "Fan the specified intensity of cool air at the specified face for N seconds",
+      "fanAll": "Fan the specified intensity of cool air across all 6 faces for N seconds, starting from the specified face",
+      "fanPair": "Fan the specified intensity of cool air at the specified face and the opposite face for N seconds total",
+      "shF": "Shine lamp at the specified face at the specified brightness for N seconds",
+      "shPair": "Drape cloth partially over lamp to filter half its light, then position lamp so the opposite face gets bright direct light and the specified face gets cloth-filtered dim spill, with the specified brightness, and keep lamp and cloth stationary for N seconds",
+      "restF": "Rest flat board against the specified face at the specified contact pressure for N seconds",
+      "tone6": "Hum a steady specified-intensity vocal note out loud, an AAAH sound, close to each of the 6 faces in turn, starting from the specified face, for N seconds total, then let it fade naturally",
+      "rotTone": "Rotate Veyru slowly over N seconds while humming a steady specified-intensity vocal note out loud near opposite faces, starting from the specified face",
+      "soft": "Rest Veyru on soft surface with the specified face up, at the specified contact intensity, undisturbed for N seconds",
+      "chCwmE": "At each corner of the specified face, chime bell briefly at the specified intensity, then warm the 2 edges meeting at that corner with heated stone for N seconds",
+      "+chCx1": "then chime bell once near each of the 8 corners at the specified intensity"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1778877868",
+    "n_codes": 70,
+    "n_multimorpheme": 11,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "stem",
+        "label": "localized procedure action",
+        "fillers": [
+          {
+            "form": "pr",
+            "gloss": "press stone against",
+            "count": 3
+          },
+          {
+            "form": "tr",
+            "gloss": "trace with fingertip",
+            "count": 2
+          },
+          {
+            "form": "wm",
+            "gloss": "hold heated stone near, not touching",
+            "count": 3
+          }
+        ],
+        "paradigm_size": 3,
+        "obligatoriness": 0.7272727272727273,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "suffix",
+        "label": "target locus on a face",
+        "fillers": [
+          {
+            "form": "C",
+            "gloss": "corners",
+            "count": 3
+          },
+          {
+            "form": "E",
+            "gloss": "edges",
+            "count": 3
+          },
+          {
+            "form": "F",
+            "gloss": "face",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 3,
+        "obligatoriness": 0.7272727272727273,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos2",
+        "role": "stem",
+        "label": "air application action",
+        "fillers": [
+          {
+            "form": "fan",
+            "gloss": "fan cool air",
+            "count": 3
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.2727272727272727,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos3",
+        "role": "suffix",
+        "label": "air application scope",
+        "fillers": [
+          {
+            "form": "All",
+            "gloss": "all 6 faces",
+            "count": 1
+          },
+          {
+            "form": "F",
+            "gloss": "specified face",
+            "count": 1
+          },
+          {
+            "form": "Pair",
+            "gloss": "specified face and opposite face",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 3,
+        "obligatoriness": 0.2727272727272727,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 8,
+        "possible_combos": 9,
+        "saturation": 0.8888888888888888
+      },
+      {
+        "slot_a": "pos2",
+        "slot_b": "pos3",
+        "attested_combos": 3,
+        "possible_combos": 3,
+        "saturation": 1.0
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ],
+      [
+        "pos2",
+        "pos3"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "wmC": [
+        "pos0",
+        "pos1"
+      ],
+      "wmE": [
+        "pos0",
+        "pos1"
+      ],
+      "wmF": [
+        "pos0",
+        "pos1"
+      ],
+      "prC": [
+        "pos0",
+        "pos1"
+      ],
+      "prE": [
+        "pos0",
+        "pos1"
+      ],
+      "prF": [
+        "pos0",
+        "pos1"
+      ],
+      "trC": [
+        "pos0",
+        "pos1"
+      ],
+      "trE": [
+        "pos0",
+        "pos1"
+      ],
+      "fanF": [
+        "pos2",
+        "pos3"
+      ],
+      "fanAll": [
+        "pos2",
+        "pos3"
+      ],
+      "fanPair": [
+        "pos2",
+        "pos3"
+      ]
+    },
+    "construction_by_symbol": {
+      "wmC": "CX_LOC_PROC",
+      "wmE": "CX_LOC_PROC",
+      "wmF": "CX_LOC_PROC",
+      "prC": "CX_LOC_PROC",
+      "prE": "CX_LOC_PROC",
+      "prF": "CX_LOC_PROC",
+      "trC": "CX_LOC_PROC",
+      "trE": "CX_LOC_PROC",
+      "fanF": "CX_AIR_SCOPE",
+      "fanAll": "CX_AIR_SCOPE",
+      "fanPair": "CX_AIR_SCOPE"
+    },
+    "construction_labels": {
+      "CX_LOC_PROC": "localized procedure",
+      "CX_AIR_SCOPE": "fan by scope"
+    },
+    "construction_templates": {
+      "CX_LOC_PROC": [
+        "pos0",
+        "pos1"
+      ],
+      "CX_AIR_SCOPE": [
+        "pos2",
+        "pos3"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "A small paradigm network is defensible, but only for procedure labels whose internal pieces participate in meaning-consistent substitution frames. The strongest evidence is (i) wm/pr/tr alternating before C/E/F-like residues in procedure codes, with stable action contributions and stable target-locus contributions, and (ii) fan alternating with F/All/Pair scope fillers. I reject broader surface-based families such as dr~drift, pr~prop, ch~chCwmE, suffix -ll, -rm, -ft, and res~, because those residues do not form a coherent compositional paradigm or the whole meanings are not fully predictable from the proposed parts. Most supplied symbols therefore remain lexical.",
+    "lexical_symbols": [
+      "align",
+      "drift",
+      "echo",
+      "leak",
+      "lowI",
+      "hiI",
+      "phase",
+      "reso",
+      "cor",
+      "bnd",
+      "prop",
+      "harm",
+      "therm",
+      "void",
+      "B",
+      "S",
+      "C",
+      "P",
+      "L",
+      "F",
+      "T",
+      "H",
+      "Bo",
+      "N",
+      "E",
+      "W",
+      "Fr",
+      "Bk",
+      "R",
+      "opp",
+      "all",
+      "FP",
+      "Ns",
+      "xN",
+      "p12",
+      "gentle",
+      "mod",
+      "firm",
+      "!",
+      "x",
+      "/",
+      "?",
+      "*",
+      "S:pl",
+      "chC",
+      "chE",
+      "chF",
+      "chF_all",
+      "drF",
+      "drE2",
+      "drAll",
+      "shF",
+      "shPair",
+      "restF",
+      "tone6",
+      "rotTone",
+      "soft",
+      "chCwmE",
+      "+chCx1"
+    ],
+    "classes": [
+      {
+        "class_id": "ACT_LOC",
+        "label": "localized procedure action",
+        "description": "Procedure root specifying the action applied to a target locus on the specified face.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "TARGET_LOCUS",
+        "label": "target locus on a face",
+        "description": "Targeted part of the specified face: corners, edges, or the face as a whole.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "AIR_ACTION",
+        "label": "air application action",
+        "description": "Procedure root specifying fanning cool air.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "AIR_SCOPE",
+        "label": "air application scope",
+        "description": "Spatial scope of the fanning procedure.",
+        "repeatable": false,
+        "declared_fillers": [
+          {
+            "form": "All",
+            "gloss": "all 6 faces"
+          }
+        ]
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "CX_LOC_PROC",
+        "label": "localized procedure",
+        "description": "An action root combines with a locus morpheme to name a procedure targeting corners, edges, or a face.",
+        "class_sequence": [
+          "ACT_LOC",
+          "TARGET_LOCUS"
+        ]
+      },
+      {
+        "construction_id": "CX_AIR_SCOPE",
+        "label": "fan by scope",
+        "description": "The fanning action combines with a scope morpheme specifying where the air is applied.",
+        "class_sequence": [
+          "AIR_ACTION",
+          "AIR_SCOPE"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "wmC",
+        "construction_id": "CX_LOC_PROC",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "wm",
+            "class_id": "ACT_LOC",
+            "gloss": "hold heated stone near, not touching"
+          },
+          {
+            "form": "C",
+            "class_id": "TARGET_LOCUS",
+            "gloss": "corners"
+          }
+        ]
+      },
+      {
+        "symbol": "wmE",
+        "construction_id": "CX_LOC_PROC",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "wm",
+            "class_id": "ACT_LOC",
+            "gloss": "hold heated stone near, not touching"
+          },
+          {
+            "form": "E",
+            "class_id": "TARGET_LOCUS",
+            "gloss": "edges"
+          }
+        ]
+      },
+      {
+        "symbol": "wmF",
+        "construction_id": "CX_LOC_PROC",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "wm",
+            "class_id": "ACT_LOC",
+            "gloss": "hold heated stone near, not touching"
+          },
+          {
+            "form": "F",
+            "class_id": "TARGET_LOCUS",
+            "gloss": "face"
+          }
+        ]
+      },
+      {
+        "symbol": "prC",
+        "construction_id": "CX_LOC_PROC",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "pr",
+            "class_id": "ACT_LOC",
+            "gloss": "press stone against"
+          },
+          {
+            "form": "C",
+            "class_id": "TARGET_LOCUS",
+            "gloss": "corners"
+          }
+        ]
+      },
+      {
+        "symbol": "prE",
+        "construction_id": "CX_LOC_PROC",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "pr",
+            "class_id": "ACT_LOC",
+            "gloss": "press stone against"
+          },
+          {
+            "form": "E",
+            "class_id": "TARGET_LOCUS",
+            "gloss": "edges"
+          }
+        ]
+      },
+      {
+        "symbol": "prF",
+        "construction_id": "CX_LOC_PROC",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "pr",
+            "class_id": "ACT_LOC",
+            "gloss": "press stone against"
+          },
+          {
+            "form": "F",
+            "class_id": "TARGET_LOCUS",
+            "gloss": "face"
+          }
+        ]
+      },
+      {
+        "symbol": "trC",
+        "construction_id": "CX_LOC_PROC",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "tr",
+            "class_id": "ACT_LOC",
+            "gloss": "trace with fingertip"
+          },
+          {
+            "form": "C",
+            "class_id": "TARGET_LOCUS",
+            "gloss": "corners"
+          }
+        ]
+      },
+      {
+        "symbol": "trE",
+        "construction_id": "CX_LOC_PROC",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "tr",
+            "class_id": "ACT_LOC",
+            "gloss": "trace with fingertip"
+          },
+          {
+            "form": "E",
+            "class_id": "TARGET_LOCUS",
+            "gloss": "edges"
+          }
+        ]
+      },
+      {
+        "symbol": "fanF",
+        "construction_id": "CX_AIR_SCOPE",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "fan",
+            "class_id": "AIR_ACTION",
+            "gloss": "fan cool air"
+          },
+          {
+            "form": "F",
+            "class_id": "AIR_SCOPE",
+            "gloss": "specified face"
+          }
+        ]
+      },
+      {
+        "symbol": "fanAll",
+        "construction_id": "CX_AIR_SCOPE",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "fan",
+            "class_id": "AIR_ACTION",
+            "gloss": "fan cool air"
+          },
+          {
+            "form": "All",
+            "class_id": "AIR_SCOPE",
+            "gloss": "all 6 faces"
+          }
+        ]
+      },
+      {
+        "symbol": "fanPair",
+        "construction_id": "CX_AIR_SCOPE",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "fan",
+            "class_id": "AIR_ACTION",
+            "gloss": "fan cool air"
+          },
+          {
+            "form": "Pair",
+            "class_id": "AIR_SCOPE",
+            "gloss": "specified face and opposite face"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,419 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780587783",
+    "slots": [],
+    "segmentation": {
+      "RF": [
+        "RF"
+      ],
+      "SD": [
+        "SD"
+      ],
+      "BL": [
+        "BL"
+      ],
+      "DC": [
+        "DC"
+      ],
+      "DIM": [
+        "DIM"
+      ],
+      "HOT": [
+        "HOT"
+      ],
+      "OP": [
+        "OP"
+      ],
+      "1F": [
+        "1F"
+      ],
+      "1C": [
+        "1C"
+      ],
+      "WB": [
+        "WB"
+      ],
+      "FR": [
+        "FR"
+      ],
+      "2T": [
+        "2T"
+      ],
+      "HR": [
+        "HR"
+      ],
+      "HC": [
+        "HC"
+      ],
+      "SS": [
+        "SS"
+      ],
+      "TU": [
+        "TU"
+      ],
+      "Rn": [
+        "Rn"
+      ],
+      "CCn": [
+        "CCn"
+      ],
+      "FA6-n": [
+        "FA6-n"
+      ],
+      "FTB-n": [
+        "FTB-n"
+      ],
+      "BSTn": [
+        "BSTn"
+      ],
+      "BC": [
+        "BC"
+      ],
+      "BO-nx5": [
+        "BO-nx5"
+      ],
+      "BK": [
+        "BK"
+      ],
+      "BE2": [
+        "BE2"
+      ],
+      "B3T": [
+        "B3T"
+      ],
+      "WCTn": [
+        "WCTn"
+      ],
+      "LDBn": [
+        "LDBn"
+      ],
+      "FBPn": [
+        "FBPn"
+      ],
+      "ROTn+TONE+BK": [
+        "ROTn+TONE+BK"
+      ],
+      "g": [
+        "g"
+      ],
+      "m": [
+        "m"
+      ],
+      "s": [
+        "s"
+      ],
+      "T": [
+        "T"
+      ],
+      "B": [
+        "B"
+      ],
+      "F": [
+        "F"
+      ],
+      "Bk": [
+        "Bk"
+      ],
+      "L": [
+        "L"
+      ],
+      "R": [
+        "R"
+      ],
+      "t": [
+        "t"
+      ],
+      "b": [
+        "b"
+      ],
+      "f": [
+        "f"
+      ],
+      "k": [
+        "k"
+      ],
+      "l": [
+        "l"
+      ],
+      "r": [
+        "r"
+      ],
+      "ta": [
+        "ta"
+      ],
+      "bo": [
+        "bo"
+      ],
+      "ce": [
+        "ce"
+      ],
+      "wc": [
+        "wc"
+      ],
+      "ws": [
+        "ws"
+      ],
+      "cf": [
+        "cf"
+      ],
+      "lp": [
+        "lp"
+      ],
+      "fe": [
+        "fe"
+      ],
+      "cw": [
+        "cw"
+      ],
+      "bd": [
+        "bd"
+      ],
+      "bs": [
+        "bs"
+      ],
+      "sr": [
+        "sr"
+      ],
+      "ca": [
+        "ca"
+      ],
+      "rt": [
+        "rt"
+      ],
+      "!": [
+        "!"
+      ],
+      "+": [
+        "+"
+      ],
+      "u": [
+        "u"
+      ],
+      "C?": [
+        "C?"
+      ]
+    },
+    "head_index": {
+      "RF": 0,
+      "SD": 0,
+      "BL": 0,
+      "DC": 0,
+      "DIM": 0,
+      "HOT": 0,
+      "OP": 0,
+      "1F": 0,
+      "1C": 0,
+      "WB": 0,
+      "FR": 0,
+      "2T": 0,
+      "HR": 0,
+      "HC": 0,
+      "SS": 0,
+      "TU": 0,
+      "Rn": 0,
+      "CCn": 0,
+      "FA6-n": 0,
+      "FTB-n": 0,
+      "BSTn": 0,
+      "BC": 0,
+      "BO-nx5": 0,
+      "BK": 0,
+      "BE2": 0,
+      "B3T": 0,
+      "WCTn": 0,
+      "LDBn": 0,
+      "FBPn": 0,
+      "ROTn+TONE+BK": 0,
+      "g": 0,
+      "m": 0,
+      "s": 0,
+      "T": 0,
+      "B": 0,
+      "F": 0,
+      "Bk": 0,
+      "L": 0,
+      "R": 0,
+      "t": 0,
+      "b": 0,
+      "f": 0,
+      "k": 0,
+      "l": 0,
+      "r": 0,
+      "ta": 0,
+      "bo": 0,
+      "ce": 0,
+      "wc": 0,
+      "ws": 0,
+      "cf": 0,
+      "lp": 0,
+      "fe": 0,
+      "cw": 0,
+      "bd": 0,
+      "bs": 0,
+      "sr": 0,
+      "ca": 0,
+      "rt": 0,
+      "!": 0,
+      "+": 0,
+      "u": 0,
+      "C?": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "RF": "random flicker",
+      "SD": "sliding and blur",
+      "BL": "bright, layered, and frozen",
+      "DC": "dark corners and fading edges",
+      "DIM": "dim overall",
+      "HOT": "blazing white with buzz and heat",
+      "OP": "pulsing opposite faces; 1F=one face very bright/whine; 1C=bright clicking corner",
+      "1F": "one face very bright with a whine",
+      "1C": "bright clicking corner",
+      "WB": "wobbly edges and bulge",
+      "FR": "frozen dim silent cold; 2T=competing tones",
+      "2T": "competing tones",
+      "HR": "hot, dim, red, and rough",
+      "HC": "hollow and dark center",
+      "SS": "soft surface",
+      "TU": "top up",
+      "Rn": "rest for n seconds",
+      "CCn": "cool cloth for n seconds",
+      "FA6-n": "fan all 6 faces for n seconds",
+      "FTB-n": "fan the top and opposite faces for n seconds",
+      "BSTn": "warm stone beside each face for n seconds",
+      "BC": "bell center of each face once",
+      "BO-nx5": "bell opposite faces alternating, with n-second pauses, for 5 cycles",
+      "BK": "bell each corner once",
+      "BE2": "bell each top edge twice",
+      "B3T": "bell the top face 3 times",
+      "WCTn": "warm each top corner for n seconds, then trace the top edges",
+      "LDBn": "dim lamp on top and bright lamp on the opposite face for n seconds",
+      "FBPn": "flat board on each face-pair for n seconds",
+      "ROTn+TONE+BK": "rotate for n seconds with a steady tone near opposite faces, then bell each corner once",
+      "g": "gentle",
+      "m": "moderate",
+      "s": "strong",
+      "T": "top face from the reporter's view",
+      "B": "bottom face from the reporter's view",
+      "F": "front face from the reporter's view",
+      "Bk": "back face from the reporter's view",
+      "L": "left face from the reporter's view",
+      "R": "right face from the reporter's view",
+      "t": "top face",
+      "b": "bottom face",
+      "f": "front face",
+      "k": "back face",
+      "l": "left face",
+      "r": "right face",
+      "ta": "tone all 6 faces",
+      "bo": "bell the coded face and its opposite alternately for 5 cycles",
+      "ce": "cool cloth on the 2 adjacent edges near the coded face, then bell the coded face 3 times",
+      "wc": "warm the coded face corners, then trace its edges",
+      "ws": "place a heated stone beside the coded face for the coded time, then rotate through all faces",
+      "cf": "cool cloth over the whole Veyru for the coded time, remove it, then fan the coded face and its opposite for the coded time and intensity",
+      "lp": "dim lamp on the coded face and bright lamp on the opposite face, keep still",
+      "fe": "folded cloth on the coded face, then bell its edges twice",
+      "cw": "bell the coded face's 4 corners, then warm the 2 edges of that face meeting at each corner, for the coded time and intensity",
+      "bd": "board on the coded face, then repeat face-pairs",
+      "bs": "bell centers of all 6 faces starting from the coded face, then place the stone beside the Veyru only",
+      "sr": "put it on a soft surface with the coded face up, then rest",
+      "ca": "cool cloth, then fan all 6 faces",
+      "rt": "rotate the whole Veyru slowly for the coded time while a steady tone stays near the coded face and its opposite, then bell each corner once",
+      "!": "symptom truly persists after a full action; when attached to a lone code, that lone code is the full stack unless + is included",
+      "+": "join all current codes into a stacked report",
+      "u": "corner location unknown",
+      "C?": "query for corner location; answer only with corner code or codes, or u"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780587783",
+    "n_codes": 63,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible multi-entry paradigm survives the evidence tests. The strongest surface recurrence is final n / -n in Rn, CCn, FA6-n, FTB-n, BSTn, WCTn, LDBn, and FBPn, but this does not show a substitution class for that slot: only one duration variable form is attested, with no contrasting fillers in the same frame. The remaining residues before n are heterogeneous stored procedures, and grouping them into a generic action-root class would violate the instruction against creating a broad residual ROOT class without a tighter productive paradigm. Other repeated pieces (such as T, B, F, or digits) fail the opaque-index/compositional tests across the supplied whole-code meanings. Therefore the safest complete partition is a flat lexicon.",
+    "lexical_symbols": [
+      "RF",
+      "SD",
+      "BL",
+      "DC",
+      "DIM",
+      "HOT",
+      "OP",
+      "1F",
+      "1C",
+      "WB",
+      "FR",
+      "2T",
+      "HR",
+      "HC",
+      "SS",
+      "TU",
+      "Rn",
+      "CCn",
+      "FA6-n",
+      "FTB-n",
+      "BSTn",
+      "BC",
+      "BO-nx5",
+      "BK",
+      "BE2",
+      "B3T",
+      "WCTn",
+      "LDBn",
+      "FBPn",
+      "ROTn+TONE+BK",
+      "g",
+      "m",
+      "s",
+      "T",
+      "B",
+      "F",
+      "Bk",
+      "L",
+      "R",
+      "t",
+      "b",
+      "f",
+      "k",
+      "l",
+      "r",
+      "ta",
+      "bo",
+      "ce",
+      "wc",
+      "ws",
+      "cf",
+      "lp",
+      "fe",
+      "cw",
+      "bd",
+      "bs",
+      "sr",
+      "ca",
+      "rt",
+      "!",
+      "+",
+      "u",
+      "C?"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

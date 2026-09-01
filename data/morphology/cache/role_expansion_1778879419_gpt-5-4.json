@@ -1,0 +1,100 @@
+{
+  "per_slot": {
+    "pos0": [
+      [
+        "gen",
+        "gentle"
+      ],
+      [
+        "mod",
+        "moderate intensity"
+      ],
+      [
+        "HI",
+        "HighInt"
+      ],
+      [
+        "LO",
+        "LowInt"
+      ]
+    ],
+    "pos1": [
+      [
+        "cld",
+        "cold"
+      ],
+      [
+        "frz",
+        "frozen"
+      ],
+      [
+        "hot",
+        "hot"
+      ],
+      [
+        "wrm",
+        "warm"
+      ]
+    ],
+    "pos3": [
+      [
+        "2adj",
+        "two adjacent edges"
+      ],
+      [
+        "6",
+        "bottom"
+      ],
+      [
+        "Bo",
+        "Bottom"
+      ],
+      [
+        "Ctr",
+        "center"
+      ],
+      [
+        "F-pair",
+        "face-pair"
+      ],
+      [
+        "P",
+        "perimeter"
+      ],
+      [
+        "R",
+        "Right"
+      ],
+      [
+        "T",
+        "Top"
+      ]
+    ]
+  },
+  "stackable": [
+    [
+      "seq",
+      "sequential; the default for multi-face procedures if unspecified, but make it explicit if it matters"
+    ],
+    [
+      "simul",
+      "simultaneous"
+    ],
+    [
+      "alt",
+      "alternating"
+    ],
+    [
+      "ea",
+      "each"
+    ],
+    [
+      "A",
+      "all"
+    ],
+    [
+      "beside",
+      "place the warm stone beside a face for radiant heat with no contact"
+    ]
+  ]
+}

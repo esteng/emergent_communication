@@ -1,0 +1,233 @@
+{
+  "grammar": {
+    "run_key": "veyru/1778884760",
+    "slots": [],
+    "segmentation": {
+      "OK": [
+        "OK"
+      ],
+      "OK+": [
+        "OK+"
+      ],
+      "NO": [
+        "NO"
+      ],
+      "NO!": [
+        "NO!"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "J"
+      ],
+      "K": [
+        "K"
+      ],
+      "L": [
+        "L"
+      ],
+      "M": [
+        "M"
+      ],
+      "N": [
+        "N"
+      ],
+      "bell": [
+        "bell"
+      ],
+      "stone": [
+        "stone"
+      ],
+      "cloth": [
+        "cloth"
+      ],
+      "board": [
+        "board"
+      ],
+      "lamp": [
+        "lamp"
+      ],
+      "fan": [
+        "fan"
+      ],
+      "tone": [
+        "tone"
+      ],
+      "rest": [
+        "rest"
+      ],
+      "warm": [
+        "warm"
+      ],
+      "heated": [
+        "heated"
+      ],
+      "folded": [
+        "folded"
+      ],
+      "cool": [
+        "cool"
+      ],
+      "dim": [
+        "dim"
+      ],
+      "bright": [
+        "bright"
+      ]
+    },
+    "head_index": {
+      "OK": 0,
+      "OK+": 0,
+      "NO": 0,
+      "NO!": 0,
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 0,
+      "E": 0,
+      "F": 0,
+      "G": 0,
+      "H": 0,
+      "I": 0,
+      "J": 0,
+      "K": 0,
+      "L": 0,
+      "M": 0,
+      "N": 0,
+      "bell": 0,
+      "stone": 0,
+      "cloth": 0,
+      "board": 0,
+      "lamp": 0,
+      "fan": 0,
+      "tone": 0,
+      "rest": 0,
+      "warm": 0,
+      "heated": 0,
+      "folded": 0,
+      "cool": 0,
+      "dim": 0,
+      "bright": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "OK": "stabilization successful, no new symptoms",
+      "OK+": "successful, new symptoms follow",
+      "NO": "ineffective, same symptoms",
+      "NO!": "ineffective, symptoms changed and will be described",
+      "A": "drift, blur, wave-like hum",
+      "B": "pulse, two-tone, flash on the opposite face",
+      "C": "bulge, wobble, muffled sound",
+      "D": "dim on all faces, whisper, washed-out appearance",
+      "E": "hot and dim, rumble, gritty, red",
+      "F": "corner dimming, edge fade, hollow sound",
+      "G": "blazing, buzz, hot",
+      "H": "random flicker, broken hum",
+      "I": "frozen, silent, cold",
+      "J": "bright corners, click, hot corners",
+      "K": "shimmering edges, two clashing tones, alternating patterns, harmonic split",
+      "L": "too bright, layered hum, frozen patterns, echo saturation",
+      "M": "one face bright, whine, localized vibration, resonance cascade",
+      "N": "hollow tap, dark center, thin surface hum, core void",
+      "bell": "bell tool",
+      "stone": "stone tool",
+      "cloth": "cloth tool",
+      "board": "board tool",
+      "lamp": "lamp tool",
+      "fan": "fan tool",
+      "tone": "tone tool",
+      "rest": "rest tool",
+      "warm": "warm",
+      "heated": "heated",
+      "folded": "folded",
+      "cool": "cool",
+      "dim": "dim setting",
+      "bright": "bright setting"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1778884760",
+    "n_codes": 32,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible multi-entry compositional paradigm is supported. The candidate suffix families fail: stone/tone do not show a stable shared contribution for -one, and heated/folded do not establish an observed productive frame with a compositional contrast among fillers. The status codes also do not support morphology: OK vs OK+ and NO vs NO! each show a possible residue, but there is no substitution set for the final marker in one shared frame, since + occurs only with OK and ! only with NO. Across the full codebook, the safest analysis is that every symbol is an opaque lexical entry.",
+    "lexical_symbols": [
+      "OK",
+      "OK+",
+      "NO",
+      "NO!",
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "bell",
+      "stone",
+      "cloth",
+      "board",
+      "lamp",
+      "fan",
+      "tone",
+      "rest",
+      "warm",
+      "heated",
+      "folded",
+      "cool",
+      "dim",
+      "bright"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

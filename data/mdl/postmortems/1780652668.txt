@@ -1,0 +1,325 @@
+[ENG] We collapsed due to character overrun (290 vs 250 budget). Main issues:
+
+1. My instructions were wordy (36 chars + 19 chars = 55 from me).
+2. The system intro message I wrote outside send_message was fine, but I need to count *your* messages too.
+3. The 43s warning came too late — we were already over.
+
+Let's develop shorthand for next round:
+
+TOOLS: cl=cloth, bl=bell, st=stone, fb=flat board, fn=fan, lp=lamp
+FACES: B=back, F=front, T=top, Bo=bottom, L=left, R=right
+INTENSITIES: g=gentle, m=moderate, s=strong
+COVERAGE: same as intensity shorthand
+
+Example compressed instruction:
+"cl/B/8s/g, then bl x2 each edge/B"
+
+That's much shorter. Can you also shorten your symptom reports? Use very brief tags.
+
+Also: in Round 1 you reported "Cloth on back face 8s ineffective" — that was the *first half* of a two-step procedure. The cloth + bell together form one procedure. In future, wait for my full instruction set before reporting back. I'll try to send both steps in one message.
+
+Agreed?
+[OBS] Agreed on all points. Your shorthand is clean — I'll adopt it exactly. For my symptom reports I'll use: corners=cn, edges=ed, face=fc, center=ct, perimeter=pm, dim=d, dark=dk, bright=br, fading=fd, hum=hm, thin=th, hollow=hl, pulsing=pl, steady=st, hot=ht, cold=cl. Example: "cn:dk, ed:fd, fc-ct:ok, pm:d, hm:th+hl" — that's my Round 1 report in ~35 chars vs 97. Also noted: wait for full instruction set before reporting back. One question: if first step fails mid-procedure, should I still continue to next step, or stop and report?
+[ENG] Perfect shorthand — love it. One conflict: you used "st" for steady AND I used "st" for stone. Let's fix: stone=hs (heated stone), fan=fn, steady=ss.
+
+To your question: always complete the full procedure before reporting. A "failed" mid-step often just means the effect isn't visible yet — the whole procedure acts as one unit. Only report after fully done.
+
+Final shorthand summary:
+TOOLS: cl=cloth, bl=bell, hs=heated stone, fb=flat board, fn=fan, lp=lamp
+FACES: B=back, F=front, T=top, Bt=bottom, L=left, R=right
+INTENSITY: g=gentle, m=moderate, s=strong
+YOUR SYMPTOMS: cn=corner, ed=edge, fc=face, ct=center, pm=perimeter, d=dim, dk=dark, br=bright, fd=fading, hm=hum, th=thin, hl=hollow, pl=pulsing, ss=steady, ht=hot, cl=cold, ok=normal
+
+Ready for Round 2.
+[OBS] Stabilized! 229/250 chars — tight but we made it. Key issue: "soft surface" wasn't a tool, it was a positioning instruction. That ambiguity cost us a failed attempt + 28 chars clarifying. For future rounds: if no tool is needed, lead with "no tool" or "position:" so I don't guess wrong. Also, I should have asked before attempting. Lessons: 1) Ambiguous instructions = wasted attempts + chars. 2) Our shorthand is working well — let's keep it. 3) Can we pre-agree on a "position" shorthand? E.g. "pos:T-up/soft" = place Veyru on soft surface top-face up?
+[ENG] Round 2: STABILIZED, 229/250. The "soft surface" ambiguity cost us a failed attempt + clarification. You and I spotted the same issue.
+
+Agreed on "pos:" prefix. Updated shorthand:
+
+POSITIONING: pos:T-up/soft = place on soft surface, top face up
+NO-TOOL RESTS: I'll always use "pos:" so you know it's a position, not a tool action.
+
+Full shorthand so far:
+TOOLS: cl=cloth, bl=bell, hs=heated stone, fb=flat board, fn=fan, lp=lamp
+FACES: T=top, Bt=bottom, B=back, F=front, L=left, R=right
+INTENSITY: g=gentle, m=moderate, s=strong
+POSITION: pos:X-up/soft = place Veyru on soft surface X face up
+ACTIONS: rot=rotate, tr=trace edges with finger
+
+Example instructions:
+- "pos:T-up/soft, 5s, g"
+- "hs each cn/T, 5s/g. tr edges/T"
+- "bl x2 each ed/T"
+
+Your symptom shorthand is already tight and clear. Keep using it.
+
+Target: stay under 180 total chars next round. Ready for Round 3.
+[OBS] Excellent! 109/250 — well under budget. Clean one-shot success. Shorthand is working great. My report was 34 chars, your instruction was 29, zero wasted exchanges. We've roughly halved our communication cost from Round 1. Nothing to fix — ready for Round 4 whenever you are.
+[ENG] Agreed — nothing to fix. We've found our groove. Round 4 ready.
+[OBS] Collapsed again at 263/250. Two problems caused this:
+
+1. SECOND SYMPTOM PHASE: After first stabilization, new symptoms appeared. This added another full exchange cycle (~65+ chars) that we didn't budget for. We need to anticipate multi-phase rounds.
+
+2. SINGLE-LAMP AMBIGUITY: "lp dim/Bt + lp bright/T" — I only have one lamp. I didn't know if that meant simultaneous (impossible?), sequential, or a specific position. Wasted an attempt + 26 chars clarifying.
+
+PROPOSED FIXES:
+- For lamp instructions involving two faces: always specify sequential order with timing, e.g. "lp dim/Bt 2s, lp br/T 3s" so I know it's sequential.
+- For the two-lamp issue: can you confirm — is the lamp actually adjustable between dim/bright, or does "dim/bright" mean distance (far=dim, close=bright)?
+- For multi-phase rounds: if you suspect secondary symptoms may follow, warn me upfront with a short note like "+2" = expect second phase, so I know to be even terser.
+
+What do you think caused the secondary symptoms — overtreatment of the first phase?
+[ENG] Good catch on all points. Addressing each:
+
+1. LAMP CLARIFICATION: The procedure says "dim lamp" on one face and "bright lamp" on the opposite — simultaneously. In practice, use ONE lamp but adjust its intensity (move it far for dim, close for bright) for each face. Or, if you have two lamp positions, both at once. The key: both faces lit at the same time, different intensities. I'll write: "lp dim/Bt + lp bright/T, sim" — if you have one lamp, position it to do both (angle it). If that's impossible, hold at Bt dim then quickly shift to T bright, both within 5s window. Try the simultaneous reading first.
+
+2. MULTI-PHASE WARNING: You can't always predict it, but I'll add "?" when a failure might cascade. Secondary symptoms are inherent to combination failures — first phase leaks energy, second phase absorbs it unevenly.
+
+3. SECONDARY REPORT COMPRESSION TARGET: 20 chars max. Your round 4 secondary was 71 chars — try: "1fc:br+vib, whine/Bt" = 20 chars.
+
+SHORTHAND UPDATE:
+- sim = simultaneously
+- lp instructions always mean both faces at same time at different intensities
+
+Ready for Round 5.
+[ENG] Round 5: COLLAPSED 257/250. Seven chars over — infuriating. Let me break down what happened:
+
+CHAR COUNT AUDIT:
+- Your symptom report: 61 chars
+- My instruction 1: 29 chars
+- Your fail report 1: 30 chars
+- My instruction 2: 28 chars
+- Your fail report 2: 31 chars
+- My clarification Q: 17 chars
+Total: ~196 chars. But the system counted 257.
+
+That means either: (a) system counts spaces and ALL punctuation heavily, OR (b) there are hidden overhead chars per message, OR (c) my counts are off.
+
+KEY INSIGHT: The PROCEDURE FAILED TWICE. That's the real problem. With a 250-char budget, we can't afford even one retry. We need first-try success every round.
+
+DIAGNOSIS QUESTION: You said "fail" both times. Did you see ANY change after the heated stone on corners? Even slight? If not, my diagnosis may have been wrong.
+
+The symptom "all fc dim, whisper hum, washed out" is Low Intensity. But I want to confirm: was the surface at normal temperature (not cold)? Were patterns visible but faint (not frozen/still)?
+
+If the diagnosis was wrong, that's my error. Let me know what the surface felt like and whether patterns moved at all.
+
+Also: for future rounds, if a procedure fails, your report should be just "fail" (4 chars) — not "4cn/T 10s+4ed trace: still fail" (31 chars). I know what I told you to do.
+[OBS] Collapsed by 7 chars (257/250). So close! Main issues this round:
+
+1. TWO FAILED ATTEMPTS: Both used up chars in failure reports. Something about my execution of "hs on corners + trace edges" was wrong. I did 4 corners × 10s then traced 4 edges. What was I missing? Did I need to trace WHILE the stone was on, or in a specific order?
+
+2. YOUR CLARIFYING QUESTION cost 41 chars at the worst possible time. If I had given better initial detail, you wouldn't have needed to ask.
+
+3. I should have included surface temp in my initial report — that was relevant info I omitted.
+
+PROPOSED RULE: My opening report should ALWAYS include: face brightness, hum, temperature, motion (frozen/moving). That's the minimum set to avoid follow-up questions.
+
+Template: "[faces], hm:[hum], [temp], [motion]"
+Example: "All fc:d/moving, hm:whisper, not cold" — 37 chars vs my 30 + your 41 follow-up = 71 total.
+
+Can you explain what went wrong with the stone+trace procedure so we can execute correctly next time?
+[ENG] Your template idea is excellent. Adopt it.
+
+On the failed procedure: I believe my diagnosis was correct (Low Intensity), and the procedure was right. The most likely execution error is that "in sequence" means one corner at a time, fully completing each before moving to the next — which you did. But "trace each edge with a finger" must be done continuously around all 4 edges of the top face, not just touching each one. Try a slow continuous trace around the entire perimeter of T face.
+
+But here's the hard truth: even if execution was perfect, we can't afford procedure failures on a 250-char budget. Two failed attempts = ~60+ wasted chars = collapse.
+
+CRITICAL RULE FOR BOTH OF US:
+- Your opening report: always include face brightness, hum, temp, motion. ~35-40 chars max.
+- If procedure fails: just "fail" (4 chars).
+- I ask NO follow-up questions. I re-instruct or try alternate procedure based on "fail" alone.
+- My instructions: max 30 chars always.
+
+This means our ideal round = ~40 (your report) + ~30 (my instruction) = 70 chars. That leaves 180 chars of buffer for failures/multi-phase.
+
+On the char count mystery: I think my estimates may be off. Let's assume every message costs significantly more than we think and stay under 30 chars each at all times.
+
+Ready for Round 6.
+[ENG] Round 6: STABILIZED — 191/250. We survived a failed attempt this round and still came in under budget.
+
+KEY SUCCESS: Your fail report was just "fail" (4 chars). That saved us enormously.
+
+What worked:
+- Your symptom report was compact and clear (~58 chars with our template).
+- "fail" = 4 chars.
+- My re-instruction (41 chars) was more explicit and it worked.
+
+What I learned: The Leak Instability corner procedure requires explicit instruction — "both edges of that corner" wasn't clear from "2 edges@cn". Going forward I'll write: "cn/B: bl, hs both-edges/cn, 5s/mod" with "both-edges/cn" meaning both edges meeting at that corner.
+
+PATTERN NOTED: We've seen Leak Instability twice now (Rounds 1, 4, 6). The symptoms are very distinctive (dark corners, fading edges, ok face-centers). I know it well.
+
+BUDGET MATH: With our current approach, a clean round costs ~90 chars (60 report + 30 instruction). One failure costs +~45 chars (4 fail + 41 retry). So we can afford at most one retry per round and still stay under 250.
+
+Ready for Round 7.
+[OBS] Stabilized! 191/250. The 4-char "fail" rule saved us — huge improvement. Agreed on the pattern recognition for Leak Instability — distinctive symptoms. Noted: 1 retry budget per round max. Your clarification on "both-edges/cn" is clear now. Ready for Round 7.
+[OBS] Round 7: NOT STABILIZED — 236/250 chars (under budget). We had chars left but ran out of valid procedures. The cloth+fan and fan-only approaches both failed 3 times.
+
+Key question: did I execute wrong, or was the diagnosis wrong?
+
+My 3 attempts:
+1. cl/all 15s → remove → fn firm L+R sim 15s
+2. cl/all 15s → remove → fn L then R seq, 15s total
+3. fn cool/firm L+R sim 15s (no cloth)
+
+I want to understand: for "fanning" — should I have been fanning toward the Veyru, away from it, or along the surface? And was the symptom (hot bright corners, clicking) perhaps a different condition requiring a different tool altogether?
+
+Also: with 59 seconds left and a 4th attempt available, you didn't send a new instruction. Did you run out of ideas, or was there a timing/communication issue?
+[ENG] Your attempts were correct. Diagnosis was right — Corner Deadlock confirmed by symptoms. I ran out of ideas and stopped, which was wrong. I should have kept trying.
+
+On fanning: fan should direct cool air ACROSS the face surface (from the side, sweeping over it), not blowing directly into it head-on.
+
+For attempt 3 you skipped the cloth step — the full procedure requires cloth first, then fan. Try: cl/all 15s cool, remove, THEN fn firm across L face AND R face simultaneously, 15s.
+
+Going forward: I will never stop acting while budget remains. If we have chars left, I send. Even if I'm uncertain, I try the same procedure again with slightly different execution cues.
+
+Also noting: "L face and opposite face" = left face + right face. These are the two faces perpendicular to the left-right axis of the Veyru. Fan both from their respective sides simultaneously.
+
+I believe the procedure IS correct and execution needs one more clean attempt with: cool cloth draped 15s → full removal → fan simultaneously across L and R face surfaces (not into them) from the sides, 15s firm.
+[OBS] Stabilized! 141/250 — clean first-try success with 109 chars to spare. Best result yet. The cloth+fan sweep combination worked perfectly. Good to know the "drifting/wavering" symptom pattern responds to this treatment. Ready for Round 9.
+[ENG] Great sync. One note on Round 7 mystery: same cloth+fan pattern worked here (Drift Escalation on all 6 faces) but failed on Corner Deadlock (L+R only). Maybe the issue was fanning only 2 specific faces vs. all 6. For Corner Deadlock next time: try fanning all faces if L+R alone fails.
+
+Ready for Round 9.
+[ENG] Round 9: COLLAPSED 284/250 — a 3-phase round that exceeded budget.
+
+CHAR AUDIT:
+- Your report 1: 52 chars
+- My instruction 1: 28 chars
+- Your report 2: 42 chars
+- My instruction 2: 26 chars
+- Your report 3: 58 chars
+- My instruction 3: 28 chars (arrived after 250 limit)
+Total = 234 chars reported, but system counted 284. The overhead gap is ~50 chars per round — there must be metadata/formatting overhead per message that we can't see but still counts.
+
+KEY INSIGHT: With hidden overhead (~8 chars per message?), our true cost per message is higher than raw text. With 6 messages this round, that's ~48 extra chars of overhead — which matches the 34 overrun.
+
+STRATEGY FOR MULTI-PHASE: Each phase costs ~90+ chars (your report + my instruction). With overhead, a 3-phase round costs ~270+ chars, exceeding 250 every time. We cannot handle 3 phases in one round with this budget.
+
+CRITICAL ADAPTATION: For report 3 onward, you need to use just pattern codes:
+"R8" = 2 chars instead of "lt sliding/drift, edges blurred, hm wavering. [R8 pattern]" (58 chars). Let's number all symptom patterns we've seen:
+- R3 = Thermal Bleed
+- R8 = Drift Escalation
+
+Can you propose a full shortcode list for all 14 motifs based on their most distinctive symptom? One or two chars each. That'll help us survive triple-phase rounds.
+[OBS] Agreed — hidden overhead is killing us on multi-phase rounds. Pattern codes are the solution.
+
+Here's my proposed shortcode list based on the symptoms I've observed:
+
+- L = Leak Instability (dark corners, fading edges, ok face-centers, thin hollow hum)
+- T = Thermal Bleed (hot all over, dim, red tint, low rumble)
+- F = Frozen/Void (light frozen still, dim, silent hum, cold surface, unresponsive)
+- D = Drift Escalation (sliding colors, blurred edges, wavering pitch hum)
+- C = Corner Deadlock (1-2 corners intense bright+hot, clicking, rest ok)
+- H = Hollow Core (surface ok, inside dark+hollow, thin hum no depth)
+- E = Low Energy (all faces dim/faint/washed out, whisper hum, norm temp, moving)
+
+That covers all patterns we've seen. So my Round 9 Phase 3 report would have been: "D" = 1 char!
+
+PROTOCOL: After phase 1 stabilizes, if new symptoms appear, I send just the 1-2 char code.
+
+Does this match your pattern library? Are there patterns I haven't seen yet that need codes?
+[ENG] Your codes are excellent. I'll add the remaining patterns from my reference library:
+
+- A = Alignment Collapse (random flickering, irregular broken hum, no pattern)
+- Dr = Drift Escalation (you called it D — changing to Dr to avoid conflict with other D-words)
+- Es = Echo Saturation (too bright/blinding, layered stacked hum, frozen faces)
+- Li = Low Intensity (use your E code — renaming: Li)
+- Hi = High Intensity (blazing white all faces, loud harsh buzz, heat from faces)
+- Ph = Phase Inversion (opposite faces pulse bright/dark alternating, 2 tones in sync)
+- Rc = Resonance Cascade (ONE face intensely bright + vibration, high-pitched whine)
+- Bs = Boundary Softening (edges wobble/flex, faces bulging/curved, muffled hum)
+- Ps = Propagation Stall (your F code — using Ps)
+- Hs = Harmonic Split (hum split into 2+ competing tones, patterns alternate, edges shimmer)
+
+FINAL MASTER LIST:
+A=Alignment Collapse, Dr=Drift, Es=Echo, L=Leak, Li=Low Intensity, Hi=High Intensity, Ph=Phase Inversion, Rc=Resonance, Cd=Corner Deadlock, Bs=Boundary Softening, Ps=Propagation Stall, Hs=Harmonic Split, T=Thermal Bleed, Cv=Core Void
+
+So Phase 3 of Round 9 would be just "Dr" = 2 chars. 
+
+Use these codes for ALL follow-up phase reports. First report stays descriptive (for fresh diagnosis). Subsequent phases: code only.
+[OBS] Stabilized! 139/250 — 2-phase round handled cleanly! The pattern code "Li" (2 chars) vs a full secondary description saved us ~40+ chars. This is exactly the breakthrough we needed. The system works. Ready for Round 11.
+[ENG] Confirmed! Our pattern code system is now proven. Full master list:
+A=Alignment Collapse, Dr=Drift Escalation, Es=Echo Saturation, L=Leak Instability, Li=Low Intensity, Hi=High Intensity, Ph=Phase Inversion, Rc=Resonance Cascade, Cd=Corner Deadlock, Bs=Boundary Softening, Ps=Propagation Stall, Hs=Harmonic Split, T=Thermal Bleed, Cv=Core Void
+
+Phase 1: full report. Phase 2+: code only. Fail: "fail". 
+
+Ready for Round 11.
+[ENG] Round 11: STABILIZED — 189/250. THREE-PHASE ROUND handled cleanly! 61 chars to spare.
+
+This is a breakthrough — Round 9 was a 3-phase round that collapsed at 284 chars. This round: 189 chars. The difference? Pattern codes for phases 2 and 3 (Cd=2, Hs=2 chars vs ~50+ chars each).
+
+Also notable: the cloth+fan-L+R procedure (Harmonic Split) worked this time! It was the same procedure that failed 3 times in Round 7 for Corner Deadlock. This confirms the procedure itself is correct — the Round 7 problem was either execution context or something unique to that Veyru.
+
+Going forward: the cloth+fan-L+R pattern is reliable.
+
+RUNNING SCORE: 6 stabilized, 4 collapsed, 1 not-stabilized.
+
+We're now consistently handling 2-3 phase rounds. The system is working. Ready for Round 12.
+[OBS] Stabilized! 189/250 — 3-phase round survived with pattern codes! Agreed on all points. Running score of 6/11 stabilized — improving. Ready for Round 12.
+[OBS] Round 12: NOT STABILIZED — hit exactly 250 chars. Phase 1 (L) succeeded, then Ps appeared and the flat board procedure failed 3 different ways.
+
+My executions:
+1. fb/Bt gentle 5s → rotate Veyru through all face-pairs with board on each bottom
+2. fb on Bt+T 5s, then L+R 5s, then F+B 5s (board on top of/flat on each face)
+3. fb LEANED against each of 6 faces in sequence 5s each
+
+All failed. Two questions:
+1. What is the correct way to use the flat board? Is it placed FLAT on a face (like cloth), leaned AGAINST a face like a wall, held ABOVE a face, or something else entirely?
+2. For Ps, is the flat board always the right tool? The successful Ps treatment in Round 2 used positioning on a soft surface, and Round 10 used cloth+bell. Maybe Ps has multiple valid treatments depending on stellar alignment.
+
+Understanding fb mechanics is critical since we keep failing it.
+[ENG] Critical question on flat board (fb). My understanding: the board should rest AGAINST the face (vertical face = board leans against it like a wall; horizontal/top face = board rests on top like a lid). Gentle contact means light touch, not pressing hard.
+
+For Rounds 2 and 10: those were DIFFERENT stellar alignments, so Ps had different procedures (soft surface in Round 2, cloth+bell in Round 10). Each round's stellar reading gives a unique procedure per motif — they change every round.
+
+The flat board procedure this round was: "Rest a flat board against the bottom face at gentle contact for 5 seconds. Rotate and repeat for each face-pair."
+
+"Rotate and repeat for each face-pair" means:
+- Pair 1: board against Bt face (it's the bottom, so board rests on Bt? or Bt is facing down, so board goes under it?) Then flip so T is accessible, board against T face.
+- Pair 2: board against L face, then R face.
+- Pair 3: board against F face, then B face.
+
+QUESTION: When Bt is the bottom face (Veyru resting on it), how do you position the board against it? Maybe you need to flip the Veyru on its side first so Bt becomes accessible?
+
+This is the key ambiguity. Let's resolve it: "fb against Bt" = lift Veyru, slide board under it so Bt touches board.
+[OBS] Stabilized! 100/250 — cleanest round yet! Single phase, first-try, 150 chars to spare. The "sustain gentle tone all 6fc" instruction was clear and executed perfectly. Running score now 8/13. The system is humming. Ready for Round 14.
+[ENG] My count: 7 stabilized (not 8) — Rounds 2, 3, 6, 8, 10, 11, 13. But let's not quibble! 
+
+Still need to solve the flat board problem for future rounds. If we get Core Void this time, let's see if it works differently now.
+
+Ready for Round 14.
+[ENG] Round 14: COLLAPSED — 253/250. Three chars over! A 3-phase round with one failed attempt sank us.
+
+Breakdown:
+- Phase 1 (Ps): 50+28 = 78
+- Phase 2 (Rc): 2+30+4+38 = 74 (one fail)
+- Phase 3 (Ph): 2+18 = 20
+- Overhead: ~80 (hidden overhead is ~13 chars/message × ~6 messages)
+Total with overhead: ~252
+
+The hidden overhead is consistently ~13 chars per message. With 6 messages + overhead, we're fighting a losing battle on 3-phase rounds with failures.
+
+CRITICAL LESSON: A failed attempt on a multi-phase round is almost certainly fatal. We cannot afford even one "fail" in a 3-phase scenario.
+
+On the fan execution: Round 14 Phase 2 (Rc, cloth+fan all 6 faces) succeeded on attempt 2. The extra clarity ("sweep each of 6 faces, 8s total, Bt first") worked. This is now the confirmed correct way to describe that procedure.
+
+Going forward, I'll always write fan instructions as:
+"fn [intensity] sweep each fc [Xs] total, start [face]"
+
+Ready for Round 15.
+[OBS] Agreed — ~13 char overhead confirmed. On your fan format update: "fn [intensity] sweep each fc [Xs] total, start [face]" — noted and will execute exactly. 
+
+My key proposal: conditional instruction format. If you can write "if Ph2=Rc: cl8s+fn6 Bt; if Ph2=Ph: Bt-up soft 8s" in ONE message instead of waiting for my Ph2 code — that saves 2 messages (~26 chars overhead). Is that possible? You'd need to anticipate the cascade patterns from your reference library.
+
+Ready for Round 15.
+[ENG] Conditional instructions are a brilliant idea but I can't predict which motif follows a stabilized phase — the cascade is not deterministic from my reference library. There are 14 possible follow-on motifs, and I only know the procedure once I receive the stellar reading per round.
+
+However: I CAN pre-read the stellar reading and see ALL 14 procedures at once. So I could send a compressed reference like "if Rc: cl+fn6/Bt. if Ph: Bt-up/soft. if Li: bl-opp/5c" — covering the 2-3 most likely follow-ons in one message.
+
+Risk: the combined conditional message might be longer than just waiting for your code + responding. With overhead per message, it may only help if my conditional covers the actual motif.
+
+Alternative: HYBRID. After Phase 1 instruction, I immediately send: "Ph2 code when ready — I have all responses loaded." Then when you send code, I reply instantly. The overhead cost is the same but there's no delay.
+
+Actually the simplest fix: your Phase code + my instruction = 2 messages with ~26 overhead. A conditional instruction = 1 message but longer text. Break-even point is if conditional adds <26 chars vs. waiting.
+
+Let's try: for Phase 2+, you send code AND I reply in minimal chars. We've already proven this works when procedures succeed first-try. The key is avoiding failures.
+
+Ready for Round 15.

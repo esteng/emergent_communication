@@ -1,0 +1,916 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780613138",
+    "slots": [],
+    "segmentation": {
+      "light": [
+        "light"
+      ],
+      "bright": [
+        "bright"
+      ],
+      "dim": [
+        "dim"
+      ],
+      "normal": [
+        "normal"
+      ],
+      "frozen": [
+        "frozen"
+      ],
+      "flicker": [
+        "flicker"
+      ],
+      "slide": [
+        "slide"
+      ],
+      "pulse": [
+        "pulse"
+      ],
+      "blaze": [
+        "blaze"
+      ],
+      "hum": [
+        "hum"
+      ],
+      "silent": [
+        "silent"
+      ],
+      "whisper": [
+        "whisper"
+      ],
+      "loud": [
+        "loud"
+      ],
+      "buzz": [
+        "buzz"
+      ],
+      "whine": [
+        "whine"
+      ],
+      "click": [
+        "click"
+      ],
+      "rumble": [
+        "rumble"
+      ],
+      "layered": [
+        "layered"
+      ],
+      "wavering": [
+        "wavering"
+      ],
+      "split": [
+        "split"
+      ],
+      "2-tone": [
+        "2-tone"
+      ],
+      "hollow": [
+        "hollow"
+      ],
+      "touch": [
+        "touch"
+      ],
+      "cold": [
+        "cold"
+      ],
+      "hot": [
+        "hot"
+      ],
+      "warm": [
+        "warm"
+      ],
+      "wobble": [
+        "wobble"
+      ],
+      "bulge": [
+        "bulge"
+      ],
+      "gritty": [
+        "gritty"
+      ],
+      "where": [
+        "where"
+      ],
+      "corners": [
+        "corners"
+      ],
+      "edges": [
+        "edges"
+      ],
+      "center": [
+        "center"
+      ],
+      "one-face": [
+        "one-face"
+      ],
+      "opposite-faces": [
+        "opposite-faces"
+      ],
+      "all": [
+        "all"
+      ],
+      "heat": [
+        "heat"
+      ],
+      "reddish": [
+        "reddish"
+      ],
+      "stall": [
+        "stall"
+      ],
+      "void": [
+        "void"
+      ],
+      "k": [
+        "k"
+      ],
+      "ok": [
+        "ok"
+      ],
+      "ok+": [
+        "ok+"
+      ],
+      "5s": [
+        "5s"
+      ],
+      "mod": [
+        "mod"
+      ],
+      "gen": [
+        "gen"
+      ],
+      "br": [
+        "br"
+      ],
+      "still": [
+        "still"
+      ],
+      "opp": [
+        "opp"
+      ],
+      "all6": [
+        "all6"
+      ],
+      "B": [
+        "B"
+      ],
+      "S": [
+        "S"
+      ],
+      "F": [
+        "F"
+      ],
+      "C": [
+        "C"
+      ],
+      "Bd": [
+        "Bd"
+      ],
+      "L": [
+        "L"
+      ],
+      "T": [
+        "T"
+      ],
+      "Bot": [
+        "Bot"
+      ],
+      "Fr": [
+        "Fr"
+      ],
+      "Bk": [
+        "Bk"
+      ],
+      "Lf": [
+        "Lf"
+      ],
+      "Rt": [
+        "Rt"
+      ],
+      "x": [
+        "x"
+      ],
+      "?": [
+        "?"
+      ],
+      "overlayer": [
+        "overlayer"
+      ],
+      "spike": [
+        "spike"
+      ],
+      "chaos": [
+        "chaos"
+      ],
+      "drain": [
+        "drain"
+      ],
+      "leak": [
+        "leak"
+      ],
+      "bleed": [
+        "bleed"
+      ],
+      "+TAG": [
+        "+TAG"
+      ]
+    },
+    "head_index": {
+      "light": 0,
+      "bright": 0,
+      "dim": 0,
+      "normal": 0,
+      "frozen": 0,
+      "flicker": 0,
+      "slide": 0,
+      "pulse": 0,
+      "blaze": 0,
+      "hum": 0,
+      "silent": 0,
+      "whisper": 0,
+      "loud": 0,
+      "buzz": 0,
+      "whine": 0,
+      "click": 0,
+      "rumble": 0,
+      "layered": 0,
+      "wavering": 0,
+      "split": 0,
+      "2-tone": 0,
+      "hollow": 0,
+      "touch": 0,
+      "cold": 0,
+      "hot": 0,
+      "warm": 0,
+      "wobble": 0,
+      "bulge": 0,
+      "gritty": 0,
+      "where": 0,
+      "corners": 0,
+      "edges": 0,
+      "center": 0,
+      "one-face": 0,
+      "opposite-faces": 0,
+      "all": 0,
+      "heat": 0,
+      "reddish": 0,
+      "stall": 0,
+      "void": 0,
+      "k": 0,
+      "ok": 0,
+      "ok+": 0,
+      "5s": 0,
+      "mod": 0,
+      "gen": 0,
+      "br": 0,
+      "still": 0,
+      "opp": 0,
+      "all6": 0,
+      "B": 0,
+      "S": 0,
+      "F": 0,
+      "C": 0,
+      "Bd": 0,
+      "L": 0,
+      "T": 0,
+      "Bot": 0,
+      "Fr": 0,
+      "Bk": 0,
+      "Lf": 0,
+      "Rt": 0,
+      "x": 0,
+      "?": 0,
+      "overlayer": 0,
+      "spike": 0,
+      "chaos": 0,
+      "drain": 0,
+      "leak": 0,
+      "bleed": 0,
+      "+TAG": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [
+      {
+        "stem": "B",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "B+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "Bd",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "Bd+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "Bk",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "Bk+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "Bot",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "Bot+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "C",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "C+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "F",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "F+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "Fr",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "Fr+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "L",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "L+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "Lf",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "Lf+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "Rt",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "Rt+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "S",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "S+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "T",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "T+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "all",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "all+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "all6",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "all6+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "blaze",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "blaze+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "bleed",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "bleed+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "br",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "br+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "bright",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "bright+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "bulge",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "bulge+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "buzz",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "buzz+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "center",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "center+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "chaos",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "chaos+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "click",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "click+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "cold",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "cold+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "corners",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "corners+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "dim",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "dim+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "drain",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "drain+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "edges",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "edges+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "flicker",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "flicker+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "frozen",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "frozen+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "gen",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "gen+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "gritty",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "gritty+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "heat",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "heat+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "hollow",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "hollow+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "hot",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "hot+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "hum",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "hum+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "k",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "k+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "layered",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "layered+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "leak",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "leak+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "light",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "light+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "loud",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "loud+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "mod",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "mod+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "normal",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "normal+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "ok",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "ok+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "opp",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "opp+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "overlayer",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "overlayer+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "pulse",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "pulse+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "reddish",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "reddish+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "rumble",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "rumble+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "silent",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "silent+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "slide",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "slide+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "spike",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "spike+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "split",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "split+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "stall",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "stall+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "still",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "still+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "touch",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "touch+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "void",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "void+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "warm",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "warm+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "wavering",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "wavering+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "where",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "where+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "whine",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "whine+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "whisper",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "whisper+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "wobble",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "wobble+TAG",
+        "delimiter": "+"
+      },
+      {
+        "stem": "x",
+        "affix": "+TAG",
+        "role": "suffix",
+        "form": "x+TAG",
+        "delimiter": "+"
+      }
+    ],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "light": "light observation category",
+      "bright": "bright light",
+      "dim": "dim light",
+      "normal": "normal state",
+      "frozen": "frozen light",
+      "flicker": "flickering light",
+      "slide": "sliding light",
+      "pulse": "opposite faces alternating bright and dark, two-tone hum, Phase Inversion",
+      "blaze": "blaze all, buzz loud, heat, High Intensity",
+      "hum": "hum observation category",
+      "silent": "silent hum",
+      "whisper": "whisper hum",
+      "loud": "loud hum",
+      "buzz": "buzzing hum",
+      "whine": "one face blaze plus vibration, whine, others normal",
+      "click": "clicking hum",
+      "rumble": "rumbling hum",
+      "layered": "layered hum",
+      "wavering": "wavering hum",
+      "split": "hum split competing, light in two configurations, edges shimmer, Harmonic Split",
+      "2-tone": "two-tone hum",
+      "hollow": "hollow hum",
+      "touch": "touch observation category",
+      "cold": "cold touch",
+      "hot": "hot touch",
+      "warm": "warm touch",
+      "wobble": "wobbling touch",
+      "bulge": "edges wobble, faces bulging, hum muffled",
+      "gritty": "gritty touch",
+      "where": "location observation category",
+      "corners": "at the corners",
+      "edges": "at the edges",
+      "center": "at the center",
+      "one-face": "at one face",
+      "opposite-faces": "at opposite faces",
+      "all": "at all faces or all locations",
+      "heat": "heat present",
+      "reddish": "reddish appearance",
+      "stall": "frozen dim, silent, cold",
+      "void": "hollow tap, dark center, thin surface hum",
+      "k": "doing it",
+      "ok": "done clean",
+      "ok+": "done, new symptoms follow",
+      "5s": "5 seconds",
+      "mod": "moderate",
+      "gen": "gentle, intensity always one token",
+      "br": "bright",
+      "still": "stationary",
+      "opp": "opposite, \"all6",
+      "all6": "all 6 faces",
+      "B": "bell",
+      "S": "stone",
+      "F": "fan",
+      "C": "cloth",
+      "Bd": "board",
+      "L": "lamp",
+      "T": "top face",
+      "Bot": "bottom face",
+      "Fr": "front face",
+      "Bk": "back face",
+      "Lf": "left face",
+      "Rt": "right face",
+      "x": "the tool reported ineffective or failed",
+      "?": "I need to ask because I am truly stuck after multiple failures",
+      "overlayer": "very bright, layered hum, frozen patches",
+      "spike": "one to two corners blaze, click near them, localized heat",
+      "chaos": "flicker on random faces, broken hum, edges shifting",
+      "drain": "dim all faces faint, whisper hum, washed out",
+      "leak": "corners dark, edges fading, centers okay, hollow edge hum",
+      "bleed": "hot all dim rumble gritty reddish, Thermal Bleed",
+      "+TAG": "a cascaded new symptom follows, reported as plus the syndrome tag"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780613138",
+    "n_codes": 71,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible multi-entry compositional paradigm survives the evidence tests. Many surface resemblances in the candidate list are accidental English orthographic overlaps (e.g. -er, -ble, wh-, bl-) without a stable shared meaning contribution across a substitution frame. The most tempting cases also fail exact compositional predictability: for example bright cannot be securely analyzed from br plus a recurring light morpheme without inventing an unsupported remainder, and syndrome-like forms such as stall, bleed, blaze, pulse, etc. bundle multiple symptoms idiosyncratically rather than combining reusable parts whose meanings add up. Standalone key-like items such as face labels (T, Bot, Fr, Bk, Lf, Rt), tool labels (B, S, F, C, Bd, L), and report markers (k, x, ?, +TAG) do not by themselves establish any attested multi-morpheme construction in this dataset. Because false morphology is worse than a flat lexicon here, all symbols are treated as opaque lexical items.",
+    "lexical_symbols": [
+      "light",
+      "bright",
+      "dim",
+      "normal",
+      "frozen",
+      "flicker",
+      "slide",
+      "pulse",
+      "blaze",
+      "hum",
+      "silent",
+      "whisper",
+      "loud",
+      "buzz",
+      "whine",
+      "click",
+      "rumble",
+      "layered",
+      "wavering",
+      "split",
+      "2-tone",
+      "hollow",
+      "touch",
+      "cold",
+      "hot",
+      "warm",
+      "wobble",
+      "bulge",
+      "gritty",
+      "where",
+      "corners",
+      "edges",
+      "center",
+      "one-face",
+      "opposite-faces",
+      "all",
+      "heat",
+      "reddish",
+      "stall",
+      "void",
+      "k",
+      "ok",
+      "ok+",
+      "5s",
+      "mod",
+      "gen",
+      "br",
+      "still",
+      "opp",
+      "all6",
+      "B",
+      "S",
+      "F",
+      "C",
+      "Bd",
+      "L",
+      "T",
+      "Bot",
+      "Fr",
+      "Bk",
+      "Lf",
+      "Rt",
+      "x",
+      "?",
+      "overlayer",
+      "spike",
+      "chaos",
+      "drain",
+      "leak",
+      "bleed",
+      "+TAG"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

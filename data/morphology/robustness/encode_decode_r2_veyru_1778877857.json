@@ -1,0 +1,906 @@
+{
+  "results": [
+    {
+      "target_meaning": "board, contact",
+      "expected_form": "BdCt",
+      "expected_morphemes": [
+        "Bd",
+        "Ct"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "BdCt",
+      "produced_reading": "Board (Bd) applied with Contact (Ct) \u2014 the flat board placed in direct contact with the Veyru (unspecified face).",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "placement expression",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "cloth, on",
+      "expected_form": "COn",
+      "expected_morphemes": [
+        "C",
+        "On"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "ClOn",
+      "produced_reading": "Cloth (Cl) placed ON a face \u2014 cloth draped directly on/over a specific face. Closely related to the negotiated 'ClV' (cloth over whole Veyru) but specifying a single face rather than the whole unit.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "placement expression",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "lamp, on",
+      "expected_form": "LOn",
+      "expected_morphemes": [
+        "L",
+        "On"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "LOn",
+      "produced_reading": "Lamp (L) shining ON a specific face \u2014 lamp directed at and touching or very close to a face. Distinct from DimL/BrtL which specify brightness; this form omits brightness level.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "placement expression",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "bell, beside",
+      "expected_form": "BBs",
+      "expected_morphemes": [
+        "B",
+        "Bs"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "BBs",
+      "produced_reading": "Bell (B) placed or held BESIDE a face \u2014 bell positioned next to but not touching a face, analogous to StnBs (stone beside). Ringing the bell beside a face rather than at its surface.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "placement expression",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    },
+    {
+      "target_meaning": "cloth, contact",
+      "expected_form": "CCt",
+      "expected_morphemes": [
+        "C",
+        "Ct"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "ClCt",
+      "produced_reading": "Cloth (Cl) applied with Contact (Ct) \u2014 cloth pressed in direct contact with a face, as opposed to draped loosely. Implies firm cloth-to-surface contact.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "placement expression",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "stone, opposite",
+      "expected_form": "StnOpp",
+      "expected_morphemes": [
+        "Stn",
+        "Opp"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "StnOpp",
+      "produced_reading": "Stone (Stn) placed on or beside the OPPOSITE face \u2014 heated stone applied to the face opposite the reference/starting face.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "placement expression",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    },
+    {
+      "target_meaning": "cloth, contact",
+      "expected_form": "ClCt",
+      "expected_morphemes": [
+        "Cl",
+        "Ct"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "ClCt",
+      "produced_reading": "Cloth (Cl) applied with Contact (Ct) \u2014 cloth pressed in direct contact with a face, as opposed to draped loosely. Implies firm cloth-to-surface contact.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "placement expression",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "fan, adjacent",
+      "expected_form": "FAdj",
+      "expected_morphemes": [
+        "F",
+        "Adj"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "FanAdj",
+      "produced_reading": "Fan directed at ADJACENT faces \u2014 fan airflow aimed at the faces neighbouring the reference face, rather than the reference face itself or its opposite.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "placement expression",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "bell, adjacent",
+      "expected_form": "BAdj",
+      "expected_morphemes": [
+        "B",
+        "Adj"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "BAdj",
+      "produced_reading": "Bell (B) rung at or near ADJACENT faces \u2014 bell applied to the faces neighbouring the reference face.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "placement expression",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "cloth, contact",
+      "expected_form": "ClothCt",
+      "expected_morphemes": [
+        "Cloth",
+        "Ct"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "ClCt",
+      "produced_reading": "Cloth (Cl) applied with Contact (Ct) \u2014 cloth pressed in direct contact with a face, as opposed to draped loosely. Implies firm cloth-to-surface contact.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "placement expression",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "fan, contact",
+      "expected_form": "FCt",
+      "expected_morphemes": [
+        "F",
+        "Ct"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "FanCt",
+      "produced_reading": "Fan applied with Contact (Ct) \u2014 fan held in direct contact with a face while running, rather than directing airflow from a distance.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "placement expression",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "cloth, opposite",
+      "expected_form": "ClothOpp",
+      "expected_morphemes": [
+        "Cloth",
+        "Opp"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "ClOpp",
+      "produced_reading": "Cloth (Cl) applied to the OPPOSITE face \u2014 cloth placed on the face opposite the reference/starting face.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "placement expression",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "stone, opposite",
+      "expected_form": "SOpp",
+      "expected_morphemes": [
+        "S",
+        "Opp"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "StnOpp",
+      "produced_reading": "Stone (Stn) placed on or beside the OPPOSITE face \u2014 heated stone applied to the face opposite the reference/starting face.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "placement expression",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "cloth, opposite",
+      "expected_form": "COpp",
+      "expected_morphemes": [
+        "C",
+        "Opp"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "ClOpp",
+      "produced_reading": "Cloth (Cl) applied to the OPPOSITE face \u2014 cloth placed on the face opposite the reference/starting face.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "placement expression",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "bell, on",
+      "expected_form": "BOn",
+      "expected_morphemes": [
+        "B",
+        "On"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "BOn",
+      "produced_reading": "Bell (B) rung directly ON a face \u2014 bell struck against or pressed onto the face surface, as opposed to held beside or near it.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "placement expression",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "fan, on",
+      "expected_form": "FOn",
+      "expected_morphemes": [
+        "F",
+        "On"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "FanOn",
+      "produced_reading": "Fan directed ON a specific face \u2014 fan airflow directed onto a named face. This is the standard fan usage but the 'On' suffix makes the target face explicit.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "placement expression",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "cloth, on",
+      "expected_form": "ClOn",
+      "expected_morphemes": [
+        "Cl",
+        "On"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "ClOn",
+      "produced_reading": "Cloth (Cl) placed ON a face \u2014 cloth draped directly on/over a specific face. Closely related to the negotiated 'ClV' (cloth over whole Veyru) but specifying a single face rather than the whole unit.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "placement expression",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "lamp, contact",
+      "expected_form": "LCt",
+      "expected_morphemes": [
+        "L",
+        "Ct"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "LCt",
+      "produced_reading": "Lamp (L) in Contact (Ct) with a face \u2014 lamp pressed or held directly against a face surface while illuminating it.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "placement expression",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "lamp, opposite",
+      "expected_form": "LOpp",
+      "expected_morphemes": [
+        "L",
+        "Opp"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "LOpp",
+      "produced_reading": "Lamp (L) directed at the OPPOSITE face \u2014 lamp shining on the face opposite the reference face. Brightness unspecified; contrast with DimLRt / BrtLop pattern.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "placement expression",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "cloth, opposite",
+      "expected_form": "ClOpp",
+      "expected_morphemes": [
+        "Cl",
+        "Opp"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "ClOpp",
+      "produced_reading": "Cloth (Cl) applied to the OPPOSITE face \u2014 cloth placed on the face opposite the reference/starting face.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "placement expression",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "bell, contact",
+      "expected_form": "BCt",
+      "expected_morphemes": [
+        "B",
+        "Ct"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "BCt",
+      "produced_reading": "Bell (B) in Contact (Ct) with a face \u2014 bell pressed directly against the face surface while ringing, rather than held beside or near it.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "placement expression",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    },
+    {
+      "target_meaning": "cloth, beside",
+      "expected_form": "ClBs",
+      "expected_morphemes": [
+        "Cl",
+        "Bs"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "ClBs",
+      "produced_reading": "Cloth (Cl) placed BESIDE the Veyru or beside a face \u2014 cloth positioned next to but not touching the surface, analogous to StnBs. An unusual spatial configuration for cloth.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "placement expression",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "cloth, beside",
+      "expected_form": "CBs",
+      "expected_morphemes": [
+        "C",
+        "Bs"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "ClBs",
+      "produced_reading": "Cloth (Cl) placed BESIDE the Veyru or beside a face \u2014 cloth positioned next to but not touching the surface, analogous to StnBs. An unusual spatial configuration for cloth.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "placement expression",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "cloth, adjacent",
+      "expected_form": "CAdj",
+      "expected_morphemes": [
+        "C",
+        "Adj"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "ClAdj",
+      "produced_reading": "Cloth (Cl) applied to ADJACENT faces \u2014 cloth draped over or pressed against the faces neighbouring the reference face.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "placement expression",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    },
+    {
+      "target_meaning": "fan, beside",
+      "expected_form": "FBs",
+      "expected_morphemes": [
+        "F",
+        "Bs"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "FanBs",
+      "produced_reading": "Fan held BESIDE a face \u2014 fan positioned next to but not directly on or against a face, directing airflow sideways from a beside position.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "placement expression",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "stone, on",
+      "expected_form": "SOn",
+      "expected_morphemes": [
+        "S",
+        "On"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "StnOn",
+      "produced_reading": "Stone (Stn) placed ON a face \u2014 heated stone laid directly on top of a face surface. This was an explicitly negotiated spatial shorthand, paired with StnBs as its counterpart.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "placement expression",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0"
+      ],
+      "is_valid": true,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "cloth, beside",
+      "expected_form": "ClothBs",
+      "expected_morphemes": [
+        "Cloth",
+        "Bs"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "ClBs",
+      "produced_reading": "Cloth (Cl) placed BESIDE the Veyru or beside a face \u2014 cloth positioned next to but not touching the surface, analogous to StnBs. An unusual spatial configuration for cloth.",
+      "purpose": "grounded_novel",
+      "varied_slot": "K1",
+      "varied_slot_label": "placement expression",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "board, opposite",
+      "expected_form": "BdOpp",
+      "expected_morphemes": [
+        "Bd",
+        "Opp"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "BdOpp",
+      "produced_reading": "Board (Bd) placed against the OPPOSITE face \u2014 flat board rested against the face opposite the reference/starting face.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "placement expression",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "board, on",
+      "expected_form": "BdOn",
+      "expected_morphemes": [
+        "Bd",
+        "On"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "BdOn",
+      "produced_reading": "Board (Bd) placed ON a face \u2014 flat board laid directly on a face surface. This mirrors StnOn and is the standard board application described in stabilization actions.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "placement expression",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "stone, contact",
+      "expected_form": "SCt",
+      "expected_morphemes": [
+        "S",
+        "Ct"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "StnCt",
+      "produced_reading": "Stone (Stn) in Contact (Ct) with a face \u2014 heated stone pressed firmly in direct contact with a face. Functionally similar to StnOn but emphasising the contact/pressure rather than the surface placement.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "placement expression",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    },
+    {
+      "target_meaning": "stone, beside",
+      "expected_form": "StnBs",
+      "expected_morphemes": [
+        "Stn",
+        "Bs"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "StnBs",
+      "produced_reading": "Stone (Stn) placed BESIDE a face (or beside the whole Veyru) \u2014 heated stone positioned next to but not touching a face. Explicitly negotiated spatial shorthand; later clarified as 'StnBsV' when beside the whole Veyru vs beside a specific face.",
+      "purpose": "grounded_control",
+      "varied_slot": "K1",
+      "varied_slot_label": "placement expression",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [],
+      "is_valid": true,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    },
+    {
+      "target_meaning": "stone, on",
+      "expected_form": "StnOn",
+      "expected_morphemes": [
+        "Stn",
+        "On"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "StnOn",
+      "produced_reading": "Stone (Stn) placed ON a face \u2014 heated stone laid directly on top of a face surface. This was an explicitly negotiated spatial shorthand, paired with StnBs as its counterpart.",
+      "purpose": "grounded_control",
+      "varied_slot": "K1",
+      "varied_slot_label": "placement expression",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [],
+      "is_valid": true,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "cloth, on",
+      "expected_form": "ClothOn",
+      "expected_morphemes": [
+        "Cloth",
+        "On"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "ClOn",
+      "produced_reading": "Cloth (Cl) placed ON a face \u2014 cloth draped directly on/over a specific face. Closely related to the negotiated 'ClV' (cloth over whole Veyru) but specifying a single face rather than the whole unit.",
+      "purpose": "grounded_control",
+      "varied_slot": "K1",
+      "varied_slot_label": "placement expression",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    }
+  ],
+  "decode_negative_control_rate": 0.8,
+  "n_decode_negative_controls": 20,
+  "decode_positive_control_rate": 1.0,
+  "n_decode_positive_controls": 10
+}

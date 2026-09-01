@@ -1,0 +1,96 @@
+{
+  "per_slot": {
+    "pos2": [
+      [
+        "AC",
+        "alignment collapse"
+      ],
+      [
+        "B",
+        "bottom"
+      ],
+      [
+        "BS",
+        "boundary softening"
+      ],
+      [
+        "CD",
+        "corner deadlock"
+      ],
+      [
+        "CV",
+        "core void"
+      ],
+      [
+        "DE",
+        "drift escalation"
+      ],
+      [
+        "E",
+        "east"
+      ],
+      [
+        "ES",
+        "echo saturation"
+      ],
+      [
+        "HS",
+        "harmonic split"
+      ],
+      [
+        "LK",
+        "leak instability"
+      ],
+      [
+        "N",
+        "north"
+      ],
+      [
+        "PI",
+        "phase inversion"
+      ],
+      [
+        "PS",
+        "propagation stall"
+      ],
+      [
+        "RC",
+        "resonance cascade"
+      ],
+      [
+        "S",
+        "south"
+      ],
+      [
+        "TH",
+        "thermal bleed"
+      ],
+      [
+        "W",
+        "west"
+      ]
+    ]
+  },
+  "stackable": [
+    [
+      "D",
+      "dim"
+    ],
+    [
+      "HH",
+      "high"
+    ],
+    [
+      "HI",
+      "high intensity"
+    ],
+    [
+      "LO",
+      "low intensity"
+    ],
+    [
+      "M",
+      "moderate"
+    ]
+  ]
+}

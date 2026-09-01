@@ -1,0 +1,449 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780611284",
+    "slots": [],
+    "segmentation": {
+      "AC": [
+        "AC"
+      ],
+      "DE": [
+        "DE"
+      ],
+      "ES": [
+        "ES"
+      ],
+      "LI": [
+        "LI"
+      ],
+      "LO": [
+        "LO"
+      ],
+      "HI": [
+        "HI"
+      ],
+      "PI": [
+        "PI"
+      ],
+      "RC": [
+        "RC"
+      ],
+      "CD": [
+        "CD"
+      ],
+      "BS": [
+        "BS"
+      ],
+      "PS": [
+        "PS"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "TB": [
+        "TB"
+      ],
+      "CV": [
+        "CV"
+      ],
+      "L": [
+        "L"
+      ],
+      "E": [
+        "E"
+      ],
+      "H": [
+        "H"
+      ],
+      "T": [
+        "T"
+      ],
+      "D": [
+        "D"
+      ],
+      "P": [
+        "P"
+      ],
+      "S": [
+        "S"
+      ],
+      "F": [
+        "F"
+      ],
+      "X": [
+        "X"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "W": [
+        "W"
+      ],
+      "U": [
+        "U"
+      ],
+      "Q": [
+        "Q"
+      ],
+      "N": [
+        "N"
+      ],
+      "b": [
+        "b"
+      ],
+      "d": [
+        "d"
+      ],
+      "R": [
+        "R"
+      ],
+      "Bk": [
+        "Bk"
+      ],
+      "+": [
+        "+"
+      ],
+      "ok": [
+        "ok"
+      ],
+      "?": [
+        "?"
+      ],
+      "f": [
+        "f"
+      ],
+      "p": [
+        "p"
+      ],
+      "w": [
+        "w"
+      ],
+      "x": [
+        "x"
+      ],
+      "h": [
+        "h"
+      ],
+      "s": [
+        "s"
+      ],
+      "1": [
+        "1"
+      ],
+      "c": [
+        "c"
+      ],
+      "dk": [
+        "dk"
+      ],
+      "hl": [
+        "hl"
+      ],
+      "ck": [
+        "ck"
+      ],
+      "wh": [
+        "wh"
+      ],
+      "sp": [
+        "sp"
+      ],
+      "m": [
+        "m"
+      ],
+      "r": [
+        "r"
+      ],
+      "t": [
+        "t"
+      ],
+      "T1": [
+        "T1"
+      ],
+      "T2": [
+        "T2"
+      ],
+      "T3": [
+        "T3"
+      ],
+      "T4": [
+        "T4"
+      ],
+      "T5": [
+        "T5"
+      ],
+      "T6": [
+        "T6"
+      ],
+      "T7": [
+        "T7"
+      ],
+      "T8": [
+        "T8"
+      ],
+      "T9": [
+        "T9"
+      ],
+      "T10": [
+        "T10"
+      ],
+      "T11": [
+        "T11"
+      ],
+      "T12": [
+        "T12"
+      ],
+      "T13": [
+        "T13"
+      ],
+      "T14": [
+        "T14"
+      ],
+      "@": [
+        "@"
+      ],
+      "/surf:": [
+        "/surf:"
+      ]
+    },
+    "head_index": {
+      "AC": 0,
+      "DE": 0,
+      "ES": 0,
+      "LI": 0,
+      "LO": 0,
+      "HI": 0,
+      "PI": 0,
+      "RC": 0,
+      "CD": 0,
+      "BS": 0,
+      "PS": 0,
+      "HS": 0,
+      "TB": 0,
+      "CV": 0,
+      "L": 0,
+      "E": 0,
+      "H": 0,
+      "T": 0,
+      "D": 0,
+      "P": 0,
+      "S": 0,
+      "F": 0,
+      "X": 0,
+      "B": 0,
+      "C": 0,
+      "W": 0,
+      "U": 0,
+      "Q": 0,
+      "N": 0,
+      "b": 0,
+      "d": 0,
+      "R": 0,
+      "Bk": 0,
+      "+": 0,
+      "ok": 0,
+      "?": 0,
+      "f": 0,
+      "p": 0,
+      "w": 0,
+      "x": 0,
+      "h": 0,
+      "s": 0,
+      "1": 0,
+      "c": 0,
+      "dk": 0,
+      "hl": 0,
+      "ck": 0,
+      "wh": 0,
+      "sp": 0,
+      "m": 0,
+      "r": 0,
+      "t": 0,
+      "T1": 0,
+      "T2": 0,
+      "T3": 0,
+      "T4": 0,
+      "T5": 0,
+      "T6": 0,
+      "T7": 0,
+      "T8": 0,
+      "T9": 0,
+      "T10": 0,
+      "T11": 0,
+      "T12": 0,
+      "T13": 0,
+      "T14": 0,
+      "@": 0,
+      "/surf:": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "AC": "Alignment Collapse",
+      "DE": "Drift Escalation",
+      "ES": "Echo Saturation",
+      "LI": "Leak",
+      "LO": "Low Int",
+      "HI": "High Int",
+      "PI": "Phase Inv",
+      "RC": "Resonance",
+      "CD": "Corner Deadlock",
+      "BS": "Boundary Soft",
+      "PS": "Propagation Stall",
+      "HS": "Harmonic Split",
+      "TB": "Thermal Bleed",
+      "CV": "Core Void",
+      "L": "left face",
+      "E": "edges",
+      "H": "hum",
+      "T": "temperature or feel",
+      "D": "bottom face",
+      "P": "pulse",
+      "S": "static",
+      "F": "front face",
+      "X": "failed, add one distinguisher word if possible",
+      "B": "blurred",
+      "C": "cracking",
+      "W": "wavering",
+      "U": "unsteady volume",
+      "Q": "quiet",
+      "N": "normal",
+      "b": "bright",
+      "d": "dim",
+      "R": "right face",
+      "Bk": "back face",
+      "+": "the prior step worked, and new symptoms follow",
+      "ok": "acknowledgment that the shorthand scheme was adopted and the sender was ready for round 2",
+      "?": "send a fresh full re-observation",
+      "f": "flicker",
+      "p": "pulse-opposite",
+      "w": "washed-dim",
+      "x": "frozen-dim",
+      "h": "hollow-tap",
+      "s": "split-alt, 1=one-face-bright",
+      "1": "one-face-bright",
+      "c": "corner-bright",
+      "dk": "corners-dark",
+      "hl": "hollow",
+      "ck": "click",
+      "wh": "whine",
+      "sp": "two tones",
+      "m": "muffled",
+      "r": "rumble",
+      "t": "thin",
+      "T1": "sound a sustained tone at all 6 faces for the duration in seconds starting from the specified face, at the specified intensity, then let it fade",
+      "T2": "chime the bell alternating between the specified face and its opposite face, with the duration in seconds as the pause, for 5 cycles, at the specified intensity, starting from the specified face",
+      "T3": "apply cloth to 2 adjacent edges of the specified face for the duration in seconds at the specified intensity of coverage, then chime 3 times at the specified face",
+      "T4": "warm the corners of the specified face for the duration in seconds at the specified warmth intensity each, in sequence, then trace the edges of the specified face with a finger",
+      "T5": "place a warm stone beside the specified face for the duration in seconds at the specified warmth intensity, then rotate and repeat at each face",
+      "T6": "cover the Veyru with a cool cloth for the duration in seconds, remove it, then fan cool air at the specified intensity across the specified face and its opposite face for the duration in seconds",
+      "T7": "keep the specified face dimly lit and its opposite face brightly lit simultaneously, at the specified brightness intensity, for the duration in seconds, with no movement",
+      "T8": "place a folded cloth over the specified face for the duration in seconds at the specified coverage intensity, then chime the bell at each edge of the specified face twice",
+      "T9": "at each corner of the specified face, chime the bell briefly at the specified tone intensity, then warm the 2 edges meeting at that corner with the stone for the duration in seconds",
+      "T10": "rest a flat board against the specified face with the specified contact intensity for the duration in seconds, then rotate and repeat for each face-pair",
+      "T11": "chime the center of each face once at the specified tone intensity starting from the specified face, then warm a stone beside the Veyru for the duration in seconds",
+      "T12": "place the Veyru on a soft surface with the specified face up, at the specified contact intensity, and let it rest undisturbed for the duration in seconds",
+      "T13": "cover the Veyru with a cool cloth for the duration in seconds, remove it, then fan cool air at the specified intensity across all 6 faces for the duration in seconds starting from the specified face",
+      "T14": "rotate the Veyru slowly for the duration in seconds while a sustained tone at the specified volume intensity is held near opposite faces starting from the specified face, then chime once at each corner",
+      "@": "the following face is the affected face or location of asymmetric symptoms",
+      "/surf:": "the following token gives the surface or scene location"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780611284",
+    "n_codes": 68,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible productive paradigm survives the evidence tests. The T1–T14 series fails the opaque index test: the numerals do not contribute literal count/degree meaning in a shared compositional frame, but instead select different stored procedures. Other repeated letters or substrings (e.g. AC, DE, ES, LI, LO, HI, PI, RC; single-letter symptom/location codes; lowercase symptom labels) do not form meaning-consistent substitution frames inside attested multi-morpheme codes. Although standalone key-like items exist for faces and qualities, there are no composed entries demonstrating those values alternating in the same morphotactic slot of larger codes. Therefore the safest analysis is a flat lexicon with every supplied symbol treated as an opaque stored label.",
+    "lexical_symbols": [
+      "AC",
+      "DE",
+      "ES",
+      "LI",
+      "LO",
+      "HI",
+      "PI",
+      "RC",
+      "CD",
+      "BS",
+      "PS",
+      "HS",
+      "TB",
+      "CV",
+      "L",
+      "E",
+      "H",
+      "T",
+      "D",
+      "P",
+      "S",
+      "F",
+      "X",
+      "B",
+      "C",
+      "W",
+      "U",
+      "Q",
+      "N",
+      "b",
+      "d",
+      "R",
+      "Bk",
+      "+",
+      "ok",
+      "?",
+      "f",
+      "p",
+      "w",
+      "x",
+      "h",
+      "s",
+      "1",
+      "c",
+      "dk",
+      "hl",
+      "ck",
+      "wh",
+      "sp",
+      "m",
+      "r",
+      "t",
+      "T1",
+      "T2",
+      "T3",
+      "T4",
+      "T5",
+      "T6",
+      "T7",
+      "T8",
+      "T9",
+      "T10",
+      "T11",
+      "T12",
+      "T13",
+      "T14",
+      "@",
+      "/surf:"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

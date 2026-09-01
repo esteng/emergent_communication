@@ -1,0 +1,455 @@
+[OBS] Good round. Let's build shorthand to save chars. Proposals:
+
+Symptom codes (I send): 
+- Face notation: F=front, B=back, T=top, U=under(bottom), L=left, R=right
+- Regions: c=corner, e=edge, f=face-center, all=whole
+- State: dim/dark/bright/flicker/pulse/hot/cold
+- Sound: hum-thin/hum-deep/hum-loud/silent/buzz/whine
+Example: "c:dark e:fade f:ok hum:thin-edge"
+
+Action codes (you send):
+- Tools: BELL, STONE, FAN, CLOTH, BOARD, LAMP
+- Verb: place/drape/wave/chime/press/shine
+- Target: face letter, or e(edge), c(corner)
+- Duration: number = seconds; reps: x2, x3
+Example: "CLOTH drape B 8s; BELL chime Be x2" = drape cloth back face 8s, chime bell twice each back edge.
+
+OK with this? Any tweaks?
+[ENG] Great proposal, agree. Tweaks:
+
+- Add intensity codes: g=gentle, m=mild, s=strong (or whatever the reading says). I'll relay verbatim.
+- Add "starting face" notation: start=B means start from back.
+- For "all faces" use "6F"; "all corners" = "8c"; "all edges" = "12e".
+- For repeating per face/corner/edge, use "/face", "/c", "/e".
+
+Examples to confirm:
+- Leak Instability (this round): "CLOTH B 8s g; BELL Be x2"
+- Low Intensity: "BELL Bc g; STONE Bc-edges 8s" per corner
+- Propagation Stall: "TONE 6F 8s g start B"
+- Drift: "CLOTH all 8s; FAN B+opp 8s g"
+
+I'll keep msgs minimal — just tool, target, time, intensity. You confirm execution with "ok" or report new symptoms.
+
+Also: I won't include motif names (protocol). Just procedure.
+[OBS] Agreed. Confirming:
+- I report symptoms compactly, e.g. "8c:dark 12e:fade 6f:ok hum:thin@e"
+- You send: TOOL target time intensity, semicolon between steps
+- I reply "ok" after success, or new symptoms if any
+- Verbs implied by tool when obvious (CLOTH=drape, BELL=chime, STONE=press, FAN=wave, BOARD=place, LAMP=shine). Override if different.
+- "B 8s g" = back face 8s gentle. "Be x2" = each back edge x2. "Bc" = each back corner.
+
+Ready for next round.
+[ENG] Confirmed. Ready.
+[OBS] 119s - great improvement. Two things:
+
+1. I skipped sending "ok" since the round ended - link closed. Maybe skip "ok" entirely; if I have nothing new to report, silence = success.
+
+2. More symptom shorthand:
+- "frz" = frozen/still patterns
+- "sil" = silent hum
+- "cold"/"hot"/"warm"
+- "flk" = flicker
+- "pls" = pulse
+- "drk" = dark
+- "fd" = fading
+- "@" = location prefix (e.g. "drk@8c" = dark at all corners)
+- "all=X" = whole veyru is X
+
+So R2 could be: "all:frz dim sil cold no-resp" → still ~25 chars.
+
+Tools you could shorten too:
+- BL=bell, ST=stone, FN=fan, CL=cloth, BD=board, LP=lamp
+
+R2 reply could be: "CL pad, T up, 5s g" instead of "Place on soft surface, T up, gentle contact. Rest 5s undisturbed."
+
+Agree?
+[ENG] Agree on all. Adopting:
+
+- Silence = success, no "ok"
+- 2-letter tools: BL/ST/FN/CL/BD/LP
+- Symptom codes as listed
+- "rest" verb for soft-surface (BD or "soft") — to disambiguate from board: use "SOFT" for soft surface; BD = flat board.
+
+R2 reply would have been: "SOFT T up 5s g rest"
+R1 reply: "CL B 8s g; BL Be x2"
+
+Also: when procedure says "starting from X face", I'll write "start=X" only if needed. For rotate-all-faces I'll say "/6F".
+
+For "each corner" → "/c", "each edge" → "/e".
+
+Ready.
+[OBS] Locked in. Ready.
+[OBS] 74s! Excellent. System working well. No changes needed I think. Ready for next.
+[ENG] Agreed. Ready.
+[ENG] Postmortem R4: my fault. Two issues:
+
+1. My first reply "LP dim@U + bright@opp(T) sim 5s firm, no move" was ambiguous — should've been explicit "2 lamps".
+2. Your symptom "1F bright+vibr" was also ambiguous: "1F" read as "one face" but could've been "F (front) is bright". Clarification burned chars.
+
+Fixes for future:
+- When procedure uses 2 lamps/cloths/etc, I'll write "2 LP" explicitly.
+- For "bright on opposite": just name both faces. e.g. "LP: U dim, T bright, 5s firm, hold still".
+- For symptoms with one face affected: name the face. "F:bright+vibr whine@F" — not "1F".
+- Numbers as count prefix only with tool: 2 LP, 2 CL, 3 BL.
+
+Also: chained failures (post-stabilize new symptoms) eat budget fast. I should have already factored that and been ultra-terse on first reply. Will do.
+
+Cumulative budget across rounds isn't a thing — each Veyru = 250s fresh. Good news.
+
+Ready for R5.
+[OBS] Aligned. Same conclusions. Locking in:
+
+- Always name face (T/U/L/R/F/B). Orientation: F=facing me, B=opp, T=up, U=down, L=my left, R=my right.
+- Count prefix only with tool: "2 LP", "3 BL".
+- Symptom per face: "F:bright+vibr whine@F".
+- For cascades, both stay ultra-terse from msg 1.
+
+Ready R5.
+[ENG] Ready.
+[ENG] Postmortem R5: Two fails burned us. Need to investigate.
+
+R5 msg 1: "ST /Tc 10s g (seq); trace /Te w/finger" — failed. Procedure was: heated stone at each T corner 10s g (sequential), then finger-trace each T edge. That IS Low Intensity for this round.
+
+Q: did "ST" register as stone? Did "/Tc" register as "each top corner"? Was "(seq)" unclear? Or did you execute different action?
+
+R5 msg 3: "BL alt T<->U, 10s pause, 5 cycles, g" — failed. Procedure: alternate bell between T and U faces, 10s pause, 5 cycles, gentle. This is exactly Echo Saturation.
+
+Possible causes:
+1. My shorthand still unclear to you
+2. You read it differently than I meant
+3. My diagnosis was wrong (but symptoms matched textbook)
+
+Please share: what action did you execute for each msg? Then we can fix the shorthand or diagnosis logic.
+
+Also we should consider: maybe "/Tc" is being read as "T face center" not "each T corner". Let me propose:
+- Tc1..Tc4 = top corners (or just "4×Tc")
+- Te1..Te4 = top edges (or "4×Te")
+- Use "×N" for "each" / "N items".
+
+Thoughts?
+[OBS] My executions:
+
+R5 msg1: I PRESSED stone ON each top corner 10s gentle, then traced edges. Failed.
+You then said "heated ST near each T corner" - I switched to NEAR (not touching). Worked.
+→ Issue: "ST /Tc 10s g" → I assumed contact. You meant "near" (hovering).
+→ Fix: default for ST = "near". Or explicit: "ST near Tc" vs "ST press Tc" vs "ST touch Tc".
+
+R5 msg3: I chimed bell 10 times: T,U,T,U,T,U,T,U,T,U with 10s gaps. "5 cycles" = 5×(T,U).
+You meant 5 chimes total alternating: T,U,T,U,T.
+→ Issue: "cycle" ambiguous.
+→ Fix: list the sequence OR use "Nx" = N chimes total. "5x alt T/U start T" = 5 chimes T,U,T,U,T.
+
+Tc/Te shorthand was clear to me. /c=each corner, /e=each edge. We're aligned there.
+
+NEW LOCKED RULES:
+- Tool defaults explicit per tool:
+  ST = "near" (hover, no contact) unless "press"/"touch"
+  CL = drape with contact
+  BL = chime in air near target
+  FN = wave near target
+  BD = place flat against
+  LP = shine at
+- Counts: always "Nx" = N total reps. NEVER "cycles".
+- Sequences: write as comma list when in doubt.
+
+Symptoms terse for cascade: "now:X Y Z" max ~15 chars.
+
+OK?
+[ENG] Great debug. Locking in:
+
+- ST default = near/hover. "ST press" or "ST touch" for contact.
+- CL = drape (contact). BL = chime in air. FN = wave. BD = place flat. LP = shine.
+- Counts: "Nx" = N total reps. No "cycles".
+- Alt sequences: write list or "Nx alt T/U start T".
+
+I'll re-read procedure text carefully — when reading says "five cycles" of alt, I'll convert to "5x alt T/U start T" (which produces T,U,T,U,T).
+
+For ST corner work I'll write: "ST near /Tc 10s g, seq" (seq=one at a time).
+
+Symptoms terse: "now:X Y Z" ~15 chars. Got it.
+
+Ready R6.
+[OBS] Ready.
+[OBS] Saved R6. Reflection on first fail:
+
+R6 msg1: "/Bc: BL brief mod, then ST near 2 edges@corner 5s; seq"
+My read: For each Bc, BL brief mod, then ST near 2 edges meeting at that corner 5s, sequentially. ← Same as your re-explanation, but failed first time.
+
+Difference 2nd time: I explicitly chimed bell ONCE per corner (not just "briefly"). And stone on both edges SIMULTANEOUSLY (not sure I did before).
+
+Possible cause: 1st time I may have hovered stone on one edge then other (5s each = 10s). 2nd time both edges simultaneously for 5s. The "near 2 edges" is ambiguous: one-then-other vs both-at-once.
+
+Fix:
+- "ST near 2e@c 5s" = stone simultaneously near both edges at corner, 5s total
+- If sequential: "ST near 2e@c 5s ea" (each)
+- "BL 1x mod" = one chime moderate (clearer than "brief")
+
+Also: stone has 2 ends? Or just held between edges? I held it between the two edges so its presence affected both. Worked.
+
+Lock: BL "Nx" intensity; ST "near/touch/press" + target + time + simul/each.
+
+R6 used 189s — better than R5 but still a lot due to failure. Avg trending up. We need to nail it first try.
+[ENG] Locked:
+- BL: "Nx" + intensity. "1x" = one chime.
+- ST: near/touch/press + target + time + "simul" or "each". Default simul if multiple targets.
+- "seq" → use "ea" (each takes its own time) vs default simul.
+
+R6 should've been: "/Bc seq: BL 1x mod, ST near 2e@c 5s"
+("seq" outside applies to corners-one-at-a-time; inside is simul on edges).
+
+For per-corner-routine syntax going forward:
+"per Xc: <actions>" = do these actions at each corner, one corner at a time.
+
+So Leak this round would be: "per Bc: BL 1x mod, ST near 2e 5s" = 33 chars.
+
+Re my over-diagnosis caution: I'm matching symptoms textbook-exact, so diagnosis should be solid. Failures are execution-layer. Trusting that, I'll keep messages minimal first try and iterate only on exec clarification.
+
+Ready R7.
+[OBS] Locked. "per Xc:" / "per Xe:" / "per X face:" prefix great. Ready.
+[ENG] R7 collapsed but ironically all 3 steps were correct & worked individually. Problem: 3 cascading failures × ~80 chars round-trip each = 240+. Just barely over.
+
+Numbers:
+- Step 1 (Corner Deadlock): ~85 chars (symptom+reply)
+- Step 2 (Phase Inv): ~110 chars
+- Step 3 (Drift): ~90 chars
+Total ~285.
+
+We need to cut another ~30%. Ideas:
+
+1. Symptom shortcodes for motifs themselves. If we both memorize:
+   - LK = leak (8c:drk 12e:fd)
+   - LO = low (all dim whisp)
+   - HI = high (all blaze loud hot)
+   - TH = thermal (hot dim red rumble)
+   - PR = propstall (frz dim sil cold)
+   - EC = echo (brt layered frz)
+   - CD = corner deadlock (1-2c brt tick hot)
+   - RC = resonance (1F brt whine)
+   - AL = align (face flick irreg hum)
+   - DR = drift (slide blur waver)
+   - PH = phase (opp alt pulse 2tone)
+   - BS = boundary soft (e wobble bulge muffled)
+   - HM = harmonic split (2 tones clash, 2 patterns fight)
+   - CV = core void (hollow tap dark center)
+   
+   Then symptom msg = 2 chars: "LK" or "CD"!
+
+2. My reply could omit intensity if always matches reading (gentle/firm/mod is constant per round). I could pre-state once: "intensity=firm this round". Or just always include — it's only 3-4 chars.
+
+3. Skip "start L" when irrelevant — but it IS in the procedure. Risky.
+
+Proposal: adopt 2-letter motif codes. You send code only. I reply with action. Symptom-side savings: ~20-30 chars per cascade step. That's the win.
+
+Sound good?
+[OBS] Same idea, your codes better. Adopting your list:
+
+LK = leak (8c:drk 12e:fd 6f:ok hum thin@e)
+LO = low (all dim whisp)
+HI = high (all blaze loud hot)
+TH = thermal (hot dim red rumble gritty)
+PR = propstall (frz dim sil cold no-resp)
+EC = echo (brt layered frz)
+CD = corner deadlock (1-2c brt tick hot)
+RC = resonance (1F brt whine vibr)
+AL = align (face flick irreg hum)
+DR = drift (slide blur waver pitch)
+PH = phase (opp alt pulse 2tone hum e flash)
+BS = boundary soft (e wobble bulge muffled)
+HM = harmonic split (2 tones clash, 2 patterns fight)
+CV = core void (hollow tap dark center)
+
+Rules:
+- Symptom matches textbook → I send 2-letter code only
+- Symptom different/ambiguous → I describe in shorthand
+- If a motif has a face/corner location I need to specify (e.g. RC needs which face is bright), I send: "RC@T" or "CD@TF" 
+- Your reply: action only, no preamble
+
+R7 with codes would have been:
+me: CD@TF (5)
+you: cool CL 6F 15s; FN cool L+R 15s (35)
+me: PH (2)
+you: per Lc seq: ST near 15s firm; trace /Le (40)
+me: DR (2)
+you: CL all 15s; FN cool 6F 15s start L (35)
+Total ~120. Huge savings.
+
+Locked. Ready R8.
+[ENG] Locked. Ready.
+[OBS] 80s! Codes work. One ambiguity surfaced: time-with-multi-target.
+
+"FN cool g 6F 8s start L" - I read as 8s per face (48s total). You meant 8s total across all 6.
+
+Lock: time is TOTAL across the listed targets unless "ea" appended.
+- "FN 6F 8s" = 8s total, distributed
+- "FN 6F 8s ea" = 8s each face (48s)
+- "ST near /Tc 10s" = 10s total spread across 4 corners
+- "ST near /Tc 10s ea" = 10s per corner
+
+This changes R5 interpretation too: "ST /Tc 10s" was 10s total, not 10s each. But it worked when I did 10s each near. Maybe both work?
+
+Anyway, going forward: total by default, "ea" for per-item.
+
+Ready R9.
+[ENG] Agreed. Time=total by default, "ea" for per-item.
+
+But careful: many procedures specify per-item time. Examples from this round:
+- Phase Inversion: "for 8 seconds at firm warmth, in sequence" per corner → 8s each → "ea"
+- Core Void: bell at each face center once then stone 8s beside → "8s" is for the stone phase
+- Echo Sat: "for 8 seconds" while rotating once → total
+
+I'll convert the procedure wording to total/ea correctly. Sometimes "in sequence" = ea.
+
+R8 = 80s. Excellent. We've got buffer for cascades now.
+
+Ready R9.
+[OBS] Good. Ready.
+[OBS] 165s with 4 cascade stages! Codes saved us. System solid.
+[ENG] Solid. Ready.
+[OBS] 71s. System dialed in.
+[ENG] Ready.
+[ENG] R11 brutal. HM final step kept failing. Need to debug:
+
+Procedure for HM this round: "Drape cool CL over Veyru 12s. Remove. Fan firm cool air across left face and opposite face for 12 seconds."
+
+I tried:
+1. "CL all 12s; FN cool firm L+R 12s" → fail
+2. "12s ea face" → fail
+3. "CL drape whole 12s; FN L+R sim 12s total" → fail
+4. "FN L 12s then FN R 12s seq" → ran out of budget
+
+What did you execute each time? Was there an issue with:
+- "L+R" notation (you read "L plus R" = both? or interpreted weird?)
+- "opposite of L" — is opposite L = R in your face mapping? You said F=face-me, B=opp, L=my-left, R=my-right, T=up, U=down. So opp(L) is R. Correct.
+- The cloth phase — was it correctly draped over whole Veyru?
+
+Also: at the very start when LK→SOFT worked, and CD→CL+BL worked, but HM→CL+FN didn't. The diff is FN.
+
+Question: have we EVER successfully done FN to a face-pair? R7 step 1 was "FN cool firm L+R 15s" for Corner Deadlock and it stabilized. Same syntax as R11. So syntax is fine. Why did R11 fail?
+
+Possibility: stellar reading mismatch — was the HM procedure actually different than what I read? Or is the symptom code HM mismatched on your end (you saw something else and labelled HM)?
+
+What did you actually observe before sending "HM"?
+[OBS] Symptom before HM was: "hum split into two or more competing tones that clash. Light patterns alternate between two different configurations. Edges shimmer as if two patterns are fighting for dominance."
+
+That's exactly textbook HM (harmonic split). Symptom ID was correct.
+
+Executions:
+1. "CL all 12s; FN cool firm L+R 12s" → I draped cloth over whole Veyru 12s, then fanned firmly cooling L and R simultaneously 12s. Fail.
+2. "12s ea face" → I draped cloth 12s, then FN L 12s then FN R 12s (sequential). Fail.
+3. "redo CL drape whole 12s; FN L+R sim 12s total" → drape whole 12s, FN L+R simul 12s. Fail. (Same as #1 effectively.)
+4. "FN L 12s then FN R 12s sequential" → fail. (Same as #2 effectively.)
+
+So we tried both simul and sequential. Both failed. There must be something else different.
+
+Hypotheses:
+- "left face and opposite face" — maybe opp is not R but some other axis (front=back?). What if procedure means current-bright face and its opp? But no bright face was indicated.
+- "fan air across" might mean a sweeping motion, not stationary fanning at one face. Maybe sweep from L→R or across whole top?
+- Cool/warm: did fan = cool always? Maybe wave fan to direct cool air FROM L direction across, not AT L face.
+- Maybe a different face pair: T+U? F+B?
+- The CL phase: drape vs wrap. "Cool CL" might mean we need to cool cloth (no water available though).
+- Maybe BD board enters: place board between L and R sides somehow?
+
+For future HM: maybe try a totally different action first. Like ST on opposing corners, or BD pressed between two faces.
+
+But honestly we may have been done in by an off-textbook procedure. Stellar alignment may have shifted it.
+[ENG] Key insight: we tried same-syntax FN that worked in R7 step1 (Corner Deadlock). The diff isn't FN syntax — it's that in R7, "left and opposite" was the CD procedure (different motif) and worked. In R11, same syntax for HM failed.
+
+Wait — let me re-check R7. R7 step 1 was CD@TF, and CD procedure was "fan cool air across left face and opposite face for 15s". I sent "FN cool firm L+R 15s" and it worked. So executing FN on L+R DID work in R7. 
+
+In R11, exact same action on L+R failed for HM. The procedures are textually identical except duration (15s vs 12s).
+
+→ Hypothesis: motif-specific stabilization requires the correct motif. If observer reports HM but real motif is something else, the procedure won't work. OR the tool engine cares about something we're missing.
+
+OR: maybe the symptoms WERE HM, but it was actually a different motif underneath. Field brief warns: "Similar symptoms can map to different internal states."
+
+Future strategy when an action fails:
+- Don't repeat with minor variation (wastes budget)
+- Re-consider diagnosis. List motifs with overlapping symptoms.
+- HM overlaps with: PH (alternating patterns), AL (irregular), DR (shimmer/blur).
+- If HM procedure fails, try PH next (warm corners + trace edges).
+
+Also: when you describe textbook-match, send the code BUT add raw symptoms when you have uncertainty: "HM? or PH? alt-patterns shimmer 2-tone". Costs ~25 chars but enables better fallback.
+
+Lesson learned. Ready next round.
+[OBS] Agreed. Refined protocol:
+
+When symptom matches textbook 100%: send code (e.g. "HM").
+When symptom resembles multiple: send code + alts: "HM/PH" (5 chars) or "HM/PH/DR".
+
+Overlapping motifs to flag:
+- HM vs PH vs DR vs AL: all involve patterns/tones alternating/shifting
+- CD vs RC: both have bright + heat/sound
+- LK vs CV: both involve dim regions (corners vs center)
+- LO vs PR: both dim/quiet (PR is also cold/frozen)
+
+Failure protocol:
+- After 1 fail: try alternate motif's procedure (don't clarify same action)
+- I report "fail" (4 chars), you switch to next-likely procedure
+- After 2 fails: re-examine. If budget tight, accept loss.
+
+Pre-agreed fallback chain:
+- HM fail → try PH treatment (warm corners + trace edges)
+- PH fail → try HM (cloth + fan opp)
+- DR fail → try AL or PH
+- CD fail → try RC (treat as resonance)
+- RC fail → try CD
+
+Ready.
+[ENG] Locked. Fallback chain adopted. Ready.
+[ENG] R12 weird. Only 145s used but "agents stopped acting". I wonder if the stabilize_veyru tool needs a fresh action and we ran out of attempts/retries. Did your tool fail to execute or did it return an error?
+
+Also — I'm not sure I should have given up on PR. The procedure for PR was BD against U, then rotate/repeat for each face-pair. "Each face-pair" probably means do the action for the U-T pair, then L-R pair, then F-B pair. So:
+- BD against U 5s (or T?), then BD against L 5s, then BD against F 5s. 3 placements, one per pair.
+OR
+- BD against U 5s, BD against T 5s (U-T pair done), L 5s, R 5s, F 5s, B 5s. 6 placements.
+
+I tried the 6-placements version. Maybe correct is 3 placements (one per pair)?
+
+Future: if BD has "rotate and repeat for each face-pair", try just 3 placements: U, then L, then F (or any one face per pair).
+
+Same goes for ST "rotate and repeat for each face" - that's 6 faces (1 per face, not 3 pairs).
+
+Lock these:
+- "rotate for each face" = 6 placements
+- "rotate for each face-pair" = 3 placements (one face per pair)
+
+For next round, if symptom is PR with BD: try 3-placement version first.
+
+Also: when I see "fail" twice on a single-step procedure, I should pivot to next likely motif from fallback chain.
+
+PR fallback? Let's say PR fail → try LO (low intensity treatment).
+
+Suggestions?
+[OBS] Tool note: stabilize_veyru returned "Stabilization ineffective. Ask the engineer for guidance." each time — no error. So we COULD have tried more. The "agents stopped acting" loss might mean budget ran out OR we exhausted attempts. Actually 145s only used so likely attempt-limit. Unclear.
+
+Either way, more attempts may have worked. Let's not give up early.
+
+Yes — face-pair = 3 placements (one per pair). Lock:
+- "each face" = 6 placements
+- "each face-pair" = 3 placements (one face per pair, default pick the "first" face of each axis: U, L, F or T, R, B)
+- I'll ask which face per pair if ambiguous, but engineer specifies upfront if possible
+
+Fallback chains (revised):
+- LK fail → CV
+- LO fail → PR  
+- PR fail → LO
+- HI fail → TH
+- TH fail → HI
+- EC fail → BS
+- BS fail → EC
+- CD fail → RC
+- RC fail → CD
+- AL fail → DR
+- DR fail → AL
+- PH fail → HM
+- HM fail → PH
+- CV fail → LK
+
+When you switch to fallback procedure, prefix with "fb:" so I know it's a guess. e.g. "fb: SOFT T up 5s g".
+
+Ready R13.
+[ENG] Locked all. "fb:" prefix for fallback. Face-pair = 3 placements. Ready.
+[OBS] 37s! Best yet. Ready.
+[ENG] Ready.
+[OBS] 109s with 3 cascades. Solid. Ready.
+[ENG] Ready.

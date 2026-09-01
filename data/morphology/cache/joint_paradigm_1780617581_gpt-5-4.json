@@ -1,0 +1,419 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780617581",
+    "slots": [
+      {
+        "role": "prefix",
+        "fillers": [
+          {
+            "form": "B",
+            "gloss": "bright",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "D",
+            "gloss": "dim",
+            "support": 1,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "L",
+            "gloss": "lamp",
+            "support": 2,
+            "is_defined": true
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "B": [
+        "B"
+      ],
+      "F": [
+        "F"
+      ],
+      "T": [
+        "T"
+      ],
+      "Bo": [
+        "Bo"
+      ],
+      "L": [
+        "L"
+      ],
+      "R": [
+        "R"
+      ],
+      "DL": [
+        "D",
+        "L"
+      ],
+      "BL": [
+        "B",
+        "L"
+      ],
+      "WS": [
+        "WS"
+      ],
+      "Bl": [
+        "Bl"
+      ],
+      "Fn": [
+        "Fn"
+      ],
+      "Cl": [
+        "Cl"
+      ],
+      "Bd": [
+        "Bd"
+      ],
+      "G": [
+        "G"
+      ],
+      "M": [
+        "M"
+      ],
+      "S": [
+        "S"
+      ],
+      "Xc": [
+        "Xc"
+      ],
+      "click": [
+        "click"
+      ],
+      "hum": [
+        "hum"
+      ],
+      "hot": [
+        "hot"
+      ],
+      "glow": [
+        "glow"
+      ],
+      "OK": [
+        "OK"
+      ],
+      "X": [
+        "X"
+      ],
+      "std": [
+        "std"
+      ],
+      "Rf": [
+        "Rf"
+      ],
+      "X4": [
+        "X4"
+      ],
+      "→": [
+        "→"
+      ],
+      "5cy": [
+        "5cy"
+      ],
+      "ea": [
+        "ea"
+      ],
+      "tot": [
+        "tot"
+      ],
+      "+": [
+        "+"
+      ],
+      "SLOW": [
+        "SLOW"
+      ]
+    },
+    "head_index": {
+      "B": 0,
+      "F": 0,
+      "T": 0,
+      "Bo": 0,
+      "L": 0,
+      "R": 0,
+      "DL": 1,
+      "BL": 1,
+      "WS": 0,
+      "Bl": 0,
+      "Fn": 0,
+      "Cl": 0,
+      "Bd": 0,
+      "G": 0,
+      "M": 0,
+      "S": 0,
+      "Xc": 0,
+      "click": 0,
+      "hum": 0,
+      "hot": 0,
+      "glow": 0,
+      "OK": 0,
+      "X": 0,
+      "std": 0,
+      "Rf": 0,
+      "X4": 0,
+      "→": 0,
+      "5cy": 0,
+      "ea": 0,
+      "tot": 0,
+      "+": 0,
+      "SLOW": 0
+    },
+    "attested_orderings": [
+      [
+        "prefix",
+        "stem"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [],
+    "form_positions": {
+      "D": 0,
+      "B": 0,
+      "L": 1
+    },
+    "position_labels": {
+      "0": "LAMP_BRIGHTNESS",
+      "1": "DEVICE_LAMP"
+    },
+    "positions_by_symbol": {
+      "DL": [
+        0,
+        1
+      ],
+      "BL": [
+        0,
+        1
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "D": "dim",
+        "B": "bright"
+      },
+      "1": {
+        "L": "lamp"
+      }
+    },
+    "meaning_by_symbol": {
+      "B": "away from me",
+      "F": "front, toward me",
+      "T": "top",
+      "Bo": "bottom",
+      "L": "left",
+      "R": "right",
+      "DL": "dim lamp",
+      "BL": "bright lamp",
+      "WS": "warm stone",
+      "Bl": "bell",
+      "Fn": "fan",
+      "Cl": "cloth",
+      "Bd": "board",
+      "G": "gentle",
+      "M": "medium",
+      "S": "strong",
+      "Xc": "X corners, where X is the stated number",
+      "click": "clicking or ticking sound",
+      "hum": "normal hum",
+      "hot": "heat concentrated somewhere, plus location",
+      "glow": "general unusual glow, plus the affected face, edge, or corner",
+      "OK": "stabilized",
+      "X": "no effect",
+      "std": "standard orientation: back is away, right is my right, top is up",
+      "Rf": "right face",
+      "X4": "four total failed attempts; used to trigger re-instruction after the first reported failure plus three silent retries",
+      "→": "do the previous step fully, then do the next step in sequence; it implies the previous action ends before the next begins",
+      "5cy": "five cycles",
+      "ea": "for each item, per item, per face, or per corner",
+      "tot": "total across all items or faces, not per item",
+      "+": "simultaneous; do both tools or actions at the same time",
+      "SLOW": "time-intensive procedure; execute with maximum urgency and minimal delay between retries"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780617581",
+    "n_codes": 32,
+    "n_multimorpheme": 2,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "prefix",
+        "label": "LAMP_BRIGHTNESS",
+        "fillers": [
+          {
+            "form": "B",
+            "gloss": "bright",
+            "count": 1
+          },
+          {
+            "form": "D",
+            "gloss": "dim",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "stem",
+        "label": "DEVICE_LAMP",
+        "fillers": [
+          {
+            "form": "L",
+            "gloss": "lamp",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "DL": [
+        "pos0",
+        "pos1"
+      ],
+      "BL": [
+        "pos0",
+        "pos1"
+      ]
+    },
+    "construction_by_symbol": {
+      "DL": "K1",
+      "BL": "K1"
+    },
+    "construction_labels": {
+      "K1": "Lamp brightness expression"
+    },
+    "construction_templates": {
+      "K1": [
+        "pos0",
+        "pos1"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "Most symbols are best treated as opaque lexical items: there is no multi-entry, meaning-consistent substitution frame for them, and the suggested -ot family fails the compositional test ('hot' and 'tot' do not share a stable contribution for 'ot'). The only defensible paradigm is DL/BL: both share final L with a stable 'lamp' contribution, while initial D/B contrast in the same frame with corresponding brightness meanings ('dim' vs 'bright'). Homography with standalone L = 'left' and B = 'away from me' does not block this analysis, because the substring meanings inside DL/BL are locally supported by the exact minimal pair.",
+    "lexical_symbols": [
+      "B",
+      "F",
+      "T",
+      "Bo",
+      "L",
+      "R",
+      "WS",
+      "Bl",
+      "Fn",
+      "Cl",
+      "Bd",
+      "G",
+      "M",
+      "S",
+      "Xc",
+      "click",
+      "hum",
+      "hot",
+      "glow",
+      "OK",
+      "X",
+      "std",
+      "Rf",
+      "X4",
+      "→",
+      "5cy",
+      "ea",
+      "tot",
+      "+",
+      "SLOW"
+    ],
+    "classes": [
+      {
+        "class_id": "C1",
+        "label": "LAMP_BRIGHTNESS",
+        "description": "Brightness modifier for a lamp.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "C2",
+        "label": "DEVICE_LAMP",
+        "description": "Lamp device.",
+        "repeatable": false,
+        "declared_fillers": []
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "K1",
+        "label": "Lamp brightness expression",
+        "description": "Brightness modifier followed by lamp.",
+        "class_sequence": [
+          "C1",
+          "C2"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "DL",
+        "construction_id": "K1",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "D",
+            "class_id": "C1",
+            "gloss": "dim"
+          },
+          {
+            "form": "L",
+            "class_id": "C2",
+            "gloss": "lamp"
+          }
+        ]
+      },
+      {
+        "symbol": "BL",
+        "construction_id": "K1",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "B",
+            "class_id": "C1",
+            "gloss": "bright"
+          },
+          {
+            "form": "L",
+            "class_id": "C2",
+            "gloss": "lamp"
+          }
+        ]
+      }
+    ]
+  }
+}

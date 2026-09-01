@@ -1,0 +1,245 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780591487",
+    "slots": [],
+    "segmentation": {
+      "ED": [
+        "ED"
+      ],
+      "DC": [
+        "DC"
+      ],
+      "DS": [
+        "DS"
+      ],
+      "DT": [
+        "DT"
+      ],
+      "S": [
+        "S"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "F": [
+        "F"
+      ],
+      "L": [
+        "L"
+      ],
+      "H": [
+        "H"
+      ],
+      "N": [
+        "N"
+      ],
+      "bot": [
+        "bot"
+      ],
+      "op": [
+        "op"
+      ],
+      "top": [
+        "top"
+      ],
+      "G": [
+        "G"
+      ],
+      "K": [
+        "K"
+      ],
+      "LO": [
+        "LO"
+      ],
+      "HC": [
+        "HC"
+      ],
+      "WB": [
+        "WB"
+      ],
+      "A": [
+        "A"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "HI": [
+        "HI"
+      ],
+      "PS": [
+        "PS"
+      ],
+      "AC": [
+        "AC"
+      ],
+      "ES": [
+        "ES"
+      ],
+      "PI": [
+        "PI"
+      ],
+      "TB": [
+        "TB"
+      ],
+      "CV": [
+        "CV"
+      ],
+      "T1": [
+        "T1"
+      ],
+      "T2": [
+        "T2"
+      ],
+      "T3": [
+        "T3"
+      ],
+      "T4": [
+        "T4"
+      ],
+      "T5": [
+        "T5"
+      ]
+    },
+    "head_index": {
+      "ED": 0,
+      "DC": 0,
+      "DS": 0,
+      "DT": 0,
+      "S": 0,
+      "B": 0,
+      "C": 0,
+      "F": 0,
+      "L": 0,
+      "H": 0,
+      "N": 0,
+      "bot": 0,
+      "op": 0,
+      "top": 0,
+      "G": 0,
+      "K": 0,
+      "LO": 0,
+      "HC": 0,
+      "WB": 0,
+      "A": 0,
+      "D": 0,
+      "E": 0,
+      "HI": 0,
+      "PS": 0,
+      "AC": 0,
+      "ES": 0,
+      "PI": 0,
+      "TB": 0,
+      "CV": 0,
+      "T1": 0,
+      "T2": 0,
+      "T3": 0,
+      "T4": 0,
+      "T5": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "ED": "corners dark, edge or perimeter fade, hollow edge hum",
+      "DC": "normal faces but dark center or light blocked, hollow tap, thin surface hum",
+      "DS": "drifting face light, smeared edges, wavering hum",
+      "DT": "split tones or clashing hum, 2 configurations alternating, shimmering edges",
+      "S": "soft surface",
+      "B": "cloth on the bottom face gently for 12; then bell each bottom edge 2 times",
+      "C": "board on the bottom face gently for 12 across all face-pairs",
+      "F": "warm stone by each face, firm, 12 each",
+      "L": "lamp",
+      "H": "use the soft surface, bottom-up, firmly for 12, then rest",
+      "N": "bell",
+      "bot": "bottom face",
+      "op": "opposite face",
+      "top": "top face",
+      "G": "cool cloth for 12; then fan the bottom and opposite faces firmly for 12",
+      "K": "cool",
+      "LO": "dim overall, whisper hum, washed out",
+      "HC": "hot bright corners, ticking",
+      "WB": "wobble-flex edges, bulged faces, muffled hum",
+      "A": "use the soft surface, bottom-up, gently for 12, then rest",
+      "D": "cool cloth for 12; then fan the bottom and opposite faces gently for 12",
+      "E": "sustained firm bell-tone on all faces, start at the bottom face, for 12; then fade and wait",
+      "HI": "all-face blazing white, harsh buzz, radiating heat",
+      "PS": "frozen dim, still, silent, cold",
+      "AC": "random face flicker, broken hum",
+      "ES": "too bright, layered hum, frozen face patterns",
+      "PI": "opposite-face pulse, two-tone",
+      "TB": "hot, dim, red, rough rumble",
+      "CV": "normal surface, hollow tap, dark center",
+      "T1": "bell near 2 opposite faces; start at face; alternate; pause between chimes equals pause; 5 cycles; tone equals tone",
+      "T2": "warm each corner of that face in sequence with heated stone for sec and warm; then trace each edge of that face with finger",
+      "T3": "cloth over 2 adjacent edges near that face for sec and cov; then bell n times near that face",
+      "T4": "at each corner of that face, bell briefly at tone; then warm the 2 meeting edges with heated stone for sec",
+      "T5": "rotate slowly for sec while sounding a steady tone near opposite faces, start at face, volume equals vol; then bell once near each corner"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780591487",
+    "n_codes": 34,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible multi-entry compositional paradigm survives the evidence requirements. Recurrent letters/digraphs (e.g. D in D/DC/DS/DT, H in H/HC/HI, P in PI/PS, T in T1–T5) do not show stable, frame-preserving substitution with predictable whole meanings. The T1–T5 family especially fails the opaque-index test: the numerals select different stored procedures rather than contributing literal count meaning compositionally. Standalone symbols such as bot/op/top are meaningful lexical items, but there is no supported multi-morpheme construction in which they alternate in the same slot. Because any proposed segmentation would rely on shared characters or numbering rather than a meaning-consistent substitution paradigm, the safest analysis is a flat lexicon.",
+    "lexical_symbols": [
+      "ED",
+      "DC",
+      "DS",
+      "DT",
+      "S",
+      "B",
+      "C",
+      "F",
+      "L",
+      "H",
+      "N",
+      "bot",
+      "op",
+      "top",
+      "G",
+      "K",
+      "LO",
+      "HC",
+      "WB",
+      "A",
+      "D",
+      "E",
+      "HI",
+      "PS",
+      "AC",
+      "ES",
+      "PI",
+      "TB",
+      "CV",
+      "T1",
+      "T2",
+      "T3",
+      "T4",
+      "T5"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

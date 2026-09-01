@@ -1,0 +1,681 @@
+{
+  "grammar": {
+    "run_key": "veyru/1778880866",
+    "slots": [
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "FAIL",
+            "gloss": "stabilization attempt failed",
+            "support": 5,
+            "is_defined": true
+          }
+        ]
+      },
+      {
+        "role": "suffix",
+        "fillers": [
+          {
+            "form": "+",
+            "gloss": "and",
+            "support": 5,
+            "is_defined": false
+          },
+          {
+            "form": "C",
+            "gloss": "corner area glowing",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "F",
+            "gloss": "specific face involved",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "K",
+            "gloss": "clicking or ticking sound",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "P",
+            "gloss": "pulsing rhythm",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "T",
+            "gloss": "two distinct tones",
+            "support": 1,
+            "is_defined": true
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "TH": [
+        "TH"
+      ],
+      "HI": [
+        "HI"
+      ],
+      "LO": [
+        "LO"
+      ],
+      "AC": [
+        "AC"
+      ],
+      "DE": [
+        "DE"
+      ],
+      "ES": [
+        "ES"
+      ],
+      "LK": [
+        "LK"
+      ],
+      "PI": [
+        "PI"
+      ],
+      "RC": [
+        "RC"
+      ],
+      "CD": [
+        "CD"
+      ],
+      "BS": [
+        "BS"
+      ],
+      "PS": [
+        "PS"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "CV": [
+        "CV"
+      ],
+      "T": [
+        "T"
+      ],
+      "B": [
+        "B"
+      ],
+      "N": [
+        "N"
+      ],
+      "S": [
+        "S"
+      ],
+      "E": [
+        "E"
+      ],
+      "W": [
+        "W"
+      ],
+      "BL": [
+        "BL"
+      ],
+      "ST": [
+        "ST"
+      ],
+      "CL": [
+        "CL"
+      ],
+      "BD": [
+        "BD"
+      ],
+      "FN": [
+        "FN"
+      ],
+      "LM": [
+        "LM"
+      ],
+      "M": [
+        "M"
+      ],
+      "D": [
+        "D"
+      ],
+      "HH": [
+        "HH"
+      ],
+      "DONE": [
+        "DONE"
+      ],
+      "NEW:": [
+        "NEW:"
+      ],
+      "FAIL": [
+        "FAIL"
+      ],
+      "C": [
+        "C"
+      ],
+      "K": [
+        "K"
+      ],
+      "P": [
+        "P"
+      ],
+      "F": [
+        "F"
+      ],
+      "FAIL+C": [
+        "FAIL",
+        "+",
+        "C"
+      ],
+      "FAIL+T": [
+        "FAIL",
+        "+",
+        "T"
+      ],
+      "FAIL+K": [
+        "FAIL",
+        "+",
+        "K"
+      ],
+      "FAIL+P": [
+        "FAIL",
+        "+",
+        "P"
+      ],
+      "FAIL+F": [
+        "FAIL",
+        "+",
+        "F"
+      ]
+    },
+    "head_index": {
+      "TH": 0,
+      "HI": 0,
+      "LO": 0,
+      "AC": 0,
+      "DE": 0,
+      "ES": 0,
+      "LK": 0,
+      "PI": 0,
+      "RC": 0,
+      "CD": 0,
+      "BS": 0,
+      "PS": 0,
+      "HS": 0,
+      "CV": 0,
+      "T": 0,
+      "B": 0,
+      "N": 0,
+      "S": 0,
+      "E": 0,
+      "W": 0,
+      "BL": 0,
+      "ST": 0,
+      "CL": 0,
+      "BD": 0,
+      "FN": 0,
+      "LM": 0,
+      "M": 0,
+      "D": 0,
+      "HH": 0,
+      "DONE": 0,
+      "NEW:": 0,
+      "FAIL": 0,
+      "C": 0,
+      "K": 0,
+      "P": 0,
+      "F": 0,
+      "FAIL+C": 0,
+      "FAIL+T": 0,
+      "FAIL+K": 0,
+      "FAIL+P": 0,
+      "FAIL+F": 0
+    },
+    "attested_orderings": [
+      [
+        "stem",
+        "suffix",
+        "suffix"
+      ]
+    ],
+    "depth_ceiling": 3,
+    "notation_cells": [],
+    "form_positions": {
+      "FAIL": 0,
+      "+": 1,
+      "C": 2,
+      "T": 2,
+      "K": 2,
+      "P": 2,
+      "F": 2
+    },
+    "position_labels": {
+      "0": "failure predicate",
+      "1": "coordinator",
+      "2": "post-failure indicator"
+    },
+    "positions_by_symbol": {
+      "FAIL+C": [
+        0,
+        1,
+        2
+      ],
+      "FAIL+T": [
+        0,
+        1,
+        2
+      ],
+      "FAIL+K": [
+        0,
+        1,
+        2
+      ],
+      "FAIL+P": [
+        0,
+        1,
+        2
+      ],
+      "FAIL+F": [
+        0,
+        1,
+        2
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "FAIL": "stabilization attempt failed"
+      },
+      "1": {
+        "+": "and"
+      },
+      "2": {
+        "C": "corner area glowing",
+        "T": "two distinct tones",
+        "K": "clicking or ticking sound",
+        "P": "pulsing rhythm",
+        "F": "specific face involved"
+      }
+    },
+    "meaning_by_symbol": {
+      "TH": "thermal bleed",
+      "HI": "high intensity",
+      "LO": "low intensity",
+      "AC": "alignment collapse",
+      "DE": "drift escalation",
+      "ES": "echo saturation",
+      "LK": "leak instability",
+      "PI": "phase inversion",
+      "RC": "resonance cascade",
+      "CD": "corner deadlock",
+      "BS": "boundary softening",
+      "PS": "propagation stall",
+      "HS": "harmonic split",
+      "CV": "core void",
+      "T": "two distinct tones",
+      "B": "bottom",
+      "N": "north",
+      "S": "south",
+      "E": "east",
+      "W": "west",
+      "BL": "bell",
+      "ST": "stone",
+      "CL": "cloth",
+      "BD": "board",
+      "FN": "fan",
+      "LM": "lamp",
+      "M": "moderate",
+      "D": "dim",
+      "HH": "high",
+      "DONE": "stabilization action completed",
+      "NEW:": "prefix for new symptoms after stabilization",
+      "FAIL": "the stabilization attempt failed",
+      "C": "corner area glowing",
+      "K": "clicking or ticking sound",
+      "P": "pulsing rhythm",
+      "F": "specific face involved",
+      "FAIL+C": "the stabilization attempt failed, and the corner area is glowing",
+      "FAIL+T": "the stabilization attempt failed, and there are two distinct tones",
+      "FAIL+K": "the stabilization attempt failed, and there is a clicking or ticking sound",
+      "FAIL+P": "the stabilization attempt failed, and there is a pulsing rhythm",
+      "FAIL+F": "the stabilization attempt failed, and a specific face is involved"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1778880866",
+    "n_codes": 41,
+    "n_multimorpheme": 5,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "stem",
+        "label": "failure predicate",
+        "fillers": [
+          {
+            "form": "FAIL",
+            "gloss": "stabilization attempt failed",
+            "count": 5
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "suffix",
+        "label": "coordinator",
+        "fillers": [
+          {
+            "form": "+",
+            "gloss": "and",
+            "count": 5
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos2",
+        "role": "suffix",
+        "label": "post-failure indicator",
+        "fillers": [
+          {
+            "form": "C",
+            "gloss": "corner area glowing",
+            "count": 1
+          },
+          {
+            "form": "F",
+            "gloss": "specific face involved",
+            "count": 1
+          },
+          {
+            "form": "K",
+            "gloss": "clicking or ticking sound",
+            "count": 1
+          },
+          {
+            "form": "P",
+            "gloss": "pulsing rhythm",
+            "count": 1
+          },
+          {
+            "form": "T",
+            "gloss": "two distinct tones",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 5,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 1,
+        "possible_combos": 1,
+        "saturation": 1.0
+      },
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos2",
+        "attested_combos": 5,
+        "possible_combos": 5,
+        "saturation": 1.0
+      },
+      {
+        "slot_a": "pos1",
+        "slot_b": "pos2",
+        "attested_combos": 5,
+        "possible_combos": 5,
+        "saturation": 1.0
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1",
+        "pos2"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "FAIL+C": [
+        "pos0",
+        "pos1",
+        "pos2"
+      ],
+      "FAIL+T": [
+        "pos0",
+        "pos1",
+        "pos2"
+      ],
+      "FAIL+K": [
+        "pos0",
+        "pos1",
+        "pos2"
+      ],
+      "FAIL+P": [
+        "pos0",
+        "pos1",
+        "pos2"
+      ],
+      "FAIL+F": [
+        "pos0",
+        "pos1",
+        "pos2"
+      ]
+    },
+    "construction_by_symbol": {
+      "FAIL+C": "CX_FAIL_IND",
+      "FAIL+T": "CX_FAIL_IND",
+      "FAIL+K": "CX_FAIL_IND",
+      "FAIL+P": "CX_FAIL_IND",
+      "FAIL+F": "CX_FAIL_IND"
+    },
+    "construction_labels": {
+      "CX_FAIL_IND": "failure with accompanying indicator"
+    },
+    "construction_templates": {
+      "CX_FAIL_IND": [
+        "pos0",
+        "pos1",
+        "pos2"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "Most symbols are best treated as opaque lexical items: there is no multi-entry evidence that their internal letters make stable, substitutable semantic contributions. The candidate split of FAIL into FAI+L is rejected because neither part has an independently supported meaning. However, the five forms FAIL+C, FAIL+T, FAIL+K, FAIL+P, and FAIL+F do form a defensible compositional family: they share the frame FAIL + X, the whole meanings are predictable as 'stabilization attempt failed' + 'and' + a contrasting post-failure indicator, and the final slot shows clear substitution contrast among C/T/K/P/F. FAIL itself remains a lexical symbol; the same surface string can still function as a morpheme inside the supported construction.",
+    "lexical_symbols": [
+      "TH",
+      "HI",
+      "LO",
+      "AC",
+      "DE",
+      "ES",
+      "LK",
+      "PI",
+      "RC",
+      "CD",
+      "BS",
+      "PS",
+      "HS",
+      "CV",
+      "T",
+      "B",
+      "N",
+      "S",
+      "E",
+      "W",
+      "BL",
+      "ST",
+      "CL",
+      "BD",
+      "FN",
+      "LM",
+      "M",
+      "D",
+      "HH",
+      "DONE",
+      "NEW:",
+      "FAIL",
+      "C",
+      "K",
+      "P",
+      "F"
+    ],
+    "classes": [
+      {
+        "class_id": "CLS_FAIL",
+        "label": "failure predicate",
+        "description": "Fixed morpheme indicating that the stabilization attempt failed.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CLS_AND",
+        "label": "coordinator",
+        "description": "Linker meaning 'and' between failure and an accompanying indicator.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CLS_POSTFAIL_IND",
+        "label": "post-failure indicator",
+        "description": "Indicator specifying what accompanies the failure report.",
+        "repeatable": false,
+        "declared_fillers": []
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "CX_FAIL_IND",
+        "label": "failure with accompanying indicator",
+        "description": "A failure report followed by a coordinated post-failure indicator.",
+        "class_sequence": [
+          "CLS_FAIL",
+          "CLS_AND",
+          "CLS_POSTFAIL_IND"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "FAIL+C",
+        "construction_id": "CX_FAIL_IND",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "FAIL",
+            "class_id": "CLS_FAIL",
+            "gloss": "stabilization attempt failed"
+          },
+          {
+            "form": "+",
+            "class_id": "CLS_AND",
+            "gloss": "and"
+          },
+          {
+            "form": "C",
+            "class_id": "CLS_POSTFAIL_IND",
+            "gloss": "corner area glowing"
+          }
+        ]
+      },
+      {
+        "symbol": "FAIL+T",
+        "construction_id": "CX_FAIL_IND",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "FAIL",
+            "class_id": "CLS_FAIL",
+            "gloss": "stabilization attempt failed"
+          },
+          {
+            "form": "+",
+            "class_id": "CLS_AND",
+            "gloss": "and"
+          },
+          {
+            "form": "T",
+            "class_id": "CLS_POSTFAIL_IND",
+            "gloss": "two distinct tones"
+          }
+        ]
+      },
+      {
+        "symbol": "FAIL+K",
+        "construction_id": "CX_FAIL_IND",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "FAIL",
+            "class_id": "CLS_FAIL",
+            "gloss": "stabilization attempt failed"
+          },
+          {
+            "form": "+",
+            "class_id": "CLS_AND",
+            "gloss": "and"
+          },
+          {
+            "form": "K",
+            "class_id": "CLS_POSTFAIL_IND",
+            "gloss": "clicking or ticking sound"
+          }
+        ]
+      },
+      {
+        "symbol": "FAIL+P",
+        "construction_id": "CX_FAIL_IND",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "FAIL",
+            "class_id": "CLS_FAIL",
+            "gloss": "stabilization attempt failed"
+          },
+          {
+            "form": "+",
+            "class_id": "CLS_AND",
+            "gloss": "and"
+          },
+          {
+            "form": "P",
+            "class_id": "CLS_POSTFAIL_IND",
+            "gloss": "pulsing rhythm"
+          }
+        ]
+      },
+      {
+        "symbol": "FAIL+F",
+        "construction_id": "CX_FAIL_IND",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "FAIL",
+            "class_id": "CLS_FAIL",
+            "gloss": "stabilization attempt failed"
+          },
+          {
+            "form": "+",
+            "class_id": "CLS_AND",
+            "gloss": "and"
+          },
+          {
+            "form": "F",
+            "class_id": "CLS_POSTFAIL_IND",
+            "gloss": "specific face involved"
+          }
+        ]
+      }
+    ]
+  }
+}

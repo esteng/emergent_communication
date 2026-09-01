@@ -1,0 +1,323 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780423148",
+    "slots": [],
+    "segmentation": {
+      "C": [
+        "C"
+      ],
+      "T": [
+        "T"
+      ],
+      "W": [
+        "W"
+      ],
+      "K": [
+        "K"
+      ],
+      "F": [
+        "F"
+      ],
+      "L": [
+        "L"
+      ],
+      "D": [
+        "D"
+      ],
+      "B": [
+        "B"
+      ],
+      "S": [
+        "S"
+      ],
+      "OF": [
+        "OF"
+      ],
+      "AF": [
+        "AF"
+      ],
+      "AE": [
+        "AE"
+      ],
+      "AC": [
+        "AC"
+      ],
+      "2O": [
+        "2O"
+      ],
+      "2A": [
+        "2A"
+      ],
+      "m": [
+        "m"
+      ],
+      "f": [
+        "f"
+      ],
+      "p10": [
+        "p10"
+      ],
+      "p12": [
+        "p12"
+      ],
+      "xN": [
+        "xN"
+      ],
+      "ob": [
+        "ob"
+      ],
+      "lh": [
+        "lh"
+      ],
+      "fp": [
+        "fp"
+      ],
+      "tn": [
+        "tn"
+      ],
+      "h": [
+        "h"
+      ],
+      "d": [
+        "d"
+      ],
+      "rr": [
+        "rr"
+      ],
+      "rg": [
+        "rg"
+      ],
+      "lv": [
+        "lv"
+      ],
+      "hw": [
+        "hw"
+      ],
+      "lr": [
+        "lr"
+      ],
+      "R": [
+        "R"
+      ],
+      "b": [
+        "b"
+      ],
+      "pp": [
+        "pp"
+      ],
+      "hs": [
+        "hs"
+      ],
+      "g": [
+        "g"
+      ],
+      "EC": [
+        "EC"
+      ],
+      "ME": [
+        "ME"
+      ],
+      "ctr": [
+        "ctr"
+      ],
+      "natfade": [
+        "natfade"
+      ],
+      "ld": [
+        "ld"
+      ],
+      "bs": [
+        "bs"
+      ],
+      "hwv": [
+        "hwv"
+      ],
+      "nb": [
+        "nb"
+      ],
+      "tr": [
+        "tr"
+      ],
+      "fd": [
+        "fd"
+      ],
+      "adj": [
+        "adj"
+      ]
+    },
+    "head_index": {
+      "C": 0,
+      "T": 0,
+      "W": 0,
+      "K": 0,
+      "F": 0,
+      "L": 0,
+      "D": 0,
+      "B": 0,
+      "S": 0,
+      "OF": 0,
+      "AF": 0,
+      "AE": 0,
+      "AC": 0,
+      "2O": 0,
+      "2A": 0,
+      "m": 0,
+      "f": 0,
+      "p10": 0,
+      "p12": 0,
+      "xN": 0,
+      "ob": 0,
+      "lh": 0,
+      "fp": 0,
+      "tn": 0,
+      "h": 0,
+      "d": 0,
+      "rr": 0,
+      "rg": 0,
+      "lv": 0,
+      "hw": 0,
+      "lr": 0,
+      "R": 0,
+      "b": 0,
+      "pp": 0,
+      "hs": 0,
+      "g": 0,
+      "EC": 0,
+      "ME": 0,
+      "ctr": 0,
+      "natfade": 0,
+      "ld": 0,
+      "bs": 0,
+      "hwv": 0,
+      "nb": 0,
+      "tr": 0,
+      "fd": 0,
+      "adj": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "C": "bell",
+      "T": "tone",
+      "W": "warm stone",
+      "K": "cool cloth",
+      "F": "fan",
+      "L": "lamp",
+      "D": "drape cloth",
+      "B": "board",
+      "S": "soft-rest",
+      "OF": "opposite",
+      "AF": "all faces",
+      "AE": "edges",
+      "AC": "corners",
+      "2O": "opposite faces",
+      "2A": "adjacent edges",
+      "m": "moderate",
+      "f": "firm",
+      "p10": "pause 10 seconds",
+      "p12": "pause 12 seconds",
+      "xN": "repeat N times",
+      "ob": "overbright",
+      "lh": "layered hum",
+      "fp": "frozen patterns",
+      "tn": "touch no change",
+      "h": "hot",
+      "d": "dim",
+      "rr": "red tint",
+      "rg": "rough or gritty",
+      "lv": "local vibration",
+      "hw": "high whine",
+      "lr": "low rumble",
+      "R": "rotate slowly for the stated time, start face listed first",
+      "b": "bright, after lamp",
+      "pp": "opposite faces pulse",
+      "hs": "hum split or clash",
+      "g": "gentle",
+      "EC": "each corner in sequence",
+      "ME": "2 edges meeting at that corner",
+      "ctr": "center",
+      "natfade": "let fade, wait hum",
+      "ld": "light drifts",
+      "bs": "blur or smear at edges",
+      "hwv": "hum wavers",
+      "nb": "nearby, not touching",
+      "tr": "trace with finger",
+      "fd": "folded cloth",
+      "adj": "adjacent"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780423148",
+    "n_codes": 47,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible multi-entry paradigm survives the evidence requirements. The strongest apparent similarities are only surface resemblances, not compositional substitution frames with predictable meanings. In particular: (i) p10 and p12 do not support p1 + {0,2}, because 0 and 2 are not independently supported duration morphemes and the proposed pieces do not form a stable semantic paradigm; (ii) L 'lamp', b 'bright, after lamp', and d 'dim' do not license segmentation because no composed lamp+modifier entries such as Lb/Ld are actually present; (iii) AF/AE/AC and 2O/2A show recurring initial characters, but there is no supported class system in which the residues alternate in one shared frame with stable contributions; (iv) other repeated letters/digrams such as OF/F, ob/b, ld/d, fd/d, hw/hwv, etc. fail the opaque-index/compositionality tests. Therefore the safest analysis is a flat lexicon with all supplied symbols treated as lexical symbols and no paradigm network proposed.",
+    "lexical_symbols": [
+      "C",
+      "T",
+      "W",
+      "K",
+      "F",
+      "L",
+      "D",
+      "B",
+      "S",
+      "OF",
+      "AF",
+      "AE",
+      "AC",
+      "2O",
+      "2A",
+      "m",
+      "f",
+      "p10",
+      "p12",
+      "xN",
+      "ob",
+      "lh",
+      "fp",
+      "tn",
+      "h",
+      "d",
+      "rr",
+      "rg",
+      "lv",
+      "hw",
+      "lr",
+      "R",
+      "b",
+      "pp",
+      "hs",
+      "g",
+      "EC",
+      "ME",
+      "ctr",
+      "natfade",
+      "ld",
+      "bs",
+      "hwv",
+      "nb",
+      "tr",
+      "fd",
+      "adj"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

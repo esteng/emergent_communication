@@ -1,0 +1,677 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780449113",
+    "slots": [
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "glow-",
+            "gloss": "glow",
+            "support": 2,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "suffix",
+        "fillers": [
+          {
+            "form": "corner",
+            "gloss": "corner location",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "face",
+            "gloss": "face location",
+            "support": 1,
+            "is_defined": true
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "+": [
+        "+"
+      ],
+      "ok": [
+        "ok"
+      ],
+      "bright": [
+        "bright"
+      ],
+      "dim": [
+        "dim"
+      ],
+      "flicker": [
+        "flicker"
+      ],
+      "freeze": [
+        "freeze"
+      ],
+      "slide": [
+        "slide"
+      ],
+      "pulse": [
+        "pulse"
+      ],
+      "glow-corner": [
+        "glow-",
+        "corner"
+      ],
+      "glow-face": [
+        "glow-",
+        "face"
+      ],
+      "hum-ok": [
+        "hum-ok"
+      ],
+      "hum-irreg": [
+        "hum-irreg"
+      ],
+      "whine": [
+        "whine"
+      ],
+      "click": [
+        "click"
+      ],
+      "layered": [
+        "layered"
+      ],
+      "2tone": [
+        "2tone"
+      ],
+      "silent": [
+        "silent"
+      ],
+      "rumble": [
+        "rumble"
+      ],
+      "whisper": [
+        "whisper"
+      ],
+      "buzz": [
+        "buzz"
+      ],
+      "hot": [
+        "hot"
+      ],
+      "cold": [
+        "cold"
+      ],
+      "soft": [
+        "soft"
+      ],
+      "wobble": [
+        "wobble"
+      ],
+      "gritty": [
+        "gritty"
+      ],
+      "hollow": [
+        "hollow"
+      ],
+      "face": [
+        "face"
+      ],
+      "edge": [
+        "edge"
+      ],
+      "corner": [
+        "corner"
+      ],
+      "pulse-opp": [
+        "pulse-opp"
+      ],
+      "L": [
+        "L"
+      ],
+      "R": [
+        "R"
+      ],
+      "F": [
+        "F"
+      ],
+      "B": [
+        "B"
+      ],
+      "T": [
+        "T"
+      ],
+      "Bot": [
+        "Bot"
+      ],
+      "fail": [
+        "fail"
+      ],
+      "cl": [
+        "cl"
+      ],
+      "bl": [
+        "bl"
+      ],
+      "st": [
+        "st"
+      ],
+      "fn": [
+        "fn"
+      ],
+      "bd": [
+        "bd"
+      ],
+      "lp": [
+        "lp"
+      ],
+      "gentle": [
+        "gentle"
+      ],
+      "firm": [
+        "firm"
+      ],
+      "full": [
+        "full"
+      ],
+      "near": [
+        "near"
+      ],
+      "on": [
+        "on"
+      ],
+      "edges×2": [
+        "edges×2"
+      ],
+      "warm": [
+        "warm"
+      ],
+      "trace": [
+        "trace"
+      ],
+      "chime": [
+        "chime"
+      ],
+      "sound": [
+        "sound"
+      ],
+      "drape": [
+        "drape"
+      ],
+      "rest": [
+        "rest"
+      ],
+      "illum": [
+        "illum"
+      ],
+      "rotate": [
+        "rotate"
+      ],
+      "place": [
+        "place"
+      ],
+      "T1": [
+        "T1"
+      ],
+      "T2": [
+        "T2"
+      ],
+      "T3": [
+        "T3"
+      ],
+      "T4": [
+        "T4"
+      ],
+      "T5": [
+        "T5"
+      ],
+      "T6": [
+        "T6"
+      ],
+      "T7": [
+        "T7"
+      ],
+      "T8": [
+        "T8"
+      ],
+      "T9": [
+        "T9"
+      ],
+      "T10": [
+        "T10"
+      ],
+      "T11": [
+        "T11"
+      ],
+      "T12": [
+        "T12"
+      ],
+      "T13": [
+        "T13"
+      ],
+      "T14": [
+        "T14"
+      ]
+    },
+    "head_index": {
+      "+": 0,
+      "ok": 0,
+      "bright": 0,
+      "dim": 0,
+      "flicker": 0,
+      "freeze": 0,
+      "slide": 0,
+      "pulse": 0,
+      "glow-corner": 0,
+      "glow-face": 0,
+      "hum-ok": 0,
+      "hum-irreg": 0,
+      "whine": 0,
+      "click": 0,
+      "layered": 0,
+      "2tone": 0,
+      "silent": 0,
+      "rumble": 0,
+      "whisper": 0,
+      "buzz": 0,
+      "hot": 0,
+      "cold": 0,
+      "soft": 0,
+      "wobble": 0,
+      "gritty": 0,
+      "hollow": 0,
+      "face": 0,
+      "edge": 0,
+      "corner": 0,
+      "pulse-opp": 0,
+      "L": 0,
+      "R": 0,
+      "F": 0,
+      "B": 0,
+      "T": 0,
+      "Bot": 0,
+      "fail": 0,
+      "cl": 0,
+      "bl": 0,
+      "st": 0,
+      "fn": 0,
+      "bd": 0,
+      "lp": 0,
+      "gentle": 0,
+      "firm": 0,
+      "full": 0,
+      "near": 0,
+      "on": 0,
+      "edges×2": 0,
+      "warm": 0,
+      "trace": 0,
+      "chime": 0,
+      "sound": 0,
+      "drape": 0,
+      "rest": 0,
+      "illum": 0,
+      "rotate": 0,
+      "place": 0,
+      "T1": 0,
+      "T2": 0,
+      "T3": 0,
+      "T4": 0,
+      "T5": 0,
+      "T6": 0,
+      "T7": 0,
+      "T8": 0,
+      "T9": 0,
+      "T10": 0,
+      "T11": 0,
+      "T12": 0,
+      "T13": 0,
+      "T14": 0
+    },
+    "attested_orderings": [
+      [
+        "stem",
+        "suffix"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [],
+    "form_positions": {
+      "glow-": 0,
+      "face": 1,
+      "corner": 1
+    },
+    "position_labels": {
+      "0": "GLOW_EVENT",
+      "1": "LOCATION_TYPE"
+    },
+    "positions_by_symbol": {
+      "glow-face": [
+        0,
+        1
+      ],
+      "glow-corner": [
+        0,
+        1
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "glow-": "glow"
+      },
+      "1": {
+        "face": "face location",
+        "corner": "corner location"
+      }
+    },
+    "meaning_by_symbol": {
+      "+": "separate listed symptoms; the symptoms are combined in the order observed, with priority based on what is most extreme or dominant",
+      "ok": "stable; no new symptoms after a fix",
+      "bright": "bright light symptom",
+      "dim": "dim light symptom",
+      "flicker": "flickering light symptom",
+      "freeze": "frozen light symptom",
+      "slide": "sliding visual symptom",
+      "pulse": "pulsing light symptom",
+      "glow-corner": "glow at a corner",
+      "glow-face": "glow on a face",
+      "hum-ok": "normal hum",
+      "hum-irreg": "irregular hum",
+      "whine": "whining sound",
+      "click": "clicking sound",
+      "layered": "layered sound",
+      "2tone": "two-tone sound",
+      "silent": "silent; no sound",
+      "rumble": "rumbling sound",
+      "whisper": "whispering sound",
+      "buzz": "buzzing sound",
+      "hot": "hot to the touch",
+      "cold": "cold to the touch",
+      "soft": "soft to the touch",
+      "wobble": "wobbling physical symptom",
+      "gritty": "gritty to the touch",
+      "hollow": "hollow to the touch or on tapping",
+      "face": "a face location",
+      "edge": "an edge location",
+      "corner": "a corner location",
+      "pulse-opp": "pulsing on the opposite face",
+      "L": "left face",
+      "R": "right face",
+      "F": "front face; by default the face being looked at",
+      "B": "back face",
+      "T": "top face; by default the face pointing up",
+      "Bot": "bottom face; the opposite of top",
+      "fail": "the stabilize action failed; used as the failure report token",
+      "cl": "cloth bl=bell st=stone fn=fan bd=board lp=lamp",
+      "bl": "bell",
+      "st": "stone",
+      "fn": "fan",
+      "bd": "board",
+      "lp": "lamp",
+      "gentle": "gentle intensity",
+      "firm": "firm intensity",
+      "full": "full intensity",
+      "near": "close but not touching",
+      "on": "in contact",
+      "edges×2": "chime each edge twice",
+      "warm": "use warming as the action verb",
+      "trace": "trace as the action verb",
+      "chime": "chime as the action verb",
+      "sound": "sound as the action verb",
+      "drape": "drape as the action verb",
+      "rest": "rest as the action verb",
+      "illum": "illuminate as the action verb",
+      "rotate": "rotate as the action verb",
+      "place": "place as the action verb",
+      "T1": "Sound a sustained {int} tone near all six faces simultaneously for {N} seconds, starting from the {face} face. Let the tone fade naturally and wait for the hum to stabilize.",
+      "T2": "Rest a flat board against the {face} face at {int} contact for {N} seconds. Rotate and repeat for each face-pair.",
+      "T3": "Chime a bell near the center of each face once at {int} tone, starting from the {face} face. Then place a warm stone beside the Veyru for {N} seconds.",
+      "T4": "Drape a folded cloth over the {face} face for {N} seconds at {int} coverage. Then chime a bell near each edge of the {face} face twice.",
+      "T5": "Illuminate the {face} face with a dim lamp and the opposite face with a bright lamp simultaneously at {int} brightness for {N} seconds, without moving the lamps.",
+      "T6": "Drape a cool cloth over the Veyru for {N1} seconds. Remove and fan {int} cool air across all six faces for {N2} seconds, starting from the {face} face.",
+      "T7": "Place the Veyru on a soft surface with the {face} face up at {int} contact. Let it rest undisturbed for {N} seconds.",
+      "T8": "Chime a bell near two opposite faces, starting from the {face} face. Alternate the chime between the two faces — {N} seconds pause between chimes — for {cycles} cycles at {int} tone.",
+      "T9": "Drape a cloth over two adjacent edges near the {face} face for {N} seconds at {int} coverage. Then chime a bell {N2} times near the {face} face.",
+      "T10": "At each corner of the {face} face, chime a bell briefly at {int} tone, then warm the two edges meeting at that corner with a heated stone for {N} seconds.",
+      "T11": "Rotate the Veyru slowly over {N} seconds while sounding a steady tone at {int} volume near opposite faces, starting from the {face} face. After rotation, chime a bell once near each corner.",
+      "T12": "Drape a cool cloth over the Veyru for {N1} seconds. Remove the cloth and fan {int} cool air across the {face} face and the opposite face for {N2} seconds.",
+      "T13": "Warm each corner of the {face} face by holding a heated stone nearby for {N} seconds at {int} warmth, in sequence. Then trace each edge of the {face} face with a finger.",
+      "T14": "Place a warm stone beside the {face} face at {int} warmth for {N} seconds. Rotate and repeat for each face."
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780449113",
+    "n_codes": 72,
+    "n_multimorpheme": 2,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "stem",
+        "label": "GLOW_EVENT",
+        "fillers": [
+          {
+            "form": "glow-",
+            "gloss": "glow",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "suffix",
+        "label": "LOCATION_TYPE",
+        "fillers": [
+          {
+            "form": "corner",
+            "gloss": "corner location",
+            "count": 1
+          },
+          {
+            "form": "edge",
+            "gloss": "edge location",
+            "count": 0
+          },
+          {
+            "form": "face",
+            "gloss": "face location",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 3,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 2,
+        "possible_combos": 3,
+        "saturation": 0.6666666666666666
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "glow-face": [
+        "pos0",
+        "pos1"
+      ],
+      "glow-corner": [
+        "pos0",
+        "pos1"
+      ]
+    },
+    "construction_by_symbol": {
+      "glow-face": "K1",
+      "glow-corner": "K1"
+    },
+    "construction_labels": {
+      "K1": "Glow at location"
+    },
+    "construction_templates": {
+      "K1": [
+        "pos0",
+        "pos1"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "Most symbols are best treated as opaque lexical items: the T1–T14 labels fail the opaque-index test, and the suggested character-based families like -ace, -er, puls-, hum-, and edg- do not support stable compositional paradigms. One defensible construction survives: glow-face and glow-corner form an exact minimal pair with a shared frame glow- + LOCATION, and their meanings are compositionally predictable from the parts. The standalone location key entries face, edge, and corner declare the broader member set of that location class, even though only face and corner are observed inside a multi-morpheme code.",
+    "lexical_symbols": [
+      "+",
+      "ok",
+      "bright",
+      "dim",
+      "flicker",
+      "freeze",
+      "slide",
+      "pulse",
+      "hum-ok",
+      "hum-irreg",
+      "whine",
+      "click",
+      "layered",
+      "2tone",
+      "silent",
+      "rumble",
+      "whisper",
+      "buzz",
+      "hot",
+      "cold",
+      "soft",
+      "wobble",
+      "gritty",
+      "hollow",
+      "face",
+      "edge",
+      "corner",
+      "pulse-opp",
+      "L",
+      "R",
+      "F",
+      "B",
+      "T",
+      "Bot",
+      "fail",
+      "cl",
+      "bl",
+      "st",
+      "fn",
+      "bd",
+      "lp",
+      "gentle",
+      "firm",
+      "full",
+      "near",
+      "on",
+      "edges×2",
+      "warm",
+      "trace",
+      "chime",
+      "sound",
+      "drape",
+      "rest",
+      "illum",
+      "rotate",
+      "place",
+      "T1",
+      "T2",
+      "T3",
+      "T4",
+      "T5",
+      "T6",
+      "T7",
+      "T8",
+      "T9",
+      "T10",
+      "T11",
+      "T12",
+      "T13",
+      "T14"
+    ],
+    "classes": [
+      {
+        "class_id": "C1",
+        "label": "GLOW_EVENT",
+        "description": "Glow symptom/event root.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "C2",
+        "label": "LOCATION_TYPE",
+        "description": "Location type at which the glow occurs.",
+        "repeatable": false,
+        "declared_fillers": [
+          {
+            "form": "face",
+            "gloss": "face location"
+          },
+          {
+            "form": "edge",
+            "gloss": "edge location"
+          },
+          {
+            "form": "corner",
+            "gloss": "corner location"
+          }
+        ]
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "K1",
+        "label": "Glow at location",
+        "description": "Glow symptom specified for a location type.",
+        "class_sequence": [
+          "C1",
+          "C2"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "glow-face",
+        "construction_id": "K1",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "glow-",
+            "class_id": "C1",
+            "gloss": "glow"
+          },
+          {
+            "form": "face",
+            "class_id": "C2",
+            "gloss": "face location"
+          }
+        ]
+      },
+      {
+        "symbol": "glow-corner",
+        "construction_id": "K1",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "glow-",
+            "class_id": "C1",
+            "gloss": "glow"
+          },
+          {
+            "form": "corner",
+            "class_id": "C2",
+            "gloss": "corner location"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "grammar": {
+    "run_key": "veyru/1778882978",
+    "slots": [],
+    "segmentation": {
+      "AC": [
+        "AC"
+      ],
+      "DE": [
+        "DE"
+      ],
+      "ES": [
+        "ES"
+      ],
+      "LI": [
+        "LI"
+      ],
+      "LO": [
+        "LO"
+      ],
+      "HI": [
+        "HI"
+      ],
+      "PI": [
+        "PI"
+      ],
+      "RC": [
+        "RC"
+      ],
+      "CD": [
+        "CD"
+      ],
+      "BS": [
+        "BS"
+      ],
+      "PS": [
+        "PS"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "TB": [
+        "TB"
+      ],
+      "CV": [
+        "CV"
+      ],
+      "new:": [
+        "new:"
+      ],
+      "no": [
+        "no"
+      ]
+    },
+    "head_index": {
+      "AC": 0,
+      "DE": 0,
+      "ES": 0,
+      "LI": 0,
+      "LO": 0,
+      "HI": 0,
+      "PI": 0,
+      "RC": 0,
+      "CD": 0,
+      "BS": 0,
+      "PS": 0,
+      "HS": 0,
+      "TB": 0,
+      "CV": 0,
+      "new:": 0,
+      "no": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "AC": "faces flicker in random patches, the hum is broken and irregular",
+      "DE": "light slides or drifts across faces, edges are blurred, the hum wavers in pitch",
+      "ES": "too bright, layered hum tones, frozen patterns",
+      "LI": "corners are dim, edges are faint, perimeters are losing light, a thin hollow hum",
+      "LO": "dim overall, faint hum whisper, washed out",
+      "HI": "blazing white, harsh buzz, heat from faces",
+      "PI": "opposite faces pulse bright and dark, the hum is two-tone in sync",
+      "RC": "one face is very bright with localized vibration, high whine",
+      "CD": "one or two corners glow bright, ticking sound, heat at the corners",
+      "BS": "edges wobble or flex, faces bulge, muffled hum",
+      "PS": "patterns are frozen, dim, and still, silent, cold",
+      "HS": "the hum is split into competing tones, patterns alternate, edges shimmer",
+      "TB": "very hot but dim, low rumble, gritty surface, reddish",
+      "CV": "surface appears normal but sounds hollow when tapped, dark center, thin hum",
+      "new:": "stable but there is a new symptom, followed by the symptom code",
+      "no": "the procedure is ineffective"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1778882978",
+    "n_codes": 16,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible compositional paradigm is supported by the supplied codebook. The two-letter symptom codes do not form meaning-consistent substitution classes: shared letters do not yield stable contributions across minimal pairs, and no multi-entry frame shows predictable whole meanings from proposed parts. For example, symbols ending in S (ES, BS, PS, HS) do not share a single recoverable semantic slot, nor do initial letters like C in CD/CV or P in PI/PS. The entry new: suggests a procedural context ('followed by the symptom code'), but no actual concatenated codes using new: are present in the supplied inventory, so no construction can be instantiated. Under the evidence requirements, the safest analysis is a flat lexicon with all supplied symbols treated as opaque stored labels.",
+    "lexical_symbols": [
+      "AC",
+      "DE",
+      "ES",
+      "LI",
+      "LO",
+      "HI",
+      "PI",
+      "RC",
+      "CD",
+      "BS",
+      "PS",
+      "HS",
+      "TB",
+      "CV",
+      "new:",
+      "no"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

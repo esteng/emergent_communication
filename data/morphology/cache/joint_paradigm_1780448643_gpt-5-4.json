@@ -1,0 +1,578 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780448643",
+    "slots": [
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "BOARD",
+            "gloss": "place flat board against",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "CLOTH",
+            "gloss": "drape cloth over",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "FAN",
+            "gloss": "fan cool air",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "REST",
+            "gloss": "place on a soft surface with face up",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "STONE",
+            "gloss": "apply heated stone in touching contact",
+            "support": 1,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "suffix",
+        "fillers": [
+          {
+            "form": "@X",
+            "gloss": "specified face or location",
+            "support": 5,
+            "is_defined": false
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "TONE": [
+        "TONE"
+      ],
+      "BELL": [
+        "BELL"
+      ],
+      "STONE@X": [
+        "STONE",
+        "@X"
+      ],
+      "STONE~X": [
+        "STONE~X"
+      ],
+      "CLOTH@X": [
+        "CLOTH",
+        "@X"
+      ],
+      "cover": [
+        "cover"
+      ],
+      "BOARD@X": [
+        "BOARD",
+        "@X"
+      ],
+      "FAN@X": [
+        "FAN",
+        "@X"
+      ],
+      "REST@X": [
+        "REST",
+        "@X"
+      ],
+      "REST": [
+        "REST"
+      ],
+      "BELL-ALT": [
+        "BELL-ALT"
+      ],
+      "LAMP": [
+        "LAMP"
+      ],
+      "B": [
+        "B"
+      ],
+      "T": [
+        "T"
+      ],
+      "N": [
+        "N"
+      ],
+      "S": [
+        "S"
+      ],
+      "E": [
+        "E"
+      ],
+      "W": [
+        "W"
+      ],
+      "ALL": [
+        "ALL"
+      ],
+      "OPP": [
+        "OPP"
+      ],
+      "EDGES": [
+        "EDGES"
+      ],
+      "CORNERS": [
+        "CORNERS"
+      ],
+      "→": [
+        "→"
+      ],
+      "FROZEN": [
+        "FROZEN"
+      ],
+      "FLICKER": [
+        "FLICKER"
+      ],
+      "LOUD": [
+        "LOUD"
+      ],
+      "HOT": [
+        "HOT"
+      ],
+      "COLD": [
+        "COLD"
+      ],
+      "DARK": [
+        "DARK"
+      ],
+      "BRIGHT": [
+        "BRIGHT"
+      ],
+      "HOLLOW": [
+        "HOLLOW"
+      ],
+      "+": [
+        "+"
+      ],
+      "stable": [
+        "stable"
+      ],
+      "fail": [
+        "fail"
+      ],
+      "stall": [
+        "stall"
+      ],
+      "leak": [
+        "leak"
+      ],
+      "drift": [
+        "drift"
+      ],
+      "abort": [
+        "abort"
+      ],
+      "BLOCKED:<motif>": [
+        "BLOCKED:<motif>"
+      ]
+    },
+    "head_index": {
+      "TONE": 0,
+      "BELL": 0,
+      "STONE@X": 0,
+      "STONE~X": 0,
+      "CLOTH@X": 0,
+      "cover": 0,
+      "BOARD@X": 0,
+      "FAN@X": 0,
+      "REST@X": 0,
+      "REST": 0,
+      "BELL-ALT": 0,
+      "LAMP": 0,
+      "B": 0,
+      "T": 0,
+      "N": 0,
+      "S": 0,
+      "E": 0,
+      "W": 0,
+      "ALL": 0,
+      "OPP": 0,
+      "EDGES": 0,
+      "CORNERS": 0,
+      "→": 0,
+      "FROZEN": 0,
+      "FLICKER": 0,
+      "LOUD": 0,
+      "HOT": 0,
+      "COLD": 0,
+      "DARK": 0,
+      "BRIGHT": 0,
+      "HOLLOW": 0,
+      "+": 0,
+      "stable": 0,
+      "fail": 0,
+      "stall": 0,
+      "leak": 0,
+      "drift": 0,
+      "abort": 0,
+      "BLOCKED:<motif>": 0
+    },
+    "attested_orderings": [
+      [
+        "stem",
+        "suffix"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [],
+    "form_positions": {
+      "STONE": 0,
+      "CLOTH": 0,
+      "BOARD": 0,
+      "FAN": 0,
+      "REST": 0,
+      "@X": 1
+    },
+    "position_labels": {
+      "0": "targeted action stem",
+      "1": "specified target suffix"
+    },
+    "positions_by_symbol": {
+      "STONE@X": [
+        0,
+        1
+      ],
+      "CLOTH@X": [
+        0,
+        1
+      ],
+      "BOARD@X": [
+        0,
+        1
+      ],
+      "FAN@X": [
+        0,
+        1
+      ],
+      "REST@X": [
+        0,
+        1
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "STONE": "apply heated stone in touching contact",
+        "CLOTH": "drape cloth over",
+        "BOARD": "place flat board against",
+        "FAN": "fan cool air",
+        "REST": "place on a soft surface with face up"
+      },
+      "1": {
+        "@X": "specified face or location"
+      }
+    },
+    "meaning_by_symbol": {
+      "TONE": "sustained tone using voice, hum, or fork, held",
+      "BELL": "discrete chime or chimes; count matters",
+      "STONE@X": "apply the heated stone in touching contact at the specified face or location X",
+      "STONE~X": "hold the heated stone near the specified face or location X, not touching, using radiant heat",
+      "CLOTH@X": "drape the cloth over the specified face or location X",
+      "cover": "cover the whole Veyru with the cloth",
+      "BOARD@X": "place a flat board against the specified face or location X",
+      "FAN@X": "fan cool air at the specified face or location X, assuming cool unless warm is explicitly specified",
+      "REST@X": "place the Veyru on a soft surface with face X up",
+      "REST": "soft surface, specified face up, specified intensity, specified duration in seconds, undisturbed",
+      "BELL-ALT": "bell at location A, pause for the specified number of seconds, bell at location B, repeat for the specified total number of cycles, with the specified intensity",
+      "LAMP": "directional lamp or lamps",
+      "B": "bottom face",
+      "T": "top face",
+      "N": "north face",
+      "S": "south face",
+      "E": "east face",
+      "W": "west face",
+      "ALL": "all 6 faces",
+      "OPP": "the specified face and its opposite face",
+      "EDGES": "edges",
+      "CORNERS": "corners",
+      "→": "then",
+      "FROZEN": "dim, still, silent, and cold, as at round 1 start",
+      "FLICKER": "general flickering state",
+      "LOUD": "general loud state",
+      "HOT": "general hot state",
+      "COLD": "general cold state",
+      "DARK": "general dark state",
+      "BRIGHT": "general bright state",
+      "HOLLOW": "dark center, hollow tap, thin hum, faces glow okay",
+      "+": "stabilized, with new symptoms following",
+      "stable": "fully done",
+      "fail": "the action did not work",
+      "stall": "propagation stall",
+      "leak": "leak",
+      "drift": "drift",
+      "abort": "abort immediately and accept the loss",
+      "BLOCKED:<motif>": "the specified motif maps to a blocked procedure and should be aborted fast if it appears"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780448643",
+    "n_codes": 39,
+    "n_multimorpheme": 5,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "stem",
+        "label": "targeted action stem",
+        "fillers": [
+          {
+            "form": "BOARD",
+            "gloss": "place flat board against",
+            "count": 1
+          },
+          {
+            "form": "CLOTH",
+            "gloss": "drape cloth over",
+            "count": 1
+          },
+          {
+            "form": "FAN",
+            "gloss": "fan cool air",
+            "count": 1
+          },
+          {
+            "form": "REST",
+            "gloss": "place on a soft surface with face up",
+            "count": 1
+          },
+          {
+            "form": "STONE",
+            "gloss": "apply heated stone in touching contact",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 5,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "suffix",
+        "label": "specified target suffix",
+        "fillers": [
+          {
+            "form": "@X",
+            "gloss": "specified face or location",
+            "count": 5
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 5,
+        "possible_combos": 5,
+        "saturation": 1.0
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "STONE@X": [
+        "pos0",
+        "pos1"
+      ],
+      "CLOTH@X": [
+        "pos0",
+        "pos1"
+      ],
+      "BOARD@X": [
+        "pos0",
+        "pos1"
+      ],
+      "FAN@X": [
+        "pos0",
+        "pos1"
+      ],
+      "REST@X": [
+        "pos0",
+        "pos1"
+      ]
+    },
+    "construction_by_symbol": {
+      "STONE@X": "K_TARGETED_ACTION",
+      "CLOTH@X": "K_TARGETED_ACTION",
+      "BOARD@X": "K_TARGETED_ACTION",
+      "FAN@X": "K_TARGETED_ACTION",
+      "REST@X": "K_TARGETED_ACTION"
+    },
+    "construction_labels": {
+      "K_TARGETED_ACTION": "targeted action"
+    },
+    "construction_templates": {
+      "K_TARGETED_ACTION": [
+        "pos0",
+        "pos1"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "Only one defensible construction survives strict joint testing: a targeted-action family in which several action stems alternate before the same suffix @X, and each whole meaning is compositionally predictable from the stem meaning plus a stable 'specified face or location' contribution. I reject the other hinted families: STONE@X vs STONE~X does show a contrast, but assigning STONE@X simultaneously to that family and to the broader @X family is impossible under the required partition, and the broader @X paradigm is better supported by multiple alternating stems in one frame. The BELL/BELL-ALT, REST/REST@X, stable/stall, ALL/BELL, CORNERS/COLD, and HOT/HOLLOW hints fail the compositional-paradigm test: their residues do not form a stable substitution class with predictable shared roles. Standalone location terms (B, T, N, S, E, W, ALL, OPP, EDGES, CORNERS) remain lexical symbols because no concrete multi-morpheme code instantiates them here, but they support the interpretation of X as the target variable in the surviving family.",
+    "lexical_symbols": [
+      "TONE",
+      "BELL",
+      "STONE~X",
+      "cover",
+      "REST",
+      "BELL-ALT",
+      "LAMP",
+      "B",
+      "T",
+      "N",
+      "S",
+      "E",
+      "W",
+      "ALL",
+      "OPP",
+      "EDGES",
+      "CORNERS",
+      "→",
+      "FROZEN",
+      "FLICKER",
+      "LOUD",
+      "HOT",
+      "COLD",
+      "DARK",
+      "BRIGHT",
+      "HOLLOW",
+      "+",
+      "stable",
+      "fail",
+      "stall",
+      "leak",
+      "drift",
+      "abort",
+      "BLOCKED:<motif>"
+    ],
+    "classes": [
+      {
+        "class_id": "C_ACTION_AT_TARGET",
+        "label": "targeted action stem",
+        "description": "Action stems that combine with @X to mean carrying out that action at a specified face or location.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "C_TARGET_SUFFIX",
+        "label": "specified target suffix",
+        "description": "Suffix indicating that the action is directed to the specified face or location X.",
+        "repeatable": false,
+        "declared_fillers": []
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "K_TARGETED_ACTION",
+        "label": "targeted action",
+        "description": "An action stem followed by @X, meaning the action is applied to the specified face or location.",
+        "class_sequence": [
+          "C_ACTION_AT_TARGET",
+          "C_TARGET_SUFFIX"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "STONE@X",
+        "construction_id": "K_TARGETED_ACTION",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "STONE",
+            "class_id": "C_ACTION_AT_TARGET",
+            "gloss": "apply heated stone in touching contact"
+          },
+          {
+            "form": "@X",
+            "class_id": "C_TARGET_SUFFIX",
+            "gloss": "specified face or location"
+          }
+        ]
+      },
+      {
+        "symbol": "CLOTH@X",
+        "construction_id": "K_TARGETED_ACTION",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "CLOTH",
+            "class_id": "C_ACTION_AT_TARGET",
+            "gloss": "drape cloth over"
+          },
+          {
+            "form": "@X",
+            "class_id": "C_TARGET_SUFFIX",
+            "gloss": "specified face or location"
+          }
+        ]
+      },
+      {
+        "symbol": "BOARD@X",
+        "construction_id": "K_TARGETED_ACTION",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "BOARD",
+            "class_id": "C_ACTION_AT_TARGET",
+            "gloss": "place flat board against"
+          },
+          {
+            "form": "@X",
+            "class_id": "C_TARGET_SUFFIX",
+            "gloss": "specified face or location"
+          }
+        ]
+      },
+      {
+        "symbol": "FAN@X",
+        "construction_id": "K_TARGETED_ACTION",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "FAN",
+            "class_id": "C_ACTION_AT_TARGET",
+            "gloss": "fan cool air"
+          },
+          {
+            "form": "@X",
+            "class_id": "C_TARGET_SUFFIX",
+            "gloss": "specified face or location"
+          }
+        ]
+      },
+      {
+        "symbol": "REST@X",
+        "construction_id": "K_TARGETED_ACTION",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "REST",
+            "class_id": "C_ACTION_AT_TARGET",
+            "gloss": "place on a soft surface with face up"
+          },
+          {
+            "form": "@X",
+            "class_id": "C_TARGET_SUFFIX",
+            "gloss": "specified face or location"
+          }
+        ]
+      }
+    ]
+  }
+}

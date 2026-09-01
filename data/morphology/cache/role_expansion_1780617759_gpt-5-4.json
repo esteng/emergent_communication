@@ -1,0 +1,194 @@
+{
+  "per_slot": {
+    "pos0": [
+      [
+        "lp",
+        "lamp"
+      ]
+    ],
+    "pos1": [
+      [
+        "gen",
+        "gentle intensity"
+      ],
+      [
+        "mod",
+        "moderate intensity"
+      ],
+      [
+        "firm",
+        "firm intensity"
+      ],
+      [
+        "str",
+        "strong intensity"
+      ],
+      [
+        "BR",
+        "too bright"
+      ],
+      [
+        "BZ",
+        "blazing bright"
+      ]
+    ],
+    "pos2": [
+      [
+        "tn",
+        "sustained tone using voice or hum, not bell"
+      ]
+    ],
+    "pos3": [
+      [
+        "alt",
+        "alternating between two faces"
+      ],
+      [
+        "spot",
+        "at one position"
+      ]
+    ],
+    "pos4": [
+      [
+        "fn",
+        "fan, using air"
+      ]
+    ],
+    "pos5": [
+      [
+        "rot",
+        "rotate"
+      ],
+      [
+        "seq",
+        "in sequence"
+      ],
+      [
+        "alt",
+        "alternating between two faces"
+      ]
+    ],
+    "pos7": [
+      [
+        "fg",
+        "finger trace"
+      ]
+    ],
+    "pos9": [
+      [
+        "seq",
+        "in sequence"
+      ],
+      [
+        "rot",
+        "rotate"
+      ],
+      [
+        "spot",
+        "at one position"
+      ],
+      [
+        "C",
+        "corner"
+      ],
+      [
+        "E",
+        "edge"
+      ],
+      [
+        "4C/T",
+        "the 4 corners of the top face"
+      ],
+      [
+        "4E/T",
+        "the 4 edges of the top face"
+      ],
+      [
+        "8C",
+        "once at each of the 8 corners"
+      ]
+    ],
+    "pos10": [
+      [
+        "cl",
+        "cloth"
+      ]
+    ],
+    "pos11": [
+      [
+        "A",
+        "all faces"
+      ],
+      [
+        "6F",
+        "all 6 faces"
+      ],
+      [
+        "opp",
+        "opposite face or faces"
+      ],
+      [
+        "face-pairs",
+        "the 3 opposite face-pairs"
+      ],
+      [
+        "3FP",
+        "the 3 face-pairs"
+      ]
+    ]
+  },
+  "stackable": [
+    [
+      "T",
+      "top face"
+    ],
+    [
+      "K",
+      "back face"
+    ],
+    [
+      "A",
+      "all faces"
+    ],
+    [
+      "opp",
+      "opposite face or faces"
+    ],
+    [
+      "face-pairs",
+      "the 3 opposite face-pairs"
+    ],
+    [
+      "3FP",
+      "the 3 face-pairs"
+    ],
+    [
+      "6F",
+      "all 6 faces"
+    ],
+    [
+      "C",
+      "corner"
+    ],
+    [
+      "E",
+      "edge"
+    ],
+    [
+      "4C/T",
+      "the 4 corners of the top face"
+    ],
+    [
+      "4E/T",
+      "the 4 edges of the top face"
+    ],
+    [
+      "8C",
+      "once at each of the 8 corners"
+    ],
+    [
+      "T-up",
+      "with the top face upward"
+    ]
+  ]
+}

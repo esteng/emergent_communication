@@ -1,0 +1,407 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780420992",
+    "slots": [
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "CF",
+            "gloss": "cool cloth over the whole Veyru, then fan",
+            "support": 2,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "suffix",
+        "fillers": [
+          {
+            "form": "2",
+            "gloss": "start face and opposite face",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "6",
+            "gloss": "all 6 faces from the start face",
+            "support": 1,
+            "is_defined": false
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "HW": [
+        "HW"
+      ],
+      "DR": [
+        "DR"
+      ],
+      "DC": [
+        "DC"
+      ],
+      "FR": [
+        "FR"
+      ],
+      "OP": [
+        "OP"
+      ],
+      "OF": [
+        "OF"
+      ],
+      "OC": [
+        "OC"
+      ],
+      "WS": [
+        "WS"
+      ],
+      "LT": [
+        "LT"
+      ],
+      "SL": [
+        "SL"
+      ],
+      "CH": [
+        "CH"
+      ],
+      "WB": [
+        "WB"
+      ],
+      "HT": [
+        "HT"
+      ],
+      "CL": [
+        "CL"
+      ],
+      "T6": [
+        "T6"
+      ],
+      "BO": [
+        "BO"
+      ],
+      "CE": [
+        "CE"
+      ],
+      "WC": [
+        "WC"
+      ],
+      "WF": [
+        "WF"
+      ],
+      "CF2": [
+        "CF",
+        "2"
+      ],
+      "L": [
+        "L"
+      ],
+      "FC": [
+        "FC"
+      ],
+      "BC": [
+        "BC"
+      ],
+      "B": [
+        "B"
+      ],
+      "CB": [
+        "CB"
+      ],
+      "R": [
+        "R"
+      ],
+      "CF6": [
+        "CF",
+        "6"
+      ],
+      "RT": [
+        "RT"
+      ],
+      "SAME": [
+        "SAME"
+      ],
+      "AGAIN": [
+        "AGAIN"
+      ]
+    },
+    "head_index": {
+      "HW": 0,
+      "DR": 0,
+      "DC": 0,
+      "FR": 0,
+      "OP": 0,
+      "OF": 0,
+      "OC": 0,
+      "WS": 0,
+      "LT": 0,
+      "SL": 0,
+      "CH": 0,
+      "WB": 0,
+      "HT": 0,
+      "CL": 0,
+      "T6": 0,
+      "BO": 0,
+      "CE": 0,
+      "WC": 0,
+      "WF": 0,
+      "CF2": 0,
+      "L": 0,
+      "FC": 0,
+      "BC": 0,
+      "B": 0,
+      "CB": 0,
+      "R": 0,
+      "CF6": 0,
+      "RT": 0,
+      "SAME": 0,
+      "AGAIN": 0
+    },
+    "attested_orderings": [
+      [
+        "stem",
+        "suffix"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [],
+    "form_positions": {
+      "CF": 0,
+      "2": 1,
+      "6": 1
+    },
+    "position_labels": {
+      "0": "CF procedure base",
+      "1": "fan scope"
+    },
+    "positions_by_symbol": {
+      "CF2": [
+        0,
+        1
+      ],
+      "CF6": [
+        0,
+        1
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "CF": "cool cloth over the whole Veyru, then fan"
+      },
+      "1": {
+        "2": "start face and opposite face",
+        "6": "all 6 faces from the start face"
+      }
+    },
+    "meaning_by_symbol": {
+      "HW": "hot white all over",
+      "DR": "dim red hot rough",
+      "DC": "dark corners and fading edges",
+      "FR": "frozen dim silent cold",
+      "OP": "opposite-face pulse",
+      "OF": "one face much brighter with whine",
+      "OC": "one corner bright with click",
+      "WS": "dim whisper",
+      "LT": "too bright layered hum",
+      "SL": "light sliding and blurred edges",
+      "CH": "chaotic flicker and broken hum",
+      "WB": "wobbly edges and bulge",
+      "HT": "hollow tap and dark center",
+      "CL": "clashing tones and two patterns",
+      "T6": "tone at all 6 faces at the same time",
+      "BO": "bell between opposite faces, alternating, with the stated pause between chimes, for 5 full cycles",
+      "CE": "cloth on 2 adjacent edges by the start face, then 3 bells at the start face",
+      "WC": "heated stone near each of the 4 corners of the named face, one corner at a time, for the full stated time per corner; after all 4 corners, trace the 4 edges of that same face once with a finger; do not touch with the stone and do not use other faces",
+      "WF": "warm stone by each face, rotating through all faces, with each face getting the full stated warm time",
+      "CF2": "cool cloth over the whole Veyru, then fan the start face and the opposite face; the stated time applies to that whole step",
+      "L": "dim lamp at the start face and bright lamp at the opposite face, both held fixed for the full time; if only one lamp is available, use brightest direct light on the named opposite face and give the start face only weak spill light by partial shade or indirect light, both held fixed for the full time; if two lamps are available, use true dim and bright simultaneously",
+      "FC": "fold the cloth first; drape that folded cloth over the named face only for the full stated time; remove it; then bell near each of that face's 4 edges twice, for 8 bells total",
+      "BC": "at each corner of the start face: brief bell, then warm the 2 meeting edges there for the full stated time; repeat for all 4 start-face corners",
+      "B": "board on the named face for the full stated time, then rotate to the next face-pair, with each pair getting the full stated time",
+      "CB": "bell the center of each face once, then warm stone beside Veyru",
+      "R": "place Veyru on a soft surface with the start face up and leave it still for the stated time",
+      "CF6": "cool cloth over the whole Veyru, then fan all 6 faces from the start face; the stated time applies to that whole step",
+      "RT": "rotate the whole Veyru while keeping a steady tone at opposite faces, then bell all corners; the stated time applies to the total rotation pass",
+      "SAME": "unchanged after the previous step",
+      "AGAIN": "repeat the previous step again"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780420992",
+    "n_codes": 30,
+    "n_multimorpheme": 2,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "stem",
+        "label": "CF procedure base",
+        "fillers": [
+          {
+            "form": "CF",
+            "gloss": "cool cloth over the whole Veyru, then fan",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "suffix",
+        "label": "fan scope",
+        "fillers": [
+          {
+            "form": "2",
+            "gloss": "start face and opposite face",
+            "count": 1
+          },
+          {
+            "form": "6",
+            "gloss": "all 6 faces from the start face",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "CF2": [
+        "pos0",
+        "pos1"
+      ],
+      "CF6": [
+        "pos0",
+        "pos1"
+      ]
+    },
+    "construction_by_symbol": {
+      "CF2": "CF_CONSTR",
+      "CF6": "CF_CONSTR"
+    },
+    "construction_labels": {
+      "CF_CONSTR": "CF procedure with scope"
+    },
+    "construction_templates": {
+      "CF_CONSTR": [
+        "pos0",
+        "pos1"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "A single defensible construction is supported by CF2 and CF6. They share a stable procedural base ('cool cloth over the whole Veyru, then fan ...; the stated time applies to that whole step') and contrast only in the final digit, whose contribution is meaning-consistent within that same frame: 2 selects the opposite-face pair (two faces), while 6 selects all six faces. No other proposed splits are supported by a compositional multi-entry paradigm, so all remaining symbols are kept lexical.",
+    "lexical_symbols": [
+      "HW",
+      "DR",
+      "DC",
+      "FR",
+      "OP",
+      "OF",
+      "OC",
+      "WS",
+      "LT",
+      "SL",
+      "CH",
+      "WB",
+      "HT",
+      "CL",
+      "T6",
+      "BO",
+      "CE",
+      "WC",
+      "WF",
+      "L",
+      "FC",
+      "BC",
+      "B",
+      "CB",
+      "R",
+      "RT",
+      "SAME",
+      "AGAIN"
+    ],
+    "classes": [
+      {
+        "class_id": "CF_BASE",
+        "label": "CF procedure base",
+        "description": "Fixed procedure: cool cloth over the whole Veyru, then fan; the stated time applies to the whole step.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CF_SCOPE",
+        "label": "fan scope",
+        "description": "Selects how many faces are fanned in the CF procedure.",
+        "repeatable": false,
+        "declared_fillers": []
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "CF_CONSTR",
+        "label": "CF procedure with scope",
+        "description": "CF cooling-and-fanning procedure followed by a scope marker specifying the fan coverage.",
+        "class_sequence": [
+          "CF_BASE",
+          "CF_SCOPE"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "CF2",
+        "construction_id": "CF_CONSTR",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "CF",
+            "class_id": "CF_BASE",
+            "gloss": "cool cloth over the whole Veyru, then fan"
+          },
+          {
+            "form": "2",
+            "class_id": "CF_SCOPE",
+            "gloss": "start face and opposite face"
+          }
+        ]
+      },
+      {
+        "symbol": "CF6",
+        "construction_id": "CF_CONSTR",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "CF",
+            "class_id": "CF_BASE",
+            "gloss": "cool cloth over the whole Veyru, then fan"
+          },
+          {
+            "form": "6",
+            "class_id": "CF_SCOPE",
+            "gloss": "all 6 faces from the start face"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780607823",
+    "slots": [],
+    "segmentation": {
+      "LF": [
+        "LF"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "SC": [
+        "SC"
+      ],
+      "Fr": [
+        "Fr"
+      ],
+      "Bk": [
+        "Bk"
+      ],
+      "T": [
+        "T"
+      ],
+      "Bt": [
+        "Bt"
+      ],
+      "L": [
+        "L"
+      ],
+      "R": [
+        "R"
+      ],
+      "B": [
+        "B"
+      ],
+      "St": [
+        "St"
+      ],
+      "F": [
+        "F"
+      ],
+      "C": [
+        "C"
+      ],
+      "Bd": [
+        "Bd"
+      ],
+      "Lp": [
+        "Lp"
+      ]
+    },
+    "head_index": {
+      "LF": 0,
+      "HS": 0,
+      "SC": 0,
+      "Fr": 0,
+      "Bk": 0,
+      "T": 0,
+      "Bt": 0,
+      "L": 0,
+      "R": 0,
+      "B": 0,
+      "St": 0,
+      "F": 0,
+      "C": 0,
+      "Bd": 0,
+      "Lp": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "LF": "light frozen",
+      "HS": "hum silent",
+      "SC": "surface cold",
+      "Fr": "front",
+      "Bk": "back",
+      "T": "top",
+      "Bt": "bottom",
+      "L": "lamp) and actions",
+      "R": "right",
+      "B": "bell",
+      "St": "stone",
+      "F": "fan",
+      "C": "cloth",
+      "Bd": "board",
+      "Lp": "lamp"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780607823",
+    "n_codes": 15,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible compositional paradigm is supported. Although some symbols share letters with other standalone symbols (e.g. LF with L/F, SC with C, Fr/Bk/T/Bt as possible body-region concepts), the codebook provides no multi-entry substitution frame where recurring parts make stable, predictable contributions. In particular, there are no minimal pairs of whole codes showing the same frame with alternating fillers, and several apparent substrings fail the opaque-index/compositionality test because the whole meanings are not recoverable from proposed parts (e.g. LF is not predictably 'lamp/fan' or similar; SC is not predictably 'surface + cloth'). Therefore the safest analysis is a flat lexicon with all symbols treated as opaque stored labels.",
+    "lexical_symbols": [
+      "LF",
+      "HS",
+      "SC",
+      "Fr",
+      "Bk",
+      "T",
+      "Bt",
+      "L",
+      "R",
+      "B",
+      "St",
+      "F",
+      "C",
+      "Bd",
+      "Lp"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

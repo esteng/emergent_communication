@@ -1,0 +1,317 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780448653",
+    "slots": [],
+    "segmentation": {
+      "L": [
+        "L"
+      ],
+      "R": [
+        "R"
+      ],
+      "T": [
+        "T"
+      ],
+      "B": [
+        "B"
+      ],
+      "F": [
+        "F"
+      ],
+      "K": [
+        "K"
+      ],
+      "S": [
+        "S"
+      ],
+      "C": [
+        "C"
+      ],
+      "Fn": [
+        "Fn"
+      ],
+      "Lp": [
+        "Lp"
+      ],
+      "Bd": [
+        "Bd"
+      ],
+      "f": [
+        "f"
+      ],
+      "g": [
+        "g"
+      ],
+      "lt": [
+        "lt"
+      ],
+      "edg-wob+muf-hum": [
+        "edg-wob+muf-hum"
+      ],
+      "lt-slid+smr+wav-hum": [
+        "lt-slid+smr+wav-hum"
+      ],
+      "mod": [
+        "mod"
+      ],
+      "K+opp": [
+        "K+opp"
+      ],
+      "all6": [
+        "all6"
+      ],
+      "stable": [
+        "stable"
+      ],
+      "rand-flicker+broken-hum": [
+        "rand-flicker+broken-hum"
+      ],
+      "AC": [
+        "AC"
+      ],
+      "CD": [
+        "CD"
+      ],
+      "frozen/dim+silent+cold": [
+        "frozen/dim+silent+cold"
+      ],
+      "hum-split+lt-alt+shimmer": [
+        "hum-split+lt-alt+shimmer"
+      ],
+      "corners-dim+edges-fade+thin-hum": [
+        "corners-dim+edges-fade+thin-hum"
+      ],
+      "DC": [
+        "DC"
+      ],
+      "LI": [
+        "LI"
+      ],
+      "fail": [
+        "fail"
+      ],
+      "hot+dim+rumble": [
+        "hot+dim+rumble"
+      ],
+      "blinding+layers+frozen": [
+        "blinding+layers+frozen"
+      ],
+      "blind+stack+frz": [
+        "blind+stack+frz"
+      ],
+      "opp-pulse+2tone+edge-flash": [
+        "opp-pulse+2tone+edge-flash"
+      ],
+      "RC": [
+        "RC"
+      ],
+      "PS": [
+        "PS"
+      ],
+      "PI": [
+        "PI"
+      ],
+      "TB": [
+        "TB"
+      ],
+      "ES": [
+        "ES"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "BS": [
+        "BS"
+      ],
+      "DE": [
+        "DE"
+      ],
+      "LO": [
+        "LO"
+      ],
+      "HI": [
+        "HI"
+      ],
+      "CV": [
+        "CV"
+      ],
+      "Drift": [
+        "Drift"
+      ],
+      "Stasis": [
+        "Stasis"
+      ]
+    },
+    "head_index": {
+      "L": 0,
+      "R": 0,
+      "T": 0,
+      "B": 0,
+      "F": 0,
+      "K": 0,
+      "S": 0,
+      "C": 0,
+      "Fn": 0,
+      "Lp": 0,
+      "Bd": 0,
+      "f": 0,
+      "g": 0,
+      "lt": 0,
+      "edg-wob+muf-hum": 0,
+      "lt-slid+smr+wav-hum": 0,
+      "mod": 0,
+      "K+opp": 0,
+      "all6": 0,
+      "stable": 0,
+      "rand-flicker+broken-hum": 0,
+      "AC": 0,
+      "CD": 0,
+      "frozen/dim+silent+cold": 0,
+      "hum-split+lt-alt+shimmer": 0,
+      "corners-dim+edges-fade+thin-hum": 0,
+      "DC": 0,
+      "LI": 0,
+      "fail": 0,
+      "hot+dim+rumble": 0,
+      "blinding+layers+frozen": 0,
+      "blind+stack+frz": 0,
+      "opp-pulse+2tone+edge-flash": 0,
+      "RC": 0,
+      "PS": 0,
+      "PI": 0,
+      "TB": 0,
+      "ES": 0,
+      "HS": 0,
+      "BS": 0,
+      "DE": 0,
+      "LO": 0,
+      "HI": 0,
+      "CV": 0,
+      "Drift": 0,
+      "Stasis": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "L": "left face",
+      "R": "resend the exact same wording; retry same",
+      "T": "top face",
+      "B": "bottom face",
+      "F": "front face",
+      "K": "back face",
+      "S": "stone",
+      "C": "cloth",
+      "Fn": "fan",
+      "Lp": "lamp",
+      "Bd": "board",
+      "f": "firm",
+      "g": "gentle",
+      "lt": "light",
+      "edg-wob+muf-hum": "edges wobble with a muffled hum; Boundary Softening",
+      "lt-slid+smr+wav-hum": "light slides, smear or blur, with a wavering hum; Drift",
+      "mod": "moderate",
+      "K+opp": "back face plus the opposite face",
+      "all6": "all six faces",
+      "stable": "no new symptoms after a fix",
+      "rand-flicker+broken-hum": "random flicker with a broken hum; Alignment Collapse",
+      "AC": "random flicker with a broken hum; Alignment Collapse",
+      "CD": "corners bright, hot, with clicking; Corner Deadlock",
+      "frozen/dim+silent+cold": "frozen, dim, silent, and cold; Stasis",
+      "hum-split+lt-alt+shimmer": "hum split, light alternating, with shimmer; Dual Conflict",
+      "corners-dim+edges-fade+thin-hum": "corners dim, edges fade, with a thin hum; Leak Instability",
+      "DC": "hum split, light alternating, with shimmer; Dual Conflict",
+      "LI": "corners dim, edges fade, with a thin hum; Leak Instability",
+      "fail": "the attempt failed",
+      "hot+dim+rumble": "hot, dim, with rumble; Thermal Bleed",
+      "blinding+layers+frozen": "blinding, layered, and frozen; Echo Saturation",
+      "blind+stack+frz": "blinding, stacked or layered, and frozen; Echo Saturation",
+      "opp-pulse+2tone+edge-flash": "opposing pulse, two-tone, with edge flash; Phase Inversion",
+      "RC": "one face bright with a whine; Resonance Cascade",
+      "PS": "frozen, dim, silent, and cold; Propagation Stall",
+      "PI": "opposing pulse, two-tone, with edge flash; Phase Inversion",
+      "TB": "hot, dim, with rumble; Thermal Bleed",
+      "ES": "blinding, layered, and frozen; Echo Saturation",
+      "HS": "hum split, light alternating, with shimmer; Harmonic Split",
+      "BS": "edges wobble with a muffled hum; Boundary Softening",
+      "DE": "light slides, smear or blur, with a wavering hum; Drift Escalation",
+      "LO": "low intensity",
+      "HI": "high intensity",
+      "CV": "hollow tap, dark core, with a thin hum; Core Void",
+      "Drift": "light slides, smear or blur, with a wavering hum",
+      "Stasis": "frozen, dim, silent, and cold"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780448653",
+    "n_codes": 46,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible multi-entry compositional paradigm survives the evidence test. The standalone symbols for faces (L/T/B/F/K) and intensities (g/mod/f, plus LO/HI as separate lexical labels) do suggest semantic dimensions, but there are no multi-morpheme codes where these values alternate in a shared frame, so no substitution slot can be established. The apparent disease/state labels and their abbreviations (AC, DC, LI, etc.) behave as aliases or opaque names for whole conditions, not as compositional constructions with predictable part meanings. The candidate surface families are rejected: '-hum' appears in several long strings, but the residues do not form a demonstrated shared frame with independently recurring, stable morphemes; 'blind' only links two near-synonymous whole labels for the same condition, not a productive contrast set; and '-ble' in 'stable' vs 'Thermal Bleed' is accidental string overlap with unrelated meanings. Because no split is supported by a meaning-consistent substitution paradigm, the safest analysis is a flat lexicon.",
+    "lexical_symbols": [
+      "L",
+      "R",
+      "T",
+      "B",
+      "F",
+      "K",
+      "S",
+      "C",
+      "Fn",
+      "Lp",
+      "Bd",
+      "f",
+      "g",
+      "lt",
+      "edg-wob+muf-hum",
+      "lt-slid+smr+wav-hum",
+      "mod",
+      "K+opp",
+      "all6",
+      "stable",
+      "rand-flicker+broken-hum",
+      "AC",
+      "CD",
+      "frozen/dim+silent+cold",
+      "hum-split+lt-alt+shimmer",
+      "corners-dim+edges-fade+thin-hum",
+      "DC",
+      "LI",
+      "fail",
+      "hot+dim+rumble",
+      "blinding+layers+frozen",
+      "blind+stack+frz",
+      "opp-pulse+2tone+edge-flash",
+      "RC",
+      "PS",
+      "PI",
+      "TB",
+      "ES",
+      "HS",
+      "BS",
+      "DE",
+      "LO",
+      "HI",
+      "CV",
+      "Drift",
+      "Stasis"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

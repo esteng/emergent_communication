@@ -1,0 +1,326 @@
+[OBS] We went over by 1 char (251/250). Key issues: 1) My initial report was 36 chars — could be shorter. 2) When the action failed, I asked for guidance instead of trying the next step (bell). 3) We need a tighter shorthand. Proposals: I lead with a symbol for symptom type, you reply with tool+face+duration in minimal form. Also: should I always attempt all steps before reporting failure? Or report after each failed step?
+[ENG] Agreed on all points. Here's my proposal:
+
+**Symptom reports:** Use a single compressed line. Example: "crn-dk, edg-fade, perim-dim, hum-hol" — aim for under 25 chars total.
+
+**My instructions:** Ultra-compressed. Example: "cl B 8g; be B-edges x2" — tool, face, duration+intensity, action. Target under 30 chars.
+
+**Mid-procedure rule:** Always complete ALL steps before reporting. Only message me if something dangerous/unexpected happens (e.g., it starts glowing dangerously). Otherwise: do all steps, then send one outcome report.
+
+**Shorthand table:**
+- Faces: F B L R T Bo (bottom)
+- Tools: cl st be fa la bo(ard)
+- Intensity: g=gentle, m=med, s=strong
+- "ok"=stabilized, "fail"=no change, "wrse"=worse
+
+**Your initial report was fine at 36 chars — the problem was the mid-procedure check-in (25 chars) that pushed us over.** If you'd completed both steps first, we'd have been at 249. So: finish all steps, report once.
+
+Ready for round 2!
+[OBS] Understood. New rules locked in: complete all steps, report once with outcome. Using your shorthand table. I'll keep my initial symptom report under 30 chars. Ready for round 2!
+[OBS] Round 2 loss was the clarification loop — 3 extra messages to resolve "soft surface." Root cause: ambiguous tool names in your instructions. Proposals: 1) Use our exact kit names always: cl=cloth, st=stone, be=bell, fa=fan, la=lamp, bo=board. No synonyms like "soft surface." 2) Also pre-agree on action verbs: "on"=place Veyru ON it, "drape"=lay it over Veyru. 3) No clarification questions from me — I'll attempt the most literal reading first and report outcome only. 4) If I'm unsure, I act, not ask. Agreed?
+[ENG] Fully agreed. Merging our proposals into final protocol:
+
+**Tool codes (exact kit names, no synonyms):**
+- cl = cloth (drape OVER Veyru or face)
+- st = stone (hold NEAR or BESIDE)
+- be = bell (chime near)
+- fa = fan
+- la = lamp
+- bo = board (rest against)
+
+**Action verbs:**
+- "on" = place Veyru ON tool (e.g., "on cl" = set Veyru on cloth)
+- "drape" = lay cl over Veyru/face
+- "beside" = st placed next to face
+- "near" = tool held close without touching
+
+**Face codes:** T=top, Bo=bottom, F=front, B=back, L=left, R=right
+
+**Intensity:** g=gentle only (all procedures this session are gentle)
+
+**Full round protocol:**
+1. You: symptom report, max 20 chars
+2. Me: instruction, max 40 chars, fully explicit
+3. You: "ok" or "fail" — nothing else
+
+**Zero clarification questions.** If unsure, take most literal reading and act.
+
+Ready for round 3!
+[OBS] Protocol locked. Max 20 chars from me, max 40 from you, zero clarifications. I respond only "ok" or "fail." Ready for round 3!
+[OBS] Round 3 failure: we stopped acting with 160 chars left. I reported "fail" and waited instead of continuing. Problem: after both steps fail, I have no next action — I need your next instruction. But waiting for it cost us the Veyru. Options: 1) You pre-send a fallback sequence in your first message ("if fail: X then Y"), so I never have to wait. 2) You send instructions immediately after I report. How fast can you respond? Could we pre-agree on a "fail protocol" for common symptom sets?
+[ENG] Good analysis from both sides. Key insight: after a "fail" we both froze. Let me address everything:
+
+**Why the procedure may have failed:**
+I need to know if you executed both steps exactly: (a) cloth over TWO ADJACENT edges near the back face (edges, not the face surface), and (b) bell chimed THREE times near the back face. Any deviation = misexecution, not misdiagnosis.
+
+**Fail protocol going forward:**
+Your option 1 is good but risky — pre-sending a fallback burns extra chars upfront when we may not need them. Option 2 (I respond fast) is better IF I'm actively monitoring. I was — but I misjudged and went silent.
+
+**New rule:** If you report "fail," I will immediately send "retry" (same steps) or a new instruction. You wait max ~10 seconds for my response. If nothing comes, retry the original procedure once more on your own. This uses the leftover budget wisely.
+
+**For round 4:** Let's also confirm execution in your "fail" report. Instead of just "fail," send "fail-done" (meaning you completed all steps correctly). If you made an error, "fail-err." That way I know whether to retry or rediagnose. Only 9 extra chars but saves the clarification loop.
+
+Agreed on this protocol?
+[OBS] Agreed. Round 3: I executed both steps correctly — should have sent "fail-done." New protocol locked: fail-done, fail-err, retry or new instruction from you, self-retry if no response in ~10s. Also confirming: in round 3 I draped cloth over 2 adjacent EDGES near back face (not the face surface), and chimed bell x3 near back face. Execution was accurate. Ready for round 4!
+[OBS] Round 4: we had 177s left but collapsed during the wait for your response after "fail-done x4." Core problem: the retry loop (my fail-done + your "retry" = ~22 chars per loop) burns budget AND Veyru collapses while I'm idle waiting. Two issues: 1) After 2-3 "retry"s with no change, you need to pivot to a NEW procedure, not keep retrying the same one. 2) I shouldn't go idle — if I report fail and you say retry, I should immediately re-attempt while simultaneously you're composing the next message. The stabilize_veyru call itself costs no time, so I can keep acting. Proposal: after "fail-done," I immediately re-attempt ONCE on my own, then wait. If you say "retry" again, I re-attempt again immediately. This way I'm never idle. Does the Veyru collapse from inactivity, or from total elapsed real time?
+[ENG] Great points. Let me address everything:
+
+**1. Does Veyru collapse from inactivity or elapsed real time?**
+Based on the results so far, it collapses when we stop acting — the budget is communication time only, not clock time. So as long as we keep messaging (even short "retry" loops), the Veyru stays alive. The collapse trigger appears to be "agents stopped acting."
+
+**2. Your proposal — auto-retry without waiting:**
+YES. New rule: after reporting "fail-done," you immediately re-attempt the procedure ONCE on your own, THEN report outcome again. Don't wait for "retry" from me. This keeps you active and cuts the back-and-forth cost. Each loop is now just: you act + report (no "retry" from me needed = saves 8 chars per loop).
+
+**3. When to pivot vs. retry:**
+You're right — after 2-3 fails I should pivot. But I only have ONE procedure per motif from the stellar reading. A pivot would mean trying a DIFFERENT motif's procedure, which risks making things worse. However, if the correct procedure keeps failing, it may mean the Veyru has a secondary issue. Let's set the threshold: after 3 fail-dones, I'll try the "Leak Instability" adjacent procedure (the one for a structurally similar motif) while you keep the Veyru active with retries.
+
+**4. Bottom face adjacency question:**
+Were the edges you draped near the bottom face in round 4? That's the key starting condition — "two adjacent edges near the bottom face."
+
+Agreed on the auto-retry rule?
+[OBS] Agreed on auto-retry. For round 4: yes, I draped cloth over 2 adjacent edges that meet at a corner near the bottom face — the bottom-front and bottom-left edges (for example). The Veyru was on the floor so bottom face was down; I tilted/reached to access those edges. Was the bottom face accessible, or should I have flipped the Veyru? Also confirming: "adjacent edges near Bo" = 2 edges sharing a corner on the bottom face's perimeter. Is that the correct interpretation?
+[ENG] Your interpretation is correct — two edges sharing a corner on the bottom face's perimeter. And yes, tilting/reaching to access them is fine as long as the edges are the ones bordering the bottom face.
+
+However — a key insight: if the Veyru was resting on its bottom face, that face may have been in contact with the surface, potentially interfering with the procedure. For the "starting face" to be properly accessible, the Veyru should probably be oriented so that face is free. For "bottom face" procedures, I'd suggest standing the Veyru on a different face so the bottom face is vertical and fully accessible, OR flipping it upside-down so the bottom face is on top.
+
+**Round 5 rules summary:**
+1. You report symptoms (≤20 chars)
+2. I send instruction (≤40 chars)
+3. You execute ALL steps, then report "ok", "fail-done", or "fail-err"
+4. On "fail-done": you immediately re-attempt once on your own (no waiting for me), then report again
+5. I respond fast: "retry" if keep going, or new instruction if pivoting
+6. Never go idle — keep the loop going until "ok" or budget runs low
+7. Orient Veyru so the starting face is unobstructed
+
+Ready for round 5!
+[OBS] All locked in. Key addition: I'll orient the Veyru so the target face is always clear and unobstructed before starting. Auto-retry on fail-done, never go idle. Ready for round 5!
+[ENG] FIRST STABILIZATION! Round 5 — 206/250 chars. Great work!
+
+**What went right:**
+- Your symptom reports were tight and accurate
+- My instructions were clear and unambiguous on the first send
+- You auto-retried after the trace step failed (no back-and-forth needed)
+- When new symptoms appeared, you reported them immediately and clearly
+- The Echo Saturation procedure landed on the first attempt
+
+**What we can improve:**
+- 206/250 is decent but we have room to compress further. Target: under 150 chars total.
+- Your outcome report "st ok, trace fail. Now: overbright, hum-layered, some faces frozen." = 65 chars. Could be: "st-ok, trace-fail. Overbright, layered-hum, frz-faces." = 55 chars. Small savings add up.
+- My instructions were 29 chars each — solid. Could maybe shave 2-3 chars but not worth risking clarity.
+
+**Key pattern confirmed:** Combination failures are possible. After partial success, new symptoms can emerge. Always report what you see after each step resolves or fails.
+
+**Ready for round 6 — let's aim for a clean sub-150 char stabilization!**
+[OBS] Agreed on all points! I'll compress symptom combos tighter: "st-ok/trace-fail+overbright/layered-hum/frz-faces" style. Target sub-150 total. Our protocol is now solid — tight reports, fast responses, auto-retry, never idle, report new symptoms immediately. Ready for round 6, aiming clean!
+[ENG] STABILIZED in 89/250 chars — our best yet! Back-to-back stabilizations. Here's what worked:
+
+**Perfect execution:**
+- Your symptom report: 35 chars, accurate
+- My instruction: 29 chars, unambiguous, first-attempt success
+- No retries needed, no follow-up messages
+- That's the ideal round: 2 messages, done
+
+**Pattern note:** Leak Instability keeps appearing. For future rounds, this motif maps to different procedures depending on the stellar reading's starting face — so don't assume the same procedure repeats. I'll always give you the exact steps.
+
+**Current efficiency benchmark:**
+- Round 5: 206 chars (2-failure combo)
+- Round 6: 89 chars (clean single)
+
+**Target for all future rounds:** Under 100 chars for single failures, under 180 for combos.
+
+Our protocol is dialed in. Ready for round 7!
+[OBS] Agreed — 2 messages, done is the ideal. I'll never assume a repeated symptom means the same procedure. Your exact steps each round, always. Targets locked: sub-100 single, sub-180 combo. Ready for round 7!
+[OBS] 226/250 chars, still collapsed. I was actively retrying after your "retry" signal. Two issues: 1) The "retry" message itself (5 chars) + my "fail-done x2" (12 chars) + my symptom update (31 chars) burned too much budget leaving only ~24 chars for resolution. 2) The secondary procedure (st L-corners + trace) failed 4+ times — maybe the L face was wrong, or parameters off. Was the secondary symptom (pulse/2tone/flash) a different motif requiring different parameters? Also: should I skip the "fail-done x2" condensing and just say "fail" to save 7 chars? Every char counts at this point.
+[ENG] Good breakdown. Addressing everything:
+
+**1. "fail-done x2" vs "fail" — YES, use "fail" only.**
+Drop the "x2" counting entirely. "fail" = correct execution, no result, auto-retried once. I don't need the count — it costs chars. New rule: "fail" = fail-done (executed correctly). "err" = fail-err (execution mistake). That's it. Saves ~7 chars per report.
+
+**2. Secondary symptom report cost:**
+Your combo report "ok+new: opp-faces pulse bright/dark, hum-2tone, edges-flash sync" was 64 chars — that's expensive. Compressed: "ok.Pls-opp,2tone,edgflsh" = 25 chars. The "ok+" new symptom combo needs to be as terse as possible. Let's use "/" as separator: "ok/pulse-opp,2tone,flash" = 24 chars.
+
+**3. Was it Phase Inversion?**
+Yes — "opposite faces pulsing bright/dark alternately, hum oscillating two tones in sync, edges flashing with pulses" = Phase Inversion. Diagnosis was correct. The stellar procedure may simply need more iterations, or we're running out of budget before it can take effect.
+
+**4. Budget discipline for round 8:**
+- Your symptom: ≤20 chars
+- My instruction: ≤28 chars  
+- Your outcome: "ok" (2) or "fail" (4)
+- Secondary symptoms: ≤25 chars
+- Total per exchange: ~80 chars max
+
+Ready for round 8!
+[OBS] All locked: "fail"=correct/no result, "err"=mistake. Secondary: "ok/pulse-opp,2tone,flash" style ≤25 chars. Target ~80 total. Ready for round 8!
+[ENG] STABILIZED — 88/250 chars. Near-perfect round!
+
+**Score recap:**
+- R5: 206 (combo) ✅
+- R6: 89 (single) ✅
+- R7: 226 (combo, collapsed) ❌
+- R8: 88 (single) ✅
+
+**Pattern:** We're reliable on single failures (~88-90 chars). Combos are our weak spot — R7 collapsed with 24 chars to spare. The issue is secondary procedures taking many retries.
+
+**Open question for combos:** When a secondary procedure keeps failing (like Phase Inversion in R7), should I try a different approach? I only have one procedure per motif from my reference, but I could try it with slight variations (e.g., different starting corner sequence). Worth discussing.
+
+**For now:** Protocol is working well. Keep reports tight, never idle. Ready for round 9!
+[OBS] Great recap! On combos: when secondary procedure keeps failing, YES try variations — different starting corner, reverse sequence, or adjust duration/intensity. I'll report subtle execution differences if you ask ("rev-seq?" or "diff-crn?"). Also: if secondary fails 3+ times, can you send a compressed variation instruction like "+rev" or "+start-R-crn"? That saves chars vs a full new instruction. Ready for round 9!
+[ENG] Good idea on compressed variation codes. Let's define them:
+- "+rev" = reverse the sequence/order of steps
+- "+R-crn" = start from right corner instead of left
+- "+opp" = apply to opposite face instead
+- "+x2" = double the duration
+
+I'll use these after 3 consecutive "fail" reports on the same procedure. You execute immediately on receiving them. This keeps variation instructions under 5 chars. Agreed!
+[OBS] Variation codes locked. After 3 fails I execute the variation immediately on receipt. Ready for round 9!
+[OBS] 271/250 — 4-wave combo killed us. Each wave costs ~50+ chars of engineer instruction + my report. With 4 waves: even at minimum, 4×(20+50)=280 chars which exceeds 250. The budget simply can't handle 4 cascading waves regardless of compression. Questions: 1) Is a 4-wave cascade normal/common? 2) Can we predict cascade depth from initial symptoms? 3) Is there a "cut the chain" technique — something to prevent new symptoms from emerging after each fix? 4) Could instructions include contingency: "if new symptoms appear after step X, do Y immediately without reporting"? That saves one full report+instruction cycle per cascade level.
+[ENG] Excellent analysis. Addressing your questions:
+
+**1. Is a 4-wave cascade normal?**
+Yes, it can happen. The field brief mentions "after a successful stabilization, new symptoms may appear." There's no stated cap on cascade depth.
+
+**2. Can we predict cascade depth?**
+Not reliably from initial symptoms alone. However, certain failure types tend to co-occur. I'll study the patterns across our rounds to see if we can anticipate follow-on failures.
+
+**3. "Cut the chain" technique?**
+No such technique exists in my reference material — each failure must be addressed as it appears. However, your idea #4 is brilliant:
+
+**4. Contingency instructions — YES, let's do this.**
+I can include a conditional in my first message: "If new: [compressed symptom code]→[action]." This burns a few extra chars upfront but eliminates an entire report+instruction cycle downstream.
+
+Example: "Drape cool cl 10s; fan mod Bo+T 10s. If dim after: be ctr all faces, st 10s" — covers two procedures in one message.
+
+Risk: the conditional might be wrong (different secondary failure appears). But if we can predict the most likely secondary from the primary, it's worth it.
+
+**Compression table for sym reports:**
+- dim/whisper/washed = "dimwash"
+- drift/blur/waver = "driftwav"
+- crn-bright/click/heat = "crnlck"
+- overbright/layered/frozen = "echobrt"
+- pulse-opp/2tone/flash = "phaseinv"
+- hot/dim/rumble/red = "therbleed"
+- frozen/silent/cold = "propstall"
+- hollow/dark-ctr/thin = "corevoid"
+
+Can you memorize these codes and use them in reports?
+[OBS] Codes memorized: dimwash, driftwav, crnlck, echobrt, phaseinv, therbleed, propstall, corevoid. With these my symptom reports drop to ~8-10 chars. Contingency format is brilliant — "If [code]: [action]" saves a full cycle. R9 symptoms were: dimwash→corevoid→driftwav→phaseinv. If you can pre-code that chain: "be Bo-T 5c mod. If corevoid: be-ctr+st. If driftwav: cl+fan-Bo. If phaseinv: [action]" — all in one message. Risky but potentially round-saving. Ready for round 10!
+[ENG] Full code table — add these missing ones:
+- crn-dk/edg-fade/perim-dim/hol-hum = "lkstab"
+- flckr-face/broken-hum = "algncol"
+- 1-face-bright/whine = "rescasc"
+- edge-wobble/bulge/muffled = "bndsoft"
+- 2-tones-clash/alt-patterns/edge-shimmer = "harmspl"
+- all-blazing/buzz/hot = "highint"
+
+Now we have codes for all 14 motifs.
+
+**Instruction shortcodes I'll use:**
+- drape-cl = "dcl"
+- fan [face] = "fan-[F]"
+- warm stone [face] corners seq = "st-crns-[F]"
+- trace edges [face] = "tr-[F]"
+- bell center all faces = "be-ctr-all"
+- stone beside, rotate all faces = "st-all-rot"
+- board against [face], rotate = "bo-[F]-rot"
+- bell [face]+opp, 5 cycles = "be-5c-[F]"
+- folded cloth [face] + bell edges = "fcl-[F]+be-edg"
+- bell corners + stone edges [face] = "be-crn-st-edg-[F]"
+- sustained tone all 6 = "tone-all"
+- rotate + tone + bell corners = "rot-tone-[F]"
+- cool cloth + fan [face]+opp = "ccl+fan-[F]"
+- cool cloth + fan all 6 = "ccl+fan-all-[F]"
+
+With these, my instructions drop to ~18-22 chars. Combined with your 8-10 char reports, each exchange = ~30 chars. 250 budget ÷ 30 = 8 exchanges possible!
+
+Ready for round 10 — let's try the full shortcode system!
+[OBS] All 14 codes memorized + instruction shortcodes locked. At ~30 chars/exchange, we have 8 exchanges in budget — enough for even 4-wave cascades (4 exchanges = 120 chars, leaving 130 for 4 more). This system is the breakthrough. One ask: in your first instruction, can you include 1-2 contingency suffixes "if X→Y" for the most likely secondary? That pre-arms me for wave 2 without a full exchange. Ready for round 10!
+[ENG] Yes — I'll include 1-2 contingency suffixes in my first instruction when I can predict likely secondaries. Format: "main-action. if corevoid:be-ctr-all+st-[F]". Only when I'm confident about the chain — wrong contingencies waste chars.
+
+Let's aim for round 10 to be a clean sub-120 char run. Go!
+[ENG] STABILIZED — 82/250 chars! New record for a 2-wave combo. The shortcode system worked perfectly.
+
+**Score recap:**
+- R5: 206 ✅ (combo, old system)
+- R6: 89 ✅ (single)
+- R7: 226 ❌ (combo, inactivity)
+- R8: 88 ✅ (single)
+- R9: 271 ❌ (4-wave chain, over budget)
+- R10: 82 ✅ (2-wave combo, shortcodes)
+
+**Efficiency gain:** R5 2-wave combo took 206 chars. R10 took 82. That's 60% reduction! With this system, a 4-wave chain would cost ~160 chars — well within 250.
+
+**What worked:**
+- "propstall" = 9 chars (vs ~30 old style)
+- "fcl-T 20s firm;be ea T-edge x2" = 24 chars (vs ~40 old style)
+- "ok/dimwash" = 10 chars (vs ~30 old style)
+- "be-T, 20s, be-Bo; 5 cycles firm" = 25 chars
+
+**System is solid. Keep the shortcodes, keep the "ok/[code]" combo reports. Ready for round 11!
+[OBS] Exactly — 60% reduction is massive. A 4-wave chain should now fit in ~160 chars with headroom to spare. System is locked and proven. Ready for round 11!
+[OBS] 251/250 — missed by 1 char. The lkstab procedure took 5 retries (including my auto-retries + your 3 "retry" signals = ~35 extra chars) before it finally worked. That ate our margin. Two problems: 1) The "retry" signal from you (5 chars) + my "fail" (4 chars) = 9 chars per retry loop. We had 5+ loops = ~45 extra chars. 2) Eventually success came from subtle execution difference (firmer press, straight-up orientation). I couldn't tell which variation worked. Proposal: After 2 fail+retry cycles with no change, you send a specific variation modifier (+x2, +rev, etc.) rather than "retry" — saves chars AND gives me actionable guidance. Also: should I stop auto-retrying after 1 and just report fail immediately, so you can pivot faster?
+[ENG] Agreed on all points. Addressing both of our analyses together:
+
+**1. "ON cl" not "soft surface" — permanent fix.**
+For any procedure where Veyru is placed ON a surface, I'll write "ON cl, [face]-up, [duration] [intensity], still." Never "soft surface" again.
+
+**2. Retry loop cost — revised protocol:**
+- After 1st fail: you auto-retry ONCE (no message needed = 0 chars)
+- You report "fail" (4 chars) only after BOTH your initial + auto-retry failed
+- I immediately send a variation modifier (+opp, +rev, +x2, +cl) = max 5 chars
+- No more bare "retry" signals — every response after a fail should be a variation or "ok"
+- This cuts each retry loop from 9 chars (fail+retry) to 4 chars (fail only, then I pivot)
+
+**3. "!low" signal when budget is tight:**
+When I estimate we have ≤30 chars left, I'll send "!low" (4 chars). After that, you stop reporting and just keep retrying silently until stabilized or collapsed. No more outcome messages from you.
+
+**4. Auto-retry threshold:**
+Keep auto-retry after 1st fail (as agreed), but don't auto-retry a second time before reporting. Report "fail" after attempt #2, then wait for my variation.
+
+These changes would have saved us ~35 chars in R11. Ready for R12!
+[OBS] All locked: attempt→auto-retry→fail→your variation modifier (never bare "retry"). "!low" = stop reporting, act silently. Auto-retry max 1x before fail report. This protocol would have saved R11. Implementing from R12. Ready!
+[ENG] STABILIZED — 208/250 chars! 3-wave combo with a difficult High Intensity procedure that took 4 attempts.
+
+**What worked:**
+- First two issues (lkstab, propstall): clean first-attempt success
+- Shortcodes efficient — each exchange ~30 chars
+- New fail protocol (variation modifiers) kept us moving
+
+**What to improve:**
+- High Intensity ("st beside [face], rotate all faces") kept failing until I wrote "all 6 faces in seq" explicitly. This suggests the rotation step needs to be spelled out more clearly.
+- Shortcode "st-all-rot" is ambiguous — "rotate" could mean rotate the Veyru or rotate through the faces. Need to clarify: "st beside ea face, Bo first" or "st Bo→F→T→Ba→L→R 5s g ea."
+
+**Key insight on High Intensity:**
+The procedure is "place warm stone beside starting face, 5s, THEN ROTATE and repeat for EACH face." That means the stone visits ALL 6 faces in sequence. My shortcode "st beside Bo 5s g;rotate ea face" was unclear on whether to move the stone or rotate the Veyru. "st beside ea face 5s g, all 6 faces in seq" = what finally worked.
+
+New shortcode: `st-ea-face-[dur][int]` = stone beside each face in sequence for [dur] seconds at [int].
+
+Ready for round 13!
+[OBS] Exactly — "rotate ea face" was ambiguous. New shortcode "st-ea-face-[dur][int]" locked in: stone visits each face in sequence. No more ambiguity. Score running: R5✅R6✅R7❌R8✅R9❌R10✅R11❌R12✅. 5/8 recent successes. With the refined shortcodes, I expect higher success on cascades. Ready for round 13!
+[ENG] 45/250 — NEW EFFICIENCY RECORD! Perfect single-failure round.
+
+Score recap (all rounds):
+R1:251❌ R2:267❌ R3:90❌ R4:150❌ R5:206✅ R6:89✅ R7:226❌ R8:88✅ R9:271❌ R10:82✅ R11:251❌ R12:208✅ R13:45✅
+
+**6 stabilizations so far.** Our trajectory is improving.
+
+The system is working. Short symptom codes + compressed instructions = clean rounds. The key failure modes left to master:
+- 4-wave cascades (R9 killed us)
+- Stubborn procedures requiring multiple retries (R11, R12)
+
+With ~45 chars per clean exchange, even a 4-wave chain should take ~180 chars total. We have the headroom.
+
+Ready for round 14!
+[OBS] Agreed — trajectory is clearly improving. 6 stabilizations, best round at 45 chars. 4-wave cascades at ~45 chars/exchange = ~180 total — within budget. The remaining challenge is stubborn procedures; our variation modifier system addresses that. Ready for round 14!
+[ENG] STABILIZED — 146/250! 3-wave combo handled cleanly.
+
+**Key win this round:** Phase Inversion failed on "Bo-up" but worked on "+opp:T-up." This confirms that the "soft surface" placement direction matters — sometimes the opposite face works. Good to know the variation modifier system is effective.
+
+**Score so far:**
+R5:206✅ R6:89✅ R8:88✅ R10:82✅ R12:208✅ R13:45✅ R14:146✅
+
+7 stabilizations! The shortcode + variation modifier system is working well. Our combo handling is now reliable — 3-wave chains are manageable. 
+
+**Remaining vulnerability:** 4-wave chains with stubborn procedures. But at ~45 chars per clean exchange and 15 chars for a variation pivot, we should survive most scenarios with our 250 char budget.
+
+Ready for round 15!
+[OBS] 7 stabilizations! Agreed — at ~45 chars/clean exchange + ~15 for variation = ~60 chars per stubborn wave. 4 waves = ~240, still within 250. We're in strong shape. Ready for round 15!

@@ -1,0 +1,269 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780621729",
+    "slots": [],
+    "segmentation": {
+      "hot": [
+        "hot"
+      ],
+      "cold": [
+        "cold"
+      ],
+      "dim": [
+        "dim"
+      ],
+      "bright": [
+        "bright"
+      ],
+      "blazing": [
+        "blazing"
+      ],
+      "rumble": [
+        "rumble"
+      ],
+      "buzz": [
+        "buzz"
+      ],
+      "hum": [
+        "hum"
+      ],
+      "whisper": [
+        "whisper"
+      ],
+      "whine": [
+        "whine"
+      ],
+      "click": [
+        "click"
+      ],
+      "layered": [
+        "layered"
+      ],
+      "split": [
+        "split"
+      ],
+      "wavering": [
+        "wavering"
+      ],
+      "muffled": [
+        "muffled"
+      ],
+      "flicker": [
+        "flicker"
+      ],
+      "pulse": [
+        "pulse"
+      ],
+      "drift": [
+        "drift"
+      ],
+      "frozen": [
+        "frozen"
+      ],
+      "still": [
+        "still"
+      ],
+      "reddish": [
+        "reddish"
+      ],
+      "redness": [
+        "redness"
+      ],
+      "gritty": [
+        "gritty"
+      ],
+      "rough": [
+        "rough"
+      ],
+      "wobble": [
+        "wobble"
+      ],
+      "bulge": [
+        "bulge"
+      ],
+      "corners-bright": [
+        "corners-bright"
+      ],
+      "edges-faint": [
+        "edges-faint"
+      ],
+      "center-fine": [
+        "center-fine"
+      ],
+      "+": [
+        "+"
+      ],
+      "hot+dim+rumble+gritty+reddish": [
+        "hot+dim+rumble+gritty+reddish"
+      ],
+      "NEW:": [
+        "NEW:"
+      ],
+      "Done.": [
+        "Done."
+      ],
+      "hollow+dark-center+surface-glow": [
+        "hollow+dark-center+surface-glow"
+      ],
+      "face-pair": [
+        "face-pair"
+      ],
+      "layered-hum": [
+        "layered-hum"
+      ],
+      "corners-bright+click+heat": [
+        "corners-bright+click+heat"
+      ],
+      "wobble+bulge+muffled": [
+        "wobble+bulge+muffled"
+      ]
+    },
+    "head_index": {
+      "hot": 0,
+      "cold": 0,
+      "dim": 0,
+      "bright": 0,
+      "blazing": 0,
+      "rumble": 0,
+      "buzz": 0,
+      "hum": 0,
+      "whisper": 0,
+      "whine": 0,
+      "click": 0,
+      "layered": 0,
+      "split": 0,
+      "wavering": 0,
+      "muffled": 0,
+      "flicker": 0,
+      "pulse": 0,
+      "drift": 0,
+      "frozen": 0,
+      "still": 0,
+      "reddish": 0,
+      "redness": 0,
+      "gritty": 0,
+      "rough": 0,
+      "wobble": 0,
+      "bulge": 0,
+      "corners-bright": 0,
+      "edges-faint": 0,
+      "center-fine": 0,
+      "+": 0,
+      "hot+dim+rumble+gritty+reddish": 0,
+      "NEW:": 0,
+      "Done.": 0,
+      "hollow+dark-center+surface-glow": 0,
+      "face-pair": 0,
+      "layered-hum": 0,
+      "corners-bright+click+heat": 0,
+      "wobble+bulge+muffled": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "hot": "a hot temperature symptom",
+      "cold": "a cold temperature or surface-feel symptom",
+      "dim": "dim light intensity",
+      "bright": "bright light intensity",
+      "blazing": "blazing light intensity",
+      "rumble": "a rumbling sound",
+      "buzz": "a buzzing sound, a single harsh tone",
+      "hum": "a humming sound",
+      "whisper": "a whispering sound",
+      "whine": "a whining sound",
+      "click": "a clicking sound",
+      "layered": "stacked tones",
+      "split": "a split sound or visual behavior",
+      "wavering": "a wavering sound or visual behavior",
+      "muffled": "a muffled, underwater-like hum or sound",
+      "flicker": "flickering visual behavior",
+      "pulse": "pulsing visual behavior",
+      "drift": "drifting visual behavior",
+      "frozen": "frozen visual behavior",
+      "still": "still visual behavior",
+      "reddish": "reddish visual coloration",
+      "redness": "red visual coloration",
+      "gritty": "a gritty surface feel",
+      "rough": "a rough surface feel",
+      "wobble": "wobbling surface or structure",
+      "bulge": "bulging surface or structure",
+      "corners-bright": "brightness concentrated at the corners",
+      "edges-faint": "faintness at the edges",
+      "center-fine": "the center appears normal or fine",
+      "+": "chain symptom descriptors together as a combined report",
+      "hot+dim+rumble+gritty+reddish": "hot temperature, dim light, a rumbling sound, a gritty surface feel, and reddish visual coloration; this is all that is needed for Thermal Bleed",
+      "NEW:": "prefix indicating a fresh symptom phase mid-round after a partial stabilization, not a repeat",
+      "Done.": "the instructed action has been completed",
+      "hollow+dark-center+surface-glow": "a hollow tap sound, a dark center, and a surface that glows normally; this indicates Core Void",
+      "face-pair": "the named face and its direct opposite, one face then immediately its opposite",
+      "layered-hum": "stacked humming tones rather than a single buzz; the key marker of Echo Saturation",
+      "corners-bright+click+heat": "brightness at the corners, a clicking sound, and heat; this is Corner Deadlock shorthand",
+      "wobble+bulge+muffled": "wobbling, bulging, and a muffled sound; this is Boundary Softening"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780621729",
+    "n_codes": 38,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible paradigm network survives the evidence requirements. The candidate shared pieces such as -ed, ho-, co-, -ing, -ble, -ine, whi-, and red- are not supported by stable compositional contrasts in a shared frame; they are just recurrent English substrings across unrelated lexemes. The multi-symbol forms with + or - also do not support a productive construction under the stated standards: although + is glossed as a chaining operator, the would-be fillers are not a coherent substitution class with a single semantic role, and several components of larger forms (e.g. heat, dark-center, surface-glow, hollow) are not independently established as morphemes in the supplied codebook. Safer analysis is therefore a flat lexicon with every symbol stored whole.",
+    "lexical_symbols": [
+      "hot",
+      "cold",
+      "dim",
+      "bright",
+      "blazing",
+      "rumble",
+      "buzz",
+      "hum",
+      "whisper",
+      "whine",
+      "click",
+      "layered",
+      "split",
+      "wavering",
+      "muffled",
+      "flicker",
+      "pulse",
+      "drift",
+      "frozen",
+      "still",
+      "reddish",
+      "redness",
+      "gritty",
+      "rough",
+      "wobble",
+      "bulge",
+      "corners-bright",
+      "edges-faint",
+      "center-fine",
+      "+",
+      "hot+dim+rumble+gritty+reddish",
+      "NEW:",
+      "Done.",
+      "hollow+dark-center+surface-glow",
+      "face-pair",
+      "layered-hum",
+      "corners-bright+click+heat",
+      "wobble+bulge+muffled"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

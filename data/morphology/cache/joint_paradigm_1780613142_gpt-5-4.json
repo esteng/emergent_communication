@@ -1,0 +1,971 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780613142",
+    "slots": [
+      {
+        "role": "prefix",
+        "fillers": [
+          {
+            "form": "FINGER-",
+            "gloss": "finger",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "STONE-",
+            "gloss": "heated stone",
+            "support": 1,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "TRACE",
+            "gloss": "trace",
+            "support": 2,
+            "is_defined": true
+          },
+          {
+            "form": "hum",
+            "gloss": "hum",
+            "support": 2,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "suffix",
+        "fillers": [
+          {
+            "form": "1",
+            "gloss": "single tone",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "2",
+            "gloss": "two tones",
+            "support": 1,
+            "is_defined": false
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "BELL": [
+        "BELL"
+      ],
+      "HUM": [
+        "HUM"
+      ],
+      "STONE": [
+        "STONE"
+      ],
+      "FAN": [
+        "FAN"
+      ],
+      "CLOTH": [
+        "CLOTH"
+      ],
+      "BOARD": [
+        "BOARD"
+      ],
+      "LAMP": [
+        "LAMP"
+      ],
+      "F": [
+        "F"
+      ],
+      "E": [
+        "E"
+      ],
+      "C": [
+        "C"
+      ],
+      "T": [
+        "T"
+      ],
+      "B": [
+        "B"
+      ],
+      "L/R": [
+        "L/R"
+      ],
+      "Fr/Bk": [
+        "Fr/Bk"
+      ],
+      "br": [
+        "br"
+      ],
+      "dk": [
+        "dk"
+      ],
+      "puls": [
+        "puls"
+      ],
+      "flk": [
+        "flk"
+      ],
+      "hum2": [
+        "hum",
+        "2"
+      ],
+      "hum1": [
+        "hum",
+        "1"
+      ],
+      "syn": [
+        "syn"
+      ],
+      "off": [
+        "off"
+      ],
+      "AC": [
+        "AC"
+      ],
+      "DE": [
+        "DE"
+      ],
+      "ES": [
+        "ES"
+      ],
+      "LI": [
+        "LI"
+      ],
+      "LO": [
+        "LO"
+      ],
+      "HI": [
+        "HI"
+      ],
+      "PI": [
+        "PI"
+      ],
+      "RC": [
+        "RC"
+      ],
+      "CD": [
+        "CD"
+      ],
+      "BS": [
+        "BS"
+      ],
+      "PS": [
+        "PS"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "TB": [
+        "TB"
+      ],
+      "CV": [
+        "CV"
+      ],
+      "all6": [
+        "all6"
+      ],
+      "seq": [
+        "seq"
+      ],
+      "from-back": [
+        "from-back"
+      ],
+      "start:X": [
+        "start:X"
+      ],
+      "opp": [
+        "opp"
+      ],
+      "Bot": [
+        "Bot"
+      ],
+      "F-X": [
+        "F-X"
+      ],
+      "E-X": [
+        "E-X"
+      ],
+      "C-X": [
+        "C-X"
+      ],
+      "from:X": [
+        "from:X"
+      ],
+      "DRAPE": [
+        "DRAPE"
+      ],
+      "WIPE": [
+        "WIPE"
+      ],
+      "WRAP": [
+        "WRAP"
+      ],
+      "RING": [
+        "RING"
+      ],
+      "CHIME": [
+        "CHIME"
+      ],
+      "HOLD-RING": [
+        "HOLD-RING"
+      ],
+      "TOUCH": [
+        "TOUCH"
+      ],
+      "HOVER": [
+        "HOVER"
+      ],
+      "TRACE": [
+        "TRACE"
+      ],
+      "SWEEP": [
+        "SWEEP"
+      ],
+      "PULSE": [
+        "PULSE"
+      ],
+      "STEADY": [
+        "STEADY"
+      ],
+      "PRESS": [
+        "PRESS"
+      ],
+      "TAP": [
+        "TAP"
+      ],
+      "SLIDE": [
+        "SLIDE"
+      ],
+      "SHINE": [
+        "SHINE"
+      ],
+      "FLASH": [
+        "FLASH"
+      ],
+      "P1": [
+        "P1"
+      ],
+      "P2": [
+        "P2"
+      ],
+      "P3": [
+        "P3"
+      ],
+      "P4": [
+        "P4"
+      ],
+      "P5": [
+        "P5"
+      ],
+      "P6": [
+        "P6"
+      ],
+      "P7": [
+        "P7"
+      ],
+      "P8": [
+        "P8"
+      ],
+      "P9": [
+        "P9"
+      ],
+      "P10": [
+        "P10"
+      ],
+      "P11": [
+        "P11"
+      ],
+      "P12": [
+        "P12"
+      ],
+      "P13": [
+        "P13"
+      ],
+      "P14": [
+        "P14"
+      ],
+      "STONE-TRACE": [
+        "STONE-",
+        "TRACE"
+      ],
+      "FINGER-TRACE": [
+        "FINGER-",
+        "TRACE"
+      ],
+      "x": [
+        "x"
+      ],
+      "blz": [
+        "blz"
+      ],
+      "drk": [
+        "drk"
+      ],
+      "mut": [
+        "mut"
+      ],
+      "frz": [
+        "frz"
+      ],
+      "wob": [
+        "wob"
+      ],
+      "blg": [
+        "blg"
+      ],
+      "lyr": [
+        "lyr"
+      ],
+      "shm": [
+        "shm"
+      ],
+      "clsh": [
+        "clsh"
+      ],
+      "buzz": [
+        "buzz"
+      ],
+      "rumble": [
+        "rumble"
+      ],
+      "whine": [
+        "whine"
+      ],
+      "near": [
+        "near"
+      ],
+      "all": [
+        "all"
+      ]
+    },
+    "head_index": {
+      "BELL": 0,
+      "HUM": 0,
+      "STONE": 0,
+      "FAN": 0,
+      "CLOTH": 0,
+      "BOARD": 0,
+      "LAMP": 0,
+      "F": 0,
+      "E": 0,
+      "C": 0,
+      "T": 0,
+      "B": 0,
+      "L/R": 0,
+      "Fr/Bk": 0,
+      "br": 0,
+      "dk": 0,
+      "puls": 0,
+      "flk": 0,
+      "hum2": 0,
+      "hum1": 0,
+      "syn": 0,
+      "off": 0,
+      "AC": 0,
+      "DE": 0,
+      "ES": 0,
+      "LI": 0,
+      "LO": 0,
+      "HI": 0,
+      "PI": 0,
+      "RC": 0,
+      "CD": 0,
+      "BS": 0,
+      "PS": 0,
+      "HS": 0,
+      "TB": 0,
+      "CV": 0,
+      "all6": 0,
+      "seq": 0,
+      "from-back": 0,
+      "start:X": 0,
+      "opp": 0,
+      "Bot": 0,
+      "F-X": 0,
+      "E-X": 0,
+      "C-X": 0,
+      "from:X": 0,
+      "DRAPE": 0,
+      "WIPE": 0,
+      "WRAP": 0,
+      "RING": 0,
+      "CHIME": 0,
+      "HOLD-RING": 0,
+      "TOUCH": 0,
+      "HOVER": 0,
+      "TRACE": 0,
+      "SWEEP": 0,
+      "PULSE": 0,
+      "STEADY": 0,
+      "PRESS": 0,
+      "TAP": 0,
+      "SLIDE": 0,
+      "SHINE": 0,
+      "FLASH": 0,
+      "P1": 0,
+      "P2": 0,
+      "P3": 0,
+      "P4": 0,
+      "P5": 0,
+      "P6": 0,
+      "P7": 0,
+      "P8": 0,
+      "P9": 0,
+      "P10": 0,
+      "P11": 0,
+      "P12": 0,
+      "P13": 0,
+      "P14": 0,
+      "STONE-TRACE": 1,
+      "FINGER-TRACE": 1,
+      "x": 0,
+      "blz": 0,
+      "drk": 0,
+      "mut": 0,
+      "frz": 0,
+      "wob": 0,
+      "blg": 0,
+      "lyr": 0,
+      "shm": 0,
+      "clsh": 0,
+      "buzz": 0,
+      "rumble": 0,
+      "whine": 0,
+      "near": 0,
+      "all": 0
+    },
+    "attested_orderings": [
+      [
+        "prefix",
+        "stem"
+      ],
+      [
+        "stem",
+        "suffix"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [],
+    "form_positions": {
+      "hum": 0,
+      "1": 1,
+      "2": 1,
+      "STONE-": 2,
+      "FINGER-": 2,
+      "TRACE": 3
+    },
+    "position_labels": {
+      "0": "hum base",
+      "1": "tone count",
+      "2": "trace instrument",
+      "3": "trace action"
+    },
+    "positions_by_symbol": {
+      "hum1": [
+        0,
+        1
+      ],
+      "hum2": [
+        0,
+        1
+      ],
+      "STONE-TRACE": [
+        2,
+        3
+      ],
+      "FINGER-TRACE": [
+        2,
+        3
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "hum": "hum"
+      },
+      "1": {
+        "1": "single tone",
+        "2": "two tones"
+      },
+      "2": {
+        "STONE-": "heated stone",
+        "FINGER-": "finger"
+      },
+      "3": {
+        "TRACE": "trace"
+      }
+    },
+    "meaning_by_symbol": {
+      "BELL": "ring bell",
+      "HUM": "my voice or sustained vocal tone",
+      "STONE": "heated stone",
+      "FAN": "hand fan",
+      "CLOTH": "cloth",
+      "BOARD": "flat board",
+      "LAMP": "lamp",
+      "F": "face",
+      "E": "edge",
+      "C": "corner",
+      "T": "top",
+      "B": "bottom, L/R, Fr/Bk",
+      "L/R": "left or right",
+      "Fr/Bk": "front or back",
+      "br": "bright",
+      "dk": "dark",
+      "puls": "pulsing",
+      "flk": "flicker",
+      "hum2": "two-tone hum",
+      "hum1": "single tone",
+      "syn": "in sync",
+      "off": "out of sync",
+      "AC": "align collapse",
+      "DE": "drift",
+      "ES": "echo",
+      "LI": "leak",
+      "LO": "low intensity",
+      "HI": "high intensity",
+      "PI": "phase inversion",
+      "RC": "resonance",
+      "CD": "corner deadlock",
+      "BS": "boundary soft",
+      "PS": "prop stall",
+      "HS": "harm split",
+      "TB": "thermal bleed",
+      "CV": "core void",
+      "all6": "all 6 faces as a whole, positioned centrally and applied to the whole Veyru",
+      "seq": "each face in turn, as a sequence",
+      "from-back": "starting face is back",
+      "start:X": "starting face is X",
+      "opp": "the face opposite to the most recently named face",
+      "Bot": "bottom",
+      "F-X": "means face X; E-X means an edge of face X",
+      "E-X": "an edge of face X or a shared edge",
+      "C-X": "corner of face X",
+      "from:X": "or \"start:X\" = start at face X",
+      "DRAPE": "cover the entire Veyru and leave it for 5 seconds",
+      "WIPE": "wipe across faces",
+      "WRAP": "wrap one face or edge",
+      "RING": "single strike",
+      "CHIME": "repeated ringing",
+      "HOLD-RING": "sustained ringing",
+      "TOUCH": "contact a face with the stone",
+      "HOVER": "hold the stone near a face with no contact",
+      "TRACE": "move along edges",
+      "SWEEP": "continuous movement across",
+      "PULSE": "puffs",
+      "STEADY": "hold airflow on one spot",
+      "PRESS": "press against a face",
+      "TAP": "tap",
+      "SLIDE": "slide",
+      "SHINE": "steady light",
+      "FLASH": "flash the lamp",
+      "P1": "sustained tone on all 6 faces for Ts, starting from face X, then fade",
+      "P2": "alternate repeated bell chime on opposite faces X and Y for Ts, pause, repeated 5 times",
+      "P3": "drape cloth on 2 adjacent edges next to face X for Ts; then ring bell at face X 3 times",
+      "P4": "warm the corners of face X sequentially for Ts; then trace the edges of face X",
+      "P5": "warm stone on face X for Ts, sequence through all 6 faces",
+      "P6": "drape all for Ts; then fan face X and the opposite face for Ts",
+      "P7": "lamp on face X dim and opposite face bright for Ts",
+      "P8": "drape face X for Ts; then ring bell on each edge of face X 2 times each",
+      "P9": "bell corners of face X in sequence; then warm the meeting edge for Ts",
+      "P10": "press board against face X for Ts, sequence through all face-pairs",
+      "P11": "ring bell once at each center for all, starting from face X; then apply stone to the side for Ts",
+      "P12": "rest undisturbed with face X up, soft, for Ts",
+      "P13": "drape all for Ts; then fan all 6 faces for Ts starting from face X",
+      "P14": "rotate for Ts plus hum at opposite faces starting from face X; then ring bell at each corner",
+      "STONE-TRACE": "trace with the stone",
+      "FINGER-TRACE": "trace with a finger",
+      "x": "I executed exactly as told, the action was ineffective, and symptoms were unchanged",
+      "blz": "blazing",
+      "drk": "dark",
+      "mut": "muted or muffled",
+      "frz": "frozen",
+      "wob": "wobble",
+      "blg": "bulge",
+      "lyr": "layered",
+      "shm": "shimmer",
+      "clsh": "clash",
+      "buzz": "loud harsh buzz",
+      "rumble": "low growling rumble",
+      "whine": "high-pitched whine",
+      "near": "simultaneous application near the named faces when used as in near F-A and F-B",
+      "all": "the whole Veyru as one, for example draped or centered as a whole"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780613142",
+    "n_codes": 94,
+    "n_multimorpheme": 4,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "stem",
+        "label": "hum base",
+        "fillers": [
+          {
+            "form": "hum",
+            "gloss": "hum",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.5,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "suffix",
+        "label": "tone count",
+        "fillers": [
+          {
+            "form": "1",
+            "gloss": "single tone",
+            "count": 1
+          },
+          {
+            "form": "2",
+            "gloss": "two tones",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.5,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos2",
+        "role": "prefix",
+        "label": "trace instrument",
+        "fillers": [
+          {
+            "form": "FINGER-",
+            "gloss": "finger",
+            "count": 1
+          },
+          {
+            "form": "STONE",
+            "gloss": "heated stone",
+            "count": 0
+          },
+          {
+            "form": "STONE-",
+            "gloss": "heated stone",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 3,
+        "obligatoriness": 0.5,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos3",
+        "role": "stem",
+        "label": "trace action",
+        "fillers": [
+          {
+            "form": "TRACE",
+            "gloss": "trace",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.5,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      },
+      {
+        "slot_a": "pos2",
+        "slot_b": "pos3",
+        "attested_combos": 2,
+        "possible_combos": 3,
+        "saturation": 0.6666666666666666
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ],
+      [
+        "pos2",
+        "pos3"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "hum1": [
+        "pos0",
+        "pos1"
+      ],
+      "hum2": [
+        "pos0",
+        "pos1"
+      ],
+      "STONE-TRACE": [
+        "pos2",
+        "pos3"
+      ],
+      "FINGER-TRACE": [
+        "pos2",
+        "pos3"
+      ]
+    },
+    "construction_by_symbol": {
+      "hum1": "CX_HUM_PATTERN",
+      "hum2": "CX_HUM_PATTERN",
+      "STONE-TRACE": "CX_INSTRUMENT_TRACE",
+      "FINGER-TRACE": "CX_INSTRUMENT_TRACE"
+    },
+    "construction_labels": {
+      "CX_HUM_PATTERN": "hum pattern",
+      "CX_INSTRUMENT_TRACE": "instrument trace"
+    },
+    "construction_templates": {
+      "CX_HUM_PATTERN": [
+        "pos0",
+        "pos1"
+      ],
+      "CX_INSTRUMENT_TRACE": [
+        "pos2",
+        "pos3"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "Most symbols are best treated as lexical because the suggested surface resemblances do not support compositional paradigms. In particular, P1–P14 are opaque indexed procedures, not P + numeral; start:X/from:X do not show a meaning contrast in the same frame; and other shared substrings like ST-, -ING, -PE, -AP, or al- are accidental or semantically inconsistent. Two small paradigms are defensible: (i) hum1/hum2, where hum contributes 'hum' and 1/2 contribute the tone-count contrast; and (ii) STONE-TRACE/FINGER-TRACE, where TRACE contributes 'trace' and the initial element contributes the instrument. All remaining symbols are left lexical to avoid overanalysis.",
+    "lexical_symbols": [
+      "BELL",
+      "HUM",
+      "STONE",
+      "FAN",
+      "CLOTH",
+      "BOARD",
+      "LAMP",
+      "F",
+      "E",
+      "C",
+      "T",
+      "B",
+      "L/R",
+      "Fr/Bk",
+      "br",
+      "dk",
+      "puls",
+      "flk",
+      "syn",
+      "off",
+      "AC",
+      "DE",
+      "ES",
+      "LI",
+      "LO",
+      "HI",
+      "PI",
+      "RC",
+      "CD",
+      "BS",
+      "PS",
+      "HS",
+      "TB",
+      "CV",
+      "all6",
+      "seq",
+      "from-back",
+      "start:X",
+      "opp",
+      "Bot",
+      "F-X",
+      "E-X",
+      "C-X",
+      "from:X",
+      "DRAPE",
+      "WIPE",
+      "WRAP",
+      "RING",
+      "CHIME",
+      "HOLD-RING",
+      "TOUCH",
+      "HOVER",
+      "TRACE",
+      "SWEEP",
+      "PULSE",
+      "STEADY",
+      "PRESS",
+      "TAP",
+      "SLIDE",
+      "SHINE",
+      "FLASH",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8",
+      "P9",
+      "P10",
+      "P11",
+      "P12",
+      "P13",
+      "P14",
+      "x",
+      "blz",
+      "drk",
+      "mut",
+      "frz",
+      "wob",
+      "blg",
+      "lyr",
+      "shm",
+      "clsh",
+      "buzz",
+      "rumble",
+      "whine",
+      "near",
+      "all"
+    ],
+    "classes": [
+      {
+        "class_id": "CL_HUM_BASE",
+        "label": "hum base",
+        "description": "Base morpheme meaning 'hum'.",
+        "repeatable": false,
+        "declared_fillers": [
+          {
+            "form": "hum",
+            "gloss": "sustained vocal tone"
+          }
+        ]
+      },
+      {
+        "class_id": "CL_TONE_COUNT",
+        "label": "tone count",
+        "description": "Number of tones in the hum pattern.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CL_TRACE_INSTRUMENT",
+        "label": "trace instrument",
+        "description": "Instrument used to perform tracing.",
+        "repeatable": false,
+        "declared_fillers": [
+          {
+            "form": "STONE",
+            "gloss": "heated stone"
+          }
+        ]
+      },
+      {
+        "class_id": "CL_TRACE_ACTION",
+        "label": "trace action",
+        "description": "Tracing action.",
+        "repeatable": false,
+        "declared_fillers": []
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "CX_HUM_PATTERN",
+        "label": "hum pattern",
+        "description": "Hum base followed by a tone-count specification.",
+        "class_sequence": [
+          "CL_HUM_BASE",
+          "CL_TONE_COUNT"
+        ]
+      },
+      {
+        "construction_id": "CX_INSTRUMENT_TRACE",
+        "label": "instrument trace",
+        "description": "Instrument specification followed by the tracing action.",
+        "class_sequence": [
+          "CL_TRACE_INSTRUMENT",
+          "CL_TRACE_ACTION"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "hum1",
+        "construction_id": "CX_HUM_PATTERN",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "hum",
+            "class_id": "CL_HUM_BASE",
+            "gloss": "hum"
+          },
+          {
+            "form": "1",
+            "class_id": "CL_TONE_COUNT",
+            "gloss": "single tone"
+          }
+        ]
+      },
+      {
+        "symbol": "hum2",
+        "construction_id": "CX_HUM_PATTERN",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "hum",
+            "class_id": "CL_HUM_BASE",
+            "gloss": "hum"
+          },
+          {
+            "form": "2",
+            "class_id": "CL_TONE_COUNT",
+            "gloss": "two tones"
+          }
+        ]
+      },
+      {
+        "symbol": "STONE-TRACE",
+        "construction_id": "CX_INSTRUMENT_TRACE",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "STONE-",
+            "class_id": "CL_TRACE_INSTRUMENT",
+            "gloss": "heated stone"
+          },
+          {
+            "form": "TRACE",
+            "class_id": "CL_TRACE_ACTION",
+            "gloss": "trace"
+          }
+        ]
+      },
+      {
+        "symbol": "FINGER-TRACE",
+        "construction_id": "CX_INSTRUMENT_TRACE",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "FINGER-",
+            "class_id": "CL_TRACE_INSTRUMENT",
+            "gloss": "finger"
+          },
+          {
+            "form": "TRACE",
+            "class_id": "CL_TRACE_ACTION",
+            "gloss": "trace"
+          }
+        ]
+      }
+    ]
+  }
+}

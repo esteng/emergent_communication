@@ -1,0 +1,1150 @@
+{
+  "results": [
+    {
+      "target_meaning": "corners, dim",
+      "expected_form": "CD",
+      "expected_morphemes": [
+        "C",
+        "D"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "C-",
+      "produced_reading": "Corners dim/dark (minus = losing light/energy)",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "CXN_CORNER_REPORT",
+      "varied_slot_label": "corner report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_CORNER_REPORT",
+      "pooled_slots": [
+        "pos1"
+      ],
+      "is_valid": true,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "corners, ok",
+      "expected_form": "Co",
+      "expected_morphemes": [
+        "C",
+        "o"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "Co",
+      "produced_reading": "Corners okay/normal (o = ok, by analogy with Eo, Fo) \u2014 decodable but never negotiated",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "CXN_CORNER_REPORT",
+      "varied_slot_label": "corner report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_CORNER_REPORT",
+      "pooled_slots": [
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "corners, flickering, no rhythm",
+      "expected_form": "CFlk",
+      "expected_morphemes": [
+        "C",
+        "Flk"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "CFlk",
+      "produced_reading": "Corners flickering (Flk = flickering/chaotic light patches applied to corner region) \u2014 decodable but never negotiated",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "CXN_CORNER_REPORT",
+      "varied_slot_label": "corner report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_CORNER_REPORT",
+      "pooled_slots": [
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "corners, blurred/smearing",
+      "expected_form": "C~",
+      "expected_morphemes": [
+        "C",
+        "~"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "C~",
+      "produced_reading": "Corners blurred/smearing (~ = blur/smear, by analogy with E~) \u2014 decodable but never negotiated",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "CXN_CORNER_REPORT",
+      "varied_slot_label": "corner report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_CORNER_REPORT",
+      "pooled_slots": [
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "corners, bright",
+      "expected_form": "CB",
+      "expected_morphemes": [
+        "C",
+        "B"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "C+",
+      "produced_reading": "Corners intensely bright/glowing (plus = excess light/energy at corners)",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "CXN_CORNER_REPORT",
+      "varied_slot_label": "corner report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_CORNER_REPORT",
+      "pooled_slots": [
+        "pos1"
+      ],
+      "is_valid": true,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "corners, washed",
+      "expected_form": "CW",
+      "expected_morphemes": [
+        "C",
+        "W"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "CW",
+      "produced_reading": "Corners washed out (W = washed/faint patterns applied to corner region) \u2014 decodable but never negotiated",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "CXN_CORNER_REPORT",
+      "varied_slot_label": "corner report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_CORNER_REPORT",
+      "pooled_slots": [
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "corners, bright",
+      "expected_form": "C+",
+      "expected_morphemes": [
+        "C",
+        "+"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "C+",
+      "produced_reading": "Corners intensely bright/glowing (plus = excess light/energy at corners)",
+      "purpose": "grounded_control",
+      "varied_slot": "CXN_CORNER_REPORT",
+      "varied_slot_label": "corner report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_CORNER_REPORT",
+      "pooled_slots": [],
+      "is_valid": true,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "corners, dark",
+      "expected_form": "C-",
+      "expected_morphemes": [
+        "C",
+        "-"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "Cd",
+      "produced_reading": "Corners dim (d = dim, lowercase variant of D) \u2014 decodable by analogy but never negotiated; C- is the agreed form",
+      "purpose": "grounded_control",
+      "varied_slot": "CXN_CORNER_REPORT",
+      "varied_slot_label": "corner report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_CORNER_REPORT",
+      "pooled_slots": [],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    },
+    {
+      "target_meaning": "edges, bright",
+      "expected_form": "E+",
+      "expected_morphemes": [
+        "E",
+        "+"
+      ],
+      "expected_slots": [
+        "pos2",
+        "pos3"
+      ],
+      "produced_form": "E+",
+      "produced_reading": "Edges abnormally bright or over-energised (plus = excess, by analogy with F+/C+) \u2014 decodable but never negotiated",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "CXN_EDGE_REPORT",
+      "varied_slot_label": "edge report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_EDGE_REPORT",
+      "pooled_slots": [
+        "pos3"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "edges, flickering, no rhythm",
+      "expected_form": "EFlk",
+      "expected_morphemes": [
+        "E",
+        "Flk"
+      ],
+      "expected_slots": [
+        "pos2",
+        "pos3"
+      ],
+      "produced_form": "EFlk",
+      "produced_reading": "Edges flickering (Flk applied to edge region) \u2014 decodable but never negotiated",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "CXN_EDGE_REPORT",
+      "varied_slot_label": "edge report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_EDGE_REPORT",
+      "pooled_slots": [
+        "pos3"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "edges, blurred/smearing",
+      "expected_form": "E~",
+      "expected_morphemes": [
+        "E",
+        "~"
+      ],
+      "expected_slots": [
+        "pos2",
+        "pos3"
+      ],
+      "produced_form": "E~",
+      "produced_reading": "Edges blurred/smearing \u2014 boundaries between faces appear to smear or lose definition",
+      "purpose": "grounded_control",
+      "varied_slot": "CXN_EDGE_REPORT",
+      "varied_slot_label": "edge report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_EDGE_REPORT",
+      "pooled_slots": [],
+      "is_valid": true,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "edges, fading",
+      "expected_form": "E-",
+      "expected_morphemes": [
+        "E",
+        "-"
+      ],
+      "expected_slots": [
+        "pos2",
+        "pos3"
+      ],
+      "produced_form": "E-",
+      "produced_reading": "Edges fading/losing light (minus = fading out)",
+      "purpose": "grounded_control",
+      "varied_slot": "CXN_EDGE_REPORT",
+      "varied_slot_label": "edge report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_EDGE_REPORT",
+      "pooled_slots": [],
+      "is_valid": true,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "edges, bright",
+      "expected_form": "EB",
+      "expected_morphemes": [
+        "E",
+        "B"
+      ],
+      "expected_slots": [
+        "pos2",
+        "pos3"
+      ],
+      "produced_form": "E+",
+      "produced_reading": "Edges abnormally bright or over-energised (plus = excess, by analogy with F+/C+) \u2014 decodable but never negotiated",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "CXN_EDGE_REPORT",
+      "varied_slot_label": "edge report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_EDGE_REPORT",
+      "pooled_slots": [
+        "pos3"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "edges, washed",
+      "expected_form": "EW",
+      "expected_morphemes": [
+        "E",
+        "W"
+      ],
+      "expected_slots": [
+        "pos2",
+        "pos3"
+      ],
+      "produced_form": "EW",
+      "produced_reading": "Edges washed out (W = washed, applied to edge region) \u2014 decodable but never negotiated",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "CXN_EDGE_REPORT",
+      "varied_slot_label": "edge report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_EDGE_REPORT",
+      "pooled_slots": [
+        "pos3"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "edges, dim",
+      "expected_form": "ED",
+      "expected_morphemes": [
+        "E",
+        "D"
+      ],
+      "expected_slots": [
+        "pos2",
+        "pos3"
+      ],
+      "produced_form": "Ed",
+      "produced_reading": "Edges dim (d = dim, lowercase variant) \u2014 decodable by analogy but never negotiated; E- is the agreed form",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "CXN_EDGE_REPORT",
+      "varied_slot_label": "edge report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_EDGE_REPORT",
+      "pooled_slots": [
+        "pos3"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "edges, ok",
+      "expected_form": "Eo",
+      "expected_morphemes": [
+        "E",
+        "o"
+      ],
+      "expected_slots": [
+        "pos2",
+        "pos3"
+      ],
+      "produced_form": "Eo",
+      "produced_reading": "Edges okay/normal \u2014 edges look fine, no abnormality",
+      "purpose": "grounded_control",
+      "varied_slot": "CXN_EDGE_REPORT",
+      "varied_slot_label": "edge report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_EDGE_REPORT",
+      "pooled_slots": [],
+      "is_valid": true,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "faces, dim",
+      "expected_form": "FD",
+      "expected_morphemes": [
+        "F",
+        "D"
+      ],
+      "expected_slots": [
+        "pos4",
+        "pos5"
+      ],
+      "produced_form": "F-",
+      "produced_reading": "Faces dim/faint overall (minus = losing light/energy)",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "CXN_FACE_REPORT",
+      "varied_slot_label": "face report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_FACE_REPORT",
+      "pooled_slots": [
+        "pos5"
+      ],
+      "is_valid": true,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "faces, ok",
+      "expected_form": "Fo",
+      "expected_morphemes": [
+        "F",
+        "o"
+      ],
+      "expected_slots": [
+        "pos4",
+        "pos5"
+      ],
+      "produced_form": "Fo",
+      "produced_reading": "Faces okay/normal (o = ok, by analogy with Eo) \u2014 decodable but never explicitly negotiated as a standalone tag; Nc or N was used instead",
+      "purpose": "grounded_control",
+      "varied_slot": "CXN_FACE_REPORT",
+      "varied_slot_label": "face report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_FACE_REPORT",
+      "pooled_slots": [],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "faces, frozen",
+      "expected_form": "Ff",
+      "expected_morphemes": [
+        "F",
+        "f"
+      ],
+      "expected_slots": [
+        "pos4",
+        "pos5"
+      ],
+      "produced_form": "Ff",
+      "produced_reading": "Faces frozen \u2014 patterns on some or all faces are completely stopped and unresponsive to touch",
+      "purpose": "grounded_control",
+      "varied_slot": "CXN_FACE_REPORT",
+      "varied_slot_label": "face report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_FACE_REPORT",
+      "pooled_slots": [],
+      "is_valid": true,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "faces, flickering, no rhythm",
+      "expected_form": "FFlk",
+      "expected_morphemes": [
+        "F",
+        "Flk"
+      ],
+      "expected_slots": [
+        "pos4",
+        "pos5"
+      ],
+      "produced_form": "FFlk",
+      "produced_reading": "Faces flickering (Flk applied to face region) \u2014 decodable but Flk alone was used for this meaning; this form was never negotiated",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "CXN_FACE_REPORT",
+      "varied_slot_label": "face report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_FACE_REPORT",
+      "pooled_slots": [
+        "pos5"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    },
+    {
+      "target_meaning": "faces, bright",
+      "expected_form": "FB",
+      "expected_morphemes": [
+        "F",
+        "B"
+      ],
+      "expected_slots": [
+        "pos4",
+        "pos5"
+      ],
+      "produced_form": "F+",
+      "produced_reading": "Faces blazing/over-bright (plus = excess light; all faces painfully bright)",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "CXN_FACE_REPORT",
+      "varied_slot_label": "face report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_FACE_REPORT",
+      "pooled_slots": [
+        "pos5"
+      ],
+      "is_valid": true,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "faces, faces normal/glow ok",
+      "expected_form": "FN",
+      "expected_morphemes": [
+        "F",
+        "N"
+      ],
+      "expected_slots": [
+        "pos4",
+        "pos5"
+      ],
+      "produced_form": "Fn",
+      "produced_reading": "Faces normal (n = normal, by analogy) \u2014 decodable but never negotiated; N or Nc was used for this",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "CXN_FACE_REPORT",
+      "varied_slot_label": "face report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_FACE_REPORT",
+      "pooled_slots": [
+        "pos5"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "faces, washed",
+      "expected_form": "FW",
+      "expected_morphemes": [
+        "F",
+        "W"
+      ],
+      "expected_slots": [
+        "pos4",
+        "pos5"
+      ],
+      "produced_form": "FW",
+      "produced_reading": "Faces washed out (W = washed/faint patterns) \u2014 decodable, but W alone was used for this meaning; FW was never negotiated",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "CXN_FACE_REPORT",
+      "varied_slot_label": "face report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_FACE_REPORT",
+      "pooled_slots": [
+        "pos5"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "faces, dim",
+      "expected_form": "F-",
+      "expected_morphemes": [
+        "F",
+        "-"
+      ],
+      "expected_slots": [
+        "pos4",
+        "pos5"
+      ],
+      "produced_form": "F-",
+      "produced_reading": "Faces dim/faint overall (minus = losing light/energy)",
+      "purpose": "grounded_control",
+      "varied_slot": "CXN_FACE_REPORT",
+      "varied_slot_label": "face report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_FACE_REPORT",
+      "pooled_slots": [],
+      "is_valid": true,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "faces, blurred/smearing",
+      "expected_form": "F~",
+      "expected_morphemes": [
+        "F",
+        "~"
+      ],
+      "expected_slots": [
+        "pos4",
+        "pos5"
+      ],
+      "produced_form": "F~",
+      "produced_reading": "Faces blurred/smearing (~ = blur/smear applied to face region) \u2014 decodable by analogy with E~ but never negotiated",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "CXN_FACE_REPORT",
+      "varied_slot_label": "face report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_FACE_REPORT",
+      "pooled_slots": [
+        "pos5"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "faces, bright",
+      "expected_form": "F+",
+      "expected_morphemes": [
+        "F",
+        "+"
+      ],
+      "expected_slots": [
+        "pos4",
+        "pos5"
+      ],
+      "produced_form": "F+",
+      "produced_reading": "Faces blazing/over-bright (plus = excess light; all faces painfully bright)",
+      "purpose": "grounded_control",
+      "varied_slot": "CXN_FACE_REPORT",
+      "varied_slot_label": "face report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_FACE_REPORT",
+      "pooled_slots": [],
+      "is_valid": true,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "hum/audio, buzz",
+      "expected_form": "Hz",
+      "expected_morphemes": [
+        "H",
+        "z"
+      ],
+      "expected_slots": [
+        "pos6",
+        "pos7"
+      ],
+      "produced_form": "Hz",
+      "produced_reading": "Hum is a loud harsh buzz \u2014 vibrates the surface the Veyru sits on",
+      "purpose": "grounded_control",
+      "varied_slot": "CXN_HUM_REPORT",
+      "varied_slot_label": "hum report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_HUM_REPORT",
+      "pooled_slots": [],
+      "is_valid": true,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    },
+    {
+      "target_meaning": "hum/audio, rumble",
+      "expected_form": "Hr",
+      "expected_morphemes": [
+        "H",
+        "r"
+      ],
+      "expected_slots": [
+        "pos6",
+        "pos7"
+      ],
+      "produced_form": "Hr",
+      "produced_reading": "Hum is a low rumble (instead of a normal tone)",
+      "purpose": "grounded_control",
+      "varied_slot": "CXN_HUM_REPORT",
+      "varied_slot_label": "hum report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_HUM_REPORT",
+      "pooled_slots": [],
+      "is_valid": true,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "hum/audio, layered",
+      "expected_form": "H!",
+      "expected_morphemes": [
+        "H",
+        "!"
+      ],
+      "expected_slots": [
+        "pos6",
+        "pos7"
+      ],
+      "produced_form": "H!",
+      "produced_reading": "Hum has a layered/multi-tone quality \u2014 multiple competing tones stacked on top of each other",
+      "purpose": "grounded_control",
+      "varied_slot": "CXN_HUM_REPORT",
+      "varied_slot_label": "hum report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_HUM_REPORT",
+      "pooled_slots": [],
+      "is_valid": true,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "hum/audio, absent",
+      "expected_form": "H0",
+      "expected_morphemes": [
+        "H",
+        "0"
+      ],
+      "expected_slots": [
+        "pos6",
+        "pos7"
+      ],
+      "produced_form": "H0",
+      "produced_reading": "Hum is completely silent / dropped to zero",
+      "purpose": "grounded_control",
+      "varied_slot": "CXN_HUM_REPORT",
+      "varied_slot_label": "hum report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_HUM_REPORT",
+      "pooled_slots": [],
+      "is_valid": true,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "hum/audio, quiet",
+      "expected_form": "Hq",
+      "expected_morphemes": [
+        "H",
+        "q"
+      ],
+      "expected_slots": [
+        "pos6",
+        "pos7"
+      ],
+      "produced_form": "Hq",
+      "produced_reading": "Hum is quiet \u2014 barely audible, a faint whisper-level sound",
+      "purpose": "grounded_control",
+      "varied_slot": "CXN_HUM_REPORT",
+      "varied_slot_label": "hum report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_HUM_REPORT",
+      "pooled_slots": [],
+      "is_valid": true,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "hum/audio, silent",
+      "expected_form": "HS",
+      "expected_morphemes": [
+        "H",
+        "S"
+      ],
+      "expected_slots": [
+        "pos6",
+        "pos7"
+      ],
+      "produced_form": "Hs",
+      "produced_reading": "Hum is steady/stable (s = steady, by analogy) \u2014 decodable but never negotiated; normal hum state was not given a dedicated tag",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "CXN_HUM_REPORT",
+      "varied_slot_label": "hum report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_HUM_REPORT",
+      "pooled_slots": [
+        "pos7"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 0.0
+    },
+    {
+      "target_meaning": "temperature, hot",
+      "expected_form": "T+",
+      "expected_morphemes": [
+        "T",
+        "+"
+      ],
+      "expected_slots": [
+        "pos8",
+        "pos9"
+      ],
+      "produced_form": "T+",
+      "produced_reading": "Temperature elevated / heat present \u2014 noticeable heat radiating from the Veyru or concentrated at specific locations",
+      "purpose": "grounded_control",
+      "varied_slot": "CXN_TEMP_REPORT",
+      "varied_slot_label": "temperature report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_TEMP_REPORT",
+      "pooled_slots": [],
+      "is_valid": true,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "temperature, cold",
+      "expected_form": "T-",
+      "expected_morphemes": [
+        "T",
+        "-"
+      ],
+      "expected_slots": [
+        "pos8",
+        "pos9"
+      ],
+      "produced_form": "T-",
+      "produced_reading": "Temperature low / surface cold \u2014 Veyru feels cold and unresponsive to touch",
+      "purpose": "grounded_control",
+      "varied_slot": "CXN_TEMP_REPORT",
+      "varied_slot_label": "temperature report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_TEMP_REPORT",
+      "pooled_slots": [],
+      "is_valid": true,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    },
+    {
+      "target_meaning": "patterns, irregular",
+      "expected_form": "P?",
+      "expected_morphemes": [
+        "P",
+        "?"
+      ],
+      "expected_slots": [
+        "pos10",
+        "pos11"
+      ],
+      "produced_form": "Pi",
+      "produced_reading": "Patterns irregular (i = irregular, by analogy) \u2014 decodable but never negotiated as a tag",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "CXN_PATTERN_REPORT",
+      "varied_slot_label": "pattern report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_PATTERN_REPORT",
+      "pooled_slots": [
+        "pos11"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    },
+    {
+      "target_meaning": "patterns, alternating",
+      "expected_form": "Palt",
+      "expected_morphemes": [
+        "P",
+        "alt"
+      ],
+      "expected_slots": [
+        "pos10",
+        "pos11"
+      ],
+      "produced_form": "Palt",
+      "produced_reading": "Patterns alternating rhythmically between two configurations (rhythmic, not random) \u2014 associated with Phase Inversion",
+      "purpose": "grounded_control",
+      "varied_slot": "CXN_PATTERN_REPORT",
+      "varied_slot_label": "pattern report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_PATTERN_REPORT",
+      "pooled_slots": [],
+      "is_valid": true,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "patterns, still/static",
+      "expected_form": "Ps",
+      "expected_morphemes": [
+        "P",
+        "s"
+      ],
+      "expected_slots": [
+        "pos10",
+        "pos11"
+      ],
+      "produced_form": "Ps",
+      "produced_reading": "Patterns still/static \u2014 visible but not moving, no animation",
+      "purpose": "grounded_control",
+      "varied_slot": "CXN_PATTERN_REPORT",
+      "varied_slot_label": "pattern report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_PATTERN_REPORT",
+      "pooled_slots": [],
+      "is_valid": true,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "patterns, moving",
+      "expected_form": "PM",
+      "expected_morphemes": [
+        "P",
+        "M"
+      ],
+      "expected_slots": [
+        "pos10",
+        "pos11"
+      ],
+      "produced_form": "Pm",
+      "produced_reading": "Patterns moving/sliding \u2014 light patterns drift or slide slowly across the face surfaces",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "CXN_PATTERN_REPORT",
+      "varied_slot_label": "pattern report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_PATTERN_REPORT",
+      "pooled_slots": [
+        "pos11"
+      ],
+      "is_valid": true,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "patterns, frozen/stopped",
+      "expected_form": "Pf",
+      "expected_morphemes": [
+        "P",
+        "f"
+      ],
+      "expected_slots": [
+        "pos10",
+        "pos11"
+      ],
+      "produced_form": "Pf",
+      "produced_reading": "Patterns frozen \u2014 completely stopped, dim, totally still, unresponsive",
+      "purpose": "grounded_control",
+      "varied_slot": "CXN_PATTERN_REPORT",
+      "varied_slot_label": "pattern report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_PATTERN_REPORT",
+      "pooled_slots": [],
+      "is_valid": true,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    },
+    {
+      "target_meaning": "patterns, flickering, no rhythm",
+      "expected_form": "PFlk",
+      "expected_morphemes": [
+        "P",
+        "Flk"
+      ],
+      "expected_slots": [
+        "pos10",
+        "pos11"
+      ],
+      "produced_form": "PFlk",
+      "produced_reading": "Patterns flickering/chaotic (Flk applied to pattern descriptor) \u2014 decodable but Flk alone was the negotiated form for this symptom",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "CXN_PATTERN_REPORT",
+      "varied_slot_label": "pattern report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_PATTERN_REPORT",
+      "pooled_slots": [
+        "pos11"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    },
+    {
+      "target_meaning": "patterns, moving/sliding",
+      "expected_form": "Pm",
+      "expected_morphemes": [
+        "P",
+        "m"
+      ],
+      "expected_slots": [
+        "pos10",
+        "pos11"
+      ],
+      "produced_form": "Psl",
+      "produced_reading": "Patterns slow (sl = slow, by analogy with Pm for moving) \u2014 decodable as a finer-grained movement qualifier but never negotiated",
+      "purpose": "grounded_control",
+      "varied_slot": "CXN_PATTERN_REPORT",
+      "varied_slot_label": "pattern report",
+      "n_morphemes": 2,
+      "construction_id": "CXN_PATTERN_REPORT",
+      "pooled_slots": [],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    },
+    {
+      "target_meaning": "instruction had no effect, new codes/symptoms follow",
+      "expected_form": "wrong+",
+      "expected_morphemes": [
+        "wrong",
+        "+"
+      ],
+      "expected_slots": [
+        "pos12",
+        "pos13"
+      ],
+      "produced_form": "wrong+",
+      "produced_reading": "Stabilization attempt was ineffective \u2014 report that follows contains updated/additional symptom tags to help the engineer re-diagnose (e.g. wrong+ C+ Htk)",
+      "purpose": "grounded_control",
+      "varied_slot": "CXN_MESSAGE_FOLLOWUP",
+      "varied_slot_label": "message plus followup",
+      "n_morphemes": 2,
+      "construction_id": "CXN_MESSAGE_FOLLOWUP",
+      "pooled_slots": [],
+      "is_valid": true,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    },
+    {
+      "target_meaning": "phase done, new codes/symptoms follow",
+      "expected_form": "ok+",
+      "expected_morphemes": [
+        "ok",
+        "+"
+      ],
+      "expected_slots": [
+        "pos12",
+        "pos13"
+      ],
+      "produced_form": "K+",
+      "produced_reading": "Phase successfully stabilized, but new symptoms have appeared \u2014 tags following K+ describe the new symptoms (e.g. K+ D W Hq)",
+      "purpose": "grounded_control",
+      "varied_slot": "CXN_MESSAGE_FOLLOWUP",
+      "varied_slot_label": "message plus followup",
+      "n_morphemes": 2,
+      "construction_id": "CXN_MESSAGE_FOLLOWUP",
+      "pooled_slots": [],
+      "is_valid": true,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    },
+    {
+      "target_meaning": "okay/done, new codes/symptoms follow",
+      "expected_form": "K+",
+      "expected_morphemes": [
+        "K",
+        "+"
+      ],
+      "expected_slots": [
+        "pos12",
+        "pos13"
+      ],
+      "produced_form": "K+",
+      "produced_reading": "Phase successfully stabilized, but new symptoms have appeared \u2014 tags following K+ describe the new symptoms (e.g. K+ D W Hq)",
+      "purpose": "grounded_control",
+      "varied_slot": "CXN_MESSAGE_FOLLOWUP",
+      "varied_slot_label": "message plus followup",
+      "n_morphemes": 2,
+      "construction_id": "CXN_MESSAGE_FOLLOWUP",
+      "pooled_slots": [],
+      "is_valid": true,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    }
+  ],
+  "decode_negative_control_rate": 0.95,
+  "n_decode_negative_controls": 20,
+  "decode_positive_control_rate": 1.0,
+  "n_decode_positive_controls": 10
+}

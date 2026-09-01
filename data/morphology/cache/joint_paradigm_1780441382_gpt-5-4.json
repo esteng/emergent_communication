@@ -1,0 +1,490 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780441382",
+    "slots": [
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "S",
+            "gloss": "step",
+            "support": 3,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "suffix",
+        "fillers": [
+          {
+            "form": "1",
+            "gloss": "step 1",
+            "support": 2,
+            "is_defined": false
+          },
+          {
+            "form": "2",
+            "gloss": "step 2",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "X",
+            "gloss": "failed",
+            "support": 1,
+            "is_defined": false
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "top": [
+        "top"
+      ],
+      "bot": [
+        "bot"
+      ],
+      "L": [
+        "L"
+      ],
+      "R": [
+        "R"
+      ],
+      "frt": [
+        "frt"
+      ],
+      "bck": [
+        "bck"
+      ],
+      "firm": [
+        "firm"
+      ],
+      "med": [
+        "med"
+      ],
+      "light": [
+        "light"
+      ],
+      "x2": [
+        "x2"
+      ],
+      "S1": [
+        "S",
+        "1"
+      ],
+      "S2": [
+        "S",
+        "2"
+      ],
+      "S1X": [
+        "S",
+        "1",
+        "X"
+      ],
+      "AC": [
+        "AC"
+      ],
+      "DE": [
+        "DE"
+      ],
+      "ES": [
+        "ES"
+      ],
+      "LK": [
+        "LK"
+      ],
+      "LO": [
+        "LO"
+      ],
+      "HI": [
+        "HI"
+      ],
+      "PI": [
+        "PI"
+      ],
+      "RC": [
+        "RC"
+      ],
+      "CD": [
+        "CD"
+      ],
+      "BS": [
+        "BS"
+      ],
+      "PS": [
+        "PS"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "TB": [
+        "TB"
+      ],
+      "CV": [
+        "CV"
+      ],
+      "top+opposite": [
+        "top+opposite"
+      ]
+    },
+    "head_index": {
+      "top": 0,
+      "bot": 0,
+      "L": 0,
+      "R": 0,
+      "frt": 0,
+      "bck": 0,
+      "firm": 0,
+      "med": 0,
+      "light": 0,
+      "x2": 0,
+      "S1": 0,
+      "S2": 0,
+      "S1X": 0,
+      "AC": 0,
+      "DE": 0,
+      "ES": 0,
+      "LK": 0,
+      "LO": 0,
+      "HI": 0,
+      "PI": 0,
+      "RC": 0,
+      "CD": 0,
+      "BS": 0,
+      "PS": 0,
+      "HS": 0,
+      "TB": 0,
+      "CV": 0,
+      "top+opposite": 0
+    },
+    "attested_orderings": [
+      [
+        "stem",
+        "suffix"
+      ],
+      [
+        "stem",
+        "suffix",
+        "suffix"
+      ]
+    ],
+    "depth_ceiling": 3,
+    "notation_cells": [],
+    "form_positions": {
+      "S": 0,
+      "1": 1,
+      "2": 1,
+      "X": 2
+    },
+    "position_labels": {
+      "0": "step base",
+      "1": "step index",
+      "2": "failure status"
+    },
+    "positions_by_symbol": {
+      "S1": [
+        0,
+        1
+      ],
+      "S2": [
+        0,
+        1
+      ],
+      "S1X": [
+        0,
+        1,
+        2
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "S": "step"
+      },
+      "1": {
+        "1": "step 1",
+        "2": "step 2"
+      },
+      "2": {
+        "X": "failed"
+      }
+    },
+    "meaning_by_symbol": {
+      "top": "top face",
+      "bot": "bottom face",
+      "L": "left face",
+      "R": "right face",
+      "frt": "front face",
+      "bck": "back face",
+      "firm": "firm intensity",
+      "med": "medium intensity",
+      "light": "light intensity",
+      "x2": "twice",
+      "S1": "step 1",
+      "S2": "step 2",
+      "S1X": "step 1 failed",
+      "AC": "random flicker, broken hum, no pattern",
+      "DE": "drifting or sliding light, blurred edges, wavering pitch",
+      "ES": "too bright, layered hum, frozen faces",
+      "LK": "dim corners and edges, thin hollow hum",
+      "LO": "dim overall, whisper hum, washed out",
+      "HI": "blazing bright all faces, loud harsh buzz, heat",
+      "PI": "opposite faces pulse bright and dark, two tones alternating",
+      "RC": "one face very bright plus vibration plus high whine",
+      "CD": "one to two corners glowing bright, clicking or ticking, corner heat",
+      "BS": "edges wobble or flex, faces look curved, muffled hum",
+      "PS": "all frozen plus dim plus silent, cold, no response",
+      "HS": "two clashing tones, two alternating patterns, edges shimmer",
+      "TB": "hot and dim all over, low rumble, gritty, red tint",
+      "CV": "normal glow but hollow tap, dark center, thin hum",
+      "top+opposite": "top face and its opposite face"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780441382",
+    "n_codes": 28,
+    "n_multimorpheme": 3,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "stem",
+        "label": "step base",
+        "fillers": [
+          {
+            "form": "S",
+            "gloss": "step",
+            "count": 3
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "suffix",
+        "label": "step index",
+        "fillers": [
+          {
+            "form": "1",
+            "gloss": "step 1",
+            "count": 2
+          },
+          {
+            "form": "2",
+            "gloss": "step 2",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos2",
+        "role": "suffix",
+        "label": "failure status",
+        "fillers": [
+          {
+            "form": "X",
+            "gloss": "failed",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.3333333333333333,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      },
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos2",
+        "attested_combos": 1,
+        "possible_combos": 1,
+        "saturation": 1.0
+      },
+      {
+        "slot_a": "pos1",
+        "slot_b": "pos2",
+        "attested_combos": 1,
+        "possible_combos": 2,
+        "saturation": 0.5
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ],
+      [
+        "pos0",
+        "pos1",
+        "pos2"
+      ]
+    ],
+    "unslotted": [
+      "X@pos2"
+    ],
+    "slots_by_symbol": {
+      "S1X": [
+        "pos0",
+        "pos1",
+        "pos2"
+      ],
+      "S1": [
+        "pos0",
+        "pos1"
+      ],
+      "S2": [
+        "pos0",
+        "pos1"
+      ]
+    },
+    "construction_by_symbol": {
+      "S1X": "K_STEP_STATUS",
+      "S1": "K_STEP_STATUS",
+      "S2": "K_STEP_STATUS"
+    },
+    "construction_labels": {
+      "K_STEP_STATUS": "step with optional status"
+    },
+    "construction_templates": {
+      "K_STEP_STATUS": [
+        "pos0",
+        "pos1",
+        "pos2"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "Most symbols are best treated as lexical: the alarm/error-like two-letter codes are semantically opaque, the face and intensity terms are standalone labels with no supported multi-entry combinatorics, x2 lacks a productive count paradigm, and the suggested 'to' family does not yield a coherent compositional frame. The only defensible paradigm is S1 / S2 / S1X: S1 and S2 provide a substitution contrast in the same frame with predictable 'step' + step-number meanings, and S1X supports an optional failure marker whose meaning is compositional relative to S1.",
+    "lexical_symbols": [
+      "top",
+      "bot",
+      "L",
+      "R",
+      "frt",
+      "bck",
+      "firm",
+      "med",
+      "light",
+      "x2",
+      "AC",
+      "DE",
+      "ES",
+      "LK",
+      "LO",
+      "HI",
+      "PI",
+      "RC",
+      "CD",
+      "BS",
+      "PS",
+      "HS",
+      "TB",
+      "CV",
+      "top+opposite"
+    ],
+    "classes": [
+      {
+        "class_id": "C_STEP_BASE",
+        "label": "step base",
+        "description": "Base morpheme indicating a step item.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "C_STEP_INDEX",
+        "label": "step index",
+        "description": "Step-number morpheme specifying which step.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "C_STATUS_FAIL",
+        "label": "failure status",
+        "description": "Optional morpheme indicating failure.",
+        "repeatable": false,
+        "declared_fillers": []
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "K_STEP_STATUS",
+        "label": "step with optional status",
+        "description": "A step base followed by a step index and an optional failure marker.",
+        "class_sequence": [
+          "C_STEP_BASE",
+          "C_STEP_INDEX",
+          "C_STATUS_FAIL"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "S1",
+        "construction_id": "K_STEP_STATUS",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "S",
+            "class_id": "C_STEP_BASE",
+            "gloss": "step"
+          },
+          {
+            "form": "1",
+            "class_id": "C_STEP_INDEX",
+            "gloss": "step 1"
+          }
+        ]
+      },
+      {
+        "symbol": "S2",
+        "construction_id": "K_STEP_STATUS",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "S",
+            "class_id": "C_STEP_BASE",
+            "gloss": "step"
+          },
+          {
+            "form": "2",
+            "class_id": "C_STEP_INDEX",
+            "gloss": "step 2"
+          }
+        ]
+      },
+      {
+        "symbol": "S1X",
+        "construction_id": "K_STEP_STATUS",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "S",
+            "class_id": "C_STEP_BASE",
+            "gloss": "step"
+          },
+          {
+            "form": "1",
+            "class_id": "C_STEP_INDEX",
+            "gloss": "step 1"
+          },
+          {
+            "form": "X",
+            "class_id": "C_STATUS_FAIL",
+            "gloss": "failed"
+          }
+        ]
+      }
+    ]
+  }
+}

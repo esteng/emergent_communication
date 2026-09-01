@@ -1,0 +1,68 @@
+{
+  "per_slot": {
+    "pos1": [
+      [
+        "F1",
+        "face 1"
+      ],
+      [
+        "F2",
+        "face 2"
+      ],
+      [
+        "F3",
+        "face 3"
+      ],
+      [
+        "F4",
+        "face 4"
+      ],
+      [
+        "F5",
+        "face 5"
+      ],
+      [
+        "F6",
+        "face 6"
+      ],
+      [
+        "all6",
+        "all faces"
+      ]
+    ]
+  },
+  "stackable": [
+    [
+      "D",
+      "down orientation"
+    ],
+    [
+      "E",
+      "east orientation"
+    ],
+    [
+      "N",
+      "north orientation"
+    ],
+    [
+      "S",
+      "south orientation"
+    ],
+    [
+      "U",
+      "up orientation"
+    ],
+    [
+      "W",
+      "west orientation"
+    ],
+    [
+      "adj",
+      "adjacent"
+    ],
+    [
+      "opp",
+      "opposite"
+    ]
+  ]
+}

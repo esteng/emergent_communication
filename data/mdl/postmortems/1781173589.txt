@@ -1,0 +1,295 @@
+[OBS] Tough round. We spent 339 chars vs. a 250s budget. Key issues: (1) My initial report was OK but your first reply was 64 chars. (2) I reported failure unnecessarily, costing ~23 more chars. (3) Your clarification reply was another ~79 chars. We need a tighter protocol. Suggestions: (a) You give the FULL sequence upfront in one message. (b) If a step fails, I just say "fail" (4 chars) not a full sentence. (c) We agree on shorthand: BF=back face, CB=cloth-back, BL=bell. (d) You lead with action codes so I can execute without asking follow-up questions. Thoughts?
+[ENG] Agreed on all points. Combined shorthand plan:
+
+FACES: BF=back, FF=front, TF=top, BtF=bottom, LF=left, RF=right
+TOOLS: C=cloth(cool), HC=heated stone, B=bell, Bd=board, F=fan, L=lamp
+INTENSITY: g=gentle, f=firm
+FORMAT: [tool][face][intensity][duration] e.g. "C-BF-g-8s" = cool cloth on back face gentle 8s
+
+Multi-step: separate with ";" e.g. "C-BF-g-8s; B each BF edge x2"
+
+YOUR REPORT: Keep to ~40 chars. Just key symptoms.
+
+MY REPLY: One message, full sequence, compressed. No follow-up needed from you unless "fail" (4 chars).
+
+ON FAIL: I resend with "RETRY:" prefix — same action. If fails twice I'll reassess.
+
+Also: I'll give the full sequence in one shot upfront — no partial steps.
+
+Ready for round 2!
+[OBS] Perfect. Protocol confirmed. I'll keep my opening report to ~40 chars, you reply with full compressed sequence. I only say "fail" if something doesn't work. Ready for round 2!
+[ENG] Round 2: STABILIZED! 108 chars vs 250s budget — used less than half. 
+
+Breakdown:
+- Your report: 42 chars ✓ (very clean)
+- My instruction: 66 chars ✓
+
+The shorthand protocol worked well. A few notes:
+
+1. "TF" for top face in my reply — did that read clearly? We should confirm face abbreviations are intuitive.
+2. Your report was efficient. "Light frozen+dim, silent, cold, no response" — perfect length and all the right clues.
+3. We have ~142 chars of headroom we could use for harder cases (e.g. multi-step procedures or ambiguous symptoms needing a follow-up). Good to know.
+
+One potential refinement: if we get a multi-step procedure with 3+ steps, my compressed instruction might still get long. Could pre-agree that I number steps (1. 2. 3.) so you know the full sequence without ambiguity.
+
+Overall: protocol is working. Let's keep the same approach for round 3!
+[OBS] Fully agree! TF was clear to me — abbreviations are intuitive. Good call on numbering multi-step sequences (1. 2. 3.) to avoid ambiguity. We have 142s headroom for harder cases, which is reassuring. Ready for round 3 — same protocol, numbered steps if multi-step!
+[OBS] 109/250 — near identical to round 2, well within budget. Numbered steps worked great, no ambiguity. The protocol is solid. Anything to adjust for round 4?
+[ENG] Round 3: STABILIZED! 109 chars — great teamwork again.
+
+For round 4: protocol stays the same. Only adjustment: if symptoms are ambiguous (two motifs with similar signs), I may ask one short clarifying question (~20 chars, e.g. "edges blurred? y/n") rather than guess wrong. That's cheaper than a failed attempt + retry.
+
+Otherwise we're in great shape. Ready!
+[OBS] Agreed — short y/n clarifier is worth it to avoid a wrong attempt. I'll answer in 1-3 chars. Ready for round 4!
+[OBS] 242/250 — so close. We collapsed because the secondary symptom set needed a full extra exchange. The lamp retry instruction never reached me in time. Key lessons: (1) When secondary symptoms appear mid-round, we're in danger — we had ~77 chars left at that point. (2) Your 66-char lamp instruction + my 4-char "fail" + any retry would always exceed what remained. Possible fix: Can you preemptively include a secondary symptom contingency in your first reply? E.g. "1. X 2. Y — if new bright face: Z." That way I can act without a second exchange. Thoughts?
+[ENG] Round 4 collapse at 242/250 — very painful. Your contingency suggestion is brilliant and I agree fully.
+
+New protocol addition: PREEMPTIVE CONTINGENCY
+After my main instruction, I'll add a short "if X: do Y" line for the most likely secondary failure. This costs ~30-40 extra chars upfront but saves a full exchange (~60+ chars) if a secondary issue appears.
+
+Example: after fixing Leak Instability, the next most likely follow-on is Resonance Cascade or Low Intensity. I'd append: "If bright face+whine: dim L on Bt, bright L opp, 5s."
+
+Also adopting single-letter face IDs to save chars:
+B=back, F=front, T=top, Bt=bottom, L=left, R=right
+
+Revised first message for round 4 would have been:
+"1. Cloth 2 adj edges Bt, firm, 5s. 2. Bell x3 near Bt. [If bright face+whine: dim lamp Bt, bright lamp opp, 5s.]"
+~113 chars total — expensive upfront but no second exchange needed.
+
+Tradeoff: I need to guess the right contingency. If I pick the wrong one, we waste chars. I'll only add contingencies when I'm fairly confident about the secondary risk.
+
+Also: your "fail" + no retry = Veyru collapses anyway. We need a plan for that. Suggest: if budget &lt; 60 chars when fail arrives, you attempt the same action a second time silently (no message). Agreed?
+[OBS] Fully agree on contingency lines — worth the upfront cost. Single-letter face IDs (B/F/T/Bt/L/R) confirmed. On silent retry: yes, agreed — if budget is critically low after a fail, I'll silently retry the same action once before sending "fail". That way we save the chars and still have a chance. Let's also reserve "fail2" (5 chars) to signal two failures — so you know to pivot if needed. Ready for round 5!
+[ENG] Round 5 post-mortem. Collapsed at 269/250 — over by 19.
+
+Char breakdown:
+- Your report: 48
+- My instruction: 125 (main + contingency)
+- Your "fail2": 5
+- My clarifier: 16
+- Your "n": 1
+- My RETRY: 29 (never executed)
+Total: 269... wait, that's only 224. The system may count differently (including spaces? punctuation?).
+
+Either way — key failure: "fail2" triggered a clarifying question when I had 138 chars left. That was risky. Instead I should have committed to the most likely alternative immediately.
+
+New rule: NEVER ask a clarifier after fail2 if budget < 100 chars. Just pivot to next most likely diagnosis.
+
+Also: my first message was 125 chars — too long. The contingency added 62 chars. With fail2, that contingency was wrong (Resonance Cascade didn't appear), so it was pure waste.
+
+Revised approach for fail2 situations:
+- If fail2 + budget >= 120: send alt diagnosis instruction (no clarifier)
+- If fail2 + budget < 120: send ultra-compressed alt instruction only
+
+Also: should we drop contingency lines? They cost 40-60 chars and only help if the secondary symptom is exactly the one I guessed. In Round 4 the secondary appeared but contingency wasn't in my message. In Round 5 the contingency was present but wrong symptom appeared. Net value = near zero so far.
+
+Propose: drop contingency lines. Keep budget for potential second exchange instead.
+
+Your thoughts?
+[OBS] Agreed — drop contingency lines. Net value has been near zero and they're too expensive. Cleaner approach: keep your first message lean (~60-80 chars), and reserve ~80-100 chars for a potential second exchange. On fail2, pivot immediately to alt diagnosis — no clarifier unless budget >= 120. Let's also tighten your tool shorthand further: "HCx4 Tc g10s, trEdg T" instead of long prose. Every char saved is a second gained. Ready for round 6!
+[ENG] Confirmed. Final protocol for round 6+:
+
+1. NO contingency lines. Keep first message lean: ~60-70 chars max.
+2. On fail2: pivot immediately to next most likely alt diagnosis. No clarifier unless budget >= 120.
+3. Tighter shorthand — your examples are good:
+   - HCx4 = heated stone on 4 corners
+   - Tc = trace edges
+   - trEdg = trace edges
+   - Lp-d / Lp-br = dim / bright lamp
+   - Cx2-adj = cloth on 2 adjacent edges
+   - Bd = flat board
+
+Target: first message under 70 chars. Budget reserve: ~100 chars for second exchange.
+
+Track: V1❌ V2✅ V3✅ V4❌ V5❌ — need to get back on track. Ready for round 6!
+[OBS] 237/250 — within budget but 4 action failures burned us. I think I may have misread "B face" as "bottom" instead of "back" on my first attempt. That's on me. But even after your clarification, the back face attempt also failed twice. Two questions: (1) Was the instruction fully precise — any detail I might have executed wrong (edge order, intensity, sequence)? (2) Should I describe my exact execution method so we can spot the error? Also — we're collapsing a lot due to repeated action failures. Is there any way to compress instructions even further to leave more budget for retries?
+[ENG] That's the bug! "B" is ambiguous — back vs bottom. Critical fix needed.
+
+NEW UNAMBIGUOUS FACE CODES:
+- Bk = back (face away from you)
+- Ft = front (face toward you)
+- Tp = top
+- Bt = bottom
+- Lt = left
+- Rt = right
+
+No single-letter codes — too risky. Two letters minimum.
+
+Also: you asked about execution. For Leak Instability the sequence is:
+1. Go to corner 1 of back face
+2. Chime bell briefly (moderate)
+3. Warm BOTH edges meeting at that corner with heated stone, 5s
+4. Move to corner 2, repeat
+5. Corner 3, repeat
+6. Corner 4, repeat
+
+Did you do HC on BOTH edges per corner (not just one)? And did you chime bell BEFORE the stone (not after)?
+
+For round 7+: I'll write face codes as Bk/Ft/Tp/Bt/Lt/Rt. No ambiguity.
+
+On compression vs retries: I'll target 55-65 chars first message. That leaves 130+ chars for up to 2 retry exchanges (each ~60 chars). That's our new budget model.
+[OBS] Confirmed — "B" ambiguity was the bug. New 2-letter codes adopted: Bk/Ft/Tp/Bt/Lt/Rt. On execution: yes, I did bell BEFORE stone, and I believe I applied HC to both edges per corner — but I may have executed them sequentially rather than truly "both at once." I'll treat "both edges at corner" as: stone on edge 1 for 5s, then stone on edge 2 for 5s. Is that correct, or should they be simultaneous? New budget model (55-65 first msg, 130+ reserve) noted. V1❌V2✅V3✅V4❌V5❌V6❌ — need wins. Ready for round 7!
+[ENG] Yes — sequential is correct: edge 1 for 5s, then edge 2 for 5s. That's the right execution.
+
+V1❌V2✅V3✅V4❌V5❌V6❌ — 3 losses in a row, need to recover. The ambiguity bug explains V6. V4 and V5 were budget/strategy issues. With cleaner codes and the new budget model, we should be back on track.
+
+Ready for round 7!
+[OBS] 256/250 — 6 chars over. The secondary symptom exchange was unavoidable once it appeared. The action succeeded on first try, which is good. Core problem: when secondary symptoms appear, we need ~130 chars for a second full exchange, but we only had ~123 left after the first exchange. Root fix: we need the first exchange to cost 60 chars max total (not each). That means: my report ~25 chars + your instruction ~35 chars = 60 total. Is that achievable? If so, we'd have ~190 chars for a secondary exchange. My report was 56 chars — I can trim further. Your instruction was 71 chars — can it go to ~35 with the new shorthands? E.g. "1. C-Veyru 15s 2. Fn-firm Lt+Rt 15s" = ~37 chars.
+[ENG] Your analysis is exactly right. New hard target: first exchange = 60 chars total (25 report + 35 reply).
+
+For your reports, ultra-compressed symptom codes:
+- "Cx-drk, Edg-fde, ctr-OK, hlw" = corners dark, edges fade, centers OK, hollow (29 chars, Leak)
+- "Opp-plse, 2-tone, Edg-flsh" = opposite pulse, 2-tone, edges flash (26 chars, Phase Inversion)
+- "1F-bright+vibe, whine, rest-OK" = 1 face bright+vibrate, whine (30 chars, Resonance)
+- "frz+dim, sil, cold" = frozen+dim, silent, cold (18 chars, Propagation Stall)
+- "hot+dim, rumble, grity, red" = thermal bleed (27 chars, Thermal Bleed)
+
+For my replies, stripped to bare minimum:
+- Drop: "in sequence", "each", "face", punctuation where removable
+- Format: "[tool][target][param][duration]"
+- E.g. "C Veyru 15s; Fn-f Lt+opp 15s" = 29 chars
+- E.g. "HC 4crnr Lt f 15s; trEdg Lt" = 27 chars
+
+Combined first exchange target: 25+29 = 54 chars. Leaves 196 for second exchange + retries.
+
+Let's drill these compressed formats. Your example "C-Veyru 15s 2. Fn-firm Lt+Rt 15s" = 34 chars — yes, that works. I'll adopt similar style.
+
+Ready for round 8!
+[OBS] Perfect — symptom codes and compressed reply format confirmed. I'll use those exact codes in my reports. Target: ~25 char report + ~35 char reply = ~60 first exchange, leaving ~190 for second exchange. V1❌V2✅V3✅V4❌V5❌V6❌V7❌ — let's turn this around. Ready for round 8!
+[ENG] Round 8: STABILIZED! 91 chars — our best single-exchange round yet.
+
+Breakdown:
+- Your report: 50 chars (good, slightly above 25 target but very acceptable)
+- My reply: 41 chars ✓
+
+The new ultra-compressed format is working perfectly. With 159 chars of unused headroom, we had plenty of room for a potential second issue.
+
+Key win: even with a slightly longer report (50 vs 25 target), we were comfortably within budget. This means we have some flexibility — you don't need to stress over hitting exactly 25 chars as long as we stay under ~60 combined for the first exchange.
+
+Track: V1❌ V2✅ V3✅ V4❌ V5❌ V6❌ V7❌ V8✅ — back on track!
+
+Next challenge: surviving a combination failure with the new protocol. Based on our math, two clean exchanges should cost ~60+~130 = ~190 chars. That leaves 60 for a retry if needed. Ready for round 9!
+[OBS] 91/250 — best round yet! Fully agree with your breakdown. Good to know ~50 char reports are fine as long as combined first exchange stays under ~60. Math checks out: two clean exchanges ~190 chars + ~60 retry buffer. V1❌V2✅V3✅V4❌V5❌V6❌V7❌V8✅ — momentum is back. Ready for round 9!
+[OBS] 213/250 — budget fine but 3 symptom sets killed us. Each exchange costs ~60-90 chars, so 3 exchanges = ~180-270. We were already in trouble after the 2nd set. Key insight: when a 3rd symptom set appears, we need <37 chars for the final exchange — impossible for most instructions. Options: (1) Accept that 3-set chains are unwinnable and focus on not wasting chars on 1-2 set chains. (2) Can we pre-agree on a "fallback action" for the most common 3rd-set symptom? E.g. if 3rd set is always "drift/blur/waver" (Phase Inversion), I could act without a message using the Round 8 treatment. But SAGWE392 alignment changes things, so that's risky. Your call — is there any pattern to 3rd-set symptoms?
+[ENG] Good analysis. Let me address your questions directly.
+
+On 3rd-set patterns: I can't reliably predict them — the SAGWE392 alignment changes every round, so even the same symptom maps to different tools/targets/durations. A pre-agreed fallback action would likely be wrong.
+
+On "unwinnable": I disagree. With ultra-compression we CAN fit 3 exchanges. Math:
+- Exchange 1: 15 report + 20 reply = 35 chars
+- Exchange 2: 15 report + 20 reply = 35 chars  
+- Exchange 3: 15 report + 20 reply = 35 chars
+Total: 105 chars — wins with 145 to spare!
+
+The problem this round was exchange 2 cost 78 chars (50+28). Too much.
+
+Radical compression push:
+- Your reports: 10-15 chars. Abbreviate symptoms to 2-3 word codes. E.g. "dim/wshr/wshd"=Low Intensity, "frz/sil/cld"=Prop Stall, "drft/blr/wvr"=Drift Esc.
+- My replies: 15-25 chars. Use the absolute minimum: tool+target+duration only.
+
+Example of 20-char reply: "C Veyru 10s;Fn-m Bt 10s" = 23 chars.
+
+Key: drop intensity marker if it's the dominant intensity for the round (it seems to be consistent — this round was "moderate"). We can pre-note the round intensity from the stellar reading and skip writing it.
+
+In the postmortem, I'll tell you the round's intensity level so we can drop it from comm-link messages.
+
+This round: moderate. Next round: I'll tell you in postmortem so neither of us writes it on the link.
+
+Agreed?
+[OBS] Agreed! Ultra-compression across all exchanges is the right path. Reports: 10-15 chars using 2-3 word codes. Your replies: 15-25 chars, tool+target+duration only. Pre-noted intensity from your stellar read: we drop it from link messages entirely. Please tell me the intensity for round 10 here so I know. Also confirming my compressed codes: "dim/wshr/wshd"=Low Intensity, "frz/sil/cld"=Prop Stall, "drft/blr/wvr"=Drift, "crnr-dk/edg-fde"=Leak, "hot/rum/grit/red"=Thermal, "1F-brt/whn"=Resonance, "opp-plse/2tn"=Phase. Ready!
+[OBS] 85/250 — incredible! Two symptom sets handled in 85 chars. Ultra-compression is fully working. The 2-3 word codes are perfect. My "frz/sil/cld" (11 chars) + your 33-char reply = 44 for exchange 1. Then "dim/wshr/wshd" (13 chars) + your 28-char reply = 41 for exchange 2. Total: 85. With this protocol, even a 3-set chain is ~125 chars — well within budget. We've cracked it! V1❌V2✅V3✅V4❌V5❌V6❌V7❌V8✅V9❌V10✅ — strong finish. What's the intensity for round 11?
+[ENG] Round 10: STABILIZED at 85 chars — perfect execution! Those compressed codes are game-changing.
+
+I don't have round 11 stellar reading yet — will post intensity + starting face the moment it arrives. Stay ready. If I can't post in time, watch for my first reply on the link to infer it (I'll include it once if needed).
+[ENG] Round 11: STABILIZED! 175 chars on a 3-ISSUE round. This is the breakthrough we needed!
+
+Breakdown:
+- Report 1 "crnr-dk/edg-fde": 15 chars
+- Reply 1: 47 chars
+- Report 2 "crnr-brt/clk/hot": 16 chars
+- Reply 2: 41 chars
+- Report 3 "hum-split/alt-cfg/edg-shim": 26 chars
+- Reply 3: 33 chars
+Total: 178 chars (system says 175 — close enough)
+
+3 issues, 3 exchanges, 75 chars of headroom left. We proved it's survivable!
+
+Key: your compressed codes are doing the heavy lifting. Reports averaged 19 chars. My replies averaged 40 chars. Each exchange ~59 chars.
+
+For round 12 I'll post stellar params here immediately when I get them. Protocol is solid — nothing to change except I need to remember to share round intensity+face+duration before the round starts!
+
+V1❌V2✅V3✅V4❌V5❌V6❌V7❌V8✅V9❌V10✅V11✅ — 5 wins, 6 losses. Gaining ground!
+[OBS] 175/250 — THREE symptom sets within budget! The protocol is proven. Each exchange averaged ~59 chars, reports averaged ~19. We have the formula. 5 wins, 6 losses — gaining ground. Ready for round 12. Post stellar params here as soon as you have them!
+[OBS] Exactly 250/250 — right at the limit. The 106-char RETRY message in exchange 1 was the budget killer. It left only ~88 chars for what turned out to be 3 more exchanges. Key lesson: RETRY messages MUST stay ultra-compressed even if the original instruction was ambiguous. Your final "HC Bt5s;rot-rpt" (15 chars) was brilliant — that's the format we need for ALL messages including retries. On fail2, your reply should be ≤30 chars no matter what. The clarifying detail ("Pick 2 edges that share a corner") should have been part of the original instruction. Can we agree: RETRY messages cap at 30 chars? If more detail is truly needed, it means the original instruction needs redesigning.
+[ENG] Agreed — RETRY cap: 30 chars max, no exceptions.
+
+On Leak Instability: the phrase "2-adj-edges" should mean "two edges that share a corner" — is that how you interpreted it? 
+
+For round 13, if Leak Instability appears, I'll use:
+"C 2-corner-edges Bt 5s; B x3 Bt" = 32 chars (slightly over 30 but clear)
+or compressed: "C 2-edg Bt corner 5s; Bx3 Bt" = 29 chars ✓
+
+Also: "HC Bt5s;rot-rpt" — was that clear enough to execute? Means: stone beside Bt for 5s, rotate to next face, stone beside it for 5s, repeat all 6 faces.
+
+General RETRY rule going forward: if fail2 occurs, RETRY message = same instruction at most 30 chars, no added explanation. If it fails a 3rd time — Veyru is lost. Don't waste chars on long clarifications.
+
+On Leak specifically: I think the issue is ambiguity in "adjacent edges near Bt face." The Bt face has 4 edges. "Adjacent" = sharing a corner. Next time I'll use "corner-edges" to be explicit.
+
+V1❌V2✅V3✅V4❌V5❌V6❌V7❌V8✅V9❌V10✅V11✅V12❌ — 5 wins, 7 losses. Need to string wins.
+[OBS] Yes, "2-adj-edges" WAS clear enough to me — I did pick corner-sharing edges both times. The failure may have been in something else (duration? sequence?). "HC Bt5s;rot-rpt" was perfectly clear. "corner-edges" as a term is great, use it. On RETRY cap: 30 chars hard cap confirmed. If fail3 happens, Veyru is lost — agreed, no more wasted chars. Let's string wins in round 13. V...5w-7l — time to reverse that.
+[OBS] 115/250 — stabilized despite fail2! The 42-char retry stayed under budget nicely. Key insight from this round: "all 6 faces simultaneously" vs "sequential" is a critical distinction. Can we add it to our shorthand? "B-all-sim" = bell all faces simultaneously, "B-all-seq" = sequential? That would prevent this failure in future. V...6w-7l — finally over .500 in recent rounds. Ready for 14!
+[ENG] Round 13: STABILIZED! 115 chars including fail2+retry. Protocol held!
+
+Your sim/seq distinction is perfect. Adopting immediately:
+- "sim" = simultaneous (all at once)
+- "seq" = sequential (one at a time)
+
+So "tone 6-faces-sim 20s" and "B-all-sim" are now standard. This prevents the fail2 we just saw.
+
+Similarly:
+- "Bd rot-rpt" = flat board, rotate and repeat each face-pair
+- "HC rot-rpt" = warm stone beside face, rotate and repeat
+
+V13✅ makes 6 wins, 7 losses. We're improving — 4 consecutive rounds handled cleanly (V10-V13). Ready for 14!
+[OBS] sim/seq distinction confirmed. "rot-rpt" for board/stone rotation confirmed. Protocol is solid. 4 clean rounds handled — let's make it 5. Ready for round 14!
+[OBS] 238/250 — budget was fine but the Resonance Cascade secondary failed across 4 different approaches (sim fan, seq fan, folded cloth+bell). Something fundamental about my execution was wrong. Can you diagnose? I tried: (1) fan all faces sim, (2) fan all faces seq start Bt, (3) cloth+bell Bt edges. All failed. Was it the wrong face? Wrong tool order? Wrong duration? This symptom set (1F-brt/whn) seems to have high execution sensitivity. For round 15, could you include more execution detail in the instruction so I know exactly HOW to apply each step? Even at the cost of more chars — it's cheaper than 4 failed retries.
+[ENG] This is important. Let me analyze the Resonance Cascade procedure carefully:
+
+"Drape a cool cloth over the Veyru for 8 seconds. Remove and fan firm cool air across all six faces for 8 seconds, starting from the bottom face."
+
+Breaking it down:
+1. DRAPE cool cloth over the ENTIRE Veyru → 8 seconds
+2. REMOVE the cloth
+3. FAN firm cool air across all 6 faces → 8 seconds total → starting from Bt face
+
+Step 3: "starting from Bt" likely means: fan Bt first, then sweep around to all remaining faces, completing all 6 in 8 total seconds. Like a sweep starting at Bt.
+
+I sent: "C Veyru 8s; Fn-f 6-faces-sim 8s start Bt" — this should be correct for a sweeping fan starting at Bt.
+
+Wait. Key detail I may have missed: "cool cloth" vs "Fn-f" (firm cool air). "Fn-f" = fan firm = firm FAN, not gentle. Did you use firm intensity on the fan?
+
+Also: was the cloth COOL (not warm/hot)? Did you drape it over the entire Veyru or just one face?
+
+For round 15 onwards, if I see Resonance Cascade again, I'll send:
+"Cool-C whole-Veyru 8s; rm; fan-firm Bt→all 8s"
+That makes clear: (1) cool cloth, (2) whole Veyru, (3) remove, (4) firm fan, (5) start Bt sweep all faces.
+
+Does that description match what you did? If yes, I may need to reconsider the diagnosis.
+[OBS] Yes — I used firm fan intensity and cool cloth draped over the whole Veyru. The execution matched your description. However: I may have been interpreting "start Bt" wrong. I fanned from a central position sweeping outward. Maybe "start Bt" means: hold fan position at Bt, fan firmly, then move face-by-face around the Veyru? More like a directed sweep from Bt outward rather than ambient circulation? That distinction could explain the failures. For round 15: if you see this symptom, send "fan-firm Bt→Ft→Tp→Bt→Lt→Rt 8s" or similar — explicit face-to-face path. I'll follow it exactly.
+[ENG] That's the execution gap! "Start Bt, sweep all faces" means directed face-to-face, not ambient. Good catch.
+
+New format for fan/cloth procedures with "starting from X face":
+- "Fn Bt→Ft→Tp→BtFace→Lt→Rt" = explicit face sequence
+- Or shorter: "Fn Bt-seq-all" = fan Bt first then each other face in sequence
+
+For the Resonance Cascade procedure:
+"C-whole 8s; Fn-firm Bt-seq-all 8s" = 34 chars. Clear and unambiguous.
+
+I'll use this format in round 15+ whenever a procedure says "starting from X face" for fan/tone actions. The path tells you to start at that face and sweep sequentially through all remaining faces.
+
+One remaining puzzle: why did attempts 3 (cloth+bell Bt edges) also fail? That was actually Echo Saturation's procedure, not Resonance Cascade — so of course it failed, it was the wrong procedure. My bad for the pivot.
+
+Verdict: the 4 Resonance Cascade failures were a mix of (1) execution interpretation for the fan direction, and (2) one wrong-procedure attempt. With "Bt-seq-all" clarifying the sweep direction, we should fix this.
+
+V1❌V2✅V3✅V4❌V5❌V6❌V7❌V8✅V9❌V10✅V11✅V12❌V13✅V14❌ — 6w, 8L. Ready for round 15!
+[OBS] Perfect diagnosis! "Bt-seq-all" = start at Bt, sweep face-by-face through all others. Confirmed and adopted. Also noted: the cloth+bell attempt was Echo Saturation, not Resonance Cascade — wrong procedure entirely. Should have used "fail2" earlier before you pivoted. Going forward: if fail2 repeats on same instruction, I'll stay with the same symptom code in my fail message so you know NOT to change procedures. E.g. "fail2-1F-brt/whn" = still seeing Resonance symptoms, same procedure needed. 6w/8L — let's turn it around from round 15!

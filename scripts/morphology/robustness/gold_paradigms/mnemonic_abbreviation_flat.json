@@ -1,0 +1,21 @@
+{
+  "item_id": "mnemonic_abbreviation_flat",
+  "phenomenon": "parallel mnemonic abbreviations are not morphology (flat lexicon)",
+  "notes": "Surface families (T*, FAN*, shared digits) that look retrospectively decomposable but are not. The digits are arbitrary pattern labels, not counts or durations, and the shared initials abbreviate whole stored procedures rather than contributing a stable meaning. Correct analysis is a flat lexicon, so the expected result is below_gate=True. This is the pure over-segmentation negative control and the one seed item where the degradation gate is load-bearing.",
+  "codebook": {
+    "T6": "tone sweep, the variant reserved for the upper assembly",
+    "T2": "tone sweep, the variant reserved for the sealed housing",
+    "TO": "tone the opposite face",
+    "FAN2": "fan pattern B, short bursts at alternating corners",
+    "FAN6": "fan pattern D, continuous flow across the back",
+    "FANO": "fan whatever the previous operator last touched"
+  },
+  "gold": {
+    "T6": null,
+    "T2": null,
+    "TO": null,
+    "FAN2": null,
+    "FAN6": null,
+    "FANO": null
+  }
+}

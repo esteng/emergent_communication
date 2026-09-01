@@ -1,0 +1,413 @@
+{
+  "grammar": {
+    "run_key": "veyru/1778877887",
+    "slots": [],
+    "segmentation": {
+      "AC": [
+        "AC"
+      ],
+      "DR": [
+        "DR"
+      ],
+      "ES": [
+        "ES"
+      ],
+      "LK": [
+        "LK"
+      ],
+      "LO": [
+        "LO"
+      ],
+      "HI": [
+        "HI"
+      ],
+      "PI": [
+        "PI"
+      ],
+      "RC": [
+        "RC"
+      ],
+      "CD": [
+        "CD"
+      ],
+      "BS": [
+        "BS"
+      ],
+      "PS": [
+        "PS"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "TB": [
+        "TB"
+      ],
+      "CV": [
+        "CV"
+      ],
+      "B": [
+        "B"
+      ],
+      "S": [
+        "S"
+      ],
+      "F": [
+        "F"
+      ],
+      "C": [
+        "C"
+      ],
+      "P": [
+        "P"
+      ],
+      "L": [
+        "L"
+      ],
+      "1": [
+        "1"
+      ],
+      "2": [
+        "2"
+      ],
+      "3": [
+        "3"
+      ],
+      "4": [
+        "4"
+      ],
+      "5": [
+        "5"
+      ],
+      "6": [
+        "6"
+      ],
+      "fc": [
+        "fc"
+      ],
+      "ff": [
+        "ff"
+      ],
+      "opp": [
+        "opp"
+      ],
+      "k": [
+        "k"
+      ],
+      "!": [
+        "!"
+      ],
+      "?": [
+        "?"
+      ],
+      "s": [
+        "s"
+      ],
+      "m": [
+        "m"
+      ],
+      "f": [
+        "f"
+      ],
+      "h": [
+        "h"
+      ],
+      "P1": [
+        "P1"
+      ],
+      "P2": [
+        "P2"
+      ],
+      "P3": [
+        "P3"
+      ],
+      "P4": [
+        "P4"
+      ],
+      "P5": [
+        "P5"
+      ],
+      "P6": [
+        "P6"
+      ],
+      "P7": [
+        "P7"
+      ],
+      "P8": [
+        "P8"
+      ],
+      "P9": [
+        "P9"
+      ],
+      "P10": [
+        "P10"
+      ],
+      "P11": [
+        "P11"
+      ],
+      "P12": [
+        "P12"
+      ],
+      "P13": [
+        "P13"
+      ],
+      "P14": [
+        "P14"
+      ],
+      ".": [
+        "."
+      ],
+      "*": [
+        "*"
+      ],
+      "?P<n>": [
+        "?P<n>"
+      ],
+      "?2L": [
+        "?2L"
+      ],
+      "?dur": [
+        "?dur"
+      ],
+      "?face": [
+        "?face"
+      ],
+      "?seq": [
+        "?seq"
+      ],
+      "as-desc": [
+        "as-desc"
+      ],
+      "each": [
+        "each"
+      ],
+      "total": [
+        "total"
+      ],
+      "seq": [
+        "seq"
+      ],
+      "sim": [
+        "sim"
+      ]
+    },
+    "head_index": {
+      "AC": 0,
+      "DR": 0,
+      "ES": 0,
+      "LK": 0,
+      "LO": 0,
+      "HI": 0,
+      "PI": 0,
+      "RC": 0,
+      "CD": 0,
+      "BS": 0,
+      "PS": 0,
+      "HS": 0,
+      "TB": 0,
+      "CV": 0,
+      "B": 0,
+      "S": 0,
+      "F": 0,
+      "C": 0,
+      "P": 0,
+      "L": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "fc": 0,
+      "ff": 0,
+      "opp": 0,
+      "k": 0,
+      "!": 0,
+      "?": 0,
+      "s": 0,
+      "m": 0,
+      "f": 0,
+      "h": 0,
+      "P1": 0,
+      "P2": 0,
+      "P3": 0,
+      "P4": 0,
+      "P5": 0,
+      "P6": 0,
+      "P7": 0,
+      "P8": 0,
+      "P9": 0,
+      "P10": 0,
+      "P11": 0,
+      "P12": 0,
+      "P13": 0,
+      "P14": 0,
+      ".": 0,
+      "*": 0,
+      "?P<n>": 0,
+      "?2L": 0,
+      "?dur": 0,
+      "?face": 0,
+      "?seq": 0,
+      "as-desc": 0,
+      "each": 0,
+      "total": 0,
+      "seq": 0,
+      "sim": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "AC": "faces flicker random light and dark with no pattern, and the hum is broken and irregular",
+      "DR": "light slides or drifts across faces, edges are blurred, and the hum wavers",
+      "ES": "too bright, layered hum, frozen patterns",
+      "LK": "corners are dim or dark, edges are fading, and the perimeter is losing light",
+      "LO": "dim overall, faint hum, washed out",
+      "HI": "blazing bright, harsh buzz, hot",
+      "PI": "opposite faces pulse bright and dark in rhythm, with two tones",
+      "RC": "one face is much brighter, with a high whine and localized vibration",
+      "CD": "one or two corners glow bright, with clicking or ticking and heat at the corners",
+      "BS": "edges wobble, faces bulge, muffled hum",
+      "PS": "patterns are frozen, dim, and still, silent, and cold",
+      "HS": "hum is split into clashing tones, patterns alternate, and edges shimmer",
+      "TB": "very hot but dim, with a low rumble, reddish color, and gritty feel",
+      "CV": "surface normal but hollow when tapped, dark center, thin hum",
+      "B": "bell",
+      "S": "hot stone",
+      "F": "fan, producing cool air",
+      "C": "cloth",
+      "P": "flat board",
+      "L": "lamp",
+      "1": "front face",
+      "2": "back face",
+      "3": "top face",
+      "4": "bottom face",
+      "5": "left face",
+      "6": "right face",
+      "fc": "front corners, all four corners of the front face",
+      "ff": "front face",
+      "opp": "the opposite face of the last named face",
+      "k": "done",
+      "!": "new symptom",
+      "?": "stuck or unclear",
+      "s": "soft, dim, gentle, or light intensity",
+      "m": "medium or moderate intensity",
+      "f": "firm, steady, or strong intensity",
+      "h": "hard, bright, intense, or harsh intensity",
+      "P1": "produce a sustained tone on all 6 faces simultaneously, then fade; the duration value is total",
+      "P2": "ring the bell alternating between 2 opposite faces, with the duration value as the pause between chimes, for 5 cycles",
+      "P3": "place the cloth on 2 adjacent edges of face F for the duration value, then ring the bell 3 times near face F",
+      "P4": "warm each corner of face F with the hot stone for the duration value at each corner in sequence, then trace each edge of face F with a finger",
+      "P5": "place the hot stone beside face F for the duration value on each face, rotating to all faces",
+      "P6": "drape a cool cloth over the Veyru for the duration value total, remove it, then fan cool air at intensity i across face F and the opposite face for the duration value total",
+      "P7": "shine one lamp dimly on face F while simultaneously shining a second lamp brightly on the opposite face at intensity i for the duration value total",
+      "P8": "place a folded cloth on face F for the duration value, then ring the bell twice at each edge of face F",
+      "P9": "at each corner of face F, ring the bell and then apply the hot stone on the 2 edges at that corner for the duration value at each corner",
+      "P10": "place the board against face F at intensity i contact for the duration value on each face-pair, rotate, then repeat for each face-pair, 3 pairs total",
+      "P11": "ring the bell once at the center of each face, starting with face F, then place the hot stone beside the Veyru for the duration value total",
+      "P12": "place the Veyru on a soft surface, using the cloth as the soft surface, with face F facing up at intensity i contact, then let it rest undisturbed for the duration value total",
+      "P13": "drape a cool cloth over the Veyru for the duration value total, remove it, then fan all 6 faces at intensity i starting with face F for the duration value total",
+      "P14": "rotate the Veyru for the duration value total; during rotation, produce a sustained tone on the opposite faces, face F and its opposite, starting with face F; then ring the bell once at each of the 8 corners",
+      ".": "this message is complete; execute now",
+      "*": "full-procedure fallback, indicating no P-code applies",
+      "?P<n>": "safety query indicating the received P-code seems wrong for the symptom family",
+      "?2L": "need two lamps, what should I do",
+      "?dur": "is the duration each-target or total",
+      "?face": "which face exactly",
+      "?seq": "should it be sequential or simultaneous",
+      "as-desc": "execute it exactly as described by the template",
+      "each": "apply the duration to each target",
+      "total": "apply the duration as a total across the whole set or step",
+      "seq": "sequential",
+      "sim": "simultaneous"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1778877887",
+    "n_codes": 62,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible compositional paradigm survives the evidence requirements. The strongest apparent family, P1–P14, fails the opaque index test: the numerals do not contribute literal count/order meanings in a shared productive frame, but instead select unrelated stored procedures. The query-like forms ?seq, ?dur, ?face, ?2L, and ?P<n> also do not support a stable substitution class with fully predictable meanings; their residues are not a coherent paradigmatic set with one semantic role, and the candidate shared suffix eq is not meaning-consistent. Standalone symbols for faces (1–6) and intensities (s/m/f/h) are clear lexical key entries, but no supplied multi-morpheme code actually instantiates them compositionally. The symptom codes (AC, DR, ES, etc.) likewise lack evidence for recurring parts with stable contributions. Therefore the safest complete partition is a flat lexicon.",
+    "lexical_symbols": [
+      "AC",
+      "DR",
+      "ES",
+      "LK",
+      "LO",
+      "HI",
+      "PI",
+      "RC",
+      "CD",
+      "BS",
+      "PS",
+      "HS",
+      "TB",
+      "CV",
+      "B",
+      "S",
+      "F",
+      "C",
+      "P",
+      "L",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "fc",
+      "ff",
+      "opp",
+      "k",
+      "!",
+      "?",
+      "s",
+      "m",
+      "f",
+      "h",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8",
+      "P9",
+      "P10",
+      "P11",
+      "P12",
+      "P13",
+      "P14",
+      ".",
+      "*",
+      "?P<n>",
+      "?2L",
+      "?dur",
+      "?face",
+      "?seq",
+      "as-desc",
+      "each",
+      "total",
+      "seq",
+      "sim"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

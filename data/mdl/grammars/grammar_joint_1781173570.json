@@ -1,0 +1,2647 @@
+{
+  "start": "S",
+  "rules": [
+    {
+      "lhs": "S",
+      "rhs": [
+        "REP"
+      ],
+      "map": "seq"
+    },
+    {
+      "lhs": "S",
+      "rhs": [
+        "PROC"
+      ],
+      "map": "seq"
+    },
+    {
+      "lhs": "REP",
+      "rhs": [
+        "OPRE",
+        "MOTIF",
+        "RMODS"
+      ],
+      "map": "merge"
+    },
+    {
+      "lhs": "OPRE",
+      "rhs": [
+        "FILLER",
+        "OPRE"
+      ],
+      "map": "merge"
+    },
+    {
+      "lhs": "OPRE",
+      "rhs": [],
+      "map": "merge"
+    },
+    {
+      "lhs": "RMODS",
+      "rhs": [
+        "MOTIF",
+        "RMODS"
+      ],
+      "map": "merge"
+    },
+    {
+      "lhs": "RMODS",
+      "rhs": [
+        "FILLER",
+        "RMODS"
+      ],
+      "map": "merge"
+    },
+    {
+      "lhs": "RMODS",
+      "rhs": [],
+      "map": "merge"
+    },
+    {
+      "lhs": "PROC",
+      "rhs": [
+        "PRE",
+        "TMPL",
+        "MODS"
+      ],
+      "map": "merge"
+    },
+    {
+      "lhs": "PRE",
+      "rhs": [
+        "FILLER",
+        "PRE"
+      ],
+      "map": "merge"
+    },
+    {
+      "lhs": "PRE",
+      "rhs": [
+        "FACE",
+        "PRE"
+      ],
+      "map": "merge"
+    },
+    {
+      "lhs": "PRE",
+      "rhs": [
+        "INT",
+        "PRE"
+      ],
+      "map": "merge"
+    },
+    {
+      "lhs": "PRE",
+      "rhs": [
+        "DUR",
+        "PRE"
+      ],
+      "map": "merge"
+    },
+    {
+      "lhs": "PRE",
+      "rhs": [],
+      "map": "merge"
+    },
+    {
+      "lhs": "MODS",
+      "rhs": [
+        "FACE",
+        "MODS"
+      ],
+      "map": "merge"
+    },
+    {
+      "lhs": "MODS",
+      "rhs": [
+        "INT",
+        "MODS"
+      ],
+      "map": "merge"
+    },
+    {
+      "lhs": "MODS",
+      "rhs": [
+        "DUR",
+        "MODS"
+      ],
+      "map": "merge"
+    },
+    {
+      "lhs": "MODS",
+      "rhs": [
+        "FILLER",
+        "MODS"
+      ],
+      "map": "merge"
+    },
+    {
+      "lhs": "MODS",
+      "rhs": [],
+      "map": "merge"
+    },
+    {
+      "lhs": "DUR",
+      "rhs": [
+        "#NUM"
+      ],
+      "map": "duration"
+    },
+    {
+      "lhs": "INT",
+      "rhs": [
+        "g"
+      ],
+      "map": {
+        "intensity": "gentle"
+      }
+    },
+    {
+      "lhs": "INT",
+      "rhs": [
+        "gentle"
+      ],
+      "map": {
+        "intensity": "gentle"
+      }
+    },
+    {
+      "lhs": "INT",
+      "rhs": [
+        "gently"
+      ],
+      "map": {
+        "intensity": "gentle"
+      }
+    },
+    {
+      "lhs": "INT",
+      "rhs": [
+        "m"
+      ],
+      "map": {
+        "intensity": "moderate"
+      }
+    },
+    {
+      "lhs": "INT",
+      "rhs": [
+        "moderate"
+      ],
+      "map": {
+        "intensity": "moderate"
+      }
+    },
+    {
+      "lhs": "INT",
+      "rhs": [
+        "f"
+      ],
+      "map": {
+        "intensity": "firm"
+      }
+    },
+    {
+      "lhs": "INT",
+      "rhs": [
+        "firm"
+      ],
+      "map": {
+        "intensity": "firm"
+      }
+    },
+    {
+      "lhs": "INT",
+      "rhs": [
+        "firmly"
+      ],
+      "map": {
+        "intensity": "firm"
+      }
+    },
+    {
+      "lhs": "INT",
+      "rhs": [
+        "strong"
+      ],
+      "map": {
+        "intensity": "firm"
+      }
+    },
+    {
+      "lhs": "INT",
+      "rhs": [
+        "light"
+      ],
+      "map": {
+        "intensity": "gentle"
+      }
+    },
+    {
+      "lhs": "FACE",
+      "rhs": [
+        "top"
+      ],
+      "map": {
+        "face": "top"
+      }
+    },
+    {
+      "lhs": "FACE",
+      "rhs": [
+        "T"
+      ],
+      "map": {
+        "face": "top"
+      }
+    },
+    {
+      "lhs": "FACE",
+      "rhs": [
+        "U"
+      ],
+      "map": {
+        "face": "top"
+      }
+    },
+    {
+      "lhs": "FACE",
+      "rhs": [
+        "up"
+      ],
+      "map": {
+        "face": "top"
+      }
+    },
+    {
+      "lhs": "FACE",
+      "rhs": [
+        "bottom"
+      ],
+      "map": {
+        "face": "bottom"
+      }
+    },
+    {
+      "lhs": "FACE",
+      "rhs": [
+        "bot"
+      ],
+      "map": {
+        "face": "bottom"
+      }
+    },
+    {
+      "lhs": "FACE",
+      "rhs": [
+        "Bt"
+      ],
+      "map": {
+        "face": "bottom"
+      }
+    },
+    {
+      "lhs": "FACE",
+      "rhs": [
+        "D"
+      ],
+      "map": {
+        "face": "bottom"
+      }
+    },
+    {
+      "lhs": "FACE",
+      "rhs": [
+        "down"
+      ],
+      "map": {
+        "face": "bottom"
+      }
+    },
+    {
+      "lhs": "FACE",
+      "rhs": [
+        "front"
+      ],
+      "map": {
+        "face": "front"
+      }
+    },
+    {
+      "lhs": "FACE",
+      "rhs": [
+        "Fr"
+      ],
+      "map": {
+        "face": "front"
+      }
+    },
+    {
+      "lhs": "FACE",
+      "rhs": [
+        "back"
+      ],
+      "map": {
+        "face": "back"
+      }
+    },
+    {
+      "lhs": "FACE",
+      "rhs": [
+        "Bk"
+      ],
+      "map": {
+        "face": "back"
+      }
+    },
+    {
+      "lhs": "FACE",
+      "rhs": [
+        "left"
+      ],
+      "map": {
+        "face": "left"
+      }
+    },
+    {
+      "lhs": "FACE",
+      "rhs": [
+        "Lf"
+      ],
+      "map": {
+        "face": "left"
+      }
+    },
+    {
+      "lhs": "FACE",
+      "rhs": [
+        "Lt"
+      ],
+      "map": {
+        "face": "left"
+      }
+    },
+    {
+      "lhs": "FACE",
+      "rhs": [
+        "right"
+      ],
+      "map": {
+        "face": "right"
+      }
+    },
+    {
+      "lhs": "FACE",
+      "rhs": [
+        "Rt"
+      ],
+      "map": {
+        "face": "right"
+      }
+    },
+    {
+      "lhs": "FACE",
+      "rhs": [
+        "R"
+      ],
+      "map": {
+        "face": "right"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "tone"
+      ],
+      "map": {
+        "template": "TONE_ALL"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "TONE"
+      ],
+      "map": {
+        "template": "TONE_ALL"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "Sustained"
+      ],
+      "map": {
+        "template": "TONE_ALL"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "sustained"
+      ],
+      "map": {
+        "template": "TONE_ALL"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "alt"
+      ],
+      "map": {
+        "template": "BELL_ALT"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "Alternate"
+      ],
+      "map": {
+        "template": "BELL_ALT"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "alternating"
+      ],
+      "map": {
+        "template": "BELL_ALT"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "adj"
+      ],
+      "map": {
+        "template": "CLOTH_ADJ_E"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "adjacent"
+      ],
+      "map": {
+        "template": "CLOTH_ADJ_E"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "trace"
+      ],
+      "map": {
+        "template": "STONE_CORNERS"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "tracing"
+      ],
+      "map": {
+        "template": "STONE_CORNERS"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "beside"
+      ],
+      "map": {
+        "template": "STONE_BESIDE_ROT"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "fan"
+      ],
+      "map": {
+        "template": "FAN_ALL"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "N"
+      ],
+      "map": {
+        "template": "FAN_ALL"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "opp"
+      ],
+      "map": {
+        "template": "FAN_OPP"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "opposite"
+      ],
+      "map": {
+        "template": "FAN_OPP"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "Lamp"
+      ],
+      "map": {
+        "template": "LAMP_DIM_BR"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "lamp"
+      ],
+      "map": {
+        "template": "LAMP_DIM_BR"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "P"
+      ],
+      "map": {
+        "template": "LAMP_DIM_BR"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "Folded"
+      ],
+      "map": {
+        "template": "CLOTH_FOLD_FACE"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "folded"
+      ],
+      "map": {
+        "template": "CLOTH_FOLD_FACE"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "K"
+      ],
+      "map": {
+        "template": "CLOTH_FOLD_FACE"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "edges"
+      ],
+      "map": {
+        "template": "CORNER_BELL_STONE"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "center"
+      ],
+      "map": {
+        "template": "BELL_CTR_STONE"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "centre"
+      ],
+      "map": {
+        "template": "BELL_CTR_STONE"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "board"
+      ],
+      "map": {
+        "template": "BOARD_FACE_ROT"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "Board"
+      ],
+      "map": {
+        "template": "BOARD_FACE_ROT"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "Flat"
+      ],
+      "map": {
+        "template": "BOARD_FACE_ROT"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "REST"
+      ],
+      "map": {
+        "template": "SOFT_REST"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "rest"
+      ],
+      "map": {
+        "template": "SOFT_REST"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "soft"
+      ],
+      "map": {
+        "template": "SOFT_REST"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "Rotate"
+      ],
+      "map": {
+        "template": "ROTATE_TONE"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "rot"
+      ],
+      "map": {
+        "template": "ROTATE_TONE"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "AC"
+      ],
+      "map": {
+        "motif": "Alignment Collapse"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "Alignment"
+      ],
+      "map": {
+        "motif": "Alignment Collapse"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "random"
+      ],
+      "map": {
+        "motif": "Alignment Collapse"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "flicker"
+      ],
+      "map": {
+        "motif": "Alignment Collapse"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "flickering"
+      ],
+      "map": {
+        "motif": "Alignment Collapse"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "broken"
+      ],
+      "map": {
+        "motif": "Alignment Collapse"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "DR"
+      ],
+      "map": {
+        "motif": "Drift Escalation"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "Drift"
+      ],
+      "map": {
+        "motif": "Drift Escalation"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "drift"
+      ],
+      "map": {
+        "motif": "Drift Escalation"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "EC"
+      ],
+      "map": {
+        "motif": "Echo Saturation"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "Echo"
+      ],
+      "map": {
+        "motif": "Echo Saturation"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "layered"
+      ],
+      "map": {
+        "motif": "Echo Saturation"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "saturation"
+      ],
+      "map": {
+        "motif": "Echo Saturation"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "LK"
+      ],
+      "map": {
+        "motif": "Leak Instability"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "Leak"
+      ],
+      "map": {
+        "motif": "Leak Instability"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "leak"
+      ],
+      "map": {
+        "motif": "Leak Instability"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "fade"
+      ],
+      "map": {
+        "motif": "Leak Instability"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "fading"
+      ],
+      "map": {
+        "motif": "Leak Instability"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "LI"
+      ],
+      "map": {
+        "motif": "Low Intensity"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "whisper"
+      ],
+      "map": {
+        "motif": "Low Intensity"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "whispering"
+      ],
+      "map": {
+        "motif": "Low Intensity"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "low"
+      ],
+      "map": {
+        "motif": "Low Intensity"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "HI"
+      ],
+      "map": {
+        "motif": "High Intensity"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "high"
+      ],
+      "map": {
+        "motif": "High Intensity"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "loud"
+      ],
+      "map": {
+        "motif": "High Intensity"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "too"
+      ],
+      "map": {
+        "motif": "High Intensity"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "PI"
+      ],
+      "map": {
+        "motif": "Phase Inversion"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "Phase"
+      ],
+      "map": {
+        "motif": "Phase Inversion"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "puls"
+      ],
+      "map": {
+        "motif": "Phase Inversion"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "pulsing"
+      ],
+      "map": {
+        "motif": "Phase Inversion"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "osc"
+      ],
+      "map": {
+        "motif": "Phase Inversion"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "sync"
+      ],
+      "map": {
+        "motif": "Phase Inversion"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "RS"
+      ],
+      "map": {
+        "motif": "Resonance Cascade"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "Resonance"
+      ],
+      "map": {
+        "motif": "Resonance Cascade"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "whine"
+      ],
+      "map": {
+        "motif": "Resonance Cascade"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "vib"
+      ],
+      "map": {
+        "motif": "Resonance Cascade"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "vibration"
+      ],
+      "map": {
+        "motif": "Resonance Cascade"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "CD"
+      ],
+      "map": {
+        "motif": "Corner Deadlock"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "deadlock"
+      ],
+      "map": {
+        "motif": "Corner Deadlock"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "tick"
+      ],
+      "map": {
+        "motif": "Corner Deadlock"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "click"
+      ],
+      "map": {
+        "motif": "Corner Deadlock"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "BS"
+      ],
+      "map": {
+        "motif": "Boundary Softening"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "Boundary"
+      ],
+      "map": {
+        "motif": "Boundary Softening"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "wobble"
+      ],
+      "map": {
+        "motif": "Boundary Softening"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "wobbling"
+      ],
+      "map": {
+        "motif": "Boundary Softening"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "flex"
+      ],
+      "map": {
+        "motif": "Boundary Softening"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "curved"
+      ],
+      "map": {
+        "motif": "Boundary Softening"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "curve"
+      ],
+      "map": {
+        "motif": "Boundary Softening"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "muffled"
+      ],
+      "map": {
+        "motif": "Boundary Softening"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "fuzzy"
+      ],
+      "map": {
+        "motif": "Boundary Softening"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "PS"
+      ],
+      "map": {
+        "motif": "Propagation Stall"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "Stall"
+      ],
+      "map": {
+        "motif": "Propagation Stall"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "frozen"
+      ],
+      "map": {
+        "motif": "Propagation Stall"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "still"
+      ],
+      "map": {
+        "motif": "Propagation Stall"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "silent"
+      ],
+      "map": {
+        "motif": "Propagation Stall"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "cold"
+      ],
+      "map": {
+        "motif": "Propagation Stall"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "HS"
+      ],
+      "map": {
+        "motif": "Harmonic Split"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "Harmonic"
+      ],
+      "map": {
+        "motif": "Harmonic Split"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "split"
+      ],
+      "map": {
+        "motif": "Harmonic Split"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "slide"
+      ],
+      "map": {
+        "motif": "Harmonic Split"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "sliding"
+      ],
+      "map": {
+        "motif": "Harmonic Split"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "blur"
+      ],
+      "map": {
+        "motif": "Harmonic Split"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "blurred"
+      ],
+      "map": {
+        "motif": "Harmonic Split"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "waver"
+      ],
+      "map": {
+        "motif": "Harmonic Split"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "wavering"
+      ],
+      "map": {
+        "motif": "Harmonic Split"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "shimmer"
+      ],
+      "map": {
+        "motif": "Harmonic Split"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "clashing"
+      ],
+      "map": {
+        "motif": "Harmonic Split"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "TB"
+      ],
+      "map": {
+        "motif": "Thermal Bleed"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "Thermal"
+      ],
+      "map": {
+        "motif": "Thermal Bleed"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "hot"
+      ],
+      "map": {
+        "motif": "Thermal Bleed"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "rumble"
+      ],
+      "map": {
+        "motif": "Thermal Bleed"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "red"
+      ],
+      "map": {
+        "motif": "Thermal Bleed"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "CV"
+      ],
+      "map": {
+        "motif": "Core Void"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "Void"
+      ],
+      "map": {
+        "motif": "Core Void"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "void"
+      ],
+      "map": {
+        "motif": "Core Void"
+      }
+    },
+    {
+      "lhs": "MOTIF",
+      "rhs": [
+        "hollow"
+      ],
+      "map": {
+        "motif": "Core Void"
+      }
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "#NUM"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "s"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "sec"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "seconds"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "x"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "cyc"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "cycle"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "cycles"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "pause"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "brief"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "briefly"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "each"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "every"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "all"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "six"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "6"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "F"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "E"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "C"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "A"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "face"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "faces"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "edge"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "corner"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "corners"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "centers"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "perimeter"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "target"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "from"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "starting"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "start"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "near"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "at"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "on"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "ON"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "over"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "beside"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "across"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "around"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "into"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "with"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "w"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "by"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "of"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "a"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "the"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "The"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "Then"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "then"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "and"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "Remove"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "remove"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "Let"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "let"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "wait"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "naturally"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "undisturbed"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "Just"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "just"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "No"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "no"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "not"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "Nope"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "Set"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "Place"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "place"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "Drape"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "drape"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "Draped"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "Cloth"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "cloth"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "K"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "L"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "B"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "S"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "N"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "P"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "H"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "bell"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "Bell"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "chime"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "Chime"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "stone"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "Stone"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "heated"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "warm"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "Hold"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "hold"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "fan"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "Fan"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "cool"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "Cool"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "air"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "hand"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "finger"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "trace"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "lamp"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "Lamp"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "bright"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "dim"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "Illuminate"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "illuminate"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "simul"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "simultaneously"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "without"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "moving"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "coverage"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "contact"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "tone"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "volume"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "brightness"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "warmth"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "surface"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "soft"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "Veyru"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "entire"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "covering"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "rest"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "Rest"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "against"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "flat"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "board"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "repeat"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "Repeat"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "Rotate"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "rotate"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "rot"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "rotation"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "seq"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "sequence"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "sequentially"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "in"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "turn"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "pair"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "pairs"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "face-pair"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "patterns"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "pattern"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "light"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "glow"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "colors"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "color"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "tint"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "normal"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "norm"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "hum"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "sound"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "sounds"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "thin"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "dark"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "ok"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "OK"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "NEW"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "N"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "X"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "XX"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "reject"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "ab"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "abort"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "loc"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "counter"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "table"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "shelf"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "rack"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "bin"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "pedestal"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "floor"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "response"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "tap"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "tapping"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "noticeably"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "dimmer"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "rest"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "almost"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "Several"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "look"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "like"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "losing"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILLER",
+      "rhs": [
+        "fine"
+      ],
+      "map": null
+    }
+  ]
+}

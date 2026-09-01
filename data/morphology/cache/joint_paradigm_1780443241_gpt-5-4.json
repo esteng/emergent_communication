@@ -1,0 +1,557 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780443241",
+    "slots": [],
+    "segmentation": {
+      "AC": [
+        "AC"
+      ],
+      "DR": [
+        "DR"
+      ],
+      "ES": [
+        "ES"
+      ],
+      "LK": [
+        "LK"
+      ],
+      "LO": [
+        "LO"
+      ],
+      "HI": [
+        "HI"
+      ],
+      "PI": [
+        "PI"
+      ],
+      "RC": [
+        "RC"
+      ],
+      "CD": [
+        "CD"
+      ],
+      "BS": [
+        "BS"
+      ],
+      "PS": [
+        "PS"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "TB": [
+        "TB"
+      ],
+      "CV": [
+        "CV"
+      ],
+      "B": [
+        "B"
+      ],
+      "H": [
+        "H"
+      ],
+      "F": [
+        "F"
+      ],
+      "C": [
+        "C"
+      ],
+      "P": [
+        "P"
+      ],
+      "L": [
+        "L"
+      ],
+      "T": [
+        "T"
+      ],
+      "R": [
+        "R"
+      ],
+      "all": [
+        "all"
+      ],
+      "top": [
+        "top"
+      ],
+      "bot": [
+        "bot"
+      ],
+      "edge": [
+        "edge"
+      ],
+      "edges": [
+        "edges"
+      ],
+      "corner": [
+        "corner"
+      ],
+      "corners": [
+        "corners"
+      ],
+      "center": [
+        "center"
+      ],
+      "beside": [
+        "beside"
+      ],
+      "2adj-edges": [
+        "2adj-edges"
+      ],
+      "opp": [
+        "opp"
+      ],
+      "face-pairs": [
+        "face-pairs"
+      ],
+      "seq": [
+        "seq"
+      ],
+      "alt": [
+        "alt"
+      ],
+      "simul": [
+        "simul"
+      ],
+      "x1": [
+        "x1"
+      ],
+      "x2": [
+        "x2"
+      ],
+      "x3": [
+        "x3"
+      ],
+      "x5": [
+        "x5"
+      ],
+      "brief": [
+        "brief"
+      ],
+      "mod": [
+        "mod"
+      ],
+      "soft": [
+        "soft"
+      ],
+      "gentle": [
+        "gentle"
+      ],
+      "hard": [
+        "hard"
+      ],
+      "dim": [
+        "dim"
+      ],
+      "bright": [
+        "bright"
+      ],
+      "firm": [
+        "firm"
+      ],
+      "K": [
+        "K"
+      ],
+      "fr": [
+        "fr"
+      ],
+      "bk": [
+        "bk"
+      ],
+      "TP": [
+        "TP"
+      ],
+      "EW": [
+        "EW"
+      ],
+      "NS": [
+        "NS"
+      ],
+      "ok": [
+        "ok"
+      ],
+      "?": [
+        "?"
+      ],
+      "x": [
+        "x"
+      ],
+      "P-AC": [
+        "P-AC"
+      ],
+      "P-DR": [
+        "P-DR"
+      ],
+      "P-ES": [
+        "P-ES"
+      ],
+      "P-LK": [
+        "P-LK"
+      ],
+      "P-LO": [
+        "P-LO"
+      ],
+      "P-HI": [
+        "P-HI"
+      ],
+      "P-PI": [
+        "P-PI"
+      ],
+      "P-RC": [
+        "P-RC"
+      ],
+      "P-CD": [
+        "P-CD"
+      ],
+      "P-BS": [
+        "P-BS"
+      ],
+      "P-PS": [
+        "P-PS"
+      ],
+      "P-HS": [
+        "P-HS"
+      ],
+      "P-TB": [
+        "P-TB"
+      ],
+      "P-CV": [
+        "P-CV"
+      ],
+      "T1": [
+        "T1"
+      ],
+      "T2": [
+        "T2"
+      ],
+      "T3": [
+        "T3"
+      ],
+      "T4": [
+        "T4"
+      ],
+      "T5": [
+        "T5"
+      ],
+      "T6": [
+        "T6"
+      ],
+      "T7": [
+        "T7"
+      ],
+      "T8": [
+        "T8"
+      ],
+      "T9": [
+        "T9"
+      ],
+      "T10": [
+        "T10"
+      ],
+      "T11": [
+        "T11"
+      ],
+      "T12": [
+        "T12"
+      ],
+      "T13": [
+        "T13"
+      ],
+      "T14": [
+        "T14"
+      ]
+    },
+    "head_index": {
+      "AC": 0,
+      "DR": 0,
+      "ES": 0,
+      "LK": 0,
+      "LO": 0,
+      "HI": 0,
+      "PI": 0,
+      "RC": 0,
+      "CD": 0,
+      "BS": 0,
+      "PS": 0,
+      "HS": 0,
+      "TB": 0,
+      "CV": 0,
+      "B": 0,
+      "H": 0,
+      "F": 0,
+      "C": 0,
+      "P": 0,
+      "L": 0,
+      "T": 0,
+      "R": 0,
+      "all": 0,
+      "top": 0,
+      "bot": 0,
+      "edge": 0,
+      "edges": 0,
+      "corner": 0,
+      "corners": 0,
+      "center": 0,
+      "beside": 0,
+      "2adj-edges": 0,
+      "opp": 0,
+      "face-pairs": 0,
+      "seq": 0,
+      "alt": 0,
+      "simul": 0,
+      "x1": 0,
+      "x2": 0,
+      "x3": 0,
+      "x5": 0,
+      "brief": 0,
+      "mod": 0,
+      "soft": 0,
+      "gentle": 0,
+      "hard": 0,
+      "dim": 0,
+      "bright": 0,
+      "firm": 0,
+      "K": 0,
+      "fr": 0,
+      "bk": 0,
+      "TP": 0,
+      "EW": 0,
+      "NS": 0,
+      "ok": 0,
+      "?": 0,
+      "x": 0,
+      "P-AC": 0,
+      "P-DR": 0,
+      "P-ES": 0,
+      "P-LK": 0,
+      "P-LO": 0,
+      "P-HI": 0,
+      "P-PI": 0,
+      "P-RC": 0,
+      "P-CD": 0,
+      "P-BS": 0,
+      "P-PS": 0,
+      "P-HS": 0,
+      "P-TB": 0,
+      "P-CV": 0,
+      "T1": 0,
+      "T2": 0,
+      "T3": 0,
+      "T4": 0,
+      "T5": 0,
+      "T6": 0,
+      "T7": 0,
+      "T8": 0,
+      "T9": 0,
+      "T10": 0,
+      "T11": 0,
+      "T12": 0,
+      "T13": 0,
+      "T14": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "AC": "chaotic flicker, broken irregular hum, no rhythm",
+      "DR": "light sliding or drifting on faces, blurry edges, pitch wavers",
+      "ES": "too bright, layered hum, frozen face patterns",
+      "LK": "dim corners and edges, hollow hum",
+      "LO": "dim all over, whisper hum, washed-out patterns",
+      "HI": "blazing white, harsh buzz, hot",
+      "PI": "opposite faces pulse alternating, bright and dark in rhythm, two-tone hum in sync",
+      "RC": "one face much brighter, high whine localized to that face",
+      "CD": "1-2 corners bright, clicking sound, hot corners",
+      "BS": "edges wobble, faces bulge, muffled hum",
+      "PS": "frozen dim, silent, cold, no response to touch",
+      "HS": "two or more clashing tones, alternating patterns",
+      "TB": "hot and dim overall, low rumble, reddish, gritty",
+      "CV": "surface normal, hollow tap, dark center",
+      "B": "bell",
+      "H": "hot stone, heated stone, warm stone",
+      "F": "fan, hand fan",
+      "C": "cloth",
+      "P": "board, plank, flat board",
+      "L": "left face",
+      "T": "tone, humming voice or held tone",
+      "R": "rotate or rest, depending on the template",
+      "all": "all 6 faces",
+      "top": "top face",
+      "bot": "bottom face",
+      "edge": "edge",
+      "edges": "all 12 edges",
+      "corner": "corner",
+      "corners": "all 8 corners, default repeat once unless otherwise specified",
+      "center": "center of a face",
+      "beside": "next to",
+      "2adj-edges": "2 adjacent edges that share a corner",
+      "opp": "the single face opposite the named face",
+      "face-pairs": "opposite face pairs",
+      "seq": "in sequence, one after another",
+      "alt": "alternating",
+      "simul": "simultaneous, at the same time",
+      "x1": "repeat 1 time",
+      "x2": "repeat 2 times",
+      "x3": "repeat 3 times",
+      "x5": "repeat 5 cycles",
+      "brief": "briefly",
+      "mod": "moderate intensity",
+      "soft": "soft intensity or soft surface, depending on context",
+      "gentle": "gentle intensity",
+      "hard": "hard intensity",
+      "dim": "dim brightness",
+      "bright": "bright brightness",
+      "firm": "firm or normal intensity",
+      "K": "back face",
+      "fr": "front face",
+      "bk": "back face",
+      "TP": "top and bottom pair",
+      "EW": "east and west pair",
+      "NS": "north and south pair",
+      "ok": "done and stable",
+      "?": "instruction unclear, need clarification before executing",
+      "x": "instruction was executed but the engine said ineffective, nothing more to try without an alternative",
+      "P-AC": "cloth over 2 adjacent edges near the specified face for the specified duration; then bell 3 times near the specified face",
+      "P-DR": "warm stone at each corner of the specified face for the specified duration in sequence; then trace the edges of the specified face with a finger",
+      "P-ES": "warm stone beside the specified face for the specified duration; rotate and repeat at each face",
+      "P-LK": "cool cloth over all for the specified duration; fan the specified face and its opposite for the specified duration",
+      "P-LO": "dim lamp on the specified face and bright lamp on the opposite face simultaneously for the specified duration",
+      "P-HI": "folded cloth on the specified face for the specified duration; then bell at each edge of the specified face 2 times",
+      "P-PI": "at each corner of the specified face, bell briefly; then warm the 2 edges meeting there for the specified duration",
+      "P-RC": "board against the specified face for the specified duration; rotate and repeat for each opposite face pair",
+      "P-CD": "bell at the center of each face, starting with the specified face; then warm stone beside the Veyru for the specified duration",
+      "P-BS": "place the Veyru on a soft surface with the specified face up, then let it rest undisturbed for the specified duration",
+      "P-PS": "cool cloth over all for the specified duration; then fan all 6 faces for the specified duration, starting with the specified face",
+      "P-HS": "rotate slowly for the specified duration while making a steady tone at opposite faces, starting with the specified face; then bell each corner 1 time",
+      "P-TB": "sustained tone at all 6 faces simultaneously for the specified duration, starting with the specified face; then let it fade",
+      "P-CV": "bell alternating between 2 opposite faces, starting with the specified face, with the specified duration as the pause, for 5 cycles",
+      "T1": "drape cloth on 2 adjacent edges of the specified face for the specified duration and intensity, then bell 3 times near the specified face",
+      "T2": "warm the 4 corners of the specified face with the heated stone for the specified duration and intensity in sequence, then finger-trace the 4 edges of that face",
+      "T3": "place the heated stone beside the specified face for the specified duration and intensity, then rotate through all faces",
+      "T4": "cool cloth over all for the specified duration, then fan the specified face and its opposite for the specified duration at the specified intensity",
+      "T5": "lamp bright on the opposite face and cloth draped on the specified face to make it dim, simultaneously for the specified duration and intensity",
+      "T6": "drape folded cloth on the specified face for the specified duration and intensity, then bell near each edge of that face 2 times",
+      "T7": "at each corner of the specified face, bell briefly at the specified intensity, then warm the 2 edges meeting there with the stone for the specified duration",
+      "T8": "press the board against the specified face for the specified duration and intensity, then rotate through all opposite face pairs",
+      "T9": "bell at the center of all faces, starting with the specified face, at the specified intensity, then warm the stone beside the Veyru for the specified duration",
+      "T10": "place the Veyru on a soft surface with the specified face up, then let it rest undisturbed for the specified duration and intensity",
+      "T11": "cool cloth over all for the specified duration, then fan all 6 faces for the specified duration at the specified intensity, starting with the specified face",
+      "T12": "rotate for the specified duration while making a tone at the specified face and its opposite at the specified intensity, then bell all 8 corners 1 time",
+      "T13": "make a sustained tone at all 6 faces for the specified duration and intensity, starting with the specified face",
+      "T14": "bell alternating between the specified face and its opposite, with the specified duration as the pause, for 5 cycles, at the specified intensity"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780443241",
+    "n_codes": 86,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible multi-entry compositional paradigm survives the evidence test. The strongest apparent family, P-AC / P-DR / ... / P-CV, shares a prefix P-, but the residues do not contribute their standalone meanings compositionally inside the procedures: AC means a fault state ('chaotic flicker...'), while P-AC means a repair procedure, not 'P + chaotic flicker...'. This is best treated as an opaque procedure label series, not morphology. The T1–T14 series likewise fails the opaque index test: the digits do not contribute literal count meaning, but select distinct stored procedures. Orthographic similarities such as corner/corners, edge/edges, brief/bright, all/alt, and center/corner do not provide a reliable compositional paradigm with stable shared morpheme meanings across multiple entries. Because false morphology is worse than a flat lexicon, all supplied symbols are treated as lexical.",
+    "lexical_symbols": [
+      "AC",
+      "DR",
+      "ES",
+      "LK",
+      "LO",
+      "HI",
+      "PI",
+      "RC",
+      "CD",
+      "BS",
+      "PS",
+      "HS",
+      "TB",
+      "CV",
+      "B",
+      "H",
+      "F",
+      "C",
+      "P",
+      "L",
+      "T",
+      "R",
+      "all",
+      "top",
+      "bot",
+      "edge",
+      "edges",
+      "corner",
+      "corners",
+      "center",
+      "beside",
+      "2adj-edges",
+      "opp",
+      "face-pairs",
+      "seq",
+      "alt",
+      "simul",
+      "x1",
+      "x2",
+      "x3",
+      "x5",
+      "brief",
+      "mod",
+      "soft",
+      "gentle",
+      "hard",
+      "dim",
+      "bright",
+      "firm",
+      "K",
+      "fr",
+      "bk",
+      "TP",
+      "EW",
+      "NS",
+      "ok",
+      "?",
+      "x",
+      "P-AC",
+      "P-DR",
+      "P-ES",
+      "P-LK",
+      "P-LO",
+      "P-HI",
+      "P-PI",
+      "P-RC",
+      "P-CD",
+      "P-BS",
+      "P-PS",
+      "P-HS",
+      "P-TB",
+      "P-CV",
+      "T1",
+      "T2",
+      "T3",
+      "T4",
+      "T5",
+      "T6",
+      "T7",
+      "T8",
+      "T9",
+      "T10",
+      "T11",
+      "T12",
+      "T13",
+      "T14"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

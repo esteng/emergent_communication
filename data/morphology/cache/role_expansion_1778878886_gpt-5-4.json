@@ -1,0 +1,41 @@
+{
+  "per_slot": {},
+  "stackable": [
+    [
+      "B",
+      "bottom or back face, if used as a face label"
+    ],
+    [
+      "F",
+      "front face"
+    ],
+    [
+      "R",
+      "right face"
+    ],
+    [
+      "T",
+      "top face"
+    ],
+    [
+      "all6",
+      "all six faces"
+    ],
+    [
+      "ctr",
+      "center"
+    ],
+    [
+      "opp",
+      "opposite face"
+    ],
+    [
+      "Rot",
+      "rotate"
+    ],
+    [
+      "ST",
+      "sustain tone"
+    ]
+  ]
+}

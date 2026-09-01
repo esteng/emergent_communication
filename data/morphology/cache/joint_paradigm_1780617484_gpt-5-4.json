@@ -1,0 +1,359 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780617484",
+    "slots": [],
+    "segmentation": {
+      "AC": [
+        "AC"
+      ],
+      "DE": [
+        "DE"
+      ],
+      "ES": [
+        "ES"
+      ],
+      "LI": [
+        "LI"
+      ],
+      "LO": [
+        "LO"
+      ],
+      "HI": [
+        "HI"
+      ],
+      "PI": [
+        "PI"
+      ],
+      "RC": [
+        "RC"
+      ],
+      "CD": [
+        "CD"
+      ],
+      "BS": [
+        "BS"
+      ],
+      "PS": [
+        "PS"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "TB": [
+        "TB"
+      ],
+      "CV": [
+        "CV"
+      ],
+      "CL": [
+        "CL"
+      ],
+      "BD": [
+        "BD"
+      ],
+      "FN": [
+        "FN"
+      ],
+      "BL": [
+        "BL"
+      ],
+      "ST": [
+        "ST"
+      ],
+      "LP": [
+        "LP"
+      ],
+      "T": [
+        "T"
+      ],
+      "B": [
+        "B"
+      ],
+      "N": [
+        "N"
+      ],
+      "S": [
+        "S"
+      ],
+      "E": [
+        "E"
+      ],
+      "W": [
+        "W"
+      ],
+      "NS": [
+        "NS"
+      ],
+      "EW": [
+        "EW"
+      ],
+      "+": [
+        "+"
+      ],
+      ",": [
+        ","
+      ],
+      "NEW:": [
+        "NEW:"
+      ],
+      "F": [
+        "F"
+      ],
+      "C": [
+        "C"
+      ],
+      "H": [
+        "H"
+      ],
+      "L": [
+        "L"
+      ],
+      "R": [
+        "R"
+      ],
+      "K": [
+        "K"
+      ],
+      "x2": [
+        "x2"
+      ],
+      "?": [
+        "?"
+      ],
+      "P1": [
+        "P1"
+      ],
+      "P2": [
+        "P2"
+      ],
+      "P3": [
+        "P3"
+      ],
+      "P4": [
+        "P4"
+      ],
+      "P5": [
+        "P5"
+      ],
+      "P6": [
+        "P6"
+      ],
+      "P7": [
+        "P7"
+      ],
+      "P8": [
+        "P8"
+      ],
+      "P9": [
+        "P9"
+      ],
+      "P10": [
+        "P10"
+      ],
+      "P11": [
+        "P11"
+      ],
+      "P12": [
+        "P12"
+      ],
+      "P13": [
+        "P13"
+      ],
+      "P14": [
+        "P14"
+      ]
+    },
+    "head_index": {
+      "AC": 0,
+      "DE": 0,
+      "ES": 0,
+      "LI": 0,
+      "LO": 0,
+      "HI": 0,
+      "PI": 0,
+      "RC": 0,
+      "CD": 0,
+      "BS": 0,
+      "PS": 0,
+      "HS": 0,
+      "TB": 0,
+      "CV": 0,
+      "CL": 0,
+      "BD": 0,
+      "FN": 0,
+      "BL": 0,
+      "ST": 0,
+      "LP": 0,
+      "T": 0,
+      "B": 0,
+      "N": 0,
+      "S": 0,
+      "E": 0,
+      "W": 0,
+      "NS": 0,
+      "EW": 0,
+      "+": 0,
+      ",": 0,
+      "NEW:": 0,
+      "F": 0,
+      "C": 0,
+      "H": 0,
+      "L": 0,
+      "R": 0,
+      "K": 0,
+      "x2": 0,
+      "?": 0,
+      "P1": 0,
+      "P2": 0,
+      "P3": 0,
+      "P4": 0,
+      "P5": 0,
+      "P6": 0,
+      "P7": 0,
+      "P8": 0,
+      "P9": 0,
+      "P10": 0,
+      "P11": 0,
+      "P12": 0,
+      "P13": 0,
+      "P14": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "AC": "Alignment Collapse",
+      "DE": "Drift Escalation",
+      "ES": "Echo Saturation",
+      "LI": "Leak Instability",
+      "LO": "Low Intensity",
+      "HI": "High Intensity",
+      "PI": "Phase Inversion",
+      "RC": "Resonance Cascade",
+      "CD": "Corner Deadlock",
+      "BS": "Boundary Softening",
+      "PS": "Propagation Stall",
+      "HS": "Harmonic Split",
+      "TB": "top and bottom faces as a pair",
+      "CV": "Core Void",
+      "CL": "cloth",
+      "BD": "board",
+      "FN": "fan",
+      "BL": "chime bell near by default, not touching unless explicitly stated otherwise",
+      "ST": "stone",
+      "LP": "lamp",
+      "T": "temperature or touch channel in symptom reports",
+      "B": "bottom face",
+      "N": "north face",
+      "S": "south face",
+      "E": "edge channel in symptom reports",
+      "W": "west face",
+      "NS": "north and south faces as a pair",
+      "EW": "east and west faces as a pair",
+      "+": "join simultaneous actions or targets",
+      ",": "sequence steps",
+      "NEW:": "new symptoms appearing after a successful stabilization",
+      "F": "face channel in symptom reports",
+      "C": "corner channel in symptom reports",
+      "H": "hum channel in symptom reports",
+      "L": "left face",
+      "R": "right face",
+      "K": "back face",
+      "x2": "repeat twice at each location, not total passes",
+      "?": "question prefix indicating the following token is the unclear item needing clarification",
+      "P1": "Sound a sustained {I} tone near all six faces simultaneously for {D} seconds, starting from the {F} face. Let the tone fade naturally and wait for the hum to stabilize.",
+      "P2": "Chime a bell near two opposite faces, starting from the {F} face. Alternate the chime between the two faces — {D} seconds pause between chimes — for five cycles at {I} tone.",
+      "P3": "Drape a cloth over two adjacent edges near the {F} face for {D} seconds at {I} coverage. Then chime a bell three times near the {F} face.",
+      "P4": "Warm each corner of the {F} face by holding a heated stone nearby for {D} seconds at {I} warmth, in sequence. Then trace each edge of the {F} face with a finger.",
+      "P5": "Place a warm stone beside the {F} face at {I} warmth for {D} seconds. Rotate and repeat for each face.",
+      "P6": "Drape a cool cloth over the Veyru for {D} seconds. Remove the cloth and fan {I} cool air across the {F} face and the opposite face for {D} seconds.",
+      "P7": "Illuminate the {F} face with a dim lamp and the opposite face with a bright lamp simultaneously at {I} brightness for {D} seconds, without moving the lamps.",
+      "P8": "Drape a folded cloth over the {F} face for {D} seconds at {I} coverage. Then chime a bell near each edge of the {F} face twice.",
+      "P9": "At each corner of the {F} face, chime a bell briefly at {I} tone, then warm the two edges meeting at that corner with a heated stone for {D} seconds.",
+      "P10": "Rest a flat board against the {F} face at {I} contact for {D} seconds. Rotate and repeat for each face-pair.",
+      "P11": "Chime a bell near the center of each face once at {I} tone, starting from the {F} face. Then place a warm stone beside the Veyru for {D} seconds.",
+      "P12": "Place the Veyru on a soft surface with the {F} face up at {I} contact. Let it rest undisturbed for {D} seconds.",
+      "P13": "Drape a cool cloth over the Veyru for {D} seconds. Remove and fan {I} cool air across all six faces for {D} seconds, starting from the {F} face.",
+      "P14": "Rotate the Veyru slowly over {D} seconds while sounding a steady tone at {I} volume near opposite faces, starting from the {F} face. After rotation, chime a bell once near each corner."
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780617484",
+    "n_codes": 53,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible multi-entry compositional paradigm is attested in the supplied codebook. The numbered procedures P1–P14 fail the opaque index test: the numerals do not contribute literal count meaning but select unrelated stored procedures. Standalone items like LO/HI, face labels, channels, and objects may look semantically class-like, but there are no actual surface codes in which they alternate in a shared morphotactic frame to form predictable whole meanings. The procedure glosses mention placeholders {F}, {I}, and {D}, but those variables are only inside English descriptions; they are not realized as segmented parts of any supplied symbol. Candidate family P1~P10–P14 is rejected as accidental prefix overlap only. Therefore the safest complete analysis is a flat lexicon with no segmented entries, classes, or constructions.",
+    "lexical_symbols": [
+      "AC",
+      "DE",
+      "ES",
+      "LI",
+      "LO",
+      "HI",
+      "PI",
+      "RC",
+      "CD",
+      "BS",
+      "PS",
+      "HS",
+      "TB",
+      "CV",
+      "CL",
+      "BD",
+      "FN",
+      "BL",
+      "ST",
+      "LP",
+      "T",
+      "B",
+      "N",
+      "S",
+      "E",
+      "W",
+      "NS",
+      "EW",
+      "+",
+      ",",
+      "NEW:",
+      "F",
+      "C",
+      "H",
+      "L",
+      "R",
+      "K",
+      "x2",
+      "?",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8",
+      "P9",
+      "P10",
+      "P11",
+      "P12",
+      "P13",
+      "P14"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

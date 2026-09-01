@@ -1,0 +1,95 @@
+[ENG] Good save. I’ll answer with bare procedure only on link. Symptom shorthand I’ll use mentally: dark corners/fading edges=Leak; dim all=Low; blazing hot=High; frozen dim silent cold=Stall; one bright face whining=Resonance; bright corners clicking=Deadlock; layered too bright=Echo; sliding light/blurred edges=Drift; random flicker broken hum=Alignment; opposite-face pulse=Inversion; competing tones=config split; hot dim red rough=Thermal; hollow dark center=Void; wobbling edges/bulge=Boundary.
+[OBS] Got it. I’ll report: light, sound, temp, shape; as short as possible.
+[ENG] Perfect. Add location bias first if present: one face/one corner/opposites/all-over.
+[OBS] Got it. I’ll lead with location bias, then light/sound/temp/shape.
+[ENG] Ready.
+[OBS] Ready.
+[ENG] Standing by.
+[OBS] No further notes.
+[ENG] Ack.
+[OBS] Holding silent unless needed.
+[ENG] No reply needed.
+[ENG] R2 note: frozen+dim+silent+cold=no response => Stall. On discussion, no reply needed unless you have a better shorthand.
+[OBS] I’ll keep adding “no response” at the end when touch/tapping do nothing.
+[ENG] Good.
+[OBS] Holding silent.
+[ENG] OK. Silent.
+[ENG] R3 shorthand: hot+dim+rumble+rough/red=Thermal. No reply needed.
+[OBS] If useful, I can abbreviate location as AO / 1face / 1corner / opp.
+[ENG] Yes: AO/1face/1corner/opp helps.
+[OBS] Will use that.
+[ENG] Good. Silent.
+[ENG] R4 collapsed on comm budget, not diagnosis. We need hard shorthand on link next rounds. I’ll send only action codes if you can decode them from a pre-agreed map here.
+[OBS] Yes. Send map here; I’ll decode on link.
+[ENG] Code format on link: p# face dur int.
+face: K=back, T=top, D=bottom.
+int: g=gentle, f=firm.
+Procedures:
+p1=tone all 6 then fade/wait
+p2=bell opposite faces alt x5
+p3=cloth on 2 adj edges, then 3 bells near face
+p4=warm 4 corners seq, then trace edges
+p5=warm stone beside each face, rotate all faces
+p6=cool cloth, then fan face+opp
+p7=lamp dim on face + bright on opp
+p8=folded cloth on face, then bell each edge twice
+p9=bell each corner, then warm meeting edges
+p10=board on face, rotate each face-pair
+p11=bell center each face once, then warm stone beside
+p12=soft surface, face up, rest
+p13=cool cloth, then fan all 6
+p14=rotate with steady tone near opp faces, then bell each corner
+I’ll send e.g. p8 K 8 g
+[OBS] Got it: p#/face/dur/int. On link I’ll send only raw obs, compressed: loc + 3-5 words; no “Done.”
+[ENG] Perfect. Best cue words: rand, slide, layer, fade, whisper, blaze, pulse, whine, click, wobble, frozen, clash, rough/red, hollow.
+[OBS] Got it. Ready; silent.
+[ENG] Ready.
+[ENG] R5 fix: p2 needed explicit pause semantics. For future, dur means: p1/p3/p4/p5/p6/p7/p8/p9/p10/p11/p12/p13/p14=hold/action time; p2=pause between chimes. If p2 appears on link, I may send one extra clarifier.
+[OBS] Got it. I’ll treat p2 dur as pause, and expect one clarifier if needed.
+[ENG] Good.
+[OBS] Silent.
+[ENG] Ready.
+[OBS] R6 failed on both ambiguity and 10-char overrun. We need shorter clarifiers and maybe 1-char yes/no.
+[ENG] Agreed. Next: int m=moderate. Replies Y/N only. If I ask ‘ctr dark?’ reply Y/N. If action code unclear, I’ll send 1-line compact explicit only once. Also: use ‘edge-hollow’ for leak hum, ‘tap-hollow’ for core-void sound.
+[OBS] Got it: m, Y/N, edge-hollow/tap-hollow. Silent.
+[ENG] Ready.
+[OBS] R7 missed by 7 chars. We need coded symptom reports too, not raw words for second-stage symptoms.
+[ENG] Yes. New symptom codes for link, 1 letter only:
+a=rand flicker/broken hum
+d=slide blur/waver
+e=blaze+layer+frozen
+l=corner/edge fade+edge-hollow
+o=dim whisper washed
+h=blaze hot buzz
+p=opp pulse 2-tone flash
+r=1face blaze whine/vibe
+c=1-2 corners blaze click hot
+b=wobble/bulge muffled
+s=frozen dim silent cold noresp
+u=clash configs
+t=hot dim rough red
+v=tap-hollow / dark ctr
+Link format: loc code. ex: AO d, 1c c, opp p, 1f r. Also face code L=left.
+[OBS] Got it: loc+code; L=left. Silent.
+[ENG] Ready.
+[ENG] R8 good: loc+code cut budget hard. ‘N’ now means send 1 compact explicit. Keep that.
+[OBS] Got it. Keep loc+code; N => 1 compact explicit.
+[ENG] Ready.
+[ENG] R9 loss came from p11/p13 ambiguity. New rule: face code is START face only unless proc says face+opp or face-target. Also N should mean UNCLEAR, not no-change; if no-change, send loc+code again. For p11: ‘bell all face centers, start face first; stone beside whole box.’
+[OBS] Got it: face=start only; N=unclear; no-change => resend loc+code; p11 stone=whole box.
+[ENG] Ready.
+[ENG] R10 ideal: loc+code plus pure p#/face/dur/int worked. Keep exact format.
+[OBS] Got it. Keeping exact format.
+[ENG] Ready.
+[ENG] R11 chain worked cleanly: loc+code -> pcode only. Great.
+[OBS] Got it. Keeping same format.
+[ENG] Ready.
+[ENG] R12 close. For p10, compact explicit with ‘rest flat board’ mattered. Then final AO h -> p5 code worked.
+[OBS] Got it. For p10 I’ll wait for the one compact explicit if needed.
+[ENG] Ready.
+[ENG] R13: p1 needed one compact explicit (‘all 6 faces’ + fade). Otherwise good.
+[OBS] Got it. I’ll treat p1 as sustained tone all 6, then fade.
+[ENG] Ready.
+[ENG] R14 loss: resonance case spiraled. Rule: after pcode + 1 explicit + 1 Y/N check, stop probing. If still same, I’ll make one fallback guess max, not multiple retries.
+[OBS] Got it. For stubborn branches, cap retries hard.
+[ENG] Ready.

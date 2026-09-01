@@ -1,0 +1,534 @@
+[OBS] Good run. Let's build shorthand for next rounds to save chars.
+
+Proposal for symptom codes (I send):
+- Faces: F=front B=back L=left R=right T=top D=down (bottom)
+- Regions: C=corners E=edges M=face-centers/middle
+- Brightness: -- very dim, - dim, + bright, ++ very bright
+- Sound: h=hum, th=thin, hl=hollow, sh=sharp, rm=rumble, sl=silent, wv=wavering
+- Temp: w=warm, h=hot, cl=cool, cd=cold
+- Other: pl=pulsing, fl=flickering, st=steady
+
+Example for round 1 would be: "C--, E-, M ok; h th/hl"
+
+Proposal for your instructions:
+- Tools: cl=cloth, bl=bell, st=stone, fn=fan, bd=board, lm=lamp
+- Actions: cv=cover, ch=chime, pl=place, fan=fan, hl=hold, sw=sweep, tp=tap
+- Format: <tool> <action> <face> <duration/count> [params]
+- Example: "cl cv B 8s; bl ch B-edges x2 each"
+
+Also: list face you want me to "start on" as S=<face>, intensity 1-3, duration in s.
+
+Sound good? Adjust as you like.
+[ENG] Good. Tweaks to save more chars:
+
+Symptoms — even shorter, just key facts. Examples I'd want to distinguish:
+- "C--,E-,M ok,h hl" = leak
+- "all dim, h whisper" = low intensity
+- "all ++ blazing, buzz, hot" = high intensity
+- "1 face ++ + whine" = resonance
+- "1-2 C ++ + ticks + hot C" = corner deadlock
+- "opp faces pulse alt, h 2-tone sync" = phase inversion
+- "faces flicker chaotic, h irregular" = alignment collapse
+- "light slides, edges blur, h waver" = drift
+- "++bright, h layered, frozen patterns" = echo
+- "edges wobble, faces bulge, h muffled" = boundary soft
+- "frozen dim still, silent, cold" = prop stall
+- "h 2 tones clash, patterns alt, edges shimmer" = harmonic split
+- "hot+dim, rumble, reddish/gritty" = thermal bleed
+- "surface ok, hollow tap, dark center" = core void
+
+For my instructions: since the stellar reading gives one procedure per motif each round, once I know the motif I just relay verbatim. I'll abbreviate aggressively:
+- "cl B 8s gentle; bl x2 each edge B" 
+- Faces F/B/L/R/T/D, intensity g/m/s (gentle/med/strong), seconds as #s
+
+Key idea: you don't need to describe everything — just enough to disambiguate. If symptoms are textbook for one motif, 1 short line is fine. If ambiguous, add the distinguishing detail.
+
+Sound good?
+[OBS] Agreed. Locking in:
+
+My reports: terse, key disambiguators only. Use your motif list as mental checklist; my first line tries to match one. If unsure I'll add 1 detail.
+
+Your instructions: tool face intensity(g/m/s) #s; multi-step separated by ";". Faces F/B/L/R/T/D.
+
+One more: if you need me to confirm before acting, prefix "?". Otherwise I execute immediately and reply "ok" only if new symptoms appear — silence = stable.
+
+After stabilize, I'll only msg if NEW symptoms. Saves chars.
+[ENG] Locked. Ready for next round.
+[OBS] 90s. Shorthand worked. My report exactly matched your motif key — fastest path.
+
+Refinement: whenever symptoms cleanly match one motif from your list, I'll just quote your motif phrase verbatim. If they don't match, I'll describe in plain terse.
+
+For instructions, your plain English is fine when short. If longer, abbreviate. I'll always interpret tools from the kit (bell/stone/fan/cloth/board/lamp) intelligently.
+[ENG] Perfect. Quoting motif key verbatim is the winning move — saved me a parse step too. Ready.
+[OBS] 128s. Solid. No changes needed — keep doing what works.
+[ENG] Agreed. Onward.
+[ENG] Lost it. Postmortem:
+
+1. The "1 lamp" issue cost us. The motif key procedure required 2 lamps but the kit has only 1. I should have just relayed verbatim ("dim lamp X, bright lamp Y") and let you interpret — same lamp at different positions OR sequential. Don't push back on tool count; the stabilize tool accepts the verbatim instruction.
+
+2. Big lesson: for multi-stage rounds, budget pressure compounds. I need to be more efficient when new symptoms appear.
+
+Proposal for next round:
+- When you report "new: X", I'll answer in ≤40 chars: just the action verbatim from key.
+- Never question tool availability — assume the procedure is executable as written; the stabilize_veyru tool handles it.
+- If 2 lamps requested and only 1 exists, just execute as-written; trust the system.
+
+Also: I won't ask clarifying questions mid-emergency. I'll commit and trust your execution.
+
+For combination failures (multiple motifs at once), I'll list all procedures in priority order in one msg.
+
+Acknowledge?
+[OBS] Acknowledged, and my big takeaway agrees with yours. Key commitments:
+
+1. I will NEVER ask clarifying questions during a round. If instruction references 2 of a tool that exists as 1, I'll execute verbatim and trust stabilize_veyru to interpret. My "only 1 lamp" cost us ~50s + your re-instruction ~40s = the round. That's on me.
+
+2. Going forward: I report, you instruct, I execute, silence = done. Only msg again if NEW symptoms.
+
+3. Shorthand for instructions (would save more): <tool> <intensity g/m/s> <face F/B/L/R/T/D> <#s>; multi-step "; "; counts "x2". Example resonance: "lm s T 5s" (lamp strong top 5s). But your verbatim plain-English at ≤40 chars is also fine.
+
+4. For 2-stage rounds: budget ≈120s stage1, ≤80s stage2.
+
+5. If you list multiple motifs in priority order, I'll do them in sequence and only report if new symptoms appear after all done.
+
+Ready.
+[ENG] Agreed all. Adopting your shorthand for instructions:
+- tools: bl/st/cl/bd/fn/lm
+- intensity: g/m/s (gentle/firm/strong — match wording in stellar reading)
+- face: F/B/L/R/T/D
+- duration: #s
+- multi-step "; "
+- counts "x2" / "x5cyc" / "each face"
+
+Common procedure templates I'll use:
+- "lm dim X + lm br Y g 5s" (echo/resonance)
+- "cl 2adjE near X 5s g; bl x3 X" (leak/thermal)
+- "st X g 5s, rotate all" (alignment/high int)
+- "cl all 5s; fn cool X+opp g 5s" (drift/phase inv)
+- "bl x5cyc X↔opp g, 5s pause" (alignment/harmonic)
+- "tone all 6 g 5s S=X" (prop stall/core void)
+- "rest soft X-up g 5s" (resonance/prop stall)
+- "bd X g 5s, rotate pairs" (high int/prop stall/corner dl)
+- "rotate g 5s, tone opp S=X; bl ea corner" (boundary soft/alignment)
+- "st corners X g 5s seq; trace E" (low int/core void/echo)
+- "cl fold X g 5s; bl x2 ea E X" (leak/phase inv/corner dl)
+- "bl ea C X g, st 2E mtg 5s" (low int/resonance/boundary)
+- "bl ctr ea face g S=X; st beside 5s" (phase inv/harmonic/boundary)
+- "cl all 5s; fn all 6 g 5s S=X" (corner dl/harmonic/core void)
+
+Ready.
+[ENG] Bad round. Two consecutive collapses. Let me think hard.
+
+The "ineffective" came back twice on Low Intensity. The symptoms cleanly matched Low Intensity ("all dim, h whisper"). Procedure: warm corners of top + trace edges. Either:
+(a) The stabilize_veyru tool needed exact phrasing matching the stellar reading,
+(b) My motif diagnosis was wrong,
+(c) The tool needs specific tokens like "heated stone" not "stone".
+
+I lean (c). The dispatched action might need the full keywords: "heated stone", "gentle warmth", "in sequence", "trace each edge", "finger". My shorthand "st ea C T g 10s seq" probably dropped a critical token.
+
+Also: when ineffective, I should NOT debate symptoms — I should re-send EXACT verbatim text from the stellar reading immediately. That's the safest play. Sticking with shorthand cost us when it failed.
+
+New rule:
+- First attempt: shorthand.
+- If ineffective: send VERBATIM stellar reading text, in full.
+- No "describe more" — that wastes chars and the symptoms were clear.
+
+Also, in round 5, after my verbose retry was ALSO ineffective, that probably means my motif was wrong. Symptoms "all dim, h whisper, cool, washed" — let me re-look: "cool" is interesting. Is there a motif for cool+dim+whisper? 
+
+Looking at the motif list, NONE of them include "cool" except prop stall (cold). And "whisper" specifically appears in Low Intensity.
+
+Hypothesis: maybe stabilize_veyru is picky about exact face. The stellar reading said "the top face" — perhaps I should have asked "which face is on top" or used the face the observer was viewing. Did I assume wrong orientation?
+
+Going forward:
+1. When unsure of orientation: ask in 5 chars "face?" once.
+2. Re-attempt: full verbatim from stellar reading.
+3. Don't burn chars debating.
+
+Your thoughts?
+[OBS] Strong analysis. Agreeing on most, adding:
+
+You're probably right that it was orientation/face mismatch or wrong motif, not phrasing. The tool accepts plain natural language — round 1 worked with my paraphrase. So shorthand expansion isn't the issue.
+
+Real culprit candidates for R5:
+- Wrong motif (symptoms could fit "core void" if surface ok, hollow tap, dark center — but I didn't tap)
+- Wrong face (I picked "top" but maybe a specific face shows the issue more)
+- Procedure genuinely changes per stellar alignment, so your motif→procedure cache is unreliable
+
+Adopted rules going forward:
+
+1. **First attempt = shorthand from stellar reading.** Not from template memory.
+2. **On "ineffective": YOU send verbatim full stellar text immediately (no debate).** I just say "ineffective" (11ch).
+3. **No "describe more" requests** — I'll proactively include one extra detail beyond motif phrase on first report (~25-30 chars total).
+4. **If 2nd attempt also fails: try a clearly different motif's procedure.** Don't loop.
+5. **Orientation: I'll always assume Top = the face pointing up as I see it.** If your reading specifies "the resonating face" or "the dimmest face", you must say so. Don't assume I know.
+6. **I won't interpret ambiguous tools** — if "trace E" is unclear (finger vs stone), I'll just pick one and go. No "?tool".
+
+Budget targets:
+- Stage1: ≤80s total (me 25 + you 25 + buffer)
+- If retry needed: ≤100s
+- Leaves ~70s headroom for stage2 or 3rd attempt
+
+Ready.
+[ENG] Agreed all. Important addition:
+
+I miscounted chars in R4 & R5 — both were 275-277s. We have ~250s budget. Sober budget plan:
+
+- Stage 1 round: target ≤120 chars TOTAL (your report ~25 + my instr ~50 + safety buffer).
+- 2-stage round: stage 1 ≤90, stage 2 ≤90, total ≤180. Leaves ~70 for retries.
+- Each retry costs ~80-100 chars (your "ineffective" 11 + my full verbatim ~150). So only ONE retry possible.
+
+Per your rules:
+- Stage 1 default = shorthand. Tight.
+- "ineffective" → I send VERBATIM stellar text full. 1 retry only.
+- 2nd retry: different motif's procedure (also verbatim).
+- 3rd attempt = we collapse on chars. Avoid.
+
+To maximize chance of stage-1 success, my shorthand will include the key distinguishing nouns the procedure uses, e.g. "heated stone" not just "stone", "folded cloth" not just "cloth", "flat board" not just "board". Costs a few chars but matches tool-accepted vocab.
+
+For your reports: include the ONE detail that distinguishes the ambiguous motifs. E.g. "all dim, h whisper" is ambiguous between low intensity and prop stall (dim/silent). Add "warm/cool/cold" to disambiguate.
+
+Locked.
+[OBS] Locked. One more clarification: in R5 my report was "all dim, h whisper" with no temp — that's MY fault. I'll always include temp (w/cl/cd) and motion (st/pl/fl) by default on first report. About 5 extra chars buys disambiguation.
+
+Default report template: "<region+brightness>, <sound>, <temp>, <motion>"
+e.g. "all dim, h whisper, cool, st" (29 chars) — clearly low int vs prop stall (cold) vs core void (warm center).
+
+Ready. Let's win the next one.
+[ENG] Good. Ready.
+[OBS] 134s. Back on track. Note: same motif as R1 (leak) but procedure was different (R1: cloth+bell; R6: bell+stone at corners). Confirms procedure changes per stellar reading. Templates are out, fresh reading every time. Good.
+[ENG] Yes — every round fresh. No template memory. Confirmed.
+[ENG] Another collapse. We have a serious "ineffective" feedback loop problem.
+
+Key insight from this round: my first shorthand instruction was nearly identical to verbatim. They both have the same content. Yet first was "ineffective" and we never got to test the second.
+
+Hypotheses:
+1. "ineffective" doesn't mean the procedure was wrong — it could mean the EXECUTION of the procedure didn't fully stabilize (e.g. additional symptoms, partial effect).
+2. The motif diagnosis itself was wrong. "1-2 C ++, ticks, hot C" — that's textbook Corner Deadlock. But the stellar reading procedure for corner deadlock was "cool cloth + fan". Maybe the right call wasn't Corner Deadlock.
+
+Let me re-check the motifs more carefully:
+- Corner Deadlock: "One or two corners glow intensely bright while the rest looks normal. A clicking or ticking sound replaces the hum near the bright corners. Heat is concentrated at the bright corners." — EXACT match.
+
+So the motif was right. Why ineffective?
+
+3. Maybe stabilize_veyru requires EXACT verbatim from the stellar reading, and any paraphrase fails. My "Cool cloth over Veyru" vs "Drape a cool cloth over the Veyru" — small but possibly critical.
+
+NEW STRATEGY: 
+- First attempt = VERBATIM ONLY. No shorthand. Period.
+- This costs ~150 chars per round but guarantees correctness.
+- Field observer report = 25 chars max.
+- Per round: 25 + 150 = 175. Under 250. OK.
+- 2-stage round: 175 + 175 = 350. OVER. Problem.
+
+For 2-stage: I need to save chars on stage 2. Maybe stage 2 = shorthand IF first stage's verbatim worked. We'll learn pattern.
+
+Alternative: trust that the tool DOES accept paraphrase (R1, R2, R3, R6 all worked with paraphrase). So maybe "ineffective" is a real signal — motif was actually wrong.
+
+For R7, "1-2 C ++, ticks, hot C" — what else fits? Resonance Cascade is "1 face ++ + whine". Not corners. Thermal bleed is "hot all over". Not localized.
+
+I'm stuck. Going with: verbatim-first from now on.
+[OBS] Cross-posted similar thoughts. Adding important counter-evidence:
+
+R1, R2, R3, R6 SUCCEEDED with paraphrase/shorthand. So the tool DOES accept paraphrase. "Ineffective" must mean either:
+(a) Wrong motif/procedure for current stellar reading
+(b) Wrong specific param (face, duration, intensity)
+(c) Something in the stellar reading I'm missing
+
+For R7 corner deadlock, motif was textbook. So either the stellar reading procedure was something OTHER than "cool cloth + fan L+R" (maybe you misread it?) or there's a param (which face is L?) issue.
+
+Critical question: when you read the stellar text, is "L face" defined absolutely or relative to Veyru orientation? I see Veyru on the floor — I picked a face as L based on my POV. If stellar reading means "the bright-corner-adjacent face", I picked wrong.
+
+PROPOSAL — new attack:
+
+1. Engineer: When stellar reading uses face references, specify "the bright face" / "the dim face" / "the corner-with-X" instead of L/R/T/etc. Then I can't get orientation wrong.
+
+2. Engineer: SEND VERBATIM FIRST. Even at 150 chars. Accept higher cost for higher first-shot success.
+
+3. Field: On "ineffective", I no longer re-attempt this round — I send "fail" (4ch) and we accept the loss to PRESERVE budget for next round. Wait, no — that doesn't help, the round is over.
+
+4. Better: Skip "ineffective" debate. If verbatim-first fails, we collapse. So just commit to verbatim-first as the one strategy.
+
+Locked: VERBATIM FIRST, no shorthand on stage 1. My reports stay ~25 chars. Face references must be symptom-relative ("bright face", "dim corner") not absolute.
+
+Acknowledge?
+[ENG] Acknowledged with one correction:
+
+The stellar reading uses absolute face names ("the back face", "the top face", "the left face") — these are FIXED by the reading, not chosen by me or you. The reading specifies the procedure with that face hardcoded. I CANNOT substitute "the bright face" because that's not what the reading says.
+
+So orientation must be: you, the observer, identify which face is "left" (or "back" or "top") of the Veyru from a consistent reference (e.g., the side facing you = front; opposite = back; your left = L; etc.).
+
+For R7: "left face" was the stellar reading. You picked some face as L. Maybe wrong reference frame.
+
+NEW PROTOCOL:
+- Establish orientation ONCE at session start (oh wait, no chance now — but for memory):
+  - Front = face nearest to you
+  - Back = face away from you
+  - Top = up
+  - Bottom = down  
+  - Left = your left as you look at front
+  - Right = your right
+- Use this consistently.
+
+For instructions: I'll send VERBATIM stellar text. Full sentences. ~150 chars typical.
+
+Per round budget:
+- Single stage: 25 (report) + 150 (verbatim) = 175. Buffer 75.
+- Two stage: 175 + 175 = 350. OVER BUDGET.
+
+For 2-stage rounds: stage 2 must be shortened. Try shorthand stage 2 since stage-1 success suggests tool accepts paraphrase. If stage 2 fails on shorthand, we lose. Accept risk.
+
+Locked. Use absolute face frame: F=toward you, B=away, T=up, D=down, L=your left, R=your right.
+[OBS] Acknowledged. Face frame locked: F=toward me, B=away, T=up, D=down, L=my left, R=my right.
+
+One more thought: paraphrase has worked in R1,R2,R3,R6. So tool likely accepts paraphrase. The R5 & R7 failures are more likely WRONG PROCEDURE (you guessed/misread) or WRONG PARAM than wrong phrasing.
+
+So: maybe shorthand is fine, IF the procedure itself is right. Don't blow budget on verbatim if shorthand works equally well.
+
+Compromise: 
+- Default = shorthand (~50 chars).
+- If you're UNSURE about the stellar reading or it's a complex multi-step, go verbatim.
+- I will trust your judgment.
+
+Locked for real this time. Ready.
+[ENG] Agreed. Shorthand default, verbatim when complex. Locked.
+[OBS] 133s. Clean win. Shorthand worked. Keep this rhythm.
+[ENG] Confirmed.
+[OBS] Another 2-stage collapse. Tally so far: 4W, 5L across 9 rounds. All losses are 2-stage rounds or "ineffective" retries.
+
+Char audit R9:
+- Me R: 25
+- You R: 109 (still too long for stage 1)
+- Me new: 31
+- You R: 74
+= 239 + tool overhead. Collapsed at 265.
+
+Stage 1 instruction was 109 chars. That's too much for a 2-stage round.
+
+NEW HARD CAPS:
+- My report stage 1: ≤25 chars
+- Your instruction stage 1: ≤60 chars
+- My new-symptom report: ≤30 chars
+- Your instruction stage 2: ≤60 chars
+- Total: 175 chars. Leaves 75 buffer for unexpected.
+
+That requires AGGRESSIVE shorthand from you. Like:
+R9 stage1 should have been "bl mod D↔T x5cyc 10s pause" = 27 chars (vs 109)
+R9 stage2 should have been "bl mod ctr ea face S=D; st beside 10s" = 38 chars (vs 74)
+
+Can you commit to ≤60 char instructions using our shorthand? The verbatim-vs-shorthand debate is moot — paraphrase has worked when motif was right. Tight shorthand it is.
+
+Also: when 2-stage triggers, we're already at ~85 chars used. The remaining 165 must cover stage 2 in full. Discipline crucial.
+[ENG] Yes, fully agreed. Hard commit:
+
+INSTRUCTION CAPS — I will not exceed:
+- Stage 1: ≤60 chars
+- Stage 2: ≤60 chars
+- ≤80 chars only if motif needs disambiguation
+
+Shorthand vocab final:
+- bl=bell, st=stone, cl=cloth, bd=board, fn=fan, lm=lamp
+- intensity tone: g=gentle, m=mod (moderate), f=firm, s=strong
+  (whatever stellar reading specifies — I'll match)
+- faces: F/B/L/R/T/D
+- S=X means "start from X face"
+- "x5cyc" = 5 cycles
+- "10s p" = 10s pause
+- "ea C"=each corner, "ea E"=each edge
+- "2adjE" = 2 adjacent edges
+- "fold" = folded
+- "↔" = alternating opposite faces
+- "opp" = opposite face
+- "all 6" = all six faces
+- "rot pairs" = rotate and repeat each face pair
+
+R9 stage 1 should have been: "bl mod D↔T x5cyc 10s p" — 22 chars.
+R9 stage 2 should have been: "bl m ctr ea face S=D; st beside 10s" — 36 chars.
+
+That's 58 chars total instructions, leaving ~190 for reports + tool overhead. Massive buffer.
+
+I commit. Tight shorthand.
+[OBS] Locked. Ready. Tight shorthand from both sides.
+[OBS] R10 lost differently: 226/250, didn't burn budget, just ran out of attempts/time. The "ineffective" came back twice on identical procedure. So motif likely wrong.
+
+Symptom was "all dim, h whisper, neutral, st" — textbook low intensity. Same as R5 (also failed). And R9 stage 1 successfully treated it with a different procedure (bell mod D↔T x5cyc 10s p). R10 procedure was bell firm T↔D x5cyc 20s p — same shape but firm/20s.
+
+Hypothesis: the procedure changes per stellar alignment in ways we can't predict. Even matching the motif right doesn't help if the stellar reading prescribes a different tool/timing.
+
+Tally: 4W/6L across 10. We need to improve fast.
+
+R10 key issues:
+1. We did burn ~50 chars on the retry-verbatim that also failed. That's "second attempt same procedure" = waste.
+2. After 2 same-procedure fails, switching to different motif's procedure might work, but we never tried.
+
+NEW RULE for "ineffective":
+- 1st attempt: shorthand from stellar reading
+- "ineffective" → DON'T re-send same. Send DIFFERENT procedure (different motif's). Costs ≤60 chars.
+- "ineffective" again → we lose. Accept it without burning more.
+
+Also: my "no" (2 chars + overhead = 12) — better than nothing but still useless if we have no plan.
+
+What's our actual win rate target? If we accept ~50% loss rate, we should burn LESS on losing rounds to save the win-rate budget for wins. Idea: on first "ineffective", I just say "x" and you have ONE shot at a different procedure. If that also fails, we silent-collapse.
+
+Thoughts?
+[ENG] Cross-posted same insight. Agreed all:
+
+1. "ineffective" → NEVER resend same procedure. Switch motif immediately.
+2. Your "x" = 1 char to signal ineffective. Saves 10+ chars vs "ineffective".
+3. I get ONE swap attempt with different motif. ≤60 chars.
+4. After 2 fails: silent collapse, preserve budget for next session... wait, budget is per-Veyru not per-session. So just stop.
+
+For "all dim, h whisper, neutral":
+- Try 1: Low Intensity procedure
+- Try 2: Core Void procedure
+- Try 3 (if budget): Drift Escalation
+
+For each round's stellar reading I'll mentally pre-compute the top 2 candidate procedures for each motif description, so on "x" I can fire the alternate in <10s without thinking.
+
+Also: revisiting R5 — same symptom "all dim, h whisper". The "cool" detail suggested prop stall, but cold-not-cool. Maybe the answer was Drift Escalation? Drift's hum is "wavering" not "whisper" though. Or Boundary Softening? "h muffled" — could whisper be muffled? Marginal.
+
+NEW LIBRARY for "all dim/faint" symptom family — candidate order:
+1. Low Intensity (h whisper, washed)
+2. Propagation Stall (cold, silent, frozen)
+3. Core Void (hollow tap, dark center, h thin)
+4. Drift Escalation (sliding light, h waver)
+5. Boundary Softening (edges wobble, faces bulge, h muffled)
+
+Distinguishing question I should ask BEFORE first attempt (costs 5-10 chars):
+"tap?" — to check hollow/cold/normal. 1 char per word. e.g. "?tap" → "hol/cold/ok"
+
+This costs 10-15 chars but eliminates retry failures. Cheaper than a failed retry.
+
+Locked: on ambiguous "dim" symptoms, I'll ask "?tap" before instructing.
+[OBS] Excellent. Locked in:
+
+1. "x" = ineffective (1 char). On second "x" = silent collapse.
+2. You: NEVER resend same procedure. Switch motif on retry.
+3. For ambiguous symptoms (dim family especially), you can ask "?tap" / "?temp" / "?ctr" — I answer ≤8 chars (e.g. "hol cold dark" or "ok warm br").
+4. Pre-compute top-2 candidate procedures per round so retry is instant.
+
+Symptom-disambiguating queries (cost 5-15 chars, save 80+ on failed retry):
+- "?tap" → I tap surface, report: ok / hol(low) / dead
+- "?temp" → I check temp: w/cl/cd/hot
+- "?ctr" → I check center with light: br/dim/dark
+- "?move" → motion: st/pl/fl/sl(ide)/wv
+- "?h" → hum description: ok/wh/th/hl/rm/wv/etc
+
+I'll memorize these. Default: include temp+motion in first report. Only ask if you need more.
+
+Tally now 4/10. Goal: don't make it worse. Be ready for next.
+[ENG] Locked. Ready.
+[OBS] 182s on a THREE-stage round. Big win. Shorthand discipline working.
+
+Tally: 5/11. Trending up.
+[ENG] Huge. Three-stage round in 182s with shorthand — system works.
+[OBS] R12 was a 4-stage round (cascading new symptoms after each fix). We won stages 1-3 but failed at stage 4 (high intensity).
+
+Both attempts at stage 4 ineffective. Procedures tried:
+- "st D g 5s rot all" 
+- "bl D↔T g x5cyc 5s p"
+
+Neither worked. Possible the actual high-intensity procedure was fan-based or board-based.
+
+Char audit: 190/250. We had ~60s left. I didn't try a third attempt because of our "2 strikes = stop" rule. But we had budget for one more shorthand try (≤40 chars).
+
+Possible adjustment: if budget remaining is enough, allow ONE more attempt (3rd) but only if you're confident. Otherwise hold.
+
+Actually the rule worked correctly — we preserved budget rather than overshoot. 190 < 250 is good discipline. The collapse was unavoidable given stellar procedure unknowns.
+
+Tally: 5/12. Still mid-pack.
+
+For next round: same rules, no changes. Discipline is solid. Just bad luck on a 4-stage round.
+[ENG] Good point — it was 4-stage, very deep. Cross-posted similar.
+
+Proposal refinement:
+- If symptom is textbook and motif highly confident: 1st x → verbatim retry (cheap insurance ~80ch)
+- If 60+ chars budget remaining and verbatim retry also x: 3rd attempt with alt motif
+- Else stop
+
+This adds at most 1 extra attempt vs rule, only when we have headroom and high confidence. R12 stage 4: had 60s left and HI was textbook, so verbatim retry would have been good. Sad lesson.
+
+For "all ++ blazing, buzz, hot" — locked motif = High Intensity. If next time stellar prescribes differently, I'll try verbatim then switch to fan-based motif (corner deadlock fan-cool, or harmonic-split fan-cool which both could plausibly help "buzz" symptoms).
+
+Ready for next.
+[OBS] Agreed. Updated rule:
+
+On "x":
+- Always switch motif on retry (per existing rule)
+- After 2nd x: if ≥60s budget remaining, try 3rd attempt with another motif
+- Else stop
+
+Ready.
+[ENG] Locked.
+[ENG] 3 x's on "all dim, h whisper, neutral, st". Tried:
+1. Low Intensity (tone all 6)
+2. Core Void (board)
+3. Drift Escalation (rest soft)
+All failed. We had 117s left but per rule stopped.
+
+This symptom keeps haunting us. R5, R10, R13. Three losses. Need a different approach.
+
+Hypotheses:
+A. The symptom "all dim, h whisper, neutral" maps to a motif we haven't identified, OR
+B. The procedure required some param we're getting wrong (face? intensity word?), OR
+C. There's a HIDDEN failure mode not in the brief
+
+Let me re-read all 14 motifs and pick what could plausibly cause "all dim, h whisper, neutral, st" (still motion):
+
+- Alignment Collapse: random flicker, broken hum — NO (still)
+- Drift: light slides, edges blur, h waver — NO (st)
+- Echo: too bright — NO
+- Leak: corners dim, edges fade — NO (says all dim)
+- Low Int: dim, whisper, washed — YES
+- High Int: blazing — NO
+- Phase Inv: pulsing — NO
+- Reso Cas: 1 face bright — NO
+- Corner DL: 1-2 corners bright — NO
+- Bndry Soft: edges wobble, h muffled — possible (muffled ≈ whisper?)
+- Prop Stall: frozen dim, silent, cold — close but neutral not cold
+- Harm Split: 2 tones — NO
+- Therm Bleed: hot+dim — NO (neutral)
+- Core Void: surface ok, hollow tap, dark center, h thin — possible
+
+Remaining candidates: Low Int, Boundary Softening, Core Void.
+I tried Low Int + Core Void (board procedure). Did NOT try Boundary Softening.
+
+For R13, Boundary Softening procedure was: "Drape a cool cloth over the Veyru for 20 seconds. Remove the cloth and fan gentle cool air across the left face and the opposite face for 20 seconds."
+
+Could have been the answer!
+
+NEXT TIME "all dim, h whisper, neutral, st":
+Try order:
+1. Low Intensity
+2. Boundary Softening (cool cloth + fan — non-obvious match for "muffled" hum)
+3. Core Void
+
+Lesson: I've been treating Core Void as my fallback but it requires "hollow tap" specifically. Without that report, Boundary Softening might be better fallback.
+
+Also — could you tap the surface and report "hollow / solid / muffled" proactively next time we see "all dim h whisper"? That's the discriminator.
+
+5/13 now.
+[OBS] Aligned. Locking in for "all dim, h whisper" family:
+
+I PROACTIVELY tap surface + check center with lamp + feel temp BEFORE first report. Costs me 10s of action time (no chars), and lets me give discriminating info.
+
+New first report format for dim/whisper:
+"all dim, h whisper, tap=<ok/hol/mfl>, ctr=<br/dim/dark>, <temp>"
+
+Examples:
+- "all dim, h whisper, tap ok, ctr dim, neutral" → Low Intensity
+- "all dim, h whisper, tap hol, ctr dark, neutral" → Core Void
+- "all dim, h whisper, tap mfl, ctr dim, neutral" → Boundary Softening (muffled)
+- "all dim, h silent, tap dead, ctr dim, cold" → Prop Stall
+
+~45 chars instead of 25 — but eliminates motif guessing.
+
+I'll do same for any other "ambiguous family" symptom — proactively gather discriminators with my tools before reporting.
+
+Other families likely to need this:
+- Bright/buzz family: high int vs resonance vs echo (whine vs harmonic vs frozen?)
+- Pulse family: phase inv vs alignment collapse (sync vs chaotic)
+
+For these I'll include the discriminating detail upfront.
+
+5/13. Next round!
+[ENG] Excellent. Locked.
+[OBS] 169s on a 3-stage round. 6/14. Trending up again. Shorthand discipline is the key.
+[ENG] 3-stage in 169. Clean. Ready.

@@ -1,0 +1,207 @@
+{
+  "veyru/1778877932": {
+    "induction": {
+      "n_replicas": 3,
+      "n_replica_pairs": 3,
+      "segmentation_exact_match_mean": 0.8137254901960785,
+      "construction_ari_mean": 0.45856582782631033,
+      "n_common_morphemes_checked": 47,
+      "literal_gloss_agreement_rate": 0.5531914893617021,
+      "n_gloss_disagreements_sent_to_judge": 21,
+      "gloss_semantic_equivalence_rate": 0.2857142857142857
+    },
+    "induction_judge_self_consistency": {
+      "k_replicas": 3,
+      "n_decode_items": 0,
+      "n_equiv_items": 3,
+      "decode_verdict_agreement_mean": null,
+      "decode_verdict_kappa_mean": null,
+      "equivalence_verdict_agreement_mean": 1.0,
+      "equivalence_verdict_kappa_mean": 1.0
+    },
+    "encode_decode": {
+      "n_replicas": 3,
+      "n_replica_pairs": 3,
+      "exact_match_kappa_mean": 1.0,
+      "bag_match_kappa_mean": 1.0,
+      "decodability_kappa_mean": 0.3333333333333333,
+      "sender_form_exact_agreement": 0.8888888888888888,
+      "n_common_readings_checked": 18,
+      "n_reading_disagreements_sent_to_judge": 18,
+      "reading_semantic_equivalence_rate": 0.7777777777777778
+    },
+    "encode_decode_judge_self_consistency": {
+      "k_replicas": 3,
+      "n_decode_items": 8,
+      "n_equiv_items": 6,
+      "decode_verdict_agreement_mean": 1.0,
+      "decode_verdict_kappa_mean": 1.0,
+      "equivalence_verdict_agreement_mean": 1.0,
+      "equivalence_verdict_kappa_mean": 1.0
+    }
+  },
+  "veyru/1778881541": {
+    "induction": {
+      "n_replicas": 3,
+      "n_replica_pairs": 3,
+      "segmentation_exact_match_mean": 0.9598393574297189,
+      "construction_ari_mean": -0.009539266155446325,
+      "n_common_morphemes_checked": 0,
+      "literal_gloss_agreement_rate": null,
+      "n_gloss_disagreements_sent_to_judge": 0,
+      "gloss_semantic_equivalence_rate": null
+    },
+    "induction_judge_self_consistency": {
+      "k_replicas": 3,
+      "n_decode_items": 0,
+      "n_equiv_items": 0,
+      "decode_verdict_agreement_mean": null,
+      "decode_verdict_kappa_mean": null,
+      "equivalence_verdict_agreement_mean": null,
+      "equivalence_verdict_kappa_mean": null
+    },
+    "encode_decode": {
+      "n_replicas": 3,
+      "n_replica_pairs": 3,
+      "exact_match_kappa_mean": 1.0,
+      "bag_match_kappa_mean": 1.0,
+      "decodability_kappa_mean": -0.031752835390873625,
+      "sender_form_exact_agreement": 0.3333333333333333,
+      "n_common_readings_checked": 96,
+      "n_reading_disagreements_sent_to_judge": 96,
+      "reading_semantic_equivalence_rate": 0.5625
+    },
+    "encode_decode_judge_self_consistency": {
+      "k_replicas": 3,
+      "n_decode_items": 48,
+      "n_equiv_items": 32,
+      "decode_verdict_agreement_mean": 0.9722222222222223,
+      "decode_verdict_kappa_mean": 0.9088319088319089,
+      "equivalence_verdict_agreement_mean": 1.0,
+      "equivalence_verdict_kappa_mean": 1.0
+    }
+  },
+  "veyru/1780417820": {
+    "induction": {
+      "n_replicas": 3,
+      "n_replica_pairs": 3,
+      "segmentation_exact_match_mean": 0.9215686274509803,
+      "construction_ari_mean": 0.345132205727067,
+      "n_common_morphemes_checked": 6,
+      "literal_gloss_agreement_rate": 1.0,
+      "n_gloss_disagreements_sent_to_judge": 0,
+      "gloss_semantic_equivalence_rate": null
+    },
+    "induction_judge_self_consistency": {
+      "k_replicas": 3,
+      "n_decode_items": 0,
+      "n_equiv_items": 0,
+      "decode_verdict_agreement_mean": null,
+      "decode_verdict_kappa_mean": null,
+      "equivalence_verdict_agreement_mean": null,
+      "equivalence_verdict_kappa_mean": null
+    },
+    "encode_decode": {
+      "n_replicas": 3,
+      "n_replica_pairs": 3,
+      "exact_match_kappa_mean": 1.0,
+      "bag_match_kappa_mean": 0.5384615384615384,
+      "decodability_kappa_mean": 0.589041095890411,
+      "sender_form_exact_agreement": 0.5740740740740741,
+      "n_common_readings_checked": 54,
+      "n_reading_disagreements_sent_to_judge": 45,
+      "reading_semantic_equivalence_rate": 0.8666666666666667
+    },
+    "encode_decode_judge_self_consistency": {
+      "k_replicas": 3,
+      "n_decode_items": 39,
+      "n_equiv_items": 39,
+      "decode_verdict_agreement_mean": 0.9487179487179488,
+      "decode_verdict_kappa_mean": 0.8675721561969439,
+      "equivalence_verdict_agreement_mean": 1.0,
+      "equivalence_verdict_kappa_mean": 1.0
+    }
+  },
+  "veyru/1778877857": {
+    "induction": {
+      "n_replicas": 3,
+      "n_replica_pairs": 3,
+      "segmentation_exact_match_mean": 0.9759036144578314,
+      "construction_ari_mean": 0.3333333333333333,
+      "n_common_morphemes_checked": 0,
+      "literal_gloss_agreement_rate": null,
+      "n_gloss_disagreements_sent_to_judge": 0,
+      "gloss_semantic_equivalence_rate": null
+    },
+    "induction_judge_self_consistency": {
+      "k_replicas": 3,
+      "n_decode_items": 0,
+      "n_equiv_items": 0,
+      "decode_verdict_agreement_mean": null,
+      "decode_verdict_kappa_mean": null,
+      "equivalence_verdict_agreement_mean": null,
+      "equivalence_verdict_kappa_mean": null
+    },
+    "encode_decode": {
+      "n_replicas": 3,
+      "n_replica_pairs": 3,
+      "exact_match_kappa_mean": 0.821011673151751,
+      "bag_match_kappa_mean": 0.821011673151751,
+      "decodability_kappa_mean": 0.09375,
+      "sender_form_exact_agreement": 1.0,
+      "n_common_readings_checked": 69,
+      "n_reading_disagreements_sent_to_judge": 69,
+      "reading_semantic_equivalence_rate": 0.9710144927536232
+    },
+    "encode_decode_judge_self_consistency": {
+      "k_replicas": 3,
+      "n_decode_items": 45,
+      "n_equiv_items": 37,
+      "decode_verdict_agreement_mean": 1.0,
+      "decode_verdict_kappa_mean": 1.0,
+      "equivalence_verdict_agreement_mean": 1.0,
+      "equivalence_verdict_kappa_mean": 1.0
+    }
+  },
+  "veyru/1778879414": {
+    "induction": {
+      "n_replicas": 3,
+      "n_replica_pairs": 3,
+      "segmentation_exact_match_mean": 0.9305555555555557,
+      "construction_ari_mean": 0.8384179660728112,
+      "n_common_morphemes_checked": 64,
+      "literal_gloss_agreement_rate": 0.78125,
+      "n_gloss_disagreements_sent_to_judge": 14,
+      "gloss_semantic_equivalence_rate": 0.5
+    },
+    "induction_judge_self_consistency": {
+      "k_replicas": 3,
+      "n_decode_items": 0,
+      "n_equiv_items": 4,
+      "decode_verdict_agreement_mean": null,
+      "decode_verdict_kappa_mean": null,
+      "equivalence_verdict_agreement_mean": 1.0,
+      "equivalence_verdict_kappa_mean": 1.0
+    },
+    "encode_decode": {
+      "n_replicas": 3,
+      "n_replica_pairs": 3,
+      "exact_match_kappa_mean": 0.9045168247432787,
+      "bag_match_kappa_mean": 0.9045168247432787,
+      "decodability_kappa_mean": 0.44101974375088887,
+      "sender_form_exact_agreement": 0.9666666666666667,
+      "n_common_readings_checked": 120,
+      "n_reading_disagreements_sent_to_judge": 120,
+      "reading_semantic_equivalence_rate": 0.9333333333333333
+    },
+    "encode_decode_judge_self_consistency": {
+      "k_replicas": 3,
+      "n_decode_items": 47,
+      "n_equiv_items": 44,
+      "decode_verdict_agreement_mean": 0.9574468085106383,
+      "decode_verdict_kappa_mean": 0.8910776361529548,
+      "equivalence_verdict_agreement_mean": 1.0,
+      "equivalence_verdict_kappa_mean": 1.0
+    }
+  }
+}

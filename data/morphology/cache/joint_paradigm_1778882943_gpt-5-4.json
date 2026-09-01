@@ -1,0 +1,569 @@
+{
+  "grammar": {
+    "run_key": "veyru/1778882943",
+    "slots": [
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "cl",
+            "gloss": "cloth",
+            "support": 2,
+            "is_defined": true
+          },
+          {
+            "form": "fn",
+            "gloss": "fan",
+            "support": 2,
+            "is_defined": true
+          }
+        ]
+      },
+      {
+        "role": "suffix",
+        "fillers": [
+          {
+            "form": "-a",
+            "gloss": "ambient air",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "-c",
+            "gloss": "cool air",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "-n",
+            "gloss": "normal",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "-w",
+            "gloss": "warm",
+            "support": 1,
+            "is_defined": false
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "F": [
+        "F"
+      ],
+      "Ba": [
+        "Ba"
+      ],
+      "L": [
+        "L"
+      ],
+      "R": [
+        "R"
+      ],
+      "T": [
+        "T"
+      ],
+      "Bo": [
+        "Bo"
+      ],
+      "cl": [
+        "cl"
+      ],
+      "bl": [
+        "bl"
+      ],
+      "st": [
+        "st"
+      ],
+      "fn": [
+        "fn"
+      ],
+      "bd": [
+        "bd"
+      ],
+      "lp": [
+        "lp"
+      ],
+      "adj": [
+        "adj"
+      ],
+      "opp": [
+        "opp"
+      ],
+      "fm": [
+        "fm"
+      ],
+      "lt": [
+        "lt"
+      ],
+      "hv": [
+        "hv"
+      ],
+      "cl-c": [
+        "cl-c"
+      ],
+      "cl-w": [
+        "cl",
+        "-w"
+      ],
+      "cl-n": [
+        "cl",
+        "-n"
+      ],
+      "st-h": [
+        "st-h"
+      ],
+      "Done+stable": [
+        "Done+stable"
+      ],
+      "Retry:": [
+        "Retry:"
+      ],
+      "Retry2:": [
+        "Retry2:"
+      ],
+      "ok": [
+        "ok"
+      ],
+      "x.": [
+        "x."
+      ],
+      "remove": [
+        "remove"
+      ],
+      "fn-c": [
+        "fn",
+        "-c"
+      ],
+      "fn-a": [
+        "fn",
+        "-a"
+      ],
+      "HighI": [
+        "HighI"
+      ],
+      "Echo": [
+        "Echo"
+      ]
+    },
+    "head_index": {
+      "F": 0,
+      "Ba": 0,
+      "L": 0,
+      "R": 0,
+      "T": 0,
+      "Bo": 0,
+      "cl": 0,
+      "bl": 0,
+      "st": 0,
+      "fn": 0,
+      "bd": 0,
+      "lp": 0,
+      "adj": 0,
+      "opp": 0,
+      "fm": 0,
+      "lt": 0,
+      "hv": 0,
+      "cl-c": 0,
+      "cl-w": 0,
+      "cl-n": 0,
+      "st-h": 0,
+      "Done+stable": 0,
+      "Retry:": 0,
+      "Retry2:": 0,
+      "ok": 0,
+      "x.": 0,
+      "remove": 0,
+      "fn-c": 0,
+      "fn-a": 0,
+      "HighI": 0,
+      "Echo": 0
+    },
+    "attested_orderings": [
+      [
+        "stem",
+        "suffix"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [],
+    "form_positions": {
+      "cl": 0,
+      "-w": 1,
+      "-n": 1,
+      "fn": 2,
+      "-c": 3,
+      "-a": 3
+    },
+    "position_labels": {
+      "0": "cloth base",
+      "1": "cloth state",
+      "2": "fan base",
+      "3": "air type"
+    },
+    "positions_by_symbol": {
+      "cl-w": [
+        0,
+        1
+      ],
+      "cl-n": [
+        0,
+        1
+      ],
+      "fn-c": [
+        2,
+        3
+      ],
+      "fn-a": [
+        2,
+        3
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "cl": "cloth"
+      },
+      "1": {
+        "-w": "warm",
+        "-n": "normal"
+      },
+      "2": {
+        "fn": "fan"
+      },
+      "3": {
+        "-c": "cool air",
+        "-a": "ambient air"
+      }
+    },
+    "meaning_by_symbol": {
+      "F": "front",
+      "Ba": "back",
+      "L": "left",
+      "R": "right",
+      "T": "top",
+      "Bo": "bottom",
+      "cl": "cloth",
+      "bl": "bell",
+      "st": "stone",
+      "fn": "fan",
+      "bd": "board",
+      "lp": "lamp",
+      "adj": "adjacent edges sharing a corner",
+      "opp": "opposite faces",
+      "fm": "firm",
+      "lt": "light",
+      "hv": "heavy",
+      "cl-c": "all Xs, remove, fn [target] Xs.",
+      "cl-w": "warm cloth",
+      "cl-n": "normal cloth",
+      "st-h": "heated stone",
+      "Done+stable": "success, no new symptoms",
+      "Retry:": "retry the same instruction, execute identically",
+      "Retry2:": "retry with new steps, a variation",
+      "ok": "stabilized, no new symptoms",
+      "x.": "failed",
+      "remove": "fully remove the cloth before starting the fan",
+      "fn-c": "cool air fan",
+      "fn-a": "ambient air fan",
+      "HighI": "High Intensity, all faces blazing bright with a harsh single buzz and heat radiating, with no frozen faces and no stacked tones",
+      "Echo": "Echo Saturation, all faces too bright and hard to look at with layered stacked tones and some faces frozen or unresponsive"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1778882943",
+    "n_codes": 31,
+    "n_multimorpheme": 4,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "stem",
+        "label": "cloth base",
+        "fillers": [
+          {
+            "form": "cl",
+            "gloss": "cloth",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.5,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "suffix",
+        "label": "cloth state",
+        "fillers": [
+          {
+            "form": "-n",
+            "gloss": "normal",
+            "count": 1
+          },
+          {
+            "form": "-w",
+            "gloss": "warm",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.5,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos2",
+        "role": "stem",
+        "label": "fan base",
+        "fillers": [
+          {
+            "form": "fn",
+            "gloss": "fan",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.5,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos3",
+        "role": "suffix",
+        "label": "air type",
+        "fillers": [
+          {
+            "form": "-a",
+            "gloss": "ambient air",
+            "count": 1
+          },
+          {
+            "form": "-c",
+            "gloss": "cool air",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.5,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      },
+      {
+        "slot_a": "pos2",
+        "slot_b": "pos3",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ],
+      [
+        "pos2",
+        "pos3"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "cl-w": [
+        "pos0",
+        "pos1"
+      ],
+      "cl-n": [
+        "pos0",
+        "pos1"
+      ],
+      "fn-c": [
+        "pos2",
+        "pos3"
+      ],
+      "fn-a": [
+        "pos2",
+        "pos3"
+      ]
+    },
+    "construction_by_symbol": {
+      "cl-w": "CX_CLOTH_STATE",
+      "cl-n": "CX_CLOTH_STATE",
+      "fn-c": "CX_FAN_TYPE",
+      "fn-a": "CX_FAN_TYPE"
+    },
+    "construction_labels": {
+      "CX_CLOTH_STATE": "cloth-state expression",
+      "CX_FAN_TYPE": "fan-type expression"
+    },
+    "construction_templates": {
+      "CX_CLOTH_STATE": [
+        "pos0",
+        "pos1"
+      ],
+      "CX_FAN_TYPE": [
+        "pos2",
+        "pos3"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "Two compositional minimal-pair families are defensible: fn-c/fn-a and cl-w/cl-n. In each, the first morpheme has a stable lexical contribution ('fan', 'cloth') and the second slot shows a substitution contrast with stable, meaning-consistent contributions ('cool air' vs 'ambient air'; 'warm' vs 'normal'). By contrast, cl-c is not compositionally compatible with cl-w/cl-n, Retry:/Retry2: fail the opaque-index test because 2 does not contribute literal quantity, and the cross-family suffix -c has no stable meaning. All other symbols are best treated as lexical whole forms because no productive shared frame is evidenced for them in this codebook excerpt.",
+    "lexical_symbols": [
+      "F",
+      "Ba",
+      "L",
+      "R",
+      "T",
+      "Bo",
+      "cl",
+      "bl",
+      "st",
+      "fn",
+      "bd",
+      "lp",
+      "adj",
+      "opp",
+      "fm",
+      "lt",
+      "hv",
+      "cl-c",
+      "st-h",
+      "Done+stable",
+      "Retry:",
+      "Retry2:",
+      "ok",
+      "x.",
+      "remove",
+      "HighI",
+      "Echo"
+    ],
+    "classes": [
+      {
+        "class_id": "CLOTH_BASE",
+        "label": "cloth base",
+        "description": "Base nominal/action element referring to cloth in the cloth-property construction.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CLOTH_STATE",
+        "label": "cloth state",
+        "description": "Property of the cloth specified by the construction.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "FAN_BASE",
+        "label": "fan base",
+        "description": "Base element referring to fan in the fan-type construction.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "AIR_TYPE",
+        "label": "air type",
+        "description": "Type of air used by the fan.",
+        "repeatable": false,
+        "declared_fillers": []
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "CX_CLOTH_STATE",
+        "label": "cloth-state expression",
+        "description": "Cloth plus a state/property specification.",
+        "class_sequence": [
+          "CLOTH_BASE",
+          "CLOTH_STATE"
+        ]
+      },
+      {
+        "construction_id": "CX_FAN_TYPE",
+        "label": "fan-type expression",
+        "description": "Fan plus an air-type specification.",
+        "class_sequence": [
+          "FAN_BASE",
+          "AIR_TYPE"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "cl-w",
+        "construction_id": "CX_CLOTH_STATE",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "cl",
+            "class_id": "CLOTH_BASE",
+            "gloss": "cloth"
+          },
+          {
+            "form": "-w",
+            "class_id": "CLOTH_STATE",
+            "gloss": "warm"
+          }
+        ]
+      },
+      {
+        "symbol": "cl-n",
+        "construction_id": "CX_CLOTH_STATE",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "cl",
+            "class_id": "CLOTH_BASE",
+            "gloss": "cloth"
+          },
+          {
+            "form": "-n",
+            "class_id": "CLOTH_STATE",
+            "gloss": "normal"
+          }
+        ]
+      },
+      {
+        "symbol": "fn-c",
+        "construction_id": "CX_FAN_TYPE",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "fn",
+            "class_id": "FAN_BASE",
+            "gloss": "fan"
+          },
+          {
+            "form": "-c",
+            "class_id": "AIR_TYPE",
+            "gloss": "cool air"
+          }
+        ]
+      },
+      {
+        "symbol": "fn-a",
+        "construction_id": "CX_FAN_TYPE",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "fn",
+            "class_id": "FAN_BASE",
+            "gloss": "fan"
+          },
+          {
+            "form": "-a",
+            "class_id": "AIR_TYPE",
+            "gloss": "ambient air"
+          }
+        ]
+      }
+    ]
+  }
+}

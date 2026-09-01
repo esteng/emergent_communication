@@ -1,0 +1,364 @@
+[ENG] Tough first round — we went over by 16 chars. Here's what happened:
+- Your report: 84 chars ✓ (great, very efficient!)
+- My first reply: 94 chars
+- Your follow-up "Cloth on back face 8s failed. Advise?": 38 chars
+- My second reply: 49 chars
+- Total: 266 chars vs 250 budget
+
+The failure came from two issues:
+1. The procedure had TWO steps — you reported failure after only the first step, which triggered an extra exchange.
+2. That extra exchange cost us 38 + 49 = 87 chars, which alone nearly doubles what we had left.
+
+Proposed fixes for next round:
+- I'll send the full procedure in ONE message, clearly marking it as a two-step action (e.g. "Step 1... THEN Step 2...") so you know not to report mid-procedure.
+- You only message me after completing the FULL procedure (or if something goes clearly wrong mid-way).
+- We need to shorten symptom reports even more. Can you use ultra-short codes? E.g. "corners dark, edges dim, hum hollow" = 34 chars vs 84.
+- I'll try to keep my instruction messages under 80 chars.
+
+Suggested shorthand for symptoms:
+- "dim corners/edges, center ok, thin hum" → Leak Instability
+- "frozen dim, silent, cold" → Propagation Stall
+- "all dim, faint hum" → Low Intensity
+- "blazing bright, loud buzz, hot" → High Intensity
+
+Let me know if you want to agree on a shorthand table before next round!
+[OBS] Agreed on all points. Key rules for next round:
+1. You send full multi-step procedure in ONE message.
+2. I only report back after completing ALL steps (or if something goes catastrophically wrong mid-way).
+3. Ultra-short symptom reports — I'll target under 40 chars.
+
+Shorthand table agreed:
+- dim corners/edges, center ok, thin hum → "leak"
+- frozen dim, silent, cold → "stall"
+- all dim, faint hum → "low"
+- blazing, loud buzz, hot → "high"
+
+I can also add brief qualifiers like "corners only" or "edges only" if needed. Ready for round 2!
+[ENG] Round 2: STABILIZED with only 96 chars used (budget: 250)! Huge improvement from round 1's 266.
+
+What worked:
+- Your 32-char symptom report was perfect.
+- Single-step procedure = no mid-procedure check-in needed.
+- Clean, fast, done.
+
+Things to keep refining:
+- My reply was 65 chars — could trim slightly for multi-step procedures.
+- For two-step procedures, I'll label them clearly: "1)... 2)..." so you know to do both before reporting.
+- Watch out for procedures that say "rotate and repeat for each face" — those might need more time.
+
+We're in a great rhythm. Let's keep it up for round 3!
+[OBS] Agreed — great rhythm! Key additions:
+- Two-step procedures: you label "1)... 2)..." and I do both before reporting.
+- Silence after stabilization = all clear (no extra message needed unless new symptoms appear).
+- If new symptoms arise post-stabilization, I'll send a new short report immediately.
+
+Ready for round 3!
+[ENG] Round 3: STABILIZED but very close — 242/250 chars used! Key issues:
+
+1. Procedure required a retry (your first attempt failed). This cost us 33 (your fail report) + 79 (my retry) = 112 extra chars. That nearly blew the budget.
+
+2. Root cause: two-step procedures are dangerous if the first attempt fails — the retry exchange eats ~110 chars.
+
+For next round, let's think about this:
+- When I send a two-step procedure, if step 1 goes clearly wrong, DON'T report — just retry step 1 again yourself before moving to step 2.
+- Only report to me if BOTH steps fail completely or new symptoms appear.
+- This avoids the extra exchange.
+
+Also: my retry message was still 79 chars — let me pre-agree on an ultra-short retry signal. If you send just "F" (1 char = fail), I know to retry with the same procedure. My retry response can be "retry same" (10 chars). That saves ~100 chars in a failure case.
+
+Agreed? What's your thinking?
+[OBS] Love the "F" + "retry same" protocol — that saves ~100 chars on any retry. Agreed!
+
+Updated rules:
+- I send "F" (1 char) if full procedure fails.
+- You reply "retry same" (10 chars) to confirm retry, OR give a new short instruction.
+- I only send "F" after attempting ALL steps, not mid-procedure.
+- If new symptoms appear post-stabilization, I report them immediately.
+
+This should keep us well under 200 chars even with one retry. Ready for round 4!
+[OBS] Round 4: COLLAPSED at 262 chars. Secondary symptoms after first stabilization cost us the round — that extra exchange (my 60-char report + your 59-char reply) pushed us over.
+
+The core problem: secondary symptoms require ~120 extra chars we don't have if the initial exchange already used ~80.
+
+Proposed fix: Pre-agree on a standard secondary symptom shorthand before each round. If I report just "S1" = "1 face overbright+vibrating+whine" and you reply "lamp: dim bottom/bright opp 5s" (under 30 chars), we save ~50 chars vs what happened.
+
+Can we build a shorthand table for common secondary symptoms too? Something like:
+- S1 = 1 face overbright, vibrating, high whine
+- S2 = all faces dim again after stabilization
+- S3 = cold + silent returning
+
+Then your response just needs to be the action. Thoughts?
+[ENG] Round 4: COLLAPSED at 262 chars. The combination failure killed us — we used 205 chars on the first fix, leaving only 45 for the second diagnosis+instruction. Second instruction alone was 60 chars.
+
+Key lesson: combination failures (where new symptoms emerge post-fix) are budget killers. We need to plan for them.
+
+Ideas:
+1. Reserve chars: if first instruction uses >130 chars, we're in danger if a second fix is needed. I'll aim for first instruction ≤100 chars.
+2. Your secondary symptom report was 59 chars — too long. For secondary reports, can you use even shorter codes? E.g. "1face bright+vibrate+whine" = 26 chars vs 59.
+3. My secondary instruction was 60 chars — I'll try to get second instructions under 50 chars.
+
+Target breakdown for combination failures:
+- Primary report: ≤40 chars
+- Primary instruction: ≤80 chars
+- Secondary report: ≤25 chars
+- Secondary instruction: ≤50 chars
+- Total: ≤195 chars (safe margin)
+
+Also: "1 face very bright+vibrating, high whine there" maps to Resonance Cascade. Let's add it to shorthand: "res: 1face bright+vibrate+whine" = 31 chars.
+
+Full shorthand table update:
+- leak: corners/edges dim, center ok, thin hum
+- stall: frozen dim, silent, cold
+- low: all dim, faint hum
+- high: blazing, loud buzz, hot
+- thermal: hot+dim, red, gritty, rumble
+- res: 1face bright+vibrate+whine
+- echo: too bright, layered hum, frozen patches
+- align: random flicker, irregular hum
+- drift: colors sliding, smeared edges, wavering hum
+- invert: opp faces pulse bright/dark, 2-tone hum
+- deadlock: 1-2 corners glowing+hot, clicking
+- bound: wobble/bulge, muffled hum
+- split: 2 tones clashing, alternating patterns
+- void: hollow tap, dark center, thin hum
+
+Thoughts?
+[OBS] Great breakdown! Fully agreed on the expanded shorthand table — I'll memorize all those codes.
+
+Char budget targets confirmed:
+- Primary report: ≤40, Primary instruction: ≤80
+- Secondary report: ≤25, Secondary instruction: ≤50
+- Total target: ≤195 (leaves 55-char safety buffer)
+
+One note: "thermal" and "high" are distinct — "high" = blazing bright, "thermal" = hot+dim+red+gritty. I'll use the correct code even if symptoms seem similar.
+
+Also agreed: secondary reports use just the shorthand code, e.g. "res" = 3 chars, then you reply with action only. No extra context needed.
+
+Ready for round 5 with this full framework!
+[OBS] Round 5: STABILIZED — 249/250 chars. One character to spare!! Heart-stopping but we did it.
+
+The "echo" shorthand worked perfectly — 44 chars for the secondary report vs 60 last round. Saved us right at the edge.
+
+BUT: we're consistently landing at 240-249 when secondary symptoms appear. We need to shave more off. Key observations:
+- My primary report was 46 chars — could trim "low: all dim, whisper hum" = 25 chars (save 21).
+- Your primary instruction was 97 chars — longest yet. Any way to compress multi-step instructions further?
+- Your secondary instruction was 62 chars — tight but ok.
+
+For secondary-symptom rounds, total = primary_report + primary_instr + secondary_report + secondary_instr. We need this ≤200 to be safe. We're at ~249 with almost no fat left.
+
+Biggest lever: shorten my primary reports. I'll go even more minimal next round. "low" alone = 3 chars if that's enough context?
+[ENG] Round 5: STABILIZED — 249/250 chars. One second to spare! Heart-stopping, but we did it.
+
+What happened:
+- Primary exchange: 46 (you) + 99 (me) = 145 ✓
+- Secondary: 44 (you) + 62 (me) = 106
+- Total: 251 — system counted 249, so my char count is slightly off.
+
+Key takeaway: secondary exchanges are still our weak spot. 44 chars for secondary report is too long. Target ≤25.
+
+Your secondary was: "echo: overbright, layered hum, frozen faces." = 44 chars.
+Shorthand would be just "echo" = 4 chars. Let's use ONLY the code word for secondary reports — no description needed, since I have the full symptom list.
+
+Also my secondary instruction was 62 chars — I need to get those under 55.
+
+Trimmed secondary instruction for Echo: "Bell opp faces top→opp, 10s between, 5x, gentle." = 49 chars ✓
+
+Updated rule: secondary report = code word ONLY (e.g. "echo", "res", "drift"). No extra detail. I trust the code.
+
+This should bring secondary exchanges to ~4 + ~55 = ~59 chars max, giving us solid safety margin even with two fixes needed.
+
+Ready for round 6!
+[OBS] Fully agreed! New rule locked in: secondary reports = code word ONLY. "echo" not "echo: overbright, layered hum, frozen faces."
+
+Also locking in: primary reports = code word + only 1-2 critical differentiators if needed. E.g. "low" alone if it clearly matches, or "low+corners dark" if there's a twist.
+
+Target budget breakdown for worst-case (2-fix) rounds:
+- Primary report: ≤20
+- Primary instruction: ≤90
+- Secondary report: ≤5
+- Secondary instruction: ≤55
+- Total: ≤170 — leaves 80-char buffer!
+
+Ready for round 6!
+[OBS] Round 6: STABILIZED — 111/250 chars! Huge improvement. Code-word-only reports + single-instruction procedure = very efficient.
+
+Breakdown: "leak" (4) + your instruction (107) = 111. Even with secondary symptoms we'd have 139 chars to spare.
+
+One thing: your instruction was 107 chars — slightly over our 90-char target. Could use "ea" for "each", "&" for "and", etc. But honestly at 111 total we have huge margin. 
+
+The system is working. Just keep tightening where possible. Ready for round 7!
+[ENG] Round 6: STABILIZED — only 111/250 chars! Our best yet.
+
+Your "leak" (4 chars) was perfect. My instruction was 108 chars — slightly long but fine since no secondary symptoms appeared.
+
+We're in a great rhythm now. If we keep primary reports to single codewords and secondary reports to codewords only, even a two-fix round should land around 120-170 chars.
+
+One thing to watch: my instructions are longer for complex multi-step procedures (like the corner-by-corner one this round = 108 chars). I'll keep working to trim those.
+
+Overall scorecard: 2 collapsed (R1, R4), 4 stabilized (R2, R3, R5, R6). Getting better! Ready for R7.
+[OBS] Agreed on all points. Scorecard improving — R6 was our cleanest yet. Let's keep the momentum for R7. Single codeword reports, concise instructions, silence after clean stabilization. Ready!
+[OBS] Round 7: collapsed at 242 chars — NOT a budget issue. We had 8 chars left. The problem was a 3-symptom cascade: deadlock → invert → drift → third fix failed repeatedly. 
+
+Three things to note:
+1. Your "Cloth 15s; fan firm all faces 15s" instruction for "drift" failed 6+ times with no budget left to ask for help. Either the parameters were slightly off, or "drift" maps to a different fix this alignment.
+2. Three-symptom cascades are unbeatable with our current budget even with perfect comms (~244 chars minimum).
+3. The "stopped acting" result means the system flagged us for not completing the stabilization — but we literally ran out of budget options.
+
+Question: is there any way to pre-budget for 3-symptom rounds? Or do we need a "give up gracefully early" strategy to avoid wasting attempts?
+[ENG] Round 7: NOT STABILIZED — 242/250 chars, but collapsed because my 3rd instruction was truncated. We had 3 failure motifs in one round and ran out of budget for a proper instruction.
+
+Root cause: triple-failure rounds are budget killers. With 96 chars used on the first fix, we had 154 left for two more. That's ~77 each — tight but possible if instructions are short.
+
+What went wrong: my 2nd instruction was 104 chars (too long for a triple-failure scenario). That left only 39 chars for the 3rd instruction. I truncated "Drape cool cloth over Veyru 15s, remove, fan firm cool air all 6 faces from left 15s" to "Cloth 15s; fan firm all faces 15s." — which lost the key starting-face detail.
+
+Lessons:
+1. Triple-failure rounds require me to keep ALL instructions ≤70 chars. I need to get more aggressive with abbreviations.
+2. The "starting face" detail matters — "all faces left→" is a pattern I can use (7 chars vs "starting from the left face" = 25 chars).
+3. Multi-step instructions: "1)X 2)Y" takes extra chars. Could use "X then Y" with just "then" as separator.
+
+Revised instruction format ideas:
+- "Cloth 15s; fan firm all6 left 15s." = 35 chars (drift) ✓
+- "Dim lamp left, bright opp, firm 15s." = 37 chars (boundary) ✓  
+- "Flat board left face, firm 15s, repeat all." = 44 chars (thermal) ✓
+
+The issue was running out of budget, not bad protocol. We need a rule: if I'm giving a 3rd instruction, it must be ≤40 chars no matter what.
+
+Agreed? Any other ideas for ultra-short instructions?
+[OBS] Agreed. Key rules for triple-cascade rounds:
+- Instruction 1: ≤80 chars
+- Instruction 2: ≤70 chars  
+- Instruction 3: ≤40 chars (hard limit)
+
+Starting-face shorthand: "left→" or "top→" = clear direction in 5-6 chars. Love it.
+
+Also: "all6" for all faces, "ea" for each, "&" for and, "w/" for with, "s" for seconds (already doing this).
+
+Revised separator: "X; Y" or "X then Y" — the semicolon is 1 char shorter than "2)".
+
+I'll also try harder to NOT report secondary symptoms unless truly necessary — but I must per the rules when they appear.
+
+Biggest gain: if instruction 2 uses only ~60 chars, we'd have ~90 left for instruction 3, which is plenty. Discipline on instruction length = our main lever now. Ready for R8!
+[ENG] Round 8: STABILIZED — 59/250 chars! New record. 
+
+"drift" (5) + my abbreviated instruction (55) = 60 chars total. The left→ and all6 abbreviations worked perfectly.
+
+Even if 2 more symptoms had appeared, we'd have had 191 chars for two more instructions. Easily manageable.
+
+The new protocol is working. Scorecard: R1❌ R2✅ R3✅ R4❌ R5✅ R6✅ R7❌ R8✅
+
+Consistent single-word primary reports + abbreviated instructions are our winning formula. Ready for R9!
+[OBS] Round 8: STABILIZED — 59/250 chars! New record. Single codeword + abbreviated instruction with face direction = the winning formula. Even a 3-symptom cascade at this rate would use ~177 chars. We're well within budget now.
+
+Scorecard: R1❌ R2✅ R3✅ R4❌ R5✅ R6✅ R7❌ R8✅. Strong finish to the set. Ready for R9!
+[OBS] Round 9: NOT STABILIZED — 242 chars. We had a retry loop on "void" fix that killed the budget. The first "void" instruction failed 6+ times before a different phrasing worked. That plus the "retry same" exchange cost ~67 extra chars, leaving nothing for the "drift" that appeared after.
+
+Key problem: when a procedure fails repeatedly, free retries (no message needed) can only go so far. After ~3 free tries, I should signal "F" earlier. But even then, each "F + new instruction" exchange costs ~85+ chars.
+
+Possible solution: pre-agree that "retry same" is only used ONCE. If it fails after that, you send a NEW instruction (not same). That way we don't waste 11 chars on "F + retry same" only to fail again.
+
+Also: a 3-fix round (low→void→drift) at minimal comms = 3+68+4+85+5+55 = 220 chars minimum. Barely doable if everything works first try. Any retry on step 2 breaks it.
+
+Should we pre-plan "if void fails, alt=" in your instruction to avoid the retry exchange entirely?
+[ENG] Round 9: NOT STABILIZED — 242/250 chars. Quad-cascade with a retry destroyed us.
+
+Breakdown:
+- low (3) + instruction (70) = 73 ✓
+- void (4) + instruction (62) = 66 → total 139
+- F (1) + retry same (10) = 11 → total 150
+- F still (7) + clearer instruction (84) = 91 → total 241 (SHOULD HAVE STOPPED HERE)
+- drift (5) → 246 — no chars left for instruction
+
+The retry on "void" cost us 11 chars, then having to resend with more clarity cost 91. That's 102 chars for one fix with a retry. Fatal in a multi-cascade round.
+
+Critical lessons:
+1. If a procedure fails twice, I should NOT resend with more chars. Once "F still" arrives in a multi-cascade round, I'm likely out of budget for further instructions.
+2. The retry protocol works ONLY if we haven't already had secondary/tertiary symptoms.
+3. A clearer initial instruction is better than a short-but-ambiguous one.
+
+For "void" the procedure is: bell at center of each face once (moderate), starting bottom face; place warm stone beside Veyru 10s. My first abbreviated version "Bell center ea face moderate, bottom→; warm stone beside 10s" (61 chars) was actually clear — so why did it fail? Maybe the "→" symbol caused confusion?
+
+Let me retire "→" as a starting-face indicator and use "start X" instead. "start bottom" = 12 chars vs "bottom→" = 8 chars — 4 chars more, but clearer.
+
+Also: no more retries if we're past instruction 2 in a cascade. The retry exchange (11+ chars) in late-cascade rounds kills us.
+
+Revised retry rule: only use "F"/"retry same" if it's the FIRST or SECOND symptom and we have >100 chars remaining. If on 3rd+ symptom or <100 chars left, I will NOT respond to "F" and you should not send it.
+
+Thoughts?
+[OBS] Fully agreed! Key updates:
+
+1. Replace "→" with "start X" — 4 chars more but clearer. Worth it to avoid ambiguity failures.
+
+2. Revised retry rule: only send "F" if it's symptom 1 or 2 AND I estimate >100 chars remaining. On symptom 3+ or <100 chars left, I retry silently (free tool calls) until it works or the round ends. No "F" signal.
+
+3. "retry same" used max ONCE per symptom. Second failure = new instruction needed, not same.
+
+4. On my end: when a procedure fails, I'll try 3-4 variations silently before sending "F". This preserves budget for new instructions.
+
+The core insight: repeated retries in late-cascade = budget death. Better to exhaust free silent retries first. Ready for R10!
+[ENG] Round 10: STABILIZED — 128/250 chars! Double-cascade (stall→low) handled with 122 chars to spare.
+
+Breakdown:
+- stall (5) + instruction (60) = 65
+- low (3) + instruction (62) = 65
+- Total: 130 (system: 128)
+
+Both instructions under 65 chars each. This is the target format. Even a triple-cascade at this efficiency would use ~195 chars.
+
+Scorecard: R1❌ R2✅ R3✅ R4❌ R5✅ R6✅ R7❌ R8✅ R9❌ R10✅
+
+6 stabilized, 4 collapsed. Improving! The new abbreviated format (no "→", clean "start X", semicolons) is working well. Ready for R11!
+[OBS] Agreed — we're at 6/10 now! The ~65-char-per-exchange target works perfectly for double cascades and leaves good margin for triples. As long as instructions land first try, we're in great shape. Ready for R11!
+[ENG] Round 11: STABILIZED — 162/250 chars! Triple-cascade (leak→deadlock→split) with 88 to spare!
+
+Breakdown:
+- leak(4)+instr(51)=55
+- deadlock(8)+instr(63)=71 → 126
+- split(5)+instr(34)=39 → 165 (system:162)
+
+3rd instruction "Cloth 12s; fan firm left+opp 12s." = 34 chars. Extreme compression worked!
+
+Key: our ≤40 hard limit for instruction 3 held. The ultra-short format preserves enough info for execution.
+
+Scorecard: R1❌ R2✅ R3✅ R4❌ R5✅ R6✅ R7❌ R8✅ R9❌ R10✅ R11✅ = 7/11
+
+Trend is upward. Triple-cascades are survivable with our current protocol. Ready for R12!
+[OBS] 7/11 and triple-cascades now survivable — great work! The ≤40-char instruction-3 rule is our key breakthrough. Ready for R12!
+[ENG] Round 12: STABILIZED — 195/250! Triple-cascade (leak→stall→high) with 55 to spare!
+
+Breakdown:
+- leak(4)+69=73
+- stall(5)+63=68 → 141
+- high(4)+54=58 → 199 (system:195)
+
+5-round win streak (R8-R12)! Scorecard: 8/12 stabilized.
+
+The protocol is rock solid now. Triple-cascades handled comfortably. Even had 55 chars left in case of a 4th symptom.
+
+Key pattern: 3 instructions averaging ~63 chars each = ~189 chars, leaving 61-char buffer. Safe for even a 4th symptom if we keep the last instruction tight.
+
+Ready for R13! Let's get to 9/13.
+[OBS] 8/12 and a 5-round win streak! The protocol is bulletproof for triple cascades. Averaging ~63 chars per exchange = 189 chars for 3 fixes, 61-char buffer for a 4th. We're in excellent shape. Let's get 9/13!
+[ENG] Round 13: STABILIZED — 67/250 chars! 6-round win streak (R8-R13)!
+
+Scorecard: 9/13 stabilized. Single-symptom round, clean execution.
+
+We're hitting our stride. Protocol is working at peak efficiency. Ready for R14!
+[OBS] 9/13 and 6-round win streak — peak efficiency! Ready for R14!
+[OBS] Round 14: STABILIZED — 166/250! Triple cascade (stall→res→invert), 84 chars to spare. 7-round win streak! 10/14 overall.
+
+Breakdown: stall(5)+63 + res(3)+55 + invert(6)+34 = 166. Third instruction was 34 chars — well within the ≤40 rule.
+
+We're consistently handling 3-fix cascades at ~160-200 chars. The protocol is mature and reliable. Even if we hit a 4th symptom, we'd still have 84 chars — just enough for one more tight exchange.
+
+Ready for R15!
+[ENG] Round 14: STABILIZED — 166/250! Triple-cascade (stall→res→invert). 7-round win streak!
+
+Scorecard: 10/14 stabilized.
+
+Breakdown:
+- stall(5)+65=70
+- res(3)+56=59 → 129
+- invert(6)+35=41 → 170 (system:166)
+
+3rd instruction was only 35 chars — very clean. Consistently hitting our stride now. Ready for R15!
+[OBS] 10/14 and firing on all cylinders. Let's keep the streak alive! Ready for R15.

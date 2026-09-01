@@ -1,0 +1,352 @@
+{
+ "item_0000": {
+  "has_question": true,
+  "target_scope": "part",
+  "target_slot": "template",
+  "compositional": false,
+  "transparent": true
+ },
+ "item_0001": {
+  "has_question": false,
+  "target_scope": "none",
+  "target_slot": "none",
+  "compositional": null,
+  "transparent": null
+ },
+ "item_0002": {
+  "has_question": false,
+  "target_scope": "none",
+  "target_slot": "none",
+  "compositional": null,
+  "transparent": null
+ },
+ "item_0003": {
+  "has_question": true,
+  "target_scope": "part",
+  "target_slot": "template",
+  "compositional": false,
+  "transparent": false
+ },
+ "item_0004": {
+  "has_question": true,
+  "target_scope": "part",
+  "target_slot": "template",
+  "compositional": false,
+  "transparent": false
+ },
+ "item_0005": {
+  "has_question": true,
+  "target_scope": "part",
+  "target_slot": "duration",
+  "compositional": false,
+  "transparent": true
+ },
+ "item_0006": {
+  "has_question": true,
+  "target_scope": "part",
+  "target_slot": "template",
+  "compositional": false,
+  "transparent": false
+ },
+ "item_0007": {
+  "has_question": true,
+  "target_scope": "part",
+  "target_slot": "template",
+  "compositional": false,
+  "transparent": false
+ },
+ "item_0008": {
+  "has_question": true,
+  "target_scope": "part",
+  "target_slot": "other",
+  "compositional": false,
+  "transparent": true
+ },
+ "item_0009": {
+  "has_question": false,
+  "target_scope": "none",
+  "target_slot": "none",
+  "compositional": null,
+  "transparent": null
+ },
+ "item_0010": {
+  "has_question": false,
+  "target_scope": "none",
+  "target_slot": "none",
+  "compositional": null,
+  "transparent": null
+ },
+ "item_0011": {
+  "has_question": true,
+  "target_scope": "part",
+  "target_slot": "other",
+  "compositional": false,
+  "transparent": true
+ },
+ "item_0012": {
+  "has_question": true,
+  "target_scope": "part",
+  "target_slot": "other",
+  "compositional": false,
+  "transparent": false
+ },
+ "item_0013": {
+  "has_question": false,
+  "target_scope": "none",
+  "target_slot": "none",
+  "compositional": null,
+  "transparent": null
+ },
+ "item_0014": {
+  "has_question": false,
+  "target_scope": "none",
+  "target_slot": "none",
+  "compositional": null,
+  "transparent": null
+ },
+ "item_0015": {
+  "has_question": true,
+  "target_scope": "part",
+  "target_slot": "template",
+  "compositional": false,
+  "transparent": true
+ },
+ "item_0016": {
+  "has_question": false,
+  "target_scope": "none",
+  "target_slot": "none",
+  "compositional": null,
+  "transparent": null
+ },
+ "item_0017": {
+  "has_question": true,
+  "target_scope": "part",
+  "target_slot": "template",
+  "compositional": false,
+  "transparent": false
+ },
+ "item_0018": {
+  "has_question": false,
+  "target_scope": "none",
+  "target_slot": "none",
+  "compositional": null,
+  "transparent": null
+ },
+ "item_0019": {
+  "has_question": false,
+  "target_scope": "none",
+  "target_slot": "none",
+  "compositional": null,
+  "transparent": null
+ },
+ "item_0020": {
+  "has_question": true,
+  "target_scope": "whole",
+  "target_slot": "whole_procedure",
+  "compositional": true,
+  "transparent": false
+ },
+ "item_0021": {
+  "has_question": true,
+  "target_scope": "part",
+  "target_slot": "template",
+  "compositional": false,
+  "transparent": false
+ },
+ "item_0022": {
+  "has_question": false,
+  "target_scope": "none",
+  "target_slot": "none",
+  "compositional": null,
+  "transparent": null
+ },
+ "item_0023": {
+  "has_question": true,
+  "target_scope": "part",
+  "target_slot": "face",
+  "compositional": true,
+  "transparent": true
+ },
+ "item_0024": {
+  "has_question": false,
+  "target_scope": "none",
+  "target_slot": "none",
+  "compositional": null,
+  "transparent": null
+ },
+ "item_0025": {
+  "has_question": false,
+  "target_scope": "none",
+  "target_slot": "none",
+  "compositional": null,
+  "transparent": null
+ },
+ "item_0026": {
+  "has_question": true,
+  "target_scope": "part",
+  "target_slot": "template",
+  "compositional": false,
+  "transparent": false
+ },
+ "item_0027": {
+  "has_question": false,
+  "target_scope": "none",
+  "target_slot": "none",
+  "compositional": null,
+  "transparent": null
+ },
+ "item_0028": {
+  "has_question": true,
+  "target_scope": "whole",
+  "target_slot": "whole_procedure",
+  "compositional": true,
+  "transparent": true
+ },
+ "item_0029": {
+  "has_question": false,
+  "target_scope": "none",
+  "target_slot": "none",
+  "compositional": null,
+  "transparent": null
+ },
+ "item_0030": {
+  "has_question": true,
+  "target_scope": "whole",
+  "target_slot": "whole_procedure",
+  "compositional": true,
+  "transparent": false
+ },
+ "item_0031": {
+  "has_question": false,
+  "target_scope": "none",
+  "target_slot": "none",
+  "compositional": null,
+  "transparent": null
+ },
+ "item_0032": {
+  "has_question": true,
+  "target_scope": "part",
+  "target_slot": "template",
+  "compositional": false,
+  "transparent": false
+ },
+ "item_0033": {
+  "has_question": true,
+  "target_scope": "part",
+  "target_slot": "motif_symptom",
+  "compositional": false,
+  "transparent": false
+ },
+ "item_0034": {
+  "has_question": true,
+  "target_scope": "whole",
+  "target_slot": "whole_procedure",
+  "compositional": true,
+  "transparent": true
+ },
+ "item_0035": {
+  "has_question": false,
+  "target_scope": "none",
+  "target_slot": "none",
+  "compositional": null,
+  "transparent": null
+ },
+ "item_0036": {
+  "has_question": true,
+  "target_scope": "part",
+  "target_slot": "template",
+  "compositional": true,
+  "transparent": true
+ },
+ "item_0037": {
+  "has_question": true,
+  "target_scope": "part",
+  "target_slot": "face",
+  "compositional": false,
+  "transparent": true
+ },
+ "item_0038": {
+  "has_question": false,
+  "target_scope": "none",
+  "target_slot": "none",
+  "compositional": null,
+  "transparent": null
+ },
+ "item_0039": {
+  "has_question": true,
+  "target_scope": "part",
+  "target_slot": "motif_symptom",
+  "compositional": false,
+  "transparent": false
+ },
+ "item_0040": {
+  "has_question": true,
+  "target_scope": "part",
+  "target_slot": "face",
+  "compositional": false,
+  "transparent": true
+ },
+ "item_0041": {
+  "has_question": true,
+  "target_scope": "part",
+  "target_slot": "intensity",
+  "compositional": false,
+  "transparent": true
+ },
+ "item_0042": {
+  "has_question": false,
+  "target_scope": "none",
+  "target_slot": "none",
+  "compositional": null,
+  "transparent": null
+ },
+ "item_0043": {
+  "has_question": false,
+  "target_scope": "none",
+  "target_slot": "none",
+  "compositional": null,
+  "transparent": null
+ },
+ "item_0044": {
+  "has_question": true,
+  "target_scope": "part",
+  "target_slot": "template",
+  "compositional": false,
+  "transparent": true
+ },
+ "item_0045": {
+  "has_question": true,
+  "target_scope": "whole",
+  "target_slot": "whole_procedure",
+  "compositional": true,
+  "transparent": false
+ },
+ "item_0046": {
+  "has_question": true,
+  "target_scope": "part",
+  "target_slot": "other",
+  "compositional": true,
+  "transparent": false
+ },
+ "item_0047": {
+  "has_question": false,
+  "target_scope": "none",
+  "target_slot": "none",
+  "compositional": null,
+  "transparent": null
+ },
+ "item_0048": {
+  "has_question": true,
+  "target_scope": "part",
+  "target_slot": "face",
+  "compositional": false,
+  "transparent": true
+ },
+ "item_0049": {
+  "has_question": false,
+  "target_scope": "none",
+  "target_slot": "none",
+  "compositional": null,
+  "transparent": null
+ }
+}

@@ -1,0 +1,94 @@
+{
+  "run_key": "veyru/1780615588",
+  "status": "analyzed",
+  "n_codes": 42,
+  "n_multimorpheme": 2,
+  "report": {
+    "encoder_agent": "stabilization_engineer",
+    "decoder_agent": "field_observer",
+    "encoder_model": "claude-sonnet-4-6",
+    "decoder_model": "claude-sonnet-4-6",
+    "context_budget": 250,
+    "n_cells": 9,
+    "exact_match_rate": 0.6666666666666666,
+    "swapped_order_rate": 0.0,
+    "bag_match_rate": 0.6666666666666666,
+    "decode_rate": 0.7777777777777778,
+    "decoder_valid_rate": 0.1111111111111111,
+    "decode_negative_control_rate": 0.0,
+    "decode_positive_control_rate": 1.0,
+    "per_role": [
+      {
+        "slot_id": "K_LAMP_STATE",
+        "slot_label": "lamp with brightness-state modifier",
+        "n": 9,
+        "exact_match_rate": 0.6666666666666666,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.6666666666666666,
+        "decode_rate": 0.7777777777777778
+      }
+    ],
+    "per_depth": [
+      {
+        "length": 2,
+        "n": 9,
+        "exact_match_rate": 0.6666666666666666,
+        "decode_rate": 0.7777777777777778
+      }
+    ],
+    "per_purpose": [
+      {
+        "purpose": "grounded_control",
+        "n": 2,
+        "exact_match_rate": 0.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.0,
+        "decode_rate": 0.5
+      },
+      {
+        "purpose": "grounded_novel_role_pooled",
+        "n": 7,
+        "exact_match_rate": 0.8571428571428571,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.8571428571428571,
+        "decode_rate": 0.8571428571428571
+      }
+    ],
+    "per_construction": [
+      {
+        "construction_id": "K_LAMP_STATE",
+        "n": 9,
+        "n_control": 2,
+        "n_novel": 7,
+        "exact_match_rate": 0.6666666666666666,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.6666666666666666,
+        "decode_rate": 0.7777777777777778,
+        "novel_exact_match_rate": 0.8571428571428571,
+        "novel_decode_rate": 0.8571428571428571
+      }
+    ],
+    "per_slot_generalization": [
+      {
+        "slot_id": "pos0",
+        "slot_label": "lamp base",
+        "slot_role": "stem",
+        "pooled": false,
+        "n": 7,
+        "valid_rate": 0.14285714285714285,
+        "exact_match_rate": 0.8571428571428571,
+        "decode_rate": 0.8571428571428571
+      },
+      {
+        "slot_id": "pos1",
+        "slot_label": "lamp brightness state",
+        "slot_role": "suffix",
+        "pooled": true,
+        "n": 7,
+        "valid_rate": 0.14285714285714285,
+        "exact_match_rate": 0.8571428571428571,
+        "decode_rate": 0.8571428571428571
+      }
+    ]
+  }
+}

@@ -1,0 +1,767 @@
+{
+  "grammar": {
+    "run_key": "veyru/1778877883",
+    "slots": [
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "C",
+            "gloss": "cloth",
+            "support": 2,
+            "is_defined": false
+          },
+          {
+            "form": "FAN",
+            "gloss": "fan",
+            "support": 2,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "suffix",
+        "fillers": [
+          {
+            "form": "2",
+            "gloss": "named face and opposite face",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "6",
+            "gloss": "all 6 faces",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "E",
+            "gloss": "2 adjacent edges",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "F",
+            "gloss": "a face",
+            "support": 1,
+            "is_defined": true
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "Bc1": [
+        "Bc1"
+      ],
+      "Bf1": [
+        "Bf1"
+      ],
+      "Bo5p15": [
+        "Bo5p15"
+      ],
+      "Bz": [
+        "Bz"
+      ],
+      "CE": [
+        "C",
+        "E"
+      ],
+      "CF": [
+        "C",
+        "F"
+      ],
+      "CS": [
+        "CS"
+      ],
+      "D": [
+        "D"
+      ],
+      "F": [
+        "F"
+      ],
+      "F6": [
+        "F6"
+      ],
+      "FB": [
+        "FB"
+      ],
+      "FO": [
+        "FO"
+      ],
+      "H": [
+        "H"
+      ],
+      "Ld/Bt": [
+        "Ld/Bt"
+      ],
+      "P": [
+        "P"
+      ],
+      "Rot15": [
+        "Rot15"
+      ],
+      "SS": [
+        "SS"
+      ],
+      "TO": [
+        "TO"
+      ],
+      "V": [
+        "V"
+      ],
+      "W": [
+        "W"
+      ],
+      "WS": [
+        "WS"
+      ],
+      "Wh": [
+        "Wh"
+      ],
+      "Wo": [
+        "Wo"
+      ],
+      "BC1": [
+        "BC1"
+      ],
+      "BEx2": [
+        "BEx2"
+      ],
+      "BF1": [
+        "BF1"
+      ],
+      "CD": [
+        "CD"
+      ],
+      "CW": [
+        "CW"
+      ],
+      "FC": [
+        "FC"
+      ],
+      "HI": [
+        "HI"
+      ],
+      "LD/BO": [
+        "LD/BO"
+      ],
+      "LI": [
+        "LI"
+      ],
+      "Lup": [
+        "Lup"
+      ],
+      "N": [
+        "N"
+      ],
+      "PS": [
+        "PS"
+      ],
+      "RC": [
+        "RC"
+      ],
+      "Rot": [
+        "Rot"
+      ],
+      "T6": [
+        "T6"
+      ],
+      "TB": [
+        "TB"
+      ],
+      "AC": [
+        "AC"
+      ],
+      "BS": [
+        "BS"
+      ],
+      "CV": [
+        "CV"
+      ],
+      "DE": [
+        "DE"
+      ],
+      "ES": [
+        "ES"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "LC": [
+        "LC"
+      ],
+      "PI": [
+        "PI"
+      ],
+      "BY": [
+        "BY"
+      ],
+      "FAN2": [
+        "FAN",
+        "2"
+      ],
+      "FAN6": [
+        "FAN",
+        "6"
+      ],
+      "P1": [
+        "P1"
+      ],
+      "P10": [
+        "P10"
+      ],
+      "P11": [
+        "P11"
+      ],
+      "P12": [
+        "P12"
+      ],
+      "P13": [
+        "P13"
+      ],
+      "P14": [
+        "P14"
+      ],
+      "P2": [
+        "P2"
+      ],
+      "P3": [
+        "P3"
+      ],
+      "P4": [
+        "P4"
+      ],
+      "P5": [
+        "P5"
+      ],
+      "P6": [
+        "P6"
+      ],
+      "P7": [
+        "P7"
+      ],
+      "P8": [
+        "P8"
+      ],
+      "P9": [
+        "P9"
+      ]
+    },
+    "head_index": {
+      "Bc1": 0,
+      "Bf1": 0,
+      "Bo5p15": 0,
+      "Bz": 0,
+      "CE": 0,
+      "CF": 0,
+      "CS": 0,
+      "D": 0,
+      "F": 0,
+      "F6": 0,
+      "FB": 0,
+      "FO": 0,
+      "H": 0,
+      "Ld/Bt": 0,
+      "P": 0,
+      "Rot15": 0,
+      "SS": 0,
+      "TO": 0,
+      "V": 0,
+      "W": 0,
+      "WS": 0,
+      "Wh": 0,
+      "Wo": 0,
+      "BC1": 0,
+      "BEx2": 0,
+      "BF1": 0,
+      "CD": 0,
+      "CW": 0,
+      "FC": 0,
+      "HI": 0,
+      "LD/BO": 0,
+      "LI": 0,
+      "Lup": 0,
+      "N": 0,
+      "PS": 0,
+      "RC": 0,
+      "Rot": 0,
+      "T6": 0,
+      "TB": 0,
+      "AC": 0,
+      "BS": 0,
+      "CV": 0,
+      "DE": 0,
+      "ES": 0,
+      "HS": 0,
+      "LC": 0,
+      "PI": 0,
+      "BY": 0,
+      "FAN2": 0,
+      "FAN6": 0,
+      "P1": 0,
+      "P10": 0,
+      "P11": 0,
+      "P12": 0,
+      "P13": 0,
+      "P14": 0,
+      "P2": 0,
+      "P3": 0,
+      "P4": 0,
+      "P5": 0,
+      "P6": 0,
+      "P7": 0,
+      "P8": 0,
+      "P9": 0
+    },
+    "attested_orderings": [
+      [
+        "stem",
+        "suffix"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [],
+    "form_positions": {
+      "C": 0,
+      "E": 1,
+      "F": 1,
+      "FAN": 2,
+      "2": 3,
+      "6": 3
+    },
+    "position_labels": {
+      "0": "cloth_base",
+      "1": "cloth_site",
+      "2": "fan_base",
+      "3": "fan_scope"
+    },
+    "positions_by_symbol": {
+      "CE": [
+        0,
+        1
+      ],
+      "CF": [
+        0,
+        1
+      ],
+      "FAN2": [
+        2,
+        3
+      ],
+      "FAN6": [
+        2,
+        3
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "C": "cloth"
+      },
+      "1": {
+        "E": "2 adjacent edges",
+        "F": "a face"
+      },
+      "2": {
+        "FAN": "fan"
+      },
+      "3": {
+        "2": "named face and opposite face",
+        "6": "all 6 faces"
+      }
+    },
+    "meaning_by_symbol": {
+      "Bc1": "bell each corner once",
+      "Bf1": "bell each face once",
+      "Bo5p15": "alternate the bell on opposite faces for 5 cycles with a 15 second pause",
+      "Bz": "buzz",
+      "CE": "cloth on 2 adjacent edges",
+      "CF": "cloth on a face",
+      "CS": "cool cloth",
+      "D": "dim",
+      "F": "faint",
+      "F6": "fan all 6 faces",
+      "FB": "flat board",
+      "FO": "fan the left face and the opposite face",
+      "H": "hot",
+      "Ld/Bt": "dim/bright lamps.",
+      "P": "patterns visible",
+      "Rot15": "rotate for 15 seconds",
+      "SS": "soft surface",
+      "TO": "apply a steady voice or hum tone to opposite faces",
+      "V": "vibration",
+      "W": "white",
+      "WS": "warm stone",
+      "Wh": "whisper",
+      "Wo": "washed out",
+      "BC1": "bell each corner once",
+      "BEx2": "bell each edge twice",
+      "BF1": "bell the center of each face once, starting from the named face",
+      "CD": "1 to 2 corners are bright; there is ticking there; there is heat at the corners; the rest is normal",
+      "CW": "cool cloth over the whole object",
+      "FC": "folded cloth on a face",
+      "HI": "all faces are white and blazing; there is a buzz; it is hot",
+      "LD/BO": "lamp dim target / bright opposite",
+      "LI": "all faces are dim or faint; there is a whisper; patterns are washed out",
+      "Lup": "left face up",
+      "N": "1-2 corners bright, ticking there, heat at corners, rest normal.",
+      "PS": "all faces are dim and still; there is silence; it is cold; there is no response",
+      "RC": "1 face is bright with vibration; there is a whisper; the rest is normal",
+      "Rot": "rotate",
+      "T6": "apply a steady voice or hum tone to all 6 faces",
+      "TB": "all faces are hot, dim, and red; there is a rumble; the surface feels gritty",
+      "AC": "there is chaotic flicker; there is a broken hum",
+      "BS": "there is edge wobble; a face bulges; there is a muffled hum",
+      "CV": "faces are normal; there is a hollow tap; the center is dark; there is a thin hum",
+      "DE": "light is sliding; edges are blurred; there is a wavering hum",
+      "ES": "it is too bright; there is a layered hum; a face is frozen",
+      "HS": "there are clashing tones; there are alternating configurations",
+      "LC": "corners are dark; edges are fading",
+      "PI": "opposite faces pulse; there is a 2-tone hum",
+      "BY": "beside",
+      "FAN2": "fan the named face and the opposite face",
+      "FAN6": "fan all 6 faces",
+      "P1": "apply a steady voice or hum tone to all 6 faces, starting at the named face, for the given seconds at the given intensity, then fade and wait",
+      "P10": "place a flat board on the named face for the given seconds at the given intensity; then rotate and repeat for face-pairs",
+      "P11": "bell the center of each face once, starting from the named face, at the given intensity; then place the warm stone beside Veyru for the given seconds",
+      "P12": "place on a soft surface; put the named face up; apply contact at the given intensity; then rest for the given seconds",
+      "P13": "apply cool cloth for the given seconds; remove it; then fan all 6 faces from the named face for the given seconds at the given intensity",
+      "P14": "rotate for the given seconds while applying a steady voice or hum near the opposite face, starting at the named face; then bell each corner once",
+      "P2": "bell alternating opposite faces, starting at the named face, with the given pause in seconds, for 5 cycles, at the given intensity",
+      "P3": "place cloth on 2 edges near the named face for the given seconds at the given intensity; then bell that face 3 times",
+      "P4": "warm the corners of the named face for the given seconds at the given intensity; then trace the edges of that face",
+      "P5": "place the warm stone beside the named face for the given seconds at the given intensity; then rotate and repeat for each face",
+      "P6": "apply cool cloth for the given seconds; remove it; then fan the named face and the opposite face for the given seconds at the given intensity",
+      "P7": "dim the lamp at the named face and brighten the lamp at the opposite face for the given seconds at the given intensity, holding still",
+      "P8": "place folded cloth on the named face for the given seconds at the given intensity; then bell each face-edge twice",
+      "P9": "for each face-corner, give a brief bell at the given intensity; then warm the 2 meeting edges for the given seconds"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1778877883",
+    "n_codes": 64,
+    "n_multimorpheme": 4,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "stem",
+        "label": "cloth_base",
+        "fillers": [
+          {
+            "form": "C",
+            "gloss": "cloth",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.5,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "suffix",
+        "label": "cloth_site",
+        "fillers": [
+          {
+            "form": "E",
+            "gloss": "2 adjacent edges",
+            "count": 1
+          },
+          {
+            "form": "F",
+            "gloss": "a face",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.5,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos2",
+        "role": "stem",
+        "label": "fan_base",
+        "fillers": [
+          {
+            "form": "FAN",
+            "gloss": "fan",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.5,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos3",
+        "role": "suffix",
+        "label": "fan_scope",
+        "fillers": [
+          {
+            "form": "2",
+            "gloss": "named face and opposite face",
+            "count": 1
+          },
+          {
+            "form": "6",
+            "gloss": "all 6 faces",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.5,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      },
+      {
+        "slot_a": "pos2",
+        "slot_b": "pos3",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ],
+      [
+        "pos2",
+        "pos3"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "CE": [
+        "pos0",
+        "pos1"
+      ],
+      "CF": [
+        "pos0",
+        "pos1"
+      ],
+      "FAN2": [
+        "pos2",
+        "pos3"
+      ],
+      "FAN6": [
+        "pos2",
+        "pos3"
+      ]
+    },
+    "construction_by_symbol": {
+      "CE": "CX1",
+      "CF": "CX1",
+      "FAN2": "CX2",
+      "FAN6": "CX2"
+    },
+    "construction_labels": {
+      "CX1": "cloth_placement",
+      "CX2": "fan_scope"
+    },
+    "construction_templates": {
+      "CX1": [
+        "pos0",
+        "pos1"
+      ],
+      "CX2": [
+        "pos2",
+        "pos3"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "Two small compositional paradigms are defensible. First, FAN2/FAN6 form a clear minimal pair with stable root FAN 'fan' and a substituting scope/count slot: 2 contributes 'named face and opposite face' and 6 contributes 'all 6 faces'. Second, CE/CF form a clear minimal pair with stable root C 'cloth' and a location/coverage slot: E contributes '2 adjacent edges' and F contributes 'a face'. Other recurrent pieces fail the evidence test: P1...P14 are opaque indexed procedures, not P + number; Rot15 has no contrasting duration filler; bell forms do not yield a single meaning-consistent shared frame; and many short strings are likely unrelated homographs.",
+    "lexical_symbols": [
+      "Bc1",
+      "Bf1",
+      "Bo5p15",
+      "Bz",
+      "CS",
+      "D",
+      "F",
+      "F6",
+      "FB",
+      "FO",
+      "H",
+      "Ld/Bt",
+      "P",
+      "Rot15",
+      "SS",
+      "TO",
+      "V",
+      "W",
+      "WS",
+      "Wh",
+      "Wo",
+      "BC1",
+      "BEx2",
+      "BF1",
+      "CD",
+      "CW",
+      "FC",
+      "HI",
+      "LD/BO",
+      "LI",
+      "Lup",
+      "N",
+      "PS",
+      "RC",
+      "Rot",
+      "T6",
+      "TB",
+      "AC",
+      "BS",
+      "CV",
+      "DE",
+      "ES",
+      "HS",
+      "LC",
+      "PI",
+      "BY",
+      "P1",
+      "P10",
+      "P11",
+      "P12",
+      "P13",
+      "P14",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8",
+      "P9"
+    ],
+    "classes": [
+      {
+        "class_id": "CL1",
+        "label": "cloth_base",
+        "description": "Cloth application base.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CL2",
+        "label": "cloth_site",
+        "description": "Site/coverage of cloth placement.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CL3",
+        "label": "fan_base",
+        "description": "Fan action base.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CL4",
+        "label": "fan_scope",
+        "description": "How many faces are fanned / scope of fanning.",
+        "repeatable": false,
+        "declared_fillers": []
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "CX1",
+        "label": "cloth_placement",
+        "description": "Cloth action plus site/coverage.",
+        "class_sequence": [
+          "CL1",
+          "CL2"
+        ]
+      },
+      {
+        "construction_id": "CX2",
+        "label": "fan_scope",
+        "description": "Fan action plus scope/count of faces.",
+        "class_sequence": [
+          "CL3",
+          "CL4"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "CE",
+        "construction_id": "CX1",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "C",
+            "class_id": "CL1",
+            "gloss": "cloth"
+          },
+          {
+            "form": "E",
+            "class_id": "CL2",
+            "gloss": "2 adjacent edges"
+          }
+        ]
+      },
+      {
+        "symbol": "CF",
+        "construction_id": "CX1",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "C",
+            "class_id": "CL1",
+            "gloss": "cloth"
+          },
+          {
+            "form": "F",
+            "class_id": "CL2",
+            "gloss": "a face"
+          }
+        ]
+      },
+      {
+        "symbol": "FAN2",
+        "construction_id": "CX2",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "FAN",
+            "class_id": "CL3",
+            "gloss": "fan"
+          },
+          {
+            "form": "2",
+            "class_id": "CL4",
+            "gloss": "named face and opposite face"
+          }
+        ]
+      },
+      {
+        "symbol": "FAN6",
+        "construction_id": "CX2",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "FAN",
+            "class_id": "CL3",
+            "gloss": "fan"
+          },
+          {
+            "form": "6",
+            "class_id": "CL4",
+            "gloss": "all 6 faces"
+          }
+        ]
+      }
+    ]
+  }
+}

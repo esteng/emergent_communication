@@ -1,0 +1,340 @@
+[OBS] Nice, 174/250. Let's build shorthand to save chars.
+
+Proposal for symptom reporting - terse codes:
+- Faces: F/B/L/R/T/U (top/under) or T/Bt
+- Regions: cnr (corners), edg (edges), ctr (center), perim
+- Brightness: dk (dark), dim, fade, brt (bright), flick (flicker)
+- Hum: thin, hollow, deep, sharp, buzz, silent
+- Color shifts: rd/bl/gn/yl/wh/vi
+- Temp: hot/cold/warm/cool
+
+Format: "cnr dk; edg fade; ctr ok; hum thin/hollow"
+
+For your instructions - tools shorthand:
+- cl=cloth, bl=bell, st=stone, fn=fan, bd=board, lp=lamp
+- Faces same codes. Edges = e, corners = c
+- "cl B 8s; bl x2 each e of B" would've worked
+
+OK with that? Anything to add?
+[ENG] Good. Adopting. Notes:
+- Use "Bk" not "B" for back (B ambiguous with bell). Faces: F/Bk/L/R/T/U.
+- Params this round were uniform (gentle, 8s, back). If a round has uniform defaults I'll just send the action delta. If not, I'll note params.
+- My reply format: "<tool> <target> <dur> <int>; <next step>". E.g. "cl Bk 8s gentle; bl x2 each e Bk".
+- For combo failures I'll number steps: "1) ... 2) ...".
+- If you can, lead your symptom report with the most distinctive cue (e.g. "cnrs dk" → leak; "frozen+silent+cold" → stall). Saves me chars.
+- Confirm "done" only if asked; otherwise silence = success.
+[OBS] Agreed. Bk for back. Silence=success. Lead with distinctive cue. Ready.
+[ENG] 64/250. Shorthand worked great. Keep it terse.
+
+Cheatsheet of distinctive cues (lead with these):
+- "cnrs dk, edg fade" → Leak
+- "frozen+silent+cold" → Stall
+- "all dim, whisper hum" → Low Intensity
+- "blazing+buzz+hot" → High Intensity
+- "1-2 cnrs brt, ticking, hot there" → Corner Deadlock
+- "1 face brt, whine" → Resonance Cascade
+- "opp faces pulse alt" → Phase Inversion
+- "random flicker, broken hum" → Alignment Collapse
+- "light slides, edges blur, pitch waver" → Drift
+- "too brt, layered hum, frozen patterns" → Echo
+- "edges wobble, faces bulge, muffled" → Boundary Soft
+- "2+ clashing tones, alt patterns" → Harmonic Split
+- "hot+dim+rumble+reddish" → Thermal Bleed
+- "hollow tap, dark center, thin hum" → Core Void
+
+If combo, list cues separated by " | ".
+[OBS] Excellent cheatsheet — I'll memorize. I'll lead with the matching cue verbatim when I see it, and " | " for combos. Also: I'll only describe what I see (no naming the failure) since stellar alignment changes treatments. Ready.
+[ENG] 86/250. Great. Since params are uniform per round, I can skip the intensity word entirely when it matches the round's default — but safer to include 1 word. Continuing same style.
+[OBS] Agree, keep 1-word intensity. Ready.
+[ENG] Lost that one. Lessons:
+1) When new symptoms after stabilize-and-continue, budget is already eaten — must be even terser.
+2) Clarification cycles are very expensive. I should encode tool-count assumption: lamps come as a pair when proc says "simultaneously". Same for stones (sequence) etc.
+3) On chained failures, I'll send both instructions in one msg if I can predict the cascade — but we can't predict.
+
+New rules for me:
+- If a proc says "simultaneously", I'll prefix "SIM:" so you know not to sequence.
+- I'll use compact verbs: dim/brt = lamps, wm = warm stone, ch = chime, drp = drape.
+- E.g. "SIM dim@U + brt@T 5s firm" is unambiguous.
+
+For you:
+- If a step looks impossible (only 1 lamp), just attempt closest match — don't ask. Asking costs more than guessing.
+- If first attempt fails, just say "no" or "fail" — I'll re-send.
+
+OK?
+[OBS] Agreed. My mistakes: asked "which face?" (wasteful — engineer doesn't need to know, they specify; if I see it I just attempt). Also asked to clarify instead of trying alternate (stone+lamp). 
+
+Rules I'll follow:
+- Never ask clarifying questions. Attempt closest match.
+- On fail just send "no" (or "f").
+- Don't restate what you said.
+- For new cascade symptoms: lead with the cheatsheet cue, no extra words. E.g. just "1 face brt+whine".
+- Don't mention tool inventory issues — just improvise (e.g. SIM with stone+lamp if 2 sources needed).
+
+Also re: kit — I have 1 each of: bell, heated stone, fan, cloth, board, lamp. So "SIM 2 lights" = lamp + heated stone (stone glows). Will assume that mapping.
+
+Ready.
+[ENG] Got it. One lamp only — noted. For SIM lamp procs use lamp+stone as you described.
+
+Also: "starting from X face" is a direction not a constraint. If symptom obviously points to one face (e.g. resonance on a specific face), procedure still uses the stellar-specified face. I trust the stellar reading verbatim.
+
+Final shorthand summary I'll use:
+- ch=chime, drp=drape, wm=warm-stone, fn=fan, bd=board, lp=lamp
+- Faces F/Bk/L/R/T/U. e=edge, c=corner
+- SIM=simultaneous. "@" = at/near.
+- Default params come from round; I'll only override if needed.
+
+Ready.
+[OBS] Locked in. Ready.
+[ENG] 2nd collapse. Issue: cascade failures eat budget fast. 
+
+I think the first attempt actually succeeded — the "f" was you reporting before the result registered, or it was the cascade kicking in. Need to know: when I send instructions, do you execute, see result, then report? Or is "f" "this failed, retry"?
+
+Proposal: 
+- After my instr, you execute. If success → silence + wait for cascade. If fail → "f". If cascade → describe new cue immediately, no "f".
+- That way my retry was wasted chars.
+
+Also: I should send EVEN shorter. For Low Intensity I sent 40 then 57 chars retry. Should've been "wm 4c T 10s seq; trace 4e T" = 26.
+
+Budget reality: ~3 instructions × ~30 chars + 3 symptom reports × ~30 chars = 180. Leaves margin. Cascades are 2x cost.
+
+Confirm: silence = success, "f" = fail-retry, new cue = cascade?
+[OBS] Confirmed: silence=success, "f"=fail-retry, new cue (no "f")=cascade. 
+
+R5 first attempt actually failed (the tool returned "ineffective"). The issue was "wm each c of T" — I touched the corners with the stone. Your retry said "near" which clarified. So in your instructions, please specify contact mode: "@" = near/hover, "on" = touching. Otherwise default = near. That avoids retries.
+
+Other ideas:
+- I'll never use "f" alone if a cascade is also possible — but the tool tells me which happened, so I'll know. fail → "f". cascade → cue.
+- For your retries: just send 1-2 char delta. "near, not on" or "@ not on". Don't restate.
+- If cascade is common, you could append cascade-treatment to original msg preemptively? Risky if stellar differs.
+
+Budget margin is real, we just need 0 retries and 0 clarifications. Ready.
+[ENG] Good catch. Procedures all say "holding nearby" or "place beside" = near/hover. I'll always include "@" or "near" by default. Contact-only procedures use "on" / "against" / "drape on".
+
+Convention:
+- "@" / "near" = hover/no contact
+- "on" / "drp on" = touching
+- "drp over X" = covers X
+
+For your reports: keep using cheatsheet cues. Don't pad. Single-word cue is fine if I can find it. If ambiguous I'll guess most likely.
+
+Won't preemptively send cascade treatment — too risky.
+
+One more: for cascade reports, please drop "new:" prefix — I'll know from context. Just the cue.
+
+Ready.
+[OBS] Locked. No "new:" prefix. Ready.
+[ENG] 62/250. Back in form. Same protocol next round.
+[OBS] +1
+[ENG] 234/250 — survived a triple cascade. Tight. Shorthand is working.
+[OBS] Phew. Triple cascade = ~6 msgs, very tight. We have ~40 chars/msg avg. If more cascades coming, we need to drop further. Ideas:
+- I can abbreviate cues to 1-2 keywords: "slides+waver" instead of full. Will only do if unambiguous in cheatsheet.
+- "drift" alone? Risk: stellar alignment notwithstanding, cue→treatment is per-round so name doesn't matter to you... actually YES, the cue is what disambiguates. Let me just send minimum disambig keywords.
+
+Proposed ultra-short cues (just enough to id):
+- leak: "cnr dk"
+- stall: "frozen cold"
+- low: "dim whisper"
+- high: "blaze buzz"
+- deadlock: "cnr brt tick"
+- resonance: "1face whine"
+- phase: "opp pulse"
+- align: "flick broken"
+- drift: "slide waver"
+- echo: "brt layered"
+- bound: "wobble bulge"
+- harmonic: "clash"
+- thermal: "hot rumble red"
+- void: "tap dark"
+
+OK?
+[ENG] All good, all unambiguous. Memorized. Ready.
+[OBS] Ready.
+[ENG] 61/250 ✓
+[OBS] ✓
+[ENG] Lost it. 4 cascades. Two failures of mine — drift retry + phase retry. The phase one I'm puzzled by — that was textbook. Could the "f" sometimes mean execution detail I'm missing? 
+
+When a procedure fails, what does the tool tell you? Just "ineffective" or details? If details, paste them in your "f" — e.g. "f wrong intensity" — so I can correct.
+
+Also: should I have tried trace before warm? Procedure says warm then trace. I did that order. Mystery.
+
+For 4+ cascades we'd need ~30 chars * 8 msgs = 240. No margin. We need 0 fails on long cascades.
+[OBS] Tool just says "Stabilization ineffective. Ask the engineer for guidance." No details. So I can't paste hints — there are none.
+
+The phase retry mystery: maybe the proc params were right but I executed something subtly wrong. I'll dump exactly what I did:
+
+Phase attempt: "Held heated stone hovering near each of 4 corners of Under face in sequence, 10s each corner, moderate proximity. Then traced each of 4 edges of Under face with finger."
+
+That matches "wm @4c U 10s mod seq; trace 4e U" exactly. So either:
+- Stellar timing/round-dependent procedure didn't actually match this cue this time
+- Some hidden detail (rest between corners? specific corner order? trace direction?)
+
+For future: when a "textbook" step fails, the failure is probably stellar mismatch — not execution. We need a backup plan. Maybe:
+- After 1 fail, instead of "retry same", you try a different proc for the cue.
+
+Also for stalls: do you have any way to know the round's "default" params before symptoms? If yes, send a 1-time round prefix early. If not, ignore.
+
+Budget reality: 4+ cascades = unwinnable with retries. Accept the loss.
+[ENG] Got it. I have full stellar table at round start, so no need to send defaults.
+
+New rule: on "f", I don't retry same — I send next most likely match. Cue→ranked alternates:
+- slide waver: Drift → Boundary Softening → Harmonic Split
+- opp pulse: Phase → Alignment Collapse
+- dim whisper: Low Intensity → Propagation Stall → Core Void
+- tap dark: Core Void → Low Intensity
+- frozen cold: Stall → Low → Void
+- cnr dk: Leak → Corner Deadlock
+- cnr brt tick: Corner Deadlock → Resonance Cascade
+- 1face whine: Resonance → Corner Deadlock
+- brt layered: Echo → High
+- blaze buzz: High → Echo
+- clash: Harmonic → Phase
+- hot rumble red: Thermal → High
+- wobble bulge: Boundary → Drift
+- flick broken: Alignment → Phase
+
+If "f" I'll jump to #2. If "f" again I'll try #3. Each retry ~30 chars.
+
+For very long cascades we're just going to lose some. Don't beat yourself up.
+[OBS] Solid. Ready.
+[ENG] 104/250 ✓ double cascade clean.
+[OBS] ✓
+[ENG] Lost again on "clash". 3 fails for Harmonic→Phase→Echo. 
+
+I wonder if "clash" was actually a less common motif: maybe Alignment Collapse (irregular hum could be "clash"-ish) or Boundary Softening (muffled hum could clash with normal). 
+
+Can you describe "clash" more next time? Like "2 tones" vs "muffled" vs "broken irregular"? Distinguishing the hum type costs maybe 5 chars and saves ~60 in retries.
+
+Or alternate ranking I missed: clash → Harmonic → Phase → Alignment → Boundary → Echo.
+
+For tight rounds let's add 1 more cue char if ambiguous. "clash 2tone" vs "clash broken" vs "clash muffle" etc.
+[OBS] Agreed. Re-checking what I saw: "hum split into two or more competing tones that clash. Light alternates between 2 different configurations. Edges shimmer." That's classic Harmonic. So your dx was likely right and execution was the issue.
+
+Re-reading proc: "cool cl over 12s; remove, fn firm L+R 12s" — I interpreted L+R as 2 separate faces (split). Maybe meant simultaneously? Or 12s each? Convention needed.
+
+Proposal:
+- "X+Y 12s" = each gets 12s sequentially (so 24s total)
+- "X,Y 12s" = 12s split between them
+- "SIM X+Y 12s" = simultaneously 12s
+
+Also for cues, I'll add hum descriptor when present:
+- 2 distinct tones → "2tone"
+- broken/irregular → "broken"
+- muffled → "muffle"
+- layered → "layered"
+- whine → "whine"
+
+So clash would become "clash 2tone" if 2 distinct.
+
+3-fail-then-stop rule: accept loss after 2nd. Saves chars for next round.
+[ENG] Good. Adopting:
+- "X+Y" sequential (each duration), "SIM X+Y" simultaneous, "X,Y" split.
+- Hum descriptors as you listed.
+- Stop after 2nd fail to preserve budget.
+
+For Harmonic Split fan proc, the original says "fan firm cool air across the left face and the opposite face for 12 seconds." Singular "for 12 seconds" — ambiguous in source! Could be each or total. I'll write "fn firm L+R 12s ea" to mean each. If they say total, I'll write "12s tot".
+
+Re-examining: original procedures also say things like "Drape cool cloth over the Veyru for 8 seconds. Remove and fan gentle cool air across all six faces for 8 seconds" — "all six faces for 8s" total seems implied. So default = total time. I'll add "ea" only when unambiguous-each is needed.
+
+Ready.
+[OBS] Locked. Default = total. "ea" = each. Ready.
+[OBS] 93/250 used, collapsed. We had plenty of budget — the 2-fail rule killed us prematurely. With 157s left we could've done 5+ more attempts.
+
+Revised rule: stop after 2nd fail ONLY if budget < 60s. Otherwise keep trying.
+
+Also: 2 fails on Leak when we have it down cold suggests stellar variance is high this round. Need broader alternates for Leak:
+- Leak: drape on face / drape edges / warm corners / fan corners / drape+chime / stone+trace etc.
+
+Also "cnr dk" had a previously-untested treatment (5s, gentle, U). Compared to earlier Leak (Bk 8s gentle, Bk 5s firm, Bk 12c). The procedures share a small template space — let me list what we've SEEN work for Leak:
+- R1: drp cl Bk 8s gentle; ch x2 each e Bk ✓
+- R4: cl 2 adj e near U 5s firm; ch x3 near U ✓  
+- R6: @ each c Bk: ch brief mod, then wm 2e@c 5s ✓
+- R12: tried cl 2e U 5s gentle + ch x3 (fail), drp cl on U 5s gentle + ch x2 each e (fail)
+
+So R12 stellar wanted yet another variant. Maybe with stone or fan involved.
+[ENG] Agreed on both points. Will continue alts while budget > 60.
+
+Note: each round, every motif has a different procedure assigned. R12's Leak procedure was actually the cloth-on-edges one I tried first. Why it failed is genuinely unclear. Possibly the "f" was a misread on your end, or execution detail. 
+
+Going forward: I'll send all alts in order until budget tight or stabilized. You report each result.
+
+Cue-→full-procedure-ranking I'll keep in mind for each round (since procs rotate, only motif ranking matters):
+"cnr dk": Leak → Corner Deadlock → Resonance → Phase → Boundary
+"opp pulse": Phase → Alignment → Harmonic
+"dim whisper": Low → Stall → Void → Leak
+"slide waver": Drift → Boundary → Harmonic
+"clash": Harmonic → Phase → Alignment → Echo
+
+Will exhaust ranking before giving up.
+[OBS] Locked. Ready.
+[OBS] 4 fails on "dim whisper". Something's deeply off. Hypotheses:
+1) The cue is being misidentified — maybe what I'm seeing isn't Low Intensity. Re-checking: "dim overall, all faces faint, hum barely audible/whisper, washed-out patterns" — that's exact Low Intensity description.
+2) Stellar table simply rotates between procs we don't know.
+3) My execution descriptions to stabilize_veyru tool may need to be MORE literal/word-for-word from your instruction. 
+
+Test for #3: next time you give an instruction, I'll paste it verbatim in the action description (after expanding shorthand). E.g. "ch T then U alt, 10s pause, 5 cyc, mod" → I describe doing exactly that.
+
+Also worth trying: very simple actions. Maybe procs are sometimes single-tool:
+- just chime
+- just drape
+- just fan
+- just lamp
+- just board press
+- just stone hover
+
+For each cue, after 2 complex fails, try the single-tool simple options.
+[ENG] Re #3: yes, please paste my instruction verbatim into the tool, then expand shorthand only for unambiguous tokens (T=top etc). Don't paraphrase. The tool may match on specific words.
+
+Also good idea on single-tool simple. But the stellar table lists 14 specific procs that are always 1-2 step composites. Single-tool isolated actions probably aren't valid. Let's drop that.
+
+Final theory: maybe the tool fails when intensity word is wrong. R13 was "gentle" — I included it. But maybe spelling/ordering matters. Tool input format question: is it free-text or structured? If structured (tool/target/duration/intensity), my "from L" prefix might confuse.
+
+Going forward: I'll output in structured form:
+ACT: <verb>
+TGT: <face/edges>  
+DUR: <n>s
+INT: <intensity>
++chain if 2nd step
+
+E.g.:
+ACT: chime alternating | TGT: T↔U | DUR: 20s pause x5 | INT: firm
+
+Try that?
+[OBS] Structured form is more chars (~50/step vs ~30). Let's keep terse shorthand but I'll paste verbatim into tool. Verbatim test next round.
+
+One more idea: I'll include MY rendition of what I'm about to do in the tool, and you can verify with a thumbs up/no without me executing? No, that's more chars. Skip.
+
+Let's just: verbatim paste + my expansion. Ready.
+[ENG] Good — verbatim paste it is.
+[ENG] Wait — 171 used out of 250, "Agents stopped acting" — collapsed early again because I waited too long. Should've kept trying. 
+
+Real problem: success rate has dropped from ~90% (rounds 1-8) to ~30% (rounds 9+). Something changed.
+
+Hypotheses:
+1) Task is procedurally getting harder
+2) My motif→symptom mapping is off
+3) Field tool execution changed
+4) Cue shortening went too far
+
+Did you start doing anything differently around r9? Did your tool interface change? Are there more action options in the menu now?
+
+For r15, let's go back to LONGER cue descriptions (full motif description). Cost ~30 extra chars but worth it if accuracy improves. E.g. instead of "frozen cold" say "light frozen still, hum silent, surface cold, no response to tap". Then I can be sure.
+[OBS] Nothing changed on my end. Same tool, same kit, same descriptions. I haven't tried any new menu items. The Veyru and tool behavior look identical.
+
+But your point about cue shortening is valid — when I sent just "frozen cold" or "dim whisper", you trusted it. If I send full description, you can spot if my symptoms differ subtly from the textbook motif.
+
+For R15 I'll send full visual description (~80-100 chars) on first symptom report. That gives you better dx data. If you're confident from your read, you can pick the right proc.
+
+Also: the "collapsed - agents stopped acting" failure means the tool needed more attempts. I was waiting for your reply. We should keep going until budget is truly exhausted. Don't preemptively stop.
+
+Going forward: I'll always wait/respond promptly; you keep sending alts until ~30s budget left.
+
+Last thought: maybe my "f" message isn't reaching you with full context. Could be there's lag. But the channel shows messages going through. Probably fine.
+[ENG] Agreed. R15 plan:
+- You: full symptom description on first report (~80 chars). Subsequent cascade reports can be terser since context is set.
+- Me: keep sending alts till budget < 30s.
+- Also: maybe avoiding the "f" since it gives no info — replace with the same symptom restated. That way if my dx was wrong, you re-prompt me.
+
+E.g. "f" → "still dim whisper" or "still cnr dk". Same chars roughly. Tells me to try another motif AND confirms current symptom.
+
+Ready.
+[OBS] Agreed. "still <cue>" instead of "f". Full desc first, terser on cascades. Ready.

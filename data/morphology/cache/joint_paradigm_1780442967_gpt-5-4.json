@@ -1,0 +1,521 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780442967",
+    "slots": [],
+    "segmentation": {
+      "FROZ": [
+        "FROZ"
+      ],
+      "DIM": [
+        "DIM"
+      ],
+      "SIL": [
+        "SIL"
+      ],
+      "COLD": [
+        "COLD"
+      ],
+      "FLKR": [
+        "FLKR"
+      ],
+      "DRIFT": [
+        "DRIFT"
+      ],
+      "BRITE": [
+        "BRITE"
+      ],
+      "HOT": [
+        "HOT"
+      ],
+      "CORN": [
+        "CORN"
+      ],
+      "EDGE": [
+        "EDGE"
+      ],
+      "PULSE": [
+        "PULSE"
+      ],
+      "LOUD": [
+        "LOUD"
+      ],
+      "HOLLOW": [
+        "HOLLOW"
+      ],
+      "MUFFL": [
+        "MUFFL"
+      ],
+      "CLICK": [
+        "CLICK"
+      ],
+      "WHINE": [
+        "WHINE"
+      ],
+      "T": [
+        "T"
+      ],
+      "B": [
+        "B"
+      ],
+      "L": [
+        "L"
+      ],
+      "R": [
+        "R"
+      ],
+      "F": [
+        "F"
+      ],
+      "BK": [
+        "BK"
+      ],
+      "NEW:": [
+        "NEW:"
+      ],
+      "RUM": [
+        "RUM"
+      ],
+      "GRIT": [
+        "GRIT"
+      ],
+      "STKH": [
+        "STKH"
+      ],
+      "DRFT": [
+        "DRFT"
+      ],
+      "BRTE": [
+        "BRTE"
+      ],
+      "CLCK": [
+        "CLCK"
+      ],
+      "WHIN": [
+        "WHIN"
+      ],
+      "HOLL": [
+        "HOLL"
+      ],
+      "MUFL": [
+        "MUFL"
+      ],
+      "PLS": [
+        "PLS"
+      ],
+      "K": [
+        "K"
+      ],
+      "WHSP": [
+        "WHSP"
+      ],
+      "WOBB": [
+        "WOBB"
+      ],
+      "THNHM": [
+        "THNHM"
+      ],
+      "FAIL": [
+        "FAIL"
+      ],
+      "D": [
+        "D"
+      ],
+      "W": [
+        "W"
+      ],
+      "H": [
+        "H"
+      ],
+      "C": [
+        "C"
+      ],
+      "G": [
+        "G"
+      ],
+      "S": [
+        "S"
+      ],
+      "I": [
+        "I"
+      ],
+      "M": [
+        "M"
+      ],
+      "P": [
+        "P"
+      ],
+      "E": [
+        "E"
+      ],
+      "O": [
+        "O"
+      ],
+      "U": [
+        "U"
+      ],
+      "V": [
+        "V"
+      ],
+      "Z": [
+        "Z"
+      ],
+      "N:": [
+        "N:"
+      ],
+      "AC": [
+        "AC"
+      ],
+      "DE": [
+        "DE"
+      ],
+      "ES": [
+        "ES"
+      ],
+      "LI": [
+        "LI"
+      ],
+      "LO": [
+        "LO"
+      ],
+      "HI": [
+        "HI"
+      ],
+      "PI": [
+        "PI"
+      ],
+      "RC": [
+        "RC"
+      ],
+      "CD": [
+        "CD"
+      ],
+      "BS": [
+        "BS"
+      ],
+      "PS": [
+        "PS"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "TB": [
+        "TB"
+      ],
+      "CV": [
+        "CV"
+      ],
+      "^": [
+        "^"
+      ],
+      "Rmv": [
+        "Rmv"
+      ],
+      "CCloth^": [
+        "CCloth^"
+      ],
+      "~": [
+        "~"
+      ],
+      "~box": [
+        "~box"
+      ],
+      "~f": [
+        "~f"
+      ],
+      "FoldCloth": [
+        "FoldCloth"
+      ],
+      "CrnEdg": [
+        "CrnEdg"
+      ],
+      "FAIL?": [
+        "FAIL?"
+      ],
+      "t": [
+        "t"
+      ],
+      "Clth^": [
+        "Clth^"
+      ],
+      "J": [
+        "J"
+      ],
+      "A": [
+        "A"
+      ]
+    },
+    "head_index": {
+      "FROZ": 0,
+      "DIM": 0,
+      "SIL": 0,
+      "COLD": 0,
+      "FLKR": 0,
+      "DRIFT": 0,
+      "BRITE": 0,
+      "HOT": 0,
+      "CORN": 0,
+      "EDGE": 0,
+      "PULSE": 0,
+      "LOUD": 0,
+      "HOLLOW": 0,
+      "MUFFL": 0,
+      "CLICK": 0,
+      "WHINE": 0,
+      "T": 0,
+      "B": 0,
+      "L": 0,
+      "R": 0,
+      "F": 0,
+      "BK": 0,
+      "NEW:": 0,
+      "RUM": 0,
+      "GRIT": 0,
+      "STKH": 0,
+      "DRFT": 0,
+      "BRTE": 0,
+      "CLCK": 0,
+      "WHIN": 0,
+      "HOLL": 0,
+      "MUFL": 0,
+      "PLS": 0,
+      "K": 0,
+      "WHSP": 0,
+      "WOBB": 0,
+      "THNHM": 0,
+      "FAIL": 0,
+      "D": 0,
+      "W": 0,
+      "H": 0,
+      "C": 0,
+      "G": 0,
+      "S": 0,
+      "I": 0,
+      "M": 0,
+      "P": 0,
+      "E": 0,
+      "O": 0,
+      "U": 0,
+      "V": 0,
+      "Z": 0,
+      "N:": 0,
+      "AC": 0,
+      "DE": 0,
+      "ES": 0,
+      "LI": 0,
+      "LO": 0,
+      "HI": 0,
+      "PI": 0,
+      "RC": 0,
+      "CD": 0,
+      "BS": 0,
+      "PS": 0,
+      "HS": 0,
+      "TB": 0,
+      "CV": 0,
+      "^": 0,
+      "Rmv": 0,
+      "CCloth^": 0,
+      "~": 0,
+      "~box": 0,
+      "~f": 0,
+      "FoldCloth": 0,
+      "CrnEdg": 0,
+      "FAIL?": 0,
+      "t": 0,
+      "Clth^": 0,
+      "J": 0,
+      "A": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "FROZ": "frozen or still light",
+      "DIM": "dim overall",
+      "SIL": "silent",
+      "COLD": "cold",
+      "FLKR": "flickering",
+      "DRIFT": "sliding or drifting light",
+      "BRITE": "very bright",
+      "HOT": "heat",
+      "CORN": "bright corners",
+      "EDGE": "edge issues",
+      "PULSE": "pulsing rhythm",
+      "LOUD": "loud buzz",
+      "HOLLOW": "hollow sound",
+      "MUFFL": "muffled sound",
+      "CLICK": "clicking sound",
+      "WHINE": "high-pitched whine",
+      "T": "thin hum, surface-level hum",
+      "B": "bottom face",
+      "L": "left face",
+      "R": "right face",
+      "F": "front face",
+      "BK": "back face",
+      "NEW:": "follow-up symptoms or new symptoms prefix",
+      "RUM": "rumble",
+      "GRIT": "gritty",
+      "STKH": "stacked hum, echo",
+      "DRFT": "drift",
+      "BRTE": "bright",
+      "CLCK": "click",
+      "WHIN": "whine",
+      "HOLL": "hollow",
+      "MUFL": "muffled",
+      "PLS": "pulse",
+      "K": "back face",
+      "WHSP": "whisper hum, barely audible whisper",
+      "WOBB": "wobbling or flexing edges",
+      "THNHM": "thin surface-level hum",
+      "FAIL": "correct execution but wrong procedure, truly unexpected failure",
+      "D": "dim overall",
+      "W": "whisper hum, low intensity",
+      "H": "hot",
+      "C": "cold",
+      "G": "gritty or rough",
+      "S": "stacked or layered hum, echo",
+      "I": "whine or high-pitched sound",
+      "M": "muffled, underwater",
+      "P": "pulse, and later clarified as sync or lockstep pulse indicating Phase Inversion",
+      "E": "edge issues, fading edges",
+      "O": "corner issues, dim corners meaning Leak Instability or bright corners meaning Corner Deadlock depending on context",
+      "U": "hollow sound",
+      "V": "wobble or flex, Boundary Softening",
+      "Z": "two-tone clash, Harmonic Split, and later clarified as chaotic clash or competition rather than synchronized alternation",
+      "N:": "follow-up symptoms prefix",
+      "AC": "Alignment Collapse",
+      "DE": "Drift Escalation",
+      "ES": "Echo Saturation",
+      "LI": "Leak Instability",
+      "LO": "Low Intensity",
+      "HI": "High Intensity",
+      "PI": "Phase Inversion",
+      "RC": "Resonance Cascade",
+      "CD": "Corner Deadlock",
+      "BS": "Boundary Softening",
+      "PS": "Propagation Stall",
+      "HS": "Harmonic Split",
+      "TB": "Thermal Bleed",
+      "CV": "Core Void",
+      "^": "pointing toward the ceiling or sky",
+      "Rmv": "remove before the next step",
+      "CCloth^": "cool cloth over the whole Veyru",
+      "~": "beside, next to, in close proximity but not touching or on",
+      "~box": "beside the whole Veyru box",
+      "~f": "beside the front face specifically",
+      "FoldCloth": "folded cloth over the specified face specifically",
+      "CrnEdg": "the two edges converging at each corner",
+      "FAIL?": "the instruction was unclear, not necessarily wrong",
+      "t": "top face",
+      "Clth^": "cloth over the whole box, then remove before the next step if followed by another action",
+      "J": "drift or sliding light",
+      "A": "flicker or chaotic flickering"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780442967",
+    "n_codes": 80,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible multi-entry compositional paradigm survives the evidence threshold. Many symbols resemble abbreviations, variants, or shared substrings, but the codebook does not provide stable substitution frames with predictable whole meanings. Examples: HOT vs HOLLOW do not support HO+X; WHINE/WHIN/WHSP do not show a shared frame with corresponding contrasts; FAIL and FAIL? differ pragmatically but do not establish a broader productive construction; face symbols are mostly standalone and lack enough compositional multi-symbol codes in shared frames; bigrams like AC, DE, LO, HI, etc. behave as opaque labels rather than compositions of independently evidenced slots. Optional-slot analysis is likewise unsupported because there is no confirmed construction with substituting fillers. Therefore the least false analysis is a flat lexicon with all symbols stored opaquely.",
+    "lexical_symbols": [
+      "FROZ",
+      "DIM",
+      "SIL",
+      "COLD",
+      "FLKR",
+      "DRIFT",
+      "BRITE",
+      "HOT",
+      "CORN",
+      "EDGE",
+      "PULSE",
+      "LOUD",
+      "HOLLOW",
+      "MUFFL",
+      "CLICK",
+      "WHINE",
+      "T",
+      "B",
+      "L",
+      "R",
+      "F",
+      "BK",
+      "NEW:",
+      "RUM",
+      "GRIT",
+      "STKH",
+      "DRFT",
+      "BRTE",
+      "CLCK",
+      "WHIN",
+      "HOLL",
+      "MUFL",
+      "PLS",
+      "K",
+      "WHSP",
+      "WOBB",
+      "THNHM",
+      "FAIL",
+      "D",
+      "W",
+      "H",
+      "C",
+      "G",
+      "S",
+      "I",
+      "M",
+      "P",
+      "E",
+      "O",
+      "U",
+      "V",
+      "Z",
+      "N:",
+      "AC",
+      "DE",
+      "ES",
+      "LI",
+      "LO",
+      "HI",
+      "PI",
+      "RC",
+      "CD",
+      "BS",
+      "PS",
+      "HS",
+      "TB",
+      "CV",
+      "^",
+      "Rmv",
+      "CCloth^",
+      "~",
+      "~box",
+      "~f",
+      "FoldCloth",
+      "CrnEdg",
+      "FAIL?",
+      "t",
+      "Clth^",
+      "J",
+      "A"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

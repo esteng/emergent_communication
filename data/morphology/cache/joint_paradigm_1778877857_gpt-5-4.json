@@ -1,0 +1,764 @@
+{
+  "grammar": {
+    "run_key": "veyru/1778877857",
+    "slots": [
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "Cloth",
+            "gloss": "cloth",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "Stn",
+            "gloss": "stone",
+            "support": 2,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "suffix",
+        "fillers": [
+          {
+            "form": "Bs",
+            "gloss": "beside",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "On",
+            "gloss": "on",
+            "support": 2,
+            "is_defined": false
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "PS": [
+        "PS"
+      ],
+      "AC": [
+        "AC"
+      ],
+      "DE": [
+        "DE"
+      ],
+      "ES": [
+        "ES"
+      ],
+      "LI": [
+        "LI"
+      ],
+      "LO": [
+        "LO"
+      ],
+      "HI": [
+        "HI"
+      ],
+      "PI": [
+        "PI"
+      ],
+      "RC": [
+        "RC"
+      ],
+      "CD": [
+        "CD"
+      ],
+      "BS": [
+        "BS"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "TB": [
+        "TB"
+      ],
+      "CV": [
+        "CV"
+      ],
+      "B": [
+        "B"
+      ],
+      "S": [
+        "S"
+      ],
+      "C": [
+        "C"
+      ],
+      "Bd": [
+        "Bd"
+      ],
+      "F": [
+        "F"
+      ],
+      "L": [
+        "L"
+      ],
+      "T": [
+        "T"
+      ],
+      "Bt": [
+        "Bt"
+      ],
+      "Fr": [
+        "Fr"
+      ],
+      "Bk": [
+        "Bk"
+      ],
+      "Lf": [
+        "Lf"
+      ],
+      "Rt": [
+        "Rt"
+      ],
+      "g": [
+        "g"
+      ],
+      "m": [
+        "m"
+      ],
+      "s": [
+        "s"
+      ],
+      "Rot": [
+        "Rot"
+      ],
+      "Cr": [
+        "Cr"
+      ],
+      "Ed": [
+        "Ed"
+      ],
+      "Fc": [
+        "Fc"
+      ],
+      "Opp": [
+        "Opp"
+      ],
+      "ea": [
+        "ea"
+      ],
+      "Adj": [
+        "Adj"
+      ],
+      "Sim": [
+        "Sim"
+      ],
+      "Cov": [
+        "Cov"
+      ],
+      "Wm": [
+        "Wm"
+      ],
+      "Br": [
+        "Br"
+      ],
+      "Tn": [
+        "Tn"
+      ],
+      "Ct": [
+        "Ct"
+      ],
+      "Seq": [
+        "Seq"
+      ],
+      "Cy": [
+        "Cy"
+      ],
+      "Ps": [
+        "Ps"
+      ],
+      "Alt": [
+        "Alt"
+      ],
+      "Und": [
+        "Und"
+      ],
+      "Surf": [
+        "Surf"
+      ],
+      "Ctr": [
+        "Ctr"
+      ],
+      "same": [
+        "same"
+      ],
+      "StnBs": [
+        "Stn",
+        "Bs"
+      ],
+      "StnOn": [
+        "Stn",
+        "On"
+      ],
+      "ClothOn": [
+        "Cloth",
+        "On"
+      ],
+      "BdAg": [
+        "BdAg"
+      ],
+      "V": [
+        "V"
+      ],
+      "Cl": [
+        "Cl"
+      ],
+      "SusTn": [
+        "SusTn"
+      ],
+      "tr": [
+        "tr"
+      ],
+      "brtLyrFz": [
+        "brtLyrFz"
+      ],
+      "dimWhs": [
+        "dimWhs"
+      ],
+      "dCrHlw": [
+        "dCrHlw"
+      ],
+      "frzSil": [
+        "frzSil"
+      ],
+      "hotRed": [
+        "hotRed"
+      ],
+      "hlwDkCtr": [
+        "hlwDkCtr"
+      ],
+      "flkBrk": [
+        "flkBrk"
+      ],
+      "wblEdMuf": [
+        "wblEdMuf"
+      ],
+      "drftWv": [
+        "drftWv"
+      ],
+      "brtBuzz": [
+        "brtBuzz"
+      ],
+      "pulsOpp": [
+        "pulsOpp"
+      ],
+      "oneFcBrt": [
+        "oneFcBrt"
+      ],
+      "CrBrtClk": [
+        "CrBrtClk"
+      ],
+      "2Tn2Pat": [
+        "2Tn2Pat"
+      ],
+      "StnBsV": [
+        "StnBsV"
+      ],
+      "ClV": [
+        "ClV"
+      ],
+      "Frm": [
+        "Frm"
+      ],
+      "brtFrz": [
+        "brtFrz"
+      ],
+      "wblMuf": [
+        "wblMuf"
+      ],
+      "hlwDk": [
+        "hlwDk"
+      ],
+      "CrClk": [
+        "CrClk"
+      ],
+      "1FcBrt": [
+        "1FcBrt"
+      ],
+      "brtBz": [
+        "brtBz"
+      ],
+      "2TnPt": [
+        "2TnPt"
+      ],
+      "plsOp": [
+        "plsOp"
+      ]
+    },
+    "head_index": {
+      "PS": 0,
+      "AC": 0,
+      "DE": 0,
+      "ES": 0,
+      "LI": 0,
+      "LO": 0,
+      "HI": 0,
+      "PI": 0,
+      "RC": 0,
+      "CD": 0,
+      "BS": 0,
+      "HS": 0,
+      "TB": 0,
+      "CV": 0,
+      "B": 0,
+      "S": 0,
+      "C": 0,
+      "Bd": 0,
+      "F": 0,
+      "L": 0,
+      "T": 0,
+      "Bt": 0,
+      "Fr": 0,
+      "Bk": 0,
+      "Lf": 0,
+      "Rt": 0,
+      "g": 0,
+      "m": 0,
+      "s": 0,
+      "Rot": 0,
+      "Cr": 0,
+      "Ed": 0,
+      "Fc": 0,
+      "Opp": 0,
+      "ea": 0,
+      "Adj": 0,
+      "Sim": 0,
+      "Cov": 0,
+      "Wm": 0,
+      "Br": 0,
+      "Tn": 0,
+      "Ct": 0,
+      "Seq": 0,
+      "Cy": 0,
+      "Ps": 0,
+      "Alt": 0,
+      "Und": 0,
+      "Surf": 0,
+      "Ctr": 0,
+      "same": 0,
+      "StnBs": 0,
+      "StnOn": 0,
+      "ClothOn": 0,
+      "BdAg": 0,
+      "V": 0,
+      "Cl": 0,
+      "SusTn": 0,
+      "tr": 0,
+      "brtLyrFz": 0,
+      "dimWhs": 0,
+      "dCrHlw": 0,
+      "frzSil": 0,
+      "hotRed": 0,
+      "hlwDkCtr": 0,
+      "flkBrk": 0,
+      "wblEdMuf": 0,
+      "drftWv": 0,
+      "brtBuzz": 0,
+      "pulsOpp": 0,
+      "oneFcBrt": 0,
+      "CrBrtClk": 0,
+      "2Tn2Pat": 0,
+      "StnBsV": 0,
+      "ClV": 0,
+      "Frm": 0,
+      "brtFrz": 0,
+      "wblMuf": 0,
+      "hlwDk": 0,
+      "CrClk": 0,
+      "1FcBrt": 0,
+      "brtBz": 0,
+      "2TnPt": 0,
+      "plsOp": 0
+    },
+    "attested_orderings": [
+      [
+        "stem",
+        "suffix"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [],
+    "form_positions": {
+      "Stn": 0,
+      "Cloth": 0,
+      "Bs": 1,
+      "On": 1
+    },
+    "position_labels": {
+      "0": "OBJECT",
+      "1": "RELATION"
+    },
+    "positions_by_symbol": {
+      "StnBs": [
+        0,
+        1
+      ],
+      "StnOn": [
+        0,
+        1
+      ],
+      "ClothOn": [
+        0,
+        1
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "Stn": "stone",
+        "Cloth": "cloth"
+      },
+      "1": {
+        "Bs": "beside",
+        "On": "on or over"
+      }
+    },
+    "meaning_by_symbol": {
+      "PS": "Propagation Stall",
+      "AC": "Alignment Collapse",
+      "DE": "Drift Escalation",
+      "ES": "Echo Saturation",
+      "LI": "Leak Instability",
+      "LO": "Low Intensity",
+      "HI": "High Intensity",
+      "PI": "Phase Inversion",
+      "RC": "Resonance Cascade",
+      "CD": "Corner Deadlock",
+      "BS": "Boundary Softening",
+      "HS": "Harmonic Split",
+      "TB": "Thermal Bleed",
+      "CV": "Core Void",
+      "B": "bell",
+      "S": "stone",
+      "C": "cloth",
+      "Bd": "board",
+      "F": "fan",
+      "L": "lamp",
+      "T": "top face",
+      "Bt": "bottom face",
+      "Fr": "front face",
+      "Bk": "back face",
+      "Lf": "left face",
+      "Rt": "right face",
+      "g": "gentle intensity",
+      "m": "moderate intensity",
+      "s": "strong intensity",
+      "Rot": "rotate",
+      "Cr": "corners",
+      "Ed": "edges",
+      "Fc": "faces",
+      "Opp": "opposite",
+      "ea": "each",
+      "Adj": "adjacent",
+      "Sim": "simultaneous",
+      "Cov": "coverage",
+      "Wm": "warmth",
+      "Br": "brightness",
+      "Tn": "tone",
+      "Ct": "contact",
+      "Seq": "sequence",
+      "Cy": "cycle",
+      "Ps": "pause",
+      "Alt": "alternate",
+      "Und": "undisturbed",
+      "Surf": "surface",
+      "Ctr": "center",
+      "same": "the action failed and the state is unchanged",
+      "StnBs": "stone beside",
+      "StnOn": "stone on",
+      "ClothOn": "cloth draped on or over",
+      "BdAg": "board resting against",
+      "V": "Veyru",
+      "Cl": "cloth",
+      "SusTn": "sustained tone",
+      "tr": "trace",
+      "brtLyrFz": "Echo Saturation",
+      "dimWhs": "Low Intensity",
+      "dCrHlw": "Leak Instability",
+      "frzSil": "Propagation Stall",
+      "hotRed": "Thermal Bleed",
+      "hlwDkCtr": "Core Void",
+      "flkBrk": "Alignment Collapse",
+      "wblEdMuf": "Boundary Softening",
+      "drftWv": "Drift Escalation",
+      "brtBuzz": "High Intensity",
+      "pulsOpp": "Phase Inversion",
+      "oneFcBrt": "Resonance Cascade",
+      "CrBrtClk": "Corner Deadlock",
+      "2Tn2Pat": "Harmonic Split",
+      "StnBsV": "stone beside the whole Veyru",
+      "ClV": "cloth over the whole Veyru",
+      "Frm": "firm intensity",
+      "brtFrz": "Echo Saturation",
+      "wblMuf": "Boundary Softening",
+      "hlwDk": "Core Void",
+      "CrClk": "Corner Deadlock",
+      "1FcBrt": "Resonance Cascade",
+      "brtBz": "High Intensity",
+      "2TnPt": "Harmonic Split",
+      "plsOp": "Phase Inversion"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1778877857",
+    "n_codes": 83,
+    "n_multimorpheme": 3,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "stem",
+        "label": "OBJECT",
+        "fillers": [
+          {
+            "form": "Cloth",
+            "gloss": "cloth",
+            "count": 1
+          },
+          {
+            "form": "Stn",
+            "gloss": "stone",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "suffix",
+        "label": "RELATION",
+        "fillers": [
+          {
+            "form": "Bs",
+            "gloss": "beside",
+            "count": 1
+          },
+          {
+            "form": "On",
+            "gloss": "on",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 3,
+        "possible_combos": 4,
+        "saturation": 0.75
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "StnBs": [
+        "pos0",
+        "pos1"
+      ],
+      "StnOn": [
+        "pos0",
+        "pos1"
+      ],
+      "ClothOn": [
+        "pos0",
+        "pos1"
+      ]
+    },
+    "construction_by_symbol": {
+      "StnBs": "K1",
+      "StnOn": "K1",
+      "ClothOn": "K1"
+    },
+    "construction_labels": {
+      "K1": "placement expression"
+    },
+    "construction_templates": {
+      "K1": [
+        "pos0",
+        "pos1"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "Most symbols are best treated as opaque lexical items: the dataset does not provide enough meaning-consistent substitutional evidence for the many lookalike substrings suggested by surface form. One small paradigm family is defensible, however. StnBs 'stone beside', StnOn 'stone on', and ClothOn 'cloth draped on or over' jointly support a single OBJECT+RELATION construction: RELATION contrasts in the shared frame Stn_ (Bs vs On), and OBJECT contrasts in the shared frame _On (Stn vs Cloth). The meanings are compositionally predictable from the proposed parts. Other candidates were rejected because repeated material did not carry a stable independent meaning across entries, lacked a true substitution contrast, or left whole meanings unpredictable from the parts.",
+    "lexical_symbols": [
+      "PS",
+      "AC",
+      "DE",
+      "ES",
+      "LI",
+      "LO",
+      "HI",
+      "PI",
+      "RC",
+      "CD",
+      "BS",
+      "HS",
+      "TB",
+      "CV",
+      "B",
+      "S",
+      "C",
+      "Bd",
+      "F",
+      "L",
+      "T",
+      "Bt",
+      "Fr",
+      "Bk",
+      "Lf",
+      "Rt",
+      "g",
+      "m",
+      "s",
+      "Rot",
+      "Cr",
+      "Ed",
+      "Fc",
+      "Opp",
+      "ea",
+      "Adj",
+      "Sim",
+      "Cov",
+      "Wm",
+      "Br",
+      "Tn",
+      "Ct",
+      "Seq",
+      "Cy",
+      "Ps",
+      "Alt",
+      "Und",
+      "Surf",
+      "Ctr",
+      "same",
+      "BdAg",
+      "V",
+      "Cl",
+      "SusTn",
+      "tr",
+      "brtLyrFz",
+      "dimWhs",
+      "dCrHlw",
+      "frzSil",
+      "hotRed",
+      "hlwDkCtr",
+      "flkBrk",
+      "wblEdMuf",
+      "drftWv",
+      "brtBuzz",
+      "pulsOpp",
+      "oneFcBrt",
+      "CrBrtClk",
+      "2Tn2Pat",
+      "StnBsV",
+      "ClV",
+      "Frm",
+      "brtFrz",
+      "wblMuf",
+      "hlwDk",
+      "CrClk",
+      "1FcBrt",
+      "brtBz",
+      "2TnPt",
+      "plsOp"
+    ],
+    "classes": [
+      {
+        "class_id": "C1",
+        "label": "OBJECT",
+        "description": "Object being placed or draped.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "C2",
+        "label": "RELATION",
+        "description": "Spatial relation contributed by the placement expression.",
+        "repeatable": false,
+        "declared_fillers": []
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "K1",
+        "label": "placement expression",
+        "description": "Object plus spatial relation.",
+        "class_sequence": [
+          "C1",
+          "C2"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "StnBs",
+        "construction_id": "K1",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "Stn",
+            "class_id": "C1",
+            "gloss": "stone"
+          },
+          {
+            "form": "Bs",
+            "class_id": "C2",
+            "gloss": "beside"
+          }
+        ]
+      },
+      {
+        "symbol": "StnOn",
+        "construction_id": "K1",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "Stn",
+            "class_id": "C1",
+            "gloss": "stone"
+          },
+          {
+            "form": "On",
+            "class_id": "C2",
+            "gloss": "on"
+          }
+        ]
+      },
+      {
+        "symbol": "ClothOn",
+        "construction_id": "K1",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "Cloth",
+            "class_id": "C1",
+            "gloss": "cloth"
+          },
+          {
+            "form": "On",
+            "class_id": "C2",
+            "gloss": "on or over"
+          }
+        ]
+      }
+    ]
+  }
+}

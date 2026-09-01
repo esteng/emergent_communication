@@ -1,0 +1,1954 @@
+{
+  "start": "S",
+  "rules": [
+    {
+      "lhs": "S",
+      "rhs": [
+        "REP"
+      ],
+      "map": "merge"
+    },
+    {
+      "lhs": "S",
+      "rhs": [
+        "PROC"
+      ],
+      "map": "merge"
+    },
+    {
+      "lhs": "REP",
+      "rhs": [
+        "RPRE",
+        "RMOTIF",
+        "RPOST"
+      ],
+      "map": "merge"
+    },
+    {
+      "lhs": "RPRE",
+      "rhs": [
+        "FILL",
+        "RPRE"
+      ],
+      "map": "merge"
+    },
+    {
+      "lhs": "RPRE",
+      "rhs": [],
+      "map": "merge"
+    },
+    {
+      "lhs": "RPOST",
+      "rhs": [
+        "FILL",
+        "RPOST"
+      ],
+      "map": "merge"
+    },
+    {
+      "lhs": "RPOST",
+      "rhs": [
+        "RMOTIF",
+        "RPOST"
+      ],
+      "map": "merge"
+    },
+    {
+      "lhs": "RPOST",
+      "rhs": [],
+      "map": "merge"
+    },
+    {
+      "lhs": "PROC",
+      "rhs": [
+        "PPRE",
+        "TMPL",
+        "PMODS"
+      ],
+      "map": "merge"
+    },
+    {
+      "lhs": "PPRE",
+      "rhs": [
+        "FILL",
+        "PPRE"
+      ],
+      "map": "merge"
+    },
+    {
+      "lhs": "PPRE",
+      "rhs": [
+        "FACE",
+        "PPRE"
+      ],
+      "map": "merge"
+    },
+    {
+      "lhs": "PPRE",
+      "rhs": [
+        "INT",
+        "PPRE"
+      ],
+      "map": "merge"
+    },
+    {
+      "lhs": "PPRE",
+      "rhs": [
+        "DUR",
+        "PPRE"
+      ],
+      "map": "merge"
+    },
+    {
+      "lhs": "PPRE",
+      "rhs": [],
+      "map": "merge"
+    },
+    {
+      "lhs": "PMODS",
+      "rhs": [
+        "FILL",
+        "PMODS"
+      ],
+      "map": "merge"
+    },
+    {
+      "lhs": "PMODS",
+      "rhs": [
+        "FACE",
+        "PMODS"
+      ],
+      "map": "merge"
+    },
+    {
+      "lhs": "PMODS",
+      "rhs": [
+        "INT",
+        "PMODS"
+      ],
+      "map": "merge"
+    },
+    {
+      "lhs": "PMODS",
+      "rhs": [
+        "DUR",
+        "PMODS"
+      ],
+      "map": "merge"
+    },
+    {
+      "lhs": "PMODS",
+      "rhs": [],
+      "map": "merge"
+    },
+    {
+      "lhs": "DUR",
+      "rhs": [
+        "NUM",
+        "SEC"
+      ],
+      "map": "merge"
+    },
+    {
+      "lhs": "NUM",
+      "rhs": [
+        "#NUM"
+      ],
+      "map": "duration"
+    },
+    {
+      "lhs": "SEC",
+      "rhs": [
+        "s"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "SEC",
+      "rhs": [
+        "second"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "SEC",
+      "rhs": [
+        "seconds"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "flk"
+      ],
+      "map": {
+        "motif": "Alignment Collapse"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "broken"
+      ],
+      "map": {
+        "motif": "Alignment Collapse"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "flicker"
+      ],
+      "map": {
+        "motif": "Alignment Collapse"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "sld"
+      ],
+      "map": {
+        "motif": "Drift Escalation"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "sliding"
+      ],
+      "map": {
+        "motif": "Drift Escalation"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "drifting"
+      ],
+      "map": {
+        "motif": "Drift Escalation"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "blurred"
+      ],
+      "map": {
+        "motif": "Drift Escalation"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "tooB"
+      ],
+      "map": {
+        "motif": "Echo Saturation"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "ck"
+      ],
+      "map": {
+        "motif": "Leak Instability"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "df"
+      ],
+      "map": {
+        "motif": "Leak Instability"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "perimeter"
+      ],
+      "map": {
+        "motif": "Leak Instability"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "dim"
+      ],
+      "map": {
+        "motif": "Low Intensity"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "faint"
+      ],
+      "map": {
+        "motif": "Low Intensity"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "blz"
+      ],
+      "map": {
+        "motif": "High Intensity"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "blazing"
+      ],
+      "map": {
+        "motif": "High Intensity"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "pls"
+      ],
+      "map": {
+        "motif": "Phase Inversion"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "pulsing"
+      ],
+      "map": {
+        "motif": "Phase Inversion"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "alternating"
+      ],
+      "map": {
+        "motif": "Phase Inversion"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "\u2191"
+      ],
+      "map": {
+        "motif": "Resonance Cascade"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "whine"
+      ],
+      "map": {
+        "motif": "Resonance Cascade"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "vibration"
+      ],
+      "map": {
+        "motif": "Resonance Cascade"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "C"
+      ],
+      "map": {
+        "motif": "Corner Deadlock"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "clicking"
+      ],
+      "map": {
+        "motif": "Corner Deadlock"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "wbl"
+      ],
+      "map": {
+        "motif": "Boundary Softening"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "wobble"
+      ],
+      "map": {
+        "motif": "Boundary Softening"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "bulge"
+      ],
+      "map": {
+        "motif": "Boundary Softening"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "frz"
+      ],
+      "map": {
+        "motif": "Propagation Stall"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "cld"
+      ],
+      "map": {
+        "motif": "Propagation Stall"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "frozen"
+      ],
+      "map": {
+        "motif": "Propagation Stall"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "cold"
+      ],
+      "map": {
+        "motif": "Propagation Stall"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "Silent"
+      ],
+      "map": {
+        "motif": "Propagation Stall"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "silent"
+      ],
+      "map": {
+        "motif": "Propagation Stall"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "T"
+      ],
+      "map": {
+        "motif": "Harmonic Split"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "clashing"
+      ],
+      "map": {
+        "motif": "Harmonic Split"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "competing"
+      ],
+      "map": {
+        "motif": "Harmonic Split"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "shimmering"
+      ],
+      "map": {
+        "motif": "Harmonic Split"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "red"
+      ],
+      "map": {
+        "motif": "Thermal Bleed"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "reddish"
+      ],
+      "map": {
+        "motif": "Thermal Bleed"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "gritty"
+      ],
+      "map": {
+        "motif": "Thermal Bleed"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "rough"
+      ],
+      "map": {
+        "motif": "Thermal Bleed"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "hll"
+      ],
+      "map": {
+        "motif": "Core Void"
+      }
+    },
+    {
+      "lhs": "RMOTIF",
+      "rhs": [
+        "tap"
+      ],
+      "map": {
+        "motif": "Core Void"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "sustained"
+      ],
+      "map": {
+        "template": "TONE_ALL"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "Alternate"
+      ],
+      "map": {
+        "template": "BELL_ALT"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "alternate"
+      ],
+      "map": {
+        "template": "BELL_ALT"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "adjacent"
+      ],
+      "map": {
+        "template": "CLOTH_ADJ_E"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "Cl"
+      ],
+      "map": {
+        "template": "CLOTH_ADJ_E"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "Trace"
+      ],
+      "map": {
+        "template": "STONE_CORNERS"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "trace"
+      ],
+      "map": {
+        "template": "STONE_CORNERS"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "beside"
+      ],
+      "map": {
+        "template": "STONE_BESIDE_ROT"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "opposite"
+      ],
+      "map": {
+        "template": "FAN_OPP"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "opp"
+      ],
+      "map": {
+        "template": "FAN_OPP"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "lamp"
+      ],
+      "map": {
+        "template": "LAMP_DIM_BR"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "lp"
+      ],
+      "map": {
+        "template": "LAMP_DIM_BR"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "folded"
+      ],
+      "map": {
+        "template": "CLOTH_FOLD_FACE"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "Folded"
+      ],
+      "map": {
+        "template": "CLOTH_FOLD_FACE"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "briefly"
+      ],
+      "map": {
+        "template": "CORNER_BELL_STONE"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "board"
+      ],
+      "map": {
+        "template": "BOARD_FACE_ROT"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "center"
+      ],
+      "map": {
+        "template": "BELL_CTR_STONE"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "centre"
+      ],
+      "map": {
+        "template": "BELL_CTR_STONE"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "soft"
+      ],
+      "map": {
+        "template": "SOFT_REST"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "Soft"
+      ],
+      "map": {
+        "template": "SOFT_REST"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "all"
+      ],
+      "map": {
+        "template": "FAN_ALL"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "six"
+      ],
+      "map": {
+        "template": "FAN_ALL"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "Rotate"
+      ],
+      "map": {
+        "template": "ROTATE_TONE"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "rotate"
+      ],
+      "map": {
+        "template": "ROTATE_TONE"
+      }
+    },
+    {
+      "lhs": "TMPL",
+      "rhs": [
+        "slowly"
+      ],
+      "map": {
+        "template": "ROTATE_TONE"
+      }
+    },
+    {
+      "lhs": "FACE",
+      "rhs": [
+        "top"
+      ],
+      "map": {
+        "face": "top"
+      }
+    },
+    {
+      "lhs": "FACE",
+      "rhs": [
+        "bottom"
+      ],
+      "map": {
+        "face": "bottom"
+      }
+    },
+    {
+      "lhs": "FACE",
+      "rhs": [
+        "front"
+      ],
+      "map": {
+        "face": "front"
+      }
+    },
+    {
+      "lhs": "FACE",
+      "rhs": [
+        "back"
+      ],
+      "map": {
+        "face": "back"
+      }
+    },
+    {
+      "lhs": "FACE",
+      "rhs": [
+        "left"
+      ],
+      "map": {
+        "face": "left"
+      }
+    },
+    {
+      "lhs": "FACE",
+      "rhs": [
+        "right"
+      ],
+      "map": {
+        "face": "right"
+      }
+    },
+    {
+      "lhs": "FACE",
+      "rhs": [
+        "T"
+      ],
+      "map": {
+        "face": "top"
+      }
+    },
+    {
+      "lhs": "FACE",
+      "rhs": [
+        "Bo"
+      ],
+      "map": {
+        "face": "bottom"
+      }
+    },
+    {
+      "lhs": "FACE",
+      "rhs": [
+        "F"
+      ],
+      "map": {
+        "face": "front"
+      }
+    },
+    {
+      "lhs": "FACE",
+      "rhs": [
+        "B"
+      ],
+      "map": {
+        "face": "back"
+      }
+    },
+    {
+      "lhs": "FACE",
+      "rhs": [
+        "L"
+      ],
+      "map": {
+        "face": "left"
+      }
+    },
+    {
+      "lhs": "FACE",
+      "rhs": [
+        "R"
+      ],
+      "map": {
+        "face": "right"
+      }
+    },
+    {
+      "lhs": "INT",
+      "rhs": [
+        "gentle"
+      ],
+      "map": {
+        "intensity": "gentle"
+      }
+    },
+    {
+      "lhs": "INT",
+      "rhs": [
+        "moderate"
+      ],
+      "map": {
+        "intensity": "moderate"
+      }
+    },
+    {
+      "lhs": "INT",
+      "rhs": [
+        "mod"
+      ],
+      "map": {
+        "intensity": "moderate"
+      }
+    },
+    {
+      "lhs": "INT",
+      "rhs": [
+        "firm"
+      ],
+      "map": {
+        "intensity": "firm"
+      }
+    },
+    {
+      "lhs": "INT",
+      "rhs": [
+        "fir"
+      ],
+      "map": {
+        "intensity": "firm"
+      }
+    },
+    {
+      "lhs": "INT",
+      "rhs": [
+        "Heated"
+      ],
+      "map": {
+        "intensity": "firm"
+      }
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "#NUM"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "a"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "At"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "at"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "back"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "bottom"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "top"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "front"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "left"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "right"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "T"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "Bo"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "F"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "B"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "L"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "R"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "C"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "\u2191"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "s"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "x"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "Drape"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "drape"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "cloth"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "Cl"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "over"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "the"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "face"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "coverage"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "Then"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "then"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "chime"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "bell"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "Bell"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "near"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "each"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "edge"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "edges"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "twice"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "times"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "Place"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "place"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "Veyru"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "on"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "surface"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "up"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "contact"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "Rest"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "rest"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "undisturbed"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "Silent"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "silent"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "no"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "response"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "corners"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "Corners"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "corner"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "dark"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "fading"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "centers"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "ok"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "losing"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "light"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "hum"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "thin"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "hollow"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "hot"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "dim"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "red"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "Low"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "low"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "rumble"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "rough"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "gritty"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "Others"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "others"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "normal"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "whine"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "vibration"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "Warm"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "warm"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "Heated"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "heated"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "stone"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "stn"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "ea"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "in"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "sequence"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "with"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "w"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "finger"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "both"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "tone"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "Cool"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "cool"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "Remove"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "remove"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "fan"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "Fan"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "air"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "all"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "six"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "faces"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "start"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "starting"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "first"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "opposite"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "opp"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "Dim"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "bright"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "simultaneously"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "brightness"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "Don"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "t"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "move"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "lamps"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "lp"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "once"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "beside"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "center"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "centre"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "Alternate"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "between"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "pause"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "cycles"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "folded"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "Folded"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "adjacent"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "briefly"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "moderate"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "mod"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "firm"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "gentle"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "ck"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "df"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "frz"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "cld"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "blz"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "pls"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "hll"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "sld"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "wbl"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "tooB"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "flk"
+      ],
+      "map": null
+    },
+    {
+      "lhs": "FILL",
+      "rhs": [
+        "2T"
+      ],
+      "map": null
+    }
+  ]
+}

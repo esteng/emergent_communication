@@ -1,0 +1,281 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780615648",
+    "slots": [],
+    "segmentation": {
+      "C": [
+        "C"
+      ],
+      "E": [
+        "E"
+      ],
+      "FP": [
+        "FP"
+      ],
+      "FC": [
+        "FC"
+      ],
+      "H": [
+        "H"
+      ],
+      "ROT": [
+        "ROT"
+      ],
+      "BELL": [
+        "BELL"
+      ],
+      "FAN": [
+        "FAN"
+      ],
+      "STONE": [
+        "STONE"
+      ],
+      "CLOTH": [
+        "CLOTH"
+      ],
+      "LAMP": [
+        "LAMP"
+      ],
+      "BOARD": [
+        "BOARD"
+      ],
+      "TONE": [
+        "TONE"
+      ],
+      "R": [
+        "R"
+      ],
+      "L": [
+        "L"
+      ],
+      "T": [
+        "T"
+      ],
+      "B": [
+        "B"
+      ],
+      "Fr": [
+        "Fr"
+      ],
+      "Bk": [
+        "Bk"
+      ],
+      "G": [
+        "G"
+      ],
+      "M": [
+        "M"
+      ],
+      "S": [
+        "S"
+      ],
+      "FAIL": [
+        "FAIL"
+      ],
+      "Fx1": [
+        "Fx1"
+      ],
+      "Fx2": [
+        "Fx2"
+      ],
+      "A1": [
+        "A1"
+      ],
+      "A2": [
+        "A2"
+      ],
+      "A3": [
+        "A3"
+      ],
+      "A4": [
+        "A4"
+      ],
+      "A5": [
+        "A5"
+      ],
+      "A6": [
+        "A6"
+      ],
+      "A7": [
+        "A7"
+      ],
+      "A8": [
+        "A8"
+      ],
+      "A9": [
+        "A9"
+      ],
+      "A10": [
+        "A10"
+      ],
+      "A11": [
+        "A11"
+      ],
+      "A12": [
+        "A12"
+      ],
+      "A13": [
+        "A13"
+      ],
+      "A14": [
+        "A14"
+      ],
+      "F": [
+        "F"
+      ]
+    },
+    "head_index": {
+      "C": 0,
+      "E": 0,
+      "FP": 0,
+      "FC": 0,
+      "H": 0,
+      "ROT": 0,
+      "BELL": 0,
+      "FAN": 0,
+      "STONE": 0,
+      "CLOTH": 0,
+      "LAMP": 0,
+      "BOARD": 0,
+      "TONE": 0,
+      "R": 0,
+      "L": 0,
+      "T": 0,
+      "B": 0,
+      "Fr": 0,
+      "Bk": 0,
+      "G": 0,
+      "M": 0,
+      "S": 0,
+      "FAIL": 0,
+      "Fx1": 0,
+      "Fx2": 0,
+      "A1": 0,
+      "A2": 0,
+      "A3": 0,
+      "A4": 0,
+      "A5": 0,
+      "A6": 0,
+      "A7": 0,
+      "A8": 0,
+      "A9": 0,
+      "A10": 0,
+      "A11": 0,
+      "A12": 0,
+      "A13": 0,
+      "A14": 0,
+      "F": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "C": "corners",
+      "E": "edges",
+      "FP": "face perimeter",
+      "FC": "face center",
+      "H": "hum, then dim/fade/hollow etc.",
+      "ROT": "rotate",
+      "BELL": "bell",
+      "FAN": "fan",
+      "STONE": "stone",
+      "CLOTH": "cloth",
+      "LAMP": "lamp",
+      "BOARD": "board",
+      "TONE": "tone",
+      "R": "right face",
+      "L": "left face",
+      "T": "top face",
+      "B": "bottom face",
+      "Fr": "front face",
+      "Bk": "back face",
+      "G": "gentle intensity; one light tap or chime held 1 centimeter from the surface",
+      "M": "medium or moderate intensity; normal intensity",
+      "S": "strong intensity",
+      "FAIL": "the action failed",
+      "Fx1": "failed step 1",
+      "Fx2": "failed step 2",
+      "A1": "Sound a sustained gentle, moderate, or firm tone near all six faces simultaneously for the specified number of seconds, starting from the specified face. Let the tone fade naturally and wait for the hum to stabilize.",
+      "A2": "Chime a bell near two opposite faces, starting from the specified face. Alternate the chime between the two faces with the specified number of seconds pause between chimes for five cycles at the specified gentle, moderate, or firm tone.",
+      "A3": "Drape a cloth over two adjacent edges near the specified face for the specified number of seconds at the specified gentle, moderate, or firm coverage. Then chime a bell three times near the specified face.",
+      "A4": "Warm each corner of the specified face by holding a heated stone nearby for the specified number of seconds at the specified gentle, moderate, or firm warmth, in sequence. Then trace each edge of the specified face with a finger.",
+      "A5": "Place a warm stone beside the specified face at the specified gentle, moderate, or firm warmth for the specified number of seconds. Rotate and repeat for each face.",
+      "A6": "Drape a cool cloth over the Veyru for the specified number of seconds. Remove the cloth and fan gentle, moderate, or firm cool air across the specified face and the opposite face for the same specified number of seconds.",
+      "A7": "Illuminate the specified face with a dim lamp and the opposite face with a bright lamp simultaneously at the specified gentle, moderate, or firm brightness for the specified number of seconds, without moving the lamps.",
+      "A8": "Drape a folded cloth over the specified face for the specified number of seconds at the specified gentle, moderate, or firm coverage. Then chime a bell near each edge of the specified face twice.",
+      "A9": "At each corner of the specified face, chime a bell briefly at the specified gentle, moderate, or firm tone, then warm the two edges meeting at that corner with a heated stone for the specified number of seconds.",
+      "A10": "Rest a flat board against the specified face at the specified gentle, moderate, or firm contact for the specified number of seconds. Rotate and repeat for each face-pair.",
+      "A11": "Chime a bell near the center of each face once at the specified gentle, moderate, or firm tone, starting from the specified face. Then place a warm stone beside the Veyru for the specified number of seconds.",
+      "A12": "Place the Veyru on a soft surface with the specified face up at the specified gentle, moderate, or firm contact. Let it rest undisturbed for the specified number of seconds.",
+      "A13": "Drape a cool cloth over the Veyru for the specified number of seconds. Remove and fan gentle, moderate, or firm cool air across all six faces for the same specified number of seconds, starting from the specified face.",
+      "A14": "Rotate the Veyru slowly over the specified number of seconds while sounding a steady tone at the specified gentle, moderate, or firm volume near opposite faces, starting from the specified face. After rotation, chime a bell once near each corner.",
+      "F": "firm intensity"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780615648",
+    "n_codes": 40,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible compositional paradigm survives the evidence tests. The candidate families are all rejectable as accidental string overlap or opaque indexing: (i) A1/A10/A11/A12/A13/A14 are not A1 plus meaningful suffixes, because the numerals do not contribute a stable literal meaning and the procedures are unrelated stored routines; (ii) STONE/TONE do not support ST/T + ONE, since no shared meaning for ONE is compositionally recoverable; (iii) FAN/FAIL do not support FA + N/IL, since FA has no stable contribution across the pair; (iv) Fx1/Fx2 look closest to a family, but with only two opaque labels for specific failed steps and no independent evidence that 1 and 2 function productively as a step-number slot, the safer analysis is whole-lexeme storage under the opaque index test. Standalone face and intensity symbols do form semantic sets, but without any segmented multi-morpheme entries they cannot by themselves license constructions here. Therefore every supplied symbol is treated as a lexical symbol.",
+    "lexical_symbols": [
+      "C",
+      "E",
+      "FP",
+      "FC",
+      "H",
+      "ROT",
+      "BELL",
+      "FAN",
+      "STONE",
+      "CLOTH",
+      "LAMP",
+      "BOARD",
+      "TONE",
+      "R",
+      "L",
+      "T",
+      "B",
+      "Fr",
+      "Bk",
+      "G",
+      "M",
+      "S",
+      "FAIL",
+      "Fx1",
+      "Fx2",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "F"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

@@ -1,0 +1,353 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780448124",
+    "slots": [],
+    "segmentation": {
+      "R": [
+        "R"
+      ],
+      "L": [
+        "L"
+      ],
+      "T": [
+        "T"
+      ],
+      "B": [
+        "B"
+      ],
+      "Fr": [
+        "Fr"
+      ],
+      "Bk": [
+        "Bk"
+      ],
+      "f": [
+        "f"
+      ],
+      "g": [
+        "g"
+      ],
+      "s": [
+        "s"
+      ],
+      "Cl": [
+        "Cl"
+      ],
+      "St": [
+        "St"
+      ],
+      "Be": [
+        "Be"
+      ],
+      "La": [
+        "La"
+      ],
+      "Fa": [
+        "Fa"
+      ],
+      "Bo": [
+        "Bo"
+      ],
+      "H": [
+        "H"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "Br": [
+        "Br"
+      ],
+      "Ru": [
+        "Ru"
+      ],
+      "To": [
+        "To"
+      ],
+      "Gr": [
+        "Gr"
+      ],
+      "Sm": [
+        "Sm"
+      ],
+      "fail": [
+        "fail"
+      ],
+      "fail2": [
+        "fail2"
+      ],
+      "ok": [
+        "ok"
+      ],
+      "Ws": [
+        "Ws"
+      ],
+      "Bz": [
+        "Bz"
+      ],
+      "Rm": [
+        "Rm"
+      ],
+      "Wh": [
+        "Wh"
+      ],
+      "Cn": [
+        "Cn"
+      ],
+      "Ed": [
+        "Ed"
+      ],
+      "Ct": [
+        "Ct"
+      ],
+      "Pm": [
+        "Pm"
+      ],
+      "Al": [
+        "Al"
+      ],
+      "Wp": [
+        "Wp"
+      ],
+      "Re": [
+        "Re"
+      ],
+      "Bl": [
+        "Bl"
+      ],
+      "Gn": [
+        "Gn"
+      ],
+      "Pu": [
+        "Pu"
+      ],
+      "Sl": [
+        "Sl"
+      ],
+      "Hw": [
+        "Hw"
+      ],
+      "Ck": [
+        "Ck"
+      ],
+      "Wb": [
+        "Wb"
+      ],
+      "Wn": [
+        "Wn"
+      ],
+      "Ly": [
+        "Ly"
+      ],
+      "Fl": [
+        "Fl"
+      ],
+      "stp": [
+        "stp"
+      ],
+      "IrHm": [
+        "IrHm"
+      ],
+      "ChF": [
+        "ChF"
+      ],
+      "Si": [
+        "Si"
+      ],
+      "nR": [
+        "nR"
+      ]
+    },
+    "head_index": {
+      "R": 0,
+      "L": 0,
+      "T": 0,
+      "B": 0,
+      "Fr": 0,
+      "Bk": 0,
+      "f": 0,
+      "g": 0,
+      "s": 0,
+      "Cl": 0,
+      "St": 0,
+      "Be": 0,
+      "La": 0,
+      "Fa": 0,
+      "Bo": 0,
+      "H": 0,
+      "C": 0,
+      "D": 0,
+      "Br": 0,
+      "Ru": 0,
+      "To": 0,
+      "Gr": 0,
+      "Sm": 0,
+      "fail": 0,
+      "fail2": 0,
+      "ok": 0,
+      "Ws": 0,
+      "Bz": 0,
+      "Rm": 0,
+      "Wh": 0,
+      "Cn": 0,
+      "Ed": 0,
+      "Ct": 0,
+      "Pm": 0,
+      "Al": 0,
+      "Wp": 0,
+      "Re": 0,
+      "Bl": 0,
+      "Gn": 0,
+      "Pu": 0,
+      "Sl": 0,
+      "Hw": 0,
+      "Ck": 0,
+      "Wb": 0,
+      "Wn": 0,
+      "Ly": 0,
+      "Fl": 0,
+      "stp": 0,
+      "IrHm": 0,
+      "ChF": 0,
+      "Si": 0,
+      "nR": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "R": "right face",
+      "L": "left face",
+      "T": "top face",
+      "B": "bottom face",
+      "Fr": "front face, the face pointing toward you",
+      "Bk": "back face, the face opposite the front face",
+      "f": "firm",
+      "g": "gentle",
+      "s": "strong",
+      "Cl": "cloth",
+      "St": "stone",
+      "Be": "bell",
+      "La": "lamp",
+      "Fa": "fan",
+      "Bo": "board",
+      "H": "hot",
+      "C": "cold",
+      "D": "dim",
+      "Br": "bright",
+      "Ru": "rumble",
+      "To": "tone",
+      "Gr": "gritty",
+      "Sm": "smooth, +color",
+      "fail": "the procedure failed and the Veyru was not stabilized yet",
+      "fail2": "the same action was retried once immediately and the second attempt also failed",
+      "ok": "the previous fix worked; if followed by symptom codes, it means the fix succeeded and new symptoms are now present",
+      "Ws": "washed",
+      "Bz": "buzz",
+      "Rm": "rumble",
+      "Wh": "white",
+      "Cn": "corners",
+      "Ed": "edges",
+      "Ct": "center",
+      "Pm": "perimeter",
+      "Al": "all",
+      "Wp": "whisper",
+      "Re": "red",
+      "Bl": "blue",
+      "Gn": "green",
+      "Pu": "pulse, rhythmic pulsing",
+      "Sl": "slide, light sliding across a face",
+      "Hw": "hollow, hollow sound when tapped",
+      "Ck": "click, clicking or ticking sound",
+      "Wb": "wobble, edges wobbling or flexing",
+      "Wn": "whine, high-pitched whine",
+      "Ly": "layered, layered or stacked tones",
+      "Fl": "flicker, random light flickering",
+      "stp": "stop cleanly",
+      "IrHm": "irregular hum",
+      "ChF": "chaotic faces",
+      "Si": "silence",
+      "nR": "no response"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780448124",
+    "n_codes": 52,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible compositional paradigm survives the evidence threshold. The inventory is dominated by standalone symbols with atomic meanings. Although many items are semantically related (faces, intensities, colors, regions, symptoms), there are no multi-morpheme codes showing substitution in a shared frame. The only apparent surface relation, fail ~ fail2, does not justify segmentation: there is no independent paradigm for a final numeral/count slot, no contrasting frame with other count values, and the meaning is compatible with fail2 being an opaque stored label for a specific retried-failure state rather than fail + literal '2'. Per the opaque index test and the preference for flat lexicon over false morphology, all symbols are treated as lexical.",
+    "lexical_symbols": [
+      "R",
+      "L",
+      "T",
+      "B",
+      "Fr",
+      "Bk",
+      "f",
+      "g",
+      "s",
+      "Cl",
+      "St",
+      "Be",
+      "La",
+      "Fa",
+      "Bo",
+      "H",
+      "C",
+      "D",
+      "Br",
+      "Ru",
+      "To",
+      "Gr",
+      "Sm",
+      "fail",
+      "fail2",
+      "ok",
+      "Ws",
+      "Bz",
+      "Rm",
+      "Wh",
+      "Cn",
+      "Ed",
+      "Ct",
+      "Pm",
+      "Al",
+      "Wp",
+      "Re",
+      "Bl",
+      "Gn",
+      "Pu",
+      "Sl",
+      "Hw",
+      "Ck",
+      "Wb",
+      "Wn",
+      "Ly",
+      "Fl",
+      "stp",
+      "IrHm",
+      "ChF",
+      "Si",
+      "nR"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

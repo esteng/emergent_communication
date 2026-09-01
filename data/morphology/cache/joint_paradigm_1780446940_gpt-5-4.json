@@ -1,0 +1,548 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780446940",
+    "slots": [
+      {
+        "role": "prefix",
+        "fillers": [
+          {
+            "form": "1face-",
+            "gloss": "single face",
+            "support": 2,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "bright",
+            "gloss": "bright",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "dim",
+            "gloss": "dim",
+            "support": 1,
+            "is_defined": true
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "R": [
+        "R"
+      ],
+      "L": [
+        "L"
+      ],
+      "T": [
+        "T"
+      ],
+      "B": [
+        "B"
+      ],
+      "F": [
+        "F"
+      ],
+      "Bk": [
+        "Bk"
+      ],
+      "opp": [
+        "opp"
+      ],
+      "s": [
+        "s"
+      ],
+      "dim": [
+        "dim"
+      ],
+      "bright": [
+        "bright"
+      ],
+      "flicker": [
+        "flicker"
+      ],
+      "drift": [
+        "drift"
+      ],
+      "frozen": [
+        "frozen"
+      ],
+      "pulse": [
+        "pulse"
+      ],
+      "dark-corners": [
+        "dark-corners"
+      ],
+      "dark-center": [
+        "dark-center"
+      ],
+      "one-face-bright": [
+        "one-face-bright"
+      ],
+      "faint": [
+        "faint"
+      ],
+      "loud": [
+        "loud"
+      ],
+      "silent": [
+        "silent"
+      ],
+      "click": [
+        "click"
+      ],
+      "whine": [
+        "whine"
+      ],
+      "2tones": [
+        "2tones"
+      ],
+      "wavering": [
+        "wavering"
+      ],
+      "layered": [
+        "layered"
+      ],
+      "rumble": [
+        "rumble"
+      ],
+      "hollow": [
+        "hollow"
+      ],
+      "cold": [
+        "cold"
+      ],
+      "hot": [
+        "hot"
+      ],
+      "wobble": [
+        "wobble"
+      ],
+      "normal": [
+        "normal"
+      ],
+      "gritty": [
+        "gritty"
+      ],
+      "?-face": [
+        "?-face"
+      ],
+      "now:": [
+        "now:"
+      ],
+      "1face-bright": [
+        "1face-",
+        "bright"
+      ],
+      "corners-bright": [
+        "corners-bright"
+      ],
+      "opp-faces": [
+        "opp-faces"
+      ],
+      "dark-ctr": [
+        "dark-ctr"
+      ],
+      "dark-edges": [
+        "dark-edges"
+      ],
+      "1face-dim": [
+        "1face-",
+        "dim"
+      ],
+      "no": [
+        "no"
+      ],
+      "partial": [
+        "partial"
+      ],
+      "C": [
+        "C"
+      ],
+      "K": [
+        "K"
+      ],
+      "D": [
+        "D"
+      ],
+      "A": [
+        "A"
+      ],
+      "P": [
+        "P"
+      ],
+      "S": [
+        "S"
+      ],
+      "H": [
+        "H"
+      ],
+      "E": [
+        "E"
+      ],
+      "I": [
+        "I"
+      ],
+      "?": [
+        "?"
+      ]
+    },
+    "head_index": {
+      "R": 0,
+      "L": 0,
+      "T": 0,
+      "B": 0,
+      "F": 0,
+      "Bk": 0,
+      "opp": 0,
+      "s": 0,
+      "dim": 0,
+      "bright": 0,
+      "flicker": 0,
+      "drift": 0,
+      "frozen": 0,
+      "pulse": 0,
+      "dark-corners": 0,
+      "dark-center": 0,
+      "one-face-bright": 0,
+      "faint": 0,
+      "loud": 0,
+      "silent": 0,
+      "click": 0,
+      "whine": 0,
+      "2tones": 0,
+      "wavering": 0,
+      "layered": 0,
+      "rumble": 0,
+      "hollow": 0,
+      "cold": 0,
+      "hot": 0,
+      "wobble": 0,
+      "normal": 0,
+      "gritty": 0,
+      "?-face": 0,
+      "now:": 0,
+      "1face-bright": 1,
+      "corners-bright": 0,
+      "opp-faces": 0,
+      "dark-ctr": 0,
+      "dark-edges": 0,
+      "1face-dim": 1,
+      "no": 0,
+      "partial": 0,
+      "C": 0,
+      "K": 0,
+      "D": 0,
+      "A": 0,
+      "P": 0,
+      "S": 0,
+      "H": 0,
+      "E": 0,
+      "I": 0,
+      "?": 0
+    },
+    "attested_orderings": [
+      [
+        "prefix",
+        "stem"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [],
+    "form_positions": {
+      "1face-": 0,
+      "bright": 1,
+      "dim": 1
+    },
+    "position_labels": {
+      "0": "single-face scope",
+      "1": "local light level"
+    },
+    "positions_by_symbol": {
+      "1face-bright": [
+        0,
+        1
+      ],
+      "1face-dim": [
+        0,
+        1
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "1face-": "single face"
+      },
+      "1": {
+        "bright": "bright",
+        "dim": "dim"
+      }
+    },
+    "meaning_by_symbol": {
+      "R": "right face",
+      "L": "left face",
+      "T": "top face",
+      "B": "bottom face",
+      "F": "front face",
+      "Bk": "back face",
+      "opp": "opposite of the named face",
+      "s": "seconds",
+      "dim": "the light is dim",
+      "bright": "the light is bright",
+      "flicker": "the light flickers",
+      "drift": "the light drifts",
+      "frozen": "the patterns are still and dim",
+      "pulse": "the light pulses",
+      "dark-corners": "the corners are dim or almost dark",
+      "dark-center": "the center is dark",
+      "one-face-bright": "one face is bright",
+      "faint": "the sound is faint",
+      "loud": "the sound is loud",
+      "silent": "there is no sound",
+      "click": "the sound is a click",
+      "whine": "the sound is a whine",
+      "2tones": "there are two tones",
+      "wavering": "the sound wavers",
+      "layered": "the sound is layered",
+      "rumble": "the sound is a rumble",
+      "hollow": "the sound is hollow",
+      "cold": "the surface feels cold",
+      "hot": "the surface feels hot",
+      "wobble": "the surface or shape wobbles",
+      "normal": "the surface feels normal",
+      "gritty": "the surface feels gritty or rough",
+      "?-face": "the affected face cannot be identified",
+      "now:": "new symptom state now follows",
+      "1face-bright": "a single face is bright",
+      "corners-bright": "the corners are bright",
+      "opp-faces": "opposite faces are involved",
+      "dark-ctr": "the center is dark, center only, held to light",
+      "dark-edges": "the edges are faint or dark",
+      "1face-dim": "a single face is dim",
+      "no": "the diagnosis or action was wrong",
+      "partial": "the action had some effect and the new state should be described",
+      "C": "Core Void",
+      "K": "Leak Instability",
+      "D": "Corner Deadlock",
+      "A": "Alignment Collapse",
+      "P": "Phase Inversion",
+      "S": "Propagation Stall",
+      "H": "Harmonic Split",
+      "E": "Echo Saturation",
+      "I": "High Intensity",
+      "?": "I doubt the motif code; send a detailed symptom description"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780446940",
+    "n_codes": 52,
+    "n_multimorpheme": 2,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "prefix",
+        "label": "single-face scope",
+        "fillers": [
+          {
+            "form": "1face-",
+            "gloss": "single face",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "stem",
+        "label": "local light level",
+        "fillers": [
+          {
+            "form": "bright",
+            "gloss": "bright",
+            "count": 1
+          },
+          {
+            "form": "dim",
+            "gloss": "dim",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "1face-bright": [
+        "pos0",
+        "pos1"
+      ],
+      "1face-dim": [
+        "pos0",
+        "pos1"
+      ]
+    },
+    "construction_by_symbol": {
+      "1face-bright": "CX_SINGLE_FACE_LIGHT_LEVEL",
+      "1face-dim": "CX_SINGLE_FACE_LIGHT_LEVEL"
+    },
+    "construction_labels": {
+      "CX_SINGLE_FACE_LIGHT_LEVEL": "single-face light level"
+    },
+    "construction_templates": {
+      "CX_SINGLE_FACE_LIGHT_LEVEL": [
+        "pos0",
+        "pos1"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "Most symbols are best treated as opaque lexical items: the candidate shared strings like -right, dark-, -es, -ble, -im, -er, -nt, -al, op-, ho-, and co- do not support coherent compositional paradigms across multiple entries. The one defensible paradigm is 1face-bright / 1face-dim: these form a minimal substitution contrast in the same frame, with stable compositional meanings 'single face' + 'bright/dim'. Standalone bright and dim also declare the value set for that state slot. No broader family is justified.",
+    "lexical_symbols": [
+      "R",
+      "L",
+      "T",
+      "B",
+      "F",
+      "Bk",
+      "opp",
+      "s",
+      "dim",
+      "bright",
+      "flicker",
+      "drift",
+      "frozen",
+      "pulse",
+      "dark-corners",
+      "dark-center",
+      "one-face-bright",
+      "faint",
+      "loud",
+      "silent",
+      "click",
+      "whine",
+      "2tones",
+      "wavering",
+      "layered",
+      "rumble",
+      "hollow",
+      "cold",
+      "hot",
+      "wobble",
+      "normal",
+      "gritty",
+      "?-face",
+      "now:",
+      "corners-bright",
+      "opp-faces",
+      "dark-ctr",
+      "dark-edges",
+      "no",
+      "partial",
+      "C",
+      "K",
+      "D",
+      "A",
+      "P",
+      "S",
+      "H",
+      "E",
+      "I",
+      "?"
+    ],
+    "classes": [
+      {
+        "class_id": "CL_SINGLE_FACE_SCOPE",
+        "label": "single-face scope",
+        "description": "Marks that the described light state applies to a single face.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CL_LOCAL_LIGHT_LEVEL",
+        "label": "local light level",
+        "description": "Brightness level of the affected face.",
+        "repeatable": false,
+        "declared_fillers": [
+          {
+            "form": "bright",
+            "gloss": "bright"
+          },
+          {
+            "form": "dim",
+            "gloss": "dim"
+          }
+        ]
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "CX_SINGLE_FACE_LIGHT_LEVEL",
+        "label": "single-face light level",
+        "description": "A single-face marker followed by a local light-level term.",
+        "class_sequence": [
+          "CL_SINGLE_FACE_SCOPE",
+          "CL_LOCAL_LIGHT_LEVEL"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "1face-bright",
+        "construction_id": "CX_SINGLE_FACE_LIGHT_LEVEL",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "1face-",
+            "class_id": "CL_SINGLE_FACE_SCOPE",
+            "gloss": "single face"
+          },
+          {
+            "form": "bright",
+            "class_id": "CL_LOCAL_LIGHT_LEVEL",
+            "gloss": "bright"
+          }
+        ]
+      },
+      {
+        "symbol": "1face-dim",
+        "construction_id": "CX_SINGLE_FACE_LIGHT_LEVEL",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "1face-",
+            "class_id": "CL_SINGLE_FACE_SCOPE",
+            "gloss": "single face"
+          },
+          {
+            "form": "dim",
+            "class_id": "CL_LOCAL_LIGHT_LEVEL",
+            "gloss": "dim"
+          }
+        ]
+      }
+    ]
+  }
+}

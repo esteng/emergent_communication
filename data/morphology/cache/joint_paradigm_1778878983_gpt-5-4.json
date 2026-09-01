@@ -1,0 +1,794 @@
+{
+  "grammar": {
+    "run_key": "veyru/1778878983",
+    "slots": [
+      {
+        "role": "prefix",
+        "fillers": [
+          {
+            "form": "brt-",
+            "gloss": "bright",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "dim-",
+            "gloss": "dim",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "e4",
+            "gloss": "each of 4",
+            "support": 2,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "E",
+            "gloss": "edge",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "X",
+            "gloss": "corner",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "lamp",
+            "gloss": "lamp",
+            "support": 2,
+            "is_defined": true
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "A": [
+        "A"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "L": [
+        "L"
+      ],
+      "LI": [
+        "LI"
+      ],
+      "HI": [
+        "HI"
+      ],
+      "P": [
+        "P"
+      ],
+      "R": [
+        "R"
+      ],
+      "C": [
+        "C"
+      ],
+      "B": [
+        "B"
+      ],
+      "S": [
+        "S"
+      ],
+      "H": [
+        "H"
+      ],
+      "T": [
+        "T"
+      ],
+      "V": [
+        "V"
+      ],
+      "flk": [
+        "flk"
+      ],
+      "brt": [
+        "brt"
+      ],
+      "b": [
+        "b"
+      ],
+      "s": [
+        "s"
+      ],
+      "c": [
+        "c"
+      ],
+      "bd": [
+        "bd"
+      ],
+      "f": [
+        "f"
+      ],
+      "l": [
+        "l"
+      ],
+      "t": [
+        "t"
+      ],
+      "F": [
+        "F"
+      ],
+      "K": [
+        "K"
+      ],
+      "eE": [
+        "eE"
+      ],
+      "2aE": [
+        "2aE"
+      ],
+      "X": [
+        "X"
+      ],
+      "eX": [
+        "eX"
+      ],
+      "cc": [
+        "cc"
+      ],
+      "b3": [
+        "b3"
+      ],
+      "b2x": [
+        "b2x"
+      ],
+      "hollow": [
+        "hollow"
+      ],
+      "2tone": [
+        "2tone"
+      ],
+      "whisp": [
+        "whisp"
+      ],
+      "blaze": [
+        "blaze"
+      ],
+      "froz": [
+        "froz"
+      ],
+      "ovrbrt": [
+        "ovrbrt"
+      ],
+      "opp": [
+        "opp"
+      ],
+      "1face": [
+        "1face"
+      ],
+      "e8X": [
+        "e8X"
+      ],
+      "e4E": [
+        "e4",
+        "E"
+      ],
+      "cool-stone": [
+        "cool-stone"
+      ],
+      "cloth": [
+        "cloth"
+      ],
+      "cool-cloth": [
+        "cool-cloth"
+      ],
+      "board": [
+        "board"
+      ],
+      "fan": [
+        "fan"
+      ],
+      "lamp": [
+        "lamp"
+      ],
+      "tone": [
+        "tone"
+      ],
+      "trace": [
+        "trace"
+      ],
+      "rest": [
+        "rest"
+      ],
+      "rotate": [
+        "rotate"
+      ],
+      "g": [
+        "g"
+      ],
+      "mod": [
+        "mod"
+      ],
+      "firm": [
+        "firm"
+      ],
+      "+": [
+        "+"
+      ],
+      ";": [
+        ";"
+      ],
+      ":": [
+        ":"
+      ],
+      "mtg": [
+        "mtg"
+      ],
+      "?": [
+        "?"
+      ],
+      "??": [
+        "??"
+      ],
+      "V:": [
+        "V:"
+      ],
+      "e4X": [
+        "e4",
+        "X"
+      ],
+      "@": [
+        "@"
+      ],
+      "dim-lamp": [
+        "dim-",
+        "lamp"
+      ],
+      "brt-lamp": [
+        "brt-",
+        "lamp"
+      ]
+    },
+    "head_index": {
+      "A": 0,
+      "D": 0,
+      "E": 0,
+      "L": 0,
+      "LI": 0,
+      "HI": 0,
+      "P": 0,
+      "R": 0,
+      "C": 0,
+      "B": 0,
+      "S": 0,
+      "H": 0,
+      "T": 0,
+      "V": 0,
+      "flk": 0,
+      "brt": 0,
+      "b": 0,
+      "s": 0,
+      "c": 0,
+      "bd": 0,
+      "f": 0,
+      "l": 0,
+      "t": 0,
+      "F": 0,
+      "K": 0,
+      "eE": 0,
+      "2aE": 0,
+      "X": 0,
+      "eX": 0,
+      "cc": 0,
+      "b3": 0,
+      "b2x": 0,
+      "hollow": 0,
+      "2tone": 0,
+      "whisp": 0,
+      "blaze": 0,
+      "froz": 0,
+      "ovrbrt": 0,
+      "opp": 0,
+      "1face": 0,
+      "e8X": 0,
+      "e4E": 1,
+      "cool-stone": 0,
+      "cloth": 0,
+      "cool-cloth": 0,
+      "board": 0,
+      "fan": 0,
+      "lamp": 0,
+      "tone": 0,
+      "trace": 0,
+      "rest": 0,
+      "rotate": 0,
+      "g": 0,
+      "mod": 0,
+      "firm": 0,
+      "+": 0,
+      ";": 0,
+      ":": 0,
+      "mtg": 0,
+      "?": 0,
+      "??": 0,
+      "V:": 0,
+      "e4X": 1,
+      "@": 0,
+      "dim-lamp": 1,
+      "brt-lamp": 1
+    },
+    "attested_orderings": [
+      [
+        "prefix",
+        "stem"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [],
+    "form_positions": {
+      "dim-": 0,
+      "brt-": 0,
+      "lamp": 1,
+      "e4": 2,
+      "E": 3,
+      "X": 3
+    },
+    "position_labels": {
+      "0": "lamp modifier",
+      "1": "lamp base",
+      "2": "each-of-four prefix",
+      "3": "spatial unit"
+    },
+    "positions_by_symbol": {
+      "dim-lamp": [
+        0,
+        1
+      ],
+      "brt-lamp": [
+        0,
+        1
+      ],
+      "e4E": [
+        2,
+        3
+      ],
+      "e4X": [
+        2,
+        3
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "dim-": "dim",
+        "brt-": "bright"
+      },
+      "1": {
+        "lamp": "lamp"
+      },
+      "2": {
+        "e4": "each of 4"
+      },
+      "3": {
+        "E": "edge",
+        "X": "corner"
+      }
+    },
+    "meaning_by_symbol": {
+      "A": "Alignment Collapse",
+      "D": "Drift",
+      "E": "Echo Sat",
+      "L": "left face",
+      "LI": "Low Int",
+      "HI": "High Int",
+      "P": "Phase Inv",
+      "R": "right face",
+      "C": "Corner Deadlock",
+      "B": "Boundary Soft",
+      "S": "Stall",
+      "H": "Harmonic Split",
+      "T": "Thermal Bleed",
+      "V": "Core Void",
+      "flk": "flicker",
+      "brt": "bright",
+      "b": "bell",
+      "s": "stone",
+      "c": "cloth",
+      "bd": "board",
+      "f": "fan",
+      "l": "lamp",
+      "t": "tone, voice",
+      "F": "front K=back T=top B=bottom L=left R=right",
+      "K": "back face",
+      "eE": "each edge of, 2aE=2 adjacent edges",
+      "2aE": "2 adjacent edges",
+      "X": "corner; @F = at front",
+      "eX": "each corner of",
+      "cc": "cool cloth",
+      "b3": "bell 3 times",
+      "b2x": "bell 2 times at each location specified",
+      "hollow": "hollow",
+      "2tone": "2 tones",
+      "whisp": "whisper",
+      "blaze": "blazing",
+      "froz": "frozen",
+      "ovrbrt": "overbright",
+      "opp": "opposite",
+      "1face": "1 face",
+      "e8X": "each of 8 corners",
+      "e4E": "each of 4 edges",
+      "cool-stone": "cold stone",
+      "cloth": "drape cloth",
+      "cool-cloth": "cool cloth, drape cool cloth",
+      "board": "flat board",
+      "fan": "fan air",
+      "lamp": "lamp",
+      "tone": "sustained tone, human voice or hum",
+      "trace": "trace with finger",
+      "rest": "undisturbed rest",
+      "rotate": "slow rotation",
+      "g": "gentle",
+      "mod": "moderate",
+      "firm": "firm",
+      "+": "and",
+      ";": "then",
+      ":": "at each, do",
+      "mtg": "meeting",
+      "?": "wording issue, retry with more detail",
+      "??": "procedure issue",
+      "V:": "paste the exact verbatim procedure text into stabilize_veyru with no edits",
+      "e4X": "all 4 corners of a face",
+      "@": "at",
+      "dim-lamp": "dim lamp",
+      "brt-lamp": "bright lamp"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1778878983",
+    "n_codes": 66,
+    "n_multimorpheme": 4,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "prefix",
+        "label": "lamp modifier",
+        "fillers": [
+          {
+            "form": "brt-",
+            "gloss": "bright",
+            "count": 1
+          },
+          {
+            "form": "dim-",
+            "gloss": "dim",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.5,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "stem",
+        "label": "lamp base",
+        "fillers": [
+          {
+            "form": "lamp",
+            "gloss": "lamp",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.5,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos2",
+        "role": "prefix",
+        "label": "each-of-four prefix",
+        "fillers": [
+          {
+            "form": "e4",
+            "gloss": "each of 4",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.5,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos3",
+        "role": "stem",
+        "label": "spatial unit",
+        "fillers": [
+          {
+            "form": "E",
+            "gloss": "edge",
+            "count": 1
+          },
+          {
+            "form": "X",
+            "gloss": "corner",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.5,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      },
+      {
+        "slot_a": "pos2",
+        "slot_b": "pos3",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ],
+      [
+        "pos2",
+        "pos3"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "dim-lamp": [
+        "pos0",
+        "pos1"
+      ],
+      "brt-lamp": [
+        "pos0",
+        "pos1"
+      ],
+      "e4E": [
+        "pos2",
+        "pos3"
+      ],
+      "e4X": [
+        "pos2",
+        "pos3"
+      ]
+    },
+    "construction_by_symbol": {
+      "dim-lamp": "CX_MOD_LAMP",
+      "brt-lamp": "CX_MOD_LAMP",
+      "e4E": "CX_E4_SPATIAL",
+      "e4X": "CX_E4_SPATIAL"
+    },
+    "construction_labels": {
+      "CX_MOD_LAMP": "modifier + lamp",
+      "CX_E4_SPATIAL": "each-of-four spatial unit"
+    },
+    "construction_templates": {
+      "CX_MOD_LAMP": [
+        "pos0",
+        "pos1"
+      ],
+      "CX_E4_SPATIAL": [
+        "pos2",
+        "pos3"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "Most surface resemblances are not supported by a compositional substitution paradigm, so they are left lexical. Two families survive: (1) dim-lamp vs brt-lamp gives a clean minimal pair with a stable modifier slot before lamp; (2) e4E vs e4X gives a clean minimal pair with stable e4- 'each of 4' and contrasting spatial-unit fillers edge/corner. Other candidate families fail semantic consistency or lack a supported contrastive frame.",
+    "lexical_symbols": [
+      "A",
+      "D",
+      "E",
+      "L",
+      "LI",
+      "HI",
+      "P",
+      "R",
+      "C",
+      "B",
+      "S",
+      "H",
+      "T",
+      "V",
+      "flk",
+      "brt",
+      "b",
+      "s",
+      "c",
+      "bd",
+      "f",
+      "l",
+      "t",
+      "F",
+      "K",
+      "eE",
+      "2aE",
+      "X",
+      "eX",
+      "cc",
+      "b3",
+      "b2x",
+      "hollow",
+      "2tone",
+      "whisp",
+      "blaze",
+      "froz",
+      "ovrbrt",
+      "opp",
+      "1face",
+      "e8X",
+      "cool-stone",
+      "cloth",
+      "cool-cloth",
+      "board",
+      "fan",
+      "lamp",
+      "tone",
+      "trace",
+      "rest",
+      "rotate",
+      "g",
+      "mod",
+      "firm",
+      "+",
+      ";",
+      ":",
+      "mtg",
+      "?",
+      "??",
+      "V:",
+      "@"
+    ],
+    "classes": [
+      {
+        "class_id": "CLS_MOD_LAMP",
+        "label": "lamp modifier",
+        "description": "Prefixal modifier used before lamp.",
+        "repeatable": false,
+        "declared_fillers": [
+          {
+            "form": "brt-",
+            "gloss": "bright"
+          }
+        ]
+      },
+      {
+        "class_id": "CLS_LAMP_BASE",
+        "label": "lamp base",
+        "description": "Lamp head noun in the modifier-plus-lamp construction.",
+        "repeatable": false,
+        "declared_fillers": [
+          {
+            "form": "lamp",
+            "gloss": "lamp"
+          }
+        ]
+      },
+      {
+        "class_id": "CLS_E4_PREFIX",
+        "label": "each-of-four prefix",
+        "description": "Prefix meaning each of 4 / all 4 in the spatial enumeration construction.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CLS_SPATIAL_UNIT",
+        "label": "spatial unit",
+        "description": "Spatial unit enumerated by the each-of-four prefix.",
+        "repeatable": false,
+        "declared_fillers": [
+          {
+            "form": "X",
+            "gloss": "corner"
+          }
+        ]
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "CX_MOD_LAMP",
+        "label": "modifier + lamp",
+        "description": "A lamp expression built from a modifier prefix and the lamp head.",
+        "class_sequence": [
+          "CLS_MOD_LAMP",
+          "CLS_LAMP_BASE"
+        ]
+      },
+      {
+        "construction_id": "CX_E4_SPATIAL",
+        "label": "each-of-four spatial unit",
+        "description": "An expression meaning each/all four instances of a spatial unit.",
+        "class_sequence": [
+          "CLS_E4_PREFIX",
+          "CLS_SPATIAL_UNIT"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "dim-lamp",
+        "construction_id": "CX_MOD_LAMP",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "dim-",
+            "class_id": "CLS_MOD_LAMP",
+            "gloss": "dim"
+          },
+          {
+            "form": "lamp",
+            "class_id": "CLS_LAMP_BASE",
+            "gloss": "lamp"
+          }
+        ]
+      },
+      {
+        "symbol": "brt-lamp",
+        "construction_id": "CX_MOD_LAMP",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "brt-",
+            "class_id": "CLS_MOD_LAMP",
+            "gloss": "bright"
+          },
+          {
+            "form": "lamp",
+            "class_id": "CLS_LAMP_BASE",
+            "gloss": "lamp"
+          }
+        ]
+      },
+      {
+        "symbol": "e4E",
+        "construction_id": "CX_E4_SPATIAL",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "e4",
+            "class_id": "CLS_E4_PREFIX",
+            "gloss": "each of 4"
+          },
+          {
+            "form": "E",
+            "class_id": "CLS_SPATIAL_UNIT",
+            "gloss": "edge"
+          }
+        ]
+      },
+      {
+        "symbol": "e4X",
+        "construction_id": "CX_E4_SPATIAL",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "e4",
+            "class_id": "CLS_E4_PREFIX",
+            "gloss": "each of 4"
+          },
+          {
+            "form": "X",
+            "class_id": "CLS_SPATIAL_UNIT",
+            "gloss": "corner"
+          }
+        ]
+      }
+    ]
+  }
+}

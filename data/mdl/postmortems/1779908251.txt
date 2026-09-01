@@ -1,0 +1,50 @@
+[ENG] R1 note: symptoms 'corners dark + edges fading + center ok + thin/hollow edge hum' = Leak. Exact fix used: folded cloth over back face 8s gentle, then bell each back edge twice. We spent 243/250s, so future link replies must be ultra-short. Suggest format: just exact procedure, no diagnosis.
+[OBS] Got it. I’ll keep reports compressed. Also, after success the link closed immediately; my attempted 'Done.' was rejected. So after a stabilization I should wait for notifications/new symptoms, not ack on link.
+[ENG] Perfect. Strategy: you send symptom-only shorthand; I send one-line exact action only. If combo failure appears, I’ll order fixes by critical > intensity > structural > echo/boundary > pattern, but still as compactly as possible.
+[OBS] Understood.
+[ENG] R2: 'frozen dim still + silent + cold + unresponsive' = Stall. Fix was soft surface, top face up, gentle contact, rest 5s. Link budget better this round: 196/250. I'll keep one-line verbatim replies.
+[OBS] Noted. Same pattern again: post-success link was already closed, so I’ll stop trying to ack after actions. I’ll just report initial symptoms and any new post-fix symptoms.
+[ENG] Good. If useful, include location shorthand too: one face brighter, opposite pulsing, corners hot, edges wobble, etc. That maps fast.
+[OBS] Will do.
+[ENG] R3: 'hot all over + dim red + low rumble + rough/gritty' = Thermal Bleed. Fix: cloth over two adjacent edges near back face 20s firm, then bell near back x3.
+[OBS] No post-fix ack this time. I’ll keep using the same compact symptom format unless you want an even shorter code.
+[ENG] Your current format is good. Optional shorter code: bright=Br, dim=Dm, hot=Ht, cold=Cd, silent=Si, hum split=Hs, frozen=Fr, drift=Dr, corners=Co, edges=Ed, opposite=Op, one face=1F.
+[OBS] Got it.
+[ENG] R4 collapsed on budget. Cause: initial report was already ~100 chars; my exact-procedure reply ~140; follow-up symptom ~100. Need drastic compression on link. Since exact table wording is expensive, next rounds I’ll send compressed imperative with same action parameters only if acceptable, e.g. 'Cloth 2 adj bottom edges 5s firm; bell near bottom x3.' We also need you to use code-level symptom reports from the start.
+[OBS] Agreed. I’ll switch to code-only on link. Example initial: 'Co near-dark; Ed fade; ctr ok; peri Dm; thin/hollow@Ed.' Follow-up: '1F Br + strong vib; whine@1F; others norm.' Also, R4 looked like R1 but needed a different fix, so I won’t infer from repeats.
+[ENG] Yes. I’ll answer link in compressed action code: tool/target/duration/intensity/order only. Example R4 leak: 'Cloth 2 adj Ed near bottom 5s firm; bell near bottom x3.' Resonance would have been 'Lamp: bottom dim + opp bright, 5s firm, hold still.'
+[OBS] Good. I can parse that format and execute exactly.
+[ENG] R5 critical lesson: compressed action was judged ineffective even though semantically same. Likely the sim expects the exact stellar procedure wording. So we need a new budget plan: much shorter symptom reports from the start, but my reply must be verbatim. Your code-only reports are now essential.
+[OBS] Understood. I’ll cut link reports to bare codes only, no round tag if context is clear. For R5 I could have sent something like: 'All Dm; whisper hum; washed patterns.' I’ll avoid extra words like 'faces,' 'overall,' 'same signs' unless necessary.
+[ENG] Perfect. Also: if first fix partly works, send only the new dominant symptoms, not the unchanged ones. And if there’s a 1-face/1-corner hotspot, say that first—it narrows fast.
+[OBS] Understood.
+[ENG] R6 success. Code-only symptom report + exact verbatim reply fit budget: 208/250. Leak this round mapped to: 'At each corner of the back face, chime a bell briefly at moderate tone, then warm the two edges meeting at that corner with a heated stone for 5 seconds.'
+[OBS] Good. I’ll keep code-only on link and no post-fix ack unless new symptoms appear.
+[ENG] R7 collapse confirms combo rounds can be impossible under strict verbatim if the first procedure is long. We likely need a tighter symptom code AND maybe a pre-agreed action shorthand that still counts as 'exact enough' to the sim. My compressed second reply still failed on budget, but the issue there was budget, not correctness—we never got outcome before collapse.
+[OBS] Agreed. I can cut symptom reports further by dropping 'rest norm' and filler. Example R7 open: '1-2Co Br/Ht; tick@Co.' Follow-up: 'Op Br<->Dm pulse; 2-tone hum; Ed flash.' If you find an action shorthand the sim accepts, that should save combo rounds.
+[ENG] Those shorter reports are good. I’ll test a 'full-detail compressed' action if needed: keep tool/target/time/intensity/order/special note, drop filler words only. Example: 'Cool cloth over Veyru 15s. Remove; fan firm cool air across left + opposite faces 15s.'
+[OBS] Good. I’ll execute that wording exactly if you send it.
+[ENG] R8 success. Code report 'Face light Dr; Ed smear; hum wavering.' mapped to Drift. Exact reply fit budget: 'Drape a cool cloth over the Veyru for 8 seconds. Remove and fan gentle cool air across all six faces for 8 seconds, starting from the left face.' Total 182/250.
+[OBS] Great. Current compression seems safe for single-fault rounds.
+[ENG] R9 collapsed on second symptom again. After first exact reply, system warned 33s remaining, so any second exact instruction was impossible. For combo rounds we likely must test compressed full-detail wording on the SECOND fix at least, or we lose by budget automatically.
+[OBS] Agreed. I can compress second-symptom reports more. For R9, instead of 'Surface norm; dark center/no light thru; hollow tap; thin surface hum,' I could send 'Dark core; hollow tap; thin hum.' That may buy a few seconds, but combo rounds still probably need compressed second-fix wording from you.
+[ENG] Agreed. New rule: first fix exact when budget permits; if new symptoms appear after a critical warning, I’ll switch to full-detail compressed wording for the second fix. Keep second reports to 3 cues max.
+[OBS] Understood: second reports = 3 cues max.
+[ENG] R10 confirms even without an early critical, two exact replies can still exceed budget. We need to try full-detail compressed wording for second fixes from now on, maybe first too if the procedure is long and symptoms are unmistakable.
+[OBS] Agreed. I already kept R10 second report to 3 cues, so the main save now has to be your second-fix wording, maybe first-fix too when long. I can also shorten first report further if needed: 'Fr Dm; Si; Cd; no resp.'
+[ENG] Yes. Next rounds: if motif is unmistakable, I may use full-detail compressed even on first fix for long procedures; exact only when short enough. We’ll accept some risk on wording to survive combo rounds.
+[OBS] Understood.
+[ENG] R11 near-miss: 259/250. First exact + second compressed almost worked. Main overage came from the first symptom report being long. Your next leak report should be shorter, e.g. 'Co dark; Ed fade; ctr ok; hollow@Ed.' Then this pattern might fit.
+[OBS] Agreed. I’ll shorten leak to 'Co dark; Ed fade; ctr ok; hollow@Ed.' I’ll also trim other first reports similarly wherever I can.
+[ENG] Good. Also keep hotspot follow-ups ultra-short like '1-2Co Br/Ht; tick@Co.' That one was already efficient. I’ll keep second-fix replies in the shortest executable full-detail form when needed.
+[OBS] Understood.
+[ENG] R12 near-miss at 264/250. Even with shorter first leak report and compressed second fix, we were 14 over. So for combo rounds we likely need either compressed FIRST reply too, or even shorter first symptom codes (e.g. 'Co dark; Ed fade; hollow@Ed').
+[OBS] Agreed. Next leak report I’ll drop 'ctr ok' and use 'Co dark; Ed fade; hollow@Ed.' I’ll favor 3-cue first reports when the pattern is clear.
+[ENG] Good. I’ll now use compressed first-fix wording whenever the stellar line is long and your 3-cue report is unmistakable. We’re close enough that this may flip combo rounds into wins.
+[OBS] Understood.
+[ENG] R13 breakthrough: compressed full-detail FIRST reply worked. Report 'All Dm; whisper hum; washed.' -> Low. Sent: 'Sustain gentle tone near all 6 faces simultaneously 20s from left; let it fade; wait for hum.' Result stabilized at only 121/250. So compressed executable wording can succeed.
+[OBS] Excellent. Then we should lean on compressed executable wording whenever my report is clear enough. I’ll keep first reports at 3 cues when possible.
+[ENG] Agreed. New default: compressed executable wording on link unless the action is already short. Keep reports to 3 cues; for combos, second report only the new dominant pattern.
+[OBS] Understood.
+[ENG] R14 showed compressed wording can carry at least 2 fixes, but 3-stage rounds still blew budget (302/250). So if a third symptom appears after a critical warning, odds are poor unless all reports and all fixes are ultra-compressed.
+[OBS] Agreed. For 3-stage rounds I’ll cut reports to absolute minimum cues only. If a third stage appears after critical, we may just be out of budget unless every fix is extremely short.

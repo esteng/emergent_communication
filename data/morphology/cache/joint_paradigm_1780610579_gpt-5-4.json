@@ -1,0 +1,623 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780610579",
+    "slots": [],
+    "segmentation": {
+      "1": [
+        "1"
+      ],
+      "2": [
+        "2"
+      ],
+      "3": [
+        "3"
+      ],
+      "4": [
+        "4"
+      ],
+      "5": [
+        "5"
+      ],
+      "6": [
+        "6"
+      ],
+      "7": [
+        "7"
+      ],
+      "8": [
+        "8"
+      ],
+      "9": [
+        "9"
+      ],
+      "10": [
+        "10"
+      ],
+      "11": [
+        "11"
+      ],
+      "12": [
+        "12"
+      ],
+      "13": [
+        "13"
+      ],
+      "14": [
+        "14"
+      ],
+      "F": [
+        "F"
+      ],
+      "Bk": [
+        "Bk"
+      ],
+      "L": [
+        "L"
+      ],
+      "R": [
+        "R"
+      ],
+      "T": [
+        "T"
+      ],
+      "Bt": [
+        "Bt"
+      ],
+      "opp": [
+        "opp"
+      ],
+      "bright": [
+        "bright"
+      ],
+      "dim": [
+        "dim"
+      ],
+      "dark": [
+        "dark"
+      ],
+      "flicker": [
+        "flicker"
+      ],
+      "pulse": [
+        "pulse"
+      ],
+      "hum": [
+        "hum"
+      ],
+      "tick": [
+        "tick"
+      ],
+      "buzz": [
+        "buzz"
+      ],
+      "silent": [
+        "silent"
+      ],
+      "whine": [
+        "whine"
+      ],
+      "vibr": [
+        "vibr"
+      ],
+      "hot": [
+        "hot"
+      ],
+      "warm": [
+        "warm"
+      ],
+      "cool": [
+        "cool"
+      ],
+      "cold": [
+        "cold"
+      ],
+      "s": [
+        "s"
+      ],
+      "f": [
+        "f"
+      ],
+      "x": [
+        "x"
+      ],
+      "ok": [
+        "ok"
+      ],
+      "fail": [
+        "fail"
+      ],
+      "retry": [
+        "retry"
+      ],
+      "rpt": [
+        "rpt"
+      ],
+      "B": [
+        "B"
+      ],
+      "S": [
+        "S"
+      ],
+      "Fn": [
+        "Fn"
+      ],
+      "C": [
+        "C"
+      ],
+      "Bd": [
+        "Bd"
+      ],
+      "Lmp": [
+        "Lmp"
+      ],
+      "V": [
+        "V"
+      ],
+      "rot": [
+        "rot"
+      ],
+      "tlt": [
+        "tlt"
+      ],
+      "tap": [
+        "tap"
+      ],
+      "hld": [
+        "hld"
+      ],
+      "prs": [
+        "prs"
+      ],
+      "rst": [
+        "rst"
+      ],
+      "trace": [
+        "trace"
+      ],
+      "drape": [
+        "drape"
+      ],
+      "chime": [
+        "chime"
+      ],
+      "wave": [
+        "wave"
+      ],
+      "on": [
+        "on"
+      ],
+      "vs": [
+        "vs"
+      ],
+      "up": [
+        "up"
+      ],
+      "cnr": [
+        "cnr"
+      ],
+      "edg": [
+        "edg"
+      ],
+      "fc": [
+        "fc"
+      ],
+      "ea": [
+        "ea"
+      ],
+      "seq": [
+        "seq"
+      ],
+      "adj": [
+        "adj"
+      ],
+      "all": [
+        "all"
+      ],
+      "6f": [
+        "6f"
+      ],
+      "gent": [
+        "gent"
+      ],
+      "mod": [
+        "mod"
+      ],
+      "firm": [
+        "firm"
+      ],
+      "strg": [
+        "strg"
+      ],
+      "soft": [
+        "soft"
+      ],
+      "loud": [
+        "loud"
+      ],
+      "brt": [
+        "brt"
+      ],
+      ";": [
+        ";"
+      ],
+      "→": [
+        "→"
+      ],
+      ">": [
+        ">"
+      ],
+      "+": [
+        "+"
+      ],
+      "×": [
+        "×"
+      ],
+      "Ns": [
+        "Ns"
+      ],
+      "?tool": [
+        "?tool"
+      ],
+      "?face": [
+        "?face"
+      ],
+      "?dur": [
+        "?dur"
+      ],
+      "?clarify": [
+        "?clarify"
+      ],
+      "2adj": [
+        "2adj"
+      ],
+      "2par": [
+        "2par"
+      ],
+      "top": [
+        "top"
+      ],
+      "bot": [
+        "bot"
+      ],
+      "perim": [
+        "perim"
+      ],
+      "ctr": [
+        "ctr"
+      ],
+      "frzn": [
+        "frzn"
+      ],
+      "muffl": [
+        "muffl"
+      ],
+      "whn": [
+        "whn"
+      ]
+    },
+    "head_index": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "F": 0,
+      "Bk": 0,
+      "L": 0,
+      "R": 0,
+      "T": 0,
+      "Bt": 0,
+      "opp": 0,
+      "bright": 0,
+      "dim": 0,
+      "dark": 0,
+      "flicker": 0,
+      "pulse": 0,
+      "hum": 0,
+      "tick": 0,
+      "buzz": 0,
+      "silent": 0,
+      "whine": 0,
+      "vibr": 0,
+      "hot": 0,
+      "warm": 0,
+      "cool": 0,
+      "cold": 0,
+      "s": 0,
+      "f": 0,
+      "x": 0,
+      "ok": 0,
+      "fail": 0,
+      "retry": 0,
+      "rpt": 0,
+      "B": 0,
+      "S": 0,
+      "Fn": 0,
+      "C": 0,
+      "Bd": 0,
+      "Lmp": 0,
+      "V": 0,
+      "rot": 0,
+      "tlt": 0,
+      "tap": 0,
+      "hld": 0,
+      "prs": 0,
+      "rst": 0,
+      "trace": 0,
+      "drape": 0,
+      "chime": 0,
+      "wave": 0,
+      "on": 0,
+      "vs": 0,
+      "up": 0,
+      "cnr": 0,
+      "edg": 0,
+      "fc": 0,
+      "ea": 0,
+      "seq": 0,
+      "adj": 0,
+      "all": 0,
+      "6f": 0,
+      "gent": 0,
+      "mod": 0,
+      "firm": 0,
+      "strg": 0,
+      "soft": 0,
+      "loud": 0,
+      "brt": 0,
+      ";": 0,
+      "→": 0,
+      ">": 0,
+      "+": 0,
+      "×": 0,
+      "Ns": 0,
+      "?tool": 0,
+      "?face": 0,
+      "?dur": 0,
+      "?clarify": 0,
+      "2adj": 0,
+      "2par": 0,
+      "top": 0,
+      "bot": 0,
+      "perim": 0,
+      "ctr": 0,
+      "frzn": 0,
+      "muffl": 0,
+      "whn": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "1": "AlignColl, 2 Drift, 3 Echo, 4 Leak, 5 LowI, 6 HighI, 7 Phase, 8 Reson, 9 Corner, 10 Bound, 11 Stall, 12 Harm, 13 Therm, 14 Void",
+      "2": "S beside ea fc 8s firm, all 6 faces in turn",
+      "3": "ea cnr F: B 1x firm, S 2 edg 8s\" → fail",
+      "4": "Leak motif",
+      "5": "LowI motif",
+      "6": "HighI motif",
+      "7": "Phase motif",
+      "8": "Reson motif",
+      "9": "Corner motif",
+      "10": "Bound motif",
+      "11": "Stall motif",
+      "12": "Harm motif",
+      "13": "Therm motif",
+      "14": "Void motif",
+      "F": "front face",
+      "Bk": "back face",
+      "L": "left face",
+      "R": "right face",
+      "T": "top face",
+      "Bt": "bottom face",
+      "opp": "opposite of the starting face",
+      "bright": "bright",
+      "dim": "dim",
+      "dark": "dark",
+      "flicker": "flicker",
+      "pulse": "pulse",
+      "hum": "thin hollow at edges",
+      "tick": "tick",
+      "buzz": "buzz",
+      "silent": "silent",
+      "whine": "whine",
+      "vibr": "vibration",
+      "hot": "hot",
+      "warm": "warm",
+      "cool": "cool",
+      "cold": "cold",
+      "s": "soft intensity",
+      "f": "firm intensity",
+      "x": "strong intensity",
+      "ok": "the procedure succeeded",
+      "fail": "the procedure failed",
+      "retry": "repeat the procedure again, and variation is allowed if the last action may have been wrong",
+      "rpt": "literal exact retry",
+      "B": "bell",
+      "S": "heated stone",
+      "Fn": "hand fan",
+      "C": "cloth",
+      "Bd": "flat board",
+      "Lmp": "lamp",
+      "V": "voice",
+      "rot": "rotate",
+      "tlt": "tilt",
+      "tap": "tap",
+      "hld": "hold",
+      "prs": "press",
+      "rst": "rest, leave alone for the stated number of seconds, hands off with no touching",
+      "trace": "trace with a finger",
+      "drape": "drape",
+      "chime": "chime",
+      "wave": "wave",
+      "on": "place the Veyru on the named object, where the named object is the bedding or support surface",
+      "vs": "press the named object against the named face",
+      "up": "with that face pointing upward",
+      "cnr": "corner",
+      "edg": "edge",
+      "fc": "face",
+      "ea": "each",
+      "seq": "in sequence",
+      "adj": "adjacent",
+      "all": "all faces, or all of the referenced items",
+      "6f": "all six faces",
+      "gent": "mod firm strg / dim brt soft loud",
+      "mod": "moderate intensity",
+      "firm": "firm intensity",
+      "strg": "strong intensity",
+      "soft": "soft intensity or soft tone, depending on context",
+      "loud": "loud",
+      "brt": "bright",
+      ";": "next step",
+      "→": "then becomes, indicating a state change",
+      ">": "starting from",
+      "+": "and",
+      "×": "times",
+      "Ns": "for N seconds",
+      "?tool": "which tool?",
+      "?face": "which face?",
+      "?dur": "what duration?",
+      "?clarify": "give more precise differentiating observation details",
+      "2adj": "two adjacent edges of the named face that share a corner, forming an L-shape on that face",
+      "2par": "two parallel or opposite edges of the named face",
+      "top": "top edge of a face, relative to viewing that face",
+      "bot": "bottom edge of a face, relative to viewing that face",
+      "perim": "perimeter",
+      "ctr": "edges; no echo",
+      "frzn": "frozen",
+      "muffl": "muffled",
+      "whn": "whine"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780610579",
+    "n_codes": 97,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible multi-entry compositional paradigm survives the evidence test. The numbered symbols are best treated as opaque labels, not digit morphemes: 1 is a codebook index/list header, 2 and 3 name unrelated stored procedures, and 4–14 name unrelated motif labels, so the repeated numerals do not contribute literal count meaning across a shared frame. The suggested surface families (ot, ent, ool, ace, im, rm, ld, dj, br, wh, wa, co) fail semantic-compositional testing: their residues do not form stable substitution classes in a common construction, and shared letters alone are not evidence. Possible temptations like 2adj/2par or ?tool/?face/?dur are too weak for a paradigm network here: they do not provide enough independently supported, reusable class structure to justify segmentation over a flat lexicon. Therefore the safest complete partition is a flat lexicon with all supplied symbols stored as lexical symbols and no induced classes, constructions, or segmented entries.",
+    "lexical_symbols": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "F",
+      "Bk",
+      "L",
+      "R",
+      "T",
+      "Bt",
+      "opp",
+      "bright",
+      "dim",
+      "dark",
+      "flicker",
+      "pulse",
+      "hum",
+      "tick",
+      "buzz",
+      "silent",
+      "whine",
+      "vibr",
+      "hot",
+      "warm",
+      "cool",
+      "cold",
+      "s",
+      "f",
+      "x",
+      "ok",
+      "fail",
+      "retry",
+      "rpt",
+      "B",
+      "S",
+      "Fn",
+      "C",
+      "Bd",
+      "Lmp",
+      "V",
+      "rot",
+      "tlt",
+      "tap",
+      "hld",
+      "prs",
+      "rst",
+      "trace",
+      "drape",
+      "chime",
+      "wave",
+      "on",
+      "vs",
+      "up",
+      "cnr",
+      "edg",
+      "fc",
+      "ea",
+      "seq",
+      "adj",
+      "all",
+      "6f",
+      "gent",
+      "mod",
+      "firm",
+      "strg",
+      "soft",
+      "loud",
+      "brt",
+      ";",
+      "→",
+      ">",
+      "+",
+      "×",
+      "Ns",
+      "?tool",
+      "?face",
+      "?dur",
+      "?clarify",
+      "2adj",
+      "2par",
+      "top",
+      "bot",
+      "perim",
+      "ctr",
+      "frzn",
+      "muffl",
+      "whn"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

@@ -1,0 +1,461 @@
+{
+  "grammar": {
+    "run_key": "veyru/1778883044",
+    "slots": [
+      {
+        "role": "prefix",
+        "fillers": [
+          {
+            "form": "H",
+            "gloss": "hot",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "bright",
+            "gloss": "bright",
+            "support": 1,
+            "is_defined": true
+          }
+        ]
+      },
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "-corners",
+            "gloss": "corners",
+            "support": 2,
+            "is_defined": false
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "H": [
+        "H"
+      ],
+      "C": [
+        "C"
+      ],
+      "N": [
+        "N"
+      ],
+      "dim": [
+        "dim"
+      ],
+      "bright": [
+        "bright"
+      ],
+      "blaze": [
+        "blaze"
+      ],
+      "faint": [
+        "faint"
+      ],
+      "flicker": [
+        "flicker"
+      ],
+      "drift": [
+        "drift"
+      ],
+      "pulse": [
+        "pulse"
+      ],
+      "frozen": [
+        "frozen"
+      ],
+      "sil": [
+        "sil"
+      ],
+      "whisp": [
+        "whisp"
+      ],
+      "rumble": [
+        "rumble"
+      ],
+      "tone": [
+        "tone"
+      ],
+      "buzz": [
+        "buzz"
+      ],
+      "layer": [
+        "layer"
+      ],
+      "click": [
+        "click"
+      ],
+      "waver": [
+        "waver"
+      ],
+      "split": [
+        "split"
+      ],
+      "hollow": [
+        "hollow"
+      ],
+      "smooth": [
+        "smooth"
+      ],
+      "rough": [
+        "rough"
+      ],
+      "red-tint": [
+        "red-tint"
+      ],
+      "faint-corners": [
+        "faint-corners"
+      ],
+      "whine": [
+        "whine"
+      ],
+      "click-corner": [
+        "click-corner"
+      ],
+      "wobble": [
+        "wobble"
+      ],
+      "frozen-sil": [
+        "frozen-sil"
+      ],
+      "dim-red": [
+        "dim-red"
+      ],
+      "H/dim-red/rumble/rough": [
+        "H/dim-red/rumble/rough"
+      ],
+      "blaze+frozen": [
+        "blaze+frozen"
+      ],
+      "blaze+click-corner": [
+        "blaze+click-corner"
+      ],
+      "hot-corners": [
+        "hot-corners"
+      ],
+      "vibrate": [
+        "vibrate"
+      ],
+      "blaze+frozen+hot-corners": [
+        "blaze+frozen+hot-corners"
+      ],
+      "blaze+vibrate": [
+        "blaze+vibrate"
+      ],
+      "H-corners": [
+        "H",
+        "-corners"
+      ],
+      "bright-corners": [
+        "bright",
+        "-corners"
+      ]
+    },
+    "head_index": {
+      "H": 0,
+      "C": 0,
+      "N": 0,
+      "dim": 0,
+      "bright": 0,
+      "blaze": 0,
+      "faint": 0,
+      "flicker": 0,
+      "drift": 0,
+      "pulse": 0,
+      "frozen": 0,
+      "sil": 0,
+      "whisp": 0,
+      "rumble": 0,
+      "tone": 0,
+      "buzz": 0,
+      "layer": 0,
+      "click": 0,
+      "waver": 0,
+      "split": 0,
+      "hollow": 0,
+      "smooth": 0,
+      "rough": 0,
+      "red-tint": 0,
+      "faint-corners": 0,
+      "whine": 0,
+      "click-corner": 0,
+      "wobble": 0,
+      "frozen-sil": 0,
+      "dim-red": 0,
+      "H/dim-red/rumble/rough": 0,
+      "blaze+frozen": 0,
+      "blaze+click-corner": 0,
+      "hot-corners": 0,
+      "vibrate": 0,
+      "blaze+frozen+hot-corners": 0,
+      "blaze+vibrate": 0,
+      "H-corners": 1,
+      "bright-corners": 1
+    },
+    "attested_orderings": [
+      [
+        "prefix",
+        "stem"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [],
+    "form_positions": {
+      "H": 0,
+      "bright": 0,
+      "-corners": 1
+    },
+    "position_labels": {
+      "0": "property",
+      "1": "region"
+    },
+    "positions_by_symbol": {
+      "H-corners": [
+        0,
+        1
+      ],
+      "bright-corners": [
+        0,
+        1
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "H": "hot",
+        "bright": "bright"
+      },
+      "1": {
+        "-corners": "corners"
+      }
+    },
+    "meaning_by_symbol": {
+      "H": "hot",
+      "C": "cold",
+      "N": "normal",
+      "dim": "Low",
+      "bright": "bright light",
+      "blaze": "High Intensity",
+      "faint": "faint light",
+      "flicker": "Alignment",
+      "drift": "Drift",
+      "pulse": "Phase",
+      "frozen": "frozen patterns",
+      "sil": "silence",
+      "whisp": "whispering hum",
+      "rumble": "Thermal",
+      "tone": "tonal hum",
+      "buzz": "buzzing hum",
+      "layer": "Echo Saturation, too bright, layered tones, frozen patterns",
+      "click": "clicking hum",
+      "waver": "wavering hum",
+      "split": "Harmonic Split, competing tones clashing, shimmer, two patterns fighting",
+      "hollow": "Void",
+      "smooth": "smooth surface",
+      "rough": "rough surface",
+      "red-tint": "red tint",
+      "faint-corners": "Leak",
+      "whine": "Resonance",
+      "click-corner": "Corner Deadlock",
+      "wobble": "Boundary",
+      "frozen-sil": "Stall",
+      "dim-red": "dim light with a red tint",
+      "H/dim-red/rumble/rough": "Thermal Bleed",
+      "blaze+frozen": "Echo Saturation",
+      "blaze+click-corner": "Corner Deadlock",
+      "hot-corners": "hot corners",
+      "vibrate": "vibration",
+      "blaze+frozen+hot-corners": "Echo Saturation",
+      "blaze+vibrate": "High → cool cloth, fan all 6 faces",
+      "H-corners": "hot corners",
+      "bright-corners": "bright corners"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1778883044",
+    "n_codes": 39,
+    "n_multimorpheme": 2,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "prefix",
+        "label": "property",
+        "fillers": [
+          {
+            "form": "H",
+            "gloss": "hot",
+            "count": 1
+          },
+          {
+            "form": "bright",
+            "gloss": "bright",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "stem",
+        "label": "region",
+        "fillers": [
+          {
+            "form": "-corners",
+            "gloss": "corners",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "H-corners": [
+        "pos0",
+        "pos1"
+      ],
+      "bright-corners": [
+        "pos0",
+        "pos1"
+      ]
+    },
+    "construction_by_symbol": {
+      "H-corners": "CX_PROPERTY_CORNERS",
+      "bright-corners": "CX_PROPERTY_CORNERS"
+    },
+    "construction_labels": {
+      "CX_PROPERTY_CORNERS": "property + corners"
+    },
+    "construction_templates": {
+      "CX_PROPERTY_CORNERS": [
+        "pos0",
+        "pos1"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "Most apparent substring recurrences are not supported by compositional paradigms: shared pieces like blaze+, +frozen, +vibrate, frozen-, or -corner do not yield meanings predictable from stable parts across multiple entries, so those symbols remain lexical. The only defensible construction is a small X-corners pattern supported by a true substitution contrast in the same frame: H-corners = 'hot corners' and bright-corners = 'bright corners'. In these two entries, the initial filler contributes the property ('hot' vs. 'bright') and the shared suffix contributes 'corners'. Other -corners items are excluded because their whole meanings are not compositionally predictable from the same parts (e.g. faint-corners = 'Leak', blaze+frozen+hot-corners = 'Echo Saturation').",
+    "lexical_symbols": [
+      "H",
+      "C",
+      "N",
+      "dim",
+      "bright",
+      "blaze",
+      "faint",
+      "flicker",
+      "drift",
+      "pulse",
+      "frozen",
+      "sil",
+      "whisp",
+      "rumble",
+      "tone",
+      "buzz",
+      "layer",
+      "click",
+      "waver",
+      "split",
+      "hollow",
+      "smooth",
+      "rough",
+      "red-tint",
+      "faint-corners",
+      "whine",
+      "click-corner",
+      "wobble",
+      "frozen-sil",
+      "dim-red",
+      "H/dim-red/rumble/rough",
+      "blaze+frozen",
+      "blaze+click-corner",
+      "hot-corners",
+      "vibrate",
+      "blaze+frozen+hot-corners",
+      "blaze+vibrate"
+    ],
+    "classes": [
+      {
+        "class_id": "CLS_PROPERTY",
+        "label": "property",
+        "description": "A property contributed by the first morpheme in the X-corners construction.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CLS_REGION",
+        "label": "region",
+        "description": "A locational/body-part term contributed by the shared suffix in the X-corners construction.",
+        "repeatable": false,
+        "declared_fillers": []
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "CX_PROPERTY_CORNERS",
+        "label": "property + corners",
+        "description": "A compositional construction naming corners with a property specified by the first morpheme.",
+        "class_sequence": [
+          "CLS_PROPERTY",
+          "CLS_REGION"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "H-corners",
+        "construction_id": "CX_PROPERTY_CORNERS",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "H",
+            "class_id": "CLS_PROPERTY",
+            "gloss": "hot"
+          },
+          {
+            "form": "-corners",
+            "class_id": "CLS_REGION",
+            "gloss": "corners"
+          }
+        ]
+      },
+      {
+        "symbol": "bright-corners",
+        "construction_id": "CX_PROPERTY_CORNERS",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "bright",
+            "class_id": "CLS_PROPERTY",
+            "gloss": "bright"
+          },
+          {
+            "form": "-corners",
+            "class_id": "CLS_REGION",
+            "gloss": "corners"
+          }
+        ]
+      }
+    ]
+  }
+}

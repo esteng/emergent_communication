@@ -1,0 +1,107 @@
+{
+  "grammar": {
+    "run_key": "veyru/1778881547",
+    "slots": [],
+    "segmentation": {
+      "leak": [
+        "leak"
+      ],
+      "echo": [
+        "echo"
+      ],
+      "drift": [
+        "drift"
+      ],
+      "align": [
+        "align"
+      ],
+      "phase": [
+        "phase"
+      ],
+      "boundary": [
+        "boundary"
+      ],
+      "1lamp": [
+        "1lamp"
+      ],
+      "low": [
+        "low"
+      ],
+      "void": [
+        "void"
+      ],
+      "thermal": [
+        "thermal"
+      ],
+      "resonance": [
+        "resonance"
+      ]
+    },
+    "head_index": {
+      "leak": 0,
+      "echo": 0,
+      "drift": 0,
+      "align": 0,
+      "phase": 0,
+      "boundary": 0,
+      "1lamp": 0,
+      "low": 0,
+      "void": 0,
+      "thermal": 0,
+      "resonance": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "leak": "dark corners and fading edges",
+      "echo": "bright, layered, and frozen",
+      "drift": "sliding light and blurred edges",
+      "align": "random flicker and broken hum",
+      "phase": "opposite-face pulse, two-tone, and edge flash",
+      "boundary": "edge wobble, bulge, and muffled hum",
+      "1lamp": "only one lamp is available, creating a conflict with any dual-light instruction",
+      "low": "dim, whisper, and washed-out",
+      "void": "core void",
+      "thermal": "hot-dim, rumble, gritty, and red state",
+      "resonance": "one-face bright, vibrating, and whine"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1778881547",
+    "n_codes": 11,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible substitution paradigm is supported by the supplied codebook. There are no multi-entry minimal pairs showing recurring subparts in a shared frame with stable, compositional meanings. Apparent shared letters or shapes across symbols like leak, echo, drift, align, phase, boundary, 1lamp, low, void, thermal, and resonance do not provide evidence for morpheme boundaries, and the digit in 1lamp does not clearly contribute a productive count morpheme in contrast with parallel forms. Because no segmentation meets the required paradigm evidence, all symbols are treated as opaque lexical items.",
+    "lexical_symbols": [
+      "leak",
+      "echo",
+      "drift",
+      "align",
+      "phase",
+      "boundary",
+      "1lamp",
+      "low",
+      "void",
+      "thermal",
+      "resonance"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

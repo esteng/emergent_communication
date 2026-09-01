@@ -1,0 +1,173 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780442217",
+    "slots": [],
+    "segmentation": {
+      "F": [
+        "F"
+      ],
+      "B": [
+        "B"
+      ],
+      "L": [
+        "L"
+      ],
+      "R": [
+        "R"
+      ],
+      "T": [
+        "T"
+      ],
+      "U": [
+        "U"
+      ],
+      "AC": [
+        "AC"
+      ],
+      "DE": [
+        "DE"
+      ],
+      "ES": [
+        "ES"
+      ],
+      "LI": [
+        "LI"
+      ],
+      "LO": [
+        "LO"
+      ],
+      "HI": [
+        "HI"
+      ],
+      "PI": [
+        "PI"
+      ],
+      "RC": [
+        "RC"
+      ],
+      "CD": [
+        "CD"
+      ],
+      "BS": [
+        "BS"
+      ],
+      "PS": [
+        "PS"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "TB": [
+        "TB"
+      ],
+      "CV": [
+        "CV"
+      ],
+      "fail": [
+        "fail"
+      ],
+      "kit?": [
+        "kit?"
+      ]
+    },
+    "head_index": {
+      "F": 0,
+      "B": 0,
+      "L": 0,
+      "R": 0,
+      "T": 0,
+      "U": 0,
+      "AC": 0,
+      "DE": 0,
+      "ES": 0,
+      "LI": 0,
+      "LO": 0,
+      "HI": 0,
+      "PI": 0,
+      "RC": 0,
+      "CD": 0,
+      "BS": 0,
+      "PS": 0,
+      "HS": 0,
+      "TB": 0,
+      "CV": 0,
+      "fail": 0,
+      "kit?": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "F": "front face",
+      "B": "back face",
+      "L": "left face",
+      "R": "right face",
+      "T": "top face",
+      "U": "under or bottom face",
+      "AC": "AlignCollapse DE=DriftEsc ES=EchoSat LI=LeakInst LO=LowInt HI=HighInt PI=PhaseInv RC=ResCascade CD=CornerDead BS=BoundSoft PS=PropStall HS=HarmSplit TB=ThermBleed CV=CoreVoid",
+      "DE": "light sliding, edges blur, hum wavering",
+      "ES": "too bright, layered hum, frozen patterns",
+      "LI": "corners dim, edges fading, hollow edge hum",
+      "LO": "all dim, whisper hum, washed out",
+      "HI": "blazing white, harsh buzz, hot",
+      "PI": "opposite faces alternate pulse, two-tone hum sync, edges flash sync",
+      "RC": "one face bright and vibrating, high whine local",
+      "CD": "one to two corners bright and hot, ticking",
+      "BS": "edges wobble, faces bulge, muffled hum",
+      "PS": "frozen dim still, silent, cold",
+      "HS": "hum split two-tone clash, alternating two configurations, edges shimmer",
+      "TB": "all hot and dim, low rumble, gritty, red tint",
+      "CV": "hollow tap, dark core, thin hum",
+      "fail": "I have tried two interpretations and still failed",
+      "kit?": "check kit constraints because the action requires more than one of a tool or is otherwise infeasible with the available kit"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780442217",
+    "n_codes": 22,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible compositional paradigm is supported by the supplied codebook. Although F/B/L/R/T/U form a clear semantic set of face labels, there are no multi-morpheme codes in which these symbols alternate in a shared frame with predictable whole meanings. Likewise, the two-letter forms AC, DE, ES, LI, LO, HI, PI, RC, CD, BS, PS, HS, TB, and CV behave as opaque stored labels: shared letter positions do not yield stable compositional meanings, and the opaque-index test blocks splitting them on initials alone. The entry AC contains a prose legend listing other codes, not evidence that A+C is morphologically compositional. Therefore the safest analysis is a flat lexicon with no classes, constructions, or segmented entries.",
+    "lexical_symbols": [
+      "F",
+      "B",
+      "L",
+      "R",
+      "T",
+      "U",
+      "AC",
+      "DE",
+      "ES",
+      "LI",
+      "LO",
+      "HI",
+      "PI",
+      "RC",
+      "CD",
+      "BS",
+      "PS",
+      "HS",
+      "TB",
+      "CV",
+      "fail",
+      "kit?"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

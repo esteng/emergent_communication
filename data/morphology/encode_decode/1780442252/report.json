@@ -1,0 +1,176 @@
+{
+  "run_key": "veyru/1780442252",
+  "status": "analyzed",
+  "n_codes": 91,
+  "n_multimorpheme": 9,
+  "report": {
+    "encoder_agent": "stabilization_engineer",
+    "decoder_agent": "field_observer",
+    "encoder_model": "claude-opus-4-7",
+    "decoder_model": "claude-opus-4-7",
+    "context_budget": 450,
+    "n_cells": 17,
+    "exact_match_rate": 0.5294117647058824,
+    "swapped_order_rate": 0.0,
+    "bag_match_rate": 0.5294117647058824,
+    "decode_rate": 0.8529411764705882,
+    "decoder_valid_rate": 0.8235294117647058,
+    "decode_negative_control_rate": 0.8823529411764706,
+    "decode_positive_control_rate": 1.0,
+    "per_role": [
+      {
+        "slot_id": "CX_FAMILY_RESET",
+        "slot_label": "family reset construction",
+        "n": 10,
+        "exact_match_rate": 0.5,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.5,
+        "decode_rate": 0.95
+      },
+      {
+        "slot_id": "CX_LAMP_STATE",
+        "slot_label": "lamp state construction",
+        "n": 3,
+        "exact_match_rate": 0.6666666666666666,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.6666666666666666,
+        "decode_rate": 0.6666666666666666
+      },
+      {
+        "slot_id": "CX_REPEAT_COUNT",
+        "slot_label": "repeat-count construction",
+        "n": 4,
+        "exact_match_rate": 0.5,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.5,
+        "decode_rate": 0.75
+      }
+    ],
+    "per_depth": [
+      {
+        "length": 2,
+        "n": 17,
+        "exact_match_rate": 0.5294117647058824,
+        "decode_rate": 0.8529411764705882
+      }
+    ],
+    "per_purpose": [
+      {
+        "purpose": "grounded_control",
+        "n": 9,
+        "exact_match_rate": 1.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 1.0,
+        "decode_rate": 0.9444444444444444
+      },
+      {
+        "purpose": "grounded_novel_role_pooled",
+        "n": 8,
+        "exact_match_rate": 0.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.0,
+        "decode_rate": 0.75
+      }
+    ],
+    "per_construction": [
+      {
+        "construction_id": "CX_FAMILY_RESET",
+        "n": 10,
+        "n_control": 5,
+        "n_novel": 5,
+        "exact_match_rate": 0.5,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.5,
+        "decode_rate": 0.95,
+        "novel_exact_match_rate": 0.0,
+        "novel_decode_rate": 0.9
+      },
+      {
+        "construction_id": "CX_LAMP_STATE",
+        "n": 3,
+        "n_control": 2,
+        "n_novel": 1,
+        "exact_match_rate": 0.6666666666666666,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.6666666666666666,
+        "decode_rate": 0.6666666666666666,
+        "novel_exact_match_rate": 0.0,
+        "novel_decode_rate": 0.5
+      },
+      {
+        "construction_id": "CX_REPEAT_COUNT",
+        "n": 4,
+        "n_control": 2,
+        "n_novel": 2,
+        "exact_match_rate": 0.5,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.5,
+        "decode_rate": 0.75,
+        "novel_exact_match_rate": 0.0,
+        "novel_decode_rate": 0.5
+      }
+    ],
+    "per_slot_generalization": [
+      {
+        "slot_id": "pos0",
+        "slot_label": "family reset operator",
+        "slot_role": "stem",
+        "pooled": true,
+        "n": 5,
+        "valid_rate": 1.0,
+        "exact_match_rate": 0.0,
+        "decode_rate": 0.9
+      },
+      {
+        "slot_id": "pos1",
+        "slot_label": "procedure domain",
+        "slot_role": "suffix",
+        "pooled": false,
+        "n": 5,
+        "valid_rate": 1.0,
+        "exact_match_rate": 0.0,
+        "decode_rate": 0.9
+      },
+      {
+        "slot_id": "pos2",
+        "slot_label": "lamp base",
+        "slot_role": "stem",
+        "pooled": false,
+        "n": 1,
+        "valid_rate": 0.0,
+        "exact_match_rate": 0.0,
+        "decode_rate": 0.5
+      },
+      {
+        "slot_id": "pos3",
+        "slot_label": "brightness state",
+        "slot_role": "suffix",
+        "pooled": true,
+        "n": 1,
+        "valid_rate": 0.0,
+        "exact_match_rate": 0.0,
+        "decode_rate": 0.5
+      },
+      {
+        "slot_id": "pos4",
+        "slot_label": "repeat operator",
+        "slot_role": "stem",
+        "pooled": true,
+        "n": 2,
+        "valid_rate": 0.0,
+        "exact_match_rate": 0.0,
+        "decode_rate": 0.5
+      },
+      {
+        "slot_id": "pos5",
+        "slot_label": "count",
+        "slot_role": "suffix",
+        "pooled": false,
+        "n": 2,
+        "valid_rate": 0.0,
+        "exact_match_rate": 0.0,
+        "decode_rate": 0.5
+      }
+    ]
+  }
+}

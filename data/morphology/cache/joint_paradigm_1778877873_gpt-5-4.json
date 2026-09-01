@@ -1,0 +1,749 @@
+{
+  "grammar": {
+    "run_key": "veyru/1778877873",
+    "slots": [
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "L",
+            "gloss": "lamp",
+            "support": 2,
+            "is_defined": true
+          },
+          {
+            "form": "x",
+            "gloss": "count",
+            "support": 2,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "suffix",
+        "fillers": [
+          {
+            "form": "1",
+            "gloss": "one time",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "2",
+            "gloss": "two times",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "b",
+            "gloss": "bright",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "d",
+            "gloss": "dim",
+            "support": 1,
+            "is_defined": false
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "WBH": [
+        "WBH"
+      ],
+      "CTH": [
+        "CTH"
+      ],
+      "DC": [
+        "DC"
+      ],
+      "DO": [
+        "DO"
+      ],
+      "FD": [
+        "FD"
+      ],
+      "SD": [
+        "SD"
+      ],
+      "LP": [
+        "LP"
+      ],
+      "S": [
+        "S"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "F": [
+        "F"
+      ],
+      "Ld": [
+        "L",
+        "d"
+      ],
+      "Lb": [
+        "L",
+        "b"
+      ],
+      "P": [
+        "P"
+      ],
+      "R": [
+        "R"
+      ],
+      "Soft": [
+        "Soft"
+      ],
+      "T": [
+        "T"
+      ],
+      "O": [
+        "O"
+      ],
+      "DK": [
+        "DK"
+      ],
+      "OP": [
+        "OP"
+      ],
+      "RS": [
+        "RS"
+      ],
+      "BS": [
+        "BS"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "TB": [
+        "TB"
+      ],
+      "Tn": [
+        "Tn"
+      ],
+      "Tr": [
+        "Tr"
+      ],
+      "c": [
+        "c"
+      ],
+      "e": [
+        "e"
+      ],
+      "cr": [
+        "cr"
+      ],
+      "6": [
+        "6"
+      ],
+      "2e": [
+        "2e"
+      ],
+      "seq": [
+        "seq"
+      ],
+      "side": [
+        "side"
+      ],
+      "x1": [
+        "x",
+        "1"
+      ],
+      "x2": [
+        "x",
+        "2"
+      ],
+      "20": [
+        "20"
+      ],
+      "U": [
+        "U"
+      ],
+      "Back": [
+        "Back"
+      ],
+      "L": [
+        "L"
+      ],
+      "Be": [
+        "Be"
+      ],
+      "Dp": [
+        "Dp"
+      ],
+      "Fa": [
+        "Fa"
+      ],
+      "RF": [
+        "RF"
+      ],
+      "DE": [
+        "DE"
+      ],
+      "ES": [
+        "ES"
+      ],
+      "LI": [
+        "LI"
+      ],
+      "LO": [
+        "LO"
+      ],
+      "HI": [
+        "HI"
+      ],
+      "PI": [
+        "PI"
+      ],
+      "RC": [
+        "RC"
+      ],
+      "CD": [
+        "CD"
+      ],
+      "PS": [
+        "PS"
+      ],
+      "CV": [
+        "CV"
+      ],
+      "g": [
+        "g"
+      ],
+      "f": [
+        "f"
+      ],
+      "Lt": [
+        "Lt"
+      ],
+      "Rt": [
+        "Rt"
+      ],
+      "Fr": [
+        "Fr"
+      ],
+      "Bk": [
+        "Bk"
+      ],
+      "m": [
+        "m"
+      ],
+      "p": [
+        "p"
+      ]
+    },
+    "head_index": {
+      "WBH": 0,
+      "CTH": 0,
+      "DC": 0,
+      "DO": 0,
+      "FD": 0,
+      "SD": 0,
+      "LP": 0,
+      "S": 0,
+      "C": 0,
+      "D": 0,
+      "F": 0,
+      "Ld": 0,
+      "Lb": 0,
+      "P": 0,
+      "R": 0,
+      "Soft": 0,
+      "T": 0,
+      "O": 0,
+      "DK": 0,
+      "OP": 0,
+      "RS": 0,
+      "BS": 0,
+      "HS": 0,
+      "TB": 0,
+      "Tn": 0,
+      "Tr": 0,
+      "c": 0,
+      "e": 0,
+      "cr": 0,
+      "6": 0,
+      "2e": 0,
+      "seq": 0,
+      "side": 0,
+      "x1": 0,
+      "x2": 0,
+      "20": 0,
+      "U": 0,
+      "Back": 0,
+      "L": 0,
+      "Be": 0,
+      "Dp": 0,
+      "Fa": 0,
+      "RF": 0,
+      "DE": 0,
+      "ES": 0,
+      "LI": 0,
+      "LO": 0,
+      "HI": 0,
+      "PI": 0,
+      "RC": 0,
+      "CD": 0,
+      "PS": 0,
+      "CV": 0,
+      "g": 0,
+      "f": 0,
+      "Lt": 0,
+      "Rt": 0,
+      "Fr": 0,
+      "Bk": 0,
+      "m": 0,
+      "p": 0
+    },
+    "attested_orderings": [
+      [
+        "stem",
+        "suffix"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [],
+    "form_positions": {
+      "L": 0,
+      "d": 1,
+      "b": 1,
+      "x": 2,
+      "1": 3,
+      "2": 3
+    },
+    "position_labels": {
+      "0": "Lamp base",
+      "1": "Brightness state",
+      "2": "Count operator",
+      "3": "Count value"
+    },
+    "positions_by_symbol": {
+      "Ld": [
+        0,
+        1
+      ],
+      "Lb": [
+        0,
+        1
+      ],
+      "x1": [
+        2,
+        3
+      ],
+      "x2": [
+        2,
+        3
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "L": "lamp"
+      },
+      "1": {
+        "d": "dim",
+        "b": "bright"
+      },
+      "2": {
+        "x": "count"
+      },
+      "3": {
+        "1": "one time",
+        "2": "two times"
+      }
+    },
+    "meaning_by_symbol": {
+      "WBH": "all faces white, harsh buzz, hot",
+      "CTH": "bright corners, click or tick, corner heat",
+      "DC": "dim corners, faint edges",
+      "DO": "dim overall",
+      "FD": "frozen, dim, silent, cold",
+      "SD": "sliding light, blurred edges, wavering hum",
+      "LP": "layered hum, too bright, frozen face pattern",
+      "S": "warm stone",
+      "C": "cool cloth",
+      "D": "folded cloth or drape cloth",
+      "F": "fan cool air",
+      "Ld": "dim lamp",
+      "Lb": "bright lamp",
+      "P": "flat board",
+      "R": "right face",
+      "Soft": "soft surface",
+      "T": "top face",
+      "O": "opposite face",
+      "DK": "normal glow, hollow tap, dark center, thin surface hum",
+      "OP": "strict bright and dark opposite-face pulses, and two hum tones",
+      "RS": "one face much brighter, whine",
+      "BS": "edges wobble or flex, bulge, muffled hum",
+      "HS": "clashing hum tones, alternating patterns",
+      "TB": "hot all over but dim, red, rough, rumble",
+      "Tn": "tone",
+      "Tr": "trace",
+      "c": "center",
+      "e": "edge or edges",
+      "cr": "corner(s), 6=all 6 faces, 2e=two adjacent edges.",
+      "6": "all 6 faces",
+      "2e": "two adjacent edges",
+      "seq": "do in sequence",
+      "side": "beside",
+      "x1": "count 1 time",
+      "x2": "count 2 times",
+      "20": "20 seconds",
+      "U": "top face",
+      "Back": "back face",
+      "L": "left face",
+      "Be": "bell",
+      "Dp": "cloth or folded cloth",
+      "Fa": "fan",
+      "RF": "random flicker, broken irregular hum, edges normal",
+      "DE": "sliding light, blurred edges, wavering hum",
+      "ES": "too bright, layered hum, frozen face patterns",
+      "LI": "dim corners, faint edges",
+      "LO": "dim overall, whisper hum",
+      "HI": "all faces white, harsh buzz, hot",
+      "PI": "opposite faces pulse bright and dark with 2 tones",
+      "RC": "one face much brighter, whine there",
+      "CD": "bright corner or corners, click or tick, corner heat",
+      "PS": "frozen, dim, still, silent, cold",
+      "CV": "normal surface glow, hollow tap, dark center",
+      "g": "gentle intensity",
+      "f": "full intensity",
+      "Lt": "left face",
+      "Rt": "right face",
+      "Fr": "front face",
+      "Bk": "back face",
+      "m": "bell Front/Opp alternating, 20s pause, 5 cycles, moderate.",
+      "p": "pause"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1778877873",
+    "n_codes": 61,
+    "n_multimorpheme": 4,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "stem",
+        "label": "Lamp base",
+        "fillers": [
+          {
+            "form": "L",
+            "gloss": "lamp",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.5,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "suffix",
+        "label": "Brightness state",
+        "fillers": [
+          {
+            "form": "b",
+            "gloss": "bright",
+            "count": 1
+          },
+          {
+            "form": "d",
+            "gloss": "dim",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.5,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos2",
+        "role": "stem",
+        "label": "Count operator",
+        "fillers": [
+          {
+            "form": "x",
+            "gloss": "count",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.5,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos3",
+        "role": "suffix",
+        "label": "Count value",
+        "fillers": [
+          {
+            "form": "1",
+            "gloss": "one time",
+            "count": 1
+          },
+          {
+            "form": "2",
+            "gloss": "two times",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.5,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      },
+      {
+        "slot_a": "pos2",
+        "slot_b": "pos3",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ],
+      [
+        "pos2",
+        "pos3"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "Ld": [
+        "pos0",
+        "pos1"
+      ],
+      "Lb": [
+        "pos0",
+        "pos1"
+      ],
+      "x1": [
+        "pos2",
+        "pos3"
+      ],
+      "x2": [
+        "pos2",
+        "pos3"
+      ]
+    },
+    "construction_by_symbol": {
+      "Ld": "K_LAMP_STATE",
+      "Lb": "K_LAMP_STATE",
+      "x1": "K_COUNT_EXPR",
+      "x2": "K_COUNT_EXPR"
+    },
+    "construction_labels": {
+      "K_LAMP_STATE": "Lamp brightness expression",
+      "K_COUNT_EXPR": "Count expression"
+    },
+    "construction_templates": {
+      "K_LAMP_STATE": [
+        "pos0",
+        "pos1"
+      ],
+      "K_COUNT_EXPR": [
+        "pos2",
+        "pos3"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "Most symbols are best treated as opaque lexical items: their shared letters do not support stable, compositional paradigms. Two small paradigms are defensible. First, Ld 'dim lamp' and Lb 'bright lamp' form an exact minimal pair with stable semantics, so they support a construction LAMP_BASE + BRIGHTNESS. This is allowed even though standalone L elsewhere means 'left face'; the substring is a local morpheme here. Second, x1 'count 1 time' and x2 'count 2 times' support COUNT_OPERATOR + COUNT_VALUE, because the numerals contribute literal count meaning in the same frame. No other recurring pieces meet the evidence standard, so all remaining supplied symbols are lexical.",
+    "lexical_symbols": [
+      "WBH",
+      "CTH",
+      "DC",
+      "DO",
+      "FD",
+      "SD",
+      "LP",
+      "S",
+      "C",
+      "D",
+      "F",
+      "P",
+      "R",
+      "Soft",
+      "T",
+      "O",
+      "DK",
+      "OP",
+      "RS",
+      "BS",
+      "HS",
+      "TB",
+      "Tn",
+      "Tr",
+      "c",
+      "e",
+      "cr",
+      "6",
+      "2e",
+      "seq",
+      "side",
+      "20",
+      "U",
+      "Back",
+      "L",
+      "Be",
+      "Dp",
+      "Fa",
+      "RF",
+      "DE",
+      "ES",
+      "LI",
+      "LO",
+      "HI",
+      "PI",
+      "RC",
+      "CD",
+      "PS",
+      "CV",
+      "g",
+      "f",
+      "Lt",
+      "Rt",
+      "Fr",
+      "Bk",
+      "m",
+      "p"
+    ],
+    "classes": [
+      {
+        "class_id": "C_LAMP_BASE",
+        "label": "Lamp base",
+        "description": "Base referring to a lamp in the lamp-state construction.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "C_BRIGHTNESS",
+        "label": "Brightness state",
+        "description": "Brightness modifier contributing a lamp brightness contrast.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "C_COUNT_OP",
+        "label": "Count operator",
+        "description": "Operator introducing an event-count expression.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "C_COUNT_VALUE",
+        "label": "Count value",
+        "description": "Literal number of times in the count-expression construction.",
+        "repeatable": false,
+        "declared_fillers": []
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "K_LAMP_STATE",
+        "label": "Lamp brightness expression",
+        "description": "A lamp base followed by a brightness modifier.",
+        "class_sequence": [
+          "C_LAMP_BASE",
+          "C_BRIGHTNESS"
+        ]
+      },
+      {
+        "construction_id": "K_COUNT_EXPR",
+        "label": "Count expression",
+        "description": "A count operator followed by a literal count value.",
+        "class_sequence": [
+          "C_COUNT_OP",
+          "C_COUNT_VALUE"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "Ld",
+        "construction_id": "K_LAMP_STATE",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "L",
+            "class_id": "C_LAMP_BASE",
+            "gloss": "lamp"
+          },
+          {
+            "form": "d",
+            "class_id": "C_BRIGHTNESS",
+            "gloss": "dim"
+          }
+        ]
+      },
+      {
+        "symbol": "Lb",
+        "construction_id": "K_LAMP_STATE",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "L",
+            "class_id": "C_LAMP_BASE",
+            "gloss": "lamp"
+          },
+          {
+            "form": "b",
+            "class_id": "C_BRIGHTNESS",
+            "gloss": "bright"
+          }
+        ]
+      },
+      {
+        "symbol": "x1",
+        "construction_id": "K_COUNT_EXPR",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "x",
+            "class_id": "C_COUNT_OP",
+            "gloss": "count"
+          },
+          {
+            "form": "1",
+            "class_id": "C_COUNT_VALUE",
+            "gloss": "one time"
+          }
+        ]
+      },
+      {
+        "symbol": "x2",
+        "construction_id": "K_COUNT_EXPR",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "x",
+            "class_id": "C_COUNT_OP",
+            "gloss": "count"
+          },
+          {
+            "form": "2",
+            "class_id": "C_COUNT_VALUE",
+            "gloss": "two times"
+          }
+        ]
+      }
+    ]
+  }
+}

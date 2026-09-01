@@ -1,0 +1,4271 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780617759",
+    "slots": [
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "bd-",
+            "gloss": "flat board",
+            "support": 2,
+            "is_defined": false
+          },
+          {
+            "form": "bl-",
+            "gloss": "bell, a chime with a discrete strike",
+            "support": 2,
+            "is_defined": false
+          },
+          {
+            "form": "drape-",
+            "gloss": "drape",
+            "support": 2,
+            "is_defined": false
+          },
+          {
+            "form": "fn-",
+            "gloss": "fan, using air",
+            "support": 2,
+            "is_defined": false
+          },
+          {
+            "form": "lp-",
+            "gloss": "lamp",
+            "support": 2,
+            "is_defined": false
+          },
+          {
+            "form": "tn-",
+            "gloss": "sustained tone using voice or hum",
+            "support": 4,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "suffix",
+        "fillers": [
+          {
+            "form": "alt",
+            "gloss": "alternating between two faces",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "b",
+            "gloss": "bright",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "ctr",
+            "gloss": "at the center of each specified face",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "d",
+            "gloss": "dim",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "face",
+            "gloss": "over the specified face",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "full",
+            "gloss": "over the whole Veyru",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "press",
+            "gloss": "press",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "rot",
+            "gloss": "rotate",
+            "support": 2,
+            "is_defined": true
+          },
+          {
+            "form": "seq",
+            "gloss": "in sequence",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "sim",
+            "gloss": "simultaneously",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "spot",
+            "gloss": "at one position",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "sweep",
+            "gloss": "continuous sweep across the named faces as one motion",
+            "support": 2,
+            "is_defined": true
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "B": [
+        "B"
+      ],
+      "W": [
+        "W"
+      ],
+      "M": [
+        "M"
+      ],
+      "L": [
+        "L"
+      ],
+      "F": [
+        "F"
+      ],
+      "X": [
+        "X"
+      ],
+      "R": [
+        "R"
+      ],
+      "BR": [
+        "BR"
+      ],
+      "D": [
+        "D"
+      ],
+      "SL": [
+        "SL"
+      ],
+      "BL": [
+        "BL"
+      ],
+      "WV": [
+        "WV"
+      ],
+      "DC": [
+        "DC"
+      ],
+      "FE": [
+        "FE"
+      ],
+      "HL": [
+        "HL"
+      ],
+      "WH": [
+        "WH"
+      ],
+      "WO": [
+        "WO"
+      ],
+      "BZ": [
+        "BZ"
+      ],
+      "HZ": [
+        "HZ"
+      ],
+      "HT": [
+        "HT"
+      ],
+      "PU": [
+        "PU"
+      ],
+      "2T": [
+        "2T"
+      ],
+      "1B": [
+        "1B"
+      ],
+      "WN": [
+        "WN"
+      ],
+      "CB": [
+        "CB"
+      ],
+      "CK": [
+        "CK"
+      ],
+      "CH": [
+        "CH"
+      ],
+      "FZ": [
+        "FZ"
+      ],
+      "SI": [
+        "SI"
+      ],
+      "CD": [
+        "CD"
+      ],
+      "2H": [
+        "2H"
+      ],
+      "AP": [
+        "AP"
+      ],
+      "SH": [
+        "SH"
+      ],
+      "HOT": [
+        "HOT"
+      ],
+      "RM": [
+        "RM"
+      ],
+      "RD": [
+        "RD"
+      ],
+      "HW": [
+        "HW"
+      ],
+      "DK": [
+        "DK"
+      ],
+      "TH": [
+        "TH"
+      ],
+      "cl": [
+        "cl"
+      ],
+      "bl": [
+        "bl"
+      ],
+      "bd": [
+        "bd"
+      ],
+      "fn": [
+        "fn"
+      ],
+      "st": [
+        "st"
+      ],
+      "lp": [
+        "lp"
+      ],
+      "T": [
+        "T"
+      ],
+      "K": [
+        "K"
+      ],
+      "E": [
+        "E"
+      ],
+      "C": [
+        "C"
+      ],
+      "A": [
+        "A"
+      ],
+      "OP": [
+        "OP"
+      ],
+      "ok": [
+        "ok"
+      ],
+      "OK✓": [
+        "OK✓"
+      ],
+      "tn": [
+        "tn"
+      ],
+      "lp-d": [
+        "lp-",
+        "d"
+      ],
+      "lp-b": [
+        "lp-",
+        "b"
+      ],
+      "fg": [
+        "fg"
+      ],
+      "gen": [
+        "gen"
+      ],
+      "mod": [
+        "mod"
+      ],
+      "str": [
+        "str"
+      ],
+      "seq": [
+        "seq"
+      ],
+      "opp": [
+        "opp"
+      ],
+      "8C": [
+        "8C"
+      ],
+      "4C/T": [
+        "4C/T"
+      ],
+      "4E/T": [
+        "4E/T"
+      ],
+      "T-up": [
+        "T-up"
+      ],
+      "rot": [
+        "rot"
+      ],
+      "firm": [
+        "firm"
+      ],
+      "sweep": [
+        "sweep"
+      ],
+      "fail": [
+        "fail"
+      ],
+      "tn-sim": [
+        "tn-",
+        "sim"
+      ],
+      "6F": [
+        "6F"
+      ],
+      "tn-rot": [
+        "tn-",
+        "rot"
+      ],
+      "tn-seq": [
+        "tn-",
+        "seq"
+      ],
+      "bl-ctr": [
+        "bl-",
+        "ctr"
+      ],
+      "2x": [
+        "2x"
+      ],
+      "bl-alt": [
+        "bl-",
+        "alt"
+      ],
+      "fn-sweep": [
+        "fn-",
+        "sweep"
+      ],
+      "fn-spot": [
+        "fn-",
+        "spot"
+      ],
+      "drape-full": [
+        "drape-",
+        "full"
+      ],
+      "drape-face": [
+        "drape-",
+        "face"
+      ],
+      "bd-press": [
+        "bd-",
+        "press"
+      ],
+      "bd-rot": [
+        "bd-",
+        "rot"
+      ],
+      "face-pairs": [
+        "face-pairs"
+      ],
+      "st-seq": [
+        "st-seq"
+      ],
+      "?": [
+        "?"
+      ],
+      "1B/T": [
+        "1B/T"
+      ],
+      "CB/TFR": [
+        "CB/TFR"
+      ],
+      "nil": [
+        "nil"
+      ],
+      "3FP": [
+        "3FP"
+      ],
+      "st-near": [
+        "st-near"
+      ],
+      "st-beside": [
+        "st-beside"
+      ],
+      "tn-sweep": [
+        "tn-",
+        "sweep"
+      ],
+      "-fan": [
+        "-fan"
+      ],
+      "-lamp": [
+        "-lamp"
+      ],
+      "-bell": [
+        "-bell"
+      ],
+      "-stone": [
+        "-stone"
+      ],
+      "-board": [
+        "-board"
+      ],
+      "-cloth": [
+        "-cloth"
+      ]
+    },
+    "head_index": {
+      "B": 0,
+      "W": 0,
+      "M": 0,
+      "L": 0,
+      "F": 0,
+      "X": 0,
+      "R": 0,
+      "BR": 0,
+      "D": 0,
+      "SL": 0,
+      "BL": 0,
+      "WV": 0,
+      "DC": 0,
+      "FE": 0,
+      "HL": 0,
+      "WH": 0,
+      "WO": 0,
+      "BZ": 0,
+      "HZ": 0,
+      "HT": 0,
+      "PU": 0,
+      "2T": 0,
+      "1B": 0,
+      "WN": 0,
+      "CB": 0,
+      "CK": 0,
+      "CH": 0,
+      "FZ": 0,
+      "SI": 0,
+      "CD": 0,
+      "2H": 0,
+      "AP": 0,
+      "SH": 0,
+      "HOT": 0,
+      "RM": 0,
+      "RD": 0,
+      "HW": 0,
+      "DK": 0,
+      "TH": 0,
+      "cl": 0,
+      "bl": 0,
+      "bd": 0,
+      "fn": 0,
+      "st": 0,
+      "lp": 0,
+      "T": 0,
+      "K": 0,
+      "E": 0,
+      "C": 0,
+      "A": 0,
+      "OP": 0,
+      "ok": 0,
+      "OK✓": 0,
+      "tn": 0,
+      "lp-d": 0,
+      "lp-b": 0,
+      "fg": 0,
+      "gen": 0,
+      "mod": 0,
+      "str": 0,
+      "seq": 0,
+      "opp": 0,
+      "8C": 0,
+      "4C/T": 0,
+      "4E/T": 0,
+      "T-up": 0,
+      "rot": 0,
+      "firm": 0,
+      "sweep": 0,
+      "fail": 0,
+      "tn-sim": 0,
+      "6F": 0,
+      "tn-rot": 0,
+      "tn-seq": 0,
+      "bl-ctr": 0,
+      "2x": 0,
+      "bl-alt": 0,
+      "fn-sweep": 0,
+      "fn-spot": 0,
+      "drape-full": 0,
+      "drape-face": 0,
+      "bd-press": 0,
+      "bd-rot": 0,
+      "face-pairs": 0,
+      "st-seq": 0,
+      "?": 0,
+      "1B/T": 0,
+      "CB/TFR": 0,
+      "nil": 0,
+      "3FP": 0,
+      "st-near": 0,
+      "st-beside": 0,
+      "tn-sweep": 0,
+      "-fan": 0,
+      "-lamp": 0,
+      "-bell": 0,
+      "-stone": 0,
+      "-board": 0,
+      "-cloth": 0
+    },
+    "attested_orderings": [
+      [
+        "stem",
+        "suffix"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [
+      {
+        "stem": "A",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "A-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "AP",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "AP-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "B",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "B-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "BL",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "BL-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "BR",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "BR-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "BZ",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "BZ-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "C",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "C-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "CB",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "CB-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "CD",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "CD-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "CH",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "CH-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "CK",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "CK-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "D",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "D-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "DC",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "DC-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "DK",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "DK-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "E",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "E-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "F",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "F-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "FE",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "FE-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "FZ",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "FZ-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "HL",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "HL-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "HOT",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "HOT-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "HT",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "HT-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "HW",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "HW-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "HZ",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "HZ-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "K",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "K-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "L",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "L-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "M",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "M-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "OP",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "OP-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "PU",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "PU-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "R",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "R-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "RD",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "RD-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "RM",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "RM-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "SH",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "SH-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "SI",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "SI-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "SL",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "SL-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "T",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "T-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "TH",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "TH-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "W",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "W-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "WH",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "WH-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "WN",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "WN-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "WO",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "WO-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "WV",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "WV-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "X",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "X-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "bd",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "bd-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "bl",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "bl-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "cl",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "cl-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "fail",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "fail-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "fg",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "fg-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "firm",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "firm-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "fn",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "fn-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "gen",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "gen-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "lp",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "lp-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "mod",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "mod-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "nil",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "nil-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "ok",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "ok-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "opp",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "opp-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "rot",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "rot-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "seq",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "seq-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "st",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "st-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "str",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "str-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "sweep",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "sweep-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "tn",
+        "affix": "-bell",
+        "role": "suffix",
+        "form": "tn-bell",
+        "delimiter": "-"
+      },
+      {
+        "stem": "A",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "A-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "AP",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "AP-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "B",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "B-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "BL",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "BL-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "BR",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "BR-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "BZ",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "BZ-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "C",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "C-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "CB",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "CB-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "CD",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "CD-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "CH",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "CH-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "CK",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "CK-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "D",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "D-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "DC",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "DC-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "DK",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "DK-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "E",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "E-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "F",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "F-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "FE",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "FE-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "FZ",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "FZ-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "HL",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "HL-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "HOT",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "HOT-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "HT",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "HT-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "HW",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "HW-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "HZ",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "HZ-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "K",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "K-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "L",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "L-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "M",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "M-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "OP",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "OP-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "PU",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "PU-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "R",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "R-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "RD",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "RD-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "RM",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "RM-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "SH",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "SH-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "SI",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "SI-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "SL",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "SL-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "T",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "T-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "TH",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "TH-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "W",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "W-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "WH",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "WH-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "WN",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "WN-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "WO",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "WO-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "WV",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "WV-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "X",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "X-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "bd",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "bd-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "bl",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "bl-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "cl",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "cl-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "fail",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "fail-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "fg",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "fg-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "firm",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "firm-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "fn",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "fn-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "gen",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "gen-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "lp",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "lp-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "mod",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "mod-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "nil",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "nil-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "ok",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "ok-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "opp",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "opp-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "rot",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "rot-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "seq",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "seq-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "st",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "st-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "str",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "str-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "sweep",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "sweep-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "tn",
+        "affix": "-board",
+        "role": "suffix",
+        "form": "tn-board",
+        "delimiter": "-"
+      },
+      {
+        "stem": "A",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "A-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "AP",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "AP-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "B",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "B-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "BL",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "BL-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "BR",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "BR-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "BZ",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "BZ-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "C",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "C-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "CB",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "CB-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "CD",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "CD-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "CH",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "CH-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "CK",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "CK-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "D",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "D-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "DC",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "DC-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "DK",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "DK-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "E",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "E-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "F",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "F-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "FE",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "FE-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "FZ",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "FZ-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "HL",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "HL-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "HOT",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "HOT-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "HT",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "HT-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "HW",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "HW-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "HZ",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "HZ-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "K",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "K-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "L",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "L-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "M",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "M-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "OP",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "OP-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "PU",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "PU-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "R",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "R-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "RD",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "RD-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "RM",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "RM-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "SH",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "SH-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "SI",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "SI-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "SL",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "SL-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "T",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "T-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "TH",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "TH-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "W",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "W-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "WH",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "WH-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "WN",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "WN-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "WO",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "WO-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "WV",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "WV-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "X",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "X-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "bd",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "bd-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "bl",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "bl-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "cl",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "cl-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "fail",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "fail-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "fg",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "fg-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "firm",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "firm-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "fn",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "fn-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "gen",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "gen-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "lp",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "lp-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "mod",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "mod-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "nil",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "nil-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "ok",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "ok-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "opp",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "opp-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "rot",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "rot-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "seq",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "seq-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "st",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "st-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "str",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "str-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "sweep",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "sweep-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "tn",
+        "affix": "-cloth",
+        "role": "suffix",
+        "form": "tn-cloth",
+        "delimiter": "-"
+      },
+      {
+        "stem": "A",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "A-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "AP",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "AP-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "B",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "B-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "BL",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "BL-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "BR",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "BR-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "BZ",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "BZ-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "C",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "C-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "CB",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "CB-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "CD",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "CD-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "CH",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "CH-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "CK",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "CK-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "D",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "D-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "DC",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "DC-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "DK",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "DK-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "E",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "E-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "F",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "F-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "FE",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "FE-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "FZ",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "FZ-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "HL",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "HL-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "HOT",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "HOT-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "HT",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "HT-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "HW",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "HW-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "HZ",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "HZ-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "K",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "K-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "L",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "L-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "M",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "M-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "OP",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "OP-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "PU",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "PU-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "R",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "R-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "RD",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "RD-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "RM",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "RM-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "SH",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "SH-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "SI",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "SI-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "SL",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "SL-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "T",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "T-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "TH",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "TH-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "W",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "W-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "WH",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "WH-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "WN",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "WN-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "WO",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "WO-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "WV",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "WV-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "X",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "X-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "bd",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "bd-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "bl",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "bl-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "cl",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "cl-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "fail",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "fail-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "fg",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "fg-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "firm",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "firm-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "fn",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "fn-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "gen",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "gen-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "lp",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "lp-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "mod",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "mod-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "nil",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "nil-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "ok",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "ok-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "opp",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "opp-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "rot",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "rot-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "seq",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "seq-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "st",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "st-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "str",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "str-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "sweep",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "sweep-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "tn",
+        "affix": "-fan",
+        "role": "suffix",
+        "form": "tn-fan",
+        "delimiter": "-"
+      },
+      {
+        "stem": "A",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "A-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "AP",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "AP-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "B",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "B-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "BL",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "BL-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "BR",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "BR-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "BZ",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "BZ-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "C",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "C-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "CB",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "CB-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "CD",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "CD-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "CH",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "CH-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "CK",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "CK-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "D",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "D-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "DC",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "DC-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "DK",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "DK-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "E",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "E-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "F",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "F-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "FE",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "FE-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "FZ",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "FZ-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "HL",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "HL-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "HOT",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "HOT-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "HT",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "HT-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "HW",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "HW-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "HZ",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "HZ-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "K",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "K-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "L",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "L-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "M",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "M-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "OP",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "OP-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "PU",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "PU-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "R",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "R-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "RD",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "RD-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "RM",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "RM-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "SH",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "SH-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "SI",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "SI-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "SL",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "SL-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "T",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "T-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "TH",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "TH-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "W",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "W-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "WH",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "WH-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "WN",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "WN-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "WO",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "WO-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "WV",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "WV-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "X",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "X-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "bd",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "bd-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "bl",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "bl-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "cl",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "cl-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "fail",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "fail-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "fg",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "fg-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "firm",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "firm-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "fn",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "fn-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "gen",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "gen-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "lp",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "lp-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "mod",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "mod-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "nil",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "nil-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "ok",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "ok-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "opp",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "opp-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "rot",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "rot-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "seq",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "seq-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "st",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "st-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "str",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "str-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "sweep",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "sweep-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "tn",
+        "affix": "-lamp",
+        "role": "suffix",
+        "form": "tn-lamp",
+        "delimiter": "-"
+      },
+      {
+        "stem": "A",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "A-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "AP",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "AP-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "B",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "B-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "BL",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "BL-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "BR",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "BR-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "BZ",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "BZ-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "C",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "C-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "CB",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "CB-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "CD",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "CD-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "CH",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "CH-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "CK",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "CK-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "D",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "D-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "DC",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "DC-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "DK",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "DK-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "E",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "E-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "F",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "F-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "FE",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "FE-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "FZ",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "FZ-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "HL",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "HL-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "HOT",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "HOT-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "HT",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "HT-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "HW",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "HW-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "HZ",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "HZ-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "K",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "K-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "L",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "L-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "M",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "M-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "OP",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "OP-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "PU",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "PU-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "R",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "R-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "RD",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "RD-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "RM",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "RM-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "SH",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "SH-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "SI",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "SI-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "SL",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "SL-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "T",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "T-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "TH",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "TH-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "W",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "W-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "WH",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "WH-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "WN",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "WN-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "WO",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "WO-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "WV",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "WV-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "X",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "X-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "bd",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "bd-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "bl",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "bl-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "cl",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "cl-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "fail",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "fail-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "fg",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "fg-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "firm",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "firm-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "fn",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "fn-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "gen",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "gen-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "lp",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "lp-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "mod",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "mod-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "nil",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "nil-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "ok",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "ok-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "opp",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "opp-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "rot",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "rot-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "seq",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "seq-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "st",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "st-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "str",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "str-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "sweep",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "sweep-stone",
+        "delimiter": "-"
+      },
+      {
+        "stem": "tn",
+        "affix": "-stone",
+        "role": "suffix",
+        "form": "tn-stone",
+        "delimiter": "-"
+      }
+    ],
+    "form_positions": {
+      "lp-": 0,
+      "d": 1,
+      "b": 1,
+      "tn-": 2,
+      "sim": 3,
+      "rot": 7,
+      "seq": 3,
+      "sweep": 5,
+      "fn-": 4,
+      "spot": 5,
+      "bd-": 6,
+      "press": 7,
+      "bl-": 8,
+      "ctr": 9,
+      "alt": 9,
+      "drape-": 10,
+      "full": 11,
+      "face": 11
+    },
+    "position_labels": {
+      "0": "lamp base",
+      "1": "lamp brightness setting",
+      "2": "sustained-tone base",
+      "3": "tone application mode",
+      "4": "fan base",
+      "5": "fan application mode",
+      "6": "board base",
+      "7": "board operation",
+      "8": "bell base",
+      "9": "bell striking pattern",
+      "10": "drape base",
+      "11": "drape coverage"
+    },
+    "positions_by_symbol": {
+      "lp-d": [
+        0,
+        1
+      ],
+      "lp-b": [
+        0,
+        1
+      ],
+      "tn-sim": [
+        2,
+        3
+      ],
+      "tn-rot": [
+        2,
+        3
+      ],
+      "tn-seq": [
+        2,
+        3
+      ],
+      "tn-sweep": [
+        2,
+        3
+      ],
+      "fn-sweep": [
+        4,
+        5
+      ],
+      "fn-spot": [
+        4,
+        5
+      ],
+      "bd-press": [
+        6,
+        7
+      ],
+      "bd-rot": [
+        6,
+        7
+      ],
+      "bl-ctr": [
+        8,
+        9
+      ],
+      "bl-alt": [
+        8,
+        9
+      ],
+      "drape-full": [
+        10,
+        11
+      ],
+      "drape-face": [
+        10,
+        11
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "lp-": "lamp"
+      },
+      "1": {
+        "d": "dim",
+        "b": "bright"
+      },
+      "2": {
+        "tn-": "sustained tone using voice or hum"
+      },
+      "3": {
+        "sim": "simultaneously",
+        "rot": "rotate",
+        "seq": "in sequence",
+        "sweep": "continuous sweep across the named faces as one motion"
+      },
+      "4": {
+        "fn-": "fan, using air"
+      },
+      "5": {
+        "sweep": "continuous sweep across the named faces as one motion",
+        "spot": "at one position"
+      },
+      "6": {
+        "bd-": "flat board"
+      },
+      "7": {
+        "press": "press",
+        "rot": "rotate"
+      },
+      "8": {
+        "bl-": "bell, a chime with a discrete strike"
+      },
+      "9": {
+        "ctr": "at the center of each specified face",
+        "alt": "alternating between two faces"
+      },
+      "10": {
+        "drape-": "drape"
+      },
+      "11": {
+        "full": "over the whole Veyru",
+        "face": "over the specified face"
+      }
+    },
+    "meaning_by_symbol": {
+      "B": "bulge faces",
+      "W": "wobble edges",
+      "M": "muffled hum",
+      "L": "layered hum",
+      "F": "frozen faces",
+      "X": "chaotic flicker",
+      "R": "irregular hum",
+      "BR": "too bright",
+      "D": "dim all",
+      "SL": "sliding light",
+      "BL": "blurred edges",
+      "WV": "wavering pitch",
+      "DC": "dim corners",
+      "FE": "faint edges",
+      "HL": "hollow-thin hum",
+      "WH": "whisper hum",
+      "WO": "washed out",
+      "BZ": "blazing bright",
+      "HZ": "harsh buzz",
+      "HT": "hot",
+      "PU": "opposite faces pulse alt, 2T=two tones sync",
+      "2T": "two tones in sync",
+      "1B": "WN\" alone = bright face unidentified",
+      "WN": "high whine",
+      "CB": "corners bright",
+      "CK": "clicking",
+      "CH": "corner heat",
+      "FZ": "frozen dim still",
+      "SI": "silent",
+      "CD": "cold",
+      "2H": "two clashing tones",
+      "AP": "alternating patterns",
+      "SH": "shimmer",
+      "HOT": "very hot and dim",
+      "RM": "rumble",
+      "RD": "reddish",
+      "HW": "hollow tap",
+      "DK": "dark center",
+      "TH": "thin hum",
+      "cl": "cloth",
+      "bl": "bell, a chime with a discrete strike",
+      "bd": "flat board",
+      "fn": "fan, using air",
+      "st": "warm or heated stone",
+      "lp": "lamp",
+      "T": "top face",
+      "K": "back face",
+      "E": "edge",
+      "C": "corner",
+      "A": "all faces",
+      "OP": "opposite faces",
+      "ok": "action done successfully",
+      "OK✓": "fully stable and done",
+      "tn": "sustained tone using voice or hum, not bell",
+      "lp-d": "lamp on dim",
+      "lp-b": "lamp on bright",
+      "fg": "finger trace",
+      "gen": "gentle intensity",
+      "mod": "moderate intensity",
+      "str": "strong intensity",
+      "seq": "in sequence",
+      "opp": "opposite face or faces",
+      "8C": "once at each of the 8 corners",
+      "4C/T": "the 4 corners of the top face",
+      "4E/T": "the 4 edges of the top face",
+      "T-up": "with the top face upward",
+      "rot": "rotate",
+      "firm": "firm intensity",
+      "sweep": "continuous motion across the named faces as one motion",
+      "fail": "stabilization ineffective",
+      "tn-sim": "one continuous sustained tone applied simultaneously to the specified faces",
+      "6F": "all 6 faces",
+      "tn-rot": "rotate while applying a sustained tone to the specified faces",
+      "tn-seq": "apply sustained tone sequentially in the given face order, starting from the first named face",
+      "bl-ctr": "strike once at the center of each specified face",
+      "2x": "twice",
+      "bl-alt": "alternate bell strikes between two faces with the specified pause and number of cycles, optionally starting from the named face",
+      "fn-sweep": "fan in one continuous sweep across the named faces",
+      "fn-spot": "fan at one position",
+      "drape-full": "drape over the whole Veyru",
+      "drape-face": "drape over the specified face",
+      "bd-press": "press the board to the specified face",
+      "bd-rot": "rotate the board through face-pairs",
+      "face-pairs": "the 3 opposite face-pairs",
+      "st-seq": "apply the stone in sequence to the specified corners or face",
+      "?": "the preceding token is unclear or ambiguous",
+      "1B/T": "one face is brighter, and that bright face is the top face",
+      "CB/TFR": "corners are bright on the top, front, and right/left-named faces given after the slash; in the example, the named affected faces are T, F, and R",
+      "nil": "no new symptom detail",
+      "3FP": "the 3 face-pairs",
+      "st-near": "hold the stone nearby rather than in contact",
+      "st-beside": "place the stone beside the specified face, with beside or contact placement",
+      "tn-sweep": "a single sustained-tone sweep across the named faces in the total stated duration",
+      "-fan": "fan unavailable from the kit",
+      "-lamp": "lamp unavailable from the kit",
+      "-bell": "bell unavailable from the kit",
+      "-stone": "stone unavailable from the kit",
+      "-board": "board unavailable from the kit",
+      "-cloth": "cloth unavailable from the kit"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780617759",
+    "n_codes": 99,
+    "n_multimorpheme": 14,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "stem",
+        "label": "lamp base",
+        "fillers": [
+          {
+            "form": "lp-",
+            "gloss": "lamp",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.14285714285714285,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "suffix",
+        "label": "lamp brightness setting",
+        "fillers": [
+          {
+            "form": "b",
+            "gloss": "bright",
+            "count": 1
+          },
+          {
+            "form": "d",
+            "gloss": "dim",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.14285714285714285,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos2",
+        "role": "stem",
+        "label": "sustained-tone base",
+        "fillers": [
+          {
+            "form": "tn-",
+            "gloss": "sustained tone using voice or hum",
+            "count": 4
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.2857142857142857,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos3",
+        "role": "suffix",
+        "label": "tone application mode",
+        "fillers": [
+          {
+            "form": "rot",
+            "gloss": "rotate",
+            "count": 1
+          },
+          {
+            "form": "seq",
+            "gloss": "in sequence",
+            "count": 1
+          },
+          {
+            "form": "sim",
+            "gloss": "simultaneously",
+            "count": 1
+          },
+          {
+            "form": "sweep",
+            "gloss": "continuous sweep across the named faces as one motion",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 4,
+        "obligatoriness": 0.2857142857142857,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos4",
+        "role": "stem",
+        "label": "fan base",
+        "fillers": [
+          {
+            "form": "fn-",
+            "gloss": "fan, using air",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.14285714285714285,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos5",
+        "role": "suffix",
+        "label": "fan application mode",
+        "fillers": [
+          {
+            "form": "spot",
+            "gloss": "at one position",
+            "count": 1
+          },
+          {
+            "form": "sweep",
+            "gloss": "continuous sweep across the named faces as one motion",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.14285714285714285,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos6",
+        "role": "stem",
+        "label": "board base",
+        "fillers": [
+          {
+            "form": "bd",
+            "gloss": "flat board",
+            "count": 0
+          },
+          {
+            "form": "bd-",
+            "gloss": "flat board",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.14285714285714285,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos7",
+        "role": "suffix",
+        "label": "board operation",
+        "fillers": [
+          {
+            "form": "press",
+            "gloss": "press",
+            "count": 1
+          },
+          {
+            "form": "rot",
+            "gloss": "rotate",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.14285714285714285,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos8",
+        "role": "stem",
+        "label": "bell base",
+        "fillers": [
+          {
+            "form": "bl",
+            "gloss": "bell, a chime with a discrete strike",
+            "count": 0
+          },
+          {
+            "form": "bl-",
+            "gloss": "bell, a chime with a discrete strike",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.14285714285714285,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos9",
+        "role": "suffix",
+        "label": "bell striking pattern",
+        "fillers": [
+          {
+            "form": "alt",
+            "gloss": "alternating between two faces",
+            "count": 1
+          },
+          {
+            "form": "ctr",
+            "gloss": "at the center of each specified face",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.14285714285714285,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos10",
+        "role": "stem",
+        "label": "drape base",
+        "fillers": [
+          {
+            "form": "drape-",
+            "gloss": "drape",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.14285714285714285,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos11",
+        "role": "suffix",
+        "label": "drape coverage",
+        "fillers": [
+          {
+            "form": "face",
+            "gloss": "over the specified face",
+            "count": 1
+          },
+          {
+            "form": "full",
+            "gloss": "over the whole Veyru",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.14285714285714285,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      },
+      {
+        "slot_a": "pos10",
+        "slot_b": "pos11",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      },
+      {
+        "slot_a": "pos2",
+        "slot_b": "pos3",
+        "attested_combos": 4,
+        "possible_combos": 4,
+        "saturation": 1.0
+      },
+      {
+        "slot_a": "pos4",
+        "slot_b": "pos5",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      },
+      {
+        "slot_a": "pos6",
+        "slot_b": "pos7",
+        "attested_combos": 2,
+        "possible_combos": 4,
+        "saturation": 0.5
+      },
+      {
+        "slot_a": "pos8",
+        "slot_b": "pos9",
+        "attested_combos": 2,
+        "possible_combos": 4,
+        "saturation": 0.5
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ],
+      [
+        "pos10",
+        "pos11"
+      ],
+      [
+        "pos2",
+        "pos3"
+      ],
+      [
+        "pos4",
+        "pos5"
+      ],
+      [
+        "pos6",
+        "pos7"
+      ],
+      [
+        "pos8",
+        "pos9"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "lp-d": [
+        "pos0",
+        "pos1"
+      ],
+      "lp-b": [
+        "pos0",
+        "pos1"
+      ],
+      "tn-sim": [
+        "pos2",
+        "pos3"
+      ],
+      "tn-rot": [
+        "pos2",
+        "pos3"
+      ],
+      "tn-seq": [
+        "pos2",
+        "pos3"
+      ],
+      "tn-sweep": [
+        "pos2",
+        "pos3"
+      ],
+      "fn-sweep": [
+        "pos4",
+        "pos5"
+      ],
+      "fn-spot": [
+        "pos4",
+        "pos5"
+      ],
+      "bd-press": [
+        "pos6",
+        "pos7"
+      ],
+      "bd-rot": [
+        "pos6",
+        "pos7"
+      ],
+      "bl-ctr": [
+        "pos8",
+        "pos9"
+      ],
+      "bl-alt": [
+        "pos8",
+        "pos9"
+      ],
+      "drape-full": [
+        "pos10",
+        "pos11"
+      ],
+      "drape-face": [
+        "pos10",
+        "pos11"
+      ]
+    },
+    "construction_by_symbol": {
+      "lp-d": "CX_LP",
+      "lp-b": "CX_LP",
+      "tn-sim": "CX_TN",
+      "tn-rot": "CX_TN",
+      "tn-seq": "CX_TN",
+      "tn-sweep": "CX_TN",
+      "fn-sweep": "CX_FN",
+      "fn-spot": "CX_FN",
+      "bd-press": "CX_BD",
+      "bd-rot": "CX_BD",
+      "bl-ctr": "CX_BL",
+      "bl-alt": "CX_BL",
+      "drape-full": "CX_DRAPE",
+      "drape-face": "CX_DRAPE"
+    },
+    "construction_labels": {
+      "CX_LP": "lamp setting",
+      "CX_TN": "tone application",
+      "CX_FN": "fan application",
+      "CX_BD": "board operation",
+      "CX_BL": "bell pattern",
+      "CX_DRAPE": "drape coverage"
+    },
+    "construction_templates": {
+      "CX_LP": [
+        "pos0",
+        "pos1"
+      ],
+      "CX_TN": [
+        "pos2",
+        "pos3"
+      ],
+      "CX_FN": [
+        "pos4",
+        "pos5"
+      ],
+      "CX_BD": [
+        "pos6",
+        "pos7"
+      ],
+      "CX_BL": [
+        "pos8",
+        "pos9"
+      ],
+      "CX_DRAPE": [
+        "pos10",
+        "pos11"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "A small paradigm network is defensible for a subset of the codebook. I accepted only families with clear multi-entry compositional contrasts: lp-d/lp-b; tn-sim/tn-rot/tn-seq/tn-sweep; fn-sweep/fn-spot; bd-press/bd-rot; bl-ctr/bl-alt; drape-full/drape-face. In each accepted family, the same initial element recurs in a stable frame, the second slot shows substitution, and whole meanings are predictable from the parts. I rejected broader or looser segmentations elsewhere because shared letters or prefixes did not yield a coherent substitution class with consistent semantic role. All remaining symbols are treated as lexical wholes.",
+    "lexical_symbols": [
+      "B",
+      "W",
+      "M",
+      "L",
+      "F",
+      "X",
+      "R",
+      "BR",
+      "D",
+      "SL",
+      "BL",
+      "WV",
+      "DC",
+      "FE",
+      "HL",
+      "WH",
+      "WO",
+      "BZ",
+      "HZ",
+      "HT",
+      "PU",
+      "2T",
+      "1B",
+      "WN",
+      "CB",
+      "CK",
+      "CH",
+      "FZ",
+      "SI",
+      "CD",
+      "2H",
+      "AP",
+      "SH",
+      "HOT",
+      "RM",
+      "RD",
+      "HW",
+      "DK",
+      "TH",
+      "cl",
+      "bl",
+      "bd",
+      "fn",
+      "st",
+      "lp",
+      "T",
+      "K",
+      "E",
+      "C",
+      "A",
+      "OP",
+      "ok",
+      "OK✓",
+      "tn",
+      "fg",
+      "gen",
+      "mod",
+      "str",
+      "seq",
+      "opp",
+      "8C",
+      "4C/T",
+      "4E/T",
+      "T-up",
+      "rot",
+      "firm",
+      "sweep",
+      "fail",
+      "6F",
+      "2x",
+      "face-pairs",
+      "st-seq",
+      "?",
+      "1B/T",
+      "CB/TFR",
+      "nil",
+      "3FP",
+      "st-near",
+      "st-beside",
+      "-fan",
+      "-lamp",
+      "-bell",
+      "-stone",
+      "-board",
+      "-cloth"
+    ],
+    "classes": [
+      {
+        "class_id": "LP_ROOT",
+        "label": "lamp base",
+        "description": "Fixed lamp base used before a lamp setting suffix.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "LP_LEVEL",
+        "label": "lamp brightness setting",
+        "description": "Brightness setting applied to the lamp.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "TN_ROOT",
+        "label": "sustained-tone base",
+        "description": "Fixed sustained-tone base used before a tone application mode.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "TN_MODE",
+        "label": "tone application mode",
+        "description": "Mode for applying the sustained tone.",
+        "repeatable": false,
+        "declared_fillers": [
+          {
+            "form": "rot",
+            "gloss": "rotate"
+          },
+          {
+            "form": "seq",
+            "gloss": "in sequence"
+          },
+          {
+            "form": "sweep",
+            "gloss": "continuous sweep across the named faces as one motion"
+          }
+        ]
+      },
+      {
+        "class_id": "FN_ROOT",
+        "label": "fan base",
+        "description": "Fixed fan base used before a fan application mode.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "FN_MODE",
+        "label": "fan application mode",
+        "description": "Mode for applying the fan.",
+        "repeatable": false,
+        "declared_fillers": [
+          {
+            "form": "sweep",
+            "gloss": "continuous sweep across the named faces as one motion"
+          }
+        ]
+      },
+      {
+        "class_id": "BD_ROOT",
+        "label": "board base",
+        "description": "Fixed board base used before a board operation.",
+        "repeatable": false,
+        "declared_fillers": [
+          {
+            "form": "bd",
+            "gloss": "flat board"
+          }
+        ]
+      },
+      {
+        "class_id": "BD_MODE",
+        "label": "board operation",
+        "description": "Operation performed with the board.",
+        "repeatable": false,
+        "declared_fillers": [
+          {
+            "form": "rot",
+            "gloss": "rotate"
+          }
+        ]
+      },
+      {
+        "class_id": "BL_ROOT",
+        "label": "bell base",
+        "description": "Fixed bell base used before a bell striking pattern.",
+        "repeatable": false,
+        "declared_fillers": [
+          {
+            "form": "bl",
+            "gloss": "bell, a chime with a discrete strike"
+          }
+        ]
+      },
+      {
+        "class_id": "BL_MODE",
+        "label": "bell striking pattern",
+        "description": "Pattern of bell strikes.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "DRAPE_ROOT",
+        "label": "drape base",
+        "description": "Fixed drape base used before a coverage specification.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "DRAPE_SCOPE",
+        "label": "drape coverage",
+        "description": "Coverage specified for draping.",
+        "repeatable": false,
+        "declared_fillers": []
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "CX_LP",
+        "label": "lamp setting",
+        "description": "Lamp base plus brightness setting.",
+        "class_sequence": [
+          "LP_ROOT",
+          "LP_LEVEL"
+        ]
+      },
+      {
+        "construction_id": "CX_TN",
+        "label": "tone application",
+        "description": "Sustained-tone base plus tone application mode.",
+        "class_sequence": [
+          "TN_ROOT",
+          "TN_MODE"
+        ]
+      },
+      {
+        "construction_id": "CX_FN",
+        "label": "fan application",
+        "description": "Fan base plus fan application mode.",
+        "class_sequence": [
+          "FN_ROOT",
+          "FN_MODE"
+        ]
+      },
+      {
+        "construction_id": "CX_BD",
+        "label": "board operation",
+        "description": "Board base plus board operation.",
+        "class_sequence": [
+          "BD_ROOT",
+          "BD_MODE"
+        ]
+      },
+      {
+        "construction_id": "CX_BL",
+        "label": "bell pattern",
+        "description": "Bell base plus bell striking pattern.",
+        "class_sequence": [
+          "BL_ROOT",
+          "BL_MODE"
+        ]
+      },
+      {
+        "construction_id": "CX_DRAPE",
+        "label": "drape coverage",
+        "description": "Drape base plus coverage specification.",
+        "class_sequence": [
+          "DRAPE_ROOT",
+          "DRAPE_SCOPE"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "lp-d",
+        "construction_id": "CX_LP",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "lp-",
+            "class_id": "LP_ROOT",
+            "gloss": "lamp"
+          },
+          {
+            "form": "d",
+            "class_id": "LP_LEVEL",
+            "gloss": "dim"
+          }
+        ]
+      },
+      {
+        "symbol": "lp-b",
+        "construction_id": "CX_LP",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "lp-",
+            "class_id": "LP_ROOT",
+            "gloss": "lamp"
+          },
+          {
+            "form": "b",
+            "class_id": "LP_LEVEL",
+            "gloss": "bright"
+          }
+        ]
+      },
+      {
+        "symbol": "tn-sim",
+        "construction_id": "CX_TN",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "tn-",
+            "class_id": "TN_ROOT",
+            "gloss": "sustained tone using voice or hum"
+          },
+          {
+            "form": "sim",
+            "class_id": "TN_MODE",
+            "gloss": "simultaneously"
+          }
+        ]
+      },
+      {
+        "symbol": "tn-rot",
+        "construction_id": "CX_TN",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "tn-",
+            "class_id": "TN_ROOT",
+            "gloss": "sustained tone using voice or hum"
+          },
+          {
+            "form": "rot",
+            "class_id": "TN_MODE",
+            "gloss": "rotate"
+          }
+        ]
+      },
+      {
+        "symbol": "tn-seq",
+        "construction_id": "CX_TN",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "tn-",
+            "class_id": "TN_ROOT",
+            "gloss": "sustained tone using voice or hum"
+          },
+          {
+            "form": "seq",
+            "class_id": "TN_MODE",
+            "gloss": "in sequence"
+          }
+        ]
+      },
+      {
+        "symbol": "tn-sweep",
+        "construction_id": "CX_TN",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "tn-",
+            "class_id": "TN_ROOT",
+            "gloss": "sustained tone using voice or hum"
+          },
+          {
+            "form": "sweep",
+            "class_id": "TN_MODE",
+            "gloss": "continuous sweep across the named faces as one motion"
+          }
+        ]
+      },
+      {
+        "symbol": "fn-sweep",
+        "construction_id": "CX_FN",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "fn-",
+            "class_id": "FN_ROOT",
+            "gloss": "fan, using air"
+          },
+          {
+            "form": "sweep",
+            "class_id": "FN_MODE",
+            "gloss": "continuous sweep across the named faces as one motion"
+          }
+        ]
+      },
+      {
+        "symbol": "fn-spot",
+        "construction_id": "CX_FN",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "fn-",
+            "class_id": "FN_ROOT",
+            "gloss": "fan, using air"
+          },
+          {
+            "form": "spot",
+            "class_id": "FN_MODE",
+            "gloss": "at one position"
+          }
+        ]
+      },
+      {
+        "symbol": "bd-press",
+        "construction_id": "CX_BD",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "bd-",
+            "class_id": "BD_ROOT",
+            "gloss": "flat board"
+          },
+          {
+            "form": "press",
+            "class_id": "BD_MODE",
+            "gloss": "press"
+          }
+        ]
+      },
+      {
+        "symbol": "bd-rot",
+        "construction_id": "CX_BD",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "bd-",
+            "class_id": "BD_ROOT",
+            "gloss": "flat board"
+          },
+          {
+            "form": "rot",
+            "class_id": "BD_MODE",
+            "gloss": "rotate"
+          }
+        ]
+      },
+      {
+        "symbol": "bl-ctr",
+        "construction_id": "CX_BL",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "bl-",
+            "class_id": "BL_ROOT",
+            "gloss": "bell, a chime with a discrete strike"
+          },
+          {
+            "form": "ctr",
+            "class_id": "BL_MODE",
+            "gloss": "at the center of each specified face"
+          }
+        ]
+      },
+      {
+        "symbol": "bl-alt",
+        "construction_id": "CX_BL",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "bl-",
+            "class_id": "BL_ROOT",
+            "gloss": "bell, a chime with a discrete strike"
+          },
+          {
+            "form": "alt",
+            "class_id": "BL_MODE",
+            "gloss": "alternating between two faces"
+          }
+        ]
+      },
+      {
+        "symbol": "drape-full",
+        "construction_id": "CX_DRAPE",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "drape-",
+            "class_id": "DRAPE_ROOT",
+            "gloss": "drape"
+          },
+          {
+            "form": "full",
+            "class_id": "DRAPE_SCOPE",
+            "gloss": "over the whole Veyru"
+          }
+        ]
+      },
+      {
+        "symbol": "drape-face",
+        "construction_id": "CX_DRAPE",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "drape-",
+            "class_id": "DRAPE_ROOT",
+            "gloss": "drape"
+          },
+          {
+            "form": "face",
+            "class_id": "DRAPE_SCOPE",
+            "gloss": "over the specified face"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "per_slot": {
+    "pos0": [
+      [
+        "H",
+        "hot"
+      ]
+    ],
+    "pos2": [
+      [
+        "B",
+        "bell"
+      ],
+      [
+        "B8c",
+        "bell all 8 corners once"
+      ],
+      [
+        "EF",
+        "edge flash"
+      ],
+      [
+        "FAN",
+        "fan cool air"
+      ],
+      [
+        "HB",
+        "harsh buzz"
+      ],
+      [
+        "HS",
+        "heated stone near or warm"
+      ],
+      [
+        "OP",
+        "opp-face alt pulse, 2T=hum 2-tone"
+      ],
+      [
+        "T",
+        "steady bell tone"
+      ]
+    ]
+  },
+  "stackable": []
+}

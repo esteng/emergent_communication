@@ -1,0 +1,27 @@
+{
+  "item_id": "homograph_device_level",
+  "phenomenon": "an unrelated standalone meaning must not veto a paradigm the same surface form supports",
+  "notes": "The prompt's HOMOGRAPHY DOES NOT BLOCK A PARADIGM rule, tested twice in one item. Standalone L is 'the left face' and standalone V is 'the vertical seam', yet inside Ld/Lb the L is LAMP and inside Vd/Vb the V is VENT. Ld/Lb is the decisive minimal pair: same frame, corresponding meaning contrast. The standalone entries stay lexical -- they are separate codebook symbols, not occurrences inside a code -- while the bound occurrences are analyzed. A judge that lets the whole-code homograph veto the DEVICE class will leave the whole family lexical and fail recall here.",
+  "codebook": {
+    "L": "the left face",
+    "V": "the vertical seam",
+    "Ld": "the lamp at the low setting",
+    "Lb": "the lamp at the high setting",
+    "Hd": "the heater at the low setting",
+    "Hb": "the heater at the high setting",
+    "Vd": "the vent at the low setting",
+    "Vb": "the vent at the high setting",
+    "Fd": "the fan at the low setting"
+  },
+  "gold": {
+    "L": null,
+    "V": null,
+    "Ld": "L=DEVICE:lamp + d=LEVEL:low setting",
+    "Lb": "L=DEVICE:lamp + b=LEVEL:high setting",
+    "Hd": "H=DEVICE:heater + d=LEVEL:low setting",
+    "Hb": "H=DEVICE:heater + b=LEVEL:high setting",
+    "Vd": "V=DEVICE:vent + d=LEVEL:low setting",
+    "Vb": "V=DEVICE:vent + b=LEVEL:high setting",
+    "Fd": "F=DEVICE:fan + d=LEVEL:low setting"
+  }
+}

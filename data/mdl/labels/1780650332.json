@@ -1,0 +1,8 @@
+[
+  "protocol_learnability",
+  "phase=baseline",
+  "budget=250",
+  "model=opus47",
+  "rc=15",
+  "ordered_easy_rounds"
+]

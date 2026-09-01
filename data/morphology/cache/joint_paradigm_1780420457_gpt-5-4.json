@@ -1,0 +1,299 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780420457",
+    "slots": [],
+    "segmentation": {
+      "TB": [
+        "TB"
+      ],
+      "P1": [
+        "P1"
+      ],
+      "P2": [
+        "P2"
+      ],
+      "P3": [
+        "P3"
+      ],
+      "P4": [
+        "P4"
+      ],
+      "P5": [
+        "P5"
+      ],
+      "P6": [
+        "P6"
+      ],
+      "P7": [
+        "P7"
+      ],
+      "P8": [
+        "P8"
+      ],
+      "P9": [
+        "P9"
+      ],
+      "P10": [
+        "P10"
+      ],
+      "P11": [
+        "P11"
+      ],
+      "P12": [
+        "P12"
+      ],
+      "P13": [
+        "P13"
+      ],
+      "P14": [
+        "P14"
+      ],
+      "AC": [
+        "AC"
+      ],
+      "DE": [
+        "DE"
+      ],
+      "ES": [
+        "ES"
+      ],
+      "LI": [
+        "LI"
+      ],
+      "LO": [
+        "LO"
+      ],
+      "HI": [
+        "HI"
+      ],
+      "PI": [
+        "PI"
+      ],
+      "RC": [
+        "RC"
+      ],
+      "CD": [
+        "CD"
+      ],
+      "BS": [
+        "BS"
+      ],
+      "PS": [
+        "PS"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "CV": [
+        "CV"
+      ],
+      "all6": [
+        "all6"
+      ],
+      "opp": [
+        "opp"
+      ],
+      "adj": [
+        "adj"
+      ],
+      "centers": [
+        "centers"
+      ],
+      "corners": [
+        "corners"
+      ],
+      "face-pairs": [
+        "face-pairs"
+      ],
+      "still": [
+        "still"
+      ],
+      "B": [
+        "B"
+      ],
+      "F": [
+        "F"
+      ],
+      "L": [
+        "L"
+      ],
+      "R": [
+        "R"
+      ],
+      "T": [
+        "T"
+      ],
+      "D": [
+        "D"
+      ],
+      "G": [
+        "G"
+      ],
+      "M": [
+        "M"
+      ]
+    },
+    "head_index": {
+      "TB": 0,
+      "P1": 0,
+      "P2": 0,
+      "P3": 0,
+      "P4": 0,
+      "P5": 0,
+      "P6": 0,
+      "P7": 0,
+      "P8": 0,
+      "P9": 0,
+      "P10": 0,
+      "P11": 0,
+      "P12": 0,
+      "P13": 0,
+      "P14": 0,
+      "AC": 0,
+      "DE": 0,
+      "ES": 0,
+      "LI": 0,
+      "LO": 0,
+      "HI": 0,
+      "PI": 0,
+      "RC": 0,
+      "CD": 0,
+      "BS": 0,
+      "PS": 0,
+      "HS": 0,
+      "CV": 0,
+      "all6": 0,
+      "opp": 0,
+      "adj": 0,
+      "centers": 0,
+      "corners": 0,
+      "face-pairs": 0,
+      "still": 0,
+      "B": 0,
+      "F": 0,
+      "L": 0,
+      "R": 0,
+      "T": 0,
+      "D": 0,
+      "G": 0,
+      "M": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "TB": "hot dim red rumble rough",
+      "P1": "Tone all 6 faces, hold, fade.",
+      "P2": "Bell opposite faces alternating 5 times with pauses.",
+      "P3": "Cloth 2 adjacent edges near the start face, then bell 3 times near the start face.",
+      "P4": "Warm each corner of the start face in sequence, then trace its edges.",
+      "P5": "Warm stone beside each face in turn.",
+      "P6": "Cool cloth whole, then fan the start face and opposite face.",
+      "P7": "Lamp start face dim and opposite face bright, hold still.",
+      "P8": "Folded cloth on the start face, then bell each edge twice.",
+      "P9": "At each corner: brief bell, then warm the meeting edges.",
+      "P10": "Board against each face-pair in turn.",
+      "P11": "Bell the center of each face once, then warm stone beside.",
+      "P12": "Soft surface, start face up, rest.",
+      "P13": "Cool cloth whole, then fan all 6 faces.",
+      "P14": "Slow rotate with steady tone near opposite faces, then bell each corner once.",
+      "AC": "random flicker and broken hum",
+      "DE": "sliding light and blur edges",
+      "ES": "too bright and layered hum and frozen face",
+      "LI": "dim corners and fading edges",
+      "LO": "dim overall and weak hum",
+      "HI": "blazing white and harsh buzz and heat",
+      "PI": "opposite faces pulse bright and dark",
+      "RC": "one face much brighter and whine",
+      "CD": "1-2 bright corners and clicking",
+      "BS": "wobbly edges and bulge and muffled hum",
+      "PS": "frozen dim still and cold and silent",
+      "HS": "competing tones and two patterns",
+      "CV": "normal surface, hollow dark center",
+      "all6": "all six faces",
+      "opp": "opposite face(s)",
+      "adj": "adjacent",
+      "centers": "face centers",
+      "corners": "all corners of the named face",
+      "face-pairs": "rotate through opposite face pairs",
+      "still": "do not move lamps",
+      "B": "back",
+      "F": "firm intensity",
+      "L": "left",
+      "R": "right",
+      "T": "top",
+      "D": "bottom",
+      "G": "gentle intensity",
+      "M": "moderate intensity"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780420457",
+    "n_codes": 43,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible compositional paradigm survives the evidence requirements. The P1–P14 series fails the opaque index test: the numerals do not contribute literal count or other stable compositional meaning across a shared frame, but instead pick out unrelated stored procedures. The candidate P1/P10–P14 prefix family is therefore rejected. The suggested suffix family in centers/corners/face-pairs is also rejected: the residues do not form a coherent substitution class with a stable shared semantic frame, and the apparent final letters are accidental orthographic overlap rather than productive morphology. Other short forms such as B/L/R/T/D and G/M/F are standalone lexical items, but there is no multi-morpheme code in the dataset where they contrast in a common frame and yield predictable whole meanings. The remaining two-letter symbols likewise show no recurring substring with stable compositional contribution across multiple entries. To avoid false morphology, the codebook is best analyzed as a flat lexicon.",
+    "lexical_symbols": [
+      "TB",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8",
+      "P9",
+      "P10",
+      "P11",
+      "P12",
+      "P13",
+      "P14",
+      "AC",
+      "DE",
+      "ES",
+      "LI",
+      "LO",
+      "HI",
+      "PI",
+      "RC",
+      "CD",
+      "BS",
+      "PS",
+      "HS",
+      "CV",
+      "all6",
+      "opp",
+      "adj",
+      "centers",
+      "corners",
+      "face-pairs",
+      "still",
+      "B",
+      "F",
+      "L",
+      "R",
+      "T",
+      "D",
+      "G",
+      "M"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "per_slot": {
+    "pos1": [
+      [
+        "\u00d75",
+        "5 complete left-right alternations"
+      ]
+    ]
+  },
+  "stackable": [
+    [
+      "B",
+      "bottom"
+    ],
+    [
+      "Bk",
+      "back"
+    ],
+    [
+      "Fr",
+      "front"
+    ],
+    [
+      "L",
+      "left"
+    ],
+    [
+      "R",
+      "right"
+    ],
+    [
+      "T",
+      "top"
+    ],
+    [
+      "LI",
+      "Leak Instability"
+    ],
+    [
+      "OK",
+      "stabilized"
+    ],
+    [
+      "X",
+      "full procedure failed"
+    ],
+    [
+      "X2",
+      "failed twice, pivot requested"
+    ],
+    [
+      "X3",
+      "the procedure failed even after 3 same-face retries with varied phrasing"
+    ]
+  ]
+}

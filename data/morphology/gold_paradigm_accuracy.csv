@@ -1,0 +1,4 @@
+reported_as,metric,n_codebooks,mean,ci_low,ci_high
+production_accuracy,structured_accuracy,10,0.989,0.971,1.000
+segmentation_accuracy,segmentation_exact_match,10,0.982,0.956,1.000
+semantic_agreement,gloss_semantic_agreement,8,0.929,0.835,1.000

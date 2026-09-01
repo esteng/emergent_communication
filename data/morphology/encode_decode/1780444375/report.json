@@ -1,0 +1,135 @@
+{
+  "run_key": "veyru/1780444375",
+  "status": "analyzed",
+  "n_codes": 93,
+  "n_multimorpheme": 8,
+  "report": {
+    "encoder_agent": "stabilization_engineer",
+    "decoder_agent": "field_observer",
+    "encoder_model": "claude-opus-4-7",
+    "decoder_model": "claude-opus-4-7",
+    "context_budget": 150,
+    "n_cells": 41,
+    "exact_match_rate": 0.14634146341463414,
+    "swapped_order_rate": 0.0,
+    "bag_match_rate": 0.14634146341463414,
+    "decode_rate": 0.5609756097560976,
+    "decoder_valid_rate": 0.24390243902439024,
+    "decode_negative_control_rate": 1.0,
+    "decode_positive_control_rate": 1.0,
+    "per_role": [
+      {
+        "slot_id": "CX_HOT_CASE",
+        "slot_label": "hot case with brightness",
+        "n": 35,
+        "exact_match_rate": 0.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.0,
+        "decode_rate": 0.4857142857142857
+      },
+      {
+        "slot_id": "CX_RESOURCE_COUNT",
+        "slot_label": "counted resource",
+        "n": 6,
+        "exact_match_rate": 1.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 1.0,
+        "decode_rate": 1.0
+      }
+    ],
+    "per_depth": [
+      {
+        "length": 2,
+        "n": 41,
+        "exact_match_rate": 0.14634146341463414,
+        "decode_rate": 0.5609756097560976
+      }
+    ],
+    "per_purpose": [
+      {
+        "purpose": "grounded_control",
+        "n": 9,
+        "exact_match_rate": 0.6666666666666666,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.6666666666666666,
+        "decode_rate": 0.8333333333333334
+      },
+      {
+        "purpose": "grounded_novel_role_pooled",
+        "n": 32,
+        "exact_match_rate": 0.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.0,
+        "decode_rate": 0.484375
+      }
+    ],
+    "per_construction": [
+      {
+        "construction_id": "CX_HOT_CASE",
+        "n": 35,
+        "n_control": 3,
+        "n_novel": 32,
+        "exact_match_rate": 0.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.0,
+        "decode_rate": 0.4857142857142857,
+        "novel_exact_match_rate": 0.0,
+        "novel_decode_rate": 0.484375
+      },
+      {
+        "construction_id": "CX_RESOURCE_COUNT",
+        "n": 6,
+        "n_control": 6,
+        "n_novel": 0,
+        "exact_match_rate": 1.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 1.0,
+        "decode_rate": 1.0,
+        "novel_exact_match_rate": 0.0,
+        "novel_decode_rate": 0.0
+      }
+    ],
+    "per_slot_generalization": [
+      {
+        "slot_id": "pos0",
+        "slot_label": "hot-state root",
+        "slot_role": "stem",
+        "pooled": false,
+        "n": 3,
+        "valid_rate": 0.0,
+        "exact_match_rate": 0.0,
+        "decode_rate": 0.6666666666666666
+      },
+      {
+        "slot_id": "pos0",
+        "slot_label": "hot-state root",
+        "slot_role": "stem",
+        "pooled": true,
+        "n": 29,
+        "valid_rate": 0.10344827586206896,
+        "exact_match_rate": 0.0,
+        "decode_rate": 0.46551724137931033
+      },
+      {
+        "slot_id": "pos1",
+        "slot_label": "brightness value",
+        "slot_role": "suffix",
+        "pooled": false,
+        "n": 12,
+        "valid_rate": 0.16666666666666666,
+        "exact_match_rate": 0.0,
+        "decode_rate": 0.4583333333333333
+      },
+      {
+        "slot_id": "pos1",
+        "slot_label": "brightness value",
+        "slot_role": "suffix",
+        "pooled": true,
+        "n": 20,
+        "valid_rate": 0.05,
+        "exact_match_rate": 0.0,
+        "decode_rate": 0.5
+      }
+    ]
+  }
+}

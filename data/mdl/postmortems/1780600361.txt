@@ -1,0 +1,77 @@
+[ENG] Shorthand: LD=edge/corner dim, centers OK -> folded cloth back 8s, then bell each back edge x2. I’ll answer with bare procedure only to save budget.
+[OBS] Got it. I’ll report symptoms in shorthand only.
+[ENG] Good. If mixed symptoms, prioritize: leak/stall/thermal, then low/high, then corner/resonance/void, then echo/boundary, then alignment/drift/inversion/split.
+[OBS] I’ll send terse symptom tags only. You send tool+face+time/count only.
+[ENG] Agreed.
+[OBS] OK. I’ll omit extra detail when a clean tag fits.
+[ENG] 👍
+[ENG] PS=dim+still+silent+cold/no response -> soft surface, top up, gentle, 5s undisturbed.
+[OBS] Got PS. I’ll use that tag next time.
+[ENG] Good.
+[OBS] If time, send more common tags in your priority order.
+[ENG] Common tags: LI=dim corners/edges, centers OK. TB=hot all over+dim+red+rumble. HI=blazing white+harsh buzz+heat. LO=dim overall+bare hum. RC=one face much brighter+whine. CD=1-2 bright corners+click/tick+corner heat.
+[OBS] Perfect.
+[ENG] 👍
+[ENG] TB shorthand worked well. Keep tags coming.
+[OBS] Will do.
+[ENG] 👍
+[ENG] We lost on link chars. Next rounds: you send 2-letter tag only; I send ultra-short action codes, not full prose, if that’s acceptable. If not, we need pre-agreed codebook in postmortem before next live Veyru.
+[OBS] Agreed. I’ll send tag only (+2nd tag if needed). Please define action-code grammar + face abbreviations. I’ll stop sending Done unless new symptoms appear.
+[ENG] Code grammar for link: `P# F D I`.
+F(face): T=top, Bo=bottom, B=back.
+D: seconds (5/8/20).
+I: g=gentle, f=firm.
+Decode:
+P1=sustained tone all 6 faces, start F, D, let fade.
+P2=bell opposite faces alt, start F, pause D, 5 cycles.
+P3=cloth on 2 adjacent edges near F, D, then bell near F x3.
+P4=warm each corner of F for D, then trace each edge of F.
+P5=warm stone beside F for D; rotate repeat each face.
+P6=cool cloth D; fan F + opposite for D.
+P7=dim lamp F + bright lamp opposite, D.
+P8=folded cloth over F for D; bell each edge of F x2.
+P9=each corner of F: brief bell, then warm its 2 edges for D.
+P10=flat board against F for D; rotate repeat each face-pair.
+P11=bell center each face once, start F; then warm stone beside Veyru for D.
+P12=soft surface, F up, rest D.
+P13=cool cloth D; fan all 6 faces for D, start F.
+P14=rotate over D while steady tone near opposite faces, start F; then bell each corner once.
+Example link reply: `P8 B 8 g`
+[OBS] Perfect. Need face codes for front/left/right too, and mixed-tag format. I’ll send primary+secondary only.
+[ENG] More face codes: Fr=front, L=left, R=right. Mixed symptom tag format from you: `TAG1+TAG2` in priority order only. My mixed reply: `P# F D I ; P# F D I` execute left to right.
+[OBS] Got it. New post-fix symptoms: I’ll send just tag or TAG1+TAG2. If no tag fits, shortest plain description.
+[ENG] Perfect.
+[ENG] Round 5 failed only because I expanded after `No effect.` Next live: I’ll send no-spaces code only: `P#FDI` (example `P4T10g`). Mixed: `P#FDI/P#FDI`. If result changes, send only new tag; never send `No effect`, `Done`, or prose unless no tag fits.
+[OBS] Agreed. Need tag for bright+layered hum+frozen faces. Also clarify P4 (10s each corner or total? trace with finger or stone?) and P2 (10s pause between rings or between full cycles?).
+[ENG] Tag: ES. Clarify: P4 = 10s at each corner, then trace each edge with finger. P2 = alternate opposite-face chimes with 10s pause between chimes; 5 cycles total.
+[OBS] Got ES. Ready.
+[ENG] 👍
+[ENG] Success. Add intensity code: m=moderate. No-spaces code works.
+[OBS] Great. Added m=moderate. LI→P9B5m worked cleanly.
+[ENG] Excellent.
+[ENG] Round 7 survived with code-only replies through 3 symptom shifts. Consider tags PI for strict opposite-face pulsing, DE for drifting light/blurred edges/wavering hum if you want them shorter next time.
+[OBS] Yes—add PI and DE.
+[ENG] Added.
+[ENG] DE tag worked.
+[OBS] Good. Short tags are paying off.
+[ENG] Yes.
+[ENG] Round 9 stable with LO→CV→DE→PI chain. Add CV tag = normal glow + hollow tap + dark center + thin surface hum.
+[OBS] Added CV.
+[ENG] Good.
+[ENG] PS and LO tags stayed clean. Code-only handled the shift fast.
+[OBS] Agreed. Ready.
+[ENG] 👍
+[ENG] We missed by 1 char. New rule: if a tag repeats, I resend only code unless you send `?`. Also, treat every code as the full template exactly as defined in our codebook—no simplification. Key clarifications to remember: P6 = cool cloth over whole Veyru for D, then fan F+opp for D. P12 = soft surface, F up, leave untouched for D.
+[OBS] Got it. I’ll use ? only if code unclear. Need a short tag for clashing tones + alternating configs + edge shimmer.
+[ENG] HS.
+[OBS] Added HS.
+[ENG] Good.
+[ENG] Round 12 clean: LI→PS→HI all code-only.
+[OBS] Good.
+[ENG] 👍
+[ENG] Clean.
+[OBS] Good.
+[ENG] 👍
+[ENG] PS→RC→PI worked cleanly.
+[OBS] Good.
+[ENG] 👍

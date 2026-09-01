@@ -1,0 +1,275 @@
+{
+  "grammar": {
+    "run_key": "veyru/1778877906",
+    "slots": [],
+    "segmentation": {
+      "F": [
+        "F"
+      ],
+      "B": [
+        "B"
+      ],
+      "T": [
+        "T"
+      ],
+      "U": [
+        "U"
+      ],
+      "L": [
+        "L"
+      ],
+      "R": [
+        "R"
+      ],
+      "lo": [
+        "lo"
+      ],
+      "md": [
+        "md"
+      ],
+      "hi": [
+        "hi"
+      ],
+      "AlignColl": [
+        "AlignColl"
+      ],
+      "Drift": [
+        "Drift"
+      ],
+      "Echo": [
+        "Echo"
+      ],
+      "Leak": [
+        "Leak"
+      ],
+      "LowInt": [
+        "LowInt"
+      ],
+      "HighInt": [
+        "HighInt"
+      ],
+      "PhaseInv": [
+        "PhaseInv"
+      ],
+      "Reson": [
+        "Reson"
+      ],
+      "CornerDead": [
+        "CornerDead"
+      ],
+      "BoundSoft": [
+        "BoundSoft"
+      ],
+      "PropStall": [
+        "PropStall"
+      ],
+      "HarmSplit": [
+        "HarmSplit"
+      ],
+      "ThermBleed": [
+        "ThermBleed"
+      ],
+      "CoreVoid": [
+        "CoreVoid"
+      ],
+      "+": [
+        "+"
+      ],
+      "AC": [
+        "AC"
+      ],
+      "DR": [
+        "DR"
+      ],
+      "ES": [
+        "ES"
+      ],
+      "LK": [
+        "LK"
+      ],
+      "LI": [
+        "LI"
+      ],
+      "HI": [
+        "HI"
+      ],
+      "PI": [
+        "PI"
+      ],
+      "RC": [
+        "RC"
+      ],
+      "CD": [
+        "CD"
+      ],
+      "BS": [
+        "BS"
+      ],
+      "PS": [
+        "PS"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "TB": [
+        "TB"
+      ],
+      "CV": [
+        "CV"
+      ],
+      "gnt": [
+        "gnt"
+      ]
+    },
+    "head_index": {
+      "F": 0,
+      "B": 0,
+      "T": 0,
+      "U": 0,
+      "L": 0,
+      "R": 0,
+      "lo": 0,
+      "md": 0,
+      "hi": 0,
+      "AlignColl": 0,
+      "Drift": 0,
+      "Echo": 0,
+      "Leak": 0,
+      "LowInt": 0,
+      "HighInt": 0,
+      "PhaseInv": 0,
+      "Reson": 0,
+      "CornerDead": 0,
+      "BoundSoft": 0,
+      "PropStall": 0,
+      "HarmSplit": 0,
+      "ThermBleed": 0,
+      "CoreVoid": 0,
+      "+": 0,
+      "AC": 0,
+      "DR": 0,
+      "ES": 0,
+      "LK": 0,
+      "LI": 0,
+      "HI": 0,
+      "PI": 0,
+      "RC": 0,
+      "CD": 0,
+      "BS": 0,
+      "PS": 0,
+      "HS": 0,
+      "TB": 0,
+      "CV": 0,
+      "gnt": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "F": "front face",
+      "B": "back face",
+      "T": "top face",
+      "U": "under face",
+      "L": "left face",
+      "R": "right face",
+      "lo": "low intensity",
+      "md": "moderate intensity",
+      "hi": "high intensity",
+      "AlignColl": "flicker and broken hum; rest on a soft surface with the front face up at moderate contact for 15 seconds undisturbed",
+      "Drift": "sliding color, blur, and wavering pitch; apply a cool cloth for 15 seconds, then fan all 6 faces at moderate intensity for 15 seconds from the front face",
+      "Echo": "too bright, stacked tones, and frozen; rotate for 15 seconds with moderate tone on the opposite faces from the front face, then chime the corners",
+      "Leak": "dim corners and faint edges; apply moderate tone to all faces for 15 seconds from the front face",
+      "LowInt": "all dim and whispering; ring the bell on alternating 2 opposite faces from the front face, then pause 15 seconds, for 5 cycles at moderate intensity",
+      "HighInt": "blazing, harsh buzz, and hot; apply cloth to 2 adjacent edges near the front face for 15 seconds at moderate intensity, then chime the front face 3 times",
+      "PhaseInv": "opposite faces pulse and 2 tones; use a warm stone on each corner of the front face at moderate intensity for 15 seconds in sequence, then trace the edges",
+      "Reson": "1 face bright and whine; place a warm stone beside the front face at moderate intensity for 15 seconds, then rotate and repeat for each face",
+      "CornerDead": "1 to 2 corners bright, ticking, and hot; apply a cool cloth for 15 seconds, then fan the front face and opposite face at moderate intensity for 15 seconds",
+      "BoundSoft": "wobbly edges, bulging, and muffled; use a dim lamp on the front face and a bright lamp on the opposite face at moderate intensity for 15 seconds",
+      "PropStall": "frozen, dim, silent, and cold; place a folded cloth on the front face for 15 seconds at moderate intensity, then chime each edge of the front face 2 times",
+      "HarmSplit": "split tones and alternating patterns; ring the bell at each corner of the front face at moderate intensity, then warm 2 edges per corner for 15 seconds",
+      "ThermBleed": "hot, dim, rumble, and red; place a flat board on the front face at moderate intensity for 15 seconds, then rotate and repeat for each face-pair",
+      "CoreVoid": "normal surface, hollow tap, and dark center; chime the center of each face at moderate intensity from the front face, then place a warm stone beside it for 15 seconds",
+      "+": "new symptoms follow",
+      "AC": "flicker and broken hum",
+      "DR": "sliding color, blur, and wavering pitch",
+      "ES": "too bright, stacked tones, and frozen",
+      "LK": "dim corners and faint edges",
+      "LI": "all dim and whispering",
+      "HI": "blazing brightness, harsh buzz, and hot",
+      "PI": "opposite faces pulse and 2 tones",
+      "RC": "1 face bright and whine",
+      "CD": "1 corner bright, ticking, and hot",
+      "BS": "edge wobble, bulging, and muffled sound",
+      "PS": "frozen, silent, and cold",
+      "HS": "2-tone clash and alternating patterns",
+      "TB": "hot, rumbling, and red",
+      "CV": "hollow sound and dark center",
+      "gnt": "gentle intensity"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1778877906",
+    "n_codes": 39,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible concatenative paradigm is supported by the supplied symbols. The standalone symbols F/B/T/U/L/R form a semantic set of faces, and lo/md/hi/gnt form an intensity-like set, but there are no multi-morpheme codes in which these forms recur in the same morphotactic frame with contrastive substitution. The long condition names (AlignColl, Drift, Echo, etc.) do not contain reusable pieces with stable compositional meanings, and the candidate surface hints ('nt', 'Cor', 'll', 'ft') fail the opaque-index/compositionality test: the residues do not form a coherent substitution class and the alleged shared pieces do not contribute a stable recoverable meaning across the cited items. Likewise, short labels such as AC, DR, ES, etc. look like opaque abbreviatory lexemes rather than morphemes inside larger attested codes. Therefore the safest analysis is a flat lexicon with no segmented entries.",
+    "lexical_symbols": [
+      "F",
+      "B",
+      "T",
+      "U",
+      "L",
+      "R",
+      "lo",
+      "md",
+      "hi",
+      "AlignColl",
+      "Drift",
+      "Echo",
+      "Leak",
+      "LowInt",
+      "HighInt",
+      "PhaseInv",
+      "Reson",
+      "CornerDead",
+      "BoundSoft",
+      "PropStall",
+      "HarmSplit",
+      "ThermBleed",
+      "CoreVoid",
+      "+",
+      "AC",
+      "DR",
+      "ES",
+      "LK",
+      "LI",
+      "HI",
+      "PI",
+      "RC",
+      "CD",
+      "BS",
+      "PS",
+      "HS",
+      "TB",
+      "CV",
+      "gnt"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

@@ -1,0 +1,3 @@
+Below are meanings. For EACH meaning, produce the SINGLE shorthand code you would use in YOUR code system to express it -- compose it from the morphemes you have negotiated, EVEN IF you have never written this exact combination before. Always produce a form; never leave it blank. Echo each meaning's exact text.
+
+Meanings:

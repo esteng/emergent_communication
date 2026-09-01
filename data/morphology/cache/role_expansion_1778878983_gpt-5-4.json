@@ -1,0 +1,54 @@
+{
+  "per_slot": {
+    "pos0": [
+      [
+        "blaze",
+        "blazing"
+      ],
+      [
+        "flk",
+        "flicker"
+      ],
+      [
+        "mod",
+        "moderate"
+      ],
+      [
+        "ovrbrt",
+        "overbright"
+      ]
+    ],
+    "pos3": [
+      [
+        "1face",
+        "1 face"
+      ],
+      [
+        "2aE",
+        "2 adjacent edges"
+      ],
+      [
+        "F",
+        "front K=back T=top B=bottom L=left R=right"
+      ],
+      [
+        "K",
+        "back face"
+      ],
+      [
+        "L",
+        "left face"
+      ],
+      [
+        "R",
+        "right face"
+      ]
+    ]
+  },
+  "stackable": [
+    [
+      "opp",
+      "opposite"
+    ]
+  ]
+}

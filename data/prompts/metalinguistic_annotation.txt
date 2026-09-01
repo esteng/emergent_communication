@@ -1,0 +1,68 @@
+# SYSTEM
+You are an expert linguistic annotator of an emergent-communication code.
+
+# TASK (the {grammar} placeholder is filled per protocol)
+Game context: a FIELD OBSERVER reports an environmental failure motif; a
+STABILIZATION ENGINEER replies with a compact coded procedure. A procedure is built from
+the slots {{template, face, duration, intensity}} in some order (any slot may be omitted,
+and slots may appear before or after the template); the observer's report is a MOTIF/symptom
+tag. Do NOT assume a fixed ordering or a single surface form -- use the induced grammar
+below for how THIS protocol actually realizes each slot.
+
+This protocol's induced grammar (how each slot is realized here; e.g. template may be a
+"P#" code or a word, motif may be a word like "leak" or an abbreviation like "LI"):
+{grammar}
+
+Each ITEM below shows the recent CONVERSATION CONTEXT (preceding link turns) and then the
+TARGET message to annotate. Use the context to interpret the target; label ONLY the target.
+
+Definitions:
+- has_question: TRUE ONLY for a METALINGUISTIC clarification -- the message asks about the
+  MEANING/interpretation of a symbol/token/term in the shared code, OR asks to DECODE the code
+  (spell out / rephrase / give it in PLAIN, FULL, or RAW form) because the compressed language
+  itself is not understood.
+  COUNTS (examples): "14?" (what does the symbol 14 mean), "P6?", "what does P13 mean?",
+    "spell out P13", "rephrase face-pairs", "LI?" (opaque tag); AND whole-message decode
+    requests: "full?", "Plain.", "Plain steps.", "raw?", "FB raw?".
+  DOES NOT COUNT -> FALSE:
+    - normal reports, procedures, acknowledgements;
+    - REPEAT / RESEND requests ("repeat face-pairs", "resend", "again") -- redo is not a meaning
+      question;
+    - NEXT-STEP, EXECUTION, or HOW-TO questions about performing the action ("Next?", "what
+      now?", "which face?", "Stone by B?", "1 lamp - sim?" = do it with 1 lamp simultaneously?,
+      "pair?") -- asking WHAT to do or HOW to carry it out is not a meaning question;
+    - ENVIRONMENT / state / symptom questions ("V19 symptoms?", "sym?", "desc?", "cue?");
+    - a BARE uncertainty ping with no content ("?", "??", "huh?") -- confusion alone, with no
+      specific symbol queried and no decode request, does NOT count.
+  Test: is the sender asking what a coded WORD/SYMBOL means, or to decode the compressed code
+    into plain form? -> TRUE. Do they instead want a repeat, a next step, HOW to act, environment
+    info, or just emit a bare "?" -> FALSE.
+- target_scope: (only when has_question=TRUE) "whole" if the query decodes the ENTIRE coded
+  message/procedure ("full?"/"Plain."/"Spell out." = decode the whole code); "part" if about
+  one constituent ("P14?"/"14?" = the template symbol); "unclear" if metalinguistic but the
+  targeted symbol cannot be identified from the message; "none" if has_question is false.
+- target_slot: which constituent the query is about — one of: template, face, duration,
+  intensity, motif_symptom, param_bundle (=two or more of face/dur/int together),
+  whole_procedure (the entire code), other, none (if scope is unclear/none).
+- compositional: judge by the MEANING of what is asked about, NOT its surface length.
+  TRUE if the target decomposes into two or more meaningful pieces: a whole multi-step
+  procedure; a bundle of two+ parameters (face+dur+int together, or several symbols at once
+  like "C? Fn? L?"); OR a single abbreviated token whose meaning is itself a COMPOUND
+  action/description -- e.g. "trEdg" = trace + edges (two actions) is compositional.
+  FALSE (atomic) if the target is one primitive unit: a lone face, duration, or intensity; a
+  single opcode/template symbol asked as one unit (e.g. "P14", "Tn", "x2"); or a single motif
+  tag. null if there is NO identifiable target (scope "unclear") or has_question is false.
+- transparent: TRUE if the TARGET's FORM relates to its MEANING per the grammar above
+  (duration number, face letter L=left, intensity g=gentle, a word motif like "leak").
+  FALSE if arbitrary (a template code like P14/P8; an opaque abbreviation motif like "LI").
+  For a bundle/procedure, TRUE only if all its parts are transparent. null if there is NO
+  identifiable target (scope "unclear") or has_question is false.
+
+IMPORTANT: a bare uncertainty ping or generic retry with no referent ("?", "??", "again") is
+has_question=FALSE (not metalinguistic) -> scope="none", slot="none", compositional=null,
+transparent=null. Only assign compositional/transparent when has_question is TRUE and a target
+is identifiable.
+
+Return ONLY JSON: {{"labels":[{{"has_question":bool,"target_scope":"whole|part|unclear|none",
+"target_slot":"...","compositional":bool_or_null,"transparent":bool_or_null}}]}} with EXACTLY
+one object per TARGET, in order.

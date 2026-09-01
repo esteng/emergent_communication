@@ -1,0 +1,65 @@
+{
+  "run_key": "veyru/1778881319",
+  "status": "analyzed",
+  "n_codes": 65,
+  "n_multimorpheme": 2,
+  "report": {
+    "encoder_agent": "stabilization_engineer",
+    "decoder_agent": "field_observer",
+    "encoder_model": "claude-opus-4-7",
+    "decoder_model": "claude-opus-4-7",
+    "context_budget": 450,
+    "n_cells": 2,
+    "exact_match_rate": 0.0,
+    "swapped_order_rate": 0.0,
+    "bag_match_rate": 0.0,
+    "decode_rate": 1.0,
+    "decoder_valid_rate": 1.0,
+    "decode_negative_control_rate": 0.0,
+    "decode_positive_control_rate": 1.0,
+    "per_role": [
+      {
+        "slot_id": "K1",
+        "slot_label": "repeat-count",
+        "n": 2,
+        "exact_match_rate": 0.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.0,
+        "decode_rate": 1.0
+      }
+    ],
+    "per_depth": [
+      {
+        "length": 2,
+        "n": 2,
+        "exact_match_rate": 0.0,
+        "decode_rate": 1.0
+      }
+    ],
+    "per_purpose": [
+      {
+        "purpose": "grounded_control",
+        "n": 2,
+        "exact_match_rate": 0.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.0,
+        "decode_rate": 1.0
+      }
+    ],
+    "per_construction": [
+      {
+        "construction_id": "K1",
+        "n": 2,
+        "n_control": 2,
+        "n_novel": 0,
+        "exact_match_rate": 0.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.0,
+        "decode_rate": 1.0,
+        "novel_exact_match_rate": 0.0,
+        "novel_decode_rate": 0.0
+      }
+    ],
+    "per_slot_generalization": []
+  }
+}

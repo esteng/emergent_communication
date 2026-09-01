@@ -1,0 +1,1202 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780442252",
+    "slots": [
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "FAMILY:",
+            "gloss": "switch to a procedure family reset",
+            "support": 5,
+            "is_defined": false
+          },
+          {
+            "form": "lamp(",
+            "gloss": "lamp",
+            "support": 2,
+            "is_defined": false
+          },
+          {
+            "form": "x",
+            "gloss": "repeat",
+            "support": 2,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "suffix",
+        "fillers": [
+          {
+            "form": "1",
+            "gloss": "one time",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "3",
+            "gloss": "three times",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "b)",
+            "gloss": "bright",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "cool",
+            "gloss": "cooling",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "d)",
+            "gloss": "dim",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "light",
+            "gloss": "light-based",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "pressure",
+            "gloss": "pressure-based",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "sound",
+            "gloss": "sound-based",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "warm",
+            "gloss": "warming",
+            "support": 1,
+            "is_defined": true
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "LEAK": [
+        "LEAK"
+      ],
+      "BOUND": [
+        "BOUND"
+      ],
+      "DRIFT": [
+        "DRIFT"
+      ],
+      "ALIGN": [
+        "ALIGN"
+      ],
+      "ECHO": [
+        "ECHO"
+      ],
+      "LOW": [
+        "LOW"
+      ],
+      "HIGH": [
+        "HIGH"
+      ],
+      "PHASE": [
+        "PHASE"
+      ],
+      "RESO": [
+        "RESO"
+      ],
+      "CORN": [
+        "CORN"
+      ],
+      "STALL": [
+        "STALL"
+      ],
+      "SPLIT": [
+        "SPLIT"
+      ],
+      "THERM": [
+        "THERM"
+      ],
+      "VOID": [
+        "VOID"
+      ],
+      "C": [
+        "C"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "A": [
+        "A"
+      ],
+      "R": [
+        "R"
+      ],
+      "L": [
+        "L"
+      ],
+      "T": [
+        "T"
+      ],
+      "B": [
+        "B"
+      ],
+      "Fr": [
+        "Fr"
+      ],
+      "Bk": [
+        "Bk"
+      ],
+      "stone": [
+        "stone"
+      ],
+      "cstone": [
+        "cstone"
+      ],
+      "bell": [
+        "bell"
+      ],
+      "cloth": [
+        "cloth"
+      ],
+      "ccloth": [
+        "ccloth"
+      ],
+      "fan": [
+        "fan"
+      ],
+      "lamp(d)": [
+        "lamp(",
+        "d)"
+      ],
+      "lamp(b)": [
+        "lamp(",
+        "b)"
+      ],
+      "board": [
+        "board"
+      ],
+      "rest": [
+        "rest"
+      ],
+      "Eg": [
+        "Eg"
+      ],
+      "Cn": [
+        "Cn"
+      ],
+      "opp": [
+        "opp"
+      ],
+      "6F": [
+        "6F"
+      ],
+      "4Cn-R": [
+        "4Cn-R"
+      ],
+      "4Eg-R": [
+        "4Eg-R"
+      ],
+      "↔": [
+        "↔"
+      ],
+      "alt": [
+        "alt"
+      ],
+      "cyc": [
+        "cyc"
+      ],
+      "rot": [
+        "rot"
+      ],
+      "3pair": [
+        "3pair"
+      ],
+      "seq": [
+        "seq"
+      ],
+      "still": [
+        "still"
+      ],
+      "undist": [
+        "undist"
+      ],
+      "warm": [
+        "warm"
+      ],
+      "cool": [
+        "cool"
+      ],
+      "p20s": [
+        "p20s"
+      ],
+      "v-tone": [
+        "v-tone"
+      ],
+      "hum": [
+        "hum"
+      ],
+      "whistle": [
+        "whistle"
+      ],
+      "tap": [
+        "tap"
+      ],
+      "trace": [
+        "trace"
+      ],
+      "press": [
+        "press"
+      ],
+      "palm": [
+        "palm"
+      ],
+      "blow": [
+        "blow"
+      ],
+      "+": [
+        "+"
+      ],
+      ";": [
+        ";"
+      ],
+      ">": [
+        ">"
+      ],
+      "again": [
+        "again"
+      ],
+      "NEAR": [
+        "NEAR"
+      ],
+      "ALONG": [
+        "ALONG"
+      ],
+      "ON": [
+        "ON"
+      ],
+      "at": [
+        "at"
+      ],
+      "near": [
+        "near"
+      ],
+      "persistent": [
+        "persistent"
+      ],
+      "remove": [
+        "remove"
+      ],
+      "@": [
+        "@"
+      ],
+      "|": [
+        "|"
+      ],
+      "hover": [
+        "hover"
+      ],
+      "touch": [
+        "touch"
+      ],
+      "slide": [
+        "slide"
+      ],
+      "drape": [
+        "drape"
+      ],
+      "wrap": [
+        "wrap"
+      ],
+      "mod": [
+        "mod"
+      ],
+      "inst": [
+        "inst"
+      ],
+      "sim": [
+        "sim"
+      ],
+      "persist": [
+        "persist"
+      ],
+      "x1": [
+        "x",
+        "1"
+      ],
+      "x3": [
+        "x",
+        "3"
+      ],
+      "ea4Cn-X": [
+        "ea4Cn-X"
+      ],
+      "ea6F": [
+        "ea6F"
+      ],
+      "ABORT": [
+        "ABORT"
+      ],
+      "FAMILY:cool": [
+        "FAMILY:",
+        "cool"
+      ],
+      "FAMILY:warm": [
+        "FAMILY:",
+        "warm"
+      ],
+      "FAMILY:sound": [
+        "FAMILY:",
+        "sound"
+      ],
+      "FAMILY:pressure": [
+        "FAMILY:",
+        "pressure"
+      ],
+      "FAMILY:light": [
+        "FAMILY:",
+        "light"
+      ]
+    },
+    "head_index": {
+      "LEAK": 0,
+      "BOUND": 0,
+      "DRIFT": 0,
+      "ALIGN": 0,
+      "ECHO": 0,
+      "LOW": 0,
+      "HIGH": 0,
+      "PHASE": 0,
+      "RESO": 0,
+      "CORN": 0,
+      "STALL": 0,
+      "SPLIT": 0,
+      "THERM": 0,
+      "VOID": 0,
+      "C": 0,
+      "E": 0,
+      "F": 0,
+      "A": 0,
+      "R": 0,
+      "L": 0,
+      "T": 0,
+      "B": 0,
+      "Fr": 0,
+      "Bk": 0,
+      "stone": 0,
+      "cstone": 0,
+      "bell": 0,
+      "cloth": 0,
+      "ccloth": 0,
+      "fan": 0,
+      "lamp(d)": 0,
+      "lamp(b)": 0,
+      "board": 0,
+      "rest": 0,
+      "Eg": 0,
+      "Cn": 0,
+      "opp": 0,
+      "6F": 0,
+      "4Cn-R": 0,
+      "4Eg-R": 0,
+      "↔": 0,
+      "alt": 0,
+      "cyc": 0,
+      "rot": 0,
+      "3pair": 0,
+      "seq": 0,
+      "still": 0,
+      "undist": 0,
+      "warm": 0,
+      "cool": 0,
+      "p20s": 0,
+      "v-tone": 0,
+      "hum": 0,
+      "whistle": 0,
+      "tap": 0,
+      "trace": 0,
+      "press": 0,
+      "palm": 0,
+      "blow": 0,
+      "+": 0,
+      ";": 0,
+      ">": 0,
+      "again": 0,
+      "NEAR": 0,
+      "ALONG": 0,
+      "ON": 0,
+      "at": 0,
+      "near": 0,
+      "persistent": 0,
+      "remove": 0,
+      "@": 0,
+      "|": 0,
+      "hover": 0,
+      "touch": 0,
+      "slide": 0,
+      "drape": 0,
+      "wrap": 0,
+      "mod": 0,
+      "inst": 0,
+      "sim": 0,
+      "persist": 0,
+      "x1": 0,
+      "x3": 0,
+      "ea4Cn-X": 0,
+      "ea6F": 0,
+      "ABORT": 0,
+      "FAMILY:cool": 0,
+      "FAMILY:warm": 0,
+      "FAMILY:sound": 0,
+      "FAMILY:pressure": 0,
+      "FAMILY:light": 0
+    },
+    "attested_orderings": [
+      [
+        "stem",
+        "suffix"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [],
+    "form_positions": {
+      "FAMILY:": 0,
+      "cool": 1,
+      "warm": 1,
+      "sound": 1,
+      "pressure": 1,
+      "light": 1,
+      "lamp(": 2,
+      "d)": 3,
+      "b)": 3,
+      "x": 4,
+      "1": 5,
+      "3": 5
+    },
+    "position_labels": {
+      "0": "family reset operator",
+      "1": "procedure domain",
+      "2": "lamp base",
+      "3": "brightness state",
+      "4": "repeat operator",
+      "5": "count"
+    },
+    "positions_by_symbol": {
+      "FAMILY:cool": [
+        0,
+        1
+      ],
+      "FAMILY:warm": [
+        0,
+        1
+      ],
+      "FAMILY:sound": [
+        0,
+        1
+      ],
+      "FAMILY:pressure": [
+        0,
+        1
+      ],
+      "FAMILY:light": [
+        0,
+        1
+      ],
+      "lamp(d)": [
+        2,
+        3
+      ],
+      "lamp(b)": [
+        2,
+        3
+      ],
+      "x1": [
+        4,
+        5
+      ],
+      "x3": [
+        4,
+        5
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "FAMILY:": "switch to a procedure family reset"
+      },
+      "1": {
+        "cool": "cooling",
+        "warm": "warming",
+        "sound": "sound-based",
+        "pressure": "pressure-based",
+        "light": "light-based"
+      },
+      "2": {
+        "lamp(": "lamp"
+      },
+      "3": {
+        "d)": "dim",
+        "b)": "bright"
+      },
+      "4": {
+        "x": "repeat"
+      },
+      "5": {
+        "1": "one time",
+        "3": "three times"
+      }
+    },
+    "meaning_by_symbol": {
+      "LEAK": "corners dark, edges fade, faces are okay, hum thin",
+      "BOUND": "edges wobble, faces bulge, hum muffled",
+      "DRIFT": "faces slide, edges blur, hum wavers",
+      "ALIGN": "faces flicker, hum broken, faces chaotic",
+      "ECHO": "too bright, hum layered, faces frozen",
+      "LOW": "all dim, hum whisper, washed",
+      "HIGH": "blazing all F, harsh buzz, heat, vibrates surface",
+      "PHASE": "opposite faces pulse bright and dark, two-tone sync",
+      "RESO": "one face bright vibrate, whine, others okay",
+      "CORN": "one to two corners bright, ticking, hot corners",
+      "STALL": "frozen dim still, silent, cold",
+      "SPLIT": "hum two tones clash, faces alternate patterns",
+      "THERM": "hot and dim, rumble, red tint, gritty",
+      "VOID": "faces okay, hollow tap, dark center, hum thin with no depth",
+      "C": "corners",
+      "E": "edges",
+      "F": "faces, centers",
+      "A": "all",
+      "R": "right face",
+      "L": "left face",
+      "T": "top face",
+      "B": "bottom face",
+      "Fr": "front face",
+      "Bk": "back face",
+      "stone": "heated stone",
+      "cstone": "cool or warm stone",
+      "bell": "bell chime",
+      "cloth": "drape cloth, room-temperature or warm drape cloth",
+      "ccloth": "cool cloth",
+      "fan": "hand fan",
+      "lamp(d)": "dim lamp",
+      "lamp(b)": "bright lamp",
+      "board": "flat board; rest flat board against the named face, against the side",
+      "rest": "leave undisturbed",
+      "Eg": "edges",
+      "Cn": "corners",
+      "opp": "opposite face",
+      "6F": "each face",
+      "4Cn-R": "each corner of the right face",
+      "4Eg-R": "each edge of the right face",
+      "↔": "opposite pair",
+      "alt": "alternate, with pause implied between alternate actions",
+      "cyc": "cycles, \"pause\" implied between alt actions",
+      "rot": "rotate the Veyru and repeat",
+      "3pair": "for each face-pair, three rotations of the Veyru total, three contacts",
+      "seq": "in sequence",
+      "still": "without moving",
+      "undist": "undisturbed",
+      "warm": "heated, when used before stone",
+      "cool": "cooled, when used before stone",
+      "p20s": "pause 20 seconds",
+      "v-tone": "or \"hum\" = sustained vocal note",
+      "hum": "sustained vocal note, hum a tone, with pitch or intensity if relevant",
+      "whistle": "whistle a tone",
+      "tap": "tap the surface with a finger the stated number of times",
+      "trace": "finger trace",
+      "press": "hand pressure",
+      "palm": "hand pressure with the palm",
+      "blow": "breath across the named face",
+      "+": "simultaneous, do both at once",
+      ";": "sequential",
+      ">": "sequential",
+      "again": "the same symptom pattern again",
+      "NEAR": "held still near the target, no motion",
+      "ALONG": "slides or moves along the target, warming its length",
+      "ON": "touching the target",
+      "at": "at the face center by default for bell",
+      "near": "in proximity to the target; for bell, near a corner or edge rather than face center; for stone, held still near the target",
+      "persistent": "the placed item stays in place during the next step until explicitly removed",
+      "remove": "take the placed item off before the next step",
+      "@": "introduces the target field in the procedure DSL",
+      "|": "separates fields in the procedure DSL",
+      "hover": "close and still, not touching",
+      "touch": "touching contact",
+      "slide": "move along while applying the tool",
+      "drape": "lay cloth over the target",
+      "wrap": "wrap around the target",
+      "mod": "moderate intensity",
+      "inst": "instant duration",
+      "sim": "simultaneous",
+      "persist": "persistent, remains in place during subsequent step until removed",
+      "x1": "repeat once",
+      "x3": "repeat three times",
+      "ea4Cn-X": "for each of the 4 corners of face X",
+      "ea6F": "for each of the 6 faces",
+      "ABORT": "stop this procedure family and try a totally different action approach",
+      "FAMILY:cool": "switch to a cooling procedure family reset",
+      "FAMILY:warm": "switch to a warming procedure family reset",
+      "FAMILY:sound": "switch to a sound-based procedure family reset",
+      "FAMILY:pressure": "switch to a pressure-based procedure family reset",
+      "FAMILY:light": "switch to a light-based procedure family reset"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780442252",
+    "n_codes": 91,
+    "n_multimorpheme": 9,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "stem",
+        "label": "family reset operator",
+        "fillers": [
+          {
+            "form": "FAMILY:",
+            "gloss": "switch to a procedure family reset",
+            "count": 5
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.5555555555555556,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "suffix",
+        "label": "procedure domain",
+        "fillers": [
+          {
+            "form": "cool",
+            "gloss": "cooling",
+            "count": 1
+          },
+          {
+            "form": "light",
+            "gloss": "light-based",
+            "count": 1
+          },
+          {
+            "form": "pressure",
+            "gloss": "pressure-based",
+            "count": 1
+          },
+          {
+            "form": "sound",
+            "gloss": "sound-based",
+            "count": 1
+          },
+          {
+            "form": "warm",
+            "gloss": "warming",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 5,
+        "obligatoriness": 0.5555555555555556,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos2",
+        "role": "stem",
+        "label": "lamp base",
+        "fillers": [
+          {
+            "form": "lamp(",
+            "gloss": "lamp",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.2222222222222222,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos3",
+        "role": "suffix",
+        "label": "brightness state",
+        "fillers": [
+          {
+            "form": "b)",
+            "gloss": "bright",
+            "count": 1
+          },
+          {
+            "form": "d)",
+            "gloss": "dim",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.2222222222222222,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos4",
+        "role": "stem",
+        "label": "repeat operator",
+        "fillers": [
+          {
+            "form": "x",
+            "gloss": "repeat",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.2222222222222222,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos5",
+        "role": "suffix",
+        "label": "count",
+        "fillers": [
+          {
+            "form": "1",
+            "gloss": "one time",
+            "count": 1
+          },
+          {
+            "form": "3",
+            "gloss": "three times",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.2222222222222222,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 5,
+        "possible_combos": 5,
+        "saturation": 1.0
+      },
+      {
+        "slot_a": "pos2",
+        "slot_b": "pos3",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      },
+      {
+        "slot_a": "pos4",
+        "slot_b": "pos5",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ],
+      [
+        "pos2",
+        "pos3"
+      ],
+      [
+        "pos4",
+        "pos5"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "FAMILY:cool": [
+        "pos0",
+        "pos1"
+      ],
+      "FAMILY:warm": [
+        "pos0",
+        "pos1"
+      ],
+      "FAMILY:sound": [
+        "pos0",
+        "pos1"
+      ],
+      "FAMILY:pressure": [
+        "pos0",
+        "pos1"
+      ],
+      "FAMILY:light": [
+        "pos0",
+        "pos1"
+      ],
+      "lamp(d)": [
+        "pos2",
+        "pos3"
+      ],
+      "lamp(b)": [
+        "pos2",
+        "pos3"
+      ],
+      "x1": [
+        "pos4",
+        "pos5"
+      ],
+      "x3": [
+        "pos4",
+        "pos5"
+      ]
+    },
+    "construction_by_symbol": {
+      "FAMILY:cool": "CX_FAMILY_RESET",
+      "FAMILY:warm": "CX_FAMILY_RESET",
+      "FAMILY:sound": "CX_FAMILY_RESET",
+      "FAMILY:pressure": "CX_FAMILY_RESET",
+      "FAMILY:light": "CX_FAMILY_RESET",
+      "lamp(d)": "CX_LAMP_STATE",
+      "lamp(b)": "CX_LAMP_STATE",
+      "x1": "CX_REPEAT_COUNT",
+      "x3": "CX_REPEAT_COUNT"
+    },
+    "construction_labels": {
+      "CX_FAMILY_RESET": "family reset construction",
+      "CX_LAMP_STATE": "lamp state construction",
+      "CX_REPEAT_COUNT": "repeat-count construction"
+    },
+    "construction_templates": {
+      "CX_FAMILY_RESET": [
+        "pos0",
+        "pos1"
+      ],
+      "CX_LAMP_STATE": [
+        "pos2",
+        "pos3"
+      ],
+      "CX_REPEAT_COUNT": [
+        "pos4",
+        "pos5"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "Most symbols are best treated as opaque lexical items: shared letters or substrings alone do not support morphology, and most candidate families fail the compositional-paradigm test. Three small constructions are defensible. (1) FAMILY:cool / warm / sound / pressure / light form a clear shared frame with substituting domain fillers and predictable meanings. (2) lamp(d) / lamp(b) form a minimal pair with stable lamp + brightness semantics; the contrasting filler surfaces are d) and b) because the closing parenthesis is part of the attested code. (3) x1 / x3 support repeat + count, since the numerals contribute literal repetition counts. All other symbols remain lexical.",
+    "lexical_symbols": [
+      "LEAK",
+      "BOUND",
+      "DRIFT",
+      "ALIGN",
+      "ECHO",
+      "LOW",
+      "HIGH",
+      "PHASE",
+      "RESO",
+      "CORN",
+      "STALL",
+      "SPLIT",
+      "THERM",
+      "VOID",
+      "C",
+      "E",
+      "F",
+      "A",
+      "R",
+      "L",
+      "T",
+      "B",
+      "Fr",
+      "Bk",
+      "stone",
+      "cstone",
+      "bell",
+      "cloth",
+      "ccloth",
+      "fan",
+      "board",
+      "rest",
+      "Eg",
+      "Cn",
+      "opp",
+      "6F",
+      "4Cn-R",
+      "4Eg-R",
+      "↔",
+      "alt",
+      "cyc",
+      "rot",
+      "3pair",
+      "seq",
+      "still",
+      "undist",
+      "warm",
+      "cool",
+      "p20s",
+      "v-tone",
+      "hum",
+      "whistle",
+      "tap",
+      "trace",
+      "press",
+      "palm",
+      "blow",
+      "+",
+      ";",
+      ">",
+      "again",
+      "NEAR",
+      "ALONG",
+      "ON",
+      "at",
+      "near",
+      "persistent",
+      "remove",
+      "@",
+      "|",
+      "hover",
+      "touch",
+      "slide",
+      "drape",
+      "wrap",
+      "mod",
+      "inst",
+      "sim",
+      "persist",
+      "ea4Cn-X",
+      "ea6F",
+      "ABORT"
+    ],
+    "classes": [
+      {
+        "class_id": "CL_FAMILY_RESET",
+        "label": "family reset operator",
+        "description": "Operator meaning ‘switch to a procedure family reset’.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CL_PROC_DOMAIN",
+        "label": "procedure domain",
+        "description": "The procedure family domain selected by the family-reset operator.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CL_LAMP_BASE",
+        "label": "lamp base",
+        "description": "Base meaning ‘lamp’.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CL_BRIGHTNESS",
+        "label": "brightness state",
+        "description": "Brightness value for the lamp code.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CL_REPEAT",
+        "label": "repeat operator",
+        "description": "Operator meaning ‘repeat’.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CL_COUNT",
+        "label": "count",
+        "description": "Literal repetition count.",
+        "repeatable": false,
+        "declared_fillers": []
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "CX_FAMILY_RESET",
+        "label": "family reset construction",
+        "description": "Family reset operator followed by a procedure-domain filler.",
+        "class_sequence": [
+          "CL_FAMILY_RESET",
+          "CL_PROC_DOMAIN"
+        ]
+      },
+      {
+        "construction_id": "CX_LAMP_STATE",
+        "label": "lamp state construction",
+        "description": "Lamp base followed by a brightness filler.",
+        "class_sequence": [
+          "CL_LAMP_BASE",
+          "CL_BRIGHTNESS"
+        ]
+      },
+      {
+        "construction_id": "CX_REPEAT_COUNT",
+        "label": "repeat-count construction",
+        "description": "Repeat operator followed by a literal count.",
+        "class_sequence": [
+          "CL_REPEAT",
+          "CL_COUNT"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "FAMILY:cool",
+        "construction_id": "CX_FAMILY_RESET",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "FAMILY:",
+            "class_id": "CL_FAMILY_RESET",
+            "gloss": "switch to a procedure family reset"
+          },
+          {
+            "form": "cool",
+            "class_id": "CL_PROC_DOMAIN",
+            "gloss": "cooling"
+          }
+        ]
+      },
+      {
+        "symbol": "FAMILY:warm",
+        "construction_id": "CX_FAMILY_RESET",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "FAMILY:",
+            "class_id": "CL_FAMILY_RESET",
+            "gloss": "switch to a procedure family reset"
+          },
+          {
+            "form": "warm",
+            "class_id": "CL_PROC_DOMAIN",
+            "gloss": "warming"
+          }
+        ]
+      },
+      {
+        "symbol": "FAMILY:sound",
+        "construction_id": "CX_FAMILY_RESET",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "FAMILY:",
+            "class_id": "CL_FAMILY_RESET",
+            "gloss": "switch to a procedure family reset"
+          },
+          {
+            "form": "sound",
+            "class_id": "CL_PROC_DOMAIN",
+            "gloss": "sound-based"
+          }
+        ]
+      },
+      {
+        "symbol": "FAMILY:pressure",
+        "construction_id": "CX_FAMILY_RESET",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "FAMILY:",
+            "class_id": "CL_FAMILY_RESET",
+            "gloss": "switch to a procedure family reset"
+          },
+          {
+            "form": "pressure",
+            "class_id": "CL_PROC_DOMAIN",
+            "gloss": "pressure-based"
+          }
+        ]
+      },
+      {
+        "symbol": "FAMILY:light",
+        "construction_id": "CX_FAMILY_RESET",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "FAMILY:",
+            "class_id": "CL_FAMILY_RESET",
+            "gloss": "switch to a procedure family reset"
+          },
+          {
+            "form": "light",
+            "class_id": "CL_PROC_DOMAIN",
+            "gloss": "light-based"
+          }
+        ]
+      },
+      {
+        "symbol": "lamp(d)",
+        "construction_id": "CX_LAMP_STATE",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "lamp(",
+            "class_id": "CL_LAMP_BASE",
+            "gloss": "lamp"
+          },
+          {
+            "form": "d)",
+            "class_id": "CL_BRIGHTNESS",
+            "gloss": "dim"
+          }
+        ]
+      },
+      {
+        "symbol": "lamp(b)",
+        "construction_id": "CX_LAMP_STATE",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "lamp(",
+            "class_id": "CL_LAMP_BASE",
+            "gloss": "lamp"
+          },
+          {
+            "form": "b)",
+            "class_id": "CL_BRIGHTNESS",
+            "gloss": "bright"
+          }
+        ]
+      },
+      {
+        "symbol": "x1",
+        "construction_id": "CX_REPEAT_COUNT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "x",
+            "class_id": "CL_REPEAT",
+            "gloss": "repeat"
+          },
+          {
+            "form": "1",
+            "class_id": "CL_COUNT",
+            "gloss": "one time"
+          }
+        ]
+      },
+      {
+        "symbol": "x3",
+        "construction_id": "CX_REPEAT_COUNT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "x",
+            "class_id": "CL_REPEAT",
+            "gloss": "repeat"
+          },
+          {
+            "form": "3",
+            "class_id": "CL_COUNT",
+            "gloss": "three times"
+          }
+        ]
+      }
+    ]
+  }
+}

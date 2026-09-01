@@ -1,0 +1,94 @@
+{
+  "run_key": "veyru/1780600846",
+  "status": "analyzed",
+  "n_codes": 47,
+  "n_multimorpheme": 7,
+  "report": {
+    "encoder_agent": "stabilization_engineer",
+    "decoder_agent": "field_observer",
+    "encoder_model": "claude-sonnet-4-6",
+    "decoder_model": "claude-sonnet-4-6",
+    "context_budget": 250,
+    "n_cells": 12,
+    "exact_match_rate": 0.9166666666666666,
+    "swapped_order_rate": 0.0,
+    "bag_match_rate": 0.9166666666666666,
+    "decode_rate": 0.7083333333333334,
+    "decoder_valid_rate": 0.5833333333333334,
+    "decode_negative_control_rate": 0.0,
+    "decode_positive_control_rate": 1.0,
+    "per_role": [
+      {
+        "slot_id": "K1",
+        "slot_label": "object-placement",
+        "n": 12,
+        "exact_match_rate": 0.9166666666666666,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.9166666666666666,
+        "decode_rate": 0.7083333333333334
+      }
+    ],
+    "per_depth": [
+      {
+        "length": 2,
+        "n": 12,
+        "exact_match_rate": 0.9166666666666666,
+        "decode_rate": 0.7083333333333334
+      }
+    ],
+    "per_purpose": [
+      {
+        "purpose": "grounded_control",
+        "n": 7,
+        "exact_match_rate": 0.8571428571428571,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.8571428571428571,
+        "decode_rate": 0.5714285714285714
+      },
+      {
+        "purpose": "grounded_novel",
+        "n": 5,
+        "exact_match_rate": 1.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 1.0,
+        "decode_rate": 0.9
+      }
+    ],
+    "per_construction": [
+      {
+        "construction_id": "K1",
+        "n": 12,
+        "n_control": 7,
+        "n_novel": 5,
+        "exact_match_rate": 0.9166666666666666,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.9166666666666666,
+        "decode_rate": 0.7083333333333334,
+        "novel_exact_match_rate": 1.0,
+        "novel_decode_rate": 0.9
+      }
+    ],
+    "per_slot_generalization": [
+      {
+        "slot_id": "pos0",
+        "slot_label": "PLACEABLE_OBJECT",
+        "slot_role": "stem",
+        "pooled": false,
+        "n": 5,
+        "valid_rate": 0.2,
+        "exact_match_rate": 1.0,
+        "decode_rate": 0.9
+      },
+      {
+        "slot_id": "pos1",
+        "slot_label": "PLACEMENT_RELATION",
+        "slot_role": "suffix",
+        "pooled": false,
+        "n": 5,
+        "valid_rate": 0.2,
+        "exact_match_rate": 1.0,
+        "decode_rate": 0.9
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "per_slot": {
+    "pos0": [
+      [
+        "bright",
+        "bright light symptom"
+      ],
+      [
+        "dim",
+        "dim light symptom"
+      ],
+      [
+        "flicker",
+        "flickering light symptom"
+      ],
+      [
+        "freeze",
+        "frozen light symptom"
+      ],
+      [
+        "pulse",
+        "pulsing light symptom"
+      ],
+      [
+        "slide",
+        "sliding visual symptom"
+      ]
+    ]
+  },
+  "stackable": [
+    [
+      "B",
+      "back face"
+    ],
+    [
+      "Bot",
+      "bottom face; the opposite of top"
+    ],
+    [
+      "F",
+      "front face; by default the face being looked at"
+    ],
+    [
+      "L",
+      "left face"
+    ],
+    [
+      "R",
+      "right face"
+    ],
+    [
+      "T",
+      "top face; by default the face pointing up"
+    ]
+  ]
+}

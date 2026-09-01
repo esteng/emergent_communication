@@ -1,0 +1,4 @@
+test,statistic,p,n,detail
+Wilcoxon compositional<atomic,87.0,3.140334869303226e-05,37,lower in 30/37
+Poisson GEE rate~history (compositional),0.45892091156118586,1.9591244821382694e-12,37,coef=-0.779
+Poisson GEE rate~history (atomic),0.9984139563782615,0.9817155102471786,37,coef=-0.002

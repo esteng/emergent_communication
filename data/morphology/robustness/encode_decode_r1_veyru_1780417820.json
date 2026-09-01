@@ -1,0 +1,863 @@
+{
+  "results": [
+    {
+      "target_meaning": "all edges, right face",
+      "expected_form": "e4R",
+      "expected_morphemes": [
+        "e4",
+        "R"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "R4edges",
+      "produced_reading": "right face's 4 edges",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "REGION_ON_FACE",
+      "varied_slot_label": "region plus parenthesized face",
+      "n_morphemes": 2,
+      "construction_id": "REGION_ON_FACE",
+      "pooled_slots": [
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "edges, back face",
+      "expected_form": "eBk",
+      "expected_morphemes": [
+        "e",
+        "Bk"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "BkE4",
+      "produced_reading": "the 4 edges of the back face",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "REGION_ON_FACE",
+      "varied_slot_label": "region plus parenthesized face",
+      "n_morphemes": 2,
+      "construction_id": "REGION_ON_FACE",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": true,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "four corners, front face",
+      "expected_form": "c4(F)",
+      "expected_morphemes": [
+        "c4",
+        "(F)"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "Fc4",
+      "produced_reading": "the 4 corners of the front face",
+      "purpose": "grounded_novel",
+      "varied_slot": "REGION_ON_FACE",
+      "varied_slot_label": "region plus parenthesized face",
+      "n_morphemes": 2,
+      "construction_id": "REGION_ON_FACE",
+      "pooled_slots": [],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "four corners, top face",
+      "expected_form": "c4U",
+      "expected_morphemes": [
+        "c4",
+        "U"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "Uc4",
+      "produced_reading": "the 4 corners of the up face",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "REGION_ON_FACE",
+      "varied_slot_label": "region plus parenthesized face",
+      "n_morphemes": 2,
+      "construction_id": "REGION_ON_FACE",
+      "pooled_slots": [
+        "pos1"
+      ],
+      "is_valid": true,
+      "match_expected": false,
+      "match_bag": true,
+      "match_swapped_order": true,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "four corners, right face",
+      "expected_form": "c4R",
+      "expected_morphemes": [
+        "c4",
+        "R"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "Rc4",
+      "produced_reading": "the 4 corners of the right face",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "REGION_ON_FACE",
+      "varied_slot_label": "region plus parenthesized face",
+      "n_morphemes": 2,
+      "construction_id": "REGION_ON_FACE",
+      "pooled_slots": [
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": true,
+      "match_swapped_order": true,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "edges, front face",
+      "expected_form": "eF",
+      "expected_morphemes": [
+        "e",
+        "F"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "FE4",
+      "produced_reading": "the 4 edges of the front face",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "REGION_ON_FACE",
+      "varied_slot_label": "region plus parenthesized face",
+      "n_morphemes": 2,
+      "construction_id": "REGION_ON_FACE",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "edges, bottom face",
+      "expected_form": "e(D)",
+      "expected_morphemes": [
+        "e",
+        "(D)"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "DE4",
+      "produced_reading": "the 4 edges of the down face",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "REGION_ON_FACE",
+      "varied_slot_label": "region plus parenthesized face",
+      "n_morphemes": 2,
+      "construction_id": "REGION_ON_FACE",
+      "pooled_slots": [
+        "pos0"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "edges, right face",
+      "expected_form": "e(R)",
+      "expected_morphemes": [
+        "e",
+        "(R)"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "RE4",
+      "produced_reading": "the 4 edges of the right face",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "REGION_ON_FACE",
+      "varied_slot_label": "region plus parenthesized face",
+      "n_morphemes": 2,
+      "construction_id": "REGION_ON_FACE",
+      "pooled_slots": [
+        "pos0"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "edges, top face",
+      "expected_form": "e(U)",
+      "expected_morphemes": [
+        "e",
+        "(U)"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "UE4",
+      "produced_reading": "the 4 edges of the up face",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "REGION_ON_FACE",
+      "varied_slot_label": "region plus parenthesized face",
+      "n_morphemes": 2,
+      "construction_id": "REGION_ON_FACE",
+      "pooled_slots": [
+        "pos0"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "all edges, front face",
+      "expected_form": "e4F",
+      "expected_morphemes": [
+        "e4",
+        "F"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "F4edges",
+      "produced_reading": "front face's 4 edges",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "REGION_ON_FACE",
+      "varied_slot_label": "region plus parenthesized face",
+      "n_morphemes": 2,
+      "construction_id": "REGION_ON_FACE",
+      "pooled_slots": [
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "edges, back face",
+      "expected_form": "e(B)",
+      "expected_morphemes": [
+        "e",
+        "(B)"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "BkE4",
+      "produced_reading": "the 4 edges of the back face",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "REGION_ON_FACE",
+      "varied_slot_label": "region plus parenthesized face",
+      "n_morphemes": 2,
+      "construction_id": "REGION_ON_FACE",
+      "pooled_slots": [
+        "pos0"
+      ],
+      "is_valid": true,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "all edges, bottom face",
+      "expected_form": "e4D",
+      "expected_morphemes": [
+        "e4",
+        "D"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "D4edges",
+      "produced_reading": "down face's 4 edges",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "REGION_ON_FACE",
+      "varied_slot_label": "region plus parenthesized face",
+      "n_morphemes": 2,
+      "construction_id": "REGION_ON_FACE",
+      "pooled_slots": [
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "four corners, all 6 faces",
+      "expected_form": "c4a6",
+      "expected_morphemes": [
+        "c4",
+        "a6"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "all8corners",
+      "produced_reading": "all 8 corners",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "REGION_ON_FACE",
+      "varied_slot_label": "region plus parenthesized face",
+      "n_morphemes": 2,
+      "construction_id": "REGION_ON_FACE",
+      "pooled_slots": [
+        "pos1"
+      ],
+      "is_valid": true,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    },
+    {
+      "target_meaning": "four corners, right face",
+      "expected_form": "c4(R)",
+      "expected_morphemes": [
+        "c4",
+        "(R)"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "Rc4",
+      "produced_reading": "the 4 corners of the right face",
+      "purpose": "grounded_novel",
+      "varied_slot": "REGION_ON_FACE",
+      "varied_slot_label": "region plus parenthesized face",
+      "n_morphemes": 2,
+      "construction_id": "REGION_ON_FACE",
+      "pooled_slots": [],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "four corners, front face",
+      "expected_form": "c4F",
+      "expected_morphemes": [
+        "c4",
+        "F"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "Fc4",
+      "produced_reading": "the 4 corners of the front face",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "REGION_ON_FACE",
+      "varied_slot_label": "region plus parenthesized face",
+      "n_morphemes": 2,
+      "construction_id": "REGION_ON_FACE",
+      "pooled_slots": [
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": true,
+      "match_swapped_order": true,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "edges, bottom face",
+      "expected_form": "eD",
+      "expected_morphemes": [
+        "e",
+        "D"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "DE4",
+      "produced_reading": "the 4 edges of the down face",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "REGION_ON_FACE",
+      "varied_slot_label": "region plus parenthesized face",
+      "n_morphemes": 2,
+      "construction_id": "REGION_ON_FACE",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "all edges, top face",
+      "expected_form": "e4U",
+      "expected_morphemes": [
+        "e4",
+        "U"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "U4edges",
+      "produced_reading": "up face's 4 edges",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "REGION_ON_FACE",
+      "varied_slot_label": "region plus parenthesized face",
+      "n_morphemes": 2,
+      "construction_id": "REGION_ON_FACE",
+      "pooled_slots": [
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "edges, front face",
+      "expected_form": "e(F)",
+      "expected_morphemes": [
+        "e",
+        "(F)"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "FE4",
+      "produced_reading": "the 4 edges of the front face",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "REGION_ON_FACE",
+      "varied_slot_label": "region plus parenthesized face",
+      "n_morphemes": 2,
+      "construction_id": "REGION_ON_FACE",
+      "pooled_slots": [
+        "pos0"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "all edges, back face",
+      "expected_form": "e4Bk",
+      "expected_morphemes": [
+        "e4",
+        "Bk"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "Bk4edges",
+      "produced_reading": "back face's 4 edges",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "REGION_ON_FACE",
+      "varied_slot_label": "region plus parenthesized face",
+      "n_morphemes": 2,
+      "construction_id": "REGION_ON_FACE",
+      "pooled_slots": [
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "all edges, all 6 faces",
+      "expected_form": "e4a6",
+      "expected_morphemes": [
+        "e4",
+        "a6"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "all12edges",
+      "produced_reading": "all 12 edges",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "REGION_ON_FACE",
+      "varied_slot_label": "region plus parenthesized face",
+      "n_morphemes": 2,
+      "construction_id": "REGION_ON_FACE",
+      "pooled_slots": [
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "edges, right face",
+      "expected_form": "eR",
+      "expected_morphemes": [
+        "e",
+        "R"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "RE4",
+      "produced_reading": "the 4 edges of the right face",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "REGION_ON_FACE",
+      "varied_slot_label": "region plus parenthesized face",
+      "n_morphemes": 2,
+      "construction_id": "REGION_ON_FACE",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "edges, back face",
+      "expected_form": "e(Bk)",
+      "expected_morphemes": [
+        "e",
+        "(Bk)"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "BkE4",
+      "produced_reading": "the 4 edges of the back face",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "REGION_ON_FACE",
+      "varied_slot_label": "region plus parenthesized face",
+      "n_morphemes": 2,
+      "construction_id": "REGION_ON_FACE",
+      "pooled_slots": [
+        "pos0"
+      ],
+      "is_valid": true,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "all edges, back face",
+      "expected_form": "e4B",
+      "expected_morphemes": [
+        "e4",
+        "B"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "Bk4edges",
+      "produced_reading": "back face's 4 edges",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "REGION_ON_FACE",
+      "varied_slot_label": "region plus parenthesized face",
+      "n_morphemes": 2,
+      "construction_id": "REGION_ON_FACE",
+      "pooled_slots": [
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "all edges, front face",
+      "expected_form": "e4(F)",
+      "expected_morphemes": [
+        "e4",
+        "(F)"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "F4edges",
+      "produced_reading": "front face's 4 edges",
+      "purpose": "grounded_novel",
+      "varied_slot": "REGION_ON_FACE",
+      "varied_slot_label": "region plus parenthesized face",
+      "n_morphemes": 2,
+      "construction_id": "REGION_ON_FACE",
+      "pooled_slots": [],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "edges, all 6 faces",
+      "expected_form": "ea6",
+      "expected_morphemes": [
+        "e",
+        "a6"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "all12edges",
+      "produced_reading": "all 12 edges",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "REGION_ON_FACE",
+      "varied_slot_label": "region plus parenthesized face",
+      "n_morphemes": 2,
+      "construction_id": "REGION_ON_FACE",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    },
+    {
+      "target_meaning": "edges, back face",
+      "expected_form": "eB",
+      "expected_morphemes": [
+        "e",
+        "B"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "BkE4",
+      "produced_reading": "the 4 edges of the back face",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "REGION_ON_FACE",
+      "varied_slot_label": "region plus parenthesized face",
+      "n_morphemes": 2,
+      "construction_id": "REGION_ON_FACE",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": true,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "four corners, bottom face",
+      "expected_form": "c4(D)",
+      "expected_morphemes": [
+        "c4",
+        "(D)"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "Dc4",
+      "produced_reading": "the 4 corners of the down face",
+      "purpose": "grounded_control",
+      "varied_slot": "REGION_ON_FACE",
+      "varied_slot_label": "region plus parenthesized face",
+      "n_morphemes": 2,
+      "construction_id": "REGION_ON_FACE",
+      "pooled_slots": [],
+      "is_valid": true,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "four corners, back face",
+      "expected_form": "c4(B)",
+      "expected_morphemes": [
+        "c4",
+        "(B)"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "Bkc4",
+      "produced_reading": "the 4 corners of the back face",
+      "purpose": "grounded_novel",
+      "varied_slot": "REGION_ON_FACE",
+      "varied_slot_label": "region plus parenthesized face",
+      "n_morphemes": 2,
+      "construction_id": "REGION_ON_FACE",
+      "pooled_slots": [],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "edges, top face",
+      "expected_form": "eU",
+      "expected_morphemes": [
+        "e",
+        "U"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "UE4",
+      "produced_reading": "the 4 edges of the up face",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "REGION_ON_FACE",
+      "varied_slot_label": "region plus parenthesized face",
+      "n_morphemes": 2,
+      "construction_id": "REGION_ON_FACE",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "all edges, back face",
+      "expected_form": "e4(B)",
+      "expected_morphemes": [
+        "e4",
+        "(B)"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "Bk4edges",
+      "produced_reading": "back face's 4 edges",
+      "purpose": "grounded_novel",
+      "varied_slot": "REGION_ON_FACE",
+      "varied_slot_label": "region plus parenthesized face",
+      "n_morphemes": 2,
+      "construction_id": "REGION_ON_FACE",
+      "pooled_slots": [],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "all edges, top face",
+      "expected_form": "e4(U)",
+      "expected_morphemes": [
+        "e4",
+        "(U)"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "U4edges",
+      "produced_reading": "up face's 4 edges",
+      "purpose": "grounded_novel",
+      "varied_slot": "REGION_ON_FACE",
+      "varied_slot_label": "region plus parenthesized face",
+      "n_morphemes": 2,
+      "construction_id": "REGION_ON_FACE",
+      "pooled_slots": [],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "all edges, bottom face",
+      "expected_form": "e4(D)",
+      "expected_morphemes": [
+        "e4",
+        "(D)"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "D4edges",
+      "produced_reading": "down face's 4 edges",
+      "purpose": "grounded_control",
+      "varied_slot": "REGION_ON_FACE",
+      "varied_slot_label": "region plus parenthesized face",
+      "n_morphemes": 2,
+      "construction_id": "REGION_ON_FACE",
+      "pooled_slots": [],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    }
+  ],
+  "decode_negative_control_rate": 0.5,
+  "n_decode_negative_controls": 20,
+  "decode_positive_control_rate": 1.0,
+  "n_decode_positive_controls": 10
+}

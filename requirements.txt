@@ -1,0 +1,14 @@
+pandas==3.0.2
+numpy==2.4.4
+scipy==1.17.1
+matplotlib==3.10.9
+seaborn==0.13.2
+statsmodels==0.14.6
+scikit-learn==1.8.0
+pyarrow==24.0.0          # pandas parquet engine, for the morphology codebook caches
+pydantic==2.13.3
+openai==2.33.0
+python-dotenv==1.2.2
+pytest==9.1.1            # test suite only: PYTHONPATH=scripts python -m pytest tests/
+
+# The morphology statistics scripts are R; they need lme4 and emmeans.

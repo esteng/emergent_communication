@@ -1,0 +1,57 @@
+{
+  "per_slot": {
+    "pos0": [
+      [
+        "BELL",
+        "discrete chime or chimes; count matters"
+      ],
+      [
+        "LAMP",
+        "directional lamp or lamps"
+      ]
+    ],
+    "pos1": [
+      [
+        "ALL",
+        "all 6 faces"
+      ],
+      [
+        "B",
+        "bottom face"
+      ],
+      [
+        "CORNERS",
+        "corners"
+      ],
+      [
+        "E",
+        "east face"
+      ],
+      [
+        "EDGES",
+        "edges"
+      ],
+      [
+        "N",
+        "north face"
+      ],
+      [
+        "OPP",
+        "the specified face and its opposite face"
+      ],
+      [
+        "S",
+        "south face"
+      ],
+      [
+        "T",
+        "top face"
+      ],
+      [
+        "W",
+        "west face"
+      ]
+    ]
+  },
+  "stackable": []
+}

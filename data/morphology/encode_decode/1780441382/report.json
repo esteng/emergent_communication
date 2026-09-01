@@ -1,0 +1,104 @@
+{
+  "run_key": "veyru/1780441382",
+  "status": "analyzed",
+  "n_codes": 28,
+  "n_multimorpheme": 3,
+  "report": {
+    "encoder_agent": "stabilization_engineer",
+    "decoder_agent": "field_observer",
+    "encoder_model": "claude-sonnet-4-6",
+    "decoder_model": "claude-sonnet-4-6",
+    "context_budget": 250,
+    "n_cells": 2,
+    "exact_match_rate": 1.0,
+    "swapped_order_rate": 0.0,
+    "bag_match_rate": 1.0,
+    "decode_rate": 0.5,
+    "decoder_valid_rate": 0.5,
+    "decode_negative_control_rate": 0.0,
+    "decode_positive_control_rate": 1.0,
+    "per_role": [
+      {
+        "slot_id": "K_STEP_STATUS",
+        "slot_label": "step with optional status",
+        "n": 2,
+        "exact_match_rate": 1.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 1.0,
+        "decode_rate": 0.5
+      }
+    ],
+    "per_depth": [
+      {
+        "length": 3,
+        "n": 2,
+        "exact_match_rate": 1.0,
+        "decode_rate": 0.5
+      }
+    ],
+    "per_purpose": [
+      {
+        "purpose": "grounded_control",
+        "n": 1,
+        "exact_match_rate": 1.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 1.0,
+        "decode_rate": 0.5
+      },
+      {
+        "purpose": "grounded_novel",
+        "n": 1,
+        "exact_match_rate": 1.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 1.0,
+        "decode_rate": 0.5
+      }
+    ],
+    "per_construction": [
+      {
+        "construction_id": "K_STEP_STATUS",
+        "n": 2,
+        "n_control": 1,
+        "n_novel": 1,
+        "exact_match_rate": 1.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 1.0,
+        "decode_rate": 0.5,
+        "novel_exact_match_rate": 1.0,
+        "novel_decode_rate": 0.5
+      }
+    ],
+    "per_slot_generalization": [
+      {
+        "slot_id": "pos0",
+        "slot_label": "step base",
+        "slot_role": "stem",
+        "pooled": false,
+        "n": 1,
+        "valid_rate": 0.0,
+        "exact_match_rate": 1.0,
+        "decode_rate": 0.5
+      },
+      {
+        "slot_id": "pos1",
+        "slot_label": "step index",
+        "slot_role": "suffix",
+        "pooled": false,
+        "n": 1,
+        "valid_rate": 0.0,
+        "exact_match_rate": 1.0,
+        "decode_rate": 0.5
+      },
+      {
+        "slot_id": "pos2",
+        "slot_label": "failure status",
+        "slot_role": "suffix",
+        "pooled": false,
+        "n": 1,
+        "valid_rate": 0.0,
+        "exact_match_rate": 1.0,
+        "decode_rate": 0.5
+      }
+    ]
+  }
+}

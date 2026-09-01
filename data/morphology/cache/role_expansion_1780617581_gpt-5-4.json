@@ -1,0 +1,32 @@
+{
+  "per_slot": {
+    "pos0": [
+      [
+        "M",
+        "medium"
+      ]
+    ]
+  },
+  "stackable": [
+    [
+      "F",
+      "front, toward me"
+    ],
+    [
+      "R",
+      "right"
+    ],
+    [
+      "Rf",
+      "right face"
+    ],
+    [
+      "T",
+      "top"
+    ],
+    [
+      "Bo",
+      "bottom"
+    ]
+  ]
+}

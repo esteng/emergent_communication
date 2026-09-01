@@ -1,0 +1,281 @@
+{
+  "grammar": {
+    "run_key": "veyru/1778880906",
+    "slots": [],
+    "segmentation": {
+      "B": [
+        "B"
+      ],
+      "S": [
+        "S"
+      ],
+      "F": [
+        "F"
+      ],
+      "C": [
+        "C"
+      ],
+      "P": [
+        "P"
+      ],
+      "L": [
+        "L"
+      ],
+      "T": [
+        "T"
+      ],
+      "Bo": [
+        "Bo"
+      ],
+      "Fr": [
+        "Fr"
+      ],
+      "Bk": [
+        "Bk"
+      ],
+      "Le": [
+        "Le"
+      ],
+      "Ri": [
+        "Ri"
+      ],
+      "lo": [
+        "lo"
+      ],
+      "mod": [
+        "mod"
+      ],
+      "hi": [
+        "hi"
+      ],
+      "soft": [
+        "soft"
+      ],
+      "loud": [
+        "loud"
+      ],
+      "→": [
+        "→"
+      ],
+      "REST": [
+        "REST"
+      ],
+      "TONE": [
+        "TONE"
+      ],
+      "B-alt": [
+        "B-alt"
+      ],
+      "ROTATE": [
+        "ROTATE"
+      ],
+      "HUM": [
+        "HUM"
+      ],
+      "simul": [
+        "simul"
+      ],
+      "SEQ": [
+        "SEQ"
+      ],
+      "SIM": [
+        "SIM"
+      ],
+      "ALT": [
+        "ALT"
+      ],
+      "anc": [
+        "anc"
+      ],
+      "start": [
+        "start"
+      ],
+      "6f": [
+        "6f"
+      ],
+      "4cnr": [
+        "4cnr"
+      ],
+      "↔": [
+        "↔"
+      ],
+      "NEAR": [
+        "NEAR"
+      ],
+      "TRACE": [
+        "TRACE"
+      ],
+      "DRAPE": [
+        "DRAPE"
+      ],
+      "HOLD": [
+        "HOLD"
+      ],
+      "SANDWICH": [
+        "SANDWICH"
+      ],
+      "4edg": [
+        "4edg"
+      ],
+      "ea": [
+        "ea"
+      ],
+      "tot": [
+        "tot"
+      ]
+    },
+    "head_index": {
+      "B": 0,
+      "S": 0,
+      "F": 0,
+      "C": 0,
+      "P": 0,
+      "L": 0,
+      "T": 0,
+      "Bo": 0,
+      "Fr": 0,
+      "Bk": 0,
+      "Le": 0,
+      "Ri": 0,
+      "lo": 0,
+      "mod": 0,
+      "hi": 0,
+      "soft": 0,
+      "loud": 0,
+      "→": 0,
+      "REST": 0,
+      "TONE": 0,
+      "B-alt": 0,
+      "ROTATE": 0,
+      "HUM": 0,
+      "simul": 0,
+      "SEQ": 0,
+      "SIM": 0,
+      "ALT": 0,
+      "anc": 0,
+      "start": 0,
+      "6f": 0,
+      "4cnr": 0,
+      "↔": 0,
+      "NEAR": 0,
+      "TRACE": 0,
+      "DRAPE": 0,
+      "HOLD": 0,
+      "SANDWICH": 0,
+      "4edg": 0,
+      "ea": 0,
+      "tot": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "B": "bell S=stone F=fan C=cloth P=board L=lamp",
+      "S": "heated stone",
+      "F": "hand fan",
+      "C": "cloth",
+      "P": "flat board",
+      "L": "lamp",
+      "T": "top face",
+      "Bo": "bottom face",
+      "Fr": "front face",
+      "Bk": "back face",
+      "Le": "left face",
+      "Ri": "right face",
+      "lo": "low intensity",
+      "mod": "moderate intensity",
+      "hi": "loud for tones",
+      "soft": "soft intensity",
+      "loud": "loud intensity",
+      "→": "next tool or next step",
+      "REST": "rest on a soft surface",
+      "TONE": "tone action across the specified targets",
+      "B-alt": "bell alternate-opposite action, alternating the bell between opposite targets",
+      "ROTATE": "rotate the Veyru",
+      "HUM": "sustained voice tone",
+      "simul": "simultaneous",
+      "SEQ": "sequential, one-by-one",
+      "SIM": "simultaneous or sustained whole-Veyru application",
+      "ALT": "alternate between targets",
+      "anc": "orient or begin at the named face; it does not mean sequence order unless sequential mode is stated",
+      "start": "orient or begin at the named face; it does not mean sequence order unless sequential mode is stated",
+      "6f": "all 6 faces",
+      "4cnr": "4 corners",
+      "↔": "alternate between two targets",
+      "NEAR": "radiant, no contact",
+      "TRACE": "sliding contact",
+      "DRAPE": "laid over",
+      "HOLD": "static placement",
+      "SANDWICH": "pressing opposite faces simultaneously with board or hands",
+      "4edg": "4 edges",
+      "ea": "for each target",
+      "tot": "total time split across all targets"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1778880906",
+    "n_codes": 40,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible multi-entry compositional paradigm is attested. The codebook provides many standalone symbols naming tools, faces, intensities, modes, and actions, but no clear set of multi-morpheme codes with substitution contrasts in a shared frame. Apparent internal structure based on shared letters or digits (e.g. B-alt, 4cnr, 4edg, 6f) is not sufficient without compositional minimal pairs showing stable slot-based alternation. Therefore the safest analysis is a flat lexicon.",
+    "lexical_symbols": [
+      "B",
+      "S",
+      "F",
+      "C",
+      "P",
+      "L",
+      "T",
+      "Bo",
+      "Fr",
+      "Bk",
+      "Le",
+      "Ri",
+      "lo",
+      "mod",
+      "hi",
+      "soft",
+      "loud",
+      "→",
+      "REST",
+      "TONE",
+      "B-alt",
+      "ROTATE",
+      "HUM",
+      "simul",
+      "SEQ",
+      "SIM",
+      "ALT",
+      "anc",
+      "start",
+      "6f",
+      "4cnr",
+      "↔",
+      "NEAR",
+      "TRACE",
+      "DRAPE",
+      "HOLD",
+      "SANDWICH",
+      "4edg",
+      "ea",
+      "tot"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

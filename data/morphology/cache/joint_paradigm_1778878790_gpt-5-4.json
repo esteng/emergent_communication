@@ -1,0 +1,431 @@
+{
+  "grammar": {
+    "run_key": "veyru/1778878790",
+    "slots": [
+      {
+        "role": "prefix",
+        "fillers": [
+          {
+            "form": "Hi",
+            "gloss": "high",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "Lo",
+            "gloss": "low",
+            "support": 1,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "I",
+            "gloss": "intensity",
+            "support": 2,
+            "is_defined": false
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "bright/frozen/multi-tone": [
+        "bright/frozen/multi-tone"
+      ],
+      "blazing/buzzing/hot": [
+        "blazing/buzzing/hot"
+      ],
+      "frozen/silent/cold": [
+        "frozen/silent/cold"
+      ],
+      "hot+dim/reddish/rough": [
+        "hot+dim/reddish/rough"
+      ],
+      "F": [
+        "F"
+      ],
+      "Bk": [
+        "Bk"
+      ],
+      "T": [
+        "T"
+      ],
+      "Bt": [
+        "Bt"
+      ],
+      "L": [
+        "L"
+      ],
+      "R": [
+        "R"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "CB": [
+        "CB"
+      ],
+      "CC": [
+        "CC"
+      ],
+      "Fan": [
+        "Fan"
+      ],
+      "Lamp": [
+        "Lamp"
+      ],
+      "FB": [
+        "FB"
+      ],
+      "mod": [
+        "mod"
+      ],
+      "15s": [
+        "15s"
+      ],
+      "seq": [
+        "seq"
+      ],
+      "LkI": [
+        "LkI"
+      ],
+      "ThB": [
+        "ThB"
+      ],
+      "EcS": [
+        "EcS"
+      ],
+      "LoI": [
+        "Lo",
+        "I"
+      ],
+      "HiI": [
+        "Hi",
+        "I"
+      ],
+      "AlC": [
+        "AlC"
+      ],
+      "DrE": [
+        "DrE"
+      ],
+      "PhI": [
+        "PhI"
+      ],
+      "ReC": [
+        "ReC"
+      ],
+      "CrD": [
+        "CrD"
+      ],
+      "BdS": [
+        "BdS"
+      ],
+      "PrS": [
+        "PrS"
+      ],
+      "HmS": [
+        "HmS"
+      ],
+      "CrV": [
+        "CrV"
+      ],
+      "fail": [
+        "fail"
+      ]
+    },
+    "head_index": {
+      "bright/frozen/multi-tone": 0,
+      "blazing/buzzing/hot": 0,
+      "frozen/silent/cold": 0,
+      "hot+dim/reddish/rough": 0,
+      "F": 0,
+      "Bk": 0,
+      "T": 0,
+      "Bt": 0,
+      "L": 0,
+      "R": 0,
+      "HS": 0,
+      "CB": 0,
+      "CC": 0,
+      "Fan": 0,
+      "Lamp": 0,
+      "FB": 0,
+      "mod": 0,
+      "15s": 0,
+      "seq": 0,
+      "LkI": 0,
+      "ThB": 0,
+      "EcS": 0,
+      "LoI": 1,
+      "HiI": 1,
+      "AlC": 0,
+      "DrE": 0,
+      "PhI": 0,
+      "ReC": 0,
+      "CrD": 0,
+      "BdS": 0,
+      "PrS": 0,
+      "HmS": 0,
+      "CrV": 0,
+      "fail": 0
+    },
+    "attested_orderings": [
+      [
+        "prefix",
+        "stem"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [],
+    "form_positions": {
+      "Hi": 0,
+      "Lo": 0,
+      "I": 1
+    },
+    "position_labels": {
+      "0": "DEGREE",
+      "1": "INTENSITY_BASE"
+    },
+    "positions_by_symbol": {
+      "HiI": [
+        0,
+        1
+      ],
+      "LoI": [
+        0,
+        1
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "Hi": "high",
+        "Lo": "low"
+      },
+      "1": {
+        "I": "intensity"
+      }
+    },
+    "meaning_by_symbol": {
+      "bright/frozen/multi-tone": "Echo Saturation",
+      "blazing/buzzing/hot": "High Intensity",
+      "frozen/silent/cold": "Propagation Stall",
+      "hot+dim/reddish/rough": "Thermal Bleed",
+      "F": "front",
+      "Bk": "back",
+      "T": "top",
+      "Bt": "bottom",
+      "L": "left",
+      "R": "right",
+      "HS": "heated stone",
+      "CB": "chime bell",
+      "CC": "cool cloth",
+      "Fan": "hand fan",
+      "Lamp": "lamp",
+      "FB": "flat board",
+      "mod": "moderate, \"15s\" = 15 seconds",
+      "15s": "15 seconds",
+      "seq": "in sequence",
+      "LkI": "Leak Instability",
+      "ThB": "Thermal Bleed",
+      "EcS": "Echo Saturation",
+      "LoI": "Low Intensity",
+      "HiI": "High Intensity",
+      "AlC": "Alignment Collapse",
+      "DrE": "Drift Escalation",
+      "PhI": "Phase Inversion",
+      "ReC": "Resonance Cascade",
+      "CrD": "Corner Deadlock",
+      "BdS": "Boundary Softening",
+      "PrS": "Propagation Stall",
+      "HmS": "Harmonic Split",
+      "CrV": "Core Void",
+      "fail": "the procedure failed"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1778878790",
+    "n_codes": 34,
+    "n_multimorpheme": 2,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "prefix",
+        "label": "DEGREE",
+        "fillers": [
+          {
+            "form": "Hi",
+            "gloss": "high",
+            "count": 1
+          },
+          {
+            "form": "Lo",
+            "gloss": "low",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "stem",
+        "label": "INTENSITY_BASE",
+        "fillers": [
+          {
+            "form": "I",
+            "gloss": "intensity",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "HiI": [
+        "pos0",
+        "pos1"
+      ],
+      "LoI": [
+        "pos0",
+        "pos1"
+      ]
+    },
+    "construction_by_symbol": {
+      "HiI": "K1",
+      "LoI": "K1"
+    },
+    "construction_labels": {
+      "K1": "Degree + intensity"
+    },
+    "construction_templates": {
+      "K1": [
+        "pos0",
+        "pos1"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "Most symbols are best treated as opaque lexical items: the listed abbreviations and slash-delimited phrases do not form recurring, meaning-consistent paradigms across multiple entries. The suggested Cr- family is rejected because CrD 'Corner Deadlock' and CrV 'Core Void' do not support a stable shared contribution for either Cr or the residues. One defensible minimal paradigm does exist: HiI 'High Intensity' and LoI 'Low Intensity' form an exact compositional contrast in the same frame, supporting Hi/Lo as substitutable degree markers before a stable base I 'intensity'. All other symbols remain lexical because no further substitution class with predictable whole meanings is evidenced.",
+    "lexical_symbols": [
+      "bright/frozen/multi-tone",
+      "blazing/buzzing/hot",
+      "frozen/silent/cold",
+      "hot+dim/reddish/rough",
+      "F",
+      "Bk",
+      "T",
+      "Bt",
+      "L",
+      "R",
+      "HS",
+      "CB",
+      "CC",
+      "Fan",
+      "Lamp",
+      "FB",
+      "mod",
+      "15s",
+      "seq",
+      "LkI",
+      "ThB",
+      "EcS",
+      "AlC",
+      "DrE",
+      "PhI",
+      "ReC",
+      "CrD",
+      "BdS",
+      "PrS",
+      "HmS",
+      "CrV",
+      "fail"
+    ],
+    "classes": [
+      {
+        "class_id": "C1",
+        "label": "DEGREE",
+        "description": "Scalar degree modifier for intensity.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "C2",
+        "label": "INTENSITY_BASE",
+        "description": "Base meaning 'intensity' in the degree+intensity construction.",
+        "repeatable": false,
+        "declared_fillers": []
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "K1",
+        "label": "Degree + intensity",
+        "description": "A scalar degree morpheme followed by the base 'intensity'.",
+        "class_sequence": [
+          "C1",
+          "C2"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "HiI",
+        "construction_id": "K1",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "Hi",
+            "class_id": "C1",
+            "gloss": "high"
+          },
+          {
+            "form": "I",
+            "class_id": "C2",
+            "gloss": "intensity"
+          }
+        ]
+      },
+      {
+        "symbol": "LoI",
+        "construction_id": "K1",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "Lo",
+            "class_id": "C1",
+            "gloss": "low"
+          },
+          {
+            "form": "I",
+            "class_id": "C2",
+            "gloss": "intensity"
+          }
+        ]
+      }
+    ]
+  }
+}

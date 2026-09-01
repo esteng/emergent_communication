@@ -1,0 +1,143 @@
+{
+  "run_key": "veyru/1778877868",
+  "status": "analyzed",
+  "n_codes": 70,
+  "n_multimorpheme": 11,
+  "report": {
+    "encoder_agent": "stabilization_engineer",
+    "decoder_agent": "field_observer",
+    "encoder_model": "claude-opus-4-7",
+    "decoder_model": "claude-opus-4-7",
+    "context_budget": 150,
+    "n_cells": 13,
+    "exact_match_rate": 0.9230769230769231,
+    "swapped_order_rate": 0.0,
+    "bag_match_rate": 0.9230769230769231,
+    "decode_rate": 0.9615384615384616,
+    "decoder_valid_rate": 0.9230769230769231,
+    "decode_negative_control_rate": 0.7692307692307693,
+    "decode_positive_control_rate": 1.0,
+    "per_role": [
+      {
+        "slot_id": "CX_AIR_SCOPE",
+        "slot_label": "fan by scope",
+        "n": 4,
+        "exact_match_rate": 0.75,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.75,
+        "decode_rate": 0.875
+      },
+      {
+        "slot_id": "CX_LOC_PROC",
+        "slot_label": "localized procedure",
+        "n": 9,
+        "exact_match_rate": 1.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 1.0,
+        "decode_rate": 1.0
+      }
+    ],
+    "per_depth": [
+      {
+        "length": 2,
+        "n": 13,
+        "exact_match_rate": 0.9230769230769231,
+        "decode_rate": 0.9615384615384616
+      }
+    ],
+    "per_purpose": [
+      {
+        "purpose": "grounded_control",
+        "n": 11,
+        "exact_match_rate": 1.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 1.0,
+        "decode_rate": 0.9545454545454546
+      },
+      {
+        "purpose": "grounded_novel",
+        "n": 1,
+        "exact_match_rate": 1.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 1.0,
+        "decode_rate": 1.0
+      },
+      {
+        "purpose": "grounded_novel_role_pooled",
+        "n": 1,
+        "exact_match_rate": 0.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.0,
+        "decode_rate": 1.0
+      }
+    ],
+    "per_construction": [
+      {
+        "construction_id": "CX_AIR_SCOPE",
+        "n": 4,
+        "n_control": 3,
+        "n_novel": 1,
+        "exact_match_rate": 0.75,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.75,
+        "decode_rate": 0.875,
+        "novel_exact_match_rate": 0.0,
+        "novel_decode_rate": 1.0
+      },
+      {
+        "construction_id": "CX_LOC_PROC",
+        "n": 9,
+        "n_control": 8,
+        "n_novel": 1,
+        "exact_match_rate": 1.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 1.0,
+        "decode_rate": 1.0,
+        "novel_exact_match_rate": 1.0,
+        "novel_decode_rate": 1.0
+      }
+    ],
+    "per_slot_generalization": [
+      {
+        "slot_id": "pos0",
+        "slot_label": "localized procedure action",
+        "slot_role": "stem",
+        "pooled": false,
+        "n": 1,
+        "valid_rate": 0.0,
+        "exact_match_rate": 1.0,
+        "decode_rate": 1.0
+      },
+      {
+        "slot_id": "pos1",
+        "slot_label": "target locus on a face",
+        "slot_role": "suffix",
+        "pooled": false,
+        "n": 1,
+        "valid_rate": 0.0,
+        "exact_match_rate": 1.0,
+        "decode_rate": 1.0
+      },
+      {
+        "slot_id": "pos2",
+        "slot_label": "air application action",
+        "slot_role": "stem",
+        "pooled": false,
+        "n": 1,
+        "valid_rate": 1.0,
+        "exact_match_rate": 0.0,
+        "decode_rate": 1.0
+      },
+      {
+        "slot_id": "pos3",
+        "slot_label": "air application scope",
+        "slot_role": "suffix",
+        "pooled": true,
+        "n": 1,
+        "valid_rate": 1.0,
+        "exact_match_rate": 0.0,
+        "decode_rate": 1.0
+      }
+    ]
+  }
+}

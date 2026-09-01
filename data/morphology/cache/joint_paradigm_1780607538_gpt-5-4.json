@@ -1,0 +1,329 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780607538",
+    "slots": [],
+    "segmentation": {
+      "wobble/bulge/muffled": [
+        "wobble/bulge/muffled"
+      ],
+      "slide/smear/waver": [
+        "slide/smear/waver"
+      ],
+      "cloth+bell": [
+        "cloth+bell"
+      ],
+      "bell+stone": [
+        "bell+stone"
+      ],
+      "hot/dim/reddish/gritty": [
+        "hot/dim/reddish/gritty"
+      ],
+      "hot-dim": [
+        "hot-dim"
+      ],
+      "CLOTH-BELL-EDGES": [
+        "CLOTH-BELL-EDGES"
+      ],
+      "low-energy": [
+        "low-energy"
+      ],
+      "ROTATE-TONE": [
+        "ROTATE-TONE"
+      ],
+      "hot-corners": [
+        "hot-corners"
+      ],
+      "CORNER-WARM": [
+        "CORNER-WARM"
+      ],
+      "flicker": [
+        "flicker"
+      ],
+      "BOARD-ROTATE": [
+        "BOARD-ROTATE"
+      ],
+      "slide-smear": [
+        "slide-smear"
+      ],
+      "BELL-STONE": [
+        "BELL-STONE"
+      ],
+      "wobble-bulge": [
+        "wobble-bulge"
+      ],
+      "STONE-ROTATE": [
+        "STONE-ROTATE"
+      ],
+      "too-bright": [
+        "too-bright"
+      ],
+      "SOFT-REST": [
+        "SOFT-REST"
+      ],
+      "dim-edges": [
+        "dim-edges"
+      ],
+      "COOL-FAN-6": [
+        "COOL-FAN-6"
+      ],
+      "pulse-2tone": [
+        "pulse-2tone"
+      ],
+      "BELL-2FACE": [
+        "BELL-2FACE"
+      ],
+      "one-bright": [
+        "one-bright"
+      ],
+      "CLOTH-BELL": [
+        "CLOTH-BELL"
+      ],
+      "frozen": [
+        "frozen"
+      ],
+      "COOL-FAN-2": [
+        "COOL-FAN-2"
+      ],
+      "clash-tones": [
+        "clash-tones"
+      ],
+      "LAMP-PAIR": [
+        "LAMP-PAIR"
+      ],
+      "blazing-buzz": [
+        "blazing-buzz"
+      ],
+      "TONE-6": [
+        "TONE-6"
+      ],
+      "hollow": [
+        "hollow"
+      ],
+      "CORNER-BELL-STONE": [
+        "CORNER-BELL-STONE"
+      ],
+      "F": [
+        "F"
+      ],
+      "de": [
+        "de"
+      ],
+      "hd": [
+        "hd"
+      ],
+      "hl": [
+        "hl"
+      ],
+      "tb": [
+        "tb"
+      ],
+      "p2": [
+        "p2"
+      ],
+      "bb": [
+        "bb"
+      ],
+      "fl": [
+        "fl"
+      ],
+      "ss": [
+        "ss"
+      ],
+      "wb": [
+        "wb"
+      ],
+      "ob": [
+        "ob"
+      ],
+      "fr": [
+        "fr"
+      ],
+      "cl": [
+        "cl"
+      ],
+      "le": [
+        "le"
+      ],
+      "hc": [
+        "hc"
+      ]
+    },
+    "head_index": {
+      "wobble/bulge/muffled": 0,
+      "slide/smear/waver": 0,
+      "cloth+bell": 0,
+      "bell+stone": 0,
+      "hot/dim/reddish/gritty": 0,
+      "hot-dim": 0,
+      "CLOTH-BELL-EDGES": 0,
+      "low-energy": 0,
+      "ROTATE-TONE": 0,
+      "hot-corners": 0,
+      "CORNER-WARM": 0,
+      "flicker": 0,
+      "BOARD-ROTATE": 0,
+      "slide-smear": 0,
+      "BELL-STONE": 0,
+      "wobble-bulge": 0,
+      "STONE-ROTATE": 0,
+      "too-bright": 0,
+      "SOFT-REST": 0,
+      "dim-edges": 0,
+      "COOL-FAN-6": 0,
+      "pulse-2tone": 0,
+      "BELL-2FACE": 0,
+      "one-bright": 0,
+      "CLOTH-BELL": 0,
+      "frozen": 0,
+      "COOL-FAN-2": 0,
+      "clash-tones": 0,
+      "LAMP-PAIR": 0,
+      "blazing-buzz": 0,
+      "TONE-6": 0,
+      "hollow": 0,
+      "CORNER-BELL-STONE": 0,
+      "F": 0,
+      "de": 0,
+      "hd": 0,
+      "hl": 0,
+      "tb": 0,
+      "p2": 0,
+      "bb": 0,
+      "fl": 0,
+      "ss": 0,
+      "wb": 0,
+      "ob": 0,
+      "fr": 0,
+      "cl": 0,
+      "le": 0,
+      "hc": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "wobble/bulge/muffled": "place on a soft surface with the top face up, moderate intensity, for 20 seconds",
+      "slide/smear/waver": "warm each top-face corner with a heated stone for 20 seconds per corner at moderate intensity, then trace the top edges",
+      "cloth+bell": "drape cloth over 2 adjacent top edges for 20 seconds at moderate intensity, then ring the bell 3 times on the top face",
+      "bell+stone": "ring the bell at the center of each face at moderate intensity starting from the top, then place a warm stone beside it for 20 seconds",
+      "hot/dim/reddish/gritty": "folded cloth on the top face for 20 seconds at moderate intensity, then ring the bell at each top edge twice",
+      "hot-dim": "folded cloth on the top face for 20 seconds at moderate intensity, then ring the bell at each top edge twice",
+      "CLOTH-BELL-EDGES": "folded cloth on the top face for 20 seconds at moderate intensity, then ring the bell at each top edge twice",
+      "low-energy": "rotate for 20 seconds with a steady tone at moderate intensity near opposite faces starting from the top, then ring the bell at each corner",
+      "ROTATE-TONE": "rotate for 20 seconds with a steady tone at moderate intensity near opposite faces starting from the top, then ring the bell at each corner",
+      "hot-corners": "warm each top corner with a heated stone for 20 seconds at moderate intensity, then trace the top edges",
+      "CORNER-WARM": "warm each top corner with a heated stone for 20 seconds at moderate intensity, then trace the top edges",
+      "flicker": "place a flat board on the top face at moderate intensity for 20 seconds, then rotate and repeat for all pairs",
+      "BOARD-ROTATE": "place a flat board on the top face at moderate intensity for 20 seconds, then rotate and repeat for all pairs",
+      "slide-smear": "ring the bell at the center of each face at moderate intensity starting from the top, then place a warm stone beside it for 20 seconds",
+      "BELL-STONE": "ring the bell at the center of each face at moderate intensity starting from the top, then place a warm stone beside it for 20 seconds",
+      "wobble-bulge": "place a warm stone on the top face at moderate intensity for 20 seconds, then rotate through all faces",
+      "STONE-ROTATE": "place a warm stone on the top face at moderate intensity for 20 seconds, then rotate through all faces",
+      "too-bright": "place on a soft surface with the top face up at moderate intensity for 20 seconds",
+      "SOFT-REST": "place on a soft surface with the top face up at moderate intensity for 20 seconds",
+      "dim-edges": "apply a cool cloth for 20 seconds, then fan at moderate intensity across all 6 faces for 20 seconds starting from the top",
+      "COOL-FAN-6": "apply a cool cloth for 20 seconds, then fan at moderate intensity across all 6 faces for 20 seconds starting from the top",
+      "pulse-2tone": "ring the bell on two opposite faces, top first, pause 20 seconds, for 5 cycles at moderate intensity",
+      "BELL-2FACE": "ring the bell on two opposite faces, top first, pause 20 seconds, for 5 cycles at moderate intensity",
+      "one-bright": "drape cloth over 2 adjacent top edges for 20 seconds at moderate intensity, then ring the bell 3 times on the top face",
+      "CLOTH-BELL": "drape cloth over 2 adjacent top edges for 20 seconds at moderate intensity, then ring the bell 3 times on the top face",
+      "frozen": "apply a cool cloth for 20 seconds, then fan at moderate intensity across the top and opposite face for 20 seconds",
+      "COOL-FAN-2": "apply a cool cloth for 20 seconds, then fan at moderate intensity across the top and opposite face for 20 seconds",
+      "clash-tones": "use a dim lamp on the top and a bright lamp on the opposite face at moderate intensity for 20 seconds, and do not move it",
+      "LAMP-PAIR": "use a dim lamp on the top and a bright lamp on the opposite face at moderate intensity for 20 seconds, and do not move it",
+      "blazing-buzz": "apply a sustained moderate tone to all 6 faces for 20 seconds starting from the top, then let it fade naturally",
+      "TONE-6": "apply a sustained moderate tone to all 6 faces for 20 seconds starting from the top, then let it fade naturally",
+      "hollow": "ring the bell at each top corner at moderate intensity, then warm 2 edges at that corner for 20 seconds",
+      "CORNER-BELL-STONE": "ring the bell at each top corner at moderate intensity, then warm 2 edges at that corner for 20 seconds",
+      "F": "the previous instruction failed",
+      "de": "dim-edges",
+      "hd": "hot-dim",
+      "hl": "hollow",
+      "tb": "too-bright",
+      "p2": "pulse-2tone",
+      "bb": "blazing-buzz",
+      "fl": "flicker",
+      "ss": "slide-smear",
+      "wb": "wobble-bulge",
+      "ob": "one-bright",
+      "fr": "frozen",
+      "cl": "clash-tones",
+      "le": "low-energy",
+      "hc": "hot-corners"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780607538",
+    "n_codes": 48,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No proposed segmentation meets the paradigm-evidence threshold. Many apparent similarities are just shared substrings across unrelated whole-code meanings (e.g. hot-/ho-, slide-, wobble-, tone/TONE, CO-, -bright, -ROTATE). The abbreviation set (de, hd, hl, tb, p2, bb, fl, ss, wb, ob, fr, cl, le, hc) is best treated as opaque aliases for whole stored instructions, not productive morphology. The digit cases also fail securely as morphology here: although COOL-FAN-2 and COOL-FAN-6 differ semantically, the dataset does not support a broader compositional network with stable substituting morphemes beyond these isolated labels, and the codebook is rich in synonymous whole-code renamings, so false segmentation is a higher risk than flat storage. Because no defensible multi-entry paradigm with stable substitution classes and predictable whole meanings survives all tests, the safest complete partition is a flat lexicon.",
+    "lexical_symbols": [
+      "wobble/bulge/muffled",
+      "slide/smear/waver",
+      "cloth+bell",
+      "bell+stone",
+      "hot/dim/reddish/gritty",
+      "hot-dim",
+      "CLOTH-BELL-EDGES",
+      "low-energy",
+      "ROTATE-TONE",
+      "hot-corners",
+      "CORNER-WARM",
+      "flicker",
+      "BOARD-ROTATE",
+      "slide-smear",
+      "BELL-STONE",
+      "wobble-bulge",
+      "STONE-ROTATE",
+      "too-bright",
+      "SOFT-REST",
+      "dim-edges",
+      "COOL-FAN-6",
+      "pulse-2tone",
+      "BELL-2FACE",
+      "one-bright",
+      "CLOTH-BELL",
+      "frozen",
+      "COOL-FAN-2",
+      "clash-tones",
+      "LAMP-PAIR",
+      "blazing-buzz",
+      "TONE-6",
+      "hollow",
+      "CORNER-BELL-STONE",
+      "F",
+      "de",
+      "hd",
+      "hl",
+      "tb",
+      "p2",
+      "bb",
+      "fl",
+      "ss",
+      "wb",
+      "ob",
+      "fr",
+      "cl",
+      "le",
+      "hc"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

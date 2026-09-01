@@ -1,0 +1,725 @@
+{
+  "grammar": {
+    "run_key": "veyru/1778881541",
+    "slots": [
+      {
+        "role": "prefix",
+        "fillers": [
+          {
+            "form": "1face-",
+            "gloss": "one face",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "corner-",
+            "gloss": "corner",
+            "support": 1,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "bright",
+            "gloss": "bright",
+            "support": 2,
+            "is_defined": true
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "ok": [
+        "ok"
+      ],
+      "?": [
+        "?"
+      ],
+      "fail": [
+        "fail"
+      ],
+      "C": [
+        "C"
+      ],
+      "B": [
+        "B"
+      ],
+      "S": [
+        "S"
+      ],
+      "F": [
+        "F"
+      ],
+      "Bd": [
+        "Bd"
+      ],
+      "L": [
+        "L"
+      ],
+      "T": [
+        "T"
+      ],
+      "Bot": [
+        "Bot"
+      ],
+      "R": [
+        "R"
+      ],
+      "Bk": [
+        "Bk"
+      ],
+      "lo": [
+        "lo"
+      ],
+      "mod": [
+        "mod"
+      ],
+      "hi": [
+        "hi"
+      ],
+      "wob": [
+        "wob"
+      ],
+      "bulge": [
+        "bulge"
+      ],
+      "muf": [
+        "muf"
+      ],
+      "bright": [
+        "bright"
+      ],
+      "stack": [
+        "stack"
+      ],
+      "frozen": [
+        "frozen"
+      ],
+      "flick": [
+        "flick"
+      ],
+      "irreg": [
+        "irreg"
+      ],
+      "chaos": [
+        "chaos"
+      ],
+      "dim-corners": [
+        "dim-corners"
+      ],
+      "faint-edges": [
+        "faint-edges"
+      ],
+      "hollow": [
+        "hollow"
+      ],
+      "dim-all": [
+        "dim-all"
+      ],
+      "whisper": [
+        "whisper"
+      ],
+      "washed": [
+        "washed"
+      ],
+      "blaze": [
+        "blaze"
+      ],
+      "buzz": [
+        "buzz"
+      ],
+      "hot": [
+        "hot"
+      ],
+      "pulse-opp": [
+        "pulse-opp"
+      ],
+      "2tone": [
+        "2tone"
+      ],
+      "flash": [
+        "flash"
+      ],
+      "1face-bright": [
+        "1face-",
+        "bright"
+      ],
+      "whine": [
+        "whine"
+      ],
+      "corner-bright": [
+        "corner-",
+        "bright"
+      ],
+      "tick": [
+        "tick"
+      ],
+      "frozen-dim": [
+        "frozen-dim"
+      ],
+      "silent": [
+        "silent"
+      ],
+      "cold": [
+        "cold"
+      ],
+      "2tone-clash": [
+        "2tone-clash"
+      ],
+      "alt-pattern": [
+        "alt-pattern"
+      ],
+      "shimmer": [
+        "shimmer"
+      ],
+      "hot-dim": [
+        "hot-dim"
+      ],
+      "rumble": [
+        "rumble"
+      ],
+      "red": [
+        "red"
+      ],
+      "hollow-tap": [
+        "hollow-tap"
+      ],
+      "dark-center": [
+        "dark-center"
+      ],
+      "slide": [
+        "slide"
+      ],
+      "blur": [
+        "blur"
+      ],
+      "waver": [
+        "waver"
+      ],
+      "broken": [
+        "broken"
+      ],
+      "layer": [
+        "layer"
+      ],
+      "vibrate": [
+        "vibrate"
+      ],
+      "flicker": [
+        "flicker"
+      ],
+      "chime": [
+        "chime"
+      ],
+      "ring": [
+        "ring"
+      ],
+      "hum": [
+        "hum"
+      ],
+      "drape": [
+        "drape"
+      ],
+      "press": [
+        "press"
+      ],
+      "warm": [
+        "warm"
+      ],
+      "fan": [
+        "fan"
+      ],
+      "shine": [
+        "shine"
+      ],
+      "g": [
+        "g"
+      ],
+      "ea": [
+        "ea"
+      ],
+      "HUM": [
+        "HUM"
+      ],
+      "ROT-HUM": [
+        "ROT-HUM"
+      ],
+      "CLOTH-EDGE": [
+        "CLOTH-EDGE"
+      ],
+      "CORNER-WARM": [
+        "CORNER-WARM"
+      ],
+      "CORNER-CHIME-WARM": [
+        "CORNER-CHIME-WARM"
+      ],
+      "BOARD-PAIR": [
+        "BOARD-PAIR"
+      ],
+      "CENTER-CHIME-STONE": [
+        "CENTER-CHIME-STONE"
+      ],
+      "STONE-ROT": [
+        "STONE-ROT"
+      ],
+      "REST": [
+        "REST"
+      ],
+      "ALT-CHIME": [
+        "ALT-CHIME"
+      ],
+      "FAN-PAIR": [
+        "FAN-PAIR"
+      ],
+      "FAN-ALL": [
+        "FAN-ALL"
+      ],
+      "LAMP-OPP": [
+        "LAMP-OPP"
+      ],
+      "CLOTH-2EDGE": [
+        "CLOTH-2EDGE"
+      ]
+    },
+    "head_index": {
+      "ok": 0,
+      "?": 0,
+      "fail": 0,
+      "C": 0,
+      "B": 0,
+      "S": 0,
+      "F": 0,
+      "Bd": 0,
+      "L": 0,
+      "T": 0,
+      "Bot": 0,
+      "R": 0,
+      "Bk": 0,
+      "lo": 0,
+      "mod": 0,
+      "hi": 0,
+      "wob": 0,
+      "bulge": 0,
+      "muf": 0,
+      "bright": 0,
+      "stack": 0,
+      "frozen": 0,
+      "flick": 0,
+      "irreg": 0,
+      "chaos": 0,
+      "dim-corners": 0,
+      "faint-edges": 0,
+      "hollow": 0,
+      "dim-all": 0,
+      "whisper": 0,
+      "washed": 0,
+      "blaze": 0,
+      "buzz": 0,
+      "hot": 0,
+      "pulse-opp": 0,
+      "2tone": 0,
+      "flash": 0,
+      "1face-bright": 1,
+      "whine": 0,
+      "corner-bright": 1,
+      "tick": 0,
+      "frozen-dim": 0,
+      "silent": 0,
+      "cold": 0,
+      "2tone-clash": 0,
+      "alt-pattern": 0,
+      "shimmer": 0,
+      "hot-dim": 0,
+      "rumble": 0,
+      "red": 0,
+      "hollow-tap": 0,
+      "dark-center": 0,
+      "slide": 0,
+      "blur": 0,
+      "waver": 0,
+      "broken": 0,
+      "layer": 0,
+      "vibrate": 0,
+      "flicker": 0,
+      "chime": 0,
+      "ring": 0,
+      "hum": 0,
+      "drape": 0,
+      "press": 0,
+      "warm": 0,
+      "fan": 0,
+      "shine": 0,
+      "g": 0,
+      "ea": 0,
+      "HUM": 0,
+      "ROT-HUM": 0,
+      "CLOTH-EDGE": 0,
+      "CORNER-WARM": 0,
+      "CORNER-CHIME-WARM": 0,
+      "BOARD-PAIR": 0,
+      "CENTER-CHIME-STONE": 0,
+      "STONE-ROT": 0,
+      "REST": 0,
+      "ALT-CHIME": 0,
+      "FAN-PAIR": 0,
+      "FAN-ALL": 0,
+      "LAMP-OPP": 0,
+      "CLOTH-2EDGE": 0
+    },
+    "attested_orderings": [
+      [
+        "prefix",
+        "stem"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [],
+    "form_positions": {
+      "1face-": 0,
+      "corner-": 0,
+      "bright": 1
+    },
+    "position_labels": {
+      "0": "BRIGHT_REGION",
+      "1": "BRIGHT_PREDICATE"
+    },
+    "positions_by_symbol": {
+      "1face-bright": [
+        0,
+        1
+      ],
+      "corner-bright": [
+        0,
+        1
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "1face-": "one face",
+        "corner-": "corner"
+      },
+      "1": {
+        "bright": "bright"
+      }
+    },
+    "meaning_by_symbol": {
+      "ok": "success with no new symptoms",
+      "?": "your last instruction was ambiguous; re-send it verbatim with the explicit tool",
+      "fail": "the stabilize action failed; brief symptom delta may follow if any",
+      "C": "cloth",
+      "B": "bell",
+      "S": "stone",
+      "F": "front face",
+      "Bd": "board",
+      "L": "left face",
+      "T": "top face",
+      "Bot": "bottom face",
+      "R": "right face",
+      "Bk": "back face",
+      "lo": "low intensity; light touch or soft sound",
+      "mod": "moderate intensity; normal touch or normal sound",
+      "hi": "high intensity; firm touch or loud sound",
+      "wob": "edges wobble",
+      "bulge": "faces bulge",
+      "muf": "the hum is muffled",
+      "bright": "too bright",
+      "stack": "layered hum",
+      "frozen": "frozen face patterns",
+      "flick": "flickering faces",
+      "irreg": "irregular hum",
+      "chaos": "chaotic surface",
+      "dim-corners": "corners are dim",
+      "faint-edges": "edges are faint",
+      "hollow": "the sound is hollow",
+      "dim-all": "everything is dim",
+      "whisper": "the sound is a whisper",
+      "washed": "washed out",
+      "blaze": "extremely bright",
+      "buzz": "buzzing sound",
+      "hot": "hot to the touch",
+      "pulse-opp": "pulsing across opposite faces",
+      "2tone": "two-tone sound",
+      "flash": "flashing light",
+      "1face-bright": "one face is bright",
+      "whine": "whining sound",
+      "corner-bright": "a corner is bright",
+      "tick": "ticking sound",
+      "frozen-dim": "frozen and dim",
+      "silent": "silent",
+      "cold": "cold to the touch",
+      "2tone-clash": "clashing two-tone sound",
+      "alt-pattern": "alternating pattern",
+      "shimmer": "shimmering light",
+      "hot-dim": "hot and dim",
+      "rumble": "rumbling sound",
+      "red": "red coloration",
+      "hollow-tap": "a hollow tapping sound",
+      "dark-center": "the center is dark",
+      "slide": "sliding appearance or motion",
+      "blur": "blurred appearance",
+      "waver": "wavering appearance or motion",
+      "broken": "broken or interrupted sound",
+      "layer": "layered sound",
+      "vibrate": "vibrating",
+      "flicker": "flickering light or faces",
+      "chime": "use the bell for discrete strike or strikes",
+      "ring": "use the bell as a sustained shake",
+      "hum": "use the voice to make a sustained tone",
+      "drape": "use the cloth to drape or cover",
+      "press": "use the board to press or hold flat against",
+      "warm": "use the heated stone to warm by pressing or holding near",
+      "fan": "use the fan to fan or waft air",
+      "shine": "use the lamp to shine or illuminate",
+      "g": "gentle intensity",
+      "ea": "per target; for example per face or per pair",
+      "HUM": "Sound a sustained tone near all six faces simultaneously for the specified duration, starting from the specified face, at the specified intensity. Let the tone fade naturally and wait for the hum to stabilize.",
+      "ROT-HUM": "Rotate slowly over the specified duration while sounding a steady tone at the specified intensity near opposite faces, starting from the specified face. After rotation, chime the bell once near each corner.",
+      "CLOTH-EDGE": "Drape a folded cloth over the specified face for the specified duration at the specified intensity or coverage. Then chime a bell near each edge of the specified face twice.",
+      "CORNER-WARM": "Warm each corner of the specified face by holding a heated stone nearby for the specified duration at the specified intensity or warmth, in sequence. Then trace each edge of the specified face with a finger.",
+      "CORNER-CHIME-WARM": "At each corner of the specified face, chime a bell briefly at the specified intensity or tone, then warm the two edges meeting at that corner with a heated stone for the specified duration.",
+      "BOARD-PAIR": "Rest a flat board against the specified face at the specified intensity or contact for the specified duration. Rotate and repeat for each face-pair.",
+      "CENTER-CHIME-STONE": "Chime a bell near the center of each face once at the specified intensity or tone, starting from the specified face. Then place a warm stone beside the Veyru for the specified duration.",
+      "STONE-ROT": "Place a warm stone beside the specified face at the specified intensity or warmth for the specified duration. Rotate and repeat for each face.",
+      "REST": "Place the Veyru on a soft surface with the specified face up at the specified intensity or contact. Let it rest undisturbed for the specified duration.",
+      "ALT-CHIME": "Chime a bell near two opposite faces, starting from the specified face. Alternate the chime between the two faces with the specified duration as the pause between chimes, for five cycles at the specified intensity or tone.",
+      "FAN-PAIR": "Drape a cool cloth over the Veyru for the specified duration. Remove the cloth and fan cool air at the specified intensity across the specified face and the opposite face for the specified duration.",
+      "FAN-ALL": "Drape a cool cloth over the Veyru for the specified duration. Remove the cloth and fan cool air at the specified intensity across all six faces for the specified duration, starting from the specified face.",
+      "LAMP-OPP": "Illuminate the specified face with a dim lamp and the opposite face with a bright lamp simultaneously at the specified intensity or brightness for the specified duration, without moving the lamps.",
+      "CLOTH-2EDGE": "Drape a cloth over two adjacent edges near the specified face for the specified duration at the specified intensity or coverage. Then chime a bell three times near the specified face."
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1778881541",
+    "n_codes": 83,
+    "n_multimorpheme": 2,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "prefix",
+        "label": "BRIGHT_REGION",
+        "fillers": [
+          {
+            "form": "1face-",
+            "gloss": "one face",
+            "count": 1
+          },
+          {
+            "form": "corner-",
+            "gloss": "corner",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "stem",
+        "label": "BRIGHT_PREDICATE",
+        "fillers": [
+          {
+            "form": "bright",
+            "gloss": "bright",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "1face-bright": [
+        "pos0",
+        "pos1"
+      ],
+      "corner-bright": [
+        "pos0",
+        "pos1"
+      ]
+    },
+    "construction_by_symbol": {
+      "1face-bright": "K1",
+      "corner-bright": "K1"
+    },
+    "construction_labels": {
+      "K1": "Region-bright compound"
+    },
+    "construction_templates": {
+      "K1": [
+        "pos0",
+        "pos1"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "Most candidate families are rejected because the shared substring does not support a meaning-consistent substitution paradigm: the residues do not recur compositionally in a shared frame, or the apparent pieces are opaque (e.g. whisper/shimmer/waver/layer/flicker with -er; hollow/hot with ho-; stack/flick/tick with -ck; 2tone/whine/shine with -ne; fail/faint-edges/fan with fa-; washed/waver/warm with wa-; procedure names with CORNER-/CLOTH-/-PAIR). The only defensible compositional pattern is corner-bright ~ 1face-bright, where the first slot alternates in the same frame and contributes the affected bright region, while bright contributes 'bright'. Standalone bright is left lexical; its homography does not block the supported morpheme inside the compounds.",
+    "lexical_symbols": [
+      "ok",
+      "?",
+      "fail",
+      "C",
+      "B",
+      "S",
+      "F",
+      "Bd",
+      "L",
+      "T",
+      "Bot",
+      "R",
+      "Bk",
+      "lo",
+      "mod",
+      "hi",
+      "wob",
+      "bulge",
+      "muf",
+      "bright",
+      "stack",
+      "frozen",
+      "flick",
+      "irreg",
+      "chaos",
+      "dim-corners",
+      "faint-edges",
+      "hollow",
+      "dim-all",
+      "whisper",
+      "washed",
+      "blaze",
+      "buzz",
+      "hot",
+      "pulse-opp",
+      "2tone",
+      "flash",
+      "whine",
+      "tick",
+      "frozen-dim",
+      "silent",
+      "cold",
+      "2tone-clash",
+      "alt-pattern",
+      "shimmer",
+      "hot-dim",
+      "rumble",
+      "red",
+      "hollow-tap",
+      "dark-center",
+      "slide",
+      "blur",
+      "waver",
+      "broken",
+      "layer",
+      "vibrate",
+      "flicker",
+      "chime",
+      "ring",
+      "hum",
+      "drape",
+      "press",
+      "warm",
+      "fan",
+      "shine",
+      "g",
+      "ea",
+      "HUM",
+      "ROT-HUM",
+      "CLOTH-EDGE",
+      "CORNER-WARM",
+      "CORNER-CHIME-WARM",
+      "BOARD-PAIR",
+      "CENTER-CHIME-STONE",
+      "STONE-ROT",
+      "REST",
+      "ALT-CHIME",
+      "FAN-PAIR",
+      "FAN-ALL",
+      "LAMP-OPP",
+      "CLOTH-2EDGE"
+    ],
+    "classes": [
+      {
+        "class_id": "C1",
+        "label": "BRIGHT_REGION",
+        "description": "Region that is bright in the compound brightness description.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "C2",
+        "label": "BRIGHT_PREDICATE",
+        "description": "Brightness predicate meaning 'bright'.",
+        "repeatable": false,
+        "declared_fillers": []
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "K1",
+        "label": "Region-bright compound",
+        "description": "A region specification followed by the predicate bright.",
+        "class_sequence": [
+          "C1",
+          "C2"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "1face-bright",
+        "construction_id": "K1",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "1face-",
+            "class_id": "C1",
+            "gloss": "one face"
+          },
+          {
+            "form": "bright",
+            "class_id": "C2",
+            "gloss": "bright"
+          }
+        ]
+      },
+      {
+        "symbol": "corner-bright",
+        "construction_id": "K1",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "corner-",
+            "class_id": "C1",
+            "gloss": "corner"
+          },
+          {
+            "form": "bright",
+            "class_id": "C2",
+            "gloss": "bright"
+          }
+        ]
+      }
+    ]
+  }
+}

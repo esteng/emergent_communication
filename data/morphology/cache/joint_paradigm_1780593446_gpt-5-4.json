@@ -1,0 +1,359 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780593446",
+    "slots": [],
+    "segmentation": {
+      "F": [
+        "F"
+      ],
+      "W": [
+        "W"
+      ],
+      "B": [
+        "B"
+      ],
+      "WS20": [
+        "WS20"
+      ],
+      "BFb": [
+        "BFb"
+      ],
+      "BC": [
+        "BC"
+      ],
+      "R8b": [
+        "R8b"
+      ],
+      "Tgo": [
+        "Tgo"
+      ],
+      "T": [
+        "T"
+      ],
+      "WS": [
+        "WS"
+      ],
+      "WC": [
+        "WC"
+      ],
+      "CE": [
+        "CE"
+      ],
+      "CF": [
+        "CF"
+      ],
+      "B3": [
+        "B3"
+      ],
+      "FB": [
+        "FB"
+      ],
+      "FA": [
+        "FA"
+      ],
+      "R": [
+        "R"
+      ],
+      "SB": [
+        "SB"
+      ],
+      "BD": [
+        "BD"
+      ],
+      "C2E": [
+        "C2E"
+      ],
+      "FC": [
+        "FC"
+      ],
+      "CC": [
+        "CC"
+      ],
+      "L": [
+        "L"
+      ],
+      "b": [
+        "b"
+      ],
+      "f": [
+        "f"
+      ],
+      "g": [
+        "g"
+      ],
+      "m": [
+        "m"
+      ],
+      "8": [
+        "8"
+      ],
+      "20": [
+        "20"
+      ],
+      "opp": [
+        "opp"
+      ],
+      "x6": [
+        "x6"
+      ],
+      "fp": [
+        "fp"
+      ],
+      "r": [
+        "r"
+      ],
+      "l": [
+        "l"
+      ],
+      "t": [
+        "t"
+      ],
+      "k": [
+        "k"
+      ],
+      "T6": [
+        "T6"
+      ],
+      "C4R": [
+        "C4R"
+      ],
+      "E2": [
+        "E2"
+      ],
+      "ER": [
+        "ER"
+      ],
+      "W5m": [
+        "W5m"
+      ],
+      "Bb": [
+        "Bb"
+      ],
+      "Tr": [
+        "Tr"
+      ],
+      "A": [
+        "A"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "I": [
+        "I"
+      ],
+      "H": [
+        "H"
+      ],
+      "P": [
+        "P"
+      ],
+      "C": [
+        "C"
+      ],
+      "S": [
+        "S"
+      ],
+      "M": [
+        "M"
+      ],
+      "V": [
+        "V"
+      ]
+    },
+    "head_index": {
+      "F": 0,
+      "W": 0,
+      "B": 0,
+      "WS20": 0,
+      "BFb": 0,
+      "BC": 0,
+      "R8b": 0,
+      "Tgo": 0,
+      "T": 0,
+      "WS": 0,
+      "WC": 0,
+      "CE": 0,
+      "CF": 0,
+      "B3": 0,
+      "FB": 0,
+      "FA": 0,
+      "R": 0,
+      "SB": 0,
+      "BD": 0,
+      "C2E": 0,
+      "FC": 0,
+      "CC": 0,
+      "L": 0,
+      "b": 0,
+      "f": 0,
+      "g": 0,
+      "m": 0,
+      "8": 0,
+      "20": 0,
+      "opp": 0,
+      "x6": 0,
+      "fp": 0,
+      "r": 0,
+      "l": 0,
+      "t": 0,
+      "k": 0,
+      "T6": 0,
+      "C4R": 0,
+      "E2": 0,
+      "ER": 0,
+      "W5m": 0,
+      "Bb": 0,
+      "Tr": 0,
+      "A": 0,
+      "D": 0,
+      "E": 0,
+      "I": 0,
+      "H": 0,
+      "P": 0,
+      "C": 0,
+      "S": 0,
+      "M": 0,
+      "V": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "F": "frozen, dim, silent, cold, dead",
+      "W": "bright, white, buzzing, hot",
+      "B": "edges flexing, bulging, muffled",
+      "WS20": "warm stone beside for 20 seconds",
+      "BFb": "bell face centers from the bottom",
+      "BC": "bell corners once",
+      "R8b": "rotate for 8 seconds from the bottom",
+      "Tgo": "steady tone, gentle, at opposite faces",
+      "T": "hot, dim, rough, red",
+      "WS": "warm stone beside",
+      "WC": "warm corners",
+      "CE": "chime each edge twice",
+      "CF": "bell face centers",
+      "B3": "bell 3 times near a face",
+      "FB": "fan the bottom and opposite face",
+      "FA": "fan all faces",
+      "R": "rotate, then tone at opposite faces, then bell corners",
+      "SB": "soft surface, bottom-up rest",
+      "BD": "board against a face",
+      "C2E": "cloth over 2 adjacent edges",
+      "FC": "folded cloth over a face",
+      "CC": "cool cloth over the whole thing",
+      "L": "lamps dim and bright on opposite faces, simultaneous and fixed",
+      "b": "bottom start",
+      "f": "front start",
+      "g": "gentle",
+      "m": "moderate",
+      "8": "8 seconds",
+      "20": "20 seconds",
+      "opp": "opposite faces",
+      "x6": "all six faces",
+      "fp": "each face-pair",
+      "r": "right",
+      "l": "left",
+      "t": "top",
+      "k": "back or opposite",
+      "T6": "sustained tone on all 6 faces, then fade and wait",
+      "C4R": "all 4 corners of the right face in sequence",
+      "E2": "both meeting edges",
+      "ER": "each edge of the right face",
+      "W5m": "warm for 5 seconds, moderate",
+      "Bb": "bell brief",
+      "Tr": "trace",
+      "A": "random flicker, irregular hum",
+      "D": "drifting light, smeared edges, wavering hum",
+      "E": "too bright, layered hum, frozen patterns",
+      "I": "dim overall",
+      "H": "blazing white, buzz, hot",
+      "P": "opposite faces pulse, 2-tone",
+      "C": "bright hot corners, ticking",
+      "S": "frozen, dim, silent, cold",
+      "M": "competing tones, patterns",
+      "V": "hollow dark center"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780593446",
+    "n_codes": 53,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No segmentation meets the required joint evidence standard. Several strings suggest possible pieces (e.g. b='bottom start', g='gentle', 8='8 seconds', 20='20 seconds'), but there is no defensible multi-entry paradigm where the same slot shows clear substitution with stable, meaning-consistent contributions and predictable whole meanings. Apparent families are undermined by semantic instability and likely opacity: e.g. T / T6 / Tgo do not support a secure shared compositional root; W / WS / WC / WS20 / W5m do not show a stable reusable analysis; C-initial forms mix incompatible meanings; and many repeated letters are plausibly homographic or lexical rather than morphemic. Since false morphology is worse than a flat analysis, all symbols are treated as lexical.",
+    "lexical_symbols": [
+      "F",
+      "W",
+      "B",
+      "WS20",
+      "BFb",
+      "BC",
+      "R8b",
+      "Tgo",
+      "T",
+      "WS",
+      "WC",
+      "CE",
+      "CF",
+      "B3",
+      "FB",
+      "FA",
+      "R",
+      "SB",
+      "BD",
+      "C2E",
+      "FC",
+      "CC",
+      "L",
+      "b",
+      "f",
+      "g",
+      "m",
+      "8",
+      "20",
+      "opp",
+      "x6",
+      "fp",
+      "r",
+      "l",
+      "t",
+      "k",
+      "T6",
+      "C4R",
+      "E2",
+      "ER",
+      "W5m",
+      "Bb",
+      "Tr",
+      "A",
+      "D",
+      "E",
+      "I",
+      "H",
+      "P",
+      "C",
+      "S",
+      "M",
+      "V"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

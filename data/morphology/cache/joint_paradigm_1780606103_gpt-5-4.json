@@ -1,0 +1,467 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780606103",
+    "slots": [
+      {
+        "role": "prefix",
+        "fillers": [
+          {
+            "form": "TOOLS",
+            "gloss": "toolkit inventory",
+            "support": 2,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "+",
+            "gloss": "add",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "-",
+            "gloss": "remove",
+            "support": 1,
+            "is_defined": false
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "B": [
+        "B"
+      ],
+      "F": [
+        "F"
+      ],
+      "T": [
+        "T"
+      ],
+      "Bo": [
+        "Bo"
+      ],
+      "L": [
+        "L"
+      ],
+      "R": [
+        "R"
+      ],
+      "STR": [
+        "STR"
+      ],
+      "IRR": [
+        "IRR"
+      ],
+      "OPP": [
+        "OPP"
+      ],
+      "RND": [
+        "RND"
+      ],
+      "CLASH": [
+        "CLASH"
+      ],
+      "WHISP": [
+        "WHISP"
+      ],
+      "BUZZ": [
+        "BUZZ"
+      ],
+      "ALT": [
+        "ALT"
+      ],
+      "FADE": [
+        "FADE"
+      ],
+      "PULSE": [
+        "PULSE"
+      ],
+      "SHIM": [
+        "SHIM"
+      ],
+      "DARK": [
+        "DARK"
+      ],
+      "BRIGHT": [
+        "BRIGHT"
+      ],
+      "CANT": [
+        "CANT"
+      ],
+      "1LAMP": [
+        "1LAMP"
+      ],
+      "OK": [
+        "OK"
+      ],
+      "FAIL": [
+        "FAIL"
+      ],
+      "NEW": [
+        "NEW"
+      ],
+      "TOOLS+": [
+        "TOOLS",
+        "+"
+      ],
+      "TOOLS-": [
+        "TOOLS",
+        "-"
+      ],
+      "CD": [
+        "CD"
+      ],
+      "TH": [
+        "TH"
+      ],
+      "LI": [
+        "LI"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "ES": [
+        "ES"
+      ],
+      "EF": [
+        "EF"
+      ],
+      "AC": [
+        "AC"
+      ],
+      "DE": [
+        "DE"
+      ],
+      "HI": [
+        "HI"
+      ],
+      "PI": [
+        "PI"
+      ],
+      "RC": [
+        "RC"
+      ],
+      "BS": [
+        "BS"
+      ],
+      "PS": [
+        "PS"
+      ],
+      "CV": [
+        "CV"
+      ]
+    },
+    "head_index": {
+      "B": 0,
+      "F": 0,
+      "T": 0,
+      "Bo": 0,
+      "L": 0,
+      "R": 0,
+      "STR": 0,
+      "IRR": 0,
+      "OPP": 0,
+      "RND": 0,
+      "CLASH": 0,
+      "WHISP": 0,
+      "BUZZ": 0,
+      "ALT": 0,
+      "FADE": 0,
+      "PULSE": 0,
+      "SHIM": 0,
+      "DARK": 0,
+      "BRIGHT": 0,
+      "CANT": 0,
+      "1LAMP": 0,
+      "OK": 0,
+      "FAIL": 0,
+      "NEW": 0,
+      "TOOLS+": 1,
+      "TOOLS-": 1,
+      "CD": 0,
+      "TH": 0,
+      "LI": 0,
+      "HS": 0,
+      "ES": 0,
+      "EF": 0,
+      "AC": 0,
+      "DE": 0,
+      "HI": 0,
+      "PI": 0,
+      "RC": 0,
+      "BS": 0,
+      "PS": 0,
+      "CV": 0
+    },
+    "attested_orderings": [
+      [
+        "prefix",
+        "stem"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [],
+    "form_positions": {
+      "TOOLS": 0,
+      "+": 1,
+      "-": 1
+    },
+    "position_labels": {
+      "0": "TOOLKIT_REGISTER",
+      "1": "TOOLKIT_CHANGE"
+    },
+    "positions_by_symbol": {
+      "TOOLS+": [
+        0,
+        1
+      ],
+      "TOOLS-": [
+        0,
+        1
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "TOOLS": "toolkit inventory"
+      },
+      "1": {
+        "+": "add",
+        "-": "remove"
+      }
+    },
+    "meaning_by_symbol": {
+      "B": "back face, the face facing away from the observer, the far side",
+      "F": "front face, the face near the observer",
+      "T": "top face",
+      "Bo": "bottom face",
+      "L": "left face",
+      "R": "right face",
+      "STR": "strict rhythm",
+      "IRR": "irregular rhythm",
+      "OPP": "opposite face shift",
+      "RND": "random face shift",
+      "CLASH": "competing tones hum",
+      "WHISP": "whisper hum",
+      "BUZZ": "buzz hum",
+      "ALT": "alternating light configurations",
+      "FADE": "fading light",
+      "PULSE": "pulsing light",
+      "SHIM": "shimmering edges",
+      "DARK": "dark edges",
+      "BRIGHT": "bright edges",
+      "CANT": "cannot execute the procedure, with the reason given after the colon",
+      "1LAMP": "only one lamp available",
+      "OK": "action succeeded, Veyru stable",
+      "FAIL": "action failed, same symptoms",
+      "NEW": "new symptoms appeared after the action, with the symptoms given after the colon",
+      "TOOLS+": "tool added to the available toolkit, with the item named after the plus sign",
+      "TOOLS-": "tool removed from the available toolkit, with the item named after the minus sign",
+      "CD": "Corner Deadlock, corners bright, clicking, hot",
+      "TH": "Thermal Bleed, very hot, dim, red, rumble",
+      "LI": "Low Intensity, dim all, whisper hum, faint",
+      "HS": "Harmonic Split, clash tones, alternating configurations, shimmering edges",
+      "ES": "Echo Saturation, blinding bright, layered hum, frozen faces",
+      "EF": "Edge Fade / Leak Instability, dark corners, fading edges, hollow hum",
+      "AC": "Alignment Collapse, random flicker, broken hum, no pattern",
+      "DE": "Drift Escalation, light sliding, blurred edges, wavering pitch",
+      "HI": "High Intensity, blazing, loud buzz, heat from faces",
+      "PI": "Phase Inversion, opposite faces pulse bright and dark, two tones, edges flash in sync",
+      "RC": "Resonance Cascade, one face much brighter, whine, others normal",
+      "BS": "Boundary Softening, edges wobble, faces curved, muffled hum",
+      "PS": "Propagation Stall, frozen dim patterns, silent, cold",
+      "CV": "Core Void, glows outside, hollow tap, dark center, thin hum"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780606103",
+    "n_codes": 40,
+    "n_multimorpheme": 2,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "prefix",
+        "label": "TOOLKIT_REGISTER",
+        "fillers": [
+          {
+            "form": "TOOLS",
+            "gloss": "toolkit inventory",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "stem",
+        "label": "TOOLKIT_CHANGE",
+        "fillers": [
+          {
+            "form": "+",
+            "gloss": "add",
+            "count": 1
+          },
+          {
+            "form": "-",
+            "gloss": "remove",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "TOOLS+": [
+        "pos0",
+        "pos1"
+      ],
+      "TOOLS-": [
+        "pos0",
+        "pos1"
+      ]
+    },
+    "construction_by_symbol": {
+      "TOOLS+": "K1",
+      "TOOLS-": "K1"
+    },
+    "construction_labels": {
+      "K1": "Toolkit inventory update"
+    },
+    "construction_templates": {
+      "K1": [
+        "pos0",
+        "pos1"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "Only one defensible compositional paradigm is supported: TOOLS+ and TOOLS- form a minimal pair in the same frame, with stable contributions from TOOLS ('toolkit inventory/register') and the final sign ('add' vs 'remove'). The candidate FA family is rejected because FADE and FAIL do not share a coherent compositional frame or corresponding meaning contrast. No other symbols provide attested multi-morpheme substitution evidence, so all remaining symbols are treated as lexical.",
+    "lexical_symbols": [
+      "B",
+      "F",
+      "T",
+      "Bo",
+      "L",
+      "R",
+      "STR",
+      "IRR",
+      "OPP",
+      "RND",
+      "CLASH",
+      "WHISP",
+      "BUZZ",
+      "ALT",
+      "FADE",
+      "PULSE",
+      "SHIM",
+      "DARK",
+      "BRIGHT",
+      "CANT",
+      "1LAMP",
+      "OK",
+      "FAIL",
+      "NEW",
+      "CD",
+      "TH",
+      "LI",
+      "HS",
+      "ES",
+      "EF",
+      "AC",
+      "DE",
+      "HI",
+      "PI",
+      "RC",
+      "BS",
+      "PS",
+      "CV"
+    ],
+    "classes": [
+      {
+        "class_id": "C1",
+        "label": "TOOLKIT_REGISTER",
+        "description": "Marker for the toolkit inventory/register domain.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "C2",
+        "label": "TOOLKIT_CHANGE",
+        "description": "Change applied to the toolkit inventory: addition or removal.",
+        "repeatable": false,
+        "declared_fillers": []
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "K1",
+        "label": "Toolkit inventory update",
+        "description": "A toolkit register marker followed by a change operator.",
+        "class_sequence": [
+          "C1",
+          "C2"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "TOOLS+",
+        "construction_id": "K1",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "TOOLS",
+            "class_id": "C1",
+            "gloss": "toolkit inventory"
+          },
+          {
+            "form": "+",
+            "class_id": "C2",
+            "gloss": "add"
+          }
+        ]
+      },
+      {
+        "symbol": "TOOLS-",
+        "construction_id": "K1",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "TOOLS",
+            "class_id": "C1",
+            "gloss": "toolkit inventory"
+          },
+          {
+            "form": "-",
+            "class_id": "C2",
+            "gloss": "remove"
+          }
+        ]
+      }
+    ]
+  }
+}

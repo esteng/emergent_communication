@@ -1,0 +1,66 @@
+{
+  "per_slot": {
+    "pos0": [
+      [
+        "sound",
+        "sound"
+      ],
+      [
+        "tn",
+        "tone, using the voice"
+      ],
+      [
+        "chime",
+        "chime"
+      ],
+      [
+        "bl",
+        "bell"
+      ]
+    ],
+    "pos1": [
+      [
+        "FL",
+        "flicker"
+      ],
+      [
+        "HI",
+        "High Intensity"
+      ],
+      [
+        "HS",
+        "Harmonic Split"
+      ],
+      [
+        "LO",
+        "Low Intensity"
+      ]
+    ]
+  },
+  "stackable": [
+    [
+      "DM",
+      "dim"
+    ],
+    [
+      "FL",
+      "flicker"
+    ],
+    [
+      "HI",
+      "High Intensity"
+    ],
+    [
+      "LO",
+      "Low Intensity"
+    ],
+    [
+      "warm",
+      "warm"
+    ],
+    [
+      "COLD",
+      "cold"
+    ]
+  ]
+}

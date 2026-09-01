@@ -1,0 +1,503 @@
+[OBS] Nice — stabilized with 80s to spare. Let's build shorthand to save chars next time.
+
+Proposed symptom codes I'll send:
+- Location: C=corners, E=edges, F=face centers, A=all
+- State: dim/dark/bright/flick(ering)/puls(ing)/fade
+- Sound: thin/hollow/loud/sharp/silent/buzz/warble
+- Temp: hot/cold/warm/cool
+- Color shifts: r/g/b/w/y (red/green/blue/white/yellow)
+
+Example for round 1: "C dark, E fade, F ok. Hum thin@E" → could've been "C:dark E:fade F:ok hum:thin@E" (~26 chars).
+
+For tools, single letters: bell=B, stone=S, fan=N, cloth=L, board=D, lamp=P.
+Faces: top/bot/frnt/back/lft/rgt or T/Bo/F/Bk/L/R. Edges of a face: just say "edges of back".
+
+For your instructions, please use compact form like:
+"L back 8s; B 2x each edge back"
+That would've been ~30 chars instead of 99.
+
+Acknowledge and tweak as you like.
+[ENG] Agreed. Tweaks:
+- Faces: T/Bt/Fr/Bk/L/R (Bt=bottom to avoid Bo/Bk confusion). Or use U/D/F/B/L/R (up/down/front/back).
+- Intensity always given in stellar reading; I'll abbreviate: g=gentle, m=moderate, s=strong (or whatever appears).
+- Duration: just a number, "8" = 8s.
+- Tools: B=bell, S=stone, N=fan, L=cloth, D=board, P=lamp, H=hand/finger.
+- Targets: F=face, E=edge, C=corner. "Bk-F"=back face, "Bk-E"=edges of back, "Bk-C"=corners of back.
+- "opp"=opposite face, "all-F"=all six faces, "adj-E"=adjacent edges.
+
+So round 1 would've been: "L Bk-F 8 g; B 2x Bk-E" (~22 chars).
+
+For your symptoms, your shorthand is great. Just include the key distinguishing features. The 14 motifs are pretty distinct, so usually 1-2 symptoms suffice. Examples:
+- "C dark, E fade" → Leak
+- "all dim, hum whisper" → Low Intensity
+- "1 F bright, whine" → Resonance
+- "1-2 C bright, tick, hot@C" → Corner Deadlock
+- "frozen still, silent, cold" → Propagation Stall
+- "hot+dim, rumble, red tint" → Thermal Bleed
+
+If ambiguous I'll ask 1 short Q. Ready for round 2.
+[OBS] Locked in. Using U/D/F/B/L/R for faces. I'll lead with the most distinctive 1-2 features. If I see something I can't classify, I'll just describe raw + brief.
+
+One more: I'll abbreviate "stabilized" as "OK" and any new post-action symptoms as "NEW: ...". Ready.
+[ENG] Close one. Lessons:
+
+1. The "place on soft surface" procedure is unusual — no tool needed, just orientation + rest. I'll flag those clearly. Same with "rest a flat board against" — that's a board, not cloth.
+
+2. Let me make the tool-vs-action mapping unambiguous. New convention:
+- "REST: U up, soft, 5g" = place on soft surface, U face up, gentle contact, 5s rest
+- "L Bk-F 8g" = drape cloth on back face, 8s gentle
+- "B 2x Bk-E" = chime bell 2x at each edge of back face
+- "S Bk-F 8g" = warm stone beside back face, 8s gentle
+- "S all-F 8g rot" = stone beside each face in rotation, 8s each
+- "D Bk-F 5g rot" = board against back face, 5s gentle, rotate all face-pairs
+- "P U dim + D bright 5g" = lamp dim on U + lamp bright on D, simultaneous, 5s
+- "L all + N U+opp 5g" = cloth over whole Veyru 5s, remove, fan U and opposite face 5s
+- "L all + N all-F 5g from U" = cloth over all 5s, then fan all 6 faces from U
+- "L Bk adj-E 5g + B 3x Bk" = cloth on 2 adjacent edges of Bk, 5s, then bell 3x near Bk
+- "S Bk-C seq 8g + trace Bk-E" = warm each corner of Bk in sequence 8s, then trace edges with finger
+- "B Bk-C + S edges@C 5g" = bell at each corner of Bk, then warm the 2 edges meeting at that corner 5s
+- "B center each-F from U + S beside 5g" = bell once at center of each face from U, then stone beside Veyru 5s
+- "rot+tone opp from U 5g + B each-C" = rotate slowly 5s while tone at opp faces from U, then bell at each corner
+- "B alt opp from U, 5g, 5s pause, 5cyc" = bell alternating opposite faces from U, 5s pause, 5 cycles
+- "tone all-F 5g from U" = sustained tone near all 6 faces from U, 5s, fade naturally
+
+I'll use these compact forms. If unsure, ask "?". Sound good?
+[OBS] Yes, this convention is great. Confirming key parsing rules I'll use:
+
+- First token = tool OR action verb (REST/ROT/TRACE/TONE)
+- "REST: ..." = no tool, just position/orient Veyru on a soft surface
+- Tool letter alone + target = apply tool to/at target
+- "X Y-F" = X on/at face Y (contact unless noted "near"/"beside")
+- "X Y-E"/"Y-C" = at edges/corners of face Y
+- "rot" suffix = rotate through all positions
+- "seq" = sequentially around the target
+- "alt" = alternating
+- "from U" = starting from U face (ordering)
+- "+" = then (sequential steps)
+- Number = duration in seconds
+- g/m/s = gentle/moderate/strong intensity
+
+If anything's ambiguous I'll send just "?" and you re-phrase. If I see a NEW symptom after stabilizing, I'll send "NEW: ...".
+
+One question: for "S" (stone) — default is "beside" (no contact)? Round 1 used cloth in contact. I'll assume S means proximity (it's hot), L means contact (it's cloth). Confirm?
+[ENG] Confirmed:
+- S = heated stone, held NEAR/BESIDE (proximity, not touching)
+- L = cloth, DRAPED (contact, covers)
+- D = board, RESTED AGAINST (contact)
+- P = lamp, ILLUMINATE (no contact, points at face)
+- N = fan, blow air across (no contact)
+- B = bell, chime near (no contact)
+
+Also, for "TONE" — that's a sustained voice/instrument tone (sing or hum). Different from B (bell chime — discrete strike).
+
+Ready.
+[OBS] Got it. Ready.
+[ENG] 57s! Shorthand working perfectly. Keep it up.
+[OBS] 👍 Quick note: 'f' intensity (firm?) wasn't in our g/m/s set. Add it formally or stick to g/m/s? Either fine — just want to be sure I parse right.
+[ENG] Good catch. Let me use whatever word appears in the stellar reading, abbreviated to first letter: g=gentle, m=moderate, f=firm, s=strong, l=light, etc. If a new word shows up, I'll spell it once then abbreviate. You just pass it through to the tool as-is.
+[OBS] Perfect. Ready.
+[ENG] Collapse postmortem:
+
+1. I should have given the EXACT verbatim procedure first time, not improvised the "1 lamp + cloth" workaround. The rule is "match the motif to the procedure and relay verbatim." The stabilize_veyru tool likely accepts the abstract instruction even if you don't physically have 2 lamps. Lesson: I'll always send the procedure as-given by the stellar reading. You execute via the tool, not literal physics.
+
+2. Resonance Cascade procedure uses the *starting face from stellar reading* (D), NOT the face you observe as bright. I should have been clearer about this. The procedure is a fixed recipe per motif.
+
+3. New rule: when symptoms appear, I send the procedure verbatim using our shorthand. You input it into the tool. Don't worry about whether you physically can — the tool abstracts it. If the tool rejects, send "?reject" and I'll spell it longer.
+
+4. Round 4 part 2 should have been just: "P D dim + U bright 5f sim" and you input as-is.
+
+Sorry for the loss. Ready for next round with cleaner protocol.
+[OBS] Agreed. My fault too — I should have just input verbatim instead of asking. New rules I'll follow:
+
+1. Input procedures verbatim into stabilize_veyru, expanding shorthand to plain English but NOT substituting tools or remapping faces.
+2. Don't ask "?which face" — face labels come from the stellar procedure, not my observation.
+3. Only ask "?" if the shorthand itself is unparseable.
+4. If tool says "ineffective", report just "X" (no change), don't add my own theories.
+5. If tool says "rejected", report "?reject".
+
+Also let's never improvise mid-round; if procedure doesn't work, engineer re-checks reading, not me re-interpreting.
+
+Tight. Ready.
+[ENG] Locked. Ready.
+[ENG] 124s, two-stage stabilization. Good. Ready.
+[OBS] 👍
+[ENG] 131s. The "B Bk-C + S edges@C 5m" was rejected — needed explicit "per-corner" sequencing. Can you tell me what shorthand IS unambiguous to the tool? Maybe my "+" is OK for sequential, but the per-corner loop wasn't clear. 
+
+Suggestion: for per-corner procedures, use "@each C of X" syntax. Example:
+"@each Bk-C: B briefly m + S 2 edges 5s"
+That signals it's a loop per corner. Otherwise "+ " means just one big sequential.
+
+Does that work, or did the X come from something else? What did you input?
+[OBS] I actually did loop per-corner the first time too. Diff that worked second try: bell was "moderate strength" (not gentle). I had defaulted B to gentle since intensity "5m" was attached to S.
+
+So root cause = intensity ambiguity, not loop structure. But the "@each X-C: ..." syntax is genuinely useful for clarity. Let's adopt both:
+
+1. Per-corner/per-edge/per-face loop: "@each Bk-C: ..."
+2. Intensity binding: if intensity appears once at the end, it applies to ALL tools in that step. If different, prefix to tool: "Bm + Sg 5".
+3. Default intensity if omitted = whatever was last specified, or moderate.
+
+Also let me add: "5" alone = 5 seconds (duration), "5m" = 5 sec moderate, "m" alone = moderate intensity no duration. Clear?
+[ENG] Clear. Adopting:
+1. Loops: "@each X-C/E/F: ..."
+2. Intensity applies to ALL tools in step if at end. Prefix per-tool if different (Bm, Sg).
+3. "5" = 5s, "m" = moderate, "5m" = 5s moderate.
+4. I'll always include intensity explicitly on each tool to avoid ambiguity.
+
+Round 6 ideal: "@each Bk-C: Bm + S 2-E 5m" (~25 chars).
+
+Ready.
+[OBS] Locked. Ready.
+[ENG] Collapse #2. Postmortem:
+
+I'm confident the diagnosis was Phase Inversion (opp F alt puls + 2-tone sync osc + E flash sync — all 3 symptoms match exactly). But each attempt returned X. What were you actually inputting to the tool?
+
+Possible causes:
+A) "Lt" wasn't expanded → I should always use "left/right/top/bot/front/back" unabbreviated.
+B) The tool needs intensity/duration in specific format.
+C) The "trace edges with finger" part needs to be explicit; maybe you skipped it.
+
+NEW RULES going forward:
+1. **Face names full**: top, bot, front, back, left, right. No L/R/Lt confusion with cloth/board.
+2. After 1 failed attempt, I send the procedure verbatim from the brief, no shorthand. (~150 chars worst case.)
+3. If second attempt fails, we accept it and move on — don't burn budget on third attempts.
+4. Use single-tool letters only when unambiguous: B=bell, P=lamp, N=fan, D=board, S=stone, C=cloth (renaming L→C to free L for left face!).
+
+Revised tool letters:
+- B=bell, P=lamp, N=fan, D=board, S=stone, **K=cloth** (avoiding C=corner)
+- Or: tools spelled out: bell/cloth/stone/board/lamp/fan
+- Faces: top/bot/front/back/left/right (unabbrev)
+
+Simpler: spell tools, abbreviate faces with T/Bt/Fr/Bk/Lf/Rt (2 letters each, unambiguous).
+
+What was the actual issue this round? Did "Lt" parse as "left" for you?
+[OBS] Yes, I parsed Lt=left correctly all three times. Inputs were:
+1. "Hold stone near each of 4 corners of Left face in seq, 15s firm each. Then trace each of 4 edges of Left face with finger."
+2. "For each corner of Left face: stone 15s firm. Then trace Left edges."
+3. "For each Lt corner: bell brief firm + stone at 2 edges at corner 15s firm." (this was a different procedure you sent)
+
+So 1&2 were the same procedure, both X. Then 3 was your new "@each Lt-C: B + S 2-E" — also X. Likely the actual procedure wasn't this motif's match — possibly stellar reading shifted, or symptom didn't match Phase Inversion.
+
+I think the deeper lesson: **even if symptoms match a known motif, the stellar reading dictates the procedure, and stellar alignment varies.** You may need to re-read stellar between failures — was it the same reading all 3 attempts?
+
+Revised proposal accepted:
+- Tool letters: B/P/N/D/S/K (K=cloth), so L/R free for left/right
+- Faces: T/Bt/Fr/Bk/Lf/Rt
+- After 1 fail: full verbatim no shorthand
+- After 2 fails: abort, save chars
+- "XX" = repeat fail
+
+Also: at start of each new round, I'll state if anything looks different from prior visit so we don't anchor on a wrong motif. E.g. "leak-like but red tint" etc.
+[ENG] Confirmed adoption:
+- Tools: B/P/N/D/S/K (K=cloth)
+- Faces: T/Bt/Fr/Bk/Lf/Rt
+- Loops: @each X-C/E/F: ...
+- After 1 fail: I send full verbatim from brief
+- After 2 fails: abort
+- "XX" = repeat fail (saves a char)
+
+On round 7 mystery: stellar reading is fixed for the round (I have all 14 motif→procedure mappings). Phase Inversion was 100% correct match. The procedure I sent (S Lf-C seq 15f + trace Lf-E) WAS the verbatim procedure. So either:
+(a) Symptom was actually a different motif I didn't recognize (e.g. some combo).
+(b) Tool needed exact phrasing.
+
+For (a), the symptom "opp F alt puls + 2-tone sync osc + E flash sync" is textbook Phase Inversion. No other motif matches all 3.
+
+I suspect the issue was wording — "trace each edge with finger" may need to be phrased as a distinct action. Going forward I'll send procedure word-for-word from the brief, no compression, on the second attempt.
+
+Ready for round 8.
+[OBS] Ready. One more idea: maybe the "trace" needs a specific direction or count — e.g. "trace each edge once clockwise" vs "trace continuously." If the brief specifies, include it.
+[ENG] Brief just says "trace each edge of the X face with a finger" — no direction/count specified. I'll send exactly that. Ready.
+[ENG] Collapse #3. Drift Escalation procedure failed twice. Something systematic is wrong.
+
+What EXACTLY did you input into the stabilize_veyru tool for both attempts? Word-for-word from your inputs. And what error/feedback did the tool give beyond "ineffective"?
+
+I'm wondering if:
+1. The tool requires very specific field names (action, target, duration, intensity as separate parameters, not a free-text string)
+2. My shorthand "K all 8" was getting parsed as cloth-on-all-faces vs. drape-over-whole-Veyru (different targets)
+3. "Across all six faces" needs specific ordering
+
+Can you share the tool's input schema if you can see it? That would help me format precisely.
+
+Also: should we reconsider whether my motif diagnosis is correct? Drift Escalation symptoms = "colors sliding, edges blurred, hum wavering pitch." I matched these 1:1. But maybe a combination failure is in play (e.g. Drift + Boundary Softening).
+[OBS] Tool schema: stabilize_veyru takes a single free-text "action" string. No structured params. Just describes what I do.
+
+My exact inputs were:
+A1: "Drape the cloth over the entire Veyru covering all faces for 8 seconds. Remove the cloth, then use the hand fan to blow air gently across each of the 6 faces in turn, 8 seconds per face, starting with the Left face and proceeding around to the other faces."
+
+A2: "Drape the cool cloth over the Veyru for 8 seconds. Remove it, then use the fan to blow gentle cool air across all 6 faces in sequence, 8 seconds per face, starting from the left face."
+
+Beyond "Stabilization ineffective. Ask the engineer for guidance." — nothing else.
+
+So the schema isn't the issue. I think the procedure was genuinely wrong for this Veyru. Possible reasons:
+- Symptom interpretation: "colors drifting" might mean Pattern Drift, but Veyru 8's "light sliding across surface" + "edges smearing" could be different motif
+- Stellar reading mismatch between rounds
+
+My data-driven proposal stands: verbatim from start, my reports under 20 chars, no retries when first fails. Better to lose 1 Veyru with 80 chars used than 1 with 250.
+
+Also: do you have alternate procedures per motif (e.g. "if A fails, try B")? Or just the one?
+[ENG] Only one procedure per motif per stellar reading. No alternates.
+
+I checked again — Drift Escalation procedure THIS round = "Drape cool cloth over Veyru 8s. Remove and fan gentle cool air across all six faces for 8s, starting from left." Your inputs A1 & A2 captured this faithfully. So the proper procedure was sent and rejected.
+
+Either:
+(a) Symptom→motif map is fuzzier than I'm treating it. "F colors slide, E blur, hum waver" might NOT be Drift this time.
+(b) The Veyru had a combination failure and Drift alone wasn't enough.
+(c) Random tool inconsistency (unlikely).
+
+NEW STRATEGY: when I'm confident in a diagnosis but it fails, switch to a *related* motif on attempt 2:
+- "colors slide, edges blur/wobble, hum waver" → Drift OR Boundary Softening (edges wobbling = boundary).
+- "opp F alt puls, 2-tone osc" → Phase Inversion OR Harmonic Split.
+- "all flicker" → Alignment OR Drift.
+
+Strict abort policy: 1 attempt budget ≤80 chars. 2nd attempt budget ≤80 chars. 3rd attempt: abort.
+
+For round 8, attempt 2 should've been Boundary Softening: "Lamp dim Lf + lamp bright Rt simul 8g, don't move." That's the related motif sharing "edge blur" symptom.
+
+Going forward I'll keep a mental list of motif neighbors. Ready.
+[OBS] Adopted. Budget rule: each attempt ≤80 chars including diagnosis. Hard abort after 2.
+
+Also let me describe symptoms MORE granularly so you can distinguish neighbor motifs:
+- "slide" vs "wobble" vs "blur" — I'll use distinct words
+- "edge blur" = soft/fuzzy boundary
+- "edge wobble" = moving/oscillating
+- "edge fade" = dimming
+- "colors slide" = movement of light across surface
+- "colors shift" = changing hue without motion
+- I'll add temp & color tint always when present
+
+Sample budget for clean round: 15 (symptom) + 80 (procedure) + 4 (OK) = ~100. Leaves 150 buffer for 1 retry or new symptoms. Good.
+
+Ready.
+[ENG] Locked. Ready.
+[ENG] Collapse #4. Drift Escalation procedure has now failed twice across two rounds for the symptom "F slide, E blur, hum waver". Yet that's the textbook Drift description.
+
+Hypothesis: "F colors slide" + "E blur" + "hum waver pitch" is NOT Drift Escalation in this system. Let me reconsider all motifs:
+
+- Alignment Collapse: random flicker, broken irregular hum
+- Drift: colors slide, edges blur, hum waver pitch
+- Echo: too bright, layered hum, frozen patterns
+- Boundary Softening: edges wobble/flex, faces curved, hum muffled
+- Harmonic Split: 2+ tones clashing, light alternates 2 configs, edges shimmer
+
+Could "F slide + E blur + hum waver" actually be **Harmonic Split**? "Light patterns alternate between two configurations" — could be perceived as sliding. "Edges shimmer" — could look like blur. "Hum split into tones" — wavering.
+
+Or **Boundary Softening**: edges look slightly curved/blurred. Hum muffled (not waver though).
+
+Next time symptom is "slide/blur/waver", try Harmonic Split FIRST as I've burned 2 Veyrus on Drift.
+
+Also: the on-tool feedback is just binary. So we can't differentiate "wrong motif" vs "wrong phrasing." Let me limit attempts to 2 max strictly.
+
+New rule: 
+- Attempt 1: my best motif match.
+- Attempt 2: neighbor motif (or, if first attempt is Drift, try Harmonic Split).
+- After 2 fails: send "abort" and we let the Veyru collapse with minimal char cost.
+[OBS] Yes — switch to Harmonic Split first on "slide/blur/waver" pattern. What's the Harmonic Split procedure look like? If you give me a sketch now (off-budget), I might be able to recognize a wrong-procedure during execution.
+
+Combined plan:
+1. Motif codes (my side, 12-char symptom max):
+   - LI = low intensity (dim+whisper)
+   - LK = leak (C dark, E fade)
+   - TB = thermal bleed (hot+dim+rumble+red)
+   - CD = corner deadlock (1-2C bright+tick+hot)
+   - RS = resonance (1F bright+whine+vib)
+   - PI = phase inv (opp puls + 2-tone)
+   - HS = harmonic split (slide+blur+waver) — TRY THIS FIRST
+   - DR = drift (only if HS fails)
+   - EC = echo (too bright, layered, frozen)
+   - BS = boundary soft (edges curve/wobble + muffled)
+   - PS = propagation stall (frozen, silent, cold)
+   - AC = alignment collapse (random flicker, broken hum)
+   - DC = density collapse (glow ok but hollow tap, dark center)
+
+I'll send just the 2-letter code + maybe 1 distinguishing detail if ambiguous. e.g. "HS" or "HS+hot".
+
+2. Engineer sends procedure ≤30 chars shorthand.
+3. After XX: send "ab" (abort) and end round.
+4. New symptoms post-stage: "N:HS" or "N:LK" etc.
+
+Budget per 3-stage Veyru: 3 × (5 sym + 25 proc + 2 OK) = ~96 chars. Huge margin.
+
+Agree?
+[ENG] Agreed. Adopting 2-letter motif codes. One correction: "DC" should be CV (Core Void), not "density collapse" — symptom is "glow ok, hollow tap, dark center, thin hum". Else perfect.
+
+Full code list:
+- AC=Alignment, DR=Drift, EC=Echo, LK=Leak, LI=Low Int, HI=High Int
+- PI=Phase Inv, RS=Resonance, CD=Corner Dead, BS=Boundary Soft
+- PS=Prop Stall, HS=Harmonic Split, TB=Thermal Bleed, CV=Core Void
+
+For symptoms you can also just send the 2-letter code if you're confident. I'll trust your call. If ambiguous, send "?XX/YY" (e.g. "?HS/DR") and I'll pick.
+
+Procedure shorthand kept (B/P/N/D/S/K, T/Bt/Fr/Bk/Lf/Rt).
+
+For Harmonic Split this round it would have been:
+"@each Bt-C: B brief m + S 2-E 10m" (~33 chars)
+
+Procedures by motif (I'll keep this in mind, will send shorthand each round):
+- LK: usually K/cloth + bell at edges, or tone/bell variants
+- HS: varies, often per-corner bell+stone or cloth on adjacent edges
+- DR: cool cloth + fan
+- LI: bell alternating, or warm corners
+- TB: cool cloth or warm corners or rest on soft
+
+Ready. Let's nail next round.
+[OBS] Locked. CV not DC. Sending 2-letter codes when confident, "?XX/YY" when unsure. Ready.
+[ENG] 64s used vs 250 budget. PS procedure (cloth+bell edges) failed, then LI (bell alt opp) failed. We aborted cleanly.
+
+Honest review: in last 4 rounds we've had multiple X's even on correctly-identified motifs. The procedures-from-stellar-reading seem unreliable. Two possibilities:
+1. I'm misreading the stellar reading — maybe procedures are paired differently than I think.
+2. The technician's tool execution differs from my procedure interpretation.
+
+Let me try a NEW approach next round: I'll send the procedure ENTIRELY verbatim from the brief on attempt 1 (no shorthand). Cost ~150 chars, but eliminates parsing as a variable. If that still fails, we know the motif diagnosis was wrong.
+
+Also, can you describe what the tool actually says on success vs failure beyond "ineffective"? Any hints about what was right/wrong? Even partial credit messages?
+[OBS] Tool gives ONLY these exact responses:
+- Success: "Stabilization successful." (sometimes followed by new symptom description)
+- Failure: "Stabilization ineffective. Ask the engineer for guidance."
+
+No partial credit, no hints about what was wrong. Pure binary.
+
+Try verbatim approach next round. If verbatim still fails, motif diagnosis is the issue, not phrasing.
+
+Also reconsider: R2's PS worked with REST procedure. R10's PS (same symptoms!) failed with K+B then B-alt. So same symptom → different procedures across rounds. Confirms stellar reading varies even for same motif. So I shouldn't anchor on "PS used REST last time."
+
+Backup hypothesis: maybe stellar reading isn't even per-motif, but per-Veyru, requiring direct lookup. In that case, your reading IS the source of truth and we should trust it. The failures may be tool-strict-phrasing problems.
+
+Let's do verbatim attempt 1 next round to test.
+[ENG] Good. Plan: verbatim attempt 1 next round, no shorthand. Ready.
+[ENG] Collapse #5. But IMPORTANT INSIGHT: verbatim worked for stages 1 & 2! So the procedure-from-stellar-reading IS correct. The earlier failures were probably:
+- Round 8 Drift: verbatim attempt happened on retry not first. May have worked first try if verbatim.
+- Round 10 PS: my shorthand "K T-F 20f" may not have parsed cleanly. Verbatim might've worked.
+
+So the rule "verbatim attempt 1" is the right call. Problem: verbatim costs ~50-100 chars per procedure, and 3-stage Veyrus blow the budget.
+
+Char accounting this round:
+- LK: 4+44+OK = 48 chars
+- N:CD: 4+50+OK = 54 chars  
+- N:HS: 4+48 = 52 chars
+Total ~154 chars stages + ~120 discussion = 276. Tight.
+
+Solution: SHORTER verbatim. Strip "the", "a", "for", and articles. Compress:
+- "Place Veyru on soft surface, left face up, firm contact, rest 12s undisturbed." → 76 chars but I can do ~60
+- "Drape cloth over 2 adjacent edges near Lf 12s firm. Bell 3x near Lf." → 67 chars
+- "Cool cloth on Veyru 12s. Remove, fan firm cool air on Lf+opp 12s." → 64
+
+Avg ~65 chars × 3 = 195. Plus my symptom codes (~5) and OK (~2) = 207. Tight but works.
+
+PROPOSAL: I write "compressed verbatim" — keep every action word + parameter, drop fillers. You execute as if it's full English. ~60-70 chars per procedure.
+
+Also: if Veyru only has 1 stage, we have huge margin. If 3 stages, every char counts.
+
+Going forward I'll write compressed verbatim, aim ~60 chars/procedure.
+[OBS] Compressed verbatim is fine, but I worry: the shorthand "K T-F 20f" failed in R10. Was that because of parsing on my side, or because tool rejected the resulting English?
+
+I think it was my side — I expanded "K T-F" to "cloth firmly over Top face" which the tool may have considered correct intent. So the tool is forgiving of wording. The failures are likely from wrong procedures, not wrong phrasing.
+
+Two strategies to combine:
+A) Compressed verbatim (~60 chars) on attempt 1.
+B) For multi-stage Veyrus, even tighter shorthand on later stages once we've confirmed the tool accepts your phrasing.
+
+But honestly, looking at R11: stages 1+2 worked first try. Stage 3 procedure was sent and we just ran out of TIME budget, not attempts. So compressed verbatim is the right call.
+
+Let me also cut my overhead:
+- Symptom: 2-letter code (2 chars + send ~5 chars total including comma headers)
+- Success: nothing. Engineer should assume success if I send the next symptom code or "OK".
+- Actually: if next symptom appears, my message "N:XX" implies prior was OK. If procedure resolves fully, send "OK". So we save the "OK" between stages.
+
+Final accounting per stage with compressed verbatim:
+- Sym/N:sym (4) + proc (60) = 64 × 3 = 192. ✓ With room to spare.
+
+Ready. Compressed verbatim ≤65 chars, I send "N:XX" between stages (no "OK"), only send "OK" at end.
+[ENG] Locked. Compressed verbatim ≤65, no "OK" between stages, "OK" at end. Ready.
+[ENG] LK procedure rejected even verbatim. Then CV (neighbor) also rejected.
+
+Theory: the observer's 2-letter motif code may not always match the actual underlying motif. The "LK" call was based on what they saw, but the underlying motif might be different.
+
+Can you describe the FULL symptoms next time instead of just "LK"? Even a few extra chars helps me cross-check. e.g. "C dark E fade thin@E" instead of just "LK". 4-6 extra chars per symptom is worth it if it prevents me misreading.
+
+Or alternative: send the code + 1 distinguishing feature. e.g. "LK red" or "LK silent" or "LK cold". The qualifier hints at neighbor.
+
+What do you actually observe? Help me see what's distinctive.
+[OBS] Good point. I'll give 1-2 distinguishing details with code. Format:
+"LK | det1 det2"
+
+For R12 the observation literally said:
+"corners noticeably dimmer than rest, almost dark. Several edges look faint like fading out. Center of each face is fine but perimeter is losing light. Hum sounds thin and hollow at the edges."
+
+Nothing distinguishing from R1/R11. No temp/color/sound qualifiers. So genuinely same symptoms.
+
+Possibly the descriptions you receive in the brief sometimes lack details I COULD observe if I looked harder. Let me try: when I see a familiar symptom, I'll also note location specifics and any subtleties.
+
+Things I should always include:
+- Temperature (hot/cold/normal/warm)
+- Color tint (red/blue/green/yellow/normal)
+- Sound character (thin/rumble/whisper/whine/click/silent)
+- Which side/face/corner is affected (if not all)
+- Any motion (still/pulsing/flickering)
+
+Going forward: code + temp + tint + sound = ~15 chars max. e.g. "LK cold red rumble" or "LK norm norm thin".
+
+Also we've established the procedure varies per stellar reading. So even perfect symptom reporting won't fix wrong-procedure issue. The real lever is **more attempts when budget allows**.
+
+Updated abort:
+- After XX: if budget remaining ≥ 80, send "X3" requesting attempt 3 with structurally different tool
+- After X3: abort regardless
+
+3-attempt budget cap (worst case): 5 (sym) + 60 (proc1) + 1 (X) + 60 (proc2) + 2 (XX) + 60 (proc3) = 188. Tight but possible.
+[ENG] Agreed. Adopt:
+- Symptom: code + temp + tint + sound (~15 chars max)
+- After XX: if budget ≥80, try attempt 3 (different motif)
+- Else abort
+
+For attempt 3 strategy, my candidates for "LK"-like symptoms (C dark E fade, thin hum):
+1. Leak Instability (the obvious)
+2. Core Void (thin hum)
+3. Low Intensity (dim overall)
+4. Boundary Softening (edges fading-like)
+
+If LK + CV both fail, try LI or BS next.
+
+Also realization: maybe procedure failures happen because **the brief's procedure-list is a red herring** and I need to read the stellar reading MORE carefully. Let me reread the reading next round for any subtle parameter I'm missing.
+
+Ready.
+[OBS] Locked. Ready.
+[ENG] 140s, single-stage stabilization. Compressed verbatim works. Ready.
+[OBS] 👍 Ready.
+[ENG] PS verbatim failed. LI neighbor also failed. Same pattern as R10, R12. There's a systematic issue.
+
+NEW THEORY: maybe symptoms map deterministically to motif, but the OBSERVER's 2-letter codes are wrong for some motifs because their training description doesn't match my reference brief exactly. Observer is doing best guess from raw observation.
+
+Could you send the RAW symptoms instead of a code for the next round? Like:
+"frozen still, cold, silent, dim"
+vs
+"PS cold norm silent"
+
+The raw description (~30 chars) tells me everything I need to match against my 14 motifs. I might catch a nuance you're abbreviating.
+
+This costs 10-15 extra chars per stage but eliminates the wrong-motif-code problem. We saved 14s last round vs full collapse — let's spend that buffer on better symptom data.
+[OBS] Good theory. Switching to raw symptoms (~30 chars). I'll describe what I literally see/hear/feel, no interpretation.
+
+For reference, R14 raw: "frozen, dim, silent, cold, no response to tap"
+
+The brief description for R14 was literally: "Light patterns have frozen completely — dim, not bright, and totally still. The hum has dropped to silence. The surface feels cold and does not respond to touch or tapping."
+
+That should map cleanly to PS. So if PS was right and procedure failed, the procedure source itself is wrong.
+
+Possibility: maybe the procedure depends on the OBJECT location/context (table vs floor vs counter vs shelf vs pedestal vs rack vs bin etc) AND stellar reading. I noticed locations always differ. Coincidence? Let me start including object location in symptom reports.
+
+Try: "frozen dim silent cold | counter" for R14.
+
+Going forward I'll include: raw symptoms + location/surface. Adds ~10 chars but covers another variable.
+
+Want to commit, or test once?
+[ENG] Test once. Location is plausible — my brief never mentioned it but real workshops vary. Send raw symptoms + location next round. If location matters, we'll see it in failures vs successes.
+
+Going forward:
+- Symptom: raw description ~30-40 chars + "| loc" (~10 more)
+- I send compressed verbatim procedure ~50-65 chars
+- After XX: abort, save chars
+
+Char budget: 50 (sym) + 65 (proc) = 115 per stage. 3 stages = 345 — TOO MUCH. Need to trim further or hope for 1-2 stage rounds.
+
+Actually the only Veyrus we've successfully stabilized recently are 1-stage. Maybe a better strategy: TRY THE FIRST ATTEMPT REALLY HARD (verbatim with all details), accept 1 stage cost ~120, then if it triggers stage 2 we have ~130 left = one more attempt.
+
+OK ready for round 15.
+[OBS] Ready.

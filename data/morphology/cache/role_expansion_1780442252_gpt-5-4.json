@@ -1,0 +1,32 @@
+{
+  "per_slot": {
+    "pos0": [
+      [
+        "ABORT",
+        "stop this procedure family and try a totally different action approach"
+      ]
+    ],
+    "pos3": [
+      [
+        "mod",
+        "moderate intensity"
+      ]
+    ],
+    "pos4": [
+      [
+        "again",
+        "the same symptom pattern again"
+      ]
+    ]
+  },
+  "stackable": [
+    [
+      "inst",
+      "instant duration"
+    ],
+    [
+      "p20s",
+      "pause 20 seconds"
+    ]
+  ]
+}

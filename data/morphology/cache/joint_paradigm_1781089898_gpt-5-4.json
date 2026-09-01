@@ -1,0 +1,293 @@
+{
+  "grammar": {
+    "run_key": "veyru/1781089898",
+    "slots": [],
+    "segmentation": {
+      "T": [
+        "T"
+      ],
+      "B": [
+        "B"
+      ],
+      "N": [
+        "N"
+      ],
+      "S": [
+        "S"
+      ],
+      "E": [
+        "E"
+      ],
+      "W": [
+        "W"
+      ],
+      "x3": [
+        "x3"
+      ],
+      "5s": [
+        "5s"
+      ],
+      "→": [
+        "→"
+      ],
+      ";": [
+        ";"
+      ],
+      "V:": [
+        "V:"
+      ],
+      "Δ:": [
+        "Δ:"
+      ],
+      "@": [
+        "@"
+      ],
+      "on": [
+        "on"
+      ],
+      "vs": [
+        "vs"
+      ],
+      "near": [
+        "near"
+      ],
+      "over": [
+        "over"
+      ],
+      "against": [
+        "against"
+      ],
+      "touching": [
+        "touching"
+      ],
+      "?:": [
+        "?:"
+      ],
+      "ea": [
+        "ea"
+      ],
+      "bell": [
+        "bell"
+      ],
+      "voice": [
+        "voice"
+      ],
+      "hum": [
+        "hum"
+      ],
+      "AlignCol": [
+        "AlignCol"
+      ],
+      "DriftEsc": [
+        "DriftEsc"
+      ],
+      "EchoSat": [
+        "EchoSat"
+      ],
+      "LeakInst": [
+        "LeakInst"
+      ],
+      "LowInt": [
+        "LowInt"
+      ],
+      "HighInt": [
+        "HighInt"
+      ],
+      "PhaseInv": [
+        "PhaseInv"
+      ],
+      "ResCasc": [
+        "ResCasc"
+      ],
+      "CornerDL": [
+        "CornerDL"
+      ],
+      "BoundSoft": [
+        "BoundSoft"
+      ],
+      "PropStall": [
+        "PropStall"
+      ],
+      "HarmSplit": [
+        "HarmSplit"
+      ],
+      "ThermBleed": [
+        "ThermBleed"
+      ],
+      "CoreVoid": [
+        "CoreVoid"
+      ],
+      "total": [
+        "total"
+      ],
+      "drape": [
+        "drape"
+      ],
+      "hang": [
+        "hang"
+      ],
+      "centered": [
+        "centered"
+      ]
+    },
+    "head_index": {
+      "T": 0,
+      "B": 0,
+      "N": 0,
+      "S": 0,
+      "E": 0,
+      "W": 0,
+      "x3": 0,
+      "5s": 0,
+      "→": 0,
+      ";": 0,
+      "V:": 0,
+      "Δ:": 0,
+      "@": 0,
+      "on": 0,
+      "vs": 0,
+      "near": 0,
+      "over": 0,
+      "against": 0,
+      "touching": 0,
+      "?:": 0,
+      "ea": 0,
+      "bell": 0,
+      "voice": 0,
+      "hum": 0,
+      "AlignCol": 0,
+      "DriftEsc": 0,
+      "EchoSat": 0,
+      "LeakInst": 0,
+      "LowInt": 0,
+      "HighInt": 0,
+      "PhaseInv": 0,
+      "ResCasc": 0,
+      "CornerDL": 0,
+      "BoundSoft": 0,
+      "PropStall": 0,
+      "HarmSplit": 0,
+      "ThermBleed": 0,
+      "CoreVoid": 0,
+      "total": 0,
+      "drape": 0,
+      "hang": 0,
+      "centered": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "T": "top face",
+      "B": "bottom face",
+      "N": "north face",
+      "S": "south face",
+      "E": "east face",
+      "W": "west face",
+      "x3": "3 times",
+      "5s": "5 seconds",
+      "→": "then perform the next step",
+      ";": "then perform the next step",
+      "V:": "symptom report follows",
+      "Δ:": "only the changed symptoms follow",
+      "@": "touching contact",
+      "on": "touching contact",
+      "vs": "touching contact",
+      "near": "close but not touching; default for stone, bell, lamp, and fan",
+      "over": "above, not touching; for cloth, draped",
+      "against": "firm contact; default for board",
+      "touching": "contact",
+      "?:": "the diagnosis is uncertain",
+      "ea": "for each individual target or element, each receiving the stated duration",
+      "bell": "chime bell",
+      "voice": "your own voice",
+      "hum": "your own voice",
+      "AlignCol": "chaotic flicker, irregular hum",
+      "DriftEsc": "drift slide, blurred edges",
+      "EchoSat": "blinding glow, layered hum, frozen faces",
+      "LeakInst": "dim corners or edges, hollow hum",
+      "LowInt": "all faces dim, whisper hum",
+      "HighInt": "all faces blinding, harsh buzz, hot",
+      "PhaseInv": "opposite faces pulse rhythmically",
+      "ResCasc": "1 face bright with a whine",
+      "CornerDL": "1 or 2 corners bright with a ticking sound",
+      "BoundSoft": "wobble, curved appearance, muffled sound",
+      "PropStall": "frozen, silent, cold",
+      "HarmSplit": "2 tones clash, 2 configurations",
+      "ThermBleed": "hot, dim red glow, rumble",
+      "CoreVoid": "hollow tap, dark center",
+      "total": "the stated duration is the combined total across the shared targets, not per target",
+      "drape": "for cloth over edges, the cloth hangs off the edge rather than lying flat on top",
+      "hang": "for cloth over edges, the cloth hangs off the edge rather than lying flat on top",
+      "centered": "one emission aimed so it reaches multiple targets at once"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1781089898",
+    "n_codes": 42,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible compositional paradigm survives the evidence requirements. The codebook contains many standalone symbols with meanings, but there are no multi-entry, same-frame substitution contrasts whose parts make stable, predictable contributions. In particular: (1) the face terms T/B/N/S/E/W do form a semantic set, but they are only standalone key entries here and there is no multi-morpheme construction in which a FACE slot is actually observed; standalone declarations alone do not license entries without a supported construction. (2) x3 and 5s each suggest possible internal structure, but there is no contrasting series in the same frame (no x5, x2, 3s, 10s, etc.), so splitting would be speculative and would fail the opaque-index test for x3. (3) Candidate surface families such as -nst, -Int, Cor-, -ng, -ll, -sc, -ed, and to- are rejected because the residues do not form coherent substitution classes with shared semantic roles; shared letters alone are not evidence. (4) Synonymous whole symbols such as → and ;, or @/on/vs, likewise do not create morphology. Therefore the safest analysis is a flat lexicon with every supplied symbol treated as an opaque stored label.",
+    "lexical_symbols": [
+      "T",
+      "B",
+      "N",
+      "S",
+      "E",
+      "W",
+      "x3",
+      "5s",
+      "→",
+      ";",
+      "V:",
+      "Δ:",
+      "@",
+      "on",
+      "vs",
+      "near",
+      "over",
+      "against",
+      "touching",
+      "?:",
+      "ea",
+      "bell",
+      "voice",
+      "hum",
+      "AlignCol",
+      "DriftEsc",
+      "EchoSat",
+      "LeakInst",
+      "LowInt",
+      "HighInt",
+      "PhaseInv",
+      "ResCasc",
+      "CornerDL",
+      "BoundSoft",
+      "PropStall",
+      "HarmSplit",
+      "ThermBleed",
+      "CoreVoid",
+      "total",
+      "drape",
+      "hang",
+      "centered"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

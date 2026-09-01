@@ -1,0 +1,116 @@
+{
+  "per_slot": {
+    "pos0": [
+      [
+        "HUM",
+        "my voice or sustained vocal tone"
+      ]
+    ],
+    "pos2": [
+      [
+        "CLOTH",
+        "cloth"
+      ]
+    ],
+    "pos3": [
+      [
+        "HOVER",
+        "hold the stone near a face with no contact"
+      ],
+      [
+        "PRESS",
+        "press against a face"
+      ],
+      [
+        "SLIDE",
+        "slide"
+      ],
+      [
+        "SWEEP",
+        "continuous movement across"
+      ],
+      [
+        "TAP",
+        "tap"
+      ],
+      [
+        "TOUCH",
+        "contact a face with the stone"
+      ],
+      [
+        "WIPE",
+        "wipe across faces"
+      ]
+    ]
+  },
+  "stackable": [
+    [
+      "B",
+      "bottom, L/R, Fr/Bk"
+    ],
+    [
+      "Bot",
+      "bottom"
+    ],
+    [
+      "C",
+      "corner"
+    ],
+    [
+      "C-X",
+      "corner of face X"
+    ],
+    [
+      "E",
+      "edge"
+    ],
+    [
+      "E-X",
+      "an edge of face X or a shared edge"
+    ],
+    [
+      "F",
+      "face"
+    ],
+    [
+      "F-X",
+      "means face X; E-X means an edge of face X"
+    ],
+    [
+      "Fr/Bk",
+      "front or back"
+    ],
+    [
+      "L/R",
+      "left or right"
+    ],
+    [
+      "T",
+      "top"
+    ],
+    [
+      "all",
+      "the whole Veyru as one, for example draped or centered as a whole"
+    ],
+    [
+      "all6",
+      "all 6 faces as a whole, positioned centrally and applied to the whole Veyru"
+    ],
+    [
+      "from-back",
+      "starting face is back"
+    ],
+    [
+      "from:X",
+      "or \"start:X\" = start at face X"
+    ],
+    [
+      "start:X",
+      "starting face is X"
+    ],
+    [
+      "seq",
+      "each face in turn, as a sequence"
+    ]
+  ]
+}

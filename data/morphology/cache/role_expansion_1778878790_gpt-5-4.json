@@ -1,0 +1,20 @@
+{
+  "per_slot": {
+    "pos0": [
+      [
+        "mod",
+        "moderate, \"15s\" = 15 seconds"
+      ]
+    ]
+  },
+  "stackable": [
+    [
+      "15s",
+      "15 seconds"
+    ],
+    [
+      "seq",
+      "in sequence"
+    ]
+  ]
+}

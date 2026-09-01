@@ -1,0 +1,65 @@
+{
+  "run_key": "veyru/1778879551",
+  "status": "analyzed",
+  "n_codes": 100,
+  "n_multimorpheme": 5,
+  "report": {
+    "encoder_agent": "stabilization_engineer",
+    "decoder_agent": "field_observer",
+    "encoder_model": "claude-opus-4-7",
+    "decoder_model": "claude-opus-4-7",
+    "context_budget": 250,
+    "n_cells": 5,
+    "exact_match_rate": 1.0,
+    "swapped_order_rate": 0.0,
+    "bag_match_rate": 1.0,
+    "decode_rate": 0.5,
+    "decoder_valid_rate": 1.0,
+    "decode_negative_control_rate": 1.0,
+    "decode_positive_control_rate": 1.0,
+    "per_role": [
+      {
+        "slot_id": "FIXED_PANEL_FIELD",
+        "slot_label": "fixed symptom panel field",
+        "n": 5,
+        "exact_match_rate": 1.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 1.0,
+        "decode_rate": 0.5
+      }
+    ],
+    "per_depth": [
+      {
+        "length": 2,
+        "n": 5,
+        "exact_match_rate": 1.0,
+        "decode_rate": 0.5
+      }
+    ],
+    "per_purpose": [
+      {
+        "purpose": "grounded_control",
+        "n": 5,
+        "exact_match_rate": 1.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 1.0,
+        "decode_rate": 0.5
+      }
+    ],
+    "per_construction": [
+      {
+        "construction_id": "FIXED_PANEL_FIELD",
+        "n": 5,
+        "n_control": 5,
+        "n_novel": 0,
+        "exact_match_rate": 1.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 1.0,
+        "decode_rate": 0.5,
+        "novel_exact_match_rate": 0.0,
+        "novel_decode_rate": 0.0
+      }
+    ],
+    "per_slot_generalization": []
+  }
+}

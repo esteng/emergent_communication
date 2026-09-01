@@ -1,0 +1,227 @@
+{
+  "grammar": {
+    "run_key": "veyru/1781083389",
+    "slots": [],
+    "segmentation": {
+      "PHASE-INV": [
+        "PHASE-INV"
+      ],
+      "L": [
+        "L"
+      ],
+      "R": [
+        "R"
+      ],
+      "T": [
+        "T"
+      ],
+      "B": [
+        "B"
+      ],
+      "F": [
+        "F"
+      ],
+      "Bk": [
+        "Bk"
+      ],
+      "lo": [
+        "lo"
+      ],
+      "mod": [
+        "mod"
+      ],
+      "hi": [
+        "hi"
+      ],
+      "S:": [
+        "S:"
+      ],
+      "R:": [
+        "R:"
+      ],
+      "OK": [
+        "OK"
+      ],
+      "NO": [
+        "NO"
+      ],
+      "DX:": [
+        "DX:"
+      ],
+      "DO:": [
+        "DO:"
+      ],
+      "RETRY": [
+        "RETRY"
+      ],
+      "AlignColl": [
+        "AlignColl"
+      ],
+      "Drift": [
+        "Drift"
+      ],
+      "Echo": [
+        "Echo"
+      ],
+      "Leak": [
+        "Leak"
+      ],
+      "LowI": [
+        "LowI"
+      ],
+      "HighI": [
+        "HighI"
+      ],
+      "PhaseInv": [
+        "PhaseInv"
+      ],
+      "Resonance": [
+        "Resonance"
+      ],
+      "CornerDL": [
+        "CornerDL"
+      ],
+      "BoundSoft": [
+        "BoundSoft"
+      ],
+      "PropStall": [
+        "PropStall"
+      ],
+      "HSplit": [
+        "HSplit"
+      ],
+      "ThermBleed": [
+        "ThermBleed"
+      ],
+      "CoreVoid": [
+        "CoreVoid"
+      ]
+    },
+    "head_index": {
+      "PHASE-INV": 0,
+      "L": 0,
+      "R": 0,
+      "T": 0,
+      "B": 0,
+      "F": 0,
+      "Bk": 0,
+      "lo": 0,
+      "mod": 0,
+      "hi": 0,
+      "S:": 0,
+      "R:": 0,
+      "OK": 0,
+      "NO": 0,
+      "DX:": 0,
+      "DO:": 0,
+      "RETRY": 0,
+      "AlignColl": 0,
+      "Drift": 0,
+      "Echo": 0,
+      "Leak": 0,
+      "LowI": 0,
+      "HighI": 0,
+      "PhaseInv": 0,
+      "Resonance": 0,
+      "CornerDL": 0,
+      "BoundSoft": 0,
+      "PropStall": 0,
+      "HSplit": 0,
+      "ThermBleed": 0,
+      "CoreVoid": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "PHASE-INV": "rotate for 15 seconds and produce a steady tone at moderate volume on opposite faces, starting with the left face; then sound 1 chime at each corner",
+      "L": "left face",
+      "R": "right face",
+      "T": "top face",
+      "B": "bottom face",
+      "F": "front face",
+      "Bk": "back face",
+      "lo": "low intensity",
+      "mod": "moderate intensity",
+      "hi": "high intensity",
+      "S:": "symptoms",
+      "R:": "result",
+      "OK": "stabilization successful",
+      "NO": "stabilization ineffective; ask the engineer for guidance",
+      "DX:": "diagnosis motif label",
+      "DO:": "procedure to execute",
+      "RETRY": "retry the procedure",
+      "AlignColl": "face flicker is random with no pattern, and the hum is broken and irregular",
+      "Drift": "colors smear, edges blur, and the hum wavers in pitch",
+      "Echo": "too bright, layered tones, and frozen patterns",
+      "Leak": "corners are dim, edges are fading, and the hum is thin and hollow",
+      "LowI": "all faces are dim, the hum is a whisper, and the appearance is washed out",
+      "HighI": "blazing white, harsh buzz, and hot",
+      "PhaseInv": "opposite faces alternate in sync with the pulse, and there are 2 tones in sync",
+      "Resonance": "1 face is brighter and vibrating, with a high whine",
+      "CornerDL": "1-2 corners are bright and hot, with clicking",
+      "BoundSoft": "edges wobble, faces bulge, and the hum is muffled",
+      "PropStall": "frozen and dim and silent and cold",
+      "HSplit": "tones are clashing, configurations are alternating, and edges shimmer",
+      "ThermBleed": "very hot but dim, with a low rumble, reddish appearance, and gritty quality",
+      "CoreVoid": "surface appears normal but gives a hollow tap, has a dark center, and a thin hum"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1781083389",
+    "n_codes": 31,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible compositional paradigm survives the evidence requirements. The suggested surface families ('Cor', '-ll', '-ft') do not show stable shared meanings with substitutable residues in a common frame; they are best treated as accidental string overlap. The standalone face symbols (L, R, T, B, F, Bk) and intensity symbols (lo, mod, hi) do form semantic sets, but there are no attested multi-morpheme codes in this codebook where they recur as productive slots inside larger symbols, so they cannot license entries, classes, or constructions on their own. Other items such as S:, R:, DX:, and DO: are standalone labels, but no supplied symbols instantiate larger composed forms using them. Therefore the safest complete partition is a flat lexicon with every supplied symbol opaque.",
+    "lexical_symbols": [
+      "PHASE-INV",
+      "L",
+      "R",
+      "T",
+      "B",
+      "F",
+      "Bk",
+      "lo",
+      "mod",
+      "hi",
+      "S:",
+      "R:",
+      "OK",
+      "NO",
+      "DX:",
+      "DO:",
+      "RETRY",
+      "AlignColl",
+      "Drift",
+      "Echo",
+      "Leak",
+      "LowI",
+      "HighI",
+      "PhaseInv",
+      "Resonance",
+      "CornerDL",
+      "BoundSoft",
+      "PropStall",
+      "HSplit",
+      "ThermBleed",
+      "CoreVoid"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

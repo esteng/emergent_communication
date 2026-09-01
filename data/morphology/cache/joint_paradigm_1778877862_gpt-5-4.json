@@ -1,0 +1,257 @@
+{
+  "grammar": {
+    "run_key": "veyru/1778877862",
+    "slots": [],
+    "segmentation": {
+      "D": [
+        "D"
+      ],
+      "D/W/L": [
+        "D/W/L"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "K": [
+        "K"
+      ],
+      "L": [
+        "L"
+      ],
+      "N": [
+        "N"
+      ],
+      "NE": [
+        "NE"
+      ],
+      "O": [
+        "O"
+      ],
+      "W": [
+        "W"
+      ],
+      "Y": [
+        "Y"
+      ],
+      "AC": [
+        "AC"
+      ],
+      "Cabef8": [
+        "Cabef8"
+      ],
+      "ES": [
+        "ES"
+      ],
+      "Ss": [
+        "Ss"
+      ],
+      "TB": [
+        "TB"
+      ],
+      "BC": [
+        "BC"
+      ],
+      "Bb": [
+        "Bb"
+      ],
+      "Cae8": [
+        "Cae8"
+      ],
+      "Cc8": [
+        "Cc8"
+      ],
+      "Cf8": [
+        "Cf8"
+      ],
+      "FI": [
+        "FI"
+      ],
+      "Fa68": [
+        "Fa68"
+      ],
+      "Fao8": [
+        "Fao8"
+      ],
+      "Ld+Ob8": [
+        "Ld+Ob8"
+      ],
+      "OF": [
+        "OF"
+      ],
+      "R8": [
+        "R8"
+      ],
+      "Sk8": [
+        "Sk8"
+      ],
+      "Soft8": [
+        "Soft8"
+      ],
+      "Ss8": [
+        "Ss8"
+      ],
+      "T6": [
+        "T6"
+      ],
+      "To": [
+        "To"
+      ],
+      "Tr": [
+        "Tr"
+      ],
+      "e": [
+        "e"
+      ],
+      "k": [
+        "k"
+      ],
+      "Ss15": [
+        "Ss15"
+      ]
+    },
+    "head_index": {
+      "D": 0,
+      "D/W/L": 0,
+      "E": 0,
+      "F": 0,
+      "K": 0,
+      "L": 0,
+      "N": 0,
+      "NE": 0,
+      "O": 0,
+      "W": 0,
+      "Y": 0,
+      "AC": 0,
+      "Cabef8": 0,
+      "ES": 0,
+      "Ss": 0,
+      "TB": 0,
+      "BC": 0,
+      "Bb": 0,
+      "Cae8": 0,
+      "Cc8": 0,
+      "Cf8": 0,
+      "FI": 0,
+      "Fa68": 0,
+      "Fao8": 0,
+      "Ld+Ob8": 0,
+      "OF": 0,
+      "R8": 0,
+      "Sk8": 0,
+      "Soft8": 0,
+      "Ss8": 0,
+      "T6": 0,
+      "To": 0,
+      "Tr": 0,
+      "e": 0,
+      "k": 0,
+      "Ss15": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "D": "dim",
+      "D/W/L": "",
+      "E": "edges fade, 1=one face bright",
+      "F": "fan",
+      "K": "click",
+      "L": "low or washed patterns",
+      "N": "normal or unspecified temperature; no color shift when used in the color position",
+      "NE": "no effect",
+      "O": "opposite",
+      "W": "whisper hum",
+      "Y": "whine",
+      "AC": "",
+      "Cabef8": "cloth adjacent back edges firm 8 seconds",
+      "ES": "",
+      "Ss": "stone beside",
+      "TB": "cloth adjacent back edges 20 seconds gentle; bell back three times",
+      "BC": "bright corners, click, hot",
+      "Bb": "bell briefly, B1/B2/B3 reps",
+      "Cae8": "cloth 2 adjacent edges 8 seconds",
+      "Cc8": "cool cloth 8 seconds",
+      "Cf8": "folded cloth on face 8 seconds",
+      "FI": "random flicker, irregular hum",
+      "Fa68": "fan all six 8 seconds",
+      "Fao8": "fan active face and opposite 8 seconds",
+      "Ld+Ob8": "lamp active face dim and opposite bright 8 seconds",
+      "OF": "overbright, layered hum, frozen",
+      "R8": "rotate 8 seconds",
+      "Sk8": "stone near corner 8 seconds",
+      "Soft8": "soft rest 8 seconds",
+      "Ss8": "stone beside 8 seconds",
+      "T6": "sustained tone all six",
+      "To": "steady tone near opposites",
+      "Tr": "trace edges",
+      "e": "edge, 2m=two meeting edges",
+      "k": "corner or corners",
+      "Ss15": ""
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1778877862",
+    "n_codes": 36,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible multi-entry paradigm survives the evidence threshold. The suggested surface families are not compositionally supported: (i) shared suffix 'f8' fails because the alleged 'f' would have to mean 'firm' in Cabef8 but 'folded cloth on face' in Cf8; (ii) shared prefix 'Ca' does not yield a stable common contribution across Cabef8 and Cae8; (iii) shared prefix 'Fa' is suggestive, but the residues do not yet give a secure same-role substitution with fully predictable meanings; and (iv) 'Ss8'/'Ss15' strongly suggests a duration contrast, but admitting it would still require positing a singleton root class for Ss, which the instructions caution against, and one member has no supplied meaning. Because the evidence does not support a coherent joint system of boundaries, substitution classes, and constructions, the safest analysis is a flat lexicon.",
+    "lexical_symbols": [
+      "D",
+      "D/W/L",
+      "E",
+      "F",
+      "K",
+      "L",
+      "N",
+      "NE",
+      "O",
+      "W",
+      "Y",
+      "AC",
+      "Cabef8",
+      "ES",
+      "Ss",
+      "TB",
+      "BC",
+      "Bb",
+      "Cae8",
+      "Cc8",
+      "Cf8",
+      "FI",
+      "Fa68",
+      "Fao8",
+      "Ld+Ob8",
+      "OF",
+      "R8",
+      "Sk8",
+      "Soft8",
+      "Ss8",
+      "T6",
+      "To",
+      "Tr",
+      "e",
+      "k",
+      "Ss15"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

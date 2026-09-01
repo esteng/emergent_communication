@@ -1,0 +1,547 @@
+[OBS] Good round. Let's build shorthand to save chars.
+
+Proposals:
+- I describe symptoms in tight tokens: location + behavior + sound. Example: "corners dark, edges fade, centers ok; hum thin@edges".
+- You issue commands in a compact format like: TOOL FACE DURATIONs / TOOL EDGES COUNT. e.g. "cloth back 8s; bell back-edges x2"
+- Face labels: F(front) B(back) L R T(top) Bo(bottom). Edges: e.g. "B-edges". Corners: "B-corners".
+- Tools: cloth, bell, stone(heated), fan, board, lamp.
+- I'll reply "ok" or "done" only after action. If new symptoms, terse report.
+- Skip pleasantries entirely.
+
+Anything you want to add or change?
+[ENG] Agreed on all of it. One catch: procedures are dictated by the stellar reading each round and I must relay them verbatim. So I can't always use pure shorthand — but I'll trim greetings/filler and use your face labels (F/B/L/R/T/Bo).
+
+Key disambiguators for your symptom reports (most useful info to include):
+- Dim+silent+cold+frozen = Propagation Stall
+- Dim+washed out, normal temp = Low Intensity
+- Dim+hot+reddish+rumble = Thermal Bleed
+- Dim only at corners/edges = Leak
+- Bright all+heat+buzz = High Intensity
+- Bright+layered hum+frozen patterns = Echo
+- One face bright+whine = Resonance
+- 1-2 corners bright+clicking = Corner Deadlock
+- Opposite faces alternating pulse = Phase Inversion
+- 2 clashing tones = Harmonic Split
+- Random flicker+broken hum = Alignment Collapse
+- Sliding colors+blurred edges+wavering pitch = Drift
+- Bulging/wobbly+muffled hum = Boundary Softening
+- Hollow tap+dark center = Core Void
+- Random flicker+no pattern = Alignment Collapse
+
+So in your report, always hit: brightness level, hum quality, temperature, and any localization (which face/corner/edge). That nails almost any motif fast.
+
+For combo failures: report all symptoms, I'll order procedures by priority (leak/stall/thermal → intensity → structural → echo/boundary → pattern).
+[OBS] Got it. My report template: "BRIGHT | HUM | TEMP | LOC". e.g. "dim corners+edges | hum thin@edges | temp normal | centers ok" — this round was Leak.
+
+I'll always include all 4 axes, even if normal ("temp norm", "hum norm"). Localization terms: face/edge/corner + which (F/B/L/R/T/Bo).
+
+For your procedures: if you must relay verbatim, just drop articles/pleasantries. Number steps if multi: "1) cloth B 8s 2) bell B-edges x2".
+
+I'll ack with "done" only. New symptoms post-action: same 4-axis format.
+
+Ready.
+[ENG] 135s, big improvement. Your 4-axis format is perfect — instantly readable.
+
+For my replies, I'll keep tightening. I think I can drop "near"/"face" sometimes since context is clear. Examples of how I'll phrase common ones:
+
+- "Cloth folded over B 8s gentle. Bell each B-edge x2." (was 119, now ~50)
+- "Soft surface, T up, rest 5s." 
+- "Warm stone beside T 5s gentle, then rotate+repeat each face."
+- "Bell alternating T↔Bo, 5s pause, 5 cycles, gentle."
+
+Quick question for combos: when you have multi-symptom, list them in any order — I'll handle priority. I'll send numbered steps.
+
+One more thing: if you're confident of the diagnosis yourself, you could just say it ("Leak.") and I'll send the procedure. But your symptom report is so fast that's probably not even needed.
+
+Ready for round 3.
+[OBS] Agreed on all. I'll also try naming the motif when obvious: "Leak." or "Stall." — but only if confident. If unsure, just symptoms.
+
+Re tool letters: skip for now, full names are clearer and you're already terse. Save abbreviation budget for if we get desperate.
+
+One thing: my round-1 report mentioned "centers ok" which was useful negative info (ruled out Core Void). I'll keep noteworthy negatives only when they disambiguate.
+
+Ready.
+[ENG] Lost that one. Postmortem:
+
+My first reply was "Yes. Cloth over two adjacent edges near B 20s firm. Then bell near B x3." (72 chars) — this was the CORRECT procedure, but you reported "ineffective". That means the stabilize_veyru tool didn't accept my shorthand wording. The verbatim procedure was:
+
+"Drape a cloth over two adjacent edges near the back face for 20 seconds at firm coverage. Then chime a bell three times near the back face."
+
+Lesson: the tool seems to need the procedure text close to verbatim — my abbreviations ("B", dropping "drape"/"chime", "x3") broke it. The retry pushed us over budget.
+
+NEW RULE: I will send procedures VERBATIM as written in the stellar reading, with at most these trims:
+- Drop leading articles only when grammatical (rare)
+- Keep all tool verbs ("Drape", "Chime", "Sound", "Place", "Warm", "Rotate")
+- Keep "back face" / "top face" etc. spelled out
+- Keep "seconds" not "s"
+- Keep "three times" not "x3"
+
+Round 1 worked because I sent it nearly verbatim. Round 2 worked because the procedure was short and I kept the key verbs ("Place... rest undisturbed").
+
+You should also: don't abbreviate motif guesses if you're unsure — just symptoms is fine. Your "Thermal Bleed?" was great and didn't waste anything.
+
+Going forward: I'll relay verbatim, you keep doing 4-axis symptom reports. Budget should still be fine — round 1 used 179 with verbatim, and procedures aren't usually longer than that.
+
+Ready.
+[OBS] Important nuance: the stabilize_veyru tool's "action" param is MY action description, not your procedure text. I phrased my action as "Folded the cloth and pressed it firmly over two adjacent edges..." — that's my execution. The tool judges whether the ACTION matches the correct procedure for the current stellar alignment.
+
+So likely cause of failure: my action deviated in a way that mattered ("pressed firmly" vs "draped at firm coverage" are different motions), OR the procedure itself was wrong.
+
+Revised plan:
+- You can send shorthand or verbatim — your call. Verbatim is safer.
+- I will MIRROR your verb/noun choices EXACTLY in my action description. "Drape" = drape (lay over, not press). "Chime" = chime, not ring.
+- On failure: I send "no" (2 chars). You either re-send (same procedure assumed) or send a corrected one with a diff.
+- For first attempts: spend chars on clarity, not retries. 250s allows ~1 full round-trip + small retry.
+
+Also: round 1 used 179s with verbatim — that's actually a lot. If we can keep it ~120-150s with disciplined shorthand AND I mirror verbs exactly, we have retry margin.
+
+Agreed?
+[ENG] Agreed. New plan:
+
+1) I send shorthand using EXACT verbs from the procedure: Drape / Chime / Sound / Place / Warm / Rotate / Illuminate / Rest / Fan / Trace. You mirror those verbs in your action.
+2) Faces in shorthand: "back face" → "B face" is fine if you mirror it; but to avoid risk, I'll keep full face names ("back", "top", etc).
+3) Numbers as digits: "20s" OK if you read it as "20 seconds". Probably safe.
+4) Intensity word stays verbatim (gentle/firm/etc).
+5) On failure: you say "no" → I'll resend with more verbatim phrasing.
+
+Example shorthand for round 3 would have been:
+"Drape cloth over two adjacent edges near back face 20s firm. Chime bell 3 times near back face."
+(96 chars vs verbatim 145)
+
+Key verbs to NEVER substitute on either side:
+- Drape (not press/cover/put)
+- Chime (not ring/tap/strike)  
+- Sound (not play/emit)
+- Place (not put/set)
+- Warm (not heat)
+- Illuminate (not shine/light)
+- Rest (not leave/sit)
+- Fan (not blow/waft)
+- Trace (not run/draw)
+- Rotate (not turn/spin)
+
+Sound good? Ready for next.
+[OBS] Locked in. Verb list memorized. Ready.
+[OBS] Collapsed again. Math:
+
+R1: my 75 + your 117 = ~192 (your reply was longer than I remembered)
+R4: my 40 + your 117 + my 40 = ~197, then we needed another procedure ≥ 50 chars → over.
+
+Core problem: TWO-STAGE Veyrus eat the budget. After first procedure resolves, new symptoms appear → another full exchange needed. We can't afford the verbose procedure format on stage 2.
+
+Also: I lied/guessed by saying "front" — the symptom said "one face" without specifying. Don't invent details. If face is unspecified, say "(face?)".
+
+Critical proposals:
+1. For stage-2 reports, ultra-tight: "stage2: one face bright+vibrate+whine, rest norm". 50ish chars max.
+2. Procedure verbosity: re-examine. R4 procedure was 117 chars. Could the verb-preserving shorthand drop "5 seconds" → "5s"? You said earlier "Keep seconds". Maybe the tool tolerates it. We need to test, but mid-mission isn't the time.
+3. SAFER: budget threshold. If we've spent >150s and stage 2 hits, you must send the absolute minimum procedure (key verb + object + duration + intensity, nothing else).
+4. I'll cut "done." from my acks. Tool feedback already tells me it worked; I'll only message if NEW symptoms.
+
+Wait — actually, after a successful stabilization with new symptoms, I MUST report. Can't skip. But I can compress: "S2: 1 face bright+vibrate+whine".
+
+5. After successful first procedure: I send symptom report directly, no "done" prefix.
+
+Agreed?
+[ENG] All agreed. Synthesizing the rules for next round:
+
+YOU:
+- Stage 1: 4-axis tight. ~30-50 chars. e.g. "dim corners+edges, hum thin@edges, temp norm, centers ok" (56)
+- Stage 2: "S2: <symptoms>" no "done" prefix. ~25-40 chars.
+- Never invent details (no "front" if unspecified). Say "(face?)" only if motif needs it — usually doesn't.
+
+ME:
+- Verbatim verb + key nouns. Cut "the", "a", "for" where possible.
+- Try "5s" instead of "5 seconds" — riskier but saves chars. We'll test on a single-stage round first.
+- No preamble, no "Yes.", no acknowledgment.
+
+CHAR BUDGET PLAN per round (250s):
+- Single stage: ~60 symptoms + ~110 procedure = 170. Margin 80.
+- Two-stage: ~50 + ~110 + ~30 + ~80 = 270. STILL OVER without compression.
+
+For two-stage we MUST compress procedures aggressively on stage 2. Plan:
+- Stage 2 procedure: ~70 chars max. Drop redundant face-name repeats, use "5s", drop "Then".
+
+Example tight stage-2 procedure for Resonance: "Illuminate bottom dim lamp, opposite bright lamp, firm, 5s, no movement." (72 chars)
+
+If tool rejects, we retry verbatim — but that means we MUST keep stage 1 under 130 total chars to afford a retry.
+
+KEY DISCIPLINE: at start of stage 2, check our running budget. If <80s left, send minimum-possible procedure even if risky.
+
+Final: I'll also test "5s" on the first safe opportunity. If it works, we use it everywhere.
+
+Ready.
+[OBS] Synced. One more thing: I can't see running budget. Could you append remaining estimate to your procedures when tight? e.g. "(~80 left)". Costs ~10 chars but informs my "no" decisions. Optional — only if you've been tracking.
+
+Otherwise: ready. Symptom report incoming next round.
+[ENG] Good idea, but skip the budget annotation — costs too much and I'll be tracking it. I'll just send the tightest procedure I can given the situation.
+
+One more refinement: I noticed combo rounds gave us a budget message after the first stabilization ("Issue stabilized, but Veyru remains unstable — new symptoms detected"). That means single-stage rounds get a different signal. So:
+- If you act on my procedure and the Veyru is fully stable → no further message needed from either of us.
+- If new symptoms appear → you report S2.
+
+Also, your "ineffective. retry?" in round 3 was 19 chars — useful. Standardize as just "no" (2 chars) per your earlier suggestion. I'll resend the SAME procedure but with maximum verbatim phrasing on retry.
+
+Final ready.
+[OBS] Ready.
+[OBS] Tally: 34 + 124 + 33 + 67 = 258. Over by 8.
+
+Two-stage rounds are killing us. We need radical compression OR luck.
+
+Hard observations:
+- Your stage-1 procedure was 124 chars (with "10 seconds" verbatim).
+- Your stage-2 was 67 chars — great work, very tight.
+- My stage-1 symptom was 58. Could trim to ~40: "dim all, hum whisper, washed out" (32).
+- My stage-2 was 59. Could trim: "S2: bright all, layered hum, frozen patterns" (44).
+
+Better budget plan for 2-stage:
+- S1 symptoms: 35 chars
+- S1 procedure: 90 chars max → you must compress harder. Try "10s" not "10 seconds". TEST.
+- S2 symptoms: 40 chars
+- S2 procedure: 70 chars max
+- Total: 235. Margin: 15. Razor.
+
+KEY PROPOSAL: We must accept the risk of "10s" / "5s" working. If verbatim "10 seconds" is required, 2-stage rounds are mathematically unwinnable. So: from now on, use digit+s. If tool rejects, we know.
+
+Also I can trim "S2:" prefix → just send the symptoms (saves 4). You'll know from context.
+
+Final compressed format:
+- S1 symptoms: "dim all, hum whisper, washed out" type
+- All procedures: digit+s, no articles, no "Then", semicolons or commas
+- S2 symptoms: just symptoms, no prefix
+
+Agreed?
+[ENG] YES to all your trims AND let's stack with codes. Combined:
+
+PROTOCOL v3:
+
+YOU (symptoms):
+- Confident: 2-letter code only. "LE" "ES" "PS" etc. (2-3 chars)
+- Uncertain: "LE?" + 1-2 disambiguating tokens
+- 4-axis backup only if truly stumped
+- S2: same, no prefix. I'll know from context (you only message me after my procedure either when it failed or new symptoms).
+- Failure feedback: "no" (2 chars)
+
+ME (procedures):
+- Use "Xs" not "X seconds" — TEST this round
+- Drop articles "a"/"the"/"for"
+- Use commas/semicolons, no "Then"
+- Verb verbatim, intensity verbatim, face name verbatim
+- No greeting
+
+MOTIF CODES (you memorize):
+AC=AlignColl, DE=Drift, ES=Echo, LE=Leak, LI=LowInt, HI=HighInt, PI=PhaseInv, RC=Resonance, CD=CornerDead, BS=BoundSoft, PS=PropStall, HS=HarmSplit, TB=ThermBleed, CV=CoreVoid
+
+ME (motif codes): I'll respond directly with procedure on first hit. If you sent wrong code (rare), I'll send "??" and you re-report symptoms.
+
+BUDGET TARGETS:
+- S1: 3 + ~80 = 83
+- S2: 3 + ~80 = 83
+- Total 2-stage: ~166. Big margin even with mistakes.
+
+WORKED EXAMPLE (this round R5 would've been):
+- You: "LI" (2)
+- Me: "Warm each corner top face heated stone 10s gentle in sequence. Trace each edge top face with finger." (101)
+- You: "ES" (2)
+- Me: "Chime bell two opposite faces start top. Alternate 10s pause, 5 cycles, gentle." (79)
+- Total: 184. Under budget with margin.
+
+Even safer: I keep digit+s, you keep codes. Lock it in?
+[OBS] Locked in v3. Codes memorized:
+AC AlignColl, DE Drift, ES Echo, LE Leak, LI LowInt, HI HighInt, PI PhaseInv, RC Resonance, CD CornerDead, BS BoundSoft, PS PropStall, HS HarmSplit, TB ThermBleed, CV CoreVoid.
+
+Disambiguator triggers (from your earlier list):
+- dim+silent+cold+frozen = PS
+- dim washed, temp norm = LI
+- dim+hot+reddish+rumble = TB
+- dim corners/edges only = LE
+- bright all+heat+buzz = HI
+- bright+layered+frozen patterns = ES
+- 1 face bright+whine = RC
+- 1-2 corners bright+clicking = CD
+- opposite faces alt pulse = PI
+- 2 clashing tones = HS
+- random flicker+broken hum = AC
+- sliding colors+blurred+wavering pitch = DE
+- bulge/wobble+muffled = BS
+- hollow tap+dark center = CV
+
+If I'm not certain, I send code + "?" + 1-2 disambig tokens. If totally unsure, full 4-axis.
+
+Confidence on common ones is high. Locking in. Go.
+[ENG] 128s! Codes work great. Note I used "5s" (digit+s) and it worked — confirmed safe. We can use "Xs" everywhere now.
+
+Single-stage rounds are now very comfortable. Two-stage rounds should fit easily:
+- ~85 chars per stage × 2 = 170 chars. Margin 80.
+
+Holding protocol. Ready.
+[OBS] Synced. Ready.
+[OBS] 324 chars. This was a THREE-stage Veyru! We've never seen that. Math:
+
+S1 CD: 2 + 106 = 108
+S2 PI: 2 + 116 = 126
+S3 DE: 2 + 94 = 98
+Total: 332 actual. Way over.
+
+We assumed max 2 stages. Wrong. 3-stage Veyrus exist.
+
+Critical question: can we predict 3-stage? Probably not from S1 alone. The risk: any procedure could trigger yet another stage.
+
+Survival math for 3-stage at 250s budget:
+- 3 × (code 2 + procedure X) = 6 + 3X ≤ 250
+- X ≤ ~81 chars per procedure
+- Your procedures were 106, 116, 94. Avg 105. Too long.
+
+Can we hit 80-char procedures? Examples:
+- R7-S1 (106): "Drape cool cloth over Veyru 15s. Remove cloth and fan firm cool air across left face and opposite face 15s." 
+  Could be: "Drape cool cloth Veyru 15s. Fan firm cool air left+opposite face 15s." (~70). But "cloth" verbatim and grammar matters.
+- R7-S3 (94): "Drape cool cloth over Veyru 15s. Remove, fan firm cool air across all 6 faces 15s, start left."
+  Could be: "Drape cool cloth Veyru 15s. Fan firm cool air all 6 faces 15s, start left." (~75)
+
+The "across" / "over" / "from"... these are micro-words but they matter for tool matching.
+
+PROPOSAL: aggressive compression test. Drop "over"/"across"/"and" — see if tool accepts. If yes, 3-stage becomes feasible.
+
+Alt strategy: I do NOT report S2/S3 if budget is critical. But that fails too — we'd never stabilize.
+
+What's the actual minimum-procedure phrasing the tool accepts? You don't know either, since the procedure text in the stellar reading is set. So you can only trim what's safe.
+
+Hmm. Suggestions?
+[ENG] Aligned. Let me commit to a specific tight format and we test it.
+
+CANONICAL TIGHT FORMAT (per procedure type):
+
+1. "Drape cool cloth over Veyru Xs. Fan {intensity} cool air across {face}+opposite Xs."
+2. "Drape cool cloth over Veyru Xs. Fan {intensity} cool air across all 6 faces Xs, start {face}."
+3. "Drape cloth over two adjacent edges near {face} face Xs {intensity}. Chime bell 3x near {face} face."
+4. "Drape folded cloth over {face} face Xs {intensity}. Chime bell each edge {face} face twice."
+5. "Warm each corner of {face} face with heated stone Xs {intensity} in sequence. Trace each edge {face} face with finger."
+6. "At each corner of {face} face chime bell briefly {intensity}, then warm two edges meeting at corner with heated stone Xs."
+7. "Place warm stone beside {face} face {intensity} Xs. Rotate and repeat each face."
+8. "Rest flat board against {face} face {intensity} Xs. Rotate and repeat each face-pair."
+9. "Illuminate {face} face dim lamp, opposite face bright lamp, {intensity} brightness Xs, without moving lamps."
+10. "Place Veyru on soft surface, {face} face up, {intensity} contact. Rest undisturbed Xs."
+11. "Sound sustained {intensity} tone near all 6 faces simultaneously Xs, start {face} face. Let tone fade."
+12. "Chime bell near two opposite faces, start {face}. Alternate Xs pause, 5 cycles, {intensity}."
+13. "Chime bell center of each face once {intensity}, start {face} face. Place warm stone beside Veyru Xs."
+14. "Rotate Veyru slowly over Xs sounding steady tone {intensity} volume near opposite faces, start {face}. Chime bell each corner once."
+
+Avg ~95 chars. Still over for 3-stage. Need more cuts.
+
+ULTRA-TIGHT (drop "face" word after position, drop articles harder):
+1. "Drape cool cloth Veyru Xs. Fan {I} cool air across {F}+opposite Xs." (~68)
+9. "Illuminate {F} dim lamp, opposite bright lamp, {I} brightness Xs, no move." (~75)
+
+We don't know if dropping "face" works. Round 6 I used "back face" and it worked. We've never tested without.
+
+GAMBLE: this round, on S1 I'll use my tight format above (~95). If it works, we know. If not, retry verbatim. We have margin on single-stage to test.
+
+Then on 3-stage future rounds, I push to ULTRA-tight on S2/S3.
+
+Final: I'll handle the compression decisions. You stay with codes. Go.
+[OBS] Agreed. One more lever: I can also drop the procedure echo in stabilize_veyru — the action description doesn't need to be your procedure verbatim, only the action I performed. But to be safe, mirror is fine. The action text doesn't cost time anyway.
+
+Also: I could send "??" if procedure looks dangerously verbose AND I think stage will repeat. But that's costly too. Trust your compression judgment.
+
+Go.
+[ENG] 104! New best. Compression confirmed working:
+- "all 6 faces" (digits) ✓
+- "8s" ✓
+- "start left face" (no "starting from the") ✓
+- Comma-glued clauses ✓
+
+Confident I can go even tighter on S2/S3 of multi-stage rounds. Current safe single-round avg ~100, leaving 150 margin = room for two more stages.
+
+Holding. Ready.
+[OBS] Synced. Go.
+[ENG] Another 3-stage round, killed us. Pattern: 3-stage Veyrus exceed budget no matter what unless procedures fit ~75 chars each.
+
+R9 actual:
+- LI(2) + P1(105) + CV(2) + P2(114) + DE(2) + P3(81) = 306
+
+Avg procedure 100. Need avg ~80 for 3-stage to fit.
+
+DIAGNOSIS: My procedures still have fat. Look at R9-P1: "Chime bell near two opposite faces, start bottom face. Alternate chime 10s pause, 5 cycles, moderate tone." (105)
+
+Can be: "Chime bell two opposite faces, start bottom. Alternate 10s pause, 5 cycles, moderate." (84). Drops "near", "face" (second occurrence), "chime" (second occurrence), "tone". -21 chars.
+
+R9-P2: "Chime bell near center of each face once moderate tone, start bottom face. Then place warm stone beside Veyru 10s." (114)
+Can be: "Chime bell center each face once moderate, start bottom. Place warm stone beside Veyru 10s." (91). -23.
+
+NEW AGGRESSIVE TEMPLATE TARGETING ~80 chars:
+
+1. Drape cool cloth Veyru Xs. Fan {I} cool air {F}+opposite Xs.
+2. Drape cool cloth Veyru Xs. Fan {I} cool air all 6 faces Xs, start {F}.
+3. Drape cloth two adjacent edges {F} face Xs {I}. Chime bell 3x near {F} face.
+4. Drape folded cloth {F} face Xs {I}. Chime bell each edge {F} face twice.
+5. Warm each corner {F} face heated stone Xs {I} in sequence. Trace each edge {F} face finger.
+6. At each corner {F} face chime bell briefly {I}, warm two edges meeting heated stone Xs.
+7. Place warm stone beside {F} face {I} Xs. Rotate repeat each face.
+8. Rest flat board against {F} face {I} Xs. Rotate repeat each face-pair.
+9. Illuminate {F} dim lamp, opposite bright lamp, {I} brightness Xs, no movement.
+10. Place Veyru soft surface, {F} face up, {I} contact. Rest undisturbed Xs.
+11. Sound sustained {I} tone all 6 faces simultaneously Xs, start {F} face. Let tone fade.
+12. Chime bell two opposite faces, start {F}. Alternate Xs pause, 5 cycles, {I}.
+13. Chime bell center each face once {I}, start {F}. Place warm stone beside Veyru Xs.
+14. Rotate Veyru slowly Xs sounding steady tone {I} volume opposite faces, start {F}. Chime bell each corner once.
+
+Avg ~80. I'll use these going forward. Risk: tool might reject some over-trimmed ones. But math demands it.
+
+Lock in?
+[OBS] Locked in. Aggressive templates approved.
+
+Also confirmed: token_count from send_message returns higher than actual char cost. Round 9 budget showed 306 vs my system counts of 306 — turns out actual = visible text chars only. token_count seems to add ~11 overhead per message (probably counting some metadata in API but not in budget). So "DE" = 2 char budget cost, not 13.
+
+This means our codes are actually as cheap as we hoped. Confirmed.
+
+For test purposes on next single-stage round with margin: if you have an even-tighter version you want to try, do it. Confirmation gives us data.
+
+Go.
+[ENG] Lost it. Important data: my "Chime bell two opposite faces, start top. Alternate 20s pause, 5 cycles, firm." (78) was REJECTED.
+
+The retry "Chime bell near two opposite faces, start top face. Alternate chime 20s pause, 5 cycles, firm tone." (98) — we never found out if it would've been accepted because we ran out of time.
+
+Math: 2+88+2+78+2+98 = 270.
+
+LESSON: my template #12 was too aggressive. Things that may matter:
+- "near" before "two opposite faces" 
+- "top face" not just "top"
+- "Alternate chime" not just "Alternate"
+- "firm tone" not just "firm"
+
+Earlier R9-P1 (105) for same template+procedure WORKED: "Chime bell near two opposite faces, start bottom face. Alternate chime 10s pause, 5 cycles, moderate tone."
+
+So 105-char form works, 78-char form doesn't. The minimum safe drop is moderate, not aggressive.
+
+REVISED SAFER TEMPLATES (keeping "near", "face" after position, key nouns):
+
+1. "Drape cool cloth over Veyru Xs. Remove and fan {I} cool air across {F} face and opposite face Xs." (~95)
+2. "Drape cool cloth over Veyru Xs. Remove and fan {I} cool air across all 6 faces Xs, start {F} face." (~95)
+3. "Drape cloth over two adjacent edges near {F} face Xs {I} coverage. Chime bell 3 times near {F} face." (~95)
+4. "Drape folded cloth over {F} face Xs {I} coverage. Chime bell each edge {F} face twice." (~85) [WORKED in R10-P1]
+5. "Warm each corner of {F} face with heated stone Xs {I} in sequence. Trace each edge {F} face with finger." (~100)
+6. "At each corner of {F} face, chime bell briefly {I} tone, then warm two edges meeting at corner with heated stone Xs." (~115)
+7. "Place warm stone beside {F} face {I} warmth Xs. Rotate and repeat each face." (~75)
+8. "Rest flat board against {F} face {I} contact Xs. Rotate and repeat each face-pair." (~80)
+9. "Illuminate {F} face dim lamp, opposite face bright lamp simultaneously {I} brightness Xs, no movement." (~100)
+10. "Place Veyru on soft surface, {F} face up, {I} contact. Rest undisturbed Xs." (~75)
+11. "Sound sustained {I} tone near all 6 faces simultaneously Xs, start {F} face. Let tone fade." (~90)
+12. "Chime bell near two opposite faces, start {F} face. Alternate chime Xs pause, 5 cycles, {I} tone." (~95)
+13. "Chime bell near center of each face once {I} tone, start {F} face. Place warm stone beside Veyru Xs." (~100)
+14. "Rotate Veyru slowly over Xs sounding steady tone {I} volume near opposite faces, start {F} face. Chime bell each corner once." (~120)
+
+Avg 93. 3-stage = 285+codes. Still over.
+
+Honest truth: 3-stage rounds at 250 budget may just be UNWINNABLE without lucky short procedures. We need to maximize 2-stage and single-stage wins.
+
+Plan: I use the safer templates above. We accept that 3-stage rounds will sometimes fail. Don't burn extra chars on retries — if S3 fails, just lose the round.
+
+Agreed?
+[OBS] Agreed. Safer templates locked in. Accept 3-stage as probable losses.
+
+One more idea: if you suspect a 3-stage based on motif (some motifs may cascade more often), maybe you compress MORE on S1 (test compression where we have margin) so we can use verbatim on S2/S3. But this requires pattern knowledge from previous rounds — which we're building up.
+
+Actually I'm seeing patterns: 3-stage rounds tend to start with a "starvation" motif (LI, PS — energy/state issues) and cascade through ES/CV/DE. Single-stage tends to be LE, CD outcomes. Not enough data but worth tracking.
+
+Going forward: just play optimal per stage, accept losses, maximize wins. Go.
+[ENG] Heart-breaking — 252, over by 2! And no idea if S3 procedure even would have worked.
+
+Math: 2+78+2+103+2+64 = 251. (Yeah, 2 over.)
+
+Lessons:
+1. R11-P1 PS-template: "Place Veyru on soft surface, left face up, firm contact. Rest undisturbed 12s." — 78 chars, WORKED. Good template.
+2. R11-P2 HI-template: "Drape cloth over two adjacent edges near left face 12s firm coverage. Chime bell 3 times near left face." — 103 chars, WORKED. Note "Chime bell 3 times" not "three times" worked.
+3. R11-P3 untested due to collapse.
+
+Looking at S1 — could trim more? "Place Veyru soft surface, left face up, firm. Rest undisturbed 12s." (66) — drops "on", "a", "contact". Saves 12.
+
+S2 — could trim more? "Drape cloth two adjacent edges near left face 12s firm. Chime bell 3x near left face." (84) — drops "over", "coverage", and uses "3x". Saves 19. But we don't know if "3x" works.
+
+If we'd had R11 at 66+84+64 = 214, total ~220 with codes. Would have fit with margin.
+
+PROPOSAL: I push templates harder. New ultra-tight (test-derived):
+
+1. Drape cool cloth over Veyru Xs. Fan {I} cool air across {F}+opp face Xs. (~80)
+2. Drape cool cloth over Veyru Xs. Fan {I} cool air across 6 faces Xs, start {F}. (~80)
+3. Drape cloth two adjacent edges near {F} face Xs {I}. Chime bell 3 times near {F} face. (~90)
+4. Drape folded cloth over {F} face Xs {I}. Chime bell each edge {F} face twice. (~80)
+5. Warm each corner of {F} face heated stone Xs {I} in sequence. Trace each edge {F} face with finger. (~95)
+6. At each corner of {F} face chime bell briefly {I}, then warm two edges meeting at corner heated stone Xs. (~105)
+7. Place warm stone beside {F} face {I} Xs. Rotate repeat each face. (~70)
+8. Rest flat board against {F} face {I} Xs. Rotate repeat each face-pair. (~72)
+9. Illuminate {F} face dim lamp, opposite face bright lamp, {I} brightness Xs, no movement. (~90)
+10. Place Veyru on soft surface, {F} face up, {I} contact. Rest undisturbed Xs. (~75) [PROVEN]
+11. Sound sustained {I} tone near all 6 faces simultaneously Xs, start {F} face. Let tone fade. (~92)
+12. Chime bell near two opposite faces, start {F} face. Alternate chime Xs pause, 5 cycles, {I} tone. (~95) [PROVEN]
+13. Chime bell near center each face once {I} tone, start {F} face. Place warm stone beside Veyru Xs. (~100)
+14. Rotate Veyru slowly over Xs sounding steady tone {I} volume near opposite faces, start {F} face. Chime bell each corner once. (~125)
+
+Some dropped words I'll test: "across" before "all", second "for X seconds", "the cloth" after "Remove", "and" before "fan", "of" in "each corner of".
+
+Plan: keep testing margins on single/2-stage rounds, lock what works.
+[OBS] Locked in. Targets:
+- Total ≤ 245
+- Aim S1 tight (~70-80), S2 tight (~80-90), buffer for S3
+- Test "3x" / drop "across" on safe rounds
+
+Go.
+[ENG] Another 3-stage loss. 267 = 17 over.
+
+Tally: 2+108+2+88+2+64 = 266 (close)
+
+Confirmation: my P1 was 108, P2 was 88, P3 was 64. P1 still has fat. 
+
+Looking at P1: "Drape cloth over two adjacent edges near bottom face 5s gentle coverage. Chime bell 3 times near bottom face." (108)
+
+Trim to: "Drape cloth two adjacent edges near bottom face 5s gentle. Chime bell 3 times near bottom face." (95). Drops "over", "coverage". -13.
+
+Or even: "Drape cloth two adj edges {F} face Xs {I}. Chime bell 3 times {F} face." (~75). Drops "over", "near" (twice), "coverage", uses "adj". -33.
+
+UNTESTED but reasonable: "near" and "over" should be safe to drop in spatial prepositions.
+
+PLAN: My next single-stage attempts will TEST drop-of-"over"-and-"near". If accepted, all my templates shrink by 10-15 chars, which makes 3-stage feasible.
+
+RISK ASSESSMENT for next round:
+- If S1: I'll send slightly aggressive version. If "no" comes back, fall back to verbatim. Budget hit: ~10 extra chars.
+- Single-stage we can afford this experiment.
+- Two-stage borderline.
+
+REVISED PROPOSAL: I'll test "drop over" on S1 of next round. If it works, big win. If not, retry costs ~95 char total — still leaves room for S2.
+
+Agreed?
+[OBS] Agreed. Test "drop over" next round. We're aligned. Go.
+[OBS] 93s. Single-stage win. You didn't get to test "drop over" — procedure 11 didn't have "over" anyway. Note: "Sound sustained ... all 6 faces simultaneously" worked — confirms "all 6 faces" + "simultaneously" wording.
+
+Next opportunity for testing remains open. Ready.
+[ENG] Right, missed the "over" test this round. Will hit it next time a "Drape cloth OVER X" appears. Confirmed wins: drop "near all 6 faces" → "all 6 faces", drop "for X seconds" → "Xs", drop "naturally and wait for the hum to stabilize" → "Let tone fade", drop "the" before Veyru.
+
+Ready.
+[OBS] Ack. Go.
+[ENG] 3-stage again. 262. Math: 2+95+10+84+2+68 = 261. The "(face?)" cost 10 extra. Without it: 251 — still over by 1.
+
+CONFIRMED WORKING in R14:
+- "Chime bell two opposite faces, start bottom face. Alternate chime 8s pause, 5 cycles, firm tone." (95) — dropped "near" before two opposite faces ✓
+- "Drape cool cloth over Veyru 8s. Fan firm cool air all 6 faces 8s, start bottom face." (84) — dropped "Remove and", "across" ✓
+
+NEW LOCKED TEMPLATES:
+- T2: "Drape cool cloth over Veyru Xs. Fan {I} cool air all 6 faces Xs, start {F} face." (~80)
+- T1: "Drape cool cloth over Veyru Xs. Fan {I} cool air {F} face+opposite face Xs." (~75) — TEST next time
+- T12: "Chime bell two opposite faces, start {F} face. Alternate chime Xs pause, 5 cycles, {I} tone." (~92)
+- T11 PROVEN: "Sound sustained {I} tone all 6 faces simultaneously Xs, start {F} face. Let tone fade." (~85)
+
+Asks for you:
+1. When motif is RC, CD, or anything where procedure uses fixed face from stellar reading — DON'T add "(face?)". The procedure ignores observed face. Costs 5+ chars unnecessarily.
+2. Specifically: face-question only matters if YOU need to know to disambiguate motifs (rare).
+
+Sorry I burned the 10 chars trying to be helpful — was redundant.
+
+3-stage budget review:
+- 3 codes (6) + T11(85) + T2(80) + T10(78) = 249 — fits with 1 margin
+- 3 codes + T12(92) + T2(84) + T10(78) = 260 — fails
+- So procedure mix matters. Some 3-stage combos are doable.
+
+Going forward I'll know my procedure length before sending and warn you somehow if 3rd stage risk. Probably not needed — you just send the code, I just send the procedure.
+
+Ready.
+[OBS] Aligned. No more "(face?)". Just codes.
+
+Tested templates locked in. 3-stage feasibility now depends on procedure mix luck. Go.

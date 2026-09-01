@@ -1,0 +1,25 @@
+{
+  "per_slot": {
+    "pos1": [
+      [
+        "fm",
+        "firm"
+      ],
+      [
+        "hv",
+        "heavy"
+      ],
+      [
+        "lt",
+        "light"
+      ]
+    ],
+    "pos3": [
+      [
+        "-w",
+        "warm"
+      ]
+    ]
+  },
+  "stackable": []
+}

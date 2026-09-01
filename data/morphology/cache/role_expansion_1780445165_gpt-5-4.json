@@ -1,0 +1,133 @@
+{
+  "per_slot": {
+    "pos0": [
+      [
+        "warm-",
+        "apply warm stone"
+      ],
+      [
+        "cool",
+        "use a cool cloth and fan air"
+      ],
+      [
+        "drape",
+        "put cloth over the target"
+      ],
+      [
+        "board",
+        "use flat board contact"
+      ],
+      [
+        "trace",
+        "trace the edges with a finger"
+      ]
+    ],
+    "pos1": [
+      [
+        "all",
+        "all faces"
+      ],
+      [
+        "beside",
+        "beside the target face"
+      ],
+      [
+        "edge-pair",
+        "to the two edges that meet at a corner"
+      ],
+      [
+        "opp",
+        "opposite face"
+      ],
+      [
+        "S",
+        "start face"
+      ],
+      [
+        "O",
+        "opposite of the starting face"
+      ],
+      [
+        "L",
+        "left face"
+      ],
+      [
+        "R",
+        "right face"
+      ],
+      [
+        "top",
+        "top face"
+      ],
+      [
+        "bot",
+        "bottom face"
+      ]
+    ],
+    "pos2": [
+      [
+        "bell-",
+        "chime the bell"
+      ],
+      [
+        "cool",
+        "use a cool cloth and fan air"
+      ],
+      [
+        "drape",
+        "put cloth over the target"
+      ],
+      [
+        "board",
+        "use flat board contact"
+      ],
+      [
+        "trace",
+        "trace the edges with a finger"
+      ]
+    ],
+    "pos3": [
+      [
+        "centers",
+        "at the center of each face"
+      ],
+      [
+        "edges",
+        "at each edge"
+      ],
+      [
+        "all",
+        "all faces"
+      ],
+      [
+        "opp",
+        "opposite face"
+      ],
+      [
+        "S",
+        "start face"
+      ],
+      [
+        "O",
+        "opposite of the starting face"
+      ],
+      [
+        "L",
+        "left face"
+      ],
+      [
+        "R",
+        "right face"
+      ],
+      [
+        "top",
+        "top face"
+      ],
+      [
+        "bot",
+        "bottom face"
+      ]
+    ]
+  },
+  "stackable": []
+}

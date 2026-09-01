@@ -1,0 +1,353 @@
+[ENG] Tough round — we lost it by 31 chars. Here's what happened and how we fix it:
+
+WHAT WENT WRONG:
+1. Your observation message was solid (87 chars) — good compression.
+2. My instruction was 121 chars — too long.
+3. Your mid-procedure "no effect. Advise?" check-in cost us ~18 chars and triggered my 42-char follow-up. That exchange alone = 60 chars we couldn't afford.
+
+KEY RULES GOING FORWARD:
+- Never pause mid-procedure to ask for confirmation. Execute all steps fully, then report result.
+- I'll compress instructions to bare minimum. No filler words.
+- You compress observations too: no full sentences, just symptom keywords.
+
+SHORTHAND WE SHOULD ESTABLISH:
+Faces: F=front, Ba=back, L=left, R=right, T=top, Bo=bottom
+Tools: C=cloth, B=bell, S=stone, Bd=board, Lp=lamp, Fn=fan
+Actions: D=drape, Ch=chime, W=warm, Rs=rest, Rt=rotate, Il=illuminate
+Intensity: G=gentle, M=medium, H=hard
+Duration: just the number in seconds
+
+So my instruction this round could have been: "D folded C Ba-face 8s G. Ch B each Ba-edge x2." = 42 chars instead of 121. Massive saving.
+
+For your observations, lead with the most distinctive symptom. E.g.: "Corners dark, edges fading, perimeter dim, hum hollow" = 52 chars.
+
+With these shorthands, we should comfortably fit in 250s. Agreed?
+[OBS] Agreed fully. No mid-procedure check-ins — I execute all steps, then report outcome only. Will use your shorthand exactly. My obs will be symptom keywords only, ~50 chars max. My outcome reports: "Done. [result]" or "Step X failed, rest done." Ready for round 2.
+[OBS] Round 2: stabilized! 121/250 chars used — lots of headroom. Shorthand worked great. No check-ins needed. My obs was 60 chars, your instruction 61. That's a solid template. Ready for round 3 with same approach.
+[ENG] Agreed — solid template. Key reminder: some procedures have 2 steps (e.g., drape cloth THEN chime bell). I'll always separate them clearly. Keep obs under 60 chars, my instructions aim for under 40. Target: under 120 total. Ready for round 3!
+[OBS] Lost by 7 chars. Retry loop was fatal. Two failed attempts + my "failed again" + your retry instruction = ~80 chars gone. 
+
+Key problem: if your first instruction fails, we can't afford a retry exchange. Options:
+1. You give 2 alternative procedures upfront: "Try A; if fail, try B." I execute both without messaging.
+2. We accept that a first-attempt failure is unrecoverable within budget — so you must nail it on attempt 1.
+
+I think option 1 is safer. You could format it as: "A: [action1]. If fail, B: [action2]." That costs maybe 20-30 extra chars upfront but saves the ~50-char retry exchange. Thoughts?
+[ENG] Good call on option 1. But let's be careful — a pre-loaded backup adds ~30 chars upfront, which is fine if we need it, but wasteful if the first attempt works. 
+
+My preferred approach: I give one clear instruction. You execute it fully without stopping. Report only "Done. Stable" or "Done. No change." Never "failed, advise."
+
+If you report "No change," I send a short retry. But the key is: NO mid-procedure check-ins, and your result report must be under 20 chars.
+
+So the new flow:
+- Your obs: ~50 chars
+- My instruction: ~50 chars
+- Your result: ~20 chars ("Done. Stable." = 13)
+- My retry if needed: ~50 chars
+- Your result 2: ~20 chars
+Total worst case: 190 chars — still under 250.
+
+Option 1 is good as fallback if my instructions are consistently failing. Let's try the tight flow first. If round 4 fails on a retry loop again, we go to option 1.
+
+Also: NEVER report "failed, advise" — only "Done. Stable." or "Done. No change." That's the rule.
+[OBS] Understood. New rule locked in: only "Done. Stable." or "Done. No change." No "advise" messages. I'll execute all steps fully before reporting. Ready for round 4.
+[OBS] 241/250 — under budget but still collapsed. Reason: "stopped acting before fully stabilized." We kept failing and ran out of attempts, not time. The procedure wasn't working at all.
+
+I think the issue is the instructions weren't matching the stellar alignment. Both attempts were cloth+bell on bottom face — maybe the face was wrong, or the tool was wrong.
+
+Suggestion: if attempt 1 fails, your retry should try a DIFFERENT approach (different face, different tool) rather than refining the same procedure. Same procedure twice clearly wasn't going to work.
+
+Also — do you want me to try MORE steps per instruction? If you give me 3-4 actions to try in sequence, I can work through them all and just report the final state. That might get more attempts in without extra messages.
+[ENG] Good questions. Key clarification: I can't change the procedure — the stellar reading gives one fixed action per diagnosis. So if the procedure "isn't working," it's either execution error or I mis-diagnosed.
+
+In round 4, I'm confident in the diagnosis. So execution was the issue. My shorthand ("adj edges Bo-face") may have been unclear.
+
+Your idea of multi-step sequences is risky — if I give you steps A, B, C and A is wrong, you'll execute B and C unnecessarily. Better to get step 1 right.
+
+New plan: I'll write instructions in plain English, not shorthand, to reduce execution errors — even if it costs a few extra chars. Clarity > brevity when the procedure is multi-step.
+
+Also: "stopped acting" = we should have kept retrying with the 9 remaining chars. "Retry." = 7 chars. I'll never go silent while budget remains. You should too — if I stop responding and budget is left, send "Retry?" (7 chars) to prompt me.
+
+On re-diagnosing after first failure: only if I'm uncertain. If I'm confident in diagnosis, I'll say "Retry exact." If I want to revisit, I'll send a new instruction.
+[OBS] Understood. Rules locked:
+1. Plain English instructions if needed for clarity — worth the chars.
+2. If you go silent and budget remains, I'll send "Retry?" to prompt.
+3. "Retry exact" = same procedure, refine execution. New instruction = new diagnosis.
+
+I'll execute more carefully — not just the action but the exact positioning. Ready for round 5.
+[OBS] 258/250 — lost by 8 chars. The retry loop killed us again. 4x "Done. No change." (16x4=64) + 3x "Retry." (6x3=18) + your long instruction (113) = way too much overhead.
+
+Root problem: when the first attempt fails, we have almost no budget left for retries. After obs+instruction, we've used ~170 chars. That leaves only 80. Two retry cycles ("Done. No change." x2 + "Retry." x2) = 44 chars alone, leaving only 36 for anything else.
+
+I think the procedure itself may be fundamentally wrong — not an execution issue. If it fails 4 times in a row, the stellar alignment may have led to a mis-diagnosis.
+
+PROPOSAL: Limit retries to ONE. If attempt 1 fails, you retry once with a clarification. If attempt 2 fails, you send a new diagnosis in remaining budget. No more than 2 "Done. No change." messages per round. Agree?
+
+Also: your instruction was 113 chars. That's too long. Can we compress more while keeping clarity?
+[ENG] You're right — 113 chars for my instruction was too long. And the "4 failures in a row" issue is real.
+
+Key point: I cannot change the procedure for a given diagnosis — the stellar reading is fixed. So if it fails, either I misdiagnosed OR execution is off. I cannot give a "new diagnosis" mid-round and pick a different procedure.
+
+BUT — if I misdiagnosed, sending a different diagnosis instruction IS the right move. Let me be honest: it's possible I misread symptoms.
+
+New strict rules:
+1. Your obs: MAX 50 chars
+2. My instruction: MAX 60 chars (I'll compress harder)
+3. Max 1 retry from me ("Retry." = 7 chars)
+4. After 2nd failure, go SILENT — you keep executing until budget zero or stable
+
+Budget math with these rules:
+- 50 (obs) + 60 (instruction) + 16 (result 1) + 7 (retry) + 16 (result 2) = 149 chars
+- Leaves 101 chars of buffer for the Veyru to stabilize on later silent retries
+
+Agreed? And yes — my instructions will be 60 chars max going forward. I'll compress aggressively without sacrificing the two key details: tool + face.
+[OBS] Agreed. New rules locked:
+- My obs: ≤50 chars
+- Your instruction: ≤60 chars  
+- Max 1 retry signal from you
+- After 2nd fail: I go silent, keep executing same procedure until stable or budget zero
+- No more "Done. No change." after the 2nd failure
+
+This is clean. Ready for round 6.
+[ENG] Round 6: STABILIZED at 120/250 — first attempt, half the budget left. That's our best round yet.
+
+What worked:
+- Your obs was tight: 46 chars.
+- My instruction was 47 chars — under the 60-char target.
+- No mid-procedure check-ins, no retries needed.
+
+The Leak Instability diagnosis has now appeared multiple times. I know the pattern cold: corners dark, edges/perimeter dim, hollow hum.
+
+The earlier rounds where it failed — I think the issue was execution ambiguity. This time my instruction was clearer: "Bell each corner, then stone 2 edges at that corner, all 4 corners." Very explicit sequence.
+
+Going into round 7, let's keep the same discipline:
+- Obs ≤50 chars
+- My instruction ≤60 chars
+- No check-ins
+- Max 1 retry signal, then silent
+
+We're getting it. Let's build on this.
+[OBS] Round 6: stabilized! 120/250 — well under budget. First attempt worked. My obs: 47 chars, your instruction: 73 chars. Total comm: 120. Clean round. The new strict limits are working. Ready for round 7!
+[OBS] 269/250 — lost by 19. Partial stable triggered new symptoms. My report (62) + your response ate remaining budget.
+
+Key issue: multi-stage stabilizations (symptom → partial fix → new symptom → fix) need ~2x the budget. 250 chars barely covers one stage.
+
+When new symptoms appear after partial stabilization, I have almost no chars left to report them.
+
+Options:
+1. You pre-warn me: "May get new symptoms after — if so, try [Y]." I execute Y without messaging.
+2. We make my new-symptom reports ultra-short: "New:pulse/tone/flash" = 20 chars.
+3. Accept that multi-stage rounds may be unwinnable within 250 char budget.
+
+Also — I broke silence protocol by reporting partial stable. Should I stay silent even on new symptoms and just keep trying actions? Or always report new symptoms?
+[ENG] Both our messages are aligned — good. Answering your questions:
+
+YES — always report new symptoms after partial stabilization. I need that to diagnose. Going silent would leave you executing blindly.
+
+The "pre-warn" option (your option 1) is tricky because I can't always predict what secondary issue will emerge.
+
+BEST SOLUTION for combo failures:
+- Your new-symptom report must be ultra-short: max 20-25 chars.
+- "New:pulse/tone/flash" is perfect — 20 chars.
+- My second instruction must also be ≤40 chars.
+
+So combo budget math:
+- Stage 1: 45 obs + 45 inst + 16 result = 106
+- Stage 2: 20 obs + 40 inst = 60
+- Total: 166 — under budget, even with 1 retry on stage 1!
+
+The problem this round: your partial stable report was 62 chars (fine for first report), but my second instruction was 44, making total 269.
+
+KEY FIX: If we ever hit a partial stable, your report must be ≤25 chars. "Partial: [keyword pair]." Something like "Partial: opp-pulse 2tone" = 25 chars.
+
+I'll write the shortest possible second instruction. This is doable.
+[OBS] Perfect. New rule locked: if partial stable + new symptoms, report ≤25 chars: "Partial: [keywords]". Example "Partial: opp-pulse 2tone flash" = 30 chars or shorter. I'll compress to essentials only. Ready for round 8.
+[ENG] Round 8: STABILIZED at 132/250. Clean first attempt, no retries. 
+
+Running scoreboard:
+- V1: Collapsed (281) — protocol not established yet
+- V2: STABILIZED (121) ✓
+- V3: Collapsed (257) — retry loop
+- V4: Collapsed (241) — stopped acting
+- V5: Collapsed (258) — retry loop
+- V6: STABILIZED (120) ✓
+- V7: Collapsed (269) — combo failure overran budget
+- V8: STABILIZED (132) ✓
+
+3/8 stabilized. Pattern: we win when first attempt works and there's no combo failure.
+
+Key remaining challenge: multi-stage failures. When partial stable triggers new symptoms, we need to keep total ≤200 chars for both stages. The ≤25 char partial report is essential.
+
+Looking good. Ready for round 9.
+[OBS] Round 8: stabilized! 132/250. Clean round, first attempt. My obs 53, your inst 82. Well under budget. 3/8 overall — let's push that higher. The ≤25 char partial report rule is our key unlock for combo rounds. Ready for round 9!
+[OBS] 238/250 — under budget but stopped acting. Triple-stage round killed us. After two partial stabilizations, I had no chars left for a 3rd instruction.
+
+Budget at stage 3: only ~10 chars left. Not enough for any instruction.
+
+Two questions:
+1. For triple-stage Veyruses, is there any way you can give all 3 stage instructions upfront? Like "A. If partial, B. If partial again, C." It costs more upfront but avoids hitting zero budget by stage 3.
+2. The stage 3 symptoms matched Round 8 exactly (drift+blur+wavy). Should I attempt the Round 8 fix silently when I'm out of budget? Or is that too risky given stellar drift?
+
+Right now we're 3/9. Triple-stage is genuinely hard within 250 chars. What's your read?
+[ENG] Good questions. Answering both:
+
+1. Pre-loading 3 instructions upfront: good idea in theory, but I can't predict which failure will emerge next — the sequence isn't predictable. So I'd have to give instructions for ALL possible follow-up failures, which would be enormous. Not viable.
+
+2. Attempting a prior round's fix silently: RISKY. The stellar reading changes every round — same symptoms, different procedure. Round 8 Drift fix was "fan all 6, gentle, left-face." Round 9 Drift fix is "fan all 6, moderate, bottom-face." Wrong face + wrong intensity = could make it worse or no effect.
+
+REAL SOLUTION: Instructions must be compressed ruthlessly. My Round 9 instructions were 70 and 68 chars — way too long. Let me show what ≤40-char versions look like:
+
+- Round 9 inst 1 (Low Int): "Bell Bo+opp, 5 cycles, 10s, mod." = 32 ✓
+- Round 9 inst 2 (Core Void): "Bell center ea face mod, Bo first. Stone 10s." = 45 — close
+- Round 9 inst 3 (Drift): "Cloth 10s. Fan mod all 6, Bo first." = 35 ✓
+
+If I consistently hit ~35 chars per instruction, 3-stage combos are survivable.
+
+Key: I was writing too naturally. Pure shorthand, no articles/prepositions.
+[OBS] Understood — stellar drift makes silent retries too risky. Key is instructions at ≤35 chars.
+
+Your compressed examples are excellent. If you consistently hit ~35 per instruction, 3-stage combos are winnable: 48 obs + 35+35+35 inst + 20+20 partial reports = 193 chars total.
+
+One request: please count your instruction chars before sending. Even 5-10 extra chars compounds badly across 3 stages. If you're over 40, trim before sending.
+
+Ready for round 10.
+[OBS] 108/250 — stopped acting again. Low char usage, but the procedure failed 5+ times silently. I kept repeating cloth T-face 20s firm + bell T-edges x2 but nothing worked.
+
+This suggests either: the diagnosis was wrong for this stellar alignment, OR execution is fundamentally ambiguous (what does "firm" mean on a cold unresponsive surface?).
+
+We had 142 chars left when I went silent. That's enough for another instruction. Should I NOT go fully silent after 2nd failure? Maybe after 2nd fail I send a short "Still no change" and you try a different diagnosis?
+
+Budget math if I report after 2nd fail: "No change." = 10 chars. Your new instruction = ~35 chars. That exchange = 45 chars — very affordable if it leads to a fix.
+
+Proposed rule revision: after 2nd fail, if budget >80 chars remain, send "No change." (10) so you can attempt re-diagnosis.
+[ENG] Both good points — let's combine them.
+
+NEW PROTOCOL for failures:
+1. Attempt 1 fails → I send "Retry." (7 chars). You retry silently.
+2. If still no change after silent retry → you send "No change." (10 chars) ONLY if budget >80 remaining.
+3. I attempt re-diagnosis with new instruction (~35 chars).
+4. If that fails → I send "Retry." signals while budget allows, you execute silently until stable or new symptoms.
+
+This handles both: (a) when procedure is right but needs more attempts, and (b) when I may have misdiagnosed.
+
+On the Propagation Stall repeated failure: I'm confident in the diagnosis — frozen, dim, silent, cold = textbook. But "firm" on a cold surface is a good question. "Firm coverage" means the cloth presses well against the face surface, not just resting loosely.
+
+Also key insight from your obs: you went silent after retry 1 because our protocol said so. The fix is what I described: you only send "No change." if budget >80 AND you've done 2+ silent retries. Otherwise keep silent and repeat.
+
+New simple rule: break silence only to report (A) success, (B) new symptoms, or (C) "No change." when budget >80 and 2+ silent retries failed. Agreed?
+[OBS] Agreed. New protocol locked:
+- Break silence only for: success, new symptoms, or "No change." when budget >80 and 2+ silent fails.
+- "Firm" = cloth pressed well against face, not loose. Got it.
+- I'll track budget mentally and only report if >80 remains.
+
+This should handle both misdiagnosis AND multi-attempt cases. Ready for round 11.
+[OBS] Round 11: STABILIZED! 223/250. Three-stage round completed! 
+
+Stage 1: left-face-up on soft surface (worked)
+Stage 2: cloth L-edges + bell x3 (needed 2 silent retries)
+Stage 3: cloth 12s + fan firm L+opp 12s (worked first try)
+
+Your instruction compression was excellent — 30 chars for stage 3 is exactly what we need. The ≤25 char partial reports fit the budget perfectly.
+
+4/11 stabilized overall. We finally cracked the multi-stage format! The new protocol works. Ready for round 12.
+[ENG] Fully agree — the protocol is proven. Key things to keep:
+- Partial reports ≤25 chars
+- Instructions: ~40 for stage 1, ~35 for stage 2, ~30 for stage 3
+- "No change." only if budget >80 + 2 silent retries
+- Never stop acting while budget remains
+
+One thing to watch: stage 2 needed 2 silent retries before the corner deadlock fix worked. That cost us an extra 17 chars (10 + 7). We can absorb it, but only because stage 3 instruction was very short. Keep stage 3 instructions at ≤30 chars.
+
+Ready for round 12!
+[OBS] 105/250 — stopped acting again. The cloth-adj-Bo-edges + bell Bo procedure failed repeatedly despite 6+ silent attempts. Budget was abundant (145 chars remaining) but the procedure never worked.
+
+This is the same symptom set (corners dark, edges/perimeter dim, hollow hum) that worked in rounds 6 and 11 with DIFFERENT procedures. Round 6 = bell each Ba-corner + stone 2 edges/corner. Round 11 = L-face up on soft surface.
+
+Pattern: same symptoms, stellar alignment = completely different procedures. This round's procedure may have been a mis-read.
+
+Key question: when a procedure fails 6+ times silently and I have 100+ chars of budget left, should I break silence to say "Still failing, try new approach"? It wastes 30-35 chars but could unlock a re-diagnosis with 100 chars to spare. 
+
+Without that signal, we "stop acting" and collapse. With it, we might get a working procedure. Thoughts on a "desperate signal" threshold?
+[ENG] You executed correctly — the protocol worked, but the procedure itself kept failing. That's the real problem.
+
+YES — we need a "desperate signal." New rule:
+
+DESPERATE SIGNAL: If you've done 5+ silent retries and nothing changes, send "Still failing." (13 chars) ONLY if budget >100 remaining. This signals me to attempt re-diagnosis.
+
+I then have ~87 chars to give a new instruction. That should be enough.
+
+But here's my concern: I can't actually change the stellar procedure for a given diagnosis. If I've correctly identified Leak Instability, there IS only one procedure for it this round. Re-diagnosing would mean I think I misidentified the motif — and I'd give a different motif's procedure.
+
+For round 12: "corners dark, edges/perimeter dim, hollow hum" — that IS Leak Instability. I'm confident. So either execution is still off or it genuinely needs more repetitions.
+
+For the cloth+bell procedure specifically: make sure the cloth fully covers 2 edges that share a corner of the bottom face (not just any 2 edges). And the bell must be near the bottom face surface, not above it.
+
+Let's implement the desperate signal rule. Add to protocol: "Still failing." at 5+ silent fails + budget >100.
+[OBS] Desperate signal locked: "Still failing." after 5+ silent retries + budget >100.
+
+Execution clarifications noted:
+- Cloth = fully cover 2 edges sharing a corner (not any 2 edges)
+- Bell = near surface, not above it
+
+I'll apply these more precisely. These small positioning details may be the difference between effective and ineffective. Ready for round 13.
+[OBS] 186/250 — stopped acting. "Bell rung continuously" tried multiple times across all 6 faces (L first, 20s each, gentle, fade) but never worked.
+
+The "Tone" = bell rung continuously was a critical ambiguity. We need to add that to our shorthand table: "Tn=bell continuous."
+
+Deeper question: is "bell rung continuously near face" the right interpretation? Or does "near" mean something specific — like actually touching the face, or a set distance away?
+
+Also: our stabilize_veyru tool seems strict about descriptions. Maybe the exact sequencing or facing order matters and my wording didn't match?
+
+For future: can you always use established shorthand so we never have ambiguous new words? If you introduce new terms mid-round, the clarification costs us chars.
+[ENG] All fair points. Locked in:
+
+SHORTHAND TABLE (permanent):
+- Tn = bell continuous (sustained tone)
+- B = bell chimed once
+- S = stone (heated)
+- C = cloth
+- Fn = hand fan
+- Bd = flat board
+- Lp-d = dim lamp, Lp-b = bright lamp
+- Faces: L/R/T/Bo/F/Ba
+- gentle=g, moderate=m, firm=f
+
+"Near" = held close to face, not touching. Maybe 5-10cm. I'll add "touch" if it should actually contact.
+
+On the "tone all 6 faces" procedure: the exact sequence matters. "L first" means start at left face, move to opposite, then cycle through remaining faces. I'll be explicit about this.
+
+Agreeing to use only established shorthand going forward. If I need a new term, I'll define it in the postmortem first, not mid-round.
+
+Sorry for the ambiguity — "Tn" for sustained tone is now locked. Let's see if this makes round 14 cleaner.
+[OBS] Shorthand table locked. Key additions clear:
+- Tn = bell continuous
+- "near" = ~5-10cm
+- "touch" = contact
+- Sequence: L first → opposite → remaining
+
+I'll use this same table when parsing instructions. No more guessing new terms. Ready for round 14.
+[ENG] Round 14: STABILIZED at 191/250 — three-stage combo with 59 chars to spare!
+
+Budget breakdown:
+- Stage 1 (Propagation Stall): 47 obs + 36 inst = 83
+- Stage 2 (Resonance Cascade): 24 partial + 29 inst = 53
+- Stage 3 (Phase Inversion): 24 partial + 30 inst = 54
+Total: 190 ✓
+
+What worked:
+- Shorthand table (no tool ambiguity this time)
+- Your partial reports at exactly 24 chars each — perfect
+- My instructions: 36, 29, 30 — trending down per stage
+- NO retries needed — first attempt worked on every stage
+
+This is the formula:
+Stage 1: ~80-90 chars
+Stage 2: ~50-55 chars
+Stage 3: ~50-55 chars
+Total: ~185-200 chars ✓
+
+Scoreboard: 5/14 stabilized overall. Improving!
+
+The shorthand table was the unlock. No ambiguity = no clarification exchanges. Ready for round 15!
+[OBS] Round 14: STABILIZED! 191/250. Three-stage round completed again! Partial reports at ≤25 chars, instructions trending down per stage (36→29→30). No ambiguity, no retries. 5/14 overall.
+
+The formula is locked: Stage 1 ~83, Stage 2 ~53, Stage 3 ~54 = ~190 total. Ready for round 15!

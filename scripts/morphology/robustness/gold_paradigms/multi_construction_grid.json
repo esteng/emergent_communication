@@ -1,0 +1,35 @@
+{
+  "item_id": "multi_construction_grid",
+  "phenomenon": "two unrelated constructions coexist, one with an optional slot, alongside opaque indices that reuse both surface pieces",
+  "notes": "Three things at once. (1) ACTION+FACE and OPERATOR+COUNT are genuinely distinct constructions: neither class sequence is a subsequence of the other, so they must not be fused by shared left-edge position. (2) chN10 and wmS30 add an optional DURATION to the ACTION+FACE family; that is ONE construction with an optional slot, not a separate three-slot construction, so gold and prediction alike are expected to carry two templates after merging. (3) S1/S2 are opaque symptom indices whose S is homographic with the FACE morpheme S and whose digits look like the COUNT class -- both pieces are live morphemes elsewhere in this very codebook, and both must still be refused here.",
+  "codebook": {
+    "chN": "chime on the front face",
+    "chS": "chime on the back face",
+    "wmN": "warm the front face",
+    "wmS": "warm the back face",
+    "wmU": "warm the up face",
+    "trN": "trace the front face",
+    "chN10": "chime on the front face for ten seconds",
+    "wmS30": "warm the back face for thirty seconds",
+    "x2": "repeat the previous step two times",
+    "x4": "repeat the previous step four times",
+    "x6": "repeat the previous step six times",
+    "S1": "symptom: hairline crack near the seam",
+    "S2": "symptom: discoloration at the rim"
+  },
+  "gold": {
+    "chN": "ch=ACTION:chime + N=FACE:front face",
+    "chS": "ch=ACTION:chime + S=FACE:back face",
+    "wmN": "wm=ACTION:warm + N=FACE:front face",
+    "wmS": "wm=ACTION:warm + S=FACE:back face",
+    "wmU": "wm=ACTION:warm + U=FACE:up face",
+    "trN": "tr=ACTION:trace + N=FACE:front face",
+    "chN10": "ch=ACTION:chime + N=FACE:front face + 10=DURATION:ten seconds",
+    "wmS30": "wm=ACTION:warm + S=FACE:back face + 30=DURATION:thirty seconds",
+    "x2": "x=OPERATOR:repeat the previous step + 2=COUNT:two times",
+    "x4": "x=OPERATOR:repeat the previous step + 4=COUNT:four times",
+    "x6": "x=OPERATOR:repeat the previous step + 6=COUNT:six times",
+    "S1": null,
+    "S2": null
+  }
+}

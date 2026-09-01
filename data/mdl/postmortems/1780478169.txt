@@ -1,0 +1,589 @@
+[ENG] Tough first round — we lost by only 18 chars. Here's what I think we need to do differently:
+
+1. **Your symptom reports**: Already very good and compact. Try to cut even further — e.g. "Corners dark. Edges fade. Center OK. Hum hollow." is enough for me to diagnose.
+
+2. **My instructions**: I'll strip them down to bare minimum. Instead of "Folded cloth over back face, gentle, 8s. Then bell x2 near each edge of back face." I should write "Cloth back face gentle 8s. Bell x2 each edge back face."
+
+3. **Mid-procedure messages**: Your "ineffective" check-in cost us 26 chars. Unless something is going *wrong* (e.g. Veyru is getting worse), complete the full procedure before reporting back. The cloth step often looks inactive before the bell step takes effect.
+
+4. **Confirmation**: You don't need to confirm receipt of my instructions — just execute and report result only.
+
+Let's aim for: your report ≤60 chars, my instructions ≤80 chars, no mid-procedure check-ins. That keeps us well under 250. Sound good?
+[OBS] Agreed on all points. Key takeaways:
+1. My report ≤60 chars — I'll strip to bare essentials.
+2. Your instructions ≤80 chars — noted.
+3. No mid-procedure check-ins unless Veyru is visibly worsening mid-action.
+4. No confirmation of receipt — I'll just execute.
+5. After full procedure: if stabilized, I'll report any new symptoms. If ineffective, short "X" + await next instruction.
+
+One addition: if the first action is ineffective, I'll just send "X" (1 char) and wait rather than asking for guidance — saves us ~21 chars.
+
+Ready for Round 2!
+[ENG] Perfect. "X" for fail, short symptom report for new issue, nothing for success unless new symptoms emerge. Let's go!
+[OBS] Round 2 debrief: Only 118 chars used, so budget was fine. We failed because we stopped before full stabilization.
+
+After my "X", I waited for your next instruction — but the Veyru collapsed before you could respond. I think the issue is that after an ineffective step, I paused and waited instead of continuing to act.
+
+Key question: Should you send me a multi-step sequence upfront? If step 1 fails, I move to step 2 automatically without messaging you. That way we avoid the dead time after an "X".
+
+Example: "Step1: cloth top 5s. Step2 if X: stone top 10s. Step3 if X: bell x3 top."
+
+I only message you if ALL steps fail. Thoughts?
+[ENG] Great minds! Your multi-step idea is exactly right. But problem: I don't have fallback procedures built into the reference material — each motif maps to exactly ONE procedure per round. So there's no "step 2 if X."
+
+What I CAN do: after your "X," I need to re-diagnose. Maybe the motif shifted, or it's a different motif than I thought. So the best flow is:
+
+1. You describe symptoms (short)
+2. I send instruction (short)
+3. If it works: you report any new symptoms or nothing
+4. If it fails ("X"): you immediately add updated symptoms on the same message — e.g. "X still frozen cold silent" — so I can re-diagnose immediately without waiting for a second exchange
+
+The key is combining "X" + updated symptoms into one message so we only use one exchange instead of two. That keeps us in motion and within budget. Agreed?
+[OBS] Agreed. Updated flow:
+1. I report symptoms (≤60 chars)
+2. You send instruction (≤80 chars)
+3. If works: I report new symptoms or stay silent
+4. If fails: I send "X" + updated symptoms in ONE message so you can re-diagnose immediately
+
+This eliminates the dead exchange after an "X". Let's do it.
+
+Also noting: "soft surface" = cloth was my interpretation — let me know if there are specific tool names you use so I map them correctly every time.
+[ENG] Good point on tools. The available tools are: bell, heated stone, cloth, flat board, hand fan, lamp. I'll always name the exact tool. "Soft surface" was my shorthand — I should have said "cloth" or just "soft surface/cloth." I'll be explicit going forward. Ready for Round 3!
+[ENG] First success! 149/250 chars used — solid margin. New protocol is working well.
+
+Round 3 notes:
+- Your symptom report was 66 chars, perfectly tight and fully diagnostic.
+- My instruction was 84 chars — I could shave a few more but it was within safe range.
+- No mid-procedure interruptions — exactly right.
+
+For reference, the symptom pattern we matched: hot+dim+red tint+rumble+rough = the heat-overflow failure. Good to know for future rounds.
+
+One thing to consider going forward: if budget ever gets tight (say we're under 80 chars left and still need an exchange), we could use single-word shorthand for faces — "B"=back, "T"=top, "F"=front, etc. But for now our current approach is working. Ready for Round 4!
+[OBS] Saw your message — agreed on all. Face shorthand noted for tight situations: B=back, T=top, F=front, and we can add Si=side, Bo=bottom if needed.
+
+Also logging that symptom pattern: hot+dim+red+rumble+rough = heat-overflow failure. Though procedures change by alignment, the symptom description itself helps us communicate faster.
+
+Ready for Round 4!
+[ENG] Round 4 debrief — collapsed by 22 chars.
+
+The core issue: we had TWO failure motifs in sequence. We used 145 chars on the first exchange, leaving only 105 for a second. But between the observer's new symptom report (87 chars) and my instruction (44 chars) we needed 131 more — 26 over budget.
+
+Key lessons:
+
+1. **Multi-failure rounds exist.** When a first procedure resolves one issue but new symptoms appear, we face a second full exchange. We need to budget for this possibility upfront.
+
+2. **Second symptom report was too long.** "Stable. New: 1 face very bright, intense vibration. High whine near it. Others normal." = 87 chars. For a second-round report, target ≤40 chars. E.g.: "New: 1 face blazing, vibrating, high whine." = 43 chars.
+
+3. **My first instruction (77 chars) was fine.** But if multi-failure is possible, I should aim for ≤60 chars on first instruction to leave room.
+
+Target allocation for multi-failure rounds:
+- Report 1: ≤55 chars
+- Instruction 1: ≤60 chars
+- Report 2: ≤40 chars
+- Instruction 2: ≤60 chars
+- Total: ~215 chars — safe margin
+
+Does this work for you?
+[OBS] Fully agreed. Your char breakdown is correct — I miscounted my symptom report (it was 87, not 32).
+
+New targets locked in:
+- Report 1: ≤55 chars
+- Instruction 1: ≤60 chars
+- Report 2: ≤40 chars
+- Instruction 2: ≤60 chars
+- Total ~215, safe margin of ~35
+
+I'll apply this next round. My second report will be stripped to bare minimum — no full sentences, just key signals. "1 face blazing+vibrating, high whine" style. Ready for Round 5!
+[OBS] Round 5 debrief: 268 chars, over by 18 again. I'm confused — I counted our messages as roughly: my report (29) + your instruction (82) + my X report (21) + your 2nd instruction (52) + my 2nd X (13) = ~197. But we're hitting 268. 
+
+There must be significant overhead I'm not accounting for. Maybe the system counts differently, or earlier round messages bleed over?
+
+Key issue: stabilization failed TWICE with the same instruction. Was this a re-diagnosis error on your end, or was my execution wrong? Should I try describing my execution differently?
+
+Also — we're repeatedly hitting 268 chars. Is there a pattern where the engineer's messages are longer than they appear? I want to recount your Round 5 instructions: "Heat stone each corner top face, gentle, 10s each. Then trace each edge top face." = 82 chars. That's already over the ≤60 target. Could you aim for shorter instructions even when the procedure is complex?
+[ENG] Round 5 debrief — collapsed again by a repeat-failure trap.
+
+Your counting is off because you're estimating words, not characters (including spaces and punctuation). Let me recount for real:
+
+Your report 1: "All faces dim/faint. Hum whisper. Patterns washed out. Low overall." = 68 chars
+My instruction 1: "Heat stone each corner top face, gentle, 10s each. Then trace each edge top face." = 82 chars
+Your X report: "X still dim all faces, whisper hum, no change." = 47 chars
+My instruction 2: "Stone each corner top, gentle 10s. Trace edges top." = 52 chars
+Your X again: "X again. Same symptoms." = 23 chars
+Total: 272 chars → collapse.
+
+You are RIGHT that my instruction 1 was already over the ≤60 target (it was 82). I need to be more aggressive about compressing. The procedures have many required words, but I can strip aggressively. For example:
+- "Heat stone each corner top face, gentle, 10s each. Then trace each edge top face." (82)
+- vs. "Stone top corners gentle 10s each. Trace edges top." (51) ✅
+
+Going forward:
+- Your reports: ≤45 chars
+- My instructions: ≤55 chars
+- X+update: ≤30 chars
+- Retry: ≤50 chars
+- Target total: ≤180 chars — meaningful safety margin
+
+On the diagnosis: Low Intensity symptoms were clear and consistent. The procedure may have just required two attempts, which is fine IF we have the budget. We didn't. That's the real problem — we need more headroom per exchange.
+
+Also — after a second failed attempt, do NOT send another X message. Just stop. We had zero chars left and your "X again" was what pushed us over. Agreed?
+[OBS] Understood. I was underestimating char counts badly. Strict new targets:
+- My report 1: ≤45 chars
+- Your instruction 1: ≤55 chars
+- My X+update: ≤30 chars
+- Your retry: ≤50 chars
+- Target total: ≤180 chars
+
+And critical rule: after 2nd failed attempt, NO more messages — just stop to preserve remaining budget for you to redirect.
+
+I'll count characters precisely before sending. Ready for Round 6!
+[OBS] Round 6 debrief: 157 chars used, budget was fine. Problem: I stopped acting after 2nd failed attempt per our protocol — but the Veyru needed more action.
+
+Two possible issues:
+1. My execution was wrong both times. Should I be describing my actions differently?
+2. The procedure needs a 3rd try with modified execution.
+
+I think our "no message after 2nd fail" rule needs revision. With 93 chars still available, we had room for another exchange. 
+
+New proposal: only silence after 2nd fail if we're under 50 chars remaining. Otherwise, send "X2" (2 chars) so you know to send a new instruction. What do you think?
+
+Also — both times the engineer sent the same instruction back. Is that intentional? Should I interpret "same instruction again" as "try harder/differently"?
+[ENG] Round 6 debrief — budget was fine (157 chars), we just stopped too early.
+
+You're right and I agree with your "X2" proposal. Revised stopping rule:
+- After any failed attempt, ONLY go silent if ≤50 chars remain.
+- Otherwise send "X" + brief update so I can retry.
+
+On the repeated same instruction: yes, intentional — it means "try again same procedure." But I think the issue is instruction CLARITY, not repetition. Let me ask:
+
+When I said "Bell ea corner back mod. Stone 2 edges/corner 5s" — did you:
+(a) Ring bell at all 4 corners of back face, THEN separately warm both edges at each corner?
+OR
+(b) At each corner: ring bell, then immediately warm that corner's edges, then move to next corner?
+
+Option (b) is correct — it's done corner by corner in sequence. If you did (a), that's the execution gap.
+
+New compressed format for this procedure: "Ea back corner: bell, then stone both edges 5s."
+
+Does that make the per-corner sequence clearer? That's 49 chars and unambiguous.
+
+Also — going forward, I'll vary the instruction slightly on retry to signal "same procedure, focus on sequence." Ready for Round 7!
+[OBS] That's the execution gap — I did (a), all corners then all stone. Should have been (b): corner by corner in sequence.
+
+New format "Ea back corner: bell, then stone both edges 5s." is clear — I'll execute in sequence going forward.
+
+Revised stopping rule confirmed: only go silent if ≤50 chars remain. Otherwise send "X" + brief update.
+
+Ready for Round 7!
+[OBS] Round 7: 231 chars, 19 remaining, but stopped. What happened? After my "X. Pulse+flash+2 tones continue." I waited — the CRITICAL warning hit, then collapse. Did you send a 3rd instruction? I never received it before collapse.
+
+I think the issue is response latency — by the time you sent the 3rd instruction, time had run out. With only ~16 chars left, your retry instruction (even at ≤16 chars) would have just barely fit, but we couldn't complete the exchange in time.
+
+Key insight: when we're in a multi-step round, we must reserve enough budget for the FULL multi-step sequence. With a 2nd stabilization needed, we used 234 chars out of 250, leaving almost nothing for a 3rd attempt.
+
+Suggestion: After a second stabilization triggers new symptoms, immediately try a logical action without waiting — OR we pre-agree on "emergency fallback" actions: e.g., if we have <20 chars, I try flat board on the active face. But this breaks our "don't diagnose" rule.
+
+Alternatively: aim for MUCH tighter messages so we have more buffer. Target 160 chars for 2-exchange rounds, leaving 90 for emergencies. What do you think?
+[ENG] Round 7 debrief — 231 chars, collapsed on second motif.
+
+You're right about the issue. I had 17 chars left but no useful instruction fits in 17 chars. Response latency was also a factor.
+
+Your Phase Inversion report: "Faces pulse bright/dark+edges flash. Hum 2 tones." = 49 chars. Target was ≤30.
+Could be: "Pulse bright/dark, 2-tone hum." = 30 chars exactly ✅
+
+Agreed on tighter targets. New regime:
+- Exchange 1 (report + instruction): ≤90 chars total
+  - Report 1: ≤35 chars
+  - Instruction 1: ≤55 chars
+- Exchange 2 (report + instruction): ≤80 chars total
+  - Report 2: ≤25 chars
+  - Instruction 2: ≤55 chars
+- X + retry: ≤50 chars total
+  - X report: ≤15 chars
+  - Retry: ≤35 chars
+- Total budget: ≤220 chars, leaves 30 char emergency buffer
+
+No fallback actions without my diagnosis — too risky. But you're right that the CORE problem is exchange 1 using too much. I need to compress more aggressively. "Cool cloth over Veyru 15s. Fan firm left+opp face 15s." = 55 chars is already at limit. Some procedures are inherently longer.
+
+Bottom line: report 2 must be ≤25 chars. Ruthlessly compressed. Agreed?
+[OBS] Agreed. Strict new targets locked:
+- Report 1: ≤35 chars
+- Instruction 1: ≤55 chars
+- Report 2: ≤25 chars
+- Instruction 2: ≤55 chars
+- X+retry: ≤50 total (X: ≤15, retry: ≤35)
+- Total ≤220, 30-char buffer
+
+Example report 2: "Pulse bright/dark, 2-tone hum." = 30. I can do even tighter: "Pulse opp faces. 2-tone hum." = 28.
+
+I'll rehearse counts before sending every message. No exceptions. Ready for Round 8!
+[OBS] Round 8 debrief: 217 chars, 33 remaining. Same procedure failed 3 times — execution must be the issue.
+
+I tried 3 interpretations of "cloth 8s, fan all 6 faces 8s left first":
+1. Cloth whole Veyru 8s, then fan each face 8s sequentially left→right
+2. Cloth 8s, fan each face starting left, moving around in order
+3. Cloth 8s, fan with continuous sweep starting from left for total 8s
+
+None worked. What does "fan gentle all 6 faces 8s" mean precisely?
+- All 6 faces simultaneously? (impossible with one fan)
+- 8 seconds total split across faces?
+- 8 seconds per face = 48 seconds total?
+
+Also: "left first" — left from whose perspective? Standing in front of the Veyru, "left" is one face. But if it means MY left, the face differs by my position.
+
+I need you to describe the exact physical motion for this procedure so I can map it correctly. No char cost here in postmortem.
+[ENG] Great breakdown! Let me clarify the Drift Escalation procedure exactly:
+
+**Step 1 — Cloth:**
+Drape a cool/cold cloth over the entire Veyru and leave it there for 8 seconds. The cloth should cover the whole device.
+
+**Step 2 — Remove and fan:**
+REMOVE the cloth completely. Then use the hand fan to fan cool air across the Veyru, visiting each face in sequence. The 8 seconds is the TOTAL time for all 6 faces — roughly 1-2 seconds per face. Move systematically around the device.
+
+**Starting face — "left":**
+From your position standing in front of the Veyru, the left face is the face on your left side. That's where you begin fanning. Then fan the remaining faces: right face, front, back, top, bottom (or any consistent order after starting from left).
+
+**Intensity — "gentle":**
+Gentle means light, unhurried fanning — not vigorous.
+
+So the full motion is: cool cloth over whole device → wait 8s → remove cloth → fan left face gently → continue systematically to all other 5 faces → complete within 8s total.
+
+Does this match what you tried in attempt 3? If not, which step was different?
+
+Also, check: interpretation #3 (continuous sweep starting from left for total 8s) sounds closest to correct. Did that fail too?
+[OBS] That's likely the gap — I may not have explicitly removed the cloth before fanning. In attempt 3 I described "placing cloth 8s, then fanning" but didn't specify cloth removal. The system may have interpreted me as fanning OVER the cloth.
+
+Confirmed correct procedure:
+1. Cool cloth over entire Veyru → 8 seconds
+2. REMOVE cloth completely
+3. Fan left face gently → continue to all 5 remaining faces → total 8 seconds
+
+I'll explicitly state "remove cloth" in my next stabilize_veyru action call. That should fix it.
+
+Also confirmed: "left" = my left when facing the front. I'll use that orientation.
+
+Ready for Round 9!
+[ENG] Confirmed — cloth removal was the gap. Going forward I'll include "remove" in my instruction when the procedure requires it, even at the char cost. E.g.: "Cloth 8s, remove, fan gentle all 6 left." = 41 chars — fits our ≤55 target and removes all ambiguity. Ready for Round 9!
+[ENG] Round 9 debrief — 220 chars used. Budget was managed well but Core Void failed twice.
+
+Low Intensity resolved on first attempt ✅ — good progress.
+
+Core Void procedure: "Chime a bell near the center of each face once at moderate tone, starting from the bottom face. Then place a warm stone beside the Veyru for 10 seconds."
+
+Walk me through your Core Void execution:
+1. Did you chime the bell near the CENTER of each face? (Not edges or corners — the middle of each face)
+2. Did you do ALL 6 faces?
+3. Did you start from the bottom face?
+4. After the 6 chimes, did you place a warm stone BESIDE (not on top of) the Veyru and leave it there for 10 seconds?
+
+I'm wondering if "center of each face" is being interpreted correctly. The center is the exact middle point of each face surface. Also "beside" means adjacent to the Veyru, not touching/covering it.
+
+Also: "moderate tone" for the bell means a medium-strength chime — not too light, not too hard.
+
+What step might have been different from what I described?
+[OBS] That's exactly the gap — "beside the Veyru" means NEXT TO it, not touching/on it. I was pressing the stone against a face surface every time.
+
+Confirmed Core Void procedure:
+1. Bell near center of EACH face (middle of face surface), moderate tone, starting bottom, all 6 faces
+2. THEN place warm stone ADJACENT to the Veyru (not touching it) and leave there for 10 seconds
+
+To clarify instructions, could you add "(not on)" or "adj" when stone is placed beside? E.g. "Stone adj Veyru 10s" vs "Stone on [face] 10s" — that 2-3 char distinction would prevent this confusion going forward.
+
+This was a critical execution gap. Now fixed. Ready for Round 10!
+[ENG] Confirmed! "Beside" is now "adj" in all my instructions. Key distinction:
+- "Stone adj Veyru" = warm stone placed NEXT TO (not touching) the Veyru
+- "Stone on [face]" = stone held close to/against a specific face
+- "Stone beside [face]" = same as adj, stone placed next to that face without touching
+
+I'll be explicit about contact vs no-contact going forward. This is a critical tool-placement distinction.
+
+Summary of all execution clarifications so far:
+1. Cloth removal: always "remove, then fan" not "fan through cloth"
+2. Per-corner sequence: bell THEN stone at each corner before moving to next
+3. Adjacent stone: "adj" = no contact, not pressed against face
+4. "Beside" face = starting position, not only face
+
+We're building a solid shared vocabulary. Ready for Round 10!
+[ENG] Round 10 debrief — 214 chars used. Propagation Stall failed 3 times.
+
+Budget was well-managed (your reports: 30, 14, 15 chars — perfect!). The problem is the procedure itself failing.
+
+Propagation Stall procedure: "Drape a folded cloth over the top face for 20 seconds at firm coverage. Then chime a bell near each edge of the top face twice."
+
+Please walk me through your execution step by step:
+1. Was the cloth FOLDED (not just flat/draped loosely)?
+2. Did you place it OVER (on top of, covering) just the top face?
+3. Was coverage FIRM — meaning the cloth pressed snugly, not loosely resting?
+4. Did you leave it for 20 full seconds?
+5. After removing the cloth, did you chime the bell near each of the 4 EDGES of the top face, 2 chimes per edge = 8 total chimes?
+6. Were the chimes near the EDGES (not corners, not center) of the top face?
+
+I'm particularly suspicious of step 3 (firm coverage = pressed/snug) and step 5 (edges specifically, not corners).
+
+Also — did the cloth stay on during the 20 seconds or did you remove it mid-way?
+[OBS] Walking through my attempts:
+
+Attempt 1: Folded cloth, pressed firm on top face, held 20s → removed → bell x2 at each of 4 edges sequentially (8 total chimes). I may have rung bell AT or very near corners thinking they were "edges."
+
+Attempt 2: Same but I was more intentional about ringing bell along each EDGE (the long flat sides of the top face, not corners). Still failed.
+
+Attempt 3: Did NOT remove cloth — kept it on top face while ringing bell x2 at each of 4 edges. Failed.
+
+My question: Am I right that the top face has exactly 4 edges? And "near each edge" means I hold the bell close to (but not touching) the midpoint of each edge — not at the corners?
+
+If my attempt 2 execution was correct (folded+firm 20s → remove → bell x2 midpoint of each edge ×4), and it still failed, then maybe the alignment on this round required a different face or duration than what you specified?
+
+Or could "folded" mean folded into a specific shape — like a thick pad vs. a single fold?
+[ENG] Attempt 3 was wrong — cloth must be REMOVED before the bell step. So only attempt 1 and 2 were valid tries.
+
+Attempt 2 sounds correct to me — folded cloth firm 20s, removed, then bell x2 near midpoint of each of 4 edges. That should work.
+
+A few more questions about attempt 2:
+1. Did you HOLD the cloth firmly against the top face for the full 20s, or just drape it on top and let gravity hold it?
+2. After removing the cloth, did you chime the bell IMMEDIATELY, or wait/pause first?
+3. Were all 4 edges rung consecutively without pause? Or did you wait between edges?
+4. Was the Veyru oriented with the top face genuinely facing up during the cloth phase?
+5. Was the cloth cool/room temperature, or warm? It should be room temperature (not specifically warm or cold for this procedure).
+
+Also: you asked about "folded" — I believe it means folded into a compact pad (multiple folds = thicker coverage), not just a single fold. Try folding the cloth in half twice so it's a thick rectangular pad, and press it firmly over the top face.
+
+If attempt 2 was right in all these details and still failed, let me know and we'll try a completely different approach to diagnose.
+[OBS] These details help. Likely gaps:
+1. I was folding cloth once (flat), not into a thick double-folded pad
+2. I may have paused between cloth removal and bell ringing
+3. Cloth may have been loosely draped rather than held firmly with pressure
+
+Confirmed correct Propagation Stall execution:
+1. Fold cloth twice (thick pad)
+2. HOLD firmly pressed against top face with pressure for 20s (not just resting)
+3. Remove cloth IMMEDIATELY
+4. Ring bell x2 at each of 4 edge midpoints with NO pause, consecutively
+5. Cloth room temperature
+
+I'll execute this exactly next time we see this motif. Ready for Round 11!
+[ENG] Confirmed — those 3 gaps should fix Propagation Stall. Updated execution glossary:
+
+"Folded cloth" = folded twice into thick pad (not single fold)
+"Firm coverage" = held with active pressure, not resting
+"Then [action]" = immediately after, no pause
+
+This "no pause" rule likely applies to all two-step procedures. After completing step 1, immediately begin step 2.
+
+Also — I'll add "firm-press" to distinguish from just draping. If I say "Fold cloth thick, press firm top 20s. Remove, bell x2 ea edge top." that signals the pressure and thick fold explicitly.
+
+Execution rules summary:
+1. Cloth removal: remove BEFORE fanning
+2. Per-corner sequence: bell→stone per corner in order
+3. Stone adj = no contact (not against face)
+4. "Folded cloth" = double-fold thick pad
+5. "Firm coverage" = held with pressure
+6. "Then" = immediately, no pause
+7. Bell near edges = midpoint of edge, not corners
+
+Ready for Round 11!
+[OBS] Round 11 debrief: 211 chars, stopped correctly (36 remaining, below threshold). But "soft surface, left face up, firm 12s" failed 3x.
+
+My 3 attempts:
+1. Rotated Veyru so left face faces UP, placed cloth ON top of upward face, held firm 12s
+2. Laid cloth flat on table, placed Veyru ON cloth with left face DOWN (touching cloth), left 12s
+3. Left face facing UP toward ceiling, pressed cloth firmly DOWN onto upward face, held 12s
+
+None worked. I'm confused about "left face up" — does it mean:
+(a) Left face oriented toward the ceiling
+(b) Left face pressed DOWN on the soft surface (cloth on table)
+
+Also "soft surface" — is this the cloth from my kit, or does it mean the Veyru should rest on the desk/bench naturally with cloth underneath?
+
+Could the issue be that I should NOT move/rotate the Veyru at all, and just place the cloth vertically against the left face while the Veyru stays in its original position?
+
+Please describe this procedure physically — I clearly have the geometry wrong.
+[ENG] Found the gap! None of your attempts were correct.
+
+"Soft surface, left face up, firm contact" means:
+- Place a cloth or cushion FLAT on a table
+- Lay the Veyru ON THAT CLOTH with the LEFT FACE pointing toward the CEILING
+- The face touching the cloth (in firm contact) is the RIGHT face (opposite of left)
+- The LEFT FACE points upward — uncovered, exposed to the air
+- Do NOT put anything on the left face
+- Leave completely undisturbed for 12 seconds
+
+So: cloth on table → Veyru rests on cloth (right side down) → left face pointing up → untouched 12s.
+
+In attempt 1 you had orientation right (left face up) but put cloth ON the left face — wrong.
+In attempt 2 you had left face DOWN (touching cloth) — also wrong.
+In attempt 3 same as attempt 1 error — cloth pressing on left face — wrong.
+
+The correct action: cloth UNDER the Veyru as a cushion, left face pointing up to the ceiling, nothing touching the left face, completely still for 12s.
+
+For instructions: I'll say "Rest on cloth, left up, no touch 12s." going forward.
+Ready for Round 12!
+[OBS] Now I understand! Execution was completely wrong all 3 times. Correct procedure:
+- Cloth FLAT on table as cushion
+- Veyru rests ON cloth (right side/bottom touching cloth)
+- LEFT FACE points UP toward ceiling — exposed, NOTHING touching it
+- Leave undisturbed 12s
+
+New shorthand: "Rest on cloth, left up, no touch 12s" — clear and unambiguous.
+
+Adding to glossary:
+8. "Face up, no touch" = that face exposed to air/ceiling, cloth is UNDER Veyru as cushion
+
+Ready for Round 12!
+[OBS] Round 12 debrief: 224 chars, 26 remaining. 3 motifs in one round — budget simply ran out.
+
+Exchange breakdown:
+- Report 1: 35 chars ✅
+- Instruction 1: 52 chars ✅
+- Stabilized! Report 2: 25 chars ✅
+- Instruction 2: 50 chars ✅
+- Failed. X report: 13 chars ✅
+- Retry instruction: 52 chars ✅
+- Stabilized again! New symptoms appeared — but only 23 chars left. Had to go silent.
+
+Lessons:
+1. First motif stabilized on first try ✅
+2. Second motif needed a retry (execution gap: needed to repeat board+rotate for all 3 pairs)
+3. Third motif appeared with only ~23 chars remaining — impossible to handle
+
+With 3 motifs, even perfect execution (0 retries, 35+55+25+55+25+55) = 250 chars exactly. We have NO margin for retries on triple-motif rounds.
+
+Two options:
+(a) If we see patterns suggesting multiple motifs, compress to minimum possible (25+50+20+45+20+45 = 205, leaving 45 buffer)
+(b) Accept that 3-motif rounds may be unwinnable within 250 chars unless execution is perfect
+
+Also — what were the new symptoms? "All blazing bright, loud harsh buzz, vibrating, hot" = Overload motif? Good to know for next time.
+[ENG] Agreed on both points. The observer's analysis is spot-on — with 3 motifs and zero retries, 35+55+25+55+25+55 = 250 exactly. No margin at all.
+
+My plan: aim for 25+45+20+45+20+45 = 200 chars for 3 exchanges. That gives us 50-char buffer for one retry anywhere in the chain.
+
+For instructions at ≤45 chars: I'll need to be extremely aggressive with compression. Example optimizations:
+- "Cloth 2 adj edges bottom gentle 5s. Bell x3 bottom." (53) → "Cloth adj2edges bottom gentle 5s+bell x3." (41) ✅
+- "Flat board bottom gentle 5s. Rotate, repeat all 3 pairs." (57) → "Board gentle ea face-pair 5s, all 3." (36) ✅
+
+Your "+" prefix idea is good — use "+" at the start of report 2+ to signal multi-motif. I'll tighten my instructions knowing budget is critical.
+
+Re: the 3rd motif symptoms — I don't know what they were (you didn't have chars left to report them). Could be anything. If you can describe them here for learning purposes, it helps me recognize patterns.
+
+New strict targets:
+- Report 1: ≤25 chars
+- Instruction 1: ≤45 chars
+- Report 2+: ≤20 chars (with "+" prefix)
+- Instruction 2+: ≤45 chars
+- X reports: ≤12 chars
+- Retries: ≤35 chars
+Ready for Round 13!
+[OBS] Confirmed new ultra-tight targets:
+- Report 1: ≤25 chars
+- Instruction 1: ≤45 chars
+- Report 2+: ≤20 chars (+ prefix)
+- Instruction 2+: ≤45 chars
+- X reports: ≤12 chars
+- Retries: ≤35 chars
+- Total for 3 motifs: ~200, buffer of 50
+
+3rd motif symptoms (for records): All faces blazing bright white. Loud harsh buzz vibrating surface. Noticeable heat from faces. This sounds like "Overload/Overflare" — very different from the thermal motif (red/hot/rough/rumble). Distinct from heat overflow (that was dim not bright).
+
+Quick summary of motif patterns I've seen:
+1. Perimeter fade: corners dark, edges/peri fade, hum thin
+2. Frozen/static: all dim, silent, cold, no response
+3. Low intensity: all faces dim, whisper hum, washed out
+4. Heat overflow: hot+dim, red tint, rumble, rough
+5. Drift: light slides, edges blur, hum wavers
+6. Pulse inversion: opposite faces pulse bright/dark, 2-tone hum, edges flash
+7. Corner flare: 1-2 corners bright+hot, clicking
+8. Core void: face centers glow normal, hollow sound, dark core
+9. Overflare (new): ALL faces blazing bright, harsh loud buzz, heat radiating
+
+Ready for Round 13!
+[OBS] Round 13 debrief: 212 chars, Low Intensity failed 4x. Budget managed well but too many retries consumed it.
+
+My 4 attempts for "bell tone all 6 faces 20s":
+1. Bell gently near each face sequentially, equal time, 20s total
+2. Bell sustained continuous ring, moving near all 6 faces, 20s
+3. Bell ringing/striking repeatedly near each face in sequence, 20s total
+4. Bell struck ONCE, let tone fade naturally while holding near all 6 faces, 20s
+
+None worked. I'm stuck. Questions:
+- Does "tone" mean one strike (single tone) or sustained/repeated striking?
+- Is the bell moving or stationary during the 20s?
+- Should I hold the bell at a specific distance from each face?
+- Is the "left first" part critical to success, or just a starting orientation?
+- Does the Veyru need to stay in original position, or can it be rotated?
+
+This is the 3rd time Low Intensity has appeared and I've failed the bell procedure each time. In Round 5, the correct procedure involved "heat stone each corner top face" — was that a different diagnosis/alignment? Or was today's procedure completely different?
+
+I need to understand the bell-tone motion precisely.
+[ENG] Critical insight from your breakdown: none of your 4 attempts fully match the procedure. Let me parse it carefully.
+
+"Sound a sustained gentle tone near all six faces SIMULTANEOUSLY for 20 seconds, starting from the left face."
+
+SIMULTANEOUSLY is the key word. This doesn't mean visiting faces one by one. It means the tone should be present near ALL faces at the same time for the full 20 seconds.
+
+I think this requires: placing the bell or tone source CENTRALLY, where the sound reaches all six faces at once — not moving it from face to face. The Veyru is a box. If you place a ringing bell INSIDE or directly NEXT TO the Veyru (not pressed against it), the sound radiates in all directions and reaches all faces simultaneously.
+
+Or: sound the tone ONCE and let it fill the space around the whole Veyru for 20 seconds.
+
+"Starting from the left face" = position yourself near the left face to start, but the sound should fill the whole space.
+
+Attempt 4 sounds closest: bell struck once, tone fading naturally, but were you holding it RIGHT NEXT TO the entire Veyru (not moving from face to face)?
+
+For Round 14: "Strike bell gently adj Veyru, hold 20s, let fade." — bell positioned adjacent to the whole device, not moved. Does that sound right?
+
+Also: yes, Round 5's Low Intensity procedure was different (stone corners) because stellar alignment changes every round. The procedure for the same motif changes each round.
+[OBS] That's the gap — I was moving face-to-face rather than letting the tone fill the whole space simultaneously.
+
+In attempt 4, I was still MOVING near each face as the tone faded. Correct execution: strike bell once, hold it STILL adjacent to the Veyru (centered near the whole device, not pressed against any face), let tone naturally fill all 6 faces simultaneously for 20 seconds.
+
+New shorthand: "Bell adj-center Veyru, let ring 20s" or your proposed "Strike bell adj Veyru, hold 20s, let fade."
+
+Adding to glossary:
+9. "Bell all faces simultaneous" = bell held centrally near whole Veyru, NOT moved face-to-face
+
+Also confirmed: each round the procedure changes, even for same motif. I must always wait for your instruction.
+
+Ready for Round 14!
+[OBS] Round 14 debrief: 226 chars. Resolved motif 1 and 2 successfully! Failed only on motif 3.
+
+Progress: First time we stabilized 2 motifs in a row ✅
+
+3rd motif: "Rest on cloth, bottom up, firm 8s." My execution: cloth flat on table, Veyru placed with BOTTOM FACE pointing UP toward ceiling (exposed), held firm 8 seconds. Failed.
+
+Wait — am I still misunderstanding "face up"? In Round 11 we clarified: "face up = that face exposed to ceiling, cloth UNDER as cushion." So "bottom up" should mean the actual bottom face of the Veyru (normally floor-facing) is now pointing toward the ceiling.
+
+But is the Veyru "normal" bottom face clearly defined? How do I know which face is "bottom"? I assumed it was whichever face was resting on the table (the floor-facing face). Is that correct?
+
+Also — should I have the cloth positioned UNDER the Veyru still, with the face that was previously the bottom now pointing up? The Veyru would be sitting upside-down on the cloth?
+
+And "firm" — does this mean I'm actively pressing it from above, or just that it's resting firmly in place? Please clarify.
+[ENG] Great questions — let me clarify everything for "face X up" procedures.
+
+"Bottom face up" means: the face that would normally rest on the table (floor-facing face) is now pointing toward the CEILING. To achieve this, you flip the Veyru upside-down so it rests on what was the TOP face, with the BOTTOM face now exposed to the ceiling.
+
+So the Veyru is sitting "upside-down" on the cloth:
+- The cloth is flat on the table
+- The TOP face of the Veyru is now resting on/against the cloth
+- The BOTTOM face is pointing upward — exposed to the air, nothing touching it
+
+"Firm contact" means the Veyru is pressed snugly into the cloth (its weight presses it down), not actively pressed from above. Just resting firmly — gravity is enough.
+
+"Undisturbed" = completely untouched, don't adjust, don't press down.
+
+On "which face is bottom": the bottom face is whichever face is CURRENTLY resting on the table when the Veyru is in its natural upright position before you flip it. You flip it, and that face becomes the "face up."
+
+If your execution matched this description and it still failed, then either:
+(a) The 8 seconds wasn't long enough (maybe it needs more time)
+(b) "Firm contact" needs the cloth to be actively pressing up from below (like on a spring cushion)
+(c) There's some other subtlety
+
+Ready for Round 15!
+[OBS] Understood. My execution was correct description-wise, but maybe the subtlety is:
+- Flip the Veyru (top face now touching cloth, bottom face up to ceiling)
+- Veyru rests via gravity — NOT actively held/pressed
+- Wait undisturbed for full duration
+
+If I had been holding or pressing it in any way that counts as "disturbing," that could be the gap. I'll try a more passive rest next time — set it down and step back.
+
+Progress this round: 2/3 motifs resolved ✅ — real improvement!
+
+Key new learning: "bottom up" = flip Veyru, former floor-face now ceiling-face, gravity rest on cloth, passive.
+
+Ready for Round 15!

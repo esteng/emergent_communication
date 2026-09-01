@@ -1,0 +1,78 @@
+{
+  "per_slot": {
+    "pos0": [
+      [
+        "bell3",
+        "ring the bell 3 times on the named face"
+      ],
+      [
+        "bellC",
+        "ring the bell at each corner"
+      ],
+      [
+        "bellCtr",
+        "ring the bell at the centers"
+      ],
+      [
+        "bellE2",
+        "ring the bell at each edge 2 times"
+      ],
+      [
+        "traceE",
+        "trace each edge"
+      ],
+      [
+        "ws",
+        "place a warm stone beside"
+      ]
+    ],
+    "pos1": [
+      [
+        "All",
+        "each face"
+      ]
+    ],
+    "pos2": [
+      [
+        "bell3",
+        "ring the bell 3 times on the named face"
+      ],
+      [
+        "bellC",
+        "ring the bell at each corner"
+      ],
+      [
+        "bellE2",
+        "ring the bell at each edge 2 times"
+      ],
+      [
+        "cool",
+        "apply a cool cloth, then fan"
+      ],
+      [
+        "t",
+        "sustain tone on"
+      ],
+      [
+        "traceE",
+        "trace each edge"
+      ]
+    ],
+    "pos3": [
+      [
+        "2",
+        "the named face and its opposite face"
+      ],
+      [
+        "6",
+        "all 6 faces"
+      ]
+    ]
+  },
+  "stackable": [
+    [
+      "rotatePairs",
+      "rotate pairs"
+    ]
+  ]
+}

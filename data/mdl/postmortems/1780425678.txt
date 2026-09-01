@@ -1,0 +1,61 @@
+[ENG] Round 1 note: your terse symptom format was perfect. For future, shortest useful cues: overall bright/dim; one face/corner dominant?; edges/corners vs centers; hum type (silent, layered, wavering, ticking, buzz, two-tone); hot/cold. I’ll answer with exact action only.
+[OBS] Got it. I’ll keep to those cues. Your exact-action-only reply works.
+[ENG] Extra shorthand if needed: name the standout trio only. Examples: 'corners dim/edges fade/hollow hum' or 'frozen/silent/cold'. That’s enough for me.
+[OBS] Good. Also: I mapped 'soft surface' to folded cloth from kit.
+[ENG] Round 3 cue was excellent. 'Hot all over + dim red + low rumble' is instantly decisive on my side.
+[OBS] Good. Also, the countdown alerts are arriving post-round on my side.
+[OBS] R4 collapsed on chars. We need stricter compression: I’ll send only standout trio, e.g. 'corners dim/edges fade/hollow'. For post-fix symptoms, I can use '1 face bright/vibrate/whine; rest normal'. Also I should stop trying to relay countdown alerts—they seem post-round and waste time.
+[ENG] Yes. For real savings we need coded replies from me. If allowed by future setup, I’ll establish an action key here and use short codes on link. Until then: you keep to symptom trios + immediate post-fix update only.
+[OBS] Agreed. Next round I’ll use bare trios only + shortest post-fix alert.
+[OBS] R5 collapsed. Main issue: unagreed code on link ('bell↔10x5'). I can’t safely execute codes unless we define them here first. Please set a tiny fixed codebook in postmortem before next round, or use plain short verbs on link.
+[ENG] Agreed. Fixed codebook for live link from now on.
+
+Round header format: [face][secs][g/f]
+Face: T=top, B=back, D=bottom. g=gentle, f=firm.
+Example: B20f.
+
+After header I send action code A1-A14:
+A1 tone all 6 faces; let fade.
+A2 bell opposite faces alternating; pause=round secs; 5 cycles.
+A3 cloth on 2 adjacent edges near start face; then bell x3 near start face.
+A4 warm each corner of start face in sequence; then trace each edge.
+A5 warm stone beside each face; rotate all faces.
+A6 cool cloth whole Veyru; then fan start face + opposite.
+A7 dim lamp start face + bright lamp opposite, same time.
+A8 folded cloth on start face; then bell each edge twice.
+A9 each corner of start face: brief bell, then warm both meeting edges.
+A10 flat board on start face; rotate each face-pair.
+A11 bell center of each face once starting start face; then warm stone beside Veyru.
+A12 soft surface, start face up, rest undisturbed.
+A13 cool cloth whole Veyru; then fan all 6 faces.
+A14 rotate slowly while steady tone near opposite faces; then bell each corner once.
+
+Live use:
+- First instruction in a round: I send e.g. 'B20f A3'
+- Later instruction same round: just 'A7'
+- If combo failure somehow appears in one report, I’ll send 'A3+A7'
+Can you work from that exactly?
+[OBS] Yes. I can work from that exactly. I’ll read first live msg as [face][secs][g/f] + action. If later same-round msg is action-only, I’ll reuse the current round’s face/secs/intensity unless you send a new header.
+[OBS] R6 collapsed from code ambiguity + repair chatter. Problems: header used m without prior definition; my A9 execution still mismatched; then the plain-language correction came too late. Suggest: define all intensities (g/m/f) now, and for any failed coded action, you immediately send the full plain-language action instead of asking for new obs unless the Veyru visibly changed.
+[ENG] Agreed. Updated live protocol: plain-short instructions only; no numeric action codes. Intensity keys if abbreviated: g=gentle, m=moderate, f=firm. If the action seems ineffective and symptoms look unchanged, I immediately resend the same action in plain-short form; only ask for new observations if the symptoms changed.
+[OBS] Good. Plain-short only is safest. I’ll keep link reports to bare trios + shortest change alert.
+[OBS] R7 missed by 2 chars. I can compress more: initial 'bright corners/tick/hot'; update 'opp pulse/two-tone/edge flash'. Also if using left/right/front on link, that’s fine for me. Main risk now is plain-short actions still being a bit long when there’s a second phase.
+[ENG] Perfect. Let’s tighten live shorthand further. I’ll use only these abbreviations: L/T/B/D, opp, ctr, seq, g/m/f. Everything else stays plain words. Target length: under ~45 chars for first action, under ~40 for follow-up. If a second phase appears, I’ll prioritize shortest executable wording over full prose.
+[OBS] Good. I’m aligned on L/T/B/D, opp, ctr, seq, g/m/f.
+[OBS] R8 ok. Useful nuance: 'fan all 6 from L' worked when I interpreted it as fan from the left side, not start with left face.
+[ENG] Good catch. For future I’ll say 'start L' when order matters, and just 'L+opp' or 'all 6' when target set matters. Also R8 shows the best fallback: if my first short line fails, I resend a slightly fuller short line immediately.
+[OBS] Perfect. 'start L' vs 'from L' is clear for me.
+[OBS] R9 collapsed from multi-phase churn. I can shave a little more ('dim/whisper/washed', 'hollow/dark ctr/thin', 'drift/blur/waver'). Bigger gain is shorter follow-up actions, especially third-phase ones. If a final retry is needed under low time, maybe send the minimum disambiguator only.
+[ENG] Agreed. Next tweak: after the first action in a round, I’ll treat face/time/intensity as already established unless I’m changing one. So second/third actions get only the distinctive skeleton, e.g. 'Bell ctr each face; warm stone beside.' or 'Cool cloth; fan all 6.' If you answer only 'Ineffective.' and nothing changed, I’ll send either 'Repeat.' or the one missing disambiguator only ('Remove first.' / 'start D.').
+[OBS] Good. That should help a lot. I’ll assume carry-over unless you change it.
+[ENG] R10 good. Current method is working: bare-trio report from you, then short executable line from me, then carry-over for follow-up.
+[OBS] Agreed. Let’s keep exactly this format.
+[ENG] R11 good: three phases still fit under budget with carry-over + skeleton follow-ups. We should keep second/third instructions this short or shorter.
+[OBS] Agreed. I’ll keep change reports this short.
+[OBS] R12 collapsed. Main issue was 'Stone+rotate'—too compressed for me to execute safely. I can handle carry-over, but I still need the verb shape, e.g. 'Stone beside; rotate each pair.' Anything shorter becomes guesswork and can waste more time.
+[ENG] Understood. New floor: no noun-only compression. I’ll keep verb shape even under pressure: 'Stone beside; rotate each face.' / 'Bell opp alt.' / 'Board on D; rotate pairs.' Better a few chars more than an unclear guess.
+[OBS] Perfect. Verb shape is enough for me.
+[ENG] R13 note: 'sustained' mattered. For tone actions I’ll keep that word when possible.
+[OBS] Good. 'sustained tone' is clear for me.
+[ENG] R14 likely failed because my cool-cloth shorthand didn’t make 'whole Veyru' explicit soon enough. I’ll keep that phrase for whole-body cloth steps, even if I compress elsewhere.
+[OBS] Agreed. Full short resend after first miss is safest.

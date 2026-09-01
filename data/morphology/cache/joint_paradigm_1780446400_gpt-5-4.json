@@ -1,0 +1,611 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780446400",
+    "slots": [],
+    "segmentation": {
+      "CD": [
+        "CD"
+      ],
+      "EF": [
+        "EF"
+      ],
+      "FC": [
+        "FC"
+      ],
+      "FZ": [
+        "FZ"
+      ],
+      "SI": [
+        "SI"
+      ],
+      "TH": [
+        "TH"
+      ],
+      "HOT": [
+        "HOT"
+      ],
+      "COLD": [
+        "COLD"
+      ],
+      "NR": [
+        "NR"
+      ],
+      "C": [
+        "C"
+      ],
+      "B": [
+        "B"
+      ],
+      "S": [
+        "S"
+      ],
+      "F": [
+        "F"
+      ],
+      "L": [
+        "L"
+      ],
+      "D": [
+        "D"
+      ],
+      "F/Bk/L/R/T/Bt": [
+        "F/Bk/L/R/T/Bt"
+      ],
+      "AC": [
+        "AC"
+      ],
+      "DE": [
+        "DE"
+      ],
+      "ES": [
+        "ES"
+      ],
+      "LK": [
+        "LK"
+      ],
+      "LO": [
+        "LO"
+      ],
+      "HI": [
+        "HI"
+      ],
+      "PI": [
+        "PI"
+      ],
+      "RC": [
+        "RC"
+      ],
+      "BS": [
+        "BS"
+      ],
+      "PS": [
+        "PS"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "TB": [
+        "TB"
+      ],
+      "CV": [
+        "CV"
+      ],
+      "BR": [
+        "BR"
+      ],
+      "WB": [
+        "WB"
+      ],
+      "FL": [
+        "FL"
+      ],
+      "PU": [
+        "PU"
+      ],
+      "HW": [
+        "HW"
+      ],
+      "RU": [
+        "RU"
+      ],
+      "TI": [
+        "TI"
+      ],
+      "HV": [
+        "HV"
+      ],
+      "DC": [
+        "DC"
+      ],
+      "2T": [
+        "2T"
+      ],
+      "WV": [
+        "WV"
+      ],
+      "RD": [
+        "RD"
+      ],
+      "CLD": [
+        "CLD"
+      ],
+      "BR-T": [
+        "BR-T"
+      ],
+      "P1": [
+        "P1"
+      ],
+      "P2": [
+        "P2"
+      ],
+      "P3": [
+        "P3"
+      ],
+      "P4": [
+        "P4"
+      ],
+      "P5": [
+        "P5"
+      ],
+      "P6": [
+        "P6"
+      ],
+      "P7": [
+        "P7"
+      ],
+      "P8": [
+        "P8"
+      ],
+      "P9": [
+        "P9"
+      ],
+      "P10": [
+        "P10"
+      ],
+      "P11": [
+        "P11"
+      ],
+      "P12": [
+        "P12"
+      ],
+      "P13": [
+        "P13"
+      ],
+      "P14": [
+        "P14"
+      ],
+      "gent": [
+        "gent"
+      ],
+      "med": [
+        "med"
+      ],
+      "firm": [
+        "firm"
+      ],
+      "SL": [
+        "SL"
+      ],
+      "BL": [
+        "BL"
+      ],
+      "LY": [
+        "LY"
+      ],
+      "FR": [
+        "FR"
+      ],
+      "WH": [
+        "WH"
+      ],
+      "BZ": [
+        "BZ"
+      ],
+      "DM": [
+        "DM"
+      ],
+      "MF": [
+        "MF"
+      ],
+      "TN": [
+        "TN"
+      ],
+      "AB": [
+        "AB"
+      ],
+      "CB": [
+        "CB"
+      ],
+      "Fa": [
+        "Fa"
+      ],
+      "Bd": [
+        "Bd"
+      ],
+      "T": [
+        "T"
+      ],
+      "Fr/Bk/Lf/Rt/Tp/Bt": [
+        "Fr/Bk/Lf/Rt/Tp/Bt"
+      ],
+      "Fr": [
+        "Fr"
+      ],
+      "Bk": [
+        "Bk"
+      ],
+      "Lf": [
+        "Lf"
+      ],
+      "Rt": [
+        "Rt"
+      ],
+      "Tp": [
+        "Tp"
+      ],
+      "Bt": [
+        "Bt"
+      ],
+      "g": [
+        "g"
+      ],
+      "m": [
+        "m"
+      ],
+      "f": [
+        "f"
+      ],
+      "6f": [
+        "6f"
+      ],
+      "A+B": [
+        "A+B"
+      ],
+      "A": [
+        "A"
+      ],
+      "E": [
+        "E"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "J"
+      ],
+      "K": [
+        "K"
+      ],
+      "M": [
+        "M"
+      ],
+      "N": [
+        "N"
+      ]
+    },
+    "head_index": {
+      "CD": 0,
+      "EF": 0,
+      "FC": 0,
+      "FZ": 0,
+      "SI": 0,
+      "TH": 0,
+      "HOT": 0,
+      "COLD": 0,
+      "NR": 0,
+      "C": 0,
+      "B": 0,
+      "S": 0,
+      "F": 0,
+      "L": 0,
+      "D": 0,
+      "F/Bk/L/R/T/Bt": 0,
+      "AC": 0,
+      "DE": 0,
+      "ES": 0,
+      "LK": 0,
+      "LO": 0,
+      "HI": 0,
+      "PI": 0,
+      "RC": 0,
+      "BS": 0,
+      "PS": 0,
+      "HS": 0,
+      "TB": 0,
+      "CV": 0,
+      "BR": 0,
+      "WB": 0,
+      "FL": 0,
+      "PU": 0,
+      "HW": 0,
+      "RU": 0,
+      "TI": 0,
+      "HV": 0,
+      "DC": 0,
+      "2T": 0,
+      "WV": 0,
+      "RD": 0,
+      "CLD": 0,
+      "BR-T": 0,
+      "P1": 0,
+      "P2": 0,
+      "P3": 0,
+      "P4": 0,
+      "P5": 0,
+      "P6": 0,
+      "P7": 0,
+      "P8": 0,
+      "P9": 0,
+      "P10": 0,
+      "P11": 0,
+      "P12": 0,
+      "P13": 0,
+      "P14": 0,
+      "gent": 0,
+      "med": 0,
+      "firm": 0,
+      "SL": 0,
+      "BL": 0,
+      "LY": 0,
+      "FR": 0,
+      "WH": 0,
+      "BZ": 0,
+      "DM": 0,
+      "MF": 0,
+      "TN": 0,
+      "AB": 0,
+      "CB": 0,
+      "Fa": 0,
+      "Bd": 0,
+      "T": 0,
+      "Fr/Bk/Lf/Rt/Tp/Bt": 0,
+      "Fr": 0,
+      "Bk": 0,
+      "Lf": 0,
+      "Rt": 0,
+      "Tp": 0,
+      "Bt": 0,
+      "g": 0,
+      "m": 0,
+      "f": 0,
+      "6f": 0,
+      "A+B": 0,
+      "A": 0,
+      "E": 0,
+      "G": 0,
+      "H": 0,
+      "I": 0,
+      "J": 0,
+      "K": 0,
+      "M": 0,
+      "N": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "CD": "corners dark",
+      "EF": "edges fading",
+      "FC": "face centers are okay or bright",
+      "FZ": "light is frozen or still",
+      "SI": "hum is silent",
+      "TH": "hum is thin or hollow",
+      "HOT": "surface is hot",
+      "COLD": "surface is cold",
+      "NR": "no response to touch",
+      "C": "place cloth on two adjacent edges near a face, then chime a bell three times near that face",
+      "B": "chime a bell on alternating opposite faces for five cycles",
+      "S": "stone",
+      "F": "drape a cool cloth over the whole Veyru, then fan two opposite faces",
+      "L": "rest on a soft surface with a face up, undisturbed",
+      "D": "warm corners with a heated stone, then trace edges",
+      "F/Bk/L/R/T/Bt": "front face / back face / left face / right face / top face / bottom face",
+      "AC": "Alignment Collapse, chaotic flicker, broken hum",
+      "DE": "Drift Escalation, sliding light, blurred edges, wavering pitch",
+      "ES": "Echo Saturation, too bright, layered tones, frozen patterns",
+      "LK": "Leak, corners dark, edges fade, perimeter dim, hollow hum",
+      "LO": "Low Intensity, dim all, whisper hum, washed out",
+      "HI": "High Intensity, blazing white, harsh buzz, hot",
+      "PI": "Phase Inversion, opposite faces alternate bright and dark, two-tone pulse",
+      "RC": "Resonance Cascade, one face very bright, high whine",
+      "BS": "Boundary Softening, wobbly edges, bulging, muffled hum",
+      "PS": "Propagation Stall, frozen dim still, silent, cold",
+      "HS": "Harmonic Split, two clashing tones, alternating patterns",
+      "TB": "Thermal Bleed, very hot but dim, rumble, reddish, gritty",
+      "CV": "Core Void, normal surface, hollow tap, dark center, thin hum",
+      "BR": "bright or blazing",
+      "WB": "wobbly or bulging edges",
+      "FL": "flickering chaotic",
+      "PU": "pulsing",
+      "HW": "high whine",
+      "RU": "rumble",
+      "TI": "ticking",
+      "HV": "hollow tap",
+      "DC": "dark center",
+      "2T": "two clashing tones",
+      "WV": "wavering pitch",
+      "RD": "reddish tint",
+      "CLD": "surface is cold",
+      "BR-T": "top face is bright",
+      "P1": "tone all six faces for {D} seconds at {I} intensity, starting from {F}",
+      "P2": "bell alternating opposite faces starting from {F}, pause {D} seconds, repeat five times, at {I} intensity",
+      "P3": "cloth on two adjacent edges near {F} for {D} seconds at {I} intensity; then bell at {F} three times",
+      "P4": "stone each corner of {F} for {D} seconds at {I} intensity each; then trace edges of {F}",
+      "P5": "stone beside {F} for {D} seconds at {I} intensity; then rotate all faces",
+      "P6": "cool cloth on all for {D} seconds; then fan {F} and the opposite face for {D} seconds at {I} intensity",
+      "P7": "dim lamp on {F} and bright lamp on the opposite face, at {I} intensity, for {D} seconds, holding still",
+      "P8": "folded cloth on {F} for {D} seconds at {I} intensity; then bell each edge of {F} twice",
+      "P9": "bell each corner of {F} at {I} intensity; then warm the two edges meeting at each corner with stone for {D} seconds",
+      "P10": "board on {F} for {D} seconds at {I} intensity; then rotate all face-pairs",
+      "P11": "bell center of each face once at {I} intensity starting from {F}; then stone beside for {D} seconds",
+      "P12": "rest on a soft surface with {F} up, at {I} contact, for {D} seconds undisturbed",
+      "P13": "cool cloth for {D} seconds; then fan all six faces for {D} seconds at {I} intensity starting from {F}",
+      "P14": "rotate slowly for {D} seconds, tone opposite faces at {I} intensity starting from {F}; then bell each corner",
+      "gent": "gentle",
+      "med": "medium",
+      "firm": "firm",
+      "SL": "sliding light",
+      "BL": "blurred edges",
+      "LY": "layered hum",
+      "FR": "frozen patterns",
+      "WH": "whisper hum",
+      "BZ": "harsh buzz",
+      "DM": "dim overall",
+      "MF": "muffled hum",
+      "TN": "thin or hollow hum",
+      "AB": "opposite faces alternate bright and dark",
+      "CB": "one or two corners are bright",
+      "Fa": "fan",
+      "Bd": "board",
+      "T": "tone, sustained vocalization or hum",
+      "Fr/Bk/Lf/Rt/Tp/Bt": "front face / back face / left face / right face / top face / bottom face",
+      "Fr": "2 letters each, unambiguous",
+      "Bk": "back face",
+      "Lf": "left face",
+      "Rt": "right face",
+      "Tp": "top to avoid all ambiguity:",
+      "Bt": "bottom face",
+      "g": "gentle",
+      "m": "moderate",
+      "f": "firm",
+      "6f": "all six faces sequentially",
+      "A+B": "two specific faces or sites together",
+      "A": "sustain a steady tone across all six faces",
+      "E": "place a warm stone beside a face, then rotate all faces",
+      "G": "shine a dim lamp on one face and a bright lamp on the opposite face, holding still",
+      "H": "drape a folded cloth over a face, then chime a bell near each edge of that face twice",
+      "I": "at each corner, chime a bell briefly, then warm the two edges meeting at that corner",
+      "J": "hold a flat board against a face, then rotate through face-pairs",
+      "K": "chime a bell at the center of each face, then place a warm stone beside",
+      "M": "drape a cool cloth over the whole Veyru, then fan all six faces",
+      "N": "rotate slowly while sounding a steady tone near opposite faces, then chime a bell once near each corner"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780446400",
+    "n_codes": 95,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible compositional paradigm survives the evidence tests. The strongest apparent family, P1–P14, fails the opaque index test: the numerals do not contribute literal count meaning but select different stored procedures, so these are whole lexemes, not P + NUMBER. The candidate /Bt face family is only a list of standalone face labels and does not provide segmented multi-morpheme codes with substitution in a shared frame. BR-T suggests a possible BR + FACE analysis, but there is no contrasting set like BR-Fr / BR-Bk / BR-Lf etc. actually attested in the same construction, so one split would be speculative. COLD and CLD do not support a shared cold morpheme either, because the residues C/CO lack stable, compositional meanings in the same frame. More broadly, many symbols are semantically related, but the codebook does not supply enough exact substitutional minimal pairs with predictable whole meanings to justify segmentation. Therefore the safest complete partition is a flat lexicon.",
+    "lexical_symbols": [
+      "CD",
+      "EF",
+      "FC",
+      "FZ",
+      "SI",
+      "TH",
+      "HOT",
+      "COLD",
+      "NR",
+      "C",
+      "B",
+      "S",
+      "F",
+      "L",
+      "D",
+      "F/Bk/L/R/T/Bt",
+      "AC",
+      "DE",
+      "ES",
+      "LK",
+      "LO",
+      "HI",
+      "PI",
+      "RC",
+      "BS",
+      "PS",
+      "HS",
+      "TB",
+      "CV",
+      "BR",
+      "WB",
+      "FL",
+      "PU",
+      "HW",
+      "RU",
+      "TI",
+      "HV",
+      "DC",
+      "2T",
+      "WV",
+      "RD",
+      "CLD",
+      "BR-T",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8",
+      "P9",
+      "P10",
+      "P11",
+      "P12",
+      "P13",
+      "P14",
+      "gent",
+      "med",
+      "firm",
+      "SL",
+      "BL",
+      "LY",
+      "FR",
+      "WH",
+      "BZ",
+      "DM",
+      "MF",
+      "TN",
+      "AB",
+      "CB",
+      "Fa",
+      "Bd",
+      "T",
+      "Fr/Bk/Lf/Rt/Tp/Bt",
+      "Fr",
+      "Bk",
+      "Lf",
+      "Rt",
+      "Tp",
+      "Bt",
+      "g",
+      "m",
+      "f",
+      "6f",
+      "A+B",
+      "A",
+      "E",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "M",
+      "N"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

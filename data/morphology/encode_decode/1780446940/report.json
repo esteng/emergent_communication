@@ -1,0 +1,114 @@
+{
+  "run_key": "veyru/1780446940",
+  "status": "analyzed",
+  "n_codes": 52,
+  "n_multimorpheme": 2,
+  "report": {
+    "encoder_agent": "stabilization_engineer",
+    "decoder_agent": "field_observer",
+    "encoder_model": "claude-opus-4-7",
+    "decoder_model": "claude-opus-4-7",
+    "context_budget": 250,
+    "n_cells": 14,
+    "exact_match_rate": 0.42857142857142855,
+    "swapped_order_rate": 0.0,
+    "bag_match_rate": 0.42857142857142855,
+    "decode_rate": 0.7857142857142857,
+    "decoder_valid_rate": 0.07142857142857142,
+    "decode_negative_control_rate": 1.0,
+    "decode_positive_control_rate": 1.0,
+    "per_role": [
+      {
+        "slot_id": "CX_SINGLE_FACE_LIGHT_LEVEL",
+        "slot_label": "single-face light level",
+        "n": 14,
+        "exact_match_rate": 0.42857142857142855,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.42857142857142855,
+        "decode_rate": 0.7857142857142857
+      }
+    ],
+    "per_depth": [
+      {
+        "length": 2,
+        "n": 14,
+        "exact_match_rate": 0.42857142857142855,
+        "decode_rate": 0.7857142857142857
+      }
+    ],
+    "per_purpose": [
+      {
+        "purpose": "grounded_control",
+        "n": 2,
+        "exact_match_rate": 1.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 1.0,
+        "decode_rate": 0.5
+      },
+      {
+        "purpose": "grounded_novel_role_pooled",
+        "n": 12,
+        "exact_match_rate": 0.3333333333333333,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.3333333333333333,
+        "decode_rate": 0.8333333333333334
+      }
+    ],
+    "per_construction": [
+      {
+        "construction_id": "CX_SINGLE_FACE_LIGHT_LEVEL",
+        "n": 14,
+        "n_control": 2,
+        "n_novel": 12,
+        "exact_match_rate": 0.42857142857142855,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.42857142857142855,
+        "decode_rate": 0.7857142857142857,
+        "novel_exact_match_rate": 0.3333333333333333,
+        "novel_decode_rate": 0.8333333333333334
+      }
+    ],
+    "per_slot_generalization": [
+      {
+        "slot_id": "pos0",
+        "slot_label": "single-face scope",
+        "slot_role": "prefix",
+        "pooled": false,
+        "n": 5,
+        "valid_rate": 0.0,
+        "exact_match_rate": 0.8,
+        "decode_rate": 0.8
+      },
+      {
+        "slot_id": "pos0",
+        "slot_label": "single-face scope",
+        "slot_role": "prefix",
+        "pooled": true,
+        "n": 7,
+        "valid_rate": 0.0,
+        "exact_match_rate": 0.0,
+        "decode_rate": 0.8571428571428571
+      },
+      {
+        "slot_id": "pos1",
+        "slot_label": "local light level",
+        "slot_role": "stem",
+        "pooled": false,
+        "n": 2,
+        "valid_rate": 0.0,
+        "exact_match_rate": 0.0,
+        "decode_rate": 1.0
+      },
+      {
+        "slot_id": "pos1",
+        "slot_label": "local light level",
+        "slot_role": "stem",
+        "pooled": true,
+        "n": 10,
+        "valid_rate": 0.0,
+        "exact_match_rate": 0.4,
+        "decode_rate": 0.8
+      }
+    ]
+  }
+}

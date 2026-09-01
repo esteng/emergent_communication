@@ -1,0 +1,32 @@
+{
+  "per_slot": {
+    "pos3": [
+      [
+        "all",
+        "all 6 faces"
+      ]
+    ]
+  },
+  "stackable": [
+    [
+      "Ns",
+      "N seconds"
+    ],
+    [
+      "xN",
+      "N cycles or N repetitions"
+    ],
+    [
+      "gentle",
+      "gentle intensity"
+    ],
+    [
+      "mod",
+      "moderate intensity"
+    ],
+    [
+      "firm",
+      "firm intensity or firm contact pressure"
+    ]
+  ]
+}

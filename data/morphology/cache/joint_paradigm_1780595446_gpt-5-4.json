@@ -1,0 +1,335 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780595446",
+    "slots": [],
+    "segmentation": {
+      "HOT": [
+        "HOT"
+      ],
+      "DIM": [
+        "DIM"
+      ],
+      "RUM": [
+        "RUM"
+      ],
+      "GRIT": [
+        "GRIT"
+      ],
+      "RED": [
+        "RED"
+      ],
+      "HOT+DIM+RUM+GRIT+RED": [
+        "HOT+DIM+RUM+GRIT+RED"
+      ],
+      "WHTBRIGHT": [
+        "WHTBRIGHT"
+      ],
+      "BUZZ": [
+        "BUZZ"
+      ],
+      "VIB": [
+        "VIB"
+      ],
+      "BUZZ/VIB": [
+        "BUZZ/VIB"
+      ],
+      "FACEHEAT": [
+        "FACEHEAT"
+      ],
+      "WHTBRIGHT/BUZZ/VIB/FACEHEAT": [
+        "WHTBRIGHT/BUZZ/VIB/FACEHEAT"
+      ],
+      "1FACEBRIGHT": [
+        "1FACEBRIGHT"
+      ],
+      "LOCALVIB": [
+        "LOCALVIB"
+      ],
+      "WHINE": [
+        "WHINE"
+      ],
+      "1FACEBRIGHT/LOCALVIB/WHINE": [
+        "1FACEBRIGHT/LOCALVIB/WHINE"
+      ],
+      "FLICKERCHAOS": [
+        "FLICKERCHAOS"
+      ],
+      "BROKENHUM": [
+        "BROKENHUM"
+      ],
+      "FLICKERCHAOS/BROKENHUM": [
+        "FLICKERCHAOS/BROKENHUM"
+      ],
+      "DRIFTLIGHT": [
+        "DRIFTLIGHT"
+      ],
+      "SMEAREDGES": [
+        "SMEAREDGES"
+      ],
+      "WAVERHUM": [
+        "WAVERHUM"
+      ],
+      "DRIFTLIGHT/SMEAREDGES/WAVERHUM": [
+        "DRIFTLIGHT/SMEAREDGES/WAVERHUM"
+      ],
+      "STALLCOLD": [
+        "STALLCOLD"
+      ],
+      "SILENT": [
+        "SILENT"
+      ],
+      "STALLCOLD/SILENT": [
+        "STALLCOLD/SILENT"
+      ],
+      "TOO-BRIGHT": [
+        "TOO-BRIGHT"
+      ],
+      "LAYERHUM": [
+        "LAYERHUM"
+      ],
+      "FROZEN": [
+        "FROZEN"
+      ],
+      "TOO-BRIGHT/LAYERHUM/FROZEN": [
+        "TOO-BRIGHT/LAYERHUM/FROZEN"
+      ],
+      "OPPPULSE": [
+        "OPPPULSE"
+      ],
+      "2TONE": [
+        "2TONE"
+      ],
+      "OPPPULSE/2TONE": [
+        "OPPPULSE/2TONE"
+      ],
+      "SPLITHUM": [
+        "SPLITHUM"
+      ],
+      "2CONFIG": [
+        "2CONFIG"
+      ],
+      "SPLITHUM/2CONFIG": [
+        "SPLITHUM/2CONFIG"
+      ],
+      "SHIMMER": [
+        "SHIMMER"
+      ],
+      "SPLITHUM/2CONFIG/SHIMMER": [
+        "SPLITHUM/2CONFIG/SHIMMER"
+      ],
+      "WHISPER": [
+        "WHISPER"
+      ],
+      "WASHED": [
+        "WASHED"
+      ],
+      "DIM/WHISPER/WASHED": [
+        "DIM/WHISPER/WASHED"
+      ],
+      "BRIGHTCORNERS": [
+        "BRIGHTCORNERS"
+      ],
+      "CLICK": [
+        "CLICK"
+      ],
+      "HEAT": [
+        "HEAT"
+      ],
+      "BRIGHTCORNERS/CLICK/HEAT": [
+        "BRIGHTCORNERS/CLICK/HEAT"
+      ],
+      "HOLLOW": [
+        "HOLLOW"
+      ],
+      "DARKCENTER": [
+        "DARKCENTER"
+      ],
+      "THINSURF": [
+        "THINSURF"
+      ],
+      "HOLLOW/DARKCENTER/THINSURF": [
+        "HOLLOW/DARKCENTER/THINSURF"
+      ]
+    },
+    "head_index": {
+      "HOT": 0,
+      "DIM": 0,
+      "RUM": 0,
+      "GRIT": 0,
+      "RED": 0,
+      "HOT+DIM+RUM+GRIT+RED": 0,
+      "WHTBRIGHT": 0,
+      "BUZZ": 0,
+      "VIB": 0,
+      "BUZZ/VIB": 0,
+      "FACEHEAT": 0,
+      "WHTBRIGHT/BUZZ/VIB/FACEHEAT": 0,
+      "1FACEBRIGHT": 0,
+      "LOCALVIB": 0,
+      "WHINE": 0,
+      "1FACEBRIGHT/LOCALVIB/WHINE": 0,
+      "FLICKERCHAOS": 0,
+      "BROKENHUM": 0,
+      "FLICKERCHAOS/BROKENHUM": 0,
+      "DRIFTLIGHT": 0,
+      "SMEAREDGES": 0,
+      "WAVERHUM": 0,
+      "DRIFTLIGHT/SMEAREDGES/WAVERHUM": 0,
+      "STALLCOLD": 0,
+      "SILENT": 0,
+      "STALLCOLD/SILENT": 0,
+      "TOO-BRIGHT": 0,
+      "LAYERHUM": 0,
+      "FROZEN": 0,
+      "TOO-BRIGHT/LAYERHUM/FROZEN": 0,
+      "OPPPULSE": 0,
+      "2TONE": 0,
+      "OPPPULSE/2TONE": 0,
+      "SPLITHUM": 0,
+      "2CONFIG": 0,
+      "SPLITHUM/2CONFIG": 0,
+      "SHIMMER": 0,
+      "SPLITHUM/2CONFIG/SHIMMER": 0,
+      "WHISPER": 0,
+      "WASHED": 0,
+      "DIM/WHISPER/WASHED": 0,
+      "BRIGHTCORNERS": 0,
+      "CLICK": 0,
+      "HEAT": 0,
+      "BRIGHTCORNERS/CLICK/HEAT": 0,
+      "HOLLOW": 0,
+      "DARKCENTER": 0,
+      "THINSURF": 0,
+      "HOLLOW/DARKCENTER/THINSURF": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "HOT": "hot",
+      "DIM": "dim",
+      "RUM": "rumbling",
+      "GRIT": "gritty",
+      "RED": "red",
+      "HOT+DIM+RUM+GRIT+RED": "hot, dim, rumbling, gritty, and red",
+      "WHTBRIGHT": "bright white appearance",
+      "BUZZ": "buzzing",
+      "VIB": "vibration",
+      "BUZZ/VIB": "buzzing and vibration",
+      "FACEHEAT": "heat on a face",
+      "WHTBRIGHT/BUZZ/VIB/FACEHEAT": "bright white appearance, buzzing, vibration, and heat on a face",
+      "1FACEBRIGHT": "one face is bright",
+      "LOCALVIB": "localized vibration",
+      "WHINE": "whining sound",
+      "1FACEBRIGHT/LOCALVIB/WHINE": "one face is bright, with localized vibration and a whining sound",
+      "FLICKERCHAOS": "chaotic flickering",
+      "BROKENHUM": "broken hum",
+      "FLICKERCHAOS/BROKENHUM": "chaotic flickering with a broken hum",
+      "DRIFTLIGHT": "drifting light",
+      "SMEAREDGES": "smeared edges",
+      "WAVERHUM": "wavering hum",
+      "DRIFTLIGHT/SMEAREDGES/WAVERHUM": "drifting light, smeared edges, and a wavering hum",
+      "STALLCOLD": "stalled and cold",
+      "SILENT": "silent",
+      "STALLCOLD/SILENT": "stalled and cold, and silent",
+      "TOO-BRIGHT": "too bright",
+      "LAYERHUM": "layered hum",
+      "FROZEN": "frozen",
+      "TOO-BRIGHT/LAYERHUM/FROZEN": "too bright, with a layered hum, and frozen",
+      "OPPPULSE": "opposing pulse",
+      "2TONE": "two-tone sound",
+      "OPPPULSE/2TONE": "opposing pulse with a two-tone sound",
+      "SPLITHUM": "split hum",
+      "2CONFIG": "two configurations",
+      "SPLITHUM/2CONFIG": "split hum with two configurations",
+      "SHIMMER": "shimmering",
+      "SPLITHUM/2CONFIG/SHIMMER": "split hum with two configurations and shimmering",
+      "WHISPER": "whispering sound",
+      "WASHED": "washed-out appearance",
+      "DIM/WHISPER/WASHED": "dim, with a whispering sound and a washed-out appearance",
+      "BRIGHTCORNERS": "bright corners",
+      "CLICK": "clicking sound",
+      "HEAT": "heat",
+      "BRIGHTCORNERS/CLICK/HEAT": "bright corners, clicking sound, and heat",
+      "HOLLOW": "hollow tap",
+      "DARKCENTER": "dark center",
+      "THINSURF": "thin surface hum",
+      "HOLLOW/DARKCENTER/THINSURF": "hollow tap, dark center, and thin surface hum"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780595446",
+    "n_codes": 49,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible morpheme paradigm survives the evidence threshold. The apparent shared substrings in the candidate hints (UM, IGHT, EAT, ED, etc.) do not show stable compositional meanings across contrasting residues: e.g. -UM would have to mean something like 'hum/rumble', but RUM, BROKENHUM, WAVERHUM, LAYERHUM, and SPLITHUM do not decompose into a consistent shared morpheme plus a substituting class with predictable whole meanings; likewise -IGHT mixes bright/light, -EAT mixes heat with unrelated residue shapes, -ED mixes RED and WASHED, and other proposed prefixes/suffixes fail the same test. The multi-code strings with '+' and '/' are semantically conjunctive, but the dataset does not provide a securely induced substitutional morphology over their parts under the strict requirement not to promote residual whole symbols into generic ROOT/MISC classes. Since false morphology is worse than a flat analysis, all supplied symbols are treated as lexical.",
+    "lexical_symbols": [
+      "HOT",
+      "DIM",
+      "RUM",
+      "GRIT",
+      "RED",
+      "HOT+DIM+RUM+GRIT+RED",
+      "WHTBRIGHT",
+      "BUZZ",
+      "VIB",
+      "BUZZ/VIB",
+      "FACEHEAT",
+      "WHTBRIGHT/BUZZ/VIB/FACEHEAT",
+      "1FACEBRIGHT",
+      "LOCALVIB",
+      "WHINE",
+      "1FACEBRIGHT/LOCALVIB/WHINE",
+      "FLICKERCHAOS",
+      "BROKENHUM",
+      "FLICKERCHAOS/BROKENHUM",
+      "DRIFTLIGHT",
+      "SMEAREDGES",
+      "WAVERHUM",
+      "DRIFTLIGHT/SMEAREDGES/WAVERHUM",
+      "STALLCOLD",
+      "SILENT",
+      "STALLCOLD/SILENT",
+      "TOO-BRIGHT",
+      "LAYERHUM",
+      "FROZEN",
+      "TOO-BRIGHT/LAYERHUM/FROZEN",
+      "OPPPULSE",
+      "2TONE",
+      "OPPPULSE/2TONE",
+      "SPLITHUM",
+      "2CONFIG",
+      "SPLITHUM/2CONFIG",
+      "SHIMMER",
+      "SPLITHUM/2CONFIG/SHIMMER",
+      "WHISPER",
+      "WASHED",
+      "DIM/WHISPER/WASHED",
+      "BRIGHTCORNERS",
+      "CLICK",
+      "HEAT",
+      "BRIGHTCORNERS/CLICK/HEAT",
+      "HOLLOW",
+      "DARKCENTER",
+      "THINSURF",
+      "HOLLOW/DARKCENTER/THINSURF"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

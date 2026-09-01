@@ -1,0 +1,698 @@
+{
+  "grammar": {
+    "run_key": "veyru/1781083392",
+    "slots": [
+      {
+        "role": "prefix",
+        "fillers": [
+          {
+            "form": "hum-",
+            "gloss": "hum",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "voice-",
+            "gloss": "voice",
+            "support": 1,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "C",
+            "gloss": "cloth",
+            "support": 2,
+            "is_defined": true
+          },
+          {
+            "form": "tone",
+            "gloss": "sustained tone",
+            "support": 2,
+            "is_defined": true
+          }
+        ]
+      },
+      {
+        "role": "suffix",
+        "fillers": [
+          {
+            "form": "c",
+            "gloss": "cool",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "w",
+            "gloss": "warm",
+            "support": 1,
+            "is_defined": false
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "C": [
+        "C"
+      ],
+      "B": [
+        "B"
+      ],
+      "S": [
+        "S"
+      ],
+      "F": [
+        "F"
+      ],
+      "P": [
+        "P"
+      ],
+      "L": [
+        "L"
+      ],
+      "T": [
+        "T"
+      ],
+      "Bt": [
+        "Bt"
+      ],
+      "N": [
+        "N"
+      ],
+      "E": [
+        "E"
+      ],
+      "W": [
+        "W"
+      ],
+      "OK": [
+        "OK"
+      ],
+      "OK+": [
+        "OK+"
+      ],
+      "NG": [
+        "NG"
+      ],
+      "NG2": [
+        "NG2"
+      ],
+      "AC": [
+        "AC"
+      ],
+      "DE": [
+        "DE"
+      ],
+      "ES": [
+        "ES"
+      ],
+      "LI": [
+        "LI"
+      ],
+      "Lo": [
+        "Lo"
+      ],
+      "Hi": [
+        "Hi"
+      ],
+      "PI": [
+        "PI"
+      ],
+      "RC": [
+        "RC"
+      ],
+      "CD": [
+        "CD"
+      ],
+      "BS": [
+        "BS"
+      ],
+      "PS": [
+        "PS"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "TB": [
+        "TB"
+      ],
+      "CV": [
+        "CV"
+      ],
+      "Cc": [
+        "C",
+        "c"
+      ],
+      "Cw": [
+        "C",
+        "w"
+      ],
+      "tone": [
+        "tone"
+      ],
+      "voice-tone": [
+        "voice-",
+        "tone"
+      ],
+      "hum-tone": [
+        "hum-",
+        "tone"
+      ],
+      "chime": [
+        "chime"
+      ],
+      "simul": [
+        "simul"
+      ],
+      "Vh": [
+        "Vh"
+      ],
+      "M1": [
+        "M1"
+      ],
+      "M2": [
+        "M2"
+      ],
+      "M3": [
+        "M3"
+      ],
+      "M4": [
+        "M4"
+      ],
+      "M5": [
+        "M5"
+      ],
+      "M6": [
+        "M6"
+      ],
+      "M7": [
+        "M7"
+      ],
+      "M8": [
+        "M8"
+      ],
+      "M9": [
+        "M9"
+      ],
+      "M10": [
+        "M10"
+      ],
+      "M11": [
+        "M11"
+      ],
+      "M12": [
+        "M12"
+      ],
+      "M13": [
+        "M13"
+      ],
+      "M14": [
+        "M14"
+      ]
+    },
+    "head_index": {
+      "C": 0,
+      "B": 0,
+      "S": 0,
+      "F": 0,
+      "P": 0,
+      "L": 0,
+      "T": 0,
+      "Bt": 0,
+      "N": 0,
+      "E": 0,
+      "W": 0,
+      "OK": 0,
+      "OK+": 0,
+      "NG": 0,
+      "NG2": 0,
+      "AC": 0,
+      "DE": 0,
+      "ES": 0,
+      "LI": 0,
+      "Lo": 0,
+      "Hi": 0,
+      "PI": 0,
+      "RC": 0,
+      "CD": 0,
+      "BS": 0,
+      "PS": 0,
+      "HS": 0,
+      "TB": 0,
+      "CV": 0,
+      "Cc": 0,
+      "Cw": 0,
+      "tone": 0,
+      "voice-tone": 1,
+      "hum-tone": 1,
+      "chime": 0,
+      "simul": 0,
+      "Vh": 0,
+      "M1": 0,
+      "M2": 0,
+      "M3": 0,
+      "M4": 0,
+      "M5": 0,
+      "M6": 0,
+      "M7": 0,
+      "M8": 0,
+      "M9": 0,
+      "M10": 0,
+      "M11": 0,
+      "M12": 0,
+      "M13": 0,
+      "M14": 0
+    },
+    "attested_orderings": [
+      [
+        "prefix",
+        "stem"
+      ],
+      [
+        "stem",
+        "suffix"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [],
+    "form_positions": {
+      "C": 0,
+      "c": 1,
+      "w": 1,
+      "voice-": 2,
+      "hum-": 2,
+      "tone": 3
+    },
+    "position_labels": {
+      "0": "Cloth base",
+      "1": "Cloth temperature",
+      "2": "Tone source",
+      "3": "Tone head"
+    },
+    "positions_by_symbol": {
+      "Cc": [
+        0,
+        1
+      ],
+      "Cw": [
+        0,
+        1
+      ],
+      "voice-tone": [
+        2,
+        3
+      ],
+      "hum-tone": [
+        2,
+        3
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "C": "cloth"
+      },
+      "1": {
+        "c": "cool",
+        "w": "warm"
+      },
+      "2": {
+        "voice-": "voice",
+        "hum-": "hum"
+      },
+      "3": {
+        "tone": "sustained tone"
+      }
+    },
+    "meaning_by_symbol": {
+      "C": "neutral cloth",
+      "B": "bell",
+      "S": "heated stone",
+      "F": "fan",
+      "P": "board",
+      "L": "lamp",
+      "T": "top face",
+      "Bt": "bottom face, the face on the bench",
+      "N": "north face",
+      "E": "east face",
+      "W": "west face",
+      "OK": "stabilization successful, no new symptoms",
+      "OK+": "successful, new symptoms follow",
+      "NG": "ineffective, retry",
+      "NG2": "ineffective second time, need different action",
+      "AC": "AlignColl",
+      "DE": "Drift",
+      "ES": "Echo",
+      "LI": "LowInt",
+      "Lo": "LowInt",
+      "Hi": "HighInt",
+      "PI": "PhaseInv",
+      "RC": "Resonance",
+      "CD": "CornerDL",
+      "BS": "BoundSoft",
+      "PS": "PropStall",
+      "HS": "HarmSplit",
+      "TB": "ThermBleed",
+      "CV": "CoreVoid",
+      "Cc": "cool cloth",
+      "Cw": "warm cloth",
+      "tone": "sustained voiced or hummed tone, not bell",
+      "voice-tone": "voice tone, a sustained voiced or hummed tone",
+      "hum-tone": "hum tone, a sustained voiced or hummed tone",
+      "chime": "bell",
+      "simul": "simultaneously",
+      "Vh": "sustained voice-tone or hummed tone",
+      "M1": "BoundSoft",
+      "M2": "PhaseInv",
+      "M3": "Leak",
+      "M4": "Drift",
+      "M5": "HarmSplit",
+      "M6": "Resonance",
+      "M7": "PropStall",
+      "M8": "HighInt",
+      "M9": "CornerDL",
+      "M10": "Echo",
+      "M11": "ThermBleed",
+      "M12": "CoreVoid",
+      "M13": "AlignColl",
+      "M14": "LowInt"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1781083392",
+    "n_codes": 51,
+    "n_multimorpheme": 4,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "stem",
+        "label": "Cloth base",
+        "fillers": [
+          {
+            "form": "C",
+            "gloss": "cloth",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.5,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "suffix",
+        "label": "Cloth temperature",
+        "fillers": [
+          {
+            "form": "c",
+            "gloss": "cool",
+            "count": 1
+          },
+          {
+            "form": "w",
+            "gloss": "warm",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.5,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos2",
+        "role": "prefix",
+        "label": "Tone source",
+        "fillers": [
+          {
+            "form": "hum-",
+            "gloss": "hum",
+            "count": 1
+          },
+          {
+            "form": "voice-",
+            "gloss": "voice",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.5,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos3",
+        "role": "stem",
+        "label": "Tone head",
+        "fillers": [
+          {
+            "form": "tone",
+            "gloss": "sustained tone",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.5,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      },
+      {
+        "slot_a": "pos2",
+        "slot_b": "pos3",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ],
+      [
+        "pos2",
+        "pos3"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "Cc": [
+        "pos0",
+        "pos1"
+      ],
+      "Cw": [
+        "pos0",
+        "pos1"
+      ],
+      "voice-tone": [
+        "pos2",
+        "pos3"
+      ],
+      "hum-tone": [
+        "pos2",
+        "pos3"
+      ]
+    },
+    "construction_by_symbol": {
+      "Cc": "CX1",
+      "Cw": "CX1",
+      "voice-tone": "CX2",
+      "hum-tone": "CX2"
+    },
+    "construction_labels": {
+      "CX1": "Temperature-specified cloth",
+      "CX2": "Source-specified tone"
+    },
+    "construction_templates": {
+      "CX1": [
+        "pos0",
+        "pos1"
+      ],
+      "CX2": [
+        "pos2",
+        "pos3"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "Most symbols are opaque lexical items. The M1–M14 series fails the opaque-index test: the numerals do not contribute literal count meaning, but select unrelated stored labels. Other partial resemblances likewise do not yield stable compositional paradigms. Two small paradigms are defensible. (1) Cc/Cw form a minimal pair in the frame C_, with predictable meanings 'cloth' plus a temperature modifier; standalone C remains lexical despite homographic use as a morpheme. (2) voice-tone/hum-tone form a minimal pair in the frame __tone, with contrasting source morphemes and a stable tone head; standalone tone remains lexical despite homographic use as a morpheme. The missing symbol chime is an opaque lexical synonym of bell and belongs in lexical_symbols.",
+    "lexical_symbols": [
+      "C",
+      "B",
+      "S",
+      "F",
+      "P",
+      "L",
+      "T",
+      "Bt",
+      "N",
+      "E",
+      "W",
+      "OK",
+      "OK+",
+      "NG",
+      "NG2",
+      "AC",
+      "DE",
+      "ES",
+      "LI",
+      "Lo",
+      "Hi",
+      "PI",
+      "RC",
+      "CD",
+      "BS",
+      "PS",
+      "HS",
+      "TB",
+      "CV",
+      "tone",
+      "chime",
+      "simul",
+      "Vh",
+      "M1",
+      "M2",
+      "M3",
+      "M4",
+      "M5",
+      "M6",
+      "M7",
+      "M8",
+      "M9",
+      "M10",
+      "M11",
+      "M12",
+      "M13",
+      "M14"
+    ],
+    "classes": [
+      {
+        "class_id": "CL1",
+        "label": "Cloth base",
+        "description": "Head morpheme naming cloth as the manipulated object.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CL2",
+        "label": "Cloth temperature",
+        "description": "Temperature modifier on cloth.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CL3",
+        "label": "Tone source",
+        "description": "Source or manner of producing the sustained tone.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CL4",
+        "label": "Tone head",
+        "description": "Head morpheme meaning sustained tone.",
+        "repeatable": false,
+        "declared_fillers": []
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "CX1",
+        "label": "Temperature-specified cloth",
+        "description": "A cloth head followed by a temperature modifier.",
+        "class_sequence": [
+          "CL1",
+          "CL2"
+        ]
+      },
+      {
+        "construction_id": "CX2",
+        "label": "Source-specified tone",
+        "description": "A source/manner morpheme followed by the tone head.",
+        "class_sequence": [
+          "CL3",
+          "CL4"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "Cc",
+        "construction_id": "CX1",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "C",
+            "class_id": "CL1",
+            "gloss": "cloth"
+          },
+          {
+            "form": "c",
+            "class_id": "CL2",
+            "gloss": "cool"
+          }
+        ]
+      },
+      {
+        "symbol": "Cw",
+        "construction_id": "CX1",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "C",
+            "class_id": "CL1",
+            "gloss": "cloth"
+          },
+          {
+            "form": "w",
+            "class_id": "CL2",
+            "gloss": "warm"
+          }
+        ]
+      },
+      {
+        "symbol": "voice-tone",
+        "construction_id": "CX2",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "voice-",
+            "class_id": "CL3",
+            "gloss": "voice"
+          },
+          {
+            "form": "tone",
+            "class_id": "CL4",
+            "gloss": "sustained tone"
+          }
+        ]
+      },
+      {
+        "symbol": "hum-tone",
+        "construction_id": "CX2",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "hum-",
+            "class_id": "CL3",
+            "gloss": "hum"
+          },
+          {
+            "form": "tone",
+            "class_id": "CL4",
+            "gloss": "sustained tone"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+group,budget,avg_success,n_runs
+closed-source,150,0.078,12
+closed-source,250,0.133,12
+closed-source,450,0.357,12
+closed-source,800,0.689,12
+closed-source,2000,0.921,12
+closed-source,ALL (pooled),0.436,60
+open-source,150,0.0,8
+open-source,250,0.0,8
+open-source,450,0.008,8
+open-source,800,0.075,8
+open-source,2000,0.308,8
+open-source,ALL (pooled),0.079,40

@@ -1,0 +1,3002 @@
+[
+ {
+  "id": "item_0000",
+  "root": "veyru/1781173593",
+  "grammar": "motif_symptom: {Alignment, Boundary, Core, Corner, Drift, Echo, Harmonic, High, Leak, Low, Phase, Propagation, Resonance, Thermal, alignment, blazing, blur, boundary, bulge, buzz, cd, chaotic, clash, clicking, cold, collapse, core, corner, dark, dead, deadlock, drift, echo, gritty, harmonic, high, hl, hol, hollow, irregular, layered, leak, low, mfl, muffled, phase, propagation, pulse, pulsing, reddish, resonance, rm, rumble, shimmer, silent, slide, slides, stall, sync, thermal, ticking, ticks, tones, void, washed, waver, wavering, whine, whisper, wobble, wv}\ntemplate: {adjE, adjacent, all, alternate, alternating, bd, beside, board, briefly, center, coverage, ctr, cyc, fan, fn, fold, folded, illuminate, lamp, lamps, lm, meeting, mtg, opp, opposite, p, pairs, pause, rest, rot, rotate, rotation, seq, sequence, six, slowly, soft, start, steady, surface, sustained, tone, trace, volume}\nface: {B, D, F, L, R, T, back, bottom, down, front, left, right, top}\nduration: a number = that many seconds\nintensity: {f, fir, firm, g, gentle, m, med, mod, moderate, s, strong}",
+  "context": [
+   {
+    "agent": "Field Observer",
+    "text": "new: edges wobble, faces bulge, hum muffled",
+    "round": 17
+   },
+   {
+    "agent": "Engineer",
+    "text": "cl all 12s; fn cool m F+opp 12s",
+    "round": 17
+   },
+   {
+    "agent": "Field Observer",
+    "text": "fail. resend?",
+    "round": 17
+   },
+   {
+    "agent": "Engineer",
+    "text": "rest soft F-up m 12s",
+    "round": 17
+   },
+   {
+    "agent": "Field Observer",
+    "text": "fail x2",
+    "round": 17
+   },
+   {
+    "agent": "Engineer",
+    "text": "Drape cool cloth over Veyru 12s. Remove, fan moderate cool air across front and back faces 12s.",
+    "round": 17
+   },
+   {
+    "agent": "Field Observer",
+    "text": "frozen dim silent cold",
+    "round": 18
+   },
+   {
+    "agent": "Engineer",
+    "text": "bl L\u2194R g x5cyc 20s p",
+    "round": 18
+   },
+   {
+    "agent": "Field Observer",
+    "text": "new: hollow tap, dark core, thin hum",
+    "round": 18
+   },
+   {
+    "agent": "Engineer",
+    "text": "st L g 20s, rotate all faces",
+    "round": 18
+   }
+  ],
+  "message": "fail. clarify rotate?",
+  "target_agent": "Field Observer",
+  "target_round": 18
+ },
+ {
+  "id": "item_0001",
+  "root": "veyru/1781175557",
+  "grammar": "motif_symptom: {AC, BS, CD, CV, DE, Drifting, ES, F, HI, HS, LI, LK, PI, PS, RC, Split, TB, blinding, blurred, bulge, buzz, center, clicking, failed, faint, flicker, frozen, hollow, layered, pulse, red, rough, silent, vibrate, whine, wobble}\ntemplate: {AC, BS, CD, CV, DE, ES, Folded, HI, HS, LI, LK, PI, PS, RC, Repeat, Soft, TB, adj, beside, board, center, corner, corners, cycles, fan, folded, lamp, slowly, soft, surface, tone}\nface: {back, bottom, btm, front, left, lft, rgt, right, top}\nduration: a number = that many seconds\nintensity: {firm, gentle, gtl, mod, moderate}",
+  "context": [
+   {
+    "agent": "Field Observer",
+    "text": "PI",
+    "round": 14
+   },
+   {
+    "agent": "Engineer",
+    "text": "Soft surface, btm face up, firm, 8s. No touch.",
+    "round": 14
+   },
+   {
+    "agent": "Field Observer",
+    "text": "F",
+    "round": 14
+   },
+   {
+    "agent": "Engineer",
+    "text": "Retry PI: place Veyru firmly btm-face-down on soft surface, 8s still.",
+    "round": 14
+   },
+   {
+    "agent": "Field Observer",
+    "text": "1-2 corners glowing bright. Clicking/ticking near them. Heat at those corners. Rest normal.",
+    "round": 16
+   },
+   {
+    "agent": "Engineer",
+    "text": "Bell near center each face once, gentle, start back. Stone beside Veyru 8s.",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "1 face very bright, intense vibration, high-pitched whine. Others normal.",
+    "round": 16
+   },
+   {
+    "agent": "Engineer",
+    "text": "RC back/gtl/8",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Faces normal glow. Hollow tap sound. Dark center, light won't penetrate. Thin hum, no depth.",
+    "round": 17
+   },
+   {
+    "agent": "Engineer",
+    "text": "Flat board against front face, mod, 12s. Rotate, repeat each face-pair.",
+    "round": 17
+   }
+  ],
+  "message": "Board ineffective. Same symptoms.",
+  "target_agent": "Field Observer",
+  "target_round": 17
+ },
+ {
+  "id": "item_0002",
+  "root": "veyru/1780652668",
+  "grammar": "motif_symptom: {A, Alignment, Boundary, Bs, C, Cd, Core, Corner, Cv, D, Dr, Drift, E, Echo, Es, F, H, Harmonic, Hi, High, Hs, L, Leak, Li, Low, Ph, Phase, Propagation, Ps, Rc, Resonance, T, Thermal}\ntemplate: {6, Soft, Trace, adj, alt, beside, board, brief, center, ct, fan, fb, fn, fold, folded, lamp, lp, pos, six, slowly, soft, sustain, tone, tr, trace, volume}\nface: {B, Bo, Bt, F, L, R, T, back, bottom, front, left, right, top}\nduration: a number = that many seconds\nintensity: {firm, g, gentle, m, mod, moderate, s, strong}",
+  "context": [
+   {
+    "agent": "Engineer",
+    "text": "bl ct each fc/gentle, start B. hs beside 8s.",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "fail. Clarify order/hs?",
+    "round": 16
+   },
+   {
+    "agent": "Engineer",
+    "text": "hs=set stone next to Veyru 8s. Repeat bl+hs.",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "fail again. hs+bl same time?",
+    "round": 16
+   },
+   {
+    "agent": "Engineer",
+    "text": "bl each fc-ct 1x/gentle first, THEN hs beside 8s.",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "fail 3x. Diff tool?",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Fc nml. Hollow tap. Dark ctr. Thin hm.",
+    "round": 17
+   },
+   {
+    "agent": "Engineer",
+    "text": "fb flat vs F-face 12s/mod. Then vs B 12s. Then L+R 12s ea. Then T+Bt 12s ea.",
+    "round": 17
+   },
+   {
+    "agent": "Field Observer",
+    "text": "fail. fb seq F>B>L>R>T>Bt 12s ea mod.",
+    "round": 17
+   },
+   {
+    "agent": "Engineer",
+    "text": "fb between F+B sim 12s. Then between L+R 12s. Then T+Bt 12s. Mod.",
+    "round": 17
+   }
+  ],
+  "message": "fail. opp pair sim ok?",
+  "target_agent": "Field Observer",
+  "target_round": 17
+ },
+ {
+  "id": "item_0003",
+  "root": "veyru/1780598317",
+  "grammar": "motif_symptom: {AC, BS, Be, CD, CV, DE, ES, HI, HS, LI, LO, PI, PS, RC, TB, alignment, blurred, bright, bulge, cascade, clicking, cold, collapse, collapsed, core, dark, drift, drifts, echo, effect, fading, frozen, gritty, harmonic, high, hollow, hot, inversion, inverted, near, overbright, phase, reddish, resonance, rough, same, saturated, saturation, silent, smeared, softening, split, still, tones, vib, void, washed, wavering, whine, whisper, wobble}\ntemplate: {Alternate, Bc, Bk, Board, Bs, Bsa, Ca, Cf, F, Fc, Illuminate, L, Lamp, O, P, Pa, R, Rest, Rotate, Rs, Sound, adjacent, alt, alternate, beside, board, center, centre, cycles, faces, folded, illuminate, lamp, meeting, opposite, rest, rotate, sound, sustained, trace}\nface: {back, bottom, front, left, right, sF, sL, sR, sT, top}\nduration: a number = that many seconds\nintensity: {fir, firm, gentle, mod, moderate}",
+  "context": [
+   {
+    "agent": "Field Observer",
+    "text": "V16: 1-2 corners bright/hot; clicking there; rest normal.",
+    "round": 16
+   },
+   {
+    "agent": "Engineer",
+    "text": "Bc,all,sBack,gent,x1; Hw,beside,8,gent.",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Now: one face very bright, vibrating; high whine there; others normal.",
+    "round": 16
+   },
+   {
+    "agent": "Engineer",
+    "text": "Pa,back,8,gent; rpt pairs.",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Now too bright; hum layered; some faces frozen, unchanged by touch.",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "45s left.",
+    "round": 17
+   },
+   {
+    "agent": "Field Observer",
+    "text": "V17: normal surface glow; hollow tap; dark center blocks light; hum thin.",
+    "round": 17
+   },
+   {
+    "agent": "Engineer",
+    "text": "Pa,front,12,mod; rpt pairs.",
+    "round": 17
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Now: edges wobble/flex; faces bulge; hum muffled/underwater.",
+    "round": 17
+   },
+   {
+    "agent": "Engineer",
+    "text": "Cc,12;Rm;Fc,front+opp,12,mod.",
+    "round": 17
+   }
+  ],
+  "message": "Cc?",
+  "target_agent": "Field Observer",
+  "target_round": 17
+ },
+ {
+  "id": "item_0004",
+  "root": "veyru/1780480309",
+  "grammar": "motif_symptom: {ALIGN, Align, BOUND, Bound, DEAD, DRIFT, Dead, Drift, ECHO, Echo, HIGH, HIGHI, High, LEAK, LOW, LOWI, Leak, Low, PHASE, Phase, RESON, Reson, SPLIT, STALL, Split, Stall, THERM, Therm, VOID, Void, alignment, blur, broken, bulge, buzz, clash, dk, fade, frozen, hollow, layered, muffled, patterns, pulse, random, red, rumble, silent, slides, sync, thin, tick, washed, wavers, whine, whisper, wobble}\ntemplate: {1, 10, 11, 12, 13, 14, 2, 3, 4, 5, 6, 7, 8, 9, Alternate, Board, Fan, Illuminate, Rotate, Trace, adj, adjacent, alt, alternate, bd, beside, board, briefly, center, ctr, faces, fan, fn, fold, folded, illuminate, lamp, lamps, lp, meeting, opp, opposite, rest, rotate, soft, sustained, trace}\nface: {1, 2, 3, 4, 5, 6, B, Back, Bk, Bottom, Bt, Btm, F, Front, L, Left, R, Right, T, Top, back, bot, bottom, front, left, right, top}\nduration: a number = that many seconds\nintensity: {firm, gen, gentle, mod, moderate}",
+  "context": [
+   {
+    "agent": "Field Observer",
+    "text": "FAIL",
+    "round": 17
+   },
+   {
+    "agent": "Engineer",
+    "text": "Rest flat board against Front face mod contact 12s. Rotate, repeat ea face-pair.",
+    "round": 17
+   },
+   {
+    "agent": "Field Observer",
+    "text": "#NAME?",
+    "round": 17
+   },
+   {
+    "agent": "Engineer",
+    "text": "WARP=?",
+    "round": 17
+   },
+   {
+    "agent": "Field Observer",
+    "text": "edges wobble, faces bulge, hum muffled",
+    "round": 17
+   },
+   {
+    "agent": "Engineer",
+    "text": "P9 F",
+    "round": 17
+   },
+   {
+    "agent": "Field Observer",
+    "text": "P9?",
+    "round": 17
+   },
+   {
+    "agent": "Engineer",
+    "text": "cool cl drape 12s; fan mod cool F+Bk 12s",
+    "round": 17
+   },
+   {
+    "agent": "Field Observer",
+    "text": "STALL",
+    "round": 18
+   },
+   {
+    "agent": "Engineer",
+    "text": "[20s/gen] P5 L",
+    "round": 18
+   }
+  ],
+  "message": "P5?",
+  "target_agent": "Field Observer",
+  "target_round": 18
+ },
+ {
+  "id": "item_0005",
+  "root": "veyru/1780598092",
+  "grammar": "motif_symptom: {ALIGN, CORNER, Collapse, DRIFT, ECHO, LEAK, LOW, Leak, PULSE, SOFT, SPLIT, STALL, Stall, VOID, WHINE, WHITE, alignment, alternating, blazing, blurred, bulging, buzz, cc, clashing, clicking, cold, collapse, dark, drifting, fading, faint, flash, gritty, ineffective, layered, losing, reddish, rumble, shimmer, silent, underwater, washed, wavering, whine, whisper, wobbling}\ntemplate: {6, Alternate, adj, adjacent, alt, alternate, beside, board, brief, briefly, center, ctr, folded, lamp, opp, opposite, pair, six, slowly, soft, sustained, trace, volume}\nface: {back, bottom, front, left, right, top}\nduration: a number = that many seconds\nintensity: {fir, firm, g, gentle, mod, moderate}",
+  "context": [
+   {
+    "agent": "Engineer",
+    "text": "board front 12 moderate; rotate each face-pair",
+    "round": 17
+   },
+   {
+    "agent": "Field Observer",
+    "text": "wobbly edges; bulged faces; muffled hum",
+    "round": 17
+   },
+   {
+    "agent": "Engineer",
+    "text": "cool cloth 12; fan front+opp 12 moderate",
+    "round": 17
+   },
+   {
+    "agent": "Field Observer",
+    "text": "ineffective",
+    "round": 17
+   },
+   {
+    "agent": "Engineer",
+    "text": "cue?",
+    "round": 17
+   },
+   {
+    "agent": "Field Observer",
+    "text": "wobble/bulge/muffle",
+    "round": 17
+   },
+   {
+    "agent": "Engineer",
+    "text": "cool cloth whole 12; fan front+opp 12",
+    "round": 17
+   },
+   {
+    "agent": "Field Observer",
+    "text": "ineffective",
+    "round": 18
+   },
+   {
+    "agent": "Field Observer",
+    "text": "frozen dim; silent; cold; no response",
+    "round": 18
+   },
+   {
+    "agent": "Engineer",
+    "text": "bell opp faces from left; alt q20 x5 gentle",
+    "round": 18
+   }
+  ],
+  "message": "q20?",
+  "target_agent": "Field Observer",
+  "target_round": 18
+ },
+ {
+  "id": "item_0006",
+  "root": "veyru/1780600361",
+  "grammar": "motif_symptom: {AC, BS, CD, CV, DE, ES, HI, HS, LD, LI, LO, PI, PS, RC, TB}\ntemplate: {1, 10, 11, 12, 13, 14, 2, 3, 4, 5, 6, 7, 8, 9, Alternate, adjacent, alternate, beside, board, briefly, center, corner, folded, lamp, slowly, soft, sustained}\nface: {B, Bo, Fr, L, R, T, back, bottom, front, left, right, top}\nduration: a number = that many seconds\nintensity: {f, firm, g, gentle, m, moderate}",
+  "context": [
+   {
+    "agent": "Field Observer",
+    "text": "RC",
+    "round": 19
+   },
+   {
+    "agent": "Engineer",
+    "text": "P6L20f",
+    "round": 19
+   },
+   {
+    "agent": "Field Observer",
+    "text": "P6?",
+    "round": 19
+   },
+   {
+    "agent": "Engineer",
+    "text": "P6: cool cloth whole Veyru 20s; fan L+opp 20s.",
+    "round": 19
+   },
+   {
+    "agent": "Field Observer",
+    "text": "no",
+    "round": 19
+   },
+   {
+    "agent": "Engineer",
+    "text": "tag?",
+    "round": 19
+   },
+   {
+    "agent": "Field Observer",
+    "text": "RC",
+    "round": 19
+   },
+   {
+    "agent": "Engineer",
+    "text": "P6L20f",
+    "round": 19
+   },
+   {
+    "agent": "Field Observer",
+    "text": "BF",
+    "round": 19
+   },
+   {
+    "agent": "Engineer",
+    "text": "P8L20f",
+    "round": 19
+   }
+  ],
+  "message": "P8?",
+  "target_agent": "Field Observer",
+  "target_round": 19
+ },
+ {
+  "id": "item_0007",
+  "root": "veyru/1780480309",
+  "grammar": "motif_symptom: {ALIGN, Align, BOUND, Bound, DEAD, DRIFT, Dead, Drift, ECHO, Echo, HIGH, HIGHI, High, LEAK, LOW, LOWI, Leak, Low, PHASE, Phase, RESON, Reson, SPLIT, STALL, Split, Stall, THERM, Therm, VOID, Void, alignment, blur, broken, bulge, buzz, clash, dk, fade, frozen, hollow, layered, muffled, patterns, pulse, random, red, rumble, silent, slides, sync, thin, tick, washed, wavers, whine, whisper, wobble}\ntemplate: {1, 10, 11, 12, 13, 14, 2, 3, 4, 5, 6, 7, 8, 9, Alternate, Board, Fan, Illuminate, Rotate, Trace, adj, adjacent, alt, alternate, bd, beside, board, briefly, center, ctr, faces, fan, fn, fold, folded, illuminate, lamp, lamps, lp, meeting, opp, opposite, rest, rotate, soft, sustained, trace}\nface: {1, 2, 3, 4, 5, 6, B, Back, Bk, Bottom, Bt, Btm, F, Front, L, Left, R, Right, T, Top, back, bot, bottom, front, left, right, top}\nduration: a number = that many seconds\nintensity: {firm, gen, gentle, mod, moderate}",
+  "context": [
+   {
+    "agent": "Field Observer",
+    "text": "LOWI",
+    "round": 13
+   },
+   {
+    "agent": "Engineer",
+    "text": "[20s/gen] P4 L",
+    "round": 13
+   },
+   {
+    "agent": "Field Observer",
+    "text": "STALL",
+    "round": 14
+   },
+   {
+    "agent": "Engineer",
+    "text": "[8s/firm] P5 Bt",
+    "round": 14
+   },
+   {
+    "agent": "Field Observer",
+    "text": "#NAME?",
+    "round": 14
+   },
+   {
+    "agent": "Engineer",
+    "text": "P2 Bt",
+    "round": 14
+   },
+   {
+    "agent": "Field Observer",
+    "text": "#NAME?",
+    "round": 14
+   },
+   {
+    "agent": "Engineer",
+    "text": "P1 Bt",
+    "round": 14
+   },
+   {
+    "agent": "Field Observer",
+    "text": "LOWI",
+    "round": 15
+   },
+   {
+    "agent": "Engineer",
+    "text": "[12s/gen] P4 L",
+    "round": 15
+   }
+  ],
+  "message": "P4=?",
+  "target_agent": "Field Observer",
+  "target_round": 15
+ },
+ {
+  "id": "item_0008",
+  "root": "veyru/1781173595",
+  "grammar": "motif_symptom: {Alignment, Boundary, Core, Drift, Echo, Harmonic, High, Hot, Leak, Low, Phase, Propagation, Red, Resonance, Rough, Rumble, Thermal, alignment, blur, boundary, click, collapse, collapsed, core, deadlock, drift, echo, flash, frozen, harmonic, high, intense, inversion, leak, loud, low, perimeter, phase, propagation, pulse, red, resonance, saturation, softening, split, stall, thermal, vibe, void, washed, wavy, whine, whisper}\ntemplate: {Alt, Alternate, Bd, Il, Illuminate, Rest, Rotate, Rs, Rt, Tn, Tone, across, adj, adjacent, beside, board, center, corner, ctr, folded, opp, opposite, rest, side, soft, trace}\nface: {Ba, Bo, F, L, R, T, back, bottom, front, left, right, top}\nduration: a number = that many seconds\nintensity: {G, H, M, f, firm, g, gentle, hard, m, medium, mod, moderate}",
+  "context": [
+   {
+    "agent": "Field Observer",
+    "text": "Light frozen dim still,silent,cold.",
+    "round": 24
+   },
+   {
+    "agent": "Engineer",
+    "text": "Front=facing you. Bell front+opp faces, 5 cycles, 15s pause, medium.",
+    "round": 24
+   },
+   {
+    "agent": "Field Observer",
+    "text": "P:1face bright+whine+vibe.",
+    "round": 24
+   },
+   {
+    "agent": "Engineer",
+    "text": "Cloth 15s. Fan med all faces, front first 15s.",
+    "round": 24
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Fail. Cloth on which face?",
+    "round": 24
+   },
+   {
+    "agent": "Engineer",
+    "text": "Cloth over entire Veyru. Retry.",
+    "round": 24
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Hot+dim,low rumble,rough,red tint.",
+    "round": 25
+   },
+   {
+    "agent": "Engineer",
+    "text": "Board on left face 20s medium. Spin Veyru, repeat each face-pair.",
+    "round": 25
+   },
+   {
+    "agent": "Field Observer",
+    "text": "P:corners dark,edges dim,hollow hum.",
+    "round": 25
+   },
+   {
+    "agent": "Engineer",
+    "text": "Ring bell continuously near all 6 faces 20s, left first, medium. Fade.",
+    "round": 25
+   }
+  ],
+  "message": "Fail. \"Fade\"=reduce intensity at end?",
+  "target_agent": "Field Observer",
+  "target_round": 25
+ },
+ {
+  "id": "item_0009",
+  "root": "veyru/1780650845",
+  "grammar": "template: {All, Alternate, Bd, Fold, Illuminate, Lp, Repeat, Rotate, Sustained, adj, adjacent, all, alternate, beside, board, center, ctr, cycles, fold, folded, lamp, opp, opposite, rest, rotate, seq, soft, sustained, trace}\nface: {BF, BTF, Bk, Bt, FF, Fr, L, LF, R, RF, T, TF, back, bottom, front, left, right, top}\nduration: a number = that many seconds\nintensity: {f, firm, firmly, g, gentle, m, mod, moderate}",
+  "context": [
+   {
+    "agent": "Engineer",
+    "text": "Bd g against Bk face 8s. Rotate, repeat ea face-pair.",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "ovrbright,stacked hum,faces frozen",
+    "round": 16
+   },
+   {
+    "agent": "Engineer",
+    "text": "St g beside Bk face 8s. Rotate, repeat ea face.",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "St fail",
+    "round": 17
+   },
+   {
+    "agent": "Field Observer",
+    "text": "hollow tap,dark ctr,thin hum",
+    "round": 17
+   },
+   {
+    "agent": "Engineer",
+    "text": "Bd m against Fr face 12s. Rotate, repeat ea face-pair.",
+    "round": 17
+   },
+   {
+    "agent": "Field Observer",
+    "text": "edges flex,faces bulge,muffled hum",
+    "round": 17
+   },
+   {
+    "agent": "Engineer",
+    "text": "Cl cool over all 12s. Remove, Fn m Fr face+opp 12s.",
+    "round": 17
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Fn fail",
+    "round": 17
+   },
+   {
+    "agent": "Engineer",
+    "text": "retry",
+    "round": 17
+   }
+  ],
+  "message": "fail again",
+  "target_agent": "Field Observer",
+  "target_round": 17
+ },
+ {
+  "id": "item_0010",
+  "root": "veyru/1779908251",
+  "grammar": "motif_symptom: {Cd, Dr, Fr, Hs, Si, alt, bulge, click, cold, core, fade, fading, faint, flash, flex, frozen, gritty, muffled, pulse, pulsing, red, resp, response, rough, rumble, shimmer, silent, smear, split, tick, tinted, unresponsive, vib, washed, wavering, whine, whisper}\ntemplate: {Alternate, Illuminate, Lamp, Rotate, Sound, Sustain, adj, adjacent, alternate, beside, board, center, folded, meeting, opp, opposite, rotation, six, soft, trace}\nface: {back, bottom, front, left, right, top}\nduration: a number = that many seconds\nintensity: {firm, gentle, moderate}",
+  "context": [
+   {
+    "agent": "Field Observer",
+    "text": "1F Br+vib; whine@1F.",
+    "round": 16
+   },
+   {
+    "agent": "Engineer",
+    "text": "Board on back face 8s gentle; rotate, repeat each face-pair.",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "No change.",
+    "round": 17
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Surf glow ok; dark ctr; hollow tap; thin hum.",
+    "round": 17
+   },
+   {
+    "agent": "Engineer",
+    "text": "Board on front face 12s moderate; rotate, repeat each face-pair.",
+    "round": 17
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Ed flex touch; F bulge; hum muffled.",
+    "round": 17
+   },
+   {
+    "agent": "Engineer",
+    "text": "Cool cloth over Veyru 12s. Remove; fan moderate cool air across front + opposite faces 12s.",
+    "round": 17
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Op Br<->Dm pulse; 2-tone hum; Ed flash.",
+    "round": 17
+   },
+   {
+    "agent": "Engineer",
+    "text": "Cloth over 2 adj edges near front face 12s moderate; bell near front x3.",
+    "round": 18
+   },
+   {
+    "agent": "Field Observer",
+    "text": "No change.",
+    "round": 18
+   }
+  ],
+  "message": "Symptoms?",
+  "target_agent": "Engineer",
+  "target_round": 18
+ },
+ {
+  "id": "item_0011",
+  "root": "veyru/1780654108",
+  "grammar": "motif_symptom: {Stall, align, blazing, blurred, bound, boundary, broken, bulge, chaotic, clash, click, curved, dead, deadlock, drift, echo, fade, fading, fail, failed, frozen, gritty, hi, hollow, layered, leak, lo, muffled, oscillates, phase, puls, pulsing, red, reson, rumble, slides, split, stall, sync, thermal, thrm, void, warble, washed, whine, whisper, white, wobble}\ntemplate: {1, 10, 11, 12, 13, 14, 2, 3, 4, 5, 6, 7, 8, 9, Soft, adj, adjacent, all, alt, alternate, beside, board, center, centre, fold, folded, hum, lamp, meeting, opp, rest, slow, soft, sustained, trace}\nface: {L, R, back, bot, bottom, front, left, right, top}\nduration: a number = that many seconds\nintensity: {firm, firmly, gentle, gently, mod, moderate, softly, strong}",
+  "context": [
+   {
+    "agent": "Engineer",
+    "text": "fold cloth on front 15s gentle cov; bell near each edge front 2x",
+    "round": 20
+   },
+   {
+    "agent": "Field Observer",
+    "text": "lo",
+    "round": 20
+   },
+   {
+    "agent": "Engineer",
+    "text": "bell alt 2 opp faces from front, 15s pause between chimes, 5 cyc gentle tone",
+    "round": 20
+   },
+   {
+    "agent": "Field Observer",
+    "text": "hotC",
+    "round": 20
+   },
+   {
+    "agent": "Engineer",
+    "text": "envelop cool cloth 15s; remove; fan gentle front+opp 15s",
+    "round": 20
+   },
+   {
+    "agent": "Field Observer",
+    "text": "drift",
+    "round": 20
+   },
+   {
+    "agent": "Engineer",
+    "text": "envelop cool cloth 15s; remove; fan gentle all 6 15s from front",
+    "round": 20
+   },
+   {
+    "agent": "Field Observer",
+    "text": "red",
+    "round": 21
+   },
+   {
+    "agent": "Engineer",
+    "text": "fold cloth on top 15s firm cov; bell near each edge top 2x",
+    "round": 21
+   },
+   {
+    "agent": "Field Observer",
+    "text": "ok",
+    "round": 22
+   }
+  ],
+  "message": "ok=?",
+  "target_agent": "Engineer",
+  "target_round": 22
+ },
+ {
+  "id": "item_0012",
+  "root": "veyru/1780476985",
+  "grammar": "motif_symptom: {AC, AlignColl, BS, BoundSoft, CD, CV, CoreVoid, CornerDead, DE, Drift, ES, Echo, HI, HS, HarmSplit, HighInt, LI, LK, Leak, LowInt, PI, PS, PhaseInv, PropStall, RC, Reson, TB, Thermal, blur, blurred, bulge, clash, cld, click, cold, competing, f, fade, faded, fading, fight, flicker, frozen, frz, gritty, h+, hh, high, hollow, hot, hw, layered, muffled, muted, nr, overall, pulse, pulsing, random, red, resonance, rhythm, rumble, shimmer, sil, silent, sliding, still, sync, tap, thin, too, underwater, vib, void, warp, warped, washed, waver, wavering, whine, whisper, wobble}\ntemplate: {Fctr, Rest, Rotate, Sound, adj, adjacent, all, alt, alternate, alternating, beside, board, briefly, bright, brt, c, center, centre, ctr, do, face, face-pairs, fan, flat, folded, l, lamp, n, p, rest, rot, rot+tone, seq, soft, surface, sustained, tone, trace}\nface: {Bk, Bt, Fr, L, R, T, back, bottom, front, left, right, top}\nduration: a number = that many seconds\nintensity: {firm, g, gentle, mod, moderate}",
+  "context": [
+   {
+    "agent": "Engineer",
+    "text": "l F2 dim+opp brt 5s firm",
+    "round": 4
+   },
+   {
+    "agent": "Field Observer",
+    "text": "ineffective. brt face unknown \u2014 not specified to me",
+    "round": 4
+   },
+   {
+    "agent": "Engineer",
+    "text": "dim lamp on bottom, bright lamp on top, firm brightness, 5s, no movement",
+    "round": 4
+   },
+   {
+    "agent": "Field Observer",
+    "text": "all d, hum h- whisper, patterns washed",
+    "round": 5
+   },
+   {
+    "agent": "Engineer",
+    "text": "s F1-C seq 10s; trace F1 E",
+    "round": 5
+   },
+   {
+    "agent": "Field Observer",
+    "text": "x",
+    "round": 5
+   },
+   {
+    "agent": "Engineer",
+    "text": "p F1 10s, rot all face-pairs",
+    "round": 5
+   },
+   {
+    "agent": "Field Observer",
+    "text": "x",
+    "round": 5
+   },
+   {
+    "agent": "Engineer",
+    "text": "b F1-C briefly; s 2E@C 10s gentle",
+    "round": 5
+   },
+   {
+    "agent": "Field Observer",
+    "text": "x",
+    "round": 5
+   }
+  ],
+  "message": "x = ineffective or dark? more detail?",
+  "target_agent": "Engineer",
+  "target_round": 5
+ },
+ {
+  "id": "item_0013",
+  "root": "veyru/1780654381",
+  "grammar": "motif_symptom: {2tone, algncol, blazing, blur, bndsoft, broken, bulge, buzz, clash, click, cold, corevoid, crnlck, dimwash, dk, drift, driftwav, echobrt, edgflsh, fade, flash, flckr, flicker, frz, harmspl, highint, hol, hollow, layered, lkstab, muffled, overbright, perim, phaseinv, pls, propstall, pulse, red, rescasc, rumble, shimmer, silent, therbleed, thin, wash, washed, waver, whine, whisper, wobble}\ntemplate: {ON, Trace, adj, all, alt, beside, bo, board, brief, center, crns, ctr, cycles, dcl, edg, fan, fcl, folded, la, lamp, on, opp, rot, tone, toneall, tr, trace}\nface: {B, Ba, Bo, F, L, R, T, back, bottom, front, left, right, top}\nduration: a number = that many seconds\nintensity: {fir, firm, g, gentle, m, med, mod, moderate, s, strong}",
+  "context": [
+   {
+    "agent": "Engineer",
+    "text": "Dim lamp on Bo, bright lamp on T; both 10s g, don't move.",
+    "round": 22
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Lamp Bo+T simultaneous failed.Sequential?",
+    "round": 22
+   },
+   {
+    "agent": "Engineer",
+    "text": "Both lamps ON at same time, hold both 10s, don't move either.",
+    "round": 22
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Done!Light drifts,edges blur,hum wavers.Next?",
+    "round": 22
+   },
+   {
+    "agent": "Field Observer",
+    "text": "V23:edges wobble,faces bulge,muffled hum.Go?",
+    "round": 23
+   },
+   {
+    "agent": "Engineer",
+    "text": "Folded cl over T 12s firm;bell ea T-edge x2.",
+    "round": 23
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Done!Light drifts,edges blur,hum wavers.Next?",
+    "round": 23
+   },
+   {
+    "agent": "Engineer",
+    "text": "Rotate Veyru 12s, tone firm near T+Bo. After: bell ea corner.",
+    "round": 23
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Rotate+bell T/Bo failed.tone=?",
+    "round": 23
+   },
+   {
+    "agent": "Engineer",
+    "text": "Hum/sing a steady tone. Rotate 12s while humming firm near T&Bo.",
+    "round": 23
+   }
+  ],
+  "message": "V24:frozen,dim,silent,cold.Go?",
+  "target_agent": "Field Observer",
+  "target_round": 24
+ },
+ {
+  "id": "item_0014",
+  "root": "veyru/1780478524",
+  "grammar": "motif_symptom: {1, 2, blaze, cold, d, dark, dim, drift, fade, fading, flicker, hollow, hot, pulse, red, split, warp}\ntemplate: {Alternate, Cool, Folded, Illuminate, Rotate, Soft, Sound, Sustained, Trace, adj, adjacent, all, alt, alternate, bd, beside, board, briefly, center, cl, folded, illuminate, lamp, lamps, lm, meet, opp, opposite, rotate, sharing, six, slowly, soft, sound, surface, trace}\nface: {Bk, Bt, F, L, R, T, back, bottom, front, left, right, top}\nduration: a number = that many seconds\nintensity: {firm, g, gentle, gently, m, mod, moderate, s, strong}",
+  "context": [
+   {
+    "agent": "Engineer",
+    "text": "Chime a bell near two opposite faces, starting from the left face. Alternate the chime between the two faces \u2014 20 seconds pause between chimes \u2014 for five cycles at gentle tone.",
+    "round": 18
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Done. Now: surface normal, hollow tap, dark center, thin hum.",
+    "round": 18
+   },
+   {
+    "agent": "Field Observer",
+    "text": "V19. 1 face bright+vibrating, whine there. Rest normal.",
+    "round": 19
+   },
+   {
+    "agent": "Engineer",
+    "text": "Drape a cool cloth over the Veyru for 20 seconds. Remove the cloth and fan firm cool air across the left face and the opposite face for 20 seconds.",
+    "round": 19
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Done. Now: blinding bright, layered hum, some faces frozen.",
+    "round": 19
+   },
+   {
+    "agent": "Field Observer",
+    "text": "V20. Frozen dim, silent, cold. SHORT replies only\u2014budget 250!",
+    "round": 20
+   },
+   {
+    "agent": "Engineer",
+    "text": "Drape a folded cloth over the front face for 15 seconds at gentle coverage. Then chime a bell near each edge of the front face twice.",
+    "round": 20
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Done. Dim all faces, hum whisper, patterns washed out.",
+    "round": 20
+   },
+   {
+    "agent": "Field Observer",
+    "text": "V21. Hot+dim, rumble hum, rough gritty, red tint.",
+    "round": 21
+   },
+   {
+    "agent": "Engineer",
+    "text": "Drape a folded cloth over the top face for 15 seconds at firm coverage. Then chime a bell near each edge of the top face twice.",
+    "round": 21
+   }
+  ],
+  "message": "Failed. Same symptoms. New instruction?",
+  "target_agent": "Field Observer",
+  "target_round": 21
+ },
+ {
+  "id": "item_0015",
+  "root": "veyru/1780652734",
+  "grammar": "motif_symptom: {AC, BS, CD, CV, DR, ES, Efd, HI, HS, LI, LK, PI, PS, RC, TB, blazing, blur, bulge, buzz, chao, chaotic, clash, clicking, clk, fade, frozen, frz, grit, gritty, hollow, layered, lyr, mfl, puls, pulsing, shim, shimmer, slide, vib, washed, wavr, wbl, whine, wobble, wsh}\ntemplate: {2adjE, ALL, ALT, C, Folded, LAMPS, Ldim, REST, ROTATE, ROTATE-TONE, STONE, adj, adjE, all6, alt, brief, ccV, center, ctr, face-pair, fc, fold, folded, opp, pair, pairs, rest, sC, seq6, sim6, soft, stoneB, sustained, warm}\nface: {BBo, Back, Bk, Bo, Bottom, F, Front, L, Left, Lf, R, RT, Right, T, Top, bBk, bTE, back, bottom, cBk, cT, front, left, right, top}\nduration: a number = that many seconds\nintensity: {!, f, firm, g, gentle, mod, moderate, strong}",
+  "context": [
+   {
+    "agent": "Field Observer",
+    "text": "V18: frozen dim, silent, cold, no response. Rx?",
+    "round": 18
+   },
+   {
+    "agent": "Engineer",
+    "text": "bell alt Left/Right 5 cycles, 20s pause between, gentle tone",
+    "round": 18
+   },
+   {
+    "agent": "Field Observer",
+    "text": "OK. Now: hollow tap, dark core, thin hum.",
+    "round": 18
+   },
+   {
+    "agent": "Engineer",
+    "text": "warm stone gentle beside Left 20s, rotate to each face 20s each",
+    "round": 18
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Now 2 corners bright/hot/ticking.",
+    "round": 18
+   },
+   {
+    "agent": "Engineer",
+    "text": "rotate 20s + gentle tone L/R; then bell each corner once",
+    "round": 18
+   },
+   {
+    "agent": "Field Observer",
+    "text": "V19: 1 face bright, vibrates, whine. Rx?",
+    "round": 19
+   },
+   {
+    "agent": "Engineer",
+    "text": "cool cloth whole Veyru 20s; remove, fan firm cool air L+R 20s",
+    "round": 19
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Now: too bright, layered hum, frozen patterns.",
+    "round": 19
+   },
+   {
+    "agent": "Engineer",
+    "text": "sustained firm tone simultaneously near all 6 faces 20s, start Left, let fade",
+    "round": 19
+   }
+  ],
+  "message": "Fail. Tone tool=bell?",
+  "target_agent": "Field Observer",
+  "target_round": 19
+ },
+ {
+  "id": "item_0016",
+  "root": "veyru/1780611949",
+  "grammar": "motif_symptom: {Alignment, Boundary, Core, Corner, Drift, Echo, Harmonic, High, Leak, Low, Phase, Propagation, Resonance, Thermal, alignment, boundary, bulged, buzz, cold, competing, core, drift, drifting, echo, faint, gritty, harmonic, hollow, leak, muffled, phase, red, resonance, rough, rumble, shimmer, silent, stall, tap, thermal, ticking, unresponsive, vib, washed, whine, whisper, whiteout, wobble}\ntemplate: {A, Alternate, B, C, D, E, F, G, H, I, J, K, L, M, N, adjacent, alternate, beside, board, center, folded, lamp, lamps, meeting, opposite, six, slowly, soft, sustain, sustained, trace}\nface: {Bk, Bt, Fr, Lf, Rt, Tp, back, bottom, front, left, right, top}\nduration: a number = that many seconds\nintensity: {f, firm, g, gentle, m, moderate}",
+  "context": [
+   {
+    "agent": "Field Observer",
+    "text": "Phase Inversion",
+    "round": 14
+   },
+   {
+    "agent": "Engineer",
+    "text": "L Bt f8",
+    "round": 14
+   },
+   {
+    "agent": "Field Observer",
+    "text": "V15: dim overall, all faces faint. Hum barely audible, like a whisper. Face patterns visible but washed out.",
+    "round": 15
+   },
+   {
+    "agent": "Engineer",
+    "text": "A Lf g12",
+    "round": 15
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Need plain tool/action.",
+    "round": 15
+   },
+   {
+    "agent": "Engineer",
+    "text": "Sound a sustained gentle tone near all six faces simultaneously for 12 seconds, starting from the left face. Let the tone fade naturally and wait for the hum to stabilize.",
+    "round": 15
+   },
+   {
+    "agent": "Field Observer",
+    "text": "That did not work. Awaiting next step.",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Collapsed.",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "V16: 1-2 corners very bright/hot; rest normal. Clicking/ticking replaces hum near bright corners.",
+    "round": 16
+   },
+   {
+    "agent": "Engineer",
+    "text": "Chime a bell near the center of each face once at gentle tone, starting from the back face. Then place a warm stone beside the Veyru for 8 seconds.",
+    "round": 16
+   }
+  ],
+  "message": "No effect. Next step?",
+  "target_agent": "Field Observer",
+  "target_round": 17
+ },
+ {
+  "id": "item_0017",
+  "root": "veyru/1780611949",
+  "grammar": "motif_symptom: {Alignment, Boundary, Core, Corner, Drift, Echo, Harmonic, High, Leak, Low, Phase, Propagation, Resonance, Thermal, alignment, boundary, bulged, buzz, cold, competing, core, drift, drifting, echo, faint, gritty, harmonic, hollow, leak, muffled, phase, red, resonance, rough, rumble, shimmer, silent, stall, tap, thermal, ticking, unresponsive, vib, washed, whine, whisper, whiteout, wobble}\ntemplate: {A, Alternate, B, C, D, E, F, G, H, I, J, K, L, M, N, adjacent, alternate, beside, board, center, folded, lamp, lamps, meeting, opposite, six, slowly, soft, sustain, sustained, trace}\nface: {Bk, Bt, Fr, Lf, Rt, Tp, back, bottom, front, left, right, top}\nduration: a number = that many seconds\nintensity: {f, firm, g, gentle, m, moderate}",
+  "context": [
+   {
+    "agent": "Engineer",
+    "text": "B Fr g15",
+    "round": 20
+   },
+   {
+    "agent": "Field Observer",
+    "text": "bright corners; ticking there; corner heat",
+    "round": 20
+   },
+   {
+    "agent": "Engineer",
+    "text": "F Fr g15",
+    "round": 20
+   },
+   {
+    "agent": "Field Observer",
+    "text": "drifting light; blurred edges; wavering hum",
+    "round": 20
+   },
+   {
+    "agent": "Field Observer",
+    "text": "57s",
+    "round": 20
+   },
+   {
+    "agent": "Engineer",
+    "text": "M Fr g15",
+    "round": 20
+   },
+   {
+    "agent": "Field Observer",
+    "text": "hot all over; low rumble; rough/gritty; red dim light",
+    "round": 21
+   },
+   {
+    "agent": "Engineer",
+    "text": "H Tp f15",
+    "round": 21
+   },
+   {
+    "agent": "Field Observer",
+    "text": "random light-dark patches; broken hum; chaotic faces",
+    "round": 22
+   },
+   {
+    "agent": "Engineer",
+    "text": "G Bt g10",
+    "round": 22
+   }
+  ],
+  "message": "G?",
+  "target_agent": "Field Observer",
+  "target_round": 22
+ },
+ {
+  "id": "item_0018",
+  "root": "veyru/1781175557",
+  "grammar": "motif_symptom: {AC, BS, CD, CV, DE, Drifting, ES, F, HI, HS, LI, LK, PI, PS, RC, Split, TB, blinding, blurred, bulge, buzz, center, clicking, failed, faint, flicker, frozen, hollow, layered, pulse, red, rough, silent, vibrate, whine, wobble}\ntemplate: {AC, BS, CD, CV, DE, ES, Folded, HI, HS, LI, LK, PI, PS, RC, Repeat, Soft, TB, adj, beside, board, center, corner, corners, cycles, fan, folded, lamp, slowly, soft, surface, tone}\nface: {back, bottom, btm, front, left, lft, rgt, right, top}\nduration: a number = that many seconds\nintensity: {firm, gentle, gtl, mod, moderate}",
+  "context": [
+   {
+    "agent": "Field Observer",
+    "text": "Still no. Other tool?",
+    "round": 19
+   },
+   {
+    "agent": "Field Observer",
+    "text": "V19: 1 face very bright+vibrating, high whine there, rest normal.",
+    "round": 19
+   },
+   {
+    "agent": "Engineer",
+    "text": "Cool cloth over Veyru 20s. Fan firm: lft + opposite, 20s.",
+    "round": 19
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Done. Now: blinding bright, layered hum, some faces frozen. Next?",
+    "round": 19
+   },
+   {
+    "agent": "Engineer",
+    "text": "Firm tone all 6 faces 20s, start lft. Let fade.",
+    "round": 19
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Ineffective. ~42s left. Next?",
+    "round": 20
+   },
+   {
+    "agent": "Field Observer",
+    "text": "V20: frozen dim, silent, cold, no response.",
+    "round": 20
+   },
+   {
+    "agent": "Engineer",
+    "text": "Fold cloth, drape over front face fully, gentle, 15s. Bell x2 near each front edge.",
+    "round": 20
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Done. Now: dim all, faint hum, washed patterns. Next?",
+    "round": 20
+   },
+   {
+    "agent": "Engineer",
+    "text": "Bell front, 15s, bell back, 15s. x5, gentle.",
+    "round": 20
+   }
+  ],
+  "message": "Ineffective. ~42s. Next?",
+  "target_agent": "Field Observer",
+  "target_round": 21
+ },
+ {
+  "id": "item_0019",
+  "root": "veyru/1780479757",
+  "grammar": "motif_symptom: {?, Hot, Leak, align, alignment, alt, alternating, blazing, bleed, blurred, bulge, bulges, clash, click, clicking, cold, collapse, collapsed, competing, core, deadlock, drifting, drifts, echo, echoes, fading, faint, flare, flares, flash, frozen, gritty, hot, leak, misalign, muffled, perimeters, perims, pulse, red, rumble, saturated, saturation, shimmer, silent, softening, spike, spikes, split, splits, stall, tap, thermal, vib, vibration, void, washed, wavering, wavers, whine, whisper, wobble, wobbles}\ntemplate: {All, Fold, Illuminate, Trace, adj, all, alt, alternate, beside, board, briefly, center, centre, corner, corners, ctr, fold, folded, illuminate, lamp, meeting, opp, opposite, slowly, soft, steady, surf, surface, sustained, trace, twice}\nface: {DOWN, L, R, Top, back, bf, bk, bottom, btm, down, fr, front, left, right, top, up}\nduration: a number = that many seconds\nintensity: {Firm, Gentle, firm, gen, gentle, mod, moderate, str, strong}",
+  "context": [
+   {
+    "agent": "Field Observer",
+    "text": "Still failed. Try diff tool?",
+    "round": 20
+   },
+   {
+    "agent": "Field Observer",
+    "text": "V21: hot+dim all over, low rumble, gritty, red tint. Orders?",
+    "round": 21
+   },
+   {
+    "agent": "Engineer",
+    "text": "Folded cloth top firm 15s, bell ea top edge 2x, cloth on.",
+    "round": 21
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Failed. Alt approach?",
+    "round": 21
+   },
+   {
+    "agent": "Engineer",
+    "text": "Fold cloth on top 15s firm \u2192 bell 2x ea top edge.",
+    "round": 21
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Still fail. Fan or stone instead?",
+    "round": 21
+   },
+   {
+    "agent": "Field Observer",
+    "text": "V22: faces flicker chaotic, hum broken+irregular, edges ok. Orders?",
+    "round": 22
+   },
+   {
+    "agent": "Engineer",
+    "text": "Dim lamp btm, bright lamp opp, gentle, 10s, don't move.",
+    "round": 22
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Done. Light drifting on faces, edges blurred, hum wavering pitch. Next?",
+    "round": 22
+   },
+   {
+    "agent": "Engineer",
+    "text": "Folded cloth btm gentle 10s, bell ea btm edge 2x, on.",
+    "round": 22
+   }
+  ],
+  "message": "Failed. Cloth off then bell?",
+  "target_agent": "Field Observer",
+  "target_round": 22
+ },
+ {
+  "id": "item_0020",
+  "root": "veyru/1780598097",
+  "grammar": "motif_symptom: {alignment, blazing, boundary, click, collapse, core, deadlock, drift, echo, fading, faint, gritty, harmonic, high, ineffective, layered, leak, low, phase, pulse, pulsing, reddish, resonance, rumble, same, silent, smear, softening, split, stall, thermal, void, wavers, whine}\ntemplate: {Alternate, adjacent, alternate, beside, board, briefly, center, folded, lamp, lamps, opposite, six, slowly, soft, sustained, trace}\nface: {back, bottom, front, left, right, top}\nduration: a number = that many seconds\nintensity: {f, firm, g, gentle, m, moderate}",
+  "context": [
+   {
+    "agent": "Field Observer",
+    "text": "full",
+    "round": 13
+   },
+   {
+    "agent": "Engineer",
+    "text": "Sound a sustained gentle tone near all six faces simultaneously for 20 seconds, starting from the left face. Let the tone fade naturally and wait for the hum to stabilize.",
+    "round": 13
+   },
+   {
+    "agent": "Field Observer",
+    "text": "stall",
+    "round": 14
+   },
+   {
+    "agent": "Engineer",
+    "text": "P2 bottom/f8",
+    "round": 14
+   },
+   {
+    "agent": "Field Observer",
+    "text": "resonance",
+    "round": 14
+   },
+   {
+    "agent": "Engineer",
+    "text": "P13 bottom/f8",
+    "round": 14
+   },
+   {
+    "agent": "Field Observer",
+    "text": "phase",
+    "round": 14
+   },
+   {
+    "agent": "Engineer",
+    "text": "P12 bottom/f8",
+    "round": 14
+   },
+   {
+    "agent": "Field Observer",
+    "text": "15: dim, all faces faint; hum whisper; patterns washed out.",
+    "round": 15
+   },
+   {
+    "agent": "Engineer",
+    "text": "P1 left/g12",
+    "round": 15
+   }
+  ],
+  "message": "Need plain action.",
+  "target_agent": "Field Observer",
+  "target_round": 15
+ },
+ {
+  "id": "item_0021",
+  "root": "veyru/1780600649",
+  "grammar": "motif_symptom: {N, a, b, blazing, blur, blurred, broken, bulge, buzz, c, clash, click, clicking, configs, ctr, d, e, fade, fading, flicker, frozen, h, l, layer, layered, muffled, noresp, o, p, pulse, r, rand, red, rough, s, slide, split, t, tap, u, v, vibe, washed, waver, whine, whining, whisper, wobble, wobbling}\ntemplate: {Alternate, Seq, Sustain, adjacent, all, alt, beside, board, center, folded, lamp, meeting, opposite, soft, steady, sustained, trace}\nface: {BACK, BOTTOM, D, F, FRONT, K, L, LEFT, R, RIGHT, T, TOP, back, bottom, front, left, right, top}\nduration: a number = that many seconds\nintensity: {f, firm, g, gentle, m, moderate}",
+  "context": [
+   {
+    "agent": "Field Observer",
+    "text": "same",
+    "round": 18
+   },
+   {
+    "agent": "Engineer",
+    "text": "Bell L then opposite; wait 20 between; 5 cycles.",
+    "round": 18
+   },
+   {
+    "agent": "Field Observer",
+    "text": "hollow dark core thin hum",
+    "round": 18
+   },
+   {
+    "agent": "Engineer",
+    "text": "p5 L 20 g",
+    "round": 18
+   },
+   {
+    "agent": "Field Observer",
+    "text": "p5?",
+    "round": 18
+   },
+   {
+    "agent": "Engineer",
+    "text": "Warm stone by L 20; rotate all faces.",
+    "round": 18
+   },
+   {
+    "agent": "Field Observer",
+    "text": "no",
+    "round": 18
+   },
+   {
+    "agent": "Engineer",
+    "text": "L=left",
+    "round": 18
+   },
+   {
+    "agent": "Field Observer",
+    "text": "1f r",
+    "round": 19
+   },
+   {
+    "agent": "Engineer",
+    "text": "p6 L 20 f",
+    "round": 19
+   }
+  ],
+  "message": "p6?",
+  "target_agent": "Field Observer",
+  "target_round": 19
+ },
+ {
+  "id": "item_0022",
+  "root": "veyru/1781175557",
+  "grammar": "motif_symptom: {AC, BS, CD, CV, DE, Drifting, ES, F, HI, HS, LI, LK, PI, PS, RC, Split, TB, blinding, blurred, bulge, buzz, center, clicking, failed, faint, flicker, frozen, hollow, layered, pulse, red, rough, silent, vibrate, whine, wobble}\ntemplate: {AC, BS, CD, CV, DE, ES, Folded, HI, HS, LI, LK, PI, PS, RC, Repeat, Soft, TB, adj, beside, board, center, corner, corners, cycles, fan, folded, lamp, slowly, soft, surface, tone}\nface: {back, bottom, btm, front, left, lft, rgt, right, top}\nduration: a number = that many seconds\nintensity: {firm, gentle, gtl, mod, moderate}",
+  "context": [
+   {
+    "agent": "Engineer",
+    "text": "Fold cloth, drape over front face fully, gentle, 15s. Bell x2 near each front edge.",
+    "round": 20
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Done. Now: dim all, faint hum, washed patterns. Next?",
+    "round": 20
+   },
+   {
+    "agent": "Engineer",
+    "text": "Bell front, 15s, bell back, 15s. x5, gentle.",
+    "round": 20
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Ineffective. ~42s. Next?",
+    "round": 21
+   },
+   {
+    "agent": "Field Observer",
+    "text": "V21: hot+dim, low rumble, rough, red tint.",
+    "round": 21
+   },
+   {
+    "agent": "Engineer",
+    "text": "Fold cloth, drape over top face fully, firm, 15s. Bell x2 near each top edge.",
+    "round": 21
+   },
+   {
+    "agent": "Field Observer",
+    "text": "V22: faces flicker chaotic, hum broken+irregular, edges ok.",
+    "round": 22
+   },
+   {
+    "agent": "Engineer",
+    "text": "Dim lamp near btm face, bright lamp near top face. Gentle, 10s. Hold still.",
+    "round": 22
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Done. Light drifting faces, edges blurred, hum wavering pitch.",
+    "round": 22
+   },
+   {
+    "agent": "Engineer",
+    "text": "Fold cloth over btm face fully, gentle, 10s. Bell x2 each btm edge.",
+    "round": 22
+   }
+  ],
+  "message": "Ineffective. ~54s. Next?",
+  "target_agent": "Field Observer",
+  "target_round": 23
+ },
+ {
+  "id": "item_0023",
+  "root": "veyru/1781173595",
+  "grammar": "motif_symptom: {Alignment, Boundary, Core, Drift, Echo, Harmonic, High, Hot, Leak, Low, Phase, Propagation, Red, Resonance, Rough, Rumble, Thermal, alignment, blur, boundary, click, collapse, collapsed, core, deadlock, drift, echo, flash, frozen, harmonic, high, intense, inversion, leak, loud, low, perimeter, phase, propagation, pulse, red, resonance, saturation, softening, split, stall, thermal, vibe, void, washed, wavy, whine, whisper}\ntemplate: {Alt, Alternate, Bd, Il, Illuminate, Rest, Rotate, Rs, Rt, Tn, Tone, across, adj, adjacent, beside, board, center, corner, ctr, folded, opp, opposite, rest, side, soft, trace}\nface: {Ba, Bo, F, L, R, T, back, bottom, front, left, right, top}\nduration: a number = that many seconds\nintensity: {G, H, M, f, firm, g, gentle, hard, m, medium, mod, moderate}",
+  "context": [
+   {
+    "agent": "Field Observer",
+    "text": "No. Tn=?",
+    "round": 19
+   },
+   {
+    "agent": "Engineer",
+    "text": "Tn=bell held/sustained. Retry.",
+    "round": 19
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Still no.",
+    "round": 19
+   },
+   {
+    "agent": "Engineer",
+    "text": "Retry.",
+    "round": 19
+   },
+   {
+    "agent": "Field Observer",
+    "text": "No. Fade=lamp fade?",
+    "round": 19
+   },
+   {
+    "agent": "Engineer",
+    "text": "Retry.",
+    "round": 19
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Frozen dim,silent,cold,unresponsive.",
+    "round": 20
+   },
+   {
+    "agent": "Engineer",
+    "text": "Cloth F-face 15s gentle. Bell F-edges x2.",
+    "round": 20
+   },
+   {
+    "agent": "Field Observer",
+    "text": "No effect. Retry?",
+    "round": 20
+   },
+   {
+    "agent": "Engineer",
+    "text": "Retry.",
+    "round": 20
+   }
+  ],
+  "message": "Still no. F-edges=4 edges of front face?",
+  "target_agent": "Field Observer",
+  "target_round": 20
+ },
+ {
+  "id": "item_0024",
+  "root": "veyru/1780653639",
+  "grammar": "motif_symptom: {F, align, alternating, blazing, bound, bulge, buzz, clashing, clicking, cold, deadlock, drift, echo, failed, faint, flicker, frozen, gritty, high, hollow, invert, irregular, layered, leak, low, muffled, pulse, random, res, rumble, silent, sliding, smeared, split, stall, thermal, void, wavering, whine, whisper, wobble}\ntemplate: {Alternate, Board, Folded, Lamp, Rotate, Soft, Tone, Trace, adj, adjacent, all, alternate, beside, board, briefly, center, ctr, fold, folded, lamp, opp, rest, retry, rotate, soft, tone, trace}\nface: {back, bottom, faces, front, left, right, same, top}\nduration: a number = that many seconds\nintensity: {firm, gentle, moderate}",
+  "context": [
+   {
+    "agent": "Engineer",
+    "text": "Cool cloth 12s; rm, fan gentle left+opp faces 12s.",
+    "round": 15
+   },
+   {
+    "agent": "Field Observer",
+    "text": "split",
+    "round": 15
+   },
+   {
+    "agent": "Engineer",
+    "text": "Folded cloth left 12s; bell ea edge x2.",
+    "round": 15
+   },
+   {
+    "agent": "Field Observer",
+    "text": "F",
+    "round": 15
+   },
+   {
+    "agent": "Engineer",
+    "text": "Folded cloth over left face gentle 12s; bell ea edge left face x2.",
+    "round": 15
+   },
+   {
+    "agent": "Field Observer",
+    "text": "deadlock",
+    "round": 16
+   },
+   {
+    "agent": "Engineer",
+    "text": "Bell center ea face gentle start back; warm stone beside 8s.",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "res",
+    "round": 16
+   },
+   {
+    "agent": "Engineer",
+    "text": "Flat board back face gentle 8s; rotate, repeat ea face-pair.",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "echo",
+    "round": 16
+   }
+  ],
+  "message": "Stone back gentle 8s; repeat all faces.",
+  "target_agent": "Engineer",
+  "target_round": 16
+ },
+ {
+  "id": "item_0025",
+  "root": "veyru/1780478844",
+  "grammar": "motif_symptom: {align, alignment, blazing, bound, boundary, bulge, bulging, buzz, clash, clashing, cold, dead, deadlock, drift, echo, flicker, harm, harmonic, high, hollow, layered, layers, leak, low, phase, pulse, pulsing, random, reddish, res, resonance, rumble, silent, slide, sliding, smear, smearing, stall, tap, therm, thermal, tick, ticking, void, wavering, whine, whisper, wobble}\ntemplate: {Trace, adj, adjacent, alt, alternating, bd, beside, board, center, fade, fan, folded, lamp, ln, meeting, opp, pairs, rotate, soft, sustained, trace}\nface: {B, Bt, F, L, R, T, back, bottom, front, left, right, top}\nduration: a number = that many seconds\nintensity: {f, firm, g, gentle, m, moderate}",
+  "context": [
+   {
+    "agent": "Engineer",
+    "text": "cool-cloth over 8; fan-cool all-faces f 8 from Bt",
+    "round": 14
+   },
+   {
+    "agent": "Field Observer",
+    "text": "phase",
+    "round": 14
+   },
+   {
+    "agent": "Engineer",
+    "text": "rest-on-soft Bt-up f; undisturbed 8",
+    "round": 14
+   },
+   {
+    "agent": "Field Observer",
+    "text": "low",
+    "round": 15
+   },
+   {
+    "agent": "Engineer",
+    "text": "sound-tone all-faces from L g 12; fade-natural",
+    "round": 15
+   },
+   {
+    "agent": "Field Observer",
+    "text": "warp",
+    "round": 15
+   },
+   {
+    "agent": "Engineer",
+    "text": "cool-cloth over 12; fan-cool L+opp g 12",
+    "round": 15
+   },
+   {
+    "agent": "Field Observer",
+    "text": "harm",
+    "round": 15
+   },
+   {
+    "agent": "Engineer",
+    "text": "drape-folded L 12 g; chime each-edge L x2",
+    "round": 15
+   },
+   {
+    "agent": "Field Observer",
+    "text": "hot",
+    "round": 16
+   }
+  ],
+  "message": "where? bright/dim?",
+  "target_agent": "Engineer",
+  "target_round": 16
+ },
+ {
+  "id": "item_0026",
+  "root": "veyru/1780480309",
+  "grammar": "motif_symptom: {ALIGN, Align, BOUND, Bound, DEAD, DRIFT, Dead, Drift, ECHO, Echo, HIGH, HIGHI, High, LEAK, LOW, LOWI, Leak, Low, PHASE, Phase, RESON, Reson, SPLIT, STALL, Split, Stall, THERM, Therm, VOID, Void, alignment, blur, broken, bulge, buzz, clash, dk, fade, frozen, hollow, layered, muffled, patterns, pulse, random, red, rumble, silent, slides, sync, thin, tick, washed, wavers, whine, whisper, wobble}\ntemplate: {1, 10, 11, 12, 13, 14, 2, 3, 4, 5, 6, 7, 8, 9, Alternate, Board, Fan, Illuminate, Rotate, Trace, adj, adjacent, alt, alternate, bd, beside, board, briefly, center, ctr, faces, fan, fn, fold, folded, illuminate, lamp, lamps, lp, meeting, opp, opposite, rest, rotate, soft, sustained, trace}\nface: {1, 2, 3, 4, 5, 6, B, Back, Bk, Bottom, Bt, Btm, F, Front, L, Left, R, Right, T, Top, back, bot, bottom, front, left, right, top}\nduration: a number = that many seconds\nintensity: {firm, gen, gentle, mod, moderate}",
+  "context": [
+   {
+    "agent": "Field Observer",
+    "text": "#NAME?",
+    "round": 14
+   },
+   {
+    "agent": "Engineer",
+    "text": "P1 Bt",
+    "round": 14
+   },
+   {
+    "agent": "Field Observer",
+    "text": "LOWI",
+    "round": 15
+   },
+   {
+    "agent": "Engineer",
+    "text": "[12s/gen] P4 L",
+    "round": 15
+   },
+   {
+    "agent": "Field Observer",
+    "text": "P4=?",
+    "round": 15
+   },
+   {
+    "agent": "Engineer",
+    "text": "TONE-ALL: sustained gentle tone all 6 faces 12s @L, fade naturally",
+    "round": 15
+   },
+   {
+    "agent": "Field Observer",
+    "text": "fail",
+    "round": 15
+   },
+   {
+    "agent": "Engineer",
+    "text": "Sound a sustained gentle tone near all six faces simultaneously for 12s, starting from the left face. Let the tone fade naturally.",
+    "round": 15
+   },
+   {
+    "agent": "Field Observer",
+    "text": "fail again",
+    "round": 15
+   },
+   {
+    "agent": "Engineer",
+    "text": "P10 L",
+    "round": 15
+   }
+  ],
+  "message": "P10=?",
+  "target_agent": "Field Observer",
+  "target_round": 15
+ },
+ {
+  "id": "item_0027",
+  "root": "veyru/1780479757",
+  "grammar": "motif_symptom: {?, Hot, Leak, align, alignment, alt, alternating, blazing, bleed, blurred, bulge, bulges, clash, click, clicking, cold, collapse, collapsed, competing, core, deadlock, drifting, drifts, echo, echoes, fading, faint, flare, flares, flash, frozen, gritty, hot, leak, misalign, muffled, perimeters, perims, pulse, red, rumble, saturated, saturation, shimmer, silent, softening, spike, spikes, split, splits, stall, tap, thermal, vib, vibration, void, washed, wavering, wavers, whine, whisper, wobble, wobbles}\ntemplate: {All, Fold, Illuminate, Trace, adj, all, alt, alternate, beside, board, briefly, center, centre, corner, corners, ctr, fold, folded, illuminate, lamp, meeting, opp, opposite, slowly, soft, steady, surf, surface, sustained, trace, twice}\nface: {DOWN, L, R, Top, back, bf, bk, bottom, btm, down, fr, front, left, right, top, up}\nduration: a number = that many seconds\nintensity: {Firm, Gentle, firm, gen, gentle, mod, moderate, str, strong}",
+  "context": [
+   {
+    "agent": "Engineer",
+    "text": "Folded cloth fr 15s, bell ea fr edge 2x.",
+    "round": 20
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Not working. Try diff face?",
+    "round": 20
+   },
+   {
+    "agent": "Engineer",
+    "text": "Keep cloth on fr, bell ea edge 2x while on.",
+    "round": 20
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Still no. Bell tone?",
+    "round": 20
+   },
+   {
+    "agent": "Engineer",
+    "text": "Cloth folded on fr 15s. Bell fr edges 2x, gentle.",
+    "round": 20
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Nothing works on fr. Top?",
+    "round": 20
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Hot+dim all over, H low rumble, surf gritty, red tint.",
+    "round": 21
+   },
+   {
+    "agent": "Engineer",
+    "text": "Folded cloth top 15s, bell ea top edge 2x.",
+    "round": 21
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Not working. Cloth on during bell?",
+    "round": 21
+   },
+   {
+    "agent": "Engineer",
+    "text": "Yes, cloth stays on. Bell ea top edge 2x.",
+    "round": 21
+   }
+  ],
+  "message": "Still no. How long cloth before bell?",
+  "target_agent": "Field Observer",
+  "target_round": 21
+ },
+ {
+  "id": "item_0028",
+  "root": "veyru/1781173593",
+  "grammar": "motif_symptom: {Alignment, Boundary, Core, Corner, Drift, Echo, Harmonic, High, Leak, Low, Phase, Propagation, Resonance, Thermal, alignment, blazing, blur, boundary, bulge, buzz, cd, chaotic, clash, clicking, cold, collapse, core, corner, dark, dead, deadlock, drift, echo, gritty, harmonic, high, hl, hol, hollow, irregular, layered, leak, low, mfl, muffled, phase, propagation, pulse, pulsing, reddish, resonance, rm, rumble, shimmer, silent, slide, slides, stall, sync, thermal, ticking, ticks, tones, void, washed, waver, wavering, whine, whisper, wobble, wv}\ntemplate: {adjE, adjacent, all, alternate, alternating, bd, beside, board, briefly, center, coverage, ctr, cyc, fan, fn, fold, folded, illuminate, lamp, lamps, lm, meeting, mtg, opp, opposite, p, pairs, pause, rest, rot, rotate, rotation, seq, sequence, six, slowly, soft, start, steady, surface, sustained, tone, trace, volume}\nface: {B, D, F, L, R, T, back, bottom, down, front, left, right, top}\nduration: a number = that many seconds\nintensity: {f, fir, firm, g, gentle, m, med, mod, moderate, s, strong}",
+  "context": [
+   {
+    "agent": "Field Observer",
+    "text": "new: 1 face ++ whine, others ok",
+    "round": 14
+   },
+   {
+    "agent": "Engineer",
+    "text": "cl all 8s; fn cool f all 6 8s S=D",
+    "round": 14
+   },
+   {
+    "agent": "Field Observer",
+    "text": "new: opp faces pulse alt, h 2-tone sync",
+    "round": 14
+   },
+   {
+    "agent": "Engineer",
+    "text": "rest soft D-up f 8s",
+    "round": 14
+   },
+   {
+    "agent": "Field Observer",
+    "text": "1-2 cnrs ++bright, tick @ cnrs, hot @ cnrs, rest ok",
+    "round": 16
+   },
+   {
+    "agent": "Engineer",
+    "text": "bl ctr ea face g S=B; st beside 8s",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "1 face ++ vibr, whine, rest ok",
+    "round": 16
+   },
+   {
+    "agent": "Engineer",
+    "text": "bd B g 8s, rot pairs",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "#ERROR!",
+    "round": 16
+   },
+   {
+    "agent": "Engineer",
+    "text": "st B g 8s, rotate all",
+    "round": 16
+   }
+  ],
+  "message": "no effect. clarify?",
+  "target_agent": "Field Observer",
+  "target_round": 16
+ },
+ {
+  "id": "item_0029",
+  "root": "veyru/1781173589",
+  "grammar": "motif_symptom: {Alignment, Boundary, Core, Deadlock, Drift, Echo, Harmonic, High, Leak, Low, Phase, Resonance, Saturation, Stall, Thermal, Void, algn, align, alignment, blr, blur, bulge, cfg, cld, click, clk, cold, collapse, core, deadlock, dist, dk, drft, drift, drk, echo, fade, fde, flash, flsh, frozen, frz, grit, grity, high, intense, mfld, overbright, plse, pulse, red, response, rum, rumble, sat, saturation, shim, shimmer, sil, silent, split, tn, vibe, vibrate, void, warp, washed, waver, wbl, whine, whn, wshd, wshr, wvr}\ntemplate: {ALL, Bd, Dim, Lp, Pick, Rest, Rotate, Sustain, Tc, Trace, adj, adjacent, all, alt, board, both, center, corner, corners, ctr, fold, folded, lamp, opp, rest, rot, rotation, rpt, share, soft, sustain, tone, trEdg, trace}\nface: {B, BF, Bk, Bt, BtF, BtFace, F, FF, Ft, L, LF, Lt, R, RF, Rt, T, TF, Tp, back, bottom, front, left, right, top}\nduration: a number = that many seconds\nintensity: {Firm, Gentle, f, firm, g, gentle, m, mod, moderate}",
+  "context": [
+   {
+    "agent": "Field Observer",
+    "text": "Bt cloth+bell failed. Next?",
+    "round": 23
+   },
+   {
+    "agent": "Field Observer",
+    "text": "V23. Edges wobble, faces bulge, muffled hum. Orders?",
+    "round": 23
+   },
+   {
+    "agent": "Engineer",
+    "text": "Drape folded cloth on Tp face 12s. Bell x2 near each Tp edge.",
+    "round": 23
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Tp cloth+bell fail. Next?",
+    "round": 23
+   },
+   {
+    "agent": "Engineer",
+    "text": "RETRY: 1)Fold cloth on Tp 12s, remove fully. 2)Bell x2 near mid of each Tp edge.",
+    "round": 23
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Still fail!",
+    "round": 23
+   },
+   {
+    "agent": "Field Observer",
+    "text": "V24. Frozen dim, silent, cold. Orders? (short pls)",
+    "round": 24
+   },
+   {
+    "agent": "Engineer",
+    "text": "B Ft+opp alt 15s pause 5x.",
+    "round": 24
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Done. 1 face bright+vibrate+whine. Next?",
+    "round": 24
+   },
+   {
+    "agent": "Engineer",
+    "text": "Cool cloth whole Veyru 15s; remove; fan mod Ft then all 5 others 15s tot.",
+    "round": 24
+   }
+  ],
+  "message": "Cloth+fan fail. Next?",
+  "target_agent": "Field Observer",
+  "target_round": 24
+ },
+ {
+  "id": "item_0030",
+  "root": "veyru/1781173588",
+  "grammar": "motif_symptom: {Ctr, alt, blazing, blur, bulge, buzz, center, clash, clicking, dim, fading, faint, fd, fl, flicker, frozen, gritty, hollow, hot, inversion, leak, loud, muffled, no, r, rumble, shimmer, silent, slides, split, stall, stuck, tap, vib, vibrating, void, warm, washed, wavers, whine, whisper, wobble}\ntemplate: {2adj, 2edg, Soft, adj, alt, beside, between, board, briefly, center, centers, chimes, corners, cover, ctrs, fan, finger, folded, ftrace, gap, lamp, opp, pad, pair, pairs, rest, rotate, slowly, steady, surface, sustained, tone, trace, volume}\nface: {B, E, N, T, W, back, bottom, down, front, left, right, top, up}\nduration: a number = that many seconds\nintensity: {FIRM, GEN, HARD, MOD, SOFT, firm, gentle, moderate}",
+  "context": [
+   {
+    "agent": "Engineer",
+    "text": "FIRM/8s BE alt B/opp x5 gap8",
+    "round": 14
+   },
+   {
+    "agent": "Field Observer",
+    "text": "1 face bright vib whine; rest ok ?wh",
+    "round": 14
+   },
+   {
+    "agent": "Engineer",
+    "text": "drape cool A 8s; fan cool ALL 6 from B 8s",
+    "round": 14
+   },
+   {
+    "agent": "Field Observer",
+    "text": "?st",
+    "round": 14
+   },
+   {
+    "agent": "Engineer",
+    "text": "redo FIRM: cool cloth drape A 8s; remove; fan cool each face from B 8s",
+    "round": 14
+   },
+   {
+    "agent": "Field Observer",
+    "text": "?st same fail",
+    "round": 14
+   },
+   {
+    "agent": "Engineer",
+    "text": "try: pad bright-face up 8s",
+    "round": 14
+   },
+   {
+    "agent": "Field Observer",
+    "text": "?st",
+    "round": 14
+   },
+   {
+    "agent": "Field Observer",
+    "text": "2 corners hot bright tick",
+    "round": 16
+   },
+   {
+    "agent": "Engineer",
+    "text": "/8s BE ctrs from N; ST beside 8s",
+    "round": 16
+   }
+  ],
+  "message": "fail clarify",
+  "target_agent": "Field Observer",
+  "target_round": 16
+ },
+ {
+  "id": "item_0031",
+  "root": "veyru/1780478036",
+  "grammar": "motif_symptom: {1f, 1face, 2tone, alternating, blg, brit, bulge, buzz, click, ctr, dft, drift, fading, faint, fde, flicker, flik, frozen, frzn, grit, gritty, hlw, ineffective, layered, mfld, opp, ovrbrght, perim, perimeter, rumble, shim, skip, skp, split, tap, thn, too, unresponsive, vib, vibe, wavering, whine, whisper, whspr, wht, wob, wvr}\ntemplate: {2adj, Alternate, BOARD, Folded, Illuminate, LAMP, Soft, Sound, TRACE, adj, adjacent, all, alt, alternate, beside, board, center, ctr, cycles, edges/crn, folded, illuminate, lamp, meeting, opp, opposite, rest, slowly, soft, sound, sustained, trace, volume}\nface: {back, bck, bot, bottom, front, frt, left, lft, rgt, right, top}\nduration: a number = that many seconds\nintensity: {firm, gentle, gntl, mod, moderate, still}",
+  "context": [
+   {
+    "agent": "Engineer",
+    "text": "Drape a folded cloth over the top face for 15 seconds at firm coverage. Then chime a bell near each edge of the top face twice.",
+    "round": 21
+   },
+   {
+    "agent": "Field Observer",
+    "text": "V21 stabilized! No new symptoms.",
+    "round": 22
+   },
+   {
+    "agent": "Field Observer",
+    "text": "V22: Faces flickering chaotically, hum broken/irregular, edges normal.",
+    "round": 22
+   },
+   {
+    "agent": "Engineer",
+    "text": "Dim lamp on bottom face, bright lamp on opposite face simultaneously, gentle brightness, 10 seconds, don't move lamps.",
+    "round": 22
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Light sliding on faces, edges blurred, hum wavering pitch.",
+    "round": 22
+   },
+   {
+    "agent": "Field Observer",
+    "text": "V23: Wobbling edges, bulging faces, muffled/underwater hum.",
+    "round": 23
+   },
+   {
+    "agent": "Engineer",
+    "text": "Drape a folded cloth over the top face for 12 seconds at firm coverage. Then chime a bell near each edge of the top face twice.",
+    "round": 23
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Light drifting, edges smearing, pitch wavering.",
+    "round": 23
+   },
+   {
+    "agent": "Field Observer",
+    "text": "V24: Frozen dim, silent, cold. Keep replies short-2nd symptoms need budget!",
+    "round": 24
+   },
+   {
+    "agent": "Engineer",
+    "text": "Chime bell near two opposite faces, starting from the front face. Alternate the chime between the two faces \u2014 15 seconds pause between chimes \u2014 for five cycles at moderate tone.",
+    "round": 24
+   }
+  ],
+  "message": "Bell failed. New?",
+  "target_agent": "Field Observer",
+  "target_round": 25
+ },
+ {
+  "id": "item_0032",
+  "root": "veyru/1779909805",
+  "grammar": "motif_symptom: {align, blazing, boundary, bulge, clashing, clicking, core, deadlock, drift, echo, failed, flicker, gritty, high, hollow, layered, leak, low, phase, pulse, random, resonance, rough, silent, sliding, split, stall, tap, thermal, unresponsive, vibrating, whining, whisper, wobble}\ntemplate: {1, 10, 11, 12, 13, 14, 2, 3, 4, 5, 6, 7, 8, 9, Alternate, Illuminate, adjacent, alternate, beside, board, briefly, center, centre, fan, folded, illuminate, opposite, sequence, slow, slowly, soft, sustained}\nface: {B, F, L, O, R, T, back, bottom, front, left, right, top}\nduration: a number = that many seconds\nintensity: {f, firm, g, gentle, m, moderate}",
+  "context": [
+   {
+    "agent": "Engineer",
+    "text": "Dim lamp on bottom face, bright lamp on opposite, 10s, gentle.",
+    "round": 22
+   },
+   {
+    "agent": "Field Observer",
+    "text": "fail",
+    "round": 22
+   },
+   {
+    "agent": "Engineer",
+    "text": "Illuminate the bottom face with a dim lamp and the opposite face with a bright lamp simultaneously at gentle brightness for 10 seconds, without moving the lamps.",
+    "round": 22
+   },
+   {
+    "agent": "Field Observer",
+    "text": "1 lamp?",
+    "round": 22
+   },
+   {
+    "agent": "Field Observer",
+    "text": "T6",
+    "round": 23
+   },
+   {
+    "agent": "Engineer",
+    "text": "2 lamps.",
+    "round": 23
+   },
+   {
+    "agent": "Field Observer",
+    "text": "bulge",
+    "round": 23
+   },
+   {
+    "agent": "Engineer",
+    "text": "P8 T 12 f",
+    "round": 23
+   },
+   {
+    "agent": "Field Observer",
+    "text": "drift",
+    "round": 23
+   },
+   {
+    "agent": "Engineer",
+    "text": "P14 T 12 f",
+    "round": 23
+   }
+  ],
+  "message": "P14?",
+  "target_agent": "Field Observer",
+  "target_round": 23
+ },
+ {
+  "id": "item_0033",
+  "root": "veyru/1780654410",
+  "grammar": "motif_symptom: {AL, BS, CD, CV, DR, EC, HI, HM, LK, LO, PH, PR, RC, TH}\ntemplate: {6, BD, FN, Fc, LP, ROTATE, Rotate, SOFT, TONE, adj, alt, beside, brief, center, centre, ctr, ea, folded, rotate, soft, trace}\nface: {B, Bc, Be, Bf, F, Fc, Fe, Ff, L, Lc, Le, Lf, R, Rc, Re, Rf, T, Tc, Te, Tf, U, Uc, Ue, Uf, back, bottom, front, left, right, top, under}\nduration: a number = that many seconds\nintensity: {fir, firm, g, gentle, m, mild, mod, moderate, s, strong}",
+  "context": [
+   {
+    "agent": "Field Observer",
+    "text": "LO",
+    "round": 13
+   },
+   {
+    "agent": "Engineer",
+    "text": "tone 6F sim 20s g start L; let fade",
+    "round": 13
+   },
+   {
+    "agent": "Field Observer",
+    "text": "PR",
+    "round": 14
+   },
+   {
+    "agent": "Engineer",
+    "text": "BL 5x alt U/T start U, 8s gap, firm",
+    "round": 14
+   },
+   {
+    "agent": "Field Observer",
+    "text": "RC@T",
+    "round": 14
+   },
+   {
+    "agent": "Engineer",
+    "text": "CL all 8s; FN cool firm 6F 8s total start U",
+    "round": 14
+   },
+   {
+    "agent": "Field Observer",
+    "text": "PH",
+    "round": 14
+   },
+   {
+    "agent": "Engineer",
+    "text": "SOFT U up firm, rest 8s",
+    "round": 14
+   },
+   {
+    "agent": "Field Observer",
+    "text": "CD",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "HC",
+    "round": 17
+   }
+  ],
+  "message": "HC=? HI or HM?",
+  "target_agent": "Engineer",
+  "target_round": 17
+ },
+ {
+  "id": "item_0034",
+  "root": "veyru/1780652734",
+  "grammar": "motif_symptom: {AC, BS, CD, CV, DR, ES, Efd, HI, HS, LI, LK, PI, PS, RC, TB, blazing, blur, bulge, buzz, chao, chaotic, clash, clicking, clk, fade, frozen, frz, grit, gritty, hollow, layered, lyr, mfl, puls, pulsing, shim, shimmer, slide, vib, washed, wavr, wbl, whine, wobble, wsh}\ntemplate: {2adjE, ALL, ALT, C, Folded, LAMPS, Ldim, REST, ROTATE, ROTATE-TONE, STONE, adj, adjE, all6, alt, brief, ccV, center, ctr, face-pair, fc, fold, folded, opp, pair, pairs, rest, sC, seq6, sim6, soft, stoneB, sustained, warm}\nface: {BBo, Back, Bk, Bo, Bottom, F, Front, L, Left, Lf, R, RT, Right, T, Top, bBk, bTE, back, bottom, cBk, cT, front, left, right, top}\nduration: a number = that many seconds\nintensity: {!, f, firm, g, gentle, mod, moderate, strong}",
+  "context": [
+   {
+    "agent": "Engineer",
+    "text": "sustained gentle tone simultaneously all 6 faces 20s, start near Lf, let fade",
+    "round": 13
+   },
+   {
+    "agent": "Field Observer",
+    "text": "frz cold",
+    "round": 14
+   },
+   {
+    "agent": "Engineer",
+    "text": "b alt Bo+opp, 8s pause, 5cyc firm",
+    "round": 14
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Cbrt vib whine ?",
+    "round": 14
+   },
+   {
+    "agent": "Engineer",
+    "text": "ccV 8; fan all6 from Bo 8 firm",
+    "round": 14
+   },
+   {
+    "agent": "Field Observer",
+    "text": "puls 2tn T-Bo",
+    "round": 14
+   },
+   {
+    "agent": "Engineer",
+    "text": "rest Bo up soft 8 firm",
+    "round": 14
+   },
+   {
+    "agent": "Field Observer",
+    "text": "cnr brt hot tick",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "hlw drk ctr thin hum",
+    "round": 17
+   },
+   {
+    "agent": "Engineer",
+    "text": "board F 12/ea mod; rot pairs",
+    "round": 17
+   }
+  ],
+  "message": "fail clr?",
+  "target_agent": "Field Observer",
+  "target_round": 17
+ },
+ {
+  "id": "item_0035",
+  "root": "veyru/1780600649",
+  "grammar": "motif_symptom: {N, a, b, blazing, blur, blurred, broken, bulge, buzz, c, clash, click, clicking, configs, ctr, d, e, fade, fading, flicker, frozen, h, l, layer, layered, muffled, noresp, o, p, pulse, r, rand, red, rough, s, slide, split, t, tap, u, v, vibe, washed, waver, whine, whining, whisper, wobble, wobbling}\ntemplate: {Alternate, Seq, Sustain, adjacent, all, alt, beside, board, center, folded, lamp, meeting, opposite, soft, steady, sustained, trace}\nface: {BACK, BOTTOM, D, F, FRONT, K, L, LEFT, R, RIGHT, T, TOP, back, bottom, front, left, right, top}\nduration: a number = that many seconds\nintensity: {f, firm, g, gentle, m, moderate}",
+  "context": [
+   {
+    "agent": "Engineer",
+    "text": "Repeat p13.",
+    "round": 14
+   },
+   {
+    "agent": "Field Observer",
+    "text": "1f r",
+    "round": 14
+   },
+   {
+    "agent": "Engineer",
+    "text": "p7 D 8 f",
+    "round": 14
+   },
+   {
+    "agent": "Field Observer",
+    "text": "1f r",
+    "round": 14
+   },
+   {
+    "agent": "Engineer",
+    "text": "p5 D 8 f",
+    "round": 14
+   },
+   {
+    "agent": "Field Observer",
+    "text": "all dim hum whisper",
+    "round": 15
+   },
+   {
+    "agent": "Engineer",
+    "text": "p1 L 12 g",
+    "round": 15
+   },
+   {
+    "agent": "Field Observer",
+    "text": "p1?",
+    "round": 15
+   },
+   {
+    "agent": "Engineer",
+    "text": "Tone all 6 12, start L, gentle; let fade.",
+    "round": 15
+   },
+   {
+    "agent": "Field Observer",
+    "text": "no",
+    "round": 15
+   }
+  ],
+  "message": "loc+code?",
+  "target_agent": "Engineer",
+  "target_round": 15
+ },
+ {
+  "id": "item_0036",
+  "root": "veyru/1780652734",
+  "grammar": "motif_symptom: {AC, BS, CD, CV, DR, ES, Efd, HI, HS, LI, LK, PI, PS, RC, TB, blazing, blur, bulge, buzz, chao, chaotic, clash, clicking, clk, fade, frozen, frz, grit, gritty, hollow, layered, lyr, mfl, puls, pulsing, shim, shimmer, slide, vib, washed, wavr, wbl, whine, wobble, wsh}\ntemplate: {2adjE, ALL, ALT, C, Folded, LAMPS, Ldim, REST, ROTATE, ROTATE-TONE, STONE, adj, adjE, all6, alt, brief, ccV, center, ctr, face-pair, fc, fold, folded, opp, pair, pairs, rest, sC, seq6, sim6, soft, stoneB, sustained, warm}\nface: {BBo, Back, Bk, Bo, Bottom, F, Front, L, Left, Lf, R, RT, Right, T, Top, bBk, bTE, back, bottom, cBk, cT, front, left, right, top}\nduration: a number = that many seconds\nintensity: {!, f, firm, g, gentle, mod, moderate, strong}",
+  "context": [
+   {
+    "agent": "Field Observer",
+    "text": "brt layr frz",
+    "round": 16
+   },
+   {
+    "agent": "Engineer",
+    "text": "s beside Bk 8/ea gentle; rot all faces",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "drift blur wav",
+    "round": 16
+   },
+   {
+    "agent": "Engineer",
+    "text": "sC Bk 8/ea gentle seq; fngr trc Bk E",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "x sC?",
+    "round": 16
+   },
+   {
+    "agent": "Engineer",
+    "text": "stone @each corner Bk 8/ea gentle seq; finger trc each Bk edge",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "holw drk ctr thin",
+    "round": 17
+   },
+   {
+    "agent": "Engineer",
+    "text": "board F 12/ea mod; rot pairs",
+    "round": 17
+   },
+   {
+    "agent": "Field Observer",
+    "text": "wob bulg mufl",
+    "round": 17
+   },
+   {
+    "agent": "Engineer",
+    "text": "ccV 12; fan F+opp 12 mod",
+    "round": 17
+   }
+  ],
+  "message": "x ccV?",
+  "target_agent": "Field Observer",
+  "target_round": 17
+ },
+ {
+  "id": "item_0037",
+  "root": "veyru/1780476965",
+  "grammar": "motif_symptom: {C, F, T, blz, ck, dim, flk, frz, hll, pls, red, sld, tooB, wbl}\ntemplate: {Alternate, Dim, Folded, Soft, Trace, adj, adjacent, all, alternate, beside, board, briefly, center, ctr, fade, folded, lamp, lamps, lp, opp, opposite, pause, slowly, soft, sustained, trace, volume}\nface: {B, Bo, F, L, R, T, back, bottom, front, left, right, top}\nduration: a number = that many seconds\nintensity: {Gentle, fir, firm, gentle, mod, moderate}",
+  "context": [
+   {
+    "agent": "Engineer",
+    "text": "Folded cloth on front face 15s gentle. Bell x2 each front edge.",
+    "round": 20
+   },
+   {
+    "agent": "Field Observer",
+    "text": "dim,whisp,washd",
+    "round": 20
+   },
+   {
+    "agent": "Engineer",
+    "text": "Bell front face then opposite, 15s pause, 5 cycles, gentle.",
+    "round": 20
+   },
+   {
+    "agent": "Field Observer",
+    "text": "crn glow,tick,hot",
+    "round": 20
+   },
+   {
+    "agent": "Engineer",
+    "text": "Cool cloth 15s. Fan gentle front face and opposite, 15s.",
+    "round": 20
+   },
+   {
+    "agent": "Field Observer",
+    "text": "drift,blur edges,waver",
+    "round": 20
+   },
+   {
+    "agent": "Field Observer",
+    "text": "hot+dim,rumble,red,grit",
+    "round": 21
+   },
+   {
+    "agent": "Engineer",
+    "text": "Folded cloth on top face 15s firm. Bell x2 each top edge.",
+    "round": 21
+   },
+   {
+    "agent": "Field Observer",
+    "text": "fail",
+    "round": 21
+   },
+   {
+    "agent": "Engineer",
+    "text": "Folded cloth on top face 15s firm. Bell x2 each top edge.",
+    "round": 21
+   }
+  ],
+  "message": "fail2.top=up face?",
+  "target_agent": "Field Observer",
+  "target_round": 21
+ },
+ {
+  "id": "item_0038",
+  "root": "veyru/1780654381",
+  "grammar": "motif_symptom: {2tone, algncol, blazing, blur, bndsoft, broken, bulge, buzz, clash, click, cold, corevoid, crnlck, dimwash, dk, drift, driftwav, echobrt, edgflsh, fade, flash, flckr, flicker, frz, harmspl, highint, hol, hollow, layered, lkstab, muffled, overbright, perim, phaseinv, pls, propstall, pulse, red, rescasc, rumble, shimmer, silent, therbleed, thin, wash, washed, waver, whine, whisper, wobble}\ntemplate: {ON, Trace, adj, all, alt, beside, bo, board, brief, center, crns, ctr, cycles, dcl, edg, fan, fcl, folded, la, lamp, on, opp, rot, tone, toneall, tr, trace}\nface: {B, Ba, Bo, F, L, R, T, back, bottom, front, left, right, top}\nduration: a number = that many seconds\nintensity: {fir, firm, g, gentle, m, med, mod, moderate, s, strong}",
+  "context": [
+   {
+    "agent": "Engineer",
+    "text": "ON cl, Bo-up, firm, 8s, still.",
+    "round": 14
+   },
+   {
+    "agent": "Field Observer",
+    "text": "fail",
+    "round": 14
+   },
+   {
+    "agent": "Engineer",
+    "text": "#VALUE!",
+    "round": 14
+   },
+   {
+    "agent": "Field Observer",
+    "text": "V15: all faces dim, hum barely audible, patterns washed out. Awaiting instructions.",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "V16: 1-2 corners intensely bright, rest normal. Ticking near corners. Heat there. Instructions?",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "V17: surface glow normal, hollow tap, dark center, thin hum. Instructions?",
+    "round": 17
+   },
+   {
+    "agent": "Engineer",
+    "text": "bo-F mod 12s;rotate ea face-pair.",
+    "round": 17
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Board on F-face 12s + rotate face-pairs failed. Clarify?",
+    "round": 17
+   },
+   {
+    "agent": "Engineer",
+    "text": "bo ea face-pair: F+B, L+R, T+Bo. 12s mod each.",
+    "round": 17
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Success! New: edges wobble, faces bulge, hum muffled/underwater. Next?",
+    "round": 17
+   }
+  ],
+  "message": "V18: frozen dim, silent, cold. Go?",
+  "target_agent": "Field Observer",
+  "target_round": 18
+ },
+ {
+  "id": "item_0039",
+  "root": "veyru/1780478990",
+  "grammar": "motif_symptom: {AC, AlignColl, Alignment, BS, Bleed, BoundSoft, CD, CV, Core, CoreVoid, CornerDead, DE, Drift, ES, Echo, HI, HS, HarmSplit, HighInt, LE, LI, Leak, LowInt, PI, PS, PhaseInv, PropStall, RC, Resonance, Stall, TB, ThermBleed, Thermal, Void, alt, alternating, blurred, broken, bulging, buzz, center, clashing, click, clicking, cold, edge, edges, fading, flicker, gritty, hot, layered, muffled, pulse, reddish, rumble, silent, sliding, tap, thin, unresponsive, vibrate, washed, wavering, whine, whisper, wobbly}\ntemplate: {Alternate, Fan, Folded, Illuminate, Sound, Trace, adj, adjacent, alternate, beside, board, center, fan, folded, illuminate, meeting, opposite, slowly, soft, sound, trace}\nface: {B, Bo, F, L, R, T, back, bottom, front, left, right, top}\nduration: a number = that many seconds\nintensity: {firm, gentle, moderate}",
+  "context": [
+   {
+    "agent": "Engineer",
+    "text": "Chime bell two opposite faces, start bottom face. Alternate chime 8s pause, 5 cycles, firm tone.",
+    "round": 14
+   },
+   {
+    "agent": "Field Observer",
+    "text": "RC (face?)",
+    "round": 14
+   },
+   {
+    "agent": "Engineer",
+    "text": "Drape cool cloth over Veyru 8s. Fan firm cool air all 6 faces 8s, start bottom face.",
+    "round": 14
+   },
+   {
+    "agent": "Field Observer",
+    "text": "PI",
+    "round": 14
+   },
+   {
+    "agent": "Engineer",
+    "text": "Place Veyru soft surface, bottom face up, firm. Rest undisturbed 8s.",
+    "round": 14
+   },
+   {
+    "agent": "Field Observer",
+    "text": "CD",
+    "round": 16
+   },
+   {
+    "agent": "Engineer",
+    "text": "Chime bell center each face once gentle tone, start back face. Place warm stone beside Veyru 8s.",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "RC",
+    "round": 16
+   },
+   {
+    "agent": "Engineer",
+    "text": "Rest flat board against back face gentle contact 8s. Rotate and repeat each face-pair.",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "S2",
+    "round": 16
+   }
+  ],
+  "message": "code?",
+  "target_agent": "Engineer",
+  "target_round": 16
+ },
+ {
+  "id": "item_0040",
+  "root": "veyru/1781173593",
+  "grammar": "motif_symptom: {Alignment, Boundary, Core, Corner, Drift, Echo, Harmonic, High, Leak, Low, Phase, Propagation, Resonance, Thermal, alignment, blazing, blur, boundary, bulge, buzz, cd, chaotic, clash, clicking, cold, collapse, core, corner, dark, dead, deadlock, drift, echo, gritty, harmonic, high, hl, hol, hollow, irregular, layered, leak, low, mfl, muffled, phase, propagation, pulse, pulsing, reddish, resonance, rm, rumble, shimmer, silent, slide, slides, stall, sync, thermal, ticking, ticks, tones, void, washed, waver, wavering, whine, whisper, wobble, wv}\ntemplate: {adjE, adjacent, all, alternate, alternating, bd, beside, board, briefly, center, coverage, ctr, cyc, fan, fn, fold, folded, illuminate, lamp, lamps, lm, meeting, mtg, opp, opposite, p, pairs, pause, rest, rot, rotate, rotation, seq, sequence, six, slowly, soft, start, steady, surface, sustained, tone, trace, volume}\nface: {B, D, F, L, R, T, back, bottom, down, front, left, right, top}\nduration: a number = that many seconds\nintensity: {f, fir, firm, g, gentle, m, med, mod, moderate, s, strong}",
+  "context": [
+   {
+    "agent": "Engineer",
+    "text": "bl L\u2194R g x5cyc 20s p",
+    "round": 18
+   },
+   {
+    "agent": "Field Observer",
+    "text": "new: hollow tap, dark core, thin hum",
+    "round": 18
+   },
+   {
+    "agent": "Engineer",
+    "text": "st L g 20s, rotate all faces",
+    "round": 18
+   },
+   {
+    "agent": "Field Observer",
+    "text": "fail. clarify rotate?",
+    "round": 18
+   },
+   {
+    "agent": "Engineer",
+    "text": "Place warm stone beside L face g 20s. Then move to each other face, 20s each.",
+    "round": 18
+   },
+   {
+    "agent": "Field Observer",
+    "text": "new: 1-2 cor ++bright hot, tick",
+    "round": 18
+   },
+   {
+    "agent": "Engineer",
+    "text": "rotate 20s, tone g opp S=L; bl ea C",
+    "round": 18
+   },
+   {
+    "agent": "Field Observer",
+    "text": "fail",
+    "round": 19
+   },
+   {
+    "agent": "Field Observer",
+    "text": "1 face ++ whine",
+    "round": 19
+   },
+   {
+    "agent": "Engineer",
+    "text": "cl all 20s; fn cool f L+opp 20s",
+    "round": 19
+   }
+  ],
+  "message": "fail x2. which face is L? bright1?",
+  "target_agent": "Field Observer",
+  "target_round": 19
+ },
+ {
+  "id": "item_0041",
+  "root": "veyru/1781173588",
+  "grammar": "motif_symptom: {Ctr, alt, blazing, blur, bulge, buzz, center, clash, clicking, dim, fading, faint, fd, fl, flicker, frozen, gritty, hollow, hot, inversion, leak, loud, muffled, no, r, rumble, shimmer, silent, slides, split, stall, stuck, tap, vib, vibrating, void, warm, washed, wavers, whine, whisper, wobble}\ntemplate: {2adj, 2edg, Soft, adj, alt, beside, between, board, briefly, center, centers, chimes, corners, cover, ctrs, fan, finger, folded, ftrace, gap, lamp, opp, pad, pair, pairs, rest, rotate, slowly, steady, surface, sustained, tone, trace, volume}\nface: {B, E, N, T, W, back, bottom, down, front, left, right, top, up}\nduration: a number = that many seconds\nintensity: {FIRM, GEN, HARD, MOD, SOFT, firm, gentle, moderate}",
+  "context": [
+   {
+    "agent": "Engineer",
+    "text": "any side of Veyru",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "?int gentle/firm",
+    "round": 16
+   },
+   {
+    "agent": "Engineer",
+    "text": "gentle",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "still fail same",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "hollow tap; dk ctr no penetrate; hum thin surface",
+    "round": 17
+   },
+   {
+    "agent": "Engineer",
+    "text": "MOD/12s board on S 12s; repeat each opp pair (3 total)",
+    "round": 17
+   },
+   {
+    "agent": "Field Observer",
+    "text": "?st clarify",
+    "round": 17
+   },
+   {
+    "agent": "Engineer",
+    "text": "flat board against S face MOD contact 12s, then rotate Veyru, do same for T/B pair, then E/W pair",
+    "round": 17
+   },
+   {
+    "agent": "Field Observer",
+    "text": "3 or 6 placements?",
+    "round": 17
+   },
+   {
+    "agent": "Engineer",
+    "text": "3",
+    "round": 17
+   }
+  ],
+  "message": "fail x3; MOD=?",
+  "target_agent": "Field Observer",
+  "target_round": 17
+ },
+ {
+  "id": "item_0042",
+  "root": "veyru/1781173594",
+  "grammar": "motif_symptom: {align, alignment, bright, dead, deadlock, drift, echo, fading, high, leak, low, no, phase, res, resonance, soft, split, stall, therm, thermal, void}\ntemplate: {Alternate, Illuminate, Sound, Trace, adj, adjacent, all, alt, alternate, beside, board, briefly, center, cool, dim, folded, ill, illuminate, lamp, opp, opposite, slowly, soft, sound, sustained, tr, trace, x}\nface: {B, F, L, R, T, U, back, bck, bot, bottom, front, frt, left, lft, rgt, right, top, under}\nduration: a number = that many seconds\nintensity: {G, M, firm, gentle, mod, moderate, strong}",
+  "context": [
+   {
+    "agent": "Engineer",
+    "text": "cool cloth 12s,fan left+opp 12s",
+    "round": 15
+   },
+   {
+    "agent": "Field Observer",
+    "text": "dead",
+    "round": 16
+   },
+   {
+    "agent": "Engineer",
+    "text": "Chime bell near center of each face once gentle tone, start back; place warm stone beside Veyru 8s",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "res",
+    "round": 16
+   },
+   {
+    "agent": "Engineer",
+    "text": "Rest flat board against back face gentle contact 8s; rotate, repeat each face-pair",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "2bright,layered hum,frozen",
+    "round": 16
+   },
+   {
+    "agent": "Engineer",
+    "text": "Place warm stone beside back gentle warmth 8s; rotate, repeat each face",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "hollow",
+    "round": 17
+   },
+   {
+    "agent": "Engineer",
+    "text": "Chime bell near 2 opposite faces, start front, alternate 12s pause, 5 cycles, moderate tone",
+    "round": 17
+   },
+   {
+    "agent": "Field Observer",
+    "text": "no",
+    "round": 17
+   }
+  ],
+  "message": "describe more?",
+  "target_agent": "Engineer",
+  "target_round": 17
+ },
+ {
+  "id": "item_0043",
+  "root": "veyru/1781173589",
+  "grammar": "motif_symptom: {Alignment, Boundary, Core, Deadlock, Drift, Echo, Harmonic, High, Leak, Low, Phase, Resonance, Saturation, Stall, Thermal, Void, algn, align, alignment, blr, blur, bulge, cfg, cld, click, clk, cold, collapse, core, deadlock, dist, dk, drft, drift, drk, echo, fade, fde, flash, flsh, frozen, frz, grit, grity, high, intense, mfld, overbright, plse, pulse, red, response, rum, rumble, sat, saturation, shim, shimmer, sil, silent, split, tn, vibe, vibrate, void, warp, washed, waver, wbl, whine, whn, wshd, wshr, wvr}\ntemplate: {ALL, Bd, Dim, Lp, Pick, Rest, Rotate, Sustain, Tc, Trace, adj, adjacent, all, alt, board, both, center, corner, corners, ctr, fold, folded, lamp, opp, rest, rot, rotation, rpt, share, soft, sustain, tone, trEdg, trace}\nface: {B, BF, Bk, Bt, BtF, BtFace, F, FF, Ft, L, LF, Lt, R, RF, Rt, T, TF, Tp, back, bottom, front, left, right, top}\nduration: a number = that many seconds\nintensity: {Firm, Gentle, f, firm, g, gentle, m, mod, moderate}",
+  "context": [
+   {
+    "agent": "Engineer",
+    "text": "RETRY: HC next to (not on) Lt 20s; rot-rpt.",
+    "round": 18
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Corners bright, clicking, hot. Go!",
+    "round": 18
+   },
+   {
+    "agent": "Field Observer",
+    "text": "V19: 1 face bright+vibrating, whine there. Go?",
+    "round": 19
+   },
+   {
+    "agent": "Engineer",
+    "text": "C-whole 20s; Fn-firm Lt+opp only, 20s.",
+    "round": 19
+   },
+   {
+    "agent": "Field Observer",
+    "text": "No effect. Retry or alt?",
+    "round": 19
+   },
+   {
+    "agent": "Engineer",
+    "text": "RETRY: C whole 20s; Fn-firm Lt 20s then opp 20s.",
+    "round": 19
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Still no. New approach?",
+    "round": 19
+   },
+   {
+    "agent": "Engineer",
+    "text": "RETRY: C whole 20s; Fn-firm Lt+opp sim 20s.",
+    "round": 19
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Sim fan+cloth: no. ~50 left.",
+    "round": 19
+   },
+   {
+    "agent": "Engineer",
+    "text": "Dim-Lp Lt + bright-Lp opp, sim, 20s.",
+    "round": 19
+   }
+  ],
+  "message": "V20: frozen dim, silent, cold. Instructions?",
+  "target_agent": "Field Observer",
+  "target_round": 20
+ },
+ {
+  "id": "item_0044",
+  "root": "veyru/1780654410",
+  "grammar": "motif_symptom: {AL, BS, CD, CV, DR, EC, HI, HM, LK, LO, PH, PR, RC, TH}\ntemplate: {6, BD, FN, Fc, LP, ROTATE, Rotate, SOFT, TONE, adj, alt, beside, brief, center, centre, ctr, ea, folded, rotate, soft, trace}\nface: {B, Bc, Be, Bf, F, Fc, Fe, Ff, L, Lc, Le, Lf, R, Rc, Re, Rf, T, Tc, Te, Tf, U, Uc, Ue, Uf, back, bottom, front, left, right, top, under}\nduration: a number = that many seconds\nintensity: {fir, firm, g, gentle, m, mild, mod, moderate, s, strong}",
+  "context": [
+   {
+    "agent": "Engineer",
+    "text": "BD B 8s g; rotate 3 face-pairs 8s ea (B,L,T)",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "fail x2",
+    "round": 16
+   },
+   {
+    "agent": "Engineer",
+    "text": "fb: BL 1x /6Fc g start B; ST near 8s",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "fail",
+    "round": 16
+   },
+   {
+    "agent": "Engineer",
+    "text": "BD /6F 8s ea g",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "fail. order?",
+    "round": 16
+   },
+   {
+    "agent": "Engineer",
+    "text": "B,F,L,R,T,U",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "fail",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "CV",
+    "round": 17
+   },
+   {
+    "agent": "Engineer",
+    "text": "BD F 12s mod; rotate /face-pair 12s ea",
+    "round": 17
+   }
+  ],
+  "message": "fail x2. clarify rotate",
+  "target_agent": "Field Observer",
+  "target_round": 17
+ },
+ {
+  "id": "item_0045",
+  "root": "veyru/1780611949",
+  "grammar": "motif_symptom: {Alignment, Boundary, Core, Corner, Drift, Echo, Harmonic, High, Leak, Low, Phase, Propagation, Resonance, Thermal, alignment, boundary, bulged, buzz, cold, competing, core, drift, drifting, echo, faint, gritty, harmonic, hollow, leak, muffled, phase, red, resonance, rough, rumble, shimmer, silent, stall, tap, thermal, ticking, unresponsive, vib, washed, whine, whisper, whiteout, wobble}\ntemplate: {A, Alternate, B, C, D, E, F, G, H, I, J, K, L, M, N, adjacent, alternate, beside, board, center, folded, lamp, lamps, meeting, opposite, six, slowly, soft, sustain, sustained, trace}\nface: {Bk, Bt, Fr, Lf, Rt, Tp, back, bottom, front, left, right, top}\nduration: a number = that many seconds\nintensity: {f, firm, g, gentle, m, moderate}",
+  "context": [
+   {
+    "agent": "Field Observer",
+    "text": ".",
+    "round": 21
+   },
+   {
+    "agent": "Field Observer",
+    "text": ".",
+    "round": 21
+   },
+   {
+    "agent": "Field Observer",
+    "text": "V21: hot all over, dim, red tint; low rumble; rough/gritty. Codes ok.",
+    "round": 21
+   },
+   {
+    "agent": "Engineer",
+    "text": "H Tp f15",
+    "round": 21
+   },
+   {
+    "agent": "Field Observer",
+    "text": "No effect.",
+    "round": 21
+   },
+   {
+    "agent": "Field Observer",
+    "text": "Collapsed.",
+    "round": 22
+   },
+   {
+    "agent": "Field Observer",
+    "text": "V22: random face flicker/patches; hum broken, starts/stops; edges normal. Codes ok.",
+    "round": 22
+   },
+   {
+    "agent": "Engineer",
+    "text": "G Bt g10",
+    "round": 22
+   },
+   {
+    "agent": "Field Observer",
+    "text": "G=?",
+    "round": 22
+   },
+   {
+    "agent": "Engineer",
+    "text": "G=dim lamp bottom, bright opposite, 10s gentle.",
+    "round": 22
+   }
+  ],
+  "message": "No effect. Full?",
+  "target_agent": "Field Observer",
+  "target_round": 22
+ },
+ {
+  "id": "item_0046",
+  "root": "veyru/1780476985",
+  "grammar": "motif_symptom: {AC, AlignColl, BS, BoundSoft, CD, CV, CoreVoid, CornerDead, DE, Drift, ES, Echo, HI, HS, HarmSplit, HighInt, LI, LK, Leak, LowInt, PI, PS, PhaseInv, PropStall, RC, Reson, TB, Thermal, blur, blurred, bulge, clash, cld, click, cold, competing, f, fade, faded, fading, fight, flicker, frozen, frz, gritty, h+, hh, high, hollow, hot, hw, layered, muffled, muted, nr, overall, pulse, pulsing, random, red, resonance, rhythm, rumble, shimmer, sil, silent, sliding, still, sync, tap, thin, too, underwater, vib, void, warp, warped, washed, waver, wavering, whine, whisper, wobble}\ntemplate: {Fctr, Rest, Rotate, Sound, adj, adjacent, all, alt, alternate, alternating, beside, board, briefly, bright, brt, c, center, centre, ctr, do, face, face-pairs, fan, flat, folded, l, lamp, n, p, rest, rot, rot+tone, seq, soft, surface, sustained, tone, trace}\nface: {Bk, Bt, Fr, L, R, T, back, bottom, front, left, right, top}\nduration: a number = that many seconds\nintensity: {firm, g, gentle, mod, moderate}",
+  "context": [
+   {
+    "agent": "Engineer",
+    "text": "b Fctr each x1 g from F4; s beside 8s",
+    "round": 16
+   },
+   {
+    "agent": "Field Observer",
+    "text": "V17: glows on surface, dark center, hollow tap, thin hum.",
+    "round": 17
+   },
+   {
+    "agent": "Engineer",
+    "text": "p F3 12s mod, rot face-pairs",
+    "round": 17
+   },
+   {
+    "agent": "Field Observer",
+    "text": "p=? which tool",
+    "round": 17
+   },
+   {
+    "agent": "Engineer",
+    "text": "p=board. Rest flat board against F3 12s mod, rotate face-pairs",
+    "round": 17
+   },
+   {
+    "agent": "Field Observer",
+    "text": "no effect",
+    "round": 17
+   },
+   {
+    "agent": "Engineer",
+    "text": "rotate slowly 12s + steady tone mod near opp faces from F3; then bell each corner x1",
+    "round": 17
+   },
+   {
+    "agent": "Field Observer",
+    "text": "still no effect",
+    "round": 18
+   },
+   {
+    "agent": "Field Observer",
+    "text": "V18: frozen dim light, silent, cold, no response",
+    "round": 18
+   },
+   {
+    "agent": "Engineer",
+    "text": "b F5+opp alt 20p x5 g",
+    "round": 18
+   }
+  ],
+  "message": "fail. clarify 20p x5",
+  "target_agent": "Field Observer",
+  "target_round": 18
+ },
+ {
+  "id": "item_0047",
+  "root": "veyru/1780478385",
+  "grammar": "motif_symptom: {AC, BS, CD, CV, DE, ES, HI, HS, LI, LO, PI, PS, RC, TB, align, alignment, blazing, bleed, blur, blurred, boundary, brightest, broken, bulge, buzz, cascade, clashing, cold, collapse, dead, deadlock, drift, drifting, echo, faint, fd, flicker, frozen, frz, gritty, harmonic, harsh, hollow, layered, layers, leak, lowi, muffled, phase, pulse, pulsing, random, red, resonance, rumble, silent, softening, split, sync, thermal, thin, thunk, tick, ticking, tones, void, warble, washed, whine, whisper, wobble}\ntemplate: {2, 6, adj, alt, alternate, alternating, bd, beside, board, brief, center, centre, ctr, e, fade, fold, folded, lamp, lp, opp, opposite, rest, rot, slowly, soft, steady, sustained, tone, trace, traced}\nface: {B, Back, Bottom, D, Dn, Down, F, Front, L, Left, R, Right, Top, U, Up, back, bottom, down, front, left, right, top, up}\nduration: a number = that many seconds\nintensity: {Firm, Gentle, Moderate, firm, gen, gentle, hard, low, med, mod, moderate}",
+  "context": [
+   {
+    "agent": "Field Observer",
+    "text": "tag:PS",
+    "round": 18
+   },
+   {
+    "agent": "Engineer",
+    "text": "bl alt L/R 20s pause x5 gen",
+    "round": 18
+   },
+   {
+    "agent": "Field Observer",
+    "text": "ok+HC",
+    "round": 18
+   },
+   {
+    "agent": "Engineer",
+    "text": "st L 20s gen; rot all faces",
+    "round": 18
+   },
+   {
+    "agent": "Field Observer",
+    "text": "ineff",
+    "round": 18
+   },
+   {
+    "agent": "Engineer",
+    "text": "bl c-L brief gen; st 2e@c 20s ea",
+    "round": 18
+   },
+   {
+    "agent": "Field Observer",
+    "text": "ineff2 skip",
+    "round": 18
+   },
+   {
+    "agent": "Engineer",
+    "text": "skip",
+    "round": 18
+   },
+   {
+    "agent": "Field Observer",
+    "text": "tag:FI",
+    "round": 19
+   },
+   {
+    "agent": "Engineer",
+    "text": "cool cl whole 20s; fn cool L+R 20s firm",
+    "round": 19
+   }
+  ],
+  "message": "which face?",
+  "target_agent": "Field Observer",
+  "target_round": 19
+ },
+ {
+  "id": "item_0048",
+  "root": "veyru/1781173588",
+  "grammar": "motif_symptom: {Ctr, alt, blazing, blur, bulge, buzz, center, clash, clicking, dim, fading, faint, fd, fl, flicker, frozen, gritty, hollow, hot, inversion, leak, loud, muffled, no, r, rumble, shimmer, silent, slides, split, stall, stuck, tap, vib, vibrating, void, warm, washed, wavers, whine, whisper, wobble}\ntemplate: {2adj, 2edg, Soft, adj, alt, beside, between, board, briefly, center, centers, chimes, corners, cover, ctrs, fan, finger, folded, ftrace, gap, lamp, opp, pad, pair, pairs, rest, rotate, slowly, steady, surface, sustained, tone, trace, volume}\nface: {B, E, N, T, W, back, bottom, down, front, left, right, top, up}\nduration: a number = that many seconds\nintensity: {FIRM, GEN, HARD, MOD, SOFT, firm, gentle, moderate}",
+  "context": [
+   {
+    "agent": "Field Observer",
+    "text": "frozen silent cold no tap",
+    "round": 18
+   },
+   {
+    "agent": "Engineer",
+    "text": "/20s BE alt W/opp x5 gap20",
+    "round": 18
+   },
+   {
+    "agent": "Field Observer",
+    "text": "fail clarify /20s",
+    "round": 18
+   },
+   {
+    "agent": "Engineer",
+    "text": "20s = pause between each chime; 5 cycles alternating W face and opposite face",
+    "round": 18
+   },
+   {
+    "agent": "Field Observer",
+    "text": "ok now hollow dark core thin",
+    "round": 18
+   },
+   {
+    "agent": "Engineer",
+    "text": "ST near W 20s; rotate-all faces",
+    "round": 18
+   },
+   {
+    "agent": "Field Observer",
+    "text": "fail",
+    "round": 18
+   },
+   {
+    "agent": "Engineer",
+    "text": "stone beside each face 20s, 6 total",
+    "round": 18
+   },
+   {
+    "agent": "Field Observer",
+    "text": "1 face bright vib whine",
+    "round": 19
+   },
+   {
+    "agent": "Engineer",
+    "text": "FIRM/20s drape cool A 20s; fan cool W+opp 20s",
+    "round": 19
+   }
+  ],
+  "message": "fail A=?",
+  "target_agent": "Field Observer",
+  "target_round": 19
+ },
+ {
+  "id": "item_0049",
+  "root": "veyru/1780478385",
+  "grammar": "motif_symptom: {AC, BS, CD, CV, DE, ES, HI, HS, LI, LO, PI, PS, RC, TB, align, alignment, blazing, bleed, blur, blurred, boundary, brightest, broken, bulge, buzz, cascade, clashing, cold, collapse, dead, deadlock, drift, drifting, echo, faint, fd, flicker, frozen, frz, gritty, harmonic, harsh, hollow, layered, layers, leak, lowi, muffled, phase, pulse, pulsing, random, red, resonance, rumble, silent, softening, split, sync, thermal, thin, thunk, tick, ticking, tones, void, warble, washed, whine, whisper, wobble}\ntemplate: {2, 6, adj, alt, alternate, alternating, bd, beside, board, brief, center, centre, ctr, e, fade, fold, folded, lamp, lp, opp, opposite, rest, rot, slowly, soft, steady, sustained, tone, trace, traced}\nface: {B, Back, Bottom, D, Dn, Down, F, Front, L, Left, R, Right, Top, U, Up, back, bottom, down, front, left, right, top, up}\nduration: a number = that many seconds\nintensity: {Firm, Gentle, Moderate, firm, gen, gentle, hard, low, med, mod, moderate}",
+  "context": [
+   {
+    "agent": "Field Observer",
+    "text": "ineff",
+    "round": 21
+   },
+   {
+    "agent": "Engineer",
+    "text": "tone all 15s from U firm, fade",
+    "round": 21
+   },
+   {
+    "agent": "Field Observer",
+    "text": "ineff2",
+    "round": 21
+   },
+   {
+    "agent": "Engineer",
+    "text": "skip",
+    "round": 21
+   },
+   {
+    "agent": "Field Observer",
+    "text": "tag:CH flicker+broken-hum",
+    "round": 22
+   },
+   {
+    "agent": "Engineer",
+    "text": "lp dim Dn / br U 10s gen (improvise 2nd light)",
+    "round": 22
+   },
+   {
+    "agent": "Field Observer",
+    "text": "ineff",
+    "round": 22
+   },
+   {
+    "agent": "Engineer",
+    "text": "st c-Dn 10s gen ea; trace e-Dn",
+    "round": 22
+   },
+   {
+    "agent": "Field Observer",
+    "text": "ineff2",
+    "round": 22
+   },
+   {
+    "agent": "Engineer",
+    "text": "skip",
+    "round": 22
+   }
+  ],
+  "message": "tag:SW wobble+bulge+muff",
+  "target_agent": "Field Observer",
+  "target_round": 23
+ }
+]

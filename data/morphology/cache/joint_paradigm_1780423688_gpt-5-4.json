@@ -1,0 +1,221 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780423688",
+    "slots": [],
+    "segmentation": {
+      "LI": [
+        "LI"
+      ],
+      "CD": [
+        "CD"
+      ],
+      "RF": [
+        "RF"
+      ],
+      "AP": [
+        "AP"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "J"
+      ],
+      "K": [
+        "K"
+      ],
+      "L": [
+        "L"
+      ],
+      "M": [
+        "M"
+      ],
+      "N": [
+        "N"
+      ],
+      "DR": [
+        "DR"
+      ],
+      "ES": [
+        "ES"
+      ],
+      "LK": [
+        "LK"
+      ],
+      "HI": [
+        "HI"
+      ],
+      "RC": [
+        "RC"
+      ],
+      "BS": [
+        "BS"
+      ],
+      "PS": [
+        "PS"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "TB": [
+        "TB"
+      ],
+      "CV": [
+        "CV"
+      ],
+      "top": [
+        "top"
+      ],
+      "bottom": [
+        "bottom"
+      ]
+    },
+    "head_index": {
+      "LI": 0,
+      "CD": 0,
+      "RF": 0,
+      "AP": 0,
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 0,
+      "E": 0,
+      "F": 0,
+      "G": 0,
+      "H": 0,
+      "I": 0,
+      "J": 0,
+      "K": 0,
+      "L": 0,
+      "M": 0,
+      "N": 0,
+      "DR": 0,
+      "ES": 0,
+      "LK": 0,
+      "HI": 0,
+      "RC": 0,
+      "BS": 0,
+      "PS": 0,
+      "HS": 0,
+      "TB": 0,
+      "CV": 0,
+      "top": 0,
+      "bottom": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "LI": "dim all over and whisper",
+      "CD": "1-2 bright hot clicking corners",
+      "RF": "random face flicker and broken hum",
+      "AP": "opposite-face strict pulse and 2-tone and edge flash",
+      "A": "tone all 6 faces for the duration at the intensity, start with the named face, let it fade",
+      "B": "bell opposite faces alternating, pause equals the duration, 5 cycles",
+      "C": "cloth over 2 adjacent edges near the named face for the duration at the intensity, then bell 3 times near the named face",
+      "D": "warm each corner of the named face for the duration at the intensity, then trace each edge of that face",
+      "E": "warm stone beside the named face for the duration at the intensity; rotate and repeat for each face",
+      "F": "cool cloth over the whole Veyru for the duration; then fan the named face and the opposite face for the duration at the intensity",
+      "G": "lamp the named face dim and the opposite face bright for the duration at the intensity",
+      "H": "folded cloth on the named face for the duration at the intensity; bell each edge of that face 2 times",
+      "I": "for each corner of the named face: brief bell at the intensity, then warm the 2 meeting edges for the duration",
+      "J": "flat board against the named face for the duration at the intensity; rotate through face-pairs",
+      "K": "bell the center of each face once starting with the named face, then warm stone beside Veyru for the duration",
+      "L": "soft surface, named face up, rest for the duration at the intensity",
+      "M": "cool cloth over the whole Veyru for the duration; then fan all 6 faces for the duration starting with the named face at the intensity",
+      "N": "rotate slowly over the duration while keeping a steady tone near opposite faces starting with the named face at the intensity; then bell each corner once",
+      "DR": "sliding or drifting light and blurred edges and wavering hum",
+      "ES": "too bright and layered hum and frozen face pattern",
+      "LK": "dim corners and fading edges and perimeter loss",
+      "HI": "blazing white and harsh buzz and hot",
+      "RC": "one face much brighter and whine",
+      "BS": "wobble or flex edges or bulge and muffled hum",
+      "PS": "frozen dim silent cold",
+      "HS": "competing tones and patterns",
+      "TB": "hot dim red rough rumble",
+      "CV": "dark center and hollow thin hum",
+      "top": "the actual upper face, as seen, unless otherwise stated",
+      "bottom": "the actual underside face"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780423688",
+    "n_codes": 30,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible compositional paradigm survives the evidence test. Although many symbols are single letters and some others are two-letter strings, there are no minimal-pair frames showing the same slot with alternating fillers and stable meaning contributions. In particular, A–N behave like opaque procedure labels, not productive morphemes reused inside longer codes: e.g. LI, CD, DR, etc. do not have meanings predictable from L+I, C+D, D+R, and so on. The repeated use of letters and letter position is therefore insufficient evidence for segmentation. The standalone symbols top and bottom are also lexical items here, since no multi-morpheme constructions employ them. To avoid false morphology, the whole codebook is analyzed as a flat lexicon.",
+    "lexical_symbols": [
+      "LI",
+      "CD",
+      "RF",
+      "AP",
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "DR",
+      "ES",
+      "LK",
+      "HI",
+      "RC",
+      "BS",
+      "PS",
+      "HS",
+      "TB",
+      "CV",
+      "top",
+      "bottom"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

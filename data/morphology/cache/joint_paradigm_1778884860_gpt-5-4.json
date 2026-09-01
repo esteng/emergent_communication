@@ -1,0 +1,853 @@
+{
+  "grammar": {
+    "run_key": "veyru/1778884860",
+    "slots": [
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "4cnr/",
+            "gloss": "each corner of face",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "4e/",
+            "gloss": "each edge of face",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "FA2/",
+            "gloss": "cool cloth over the whole Veyru for 8 seconds, then fan the specified face and the opposite face only, starting from",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "FA6/",
+            "gloss": "cool cloth over the whole Veyru for 8 seconds, then fan all 6 faces in sequence starting from",
+            "support": 1,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "suffix",
+        "fillers": [
+          {
+            "form": "<startF>",
+            "gloss": "face",
+            "support": 2,
+            "is_defined": false
+          },
+          {
+            "form": "X",
+            "gloss": "face",
+            "support": 2,
+            "is_defined": false
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "F": [
+        "F"
+      ],
+      "Bk": [
+        "Bk"
+      ],
+      "L": [
+        "L"
+      ],
+      "R": [
+        "R"
+      ],
+      "T": [
+        "T"
+      ],
+      "Bo": [
+        "Bo"
+      ],
+      "b": [
+        "b"
+      ],
+      "s": [
+        "s"
+      ],
+      "c": [
+        "c"
+      ],
+      "p": [
+        "p"
+      ],
+      "f": [
+        "f"
+      ],
+      "l": [
+        "l"
+      ],
+      "@firm": [
+        "@firm"
+      ],
+      "+opp": [
+        "+opp"
+      ],
+      "all6": [
+        "all6"
+      ],
+      "4cnr/X": [
+        "4cnr/",
+        "X"
+      ],
+      "4e/X": [
+        "4e/",
+        "X"
+      ],
+      "ok": [
+        "ok"
+      ],
+      "FA6/<startF>": [
+        "FA6/",
+        "<startF>"
+      ],
+      "FA2/<startF>": [
+        "FA2/",
+        "<startF>"
+      ],
+      "EX:<text>": [
+        "EX:<text>"
+      ],
+      "no": [
+        "no"
+      ],
+      "new:<cues>": [
+        "new:<cues>"
+      ],
+      "re:": [
+        "re:"
+      ],
+      "?<motif>": [
+        "?<motif>"
+      ],
+      "no3": [
+        "no3"
+      ],
+      "L:": [
+        "L:"
+      ],
+      "H:": [
+        "H:"
+      ],
+      "T:": [
+        "T:"
+      ],
+      "E:": [
+        "E:"
+      ],
+      "C:": [
+        "C:"
+      ],
+      "Ta:": [
+        "Ta:"
+      ],
+      "S:": [
+        "S:"
+      ],
+      "?<m1>/<m2>:<q>": [
+        "?<m1>/<m2>:<q>"
+      ],
+      "env:": [
+        "env:"
+      ]
+    },
+    "head_index": {
+      "F": 0,
+      "Bk": 0,
+      "L": 0,
+      "R": 0,
+      "T": 0,
+      "Bo": 0,
+      "b": 0,
+      "s": 0,
+      "c": 0,
+      "p": 0,
+      "f": 0,
+      "l": 0,
+      "@firm": 0,
+      "+opp": 0,
+      "all6": 0,
+      "4cnr/X": 0,
+      "4e/X": 0,
+      "ok": 0,
+      "FA6/<startF>": 0,
+      "FA2/<startF>": 0,
+      "EX:<text>": 0,
+      "no": 0,
+      "new:<cues>": 0,
+      "re:": 0,
+      "?<motif>": 0,
+      "no3": 0,
+      "L:": 0,
+      "H:": 0,
+      "T:": 0,
+      "E:": 0,
+      "C:": 0,
+      "Ta:": 0,
+      "S:": 0,
+      "?<m1>/<m2>:<q>": 0,
+      "env:": 0
+    },
+    "attested_orderings": [
+      [
+        "stem",
+        "suffix"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [
+      {
+        "stem": "Bk",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "Bk+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "Bo",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "Bo+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "F",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "F+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "L",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "L+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "R",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "R+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "T",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "T+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "all6",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "all6+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "b",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "b+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "c",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "c+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "f",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "f+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "l",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "l+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "no",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "no+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "no3",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "no3+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "ok",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "ok+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "p",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "p+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "s",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "s+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "Bk",
+        "affix": "@firm",
+        "role": "suffix",
+        "form": "Bk@firm",
+        "delimiter": "@"
+      },
+      {
+        "stem": "Bo",
+        "affix": "@firm",
+        "role": "suffix",
+        "form": "Bo@firm",
+        "delimiter": "@"
+      },
+      {
+        "stem": "F",
+        "affix": "@firm",
+        "role": "suffix",
+        "form": "F@firm",
+        "delimiter": "@"
+      },
+      {
+        "stem": "L",
+        "affix": "@firm",
+        "role": "suffix",
+        "form": "L@firm",
+        "delimiter": "@"
+      },
+      {
+        "stem": "R",
+        "affix": "@firm",
+        "role": "suffix",
+        "form": "R@firm",
+        "delimiter": "@"
+      },
+      {
+        "stem": "T",
+        "affix": "@firm",
+        "role": "suffix",
+        "form": "T@firm",
+        "delimiter": "@"
+      },
+      {
+        "stem": "all6",
+        "affix": "@firm",
+        "role": "suffix",
+        "form": "all6@firm",
+        "delimiter": "@"
+      },
+      {
+        "stem": "b",
+        "affix": "@firm",
+        "role": "suffix",
+        "form": "b@firm",
+        "delimiter": "@"
+      },
+      {
+        "stem": "c",
+        "affix": "@firm",
+        "role": "suffix",
+        "form": "c@firm",
+        "delimiter": "@"
+      },
+      {
+        "stem": "f",
+        "affix": "@firm",
+        "role": "suffix",
+        "form": "f@firm",
+        "delimiter": "@"
+      },
+      {
+        "stem": "l",
+        "affix": "@firm",
+        "role": "suffix",
+        "form": "l@firm",
+        "delimiter": "@"
+      },
+      {
+        "stem": "no",
+        "affix": "@firm",
+        "role": "suffix",
+        "form": "no@firm",
+        "delimiter": "@"
+      },
+      {
+        "stem": "no3",
+        "affix": "@firm",
+        "role": "suffix",
+        "form": "no3@firm",
+        "delimiter": "@"
+      },
+      {
+        "stem": "ok",
+        "affix": "@firm",
+        "role": "suffix",
+        "form": "ok@firm",
+        "delimiter": "@"
+      },
+      {
+        "stem": "p",
+        "affix": "@firm",
+        "role": "suffix",
+        "form": "p@firm",
+        "delimiter": "@"
+      },
+      {
+        "stem": "s",
+        "affix": "@firm",
+        "role": "suffix",
+        "form": "s@firm",
+        "delimiter": "@"
+      }
+    ],
+    "form_positions": {
+      "4cnr/": 1,
+      "4e/": 1,
+      "X": 0,
+      "<startF>": 0,
+      "FA6/": 2,
+      "FA2/": 2
+    },
+    "position_labels": {
+      "0": "face value",
+      "1": "face-region operator",
+      "2": "fan program variant"
+    },
+    "positions_by_symbol": {
+      "4cnr/X": [
+        1,
+        0
+      ],
+      "4e/X": [
+        1,
+        0
+      ],
+      "FA6/<startF>": [
+        2,
+        0
+      ],
+      "FA2/<startF>": [
+        2,
+        0
+      ]
+    },
+    "position_glosses": {
+      "1": {
+        "4cnr/": "each corner of face",
+        "4e/": "each edge of face"
+      },
+      "0": {
+        "X": "face",
+        "<startF>": "face"
+      },
+      "2": {
+        "FA6/": "cool cloth over the whole Veyru for 8 seconds, then fan all 6 faces in sequence starting from",
+        "FA2/": "cool cloth over the whole Veyru for 8 seconds, then fan the specified face and the opposite face only, starting from"
+      }
+    },
+    "meaning_by_symbol": {
+      "F": "front face",
+      "Bk": "back face",
+      "L": "left face",
+      "R": "right face",
+      "T": "top face",
+      "Bo": "bottom face",
+      "b": "bell",
+      "s": "stone",
+      "c": "cloth",
+      "p": "board",
+      "f": "fan",
+      "l": "lamp",
+      "@firm": "apply with firm intensity; if not stated, firm intensity is assumed by default",
+      "+opp": "and the opposite face",
+      "all6": "all faces; \"each corner of X\" = \"4cnr/X\"; \"each edge of X\" = \"4e/X",
+      "4cnr/X": "each corner of face X",
+      "4e/X": "each edge of face X",
+      "ok": "success",
+      "FA6/<startF>": "cool cloth over the whole Veyru for 8 seconds, then fan all 6 faces in sequence starting from the specified start face",
+      "FA2/<startF>": "cool cloth over the whole Veyru for 8 seconds, then fan the specified start face and the opposite face only",
+      "EX:<text>": "expand the previous code verbatim in plain English when asked with \"?\"",
+      "no": "the instruction failed or there is an issue",
+      "new:<cues>": "new symptoms are present, followed by the symptom cues",
+      "re:": "fresh symptom report; treat it as a new motif from scratch, ignoring history",
+      "?<motif>": "the instruction for that motif is ambiguous; ask for clarification",
+      "no3": "all 3 ranked candidate procedures failed",
+      "L:": "light description slot in the symptom report",
+      "H:": "hum description slot in the symptom report",
+      "T:": "temperature description slot in the symptom report",
+      "E:": "edges description slot in the symptom report",
+      "C:": "corners description slot in the symptom report",
+      "Ta:": "tap description slot in the symptom report",
+      "S:": "surface description slot in the symptom report",
+      "?<m1>/<m2>:<q>": "I am uncertain between motif 1 and motif 2; answer the disambiguation question that follows",
+      "env:": "environment or location context, such as nearby light sources or placement"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1778884860",
+    "n_codes": 35,
+    "n_multimorpheme": 4,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "suffix",
+        "label": "face value",
+        "fillers": [
+          {
+            "form": "<startF>",
+            "gloss": "face",
+            "count": 2
+          },
+          {
+            "form": "Bk",
+            "gloss": "back face",
+            "count": 0
+          },
+          {
+            "form": "Bo",
+            "gloss": "bottom face",
+            "count": 0
+          },
+          {
+            "form": "F",
+            "gloss": "front face",
+            "count": 0
+          },
+          {
+            "form": "L",
+            "gloss": "left face",
+            "count": 0
+          },
+          {
+            "form": "R",
+            "gloss": "right face",
+            "count": 0
+          },
+          {
+            "form": "T",
+            "gloss": "top face",
+            "count": 0
+          },
+          {
+            "form": "X",
+            "gloss": "face",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 8,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "stem",
+        "label": "face-region operator",
+        "fillers": [
+          {
+            "form": "4cnr/",
+            "gloss": "each corner of face",
+            "count": 1
+          },
+          {
+            "form": "4e/",
+            "gloss": "each edge of face",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.5,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos2",
+        "role": "stem",
+        "label": "fan program variant",
+        "fillers": [
+          {
+            "form": "FA2/",
+            "gloss": "cool cloth over the whole Veyru for 8 seconds, then fan the specified face and the opposite face only, starting from",
+            "count": 1
+          },
+          {
+            "form": "FA6/",
+            "gloss": "cool cloth over the whole Veyru for 8 seconds, then fan all 6 faces in sequence starting from",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.5,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 2,
+        "possible_combos": 16,
+        "saturation": 0.125
+      },
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos2",
+        "attested_combos": 2,
+        "possible_combos": 16,
+        "saturation": 0.125
+      }
+    ],
+    "orderings": [
+      [
+        "pos1",
+        "pos0"
+      ],
+      [
+        "pos2",
+        "pos0"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "4cnr/X": [
+        "pos1",
+        "pos0"
+      ],
+      "4e/X": [
+        "pos1",
+        "pos0"
+      ],
+      "FA6/<startF>": [
+        "pos2",
+        "pos0"
+      ],
+      "FA2/<startF>": [
+        "pos2",
+        "pos0"
+      ]
+    },
+    "construction_by_symbol": {
+      "4cnr/X": "K_FACE_REGION",
+      "4e/X": "K_FACE_REGION",
+      "FA6/<startF>": "K_FAN_SEQUENCE",
+      "FA2/<startF>": "K_FAN_SEQUENCE"
+    },
+    "construction_labels": {
+      "K_FACE_REGION": "face-region specification",
+      "K_FAN_SEQUENCE": "fan sequence with start face"
+    },
+    "construction_templates": {
+      "K_FACE_REGION": [
+        "pos1",
+        "pos0"
+      ],
+      "K_FAN_SEQUENCE": [
+        "pos2",
+        "pos0"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "Only two small construction families are defensible. (1) 4cnr/X and 4e/X form a clear minimal pair in the same frame with stable compositional meanings: the first morpheme contributes the spatial operator ('each corner of face' vs. 'each edge of face') and the second slot is a face value, whose members are declared by the standalone face key entries F/Bk/L/R/T/Bo. (2) FA6/<startF> and FA2/<startF> likewise form a minimal pair in the same frame: the first morpheme contributes the whole procedure variant ('cool cloth ... then fan all 6 in sequence' vs. 'cool cloth ... then fan start face plus opposite only') and the second slot is again a face value, declared by the same standalone face entries. Other apparent recurrences are rejected: ?<motif> and ?<m1>/<m2>:<q> do not provide a clean shared frame with predictable part meanings, and the remaining symbols are best kept lexical. Symbols used only as declared fillers remain in lexical_symbols, as required.",
+    "lexical_symbols": [
+      "F",
+      "Bk",
+      "L",
+      "R",
+      "T",
+      "Bo",
+      "b",
+      "s",
+      "c",
+      "p",
+      "f",
+      "l",
+      "@firm",
+      "+opp",
+      "all6",
+      "ok",
+      "EX:<text>",
+      "no",
+      "new:<cues>",
+      "re:",
+      "?<motif>",
+      "no3",
+      "L:",
+      "H:",
+      "T:",
+      "E:",
+      "C:",
+      "Ta:",
+      "S:",
+      "?<m1>/<m2>:<q>",
+      "env:"
+    ],
+    "classes": [
+      {
+        "class_id": "C_FACE",
+        "label": "face value",
+        "description": "A face specified as the target or starting face.",
+        "repeatable": false,
+        "declared_fillers": [
+          {
+            "form": "F",
+            "gloss": "front face"
+          },
+          {
+            "form": "Bk",
+            "gloss": "back face"
+          },
+          {
+            "form": "L",
+            "gloss": "left face"
+          },
+          {
+            "form": "R",
+            "gloss": "right face"
+          },
+          {
+            "form": "T",
+            "gloss": "top face"
+          },
+          {
+            "form": "Bo",
+            "gloss": "bottom face"
+          }
+        ]
+      },
+      {
+        "class_id": "C_FACE_REGION_OP",
+        "label": "face-region operator",
+        "description": "Operator selecting a repeated location pattern on a face.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "C_FAN_PROGRAM",
+        "label": "fan program variant",
+        "description": "Procedure variant that determines how fanning proceeds after the cooling-cloth stage.",
+        "repeatable": false,
+        "declared_fillers": []
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "K_FACE_REGION",
+        "label": "face-region specification",
+        "description": "A face-region operator followed by a face value.",
+        "class_sequence": [
+          "C_FACE_REGION_OP",
+          "C_FACE"
+        ]
+      },
+      {
+        "construction_id": "K_FAN_SEQUENCE",
+        "label": "fan sequence with start face",
+        "description": "A fan-procedure variant followed by a starting face.",
+        "class_sequence": [
+          "C_FAN_PROGRAM",
+          "C_FACE"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "4cnr/X",
+        "construction_id": "K_FACE_REGION",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "4cnr/",
+            "class_id": "C_FACE_REGION_OP",
+            "gloss": "each corner of face"
+          },
+          {
+            "form": "X",
+            "class_id": "C_FACE",
+            "gloss": "face"
+          }
+        ]
+      },
+      {
+        "symbol": "4e/X",
+        "construction_id": "K_FACE_REGION",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "4e/",
+            "class_id": "C_FACE_REGION_OP",
+            "gloss": "each edge of face"
+          },
+          {
+            "form": "X",
+            "class_id": "C_FACE",
+            "gloss": "face"
+          }
+        ]
+      },
+      {
+        "symbol": "FA6/<startF>",
+        "construction_id": "K_FAN_SEQUENCE",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "FA6/",
+            "class_id": "C_FAN_PROGRAM",
+            "gloss": "cool cloth over the whole Veyru for 8 seconds, then fan all 6 faces in sequence starting from"
+          },
+          {
+            "form": "<startF>",
+            "class_id": "C_FACE",
+            "gloss": "face"
+          }
+        ]
+      },
+      {
+        "symbol": "FA2/<startF>",
+        "construction_id": "K_FAN_SEQUENCE",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "FA2/",
+            "class_id": "C_FAN_PROGRAM",
+            "gloss": "cool cloth over the whole Veyru for 8 seconds, then fan the specified face and the opposite face only, starting from"
+          },
+          {
+            "form": "<startF>",
+            "class_id": "C_FACE",
+            "gloss": "face"
+          }
+        ]
+      }
+    ]
+  }
+}

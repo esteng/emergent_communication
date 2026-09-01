@@ -1,0 +1,715 @@
+{
+  "grammar": {
+    "run_key": "veyru/1778877941",
+    "slots": [
+      {
+        "role": "prefix",
+        "fillers": [
+          {
+            "form": "C",
+            "gloss": "cool",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "F",
+            "gloss": "folded",
+            "support": 1,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "BD",
+            "gloss": "board",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "CL",
+            "gloss": "cloth",
+            "support": 2,
+            "is_defined": true
+          },
+          {
+            "form": "CL2E",
+            "gloss": "cloth on 2 adjacent edges",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "FC",
+            "gloss": "folded cloth",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "SS",
+            "gloss": "soft surface, rest",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "T6",
+            "gloss": "sustained bell tone to all 6 faces, then fade and wait",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "WS",
+            "gloss": "warm stone beside",
+            "support": 1,
+            "is_defined": true
+          }
+        ]
+      },
+      {
+        "role": "suffix",
+        "fillers": [
+          {
+            "form": "R10",
+            "gloss": "right face for 10 seconds",
+            "support": 6,
+            "is_defined": false
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "B": [
+        "B"
+      ],
+      "BD": [
+        "BD"
+      ],
+      "CCL": [
+        "C",
+        "CL"
+      ],
+      "CL": [
+        "CL"
+      ],
+      "FAN": [
+        "FAN"
+      ],
+      "FCL": [
+        "F",
+        "CL"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "SS": [
+        "SS"
+      ],
+      "T": [
+        "T"
+      ],
+      "WS": [
+        "WS"
+      ],
+      "F/Bk": [
+        "F/Bk"
+      ],
+      "LI/DE": [
+        "LI/DE"
+      ],
+      "LO": [
+        "LO"
+      ],
+      "EF": [
+        "EF"
+      ],
+      "H": [
+        "H"
+      ],
+      "HB": [
+        "HB"
+      ],
+      "OP": [
+        "OP"
+      ],
+      "X": [
+        "X"
+      ],
+      "B8c": [
+        "B8c"
+      ],
+      "BDR10": [
+        "BD",
+        "R10"
+      ],
+      "CCL10/F6R": [
+        "CCL10/F6R"
+      ],
+      "CCL10/FR+O": [
+        "CCL10/FR+O"
+      ],
+      "CL2ER10": [
+        "CL2E",
+        "R10"
+      ],
+      "FCR10": [
+        "FC",
+        "R10"
+      ],
+      "SSR10": [
+        "SS",
+        "R10"
+      ],
+      "T6R10": [
+        "T6",
+        "R10"
+      ],
+      "WSR10": [
+        "WS",
+        "R10"
+      ]
+    },
+    "head_index": {
+      "B": 0,
+      "BD": 0,
+      "CCL": 1,
+      "CL": 0,
+      "FAN": 0,
+      "FCL": 1,
+      "HS": 0,
+      "SS": 0,
+      "T": 0,
+      "WS": 0,
+      "F/Bk": 0,
+      "LI/DE": 0,
+      "LO": 0,
+      "EF": 0,
+      "H": 0,
+      "HB": 0,
+      "OP": 0,
+      "X": 0,
+      "B8c": 0,
+      "BDR10": 0,
+      "CCL10/F6R": 0,
+      "CCL10/FR+O": 0,
+      "CL2ER10": 0,
+      "FCR10": 0,
+      "SSR10": 0,
+      "T6R10": 0,
+      "WSR10": 0
+    },
+    "attested_orderings": [
+      [
+        "prefix",
+        "stem"
+      ],
+      [
+        "stem",
+        "suffix"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [],
+    "form_positions": {
+      "C": 0,
+      "F": 0,
+      "CL": 1,
+      "BD": 2,
+      "CL2E": 2,
+      "FC": 2,
+      "SS": 2,
+      "T6": 2,
+      "WS": 2,
+      "R10": 3
+    },
+    "position_labels": {
+      "0": "cloth_modifier",
+      "1": "cloth_base",
+      "2": "procedure_root",
+      "3": "right_face_10s"
+    },
+    "positions_by_symbol": {
+      "CCL": [
+        0,
+        1
+      ],
+      "FCL": [
+        0,
+        1
+      ],
+      "BDR10": [
+        2,
+        3
+      ],
+      "CL2ER10": [
+        2,
+        3
+      ],
+      "FCR10": [
+        2,
+        3
+      ],
+      "SSR10": [
+        2,
+        3
+      ],
+      "T6R10": [
+        2,
+        3
+      ],
+      "WSR10": [
+        2,
+        3
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "C": "cool",
+        "F": "folded"
+      },
+      "1": {
+        "CL": "cloth"
+      },
+      "2": {
+        "BD": "board",
+        "CL2E": "cloth on 2 adjacent edges",
+        "FC": "folded cloth",
+        "SS": "soft surface, rest",
+        "T6": "sustained bell tone to all 6 faces, then fade and wait",
+        "WS": "warm stone beside"
+      },
+      "3": {
+        "R10": "right face for 10 seconds"
+      }
+    },
+    "meaning_by_symbol": {
+      "B": "bell",
+      "BD": "board",
+      "CCL": "cool cloth",
+      "CL": "cloth",
+      "FAN": "fan cool air",
+      "FCL": "folded cloth",
+      "HS": "heated stone near or warm",
+      "SS": "soft surface",
+      "T": "steady bell tone",
+      "WS": "warm stone beside",
+      "F/Bk": "start face",
+      "LI/DE": "after 1 lamp fail -> keep structural branch: SS -> BD -> T.",
+      "LO": "after 1 lamp fail -> energy branch: 1) WS beside <start face> <dur/int>; rot rpt each face",
+      "EF": "edge flash",
+      "H": "hot",
+      "HB": "harsh buzz",
+      "OP": "opp-face alt pulse, 2T=hum 2-tone",
+      "X": "last action had no effect; later split to mean executed exactly and no effect",
+      "B8c": "bell all 8 corners once",
+      "BDR10": "flat board against the right face for 10 seconds",
+      "CCL10/F6R": "cool cloth over the Veyru for 10 seconds; remove; fan cool air across all 6 faces for 10 seconds starting at the right face",
+      "CCL10/FR+O": "cool cloth for 10 seconds; remove; fan the right face and the opposite face for 10 seconds",
+      "CL2ER10": "cloth on 2 adjacent edges near the right face for 10 seconds",
+      "FCR10": "folded cloth over the right face for 10 seconds",
+      "SSR10": "soft surface, right face up, rest for 10 seconds",
+      "T6R10": "sustained bell tone to all 6 faces for 10 seconds starting at the right face, then fade and wait",
+      "WSR10": "warm stone beside the right face for 10 seconds"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1778877941",
+    "n_codes": 27,
+    "n_multimorpheme": 8,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "prefix",
+        "label": "cloth_modifier",
+        "fillers": [
+          {
+            "form": "C",
+            "gloss": "cool",
+            "count": 1
+          },
+          {
+            "form": "F",
+            "gloss": "folded",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.25,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "stem",
+        "label": "cloth_base",
+        "fillers": [
+          {
+            "form": "CL",
+            "gloss": "cloth",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.25,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos2",
+        "role": "stem",
+        "label": "procedure_root",
+        "fillers": [
+          {
+            "form": "BD",
+            "gloss": "board",
+            "count": 1
+          },
+          {
+            "form": "CL2E",
+            "gloss": "cloth on 2 adjacent edges",
+            "count": 1
+          },
+          {
+            "form": "FC",
+            "gloss": "folded cloth",
+            "count": 1
+          },
+          {
+            "form": "SS",
+            "gloss": "soft surface, rest",
+            "count": 1
+          },
+          {
+            "form": "T6",
+            "gloss": "sustained bell tone to all 6 faces, then fade and wait",
+            "count": 1
+          },
+          {
+            "form": "WS",
+            "gloss": "warm stone beside",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 6,
+        "obligatoriness": 0.75,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos3",
+        "role": "suffix",
+        "label": "right_face_10s",
+        "fillers": [
+          {
+            "form": "R10",
+            "gloss": "right face for 10 seconds",
+            "count": 6
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.75,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      },
+      {
+        "slot_a": "pos2",
+        "slot_b": "pos3",
+        "attested_combos": 6,
+        "possible_combos": 6,
+        "saturation": 1.0
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ],
+      [
+        "pos2",
+        "pos3"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "CCL": [
+        "pos0",
+        "pos1"
+      ],
+      "FCL": [
+        "pos0",
+        "pos1"
+      ],
+      "BDR10": [
+        "pos2",
+        "pos3"
+      ],
+      "CL2ER10": [
+        "pos2",
+        "pos3"
+      ],
+      "FCR10": [
+        "pos2",
+        "pos3"
+      ],
+      "SSR10": [
+        "pos2",
+        "pos3"
+      ],
+      "T6R10": [
+        "pos2",
+        "pos3"
+      ],
+      "WSR10": [
+        "pos2",
+        "pos3"
+      ]
+    },
+    "construction_by_symbol": {
+      "CCL": "K1",
+      "FCL": "K1",
+      "BDR10": "K2",
+      "CL2ER10": "K2",
+      "FCR10": "K2",
+      "SSR10": "K2",
+      "T6R10": "K2",
+      "WSR10": "K2"
+    },
+    "construction_labels": {
+      "K1": "modified_cloth",
+      "K2": "procedure_plus_right_face_10s"
+    },
+    "construction_templates": {
+      "K1": [
+        "pos0",
+        "pos1"
+      ],
+      "K2": [
+        "pos2",
+        "pos3"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "Two small paradigms are defensible. First, CCL and FCL form an exact compositional minimal pair in the shared frame _CL: C=‘cool’ vs F=‘folded’, with CL=‘cloth’. Second, six codes share the frame _R10 with coherent root substitution: BDR10, CL2ER10, FCR10, SSR10, T6R10, WSR10. Across these, R10 contributes a stable right-face + 10-seconds specification, while the initial fillers contribute the differing procedure/material meanings. I reject a broader CC family and the suggested FC family: the available longer CC... symbols do not yet support a clean shared compositional slot analysis, and FC is not independently supported as a stable morpheme across FCL and FCR10. All other symbols are left lexical to avoid over-segmentation.",
+    "lexical_symbols": [
+      "B",
+      "BD",
+      "CL",
+      "FAN",
+      "HS",
+      "SS",
+      "T",
+      "WS",
+      "F/Bk",
+      "LI/DE",
+      "LO",
+      "EF",
+      "H",
+      "HB",
+      "OP",
+      "X",
+      "B8c",
+      "CCL10/F6R",
+      "CCL10/FR+O"
+    ],
+    "classes": [
+      {
+        "class_id": "C1",
+        "label": "cloth_modifier",
+        "description": "Modifier specifying a cloth property.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "C2",
+        "label": "cloth_base",
+        "description": "Cloth noun base.",
+        "repeatable": false,
+        "declared_fillers": [
+          {
+            "form": "CL",
+            "gloss": "cloth"
+          }
+        ]
+      },
+      {
+        "class_id": "C3",
+        "label": "procedure_root",
+        "description": "Procedure or treatment root preceding the shared right-face/10-seconds specification.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "C4",
+        "label": "right_face_10s",
+        "description": "Specification of the right face for 10 seconds.",
+        "repeatable": false,
+        "declared_fillers": []
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "K1",
+        "label": "modified_cloth",
+        "description": "Cloth modifier followed by cloth base.",
+        "class_sequence": [
+          "C1",
+          "C2"
+        ]
+      },
+      {
+        "construction_id": "K2",
+        "label": "procedure_plus_right_face_10s",
+        "description": "Procedure root followed by a right-face-for-10-seconds specification.",
+        "class_sequence": [
+          "C3",
+          "C4"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "CCL",
+        "construction_id": "K1",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "C",
+            "class_id": "C1",
+            "gloss": "cool"
+          },
+          {
+            "form": "CL",
+            "class_id": "C2",
+            "gloss": "cloth"
+          }
+        ]
+      },
+      {
+        "symbol": "FCL",
+        "construction_id": "K1",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "F",
+            "class_id": "C1",
+            "gloss": "folded"
+          },
+          {
+            "form": "CL",
+            "class_id": "C2",
+            "gloss": "cloth"
+          }
+        ]
+      },
+      {
+        "symbol": "BDR10",
+        "construction_id": "K2",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "BD",
+            "class_id": "C3",
+            "gloss": "board"
+          },
+          {
+            "form": "R10",
+            "class_id": "C4",
+            "gloss": "right face for 10 seconds"
+          }
+        ]
+      },
+      {
+        "symbol": "CL2ER10",
+        "construction_id": "K2",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "CL2E",
+            "class_id": "C3",
+            "gloss": "cloth on 2 adjacent edges"
+          },
+          {
+            "form": "R10",
+            "class_id": "C4",
+            "gloss": "right face for 10 seconds"
+          }
+        ]
+      },
+      {
+        "symbol": "FCR10",
+        "construction_id": "K2",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "FC",
+            "class_id": "C3",
+            "gloss": "folded cloth"
+          },
+          {
+            "form": "R10",
+            "class_id": "C4",
+            "gloss": "right face for 10 seconds"
+          }
+        ]
+      },
+      {
+        "symbol": "SSR10",
+        "construction_id": "K2",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "SS",
+            "class_id": "C3",
+            "gloss": "soft surface, rest"
+          },
+          {
+            "form": "R10",
+            "class_id": "C4",
+            "gloss": "right face for 10 seconds"
+          }
+        ]
+      },
+      {
+        "symbol": "T6R10",
+        "construction_id": "K2",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "T6",
+            "class_id": "C3",
+            "gloss": "sustained bell tone to all 6 faces, then fade and wait"
+          },
+          {
+            "form": "R10",
+            "class_id": "C4",
+            "gloss": "right face for 10 seconds"
+          }
+        ]
+      },
+      {
+        "symbol": "WSR10",
+        "construction_id": "K2",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "WS",
+            "class_id": "C3",
+            "gloss": "warm stone beside"
+          },
+          {
+            "form": "R10",
+            "class_id": "C4",
+            "gloss": "right face for 10 seconds"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,888 @@
+{
+  "results": [
+    {
+      "target_meaning": "front face, washed out",
+      "expected_form": "Fwashed",
+      "expected_morphemes": [
+        "F",
+        "washed"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "F-washed",
+      "produced_reading": "Front face appears washed-out/faded",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "bottom face, washed out",
+      "expected_form": "Botwashed",
+      "expected_morphemes": [
+        "Bot",
+        "washed"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "Bot-washed",
+      "produced_reading": "Bottom face appears washed-out/faded",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "front face, bright",
+      "expected_form": "Fbright",
+      "expected_morphemes": [
+        "F",
+        "bright"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "F-bright",
+      "produced_reading": "Front face is unusually bright",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "corner, shimmering light",
+      "expected_form": "corner-shimmer",
+      "expected_morphemes": [
+        "corner-",
+        "shimmer"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "corner-shimmer",
+      "produced_reading": "A corner shimmers as if two patterns fighting",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    },
+    {
+      "target_meaning": "bottom face, flickering light or faces",
+      "expected_form": "Botflicker",
+      "expected_morphemes": [
+        "Bot",
+        "flicker"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "Bot-flicker",
+      "produced_reading": "Bottom face flickers between light and dark",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "corner, flickering light or faces",
+      "expected_form": "corner-flicker",
+      "expected_morphemes": [
+        "corner-",
+        "flicker"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "corner-flicker",
+      "produced_reading": "A corner flickers between light and dark",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "left face, bright",
+      "expected_form": "Lbright",
+      "expected_morphemes": [
+        "L",
+        "bright"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "L-bright",
+      "produced_reading": "Left face is unusually bright",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "right face, flickering light or faces",
+      "expected_form": "Rflicker",
+      "expected_morphemes": [
+        "R",
+        "flicker"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "R-flicker",
+      "produced_reading": "Right face flickers between light and dark",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "back face, bright",
+      "expected_form": "Bkbright",
+      "expected_morphemes": [
+        "Bk",
+        "bright"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "Bk-bright",
+      "produced_reading": "Back face is unusually bright",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "one face, flickering light or faces",
+      "expected_form": "1face-flicker",
+      "expected_morphemes": [
+        "1face-",
+        "flicker"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "1face-flicker",
+      "produced_reading": "One face flickers between light and dark while others normal",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "left face, washed out",
+      "expected_form": "Lwashed",
+      "expected_morphemes": [
+        "L",
+        "washed"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "L-washed",
+      "produced_reading": "Left face appears washed-out/faded",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "one face, shimmering light",
+      "expected_form": "1face-shimmer",
+      "expected_morphemes": [
+        "1face-",
+        "shimmer"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "1face-shimmer",
+      "produced_reading": "One face shimmers with competing patterns",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    },
+    {
+      "target_meaning": "top face, extremely bright",
+      "expected_form": "Tblaze",
+      "expected_morphemes": [
+        "T",
+        "blaze"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "T-blaze",
+      "produced_reading": "Top face blazing with painfully bright white light",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "front face, flashing light",
+      "expected_form": "Fflash",
+      "expected_morphemes": [
+        "F",
+        "flash"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "F-flash",
+      "produced_reading": "Front face flashes (in a pulsing rhythm)",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "corner, washed out",
+      "expected_form": "corner-washed",
+      "expected_morphemes": [
+        "corner-",
+        "washed"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "corner-washed",
+      "produced_reading": "A corner appears washed-out/faded",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "left face, flickering light or faces",
+      "expected_form": "Lflicker",
+      "expected_morphemes": [
+        "L",
+        "flicker"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "L-flicker",
+      "produced_reading": "Left face flickers between light and dark",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "front face, shimmering light",
+      "expected_form": "Fshimmer",
+      "expected_morphemes": [
+        "F",
+        "shimmer"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "F-shimmer",
+      "produced_reading": "Front face shimmers with competing patterns",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    },
+    {
+      "target_meaning": "right face, washed out",
+      "expected_form": "Rwashed",
+      "expected_morphemes": [
+        "R",
+        "washed"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "R-washed",
+      "produced_reading": "Right face appears washed-out/faded",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "bottom face, bright",
+      "expected_form": "Botbright",
+      "expected_morphemes": [
+        "Bot",
+        "bright"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "Bot-bright",
+      "produced_reading": "Bottom face is unusually bright",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "left face, extremely bright",
+      "expected_form": "Lblaze",
+      "expected_morphemes": [
+        "L",
+        "blaze"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "L-blaze",
+      "produced_reading": "Left face blazing with painfully bright white light",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "top face, shimmering light",
+      "expected_form": "Tshimmer",
+      "expected_morphemes": [
+        "T",
+        "shimmer"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "T-shimmer",
+      "produced_reading": "Top face shimmers with competing patterns",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    },
+    {
+      "target_meaning": "left face, flashing light",
+      "expected_form": "Lflash",
+      "expected_morphemes": [
+        "L",
+        "flash"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "L-flash",
+      "produced_reading": "Left face flashes in pulsing rhythm",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    },
+    {
+      "target_meaning": "right face, bright",
+      "expected_form": "Rbright",
+      "expected_morphemes": [
+        "R",
+        "bright"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "R-bright",
+      "produced_reading": "Right face is unusually bright",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "front face, extremely bright",
+      "expected_form": "Fblaze",
+      "expected_morphemes": [
+        "F",
+        "blaze"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "F-blaze",
+      "produced_reading": "Front face blazing with painfully bright white light",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "bottom face, flashing light",
+      "expected_form": "Botflash",
+      "expected_morphemes": [
+        "Bot",
+        "flash"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "Bot-flash",
+      "produced_reading": "Bottom face flashes in pulsing rhythm",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    },
+    {
+      "target_meaning": "bottom face, shimmering light",
+      "expected_form": "Botshimmer",
+      "expected_morphemes": [
+        "Bot",
+        "shimmer"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "Bot-shimmer",
+      "produced_reading": "Bottom face shimmers with competing patterns",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    },
+    {
+      "target_meaning": "top face, washed out",
+      "expected_form": "Twashed",
+      "expected_morphemes": [
+        "T",
+        "washed"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "T-washed",
+      "produced_reading": "Top face appears washed-out/faded",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "top face, flashing light",
+      "expected_form": "Tflash",
+      "expected_morphemes": [
+        "T",
+        "flash"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "T-flash",
+      "produced_reading": "Top face flashes in pulsing rhythm",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    },
+    {
+      "target_meaning": "one face, bright",
+      "expected_form": "1face-bright",
+      "expected_morphemes": [
+        "1face-",
+        "bright"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "1face-bright",
+      "produced_reading": "One face dramatically brighter than others (resonance symptom, first tag of the 1face-bright/whine/vibrate set)",
+      "purpose": "grounded_control",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [],
+      "is_valid": true,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "bottom face, extremely bright",
+      "expected_form": "Botblaze",
+      "expected_morphemes": [
+        "Bot",
+        "blaze"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "Bot-blaze",
+      "produced_reading": "Bottom face blazing with painfully bright white light",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "back face, shimmering light",
+      "expected_form": "Bkshimmer",
+      "expected_morphemes": [
+        "Bk",
+        "shimmer"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "Bk-shimmer",
+      "produced_reading": "Back face shimmers with competing patterns",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    },
+    {
+      "target_meaning": "corner, bright",
+      "expected_form": "corner-bright",
+      "expected_morphemes": [
+        "corner-",
+        "bright"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "corner-bright",
+      "produced_reading": "A corner glowing intensely bright (deadlock-type symptom, first tag of corner-bright/tick/hot)",
+      "purpose": "grounded_control",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [],
+      "is_valid": true,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    }
+  ],
+  "decode_negative_control_rate": 0.4,
+  "n_decode_negative_controls": 20,
+  "decode_positive_control_rate": 1.0,
+  "n_decode_positive_controls": 10
+}

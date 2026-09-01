@@ -1,0 +1,137 @@
+{
+  "grammar": {
+    "run_key": "veyru/1778879455",
+    "slots": [],
+    "segmentation": {
+      "HC": [
+        "HC"
+      ],
+      "WB": [
+        "WB"
+      ],
+      "FL": [
+        "FL"
+      ],
+      "DS": [
+        "DS"
+      ],
+      "EB": [
+        "EB"
+      ],
+      "DC": [
+        "DC"
+      ],
+      "DM": [
+        "DM"
+      ],
+      "BW": [
+        "BW"
+      ],
+      "PL": [
+        "PL"
+      ],
+      "RW": [
+        "RW"
+      ],
+      "CK": [
+        "CK"
+      ],
+      "FR": [
+        "FR"
+      ],
+      "TS": [
+        "TS"
+      ],
+      "HT": [
+        "HT"
+      ],
+      "K": [
+        "K"
+      ],
+      "face-pair": [
+        "face-pair"
+      ]
+    },
+    "head_index": {
+      "HC": 0,
+      "WB": 0,
+      "FL": 0,
+      "DS": 0,
+      "EB": 0,
+      "DC": 0,
+      "DM": 0,
+      "BW": 0,
+      "PL": 0,
+      "RW": 0,
+      "CK": 0,
+      "FR": 0,
+      "TS": 0,
+      "HT": 0,
+      "K": 0,
+      "face-pair": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "HC": "hollow tap plus dark center plus thin hum (Core Void)",
+      "WB": "wobble edges plus bulge faces plus muffled hum (Boundary Softening)",
+      "FL": "face flicker plus broken irregular hum (Alignment Collapse)",
+      "DS": "drifting light plus blurred edges plus wavering pitch (Drift Escalation)",
+      "EB": "extremely bright plus layered hum plus frozen patches (Echo Saturation)",
+      "DC": "dim corners plus fading edges plus thin hollow hum (Leak Instability)",
+      "DM": "dim overall plus faint whisper hum (Low Intensity)",
+      "BW": "blazing white plus harsh buzz plus heat (High Intensity)",
+      "PL": "pulsing bright and dark opposite faces plus two-tone hum (Phase Inversion)",
+      "RW": "one face blazing plus high whine (Resonance Cascade)",
+      "CK": "corner glow plus clicking plus corner heat (Corner Deadlock)",
+      "FR": "frozen plus silent plus cold (Propagation Stall)",
+      "TS": "two clashing tones plus alternating patterns (Harmonic Split)",
+      "HT": "hot plus dim plus red tint plus rumble plus gritty (Thermal Bleed)",
+      "K": "confirm receipt",
+      "face-pair": "two opposite faces treated as one pair (front plus back, left plus right, top plus bottom)"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1778879455",
+    "n_codes": 16,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible compositional paradigm is supported by this codebook. The two-letter symbols do not show a stable substitution frame with recurring forms making consistent contributions across multiple entries. Apparent shared letters fail the required evidence test: for example, D occurs in DS, DC, DM with drifting/dim meanings but no stable common contribution; W occurs in WB, BW, RW with wobble/white/whine-related material but not a single role; C occurs in HC, DC, CK with center/corners/clicking-related content but no compositional consistency. The standalone symbols K and face-pair also do not participate in any multi-entry substitution pattern. Because no split yields a meaning-consistent paradigm with predictable whole meanings, the safest analysis is a flat lexicon.",
+    "lexical_symbols": [
+      "HC",
+      "WB",
+      "FL",
+      "DS",
+      "EB",
+      "DC",
+      "DM",
+      "BW",
+      "PL",
+      "RW",
+      "CK",
+      "FR",
+      "TS",
+      "HT",
+      "K",
+      "face-pair"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

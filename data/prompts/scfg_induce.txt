@@ -1,0 +1,35 @@
+You reverse-engineer the FULL communication code two agents use on their live link channel and express it as ONE COMPOSITIONAL synchronous grammar. Messages come from BOTH agents:
+- a FIELD OBSERVER message reports symptoms and means a single failure MOTIF;
+- a STABILIZATION ENGINEER message gives a procedure: template (which procedure) + face + intensity + duration.
+Use the agents' private postmortem discussion to learn token conventions and the example (message -> meaning) pairs to fix mappings. Cover every code token you can infer, on BOTH sides.
+
+Output ONLY a JSON object: {"start":"S","rules":[ ... ]}. Each rule {"lhs":"<NT>","rhs":["<sym>",...],"map":<map>}.
+- A symbol never used as an lhs is a TERMINAL matching one message token literally; "#NUM" matches a whole number; an empty "rhs":[] matches nothing (use it for optional parts).
+- Tokens split on spaces/punctuation and at letter|digit boundaries.
+- "map": "merge" (merge child meanings) | "seq" (ordered list) | "duration" (#NUM -> {"duration":int}) | a leaf {"motif"|"template"|"face"|"intensity":"<inventory value>"} | null (token with no referent).
+- A message is accepted only if the WHOLE token sequence is generated. The start symbol must accept EITHER an observer report OR an engineer procedure.
+
+BUILD A COMPOSITIONAL GRAMMAR, NOT A HOLISTIC ONE. This is the most important instruction:
+- Each terminal rule maps ONE code token to ONE referent (e.g. "d" -> {"motif":"Drift Escalation"}, "CL" -> {"template":"CLOTH_ADJ_E"}, "L" -> {"face":"left"}, "fir" -> {"intensity":"firm"}).
+- NEVER write a rule whose right-hand side spells out a whole message or lists several content words. Enumerating full messages (or near-duplicate variants of one) is holistic and is the failure mode to avoid.
+- Tokens appear in VARYING ORDER and are often OPTIONAL or REPEATED. Handle this with small recursive "modifier" rules that have an empty base case, instead of enumerating combinations. Pattern:
+      S     -> REP                          map "seq"      (observer report ...)
+      S     -> PROC                          map "seq"      (... OR engineer procedure)
+      REP   -> MOTIF RMODS                    map "merge"
+      RMODS -> FILLER RMODS                   map "merge"
+      RMODS ->                                map "merge"   (empty rhs: base case)
+      PROC  -> TMPL MODS                       map "merge"
+      MODS  -> FACE MODS                       map "merge"
+      MODS  -> INT MODS                        map "merge"
+      MODS  -> DUR MODS                        map "merge"
+      MODS  -> FILLER MODS                     map "merge"
+      MODS  ->                                 map "merge"   (empty rhs)
+      MOTIF -> d                               map {"motif":"Drift Escalation"}
+      TMPL  -> CL                              map {"template":"CLOTH_ADJ_E"}
+      FACE  -> L                               map {"face":"left"}
+      INT   -> fir                             map {"intensity":"firm"}
+      DUR   -> #NUM                            map "duration"
+      FILLER -> all                            map null
+  These recursive MODS/RMODS rules let location/symptom/face/intensity/duration/filler tokens appear in any order and number with NO whole-message rules.
+- Map every non-referential token (locations like "AO", connectives, counts, words like "all","6F","simul","start","x5","sweep", punctuation) to null via a FILLER rule.
+- Reuse nonterminals. Aim for a SMALL number of structural rules (a handful) and let the bulk be one-token-one-referent terminals.

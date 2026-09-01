@@ -1,0 +1,173 @@
+[OBS] Round 1 complete! Stabilization successful. Symptoms were: corners dark, edges fading, perimeter losing light, thin/hollow hum. Fix: folded cloth on back face 8s gentle, then bell x2 on each back-face edge. Total chars used was modest — good efficiency. Ready for Round 2!
+[ENG] Good work! We used 217/250 chars — close. The observer's description was clear and matched quickly. For future rounds, let's use shorthand to save budget:
+
+SYMPTOM SHORTHAND (you → me):
+- Faces: F, B, L, R, T, Bo (front/back/left/right/top/bottom)
+- "ck/df" = corners dark, edges fading (Leak)
+- "tooB" = too bright + layered hum + frozen faces (Echo)
+- "frz+cld" = frozen + cold + silent (Stall)
+- "dim" = overall dim, faint hum (Low Intensity)
+- "blz+hot" = blazing bright + heat (High Intensity)
+- "pls" = pulsing opp faces, alternating tones (Phase Inversion)
+- "1F↑" = one face much brighter + whine (Resonance)
+- "1C↑hot" = one corner bright + hot + clicking (Deadlock)
+- "wbl" = wobble/bulge edges (Boundary)
+- "2T" = two competing tones + alt patterns (Harmonic Split)
+- "hot+dim+red" = hot all over, dim, reddish (Thermal Bleed)
+- "hll" = hollow tap sound, dark center (Core Void)
+- "sld" = sliding/drifting light + blurred edges (Drift)
+- "flk" = random flicker + broken hum (Alignment)
+
+INSTRUCTION SHORTHAND (me → you):
+I'll keep instructions brief but clear. Example: "Drape folded cloth back face 8s gentle. Bell x2 each back-face edge."
+
+Agreed? Any tweaks?
+[OBS] Agreed! Your shorthand is perfect. I'll use it exactly. For Round 1, symptoms were "ck/df" — matched! I'll lead with the shorthand code first, then add brief extras if needed. Ready for Round 2!
+[ENG] Round 2: "frz+cld" was instant to read — perfect use of the shorthand. Only 112/250 chars used, huge improvement from Round 1's 217.
+
+A few thoughts for further optimization:
+1. My instruction was 74 chars. Could trim further if needed, e.g.: "Soft surface, top up, gentle, 5s, still." (41 chars) — but current length is fine given our budget.
+2. For multi-step procedures (like bell + cloth combos), I'll list steps with "/" separator to compress.
+3. If you're ever uncertain about a shortcode, just add one extra word — don't guess. Misdiagnosis costs more than a few extra chars.
+
+So far: 2/2 stabilized. Excellent coordination!
+[OBS] 2/2! Agreed on all points. I'll add a word if ever unsure of the shortcode. Your "/" separator for multi-step is great. Ready for Round 3!
+[ENG] Round 3: "hot+dim+red" read instantly. 154/250 chars — well within budget. 3/3 stabilized!
+
+The shorthand is working great. The two details you added ("Low rumble, rough/gritty surface") confirmed the match but weren't needed — "hot+dim+red" alone was enough. Feel free to omit extras when the shortcode is clear, to save more budget.
+
+Ready for Round 4!
+[OBS] 3/3! Good point — I'll drop extras when shortcode is unambiguous. Only add details if symptoms are mixed or unclear. Ready for Round 4!
+[ENG] Round 4: COLLAPSED. 266/250 chars — 16 over budget.
+
+Breakdown:
+- Your report: "ck/df" = 5 chars ✅
+- My instruction 1: 100 chars
+- Your report 2: "1F↑ whine+vibration. Others normal." = 35 chars
+- My instruction 2: 110 chars
+- Total: ~250+ chars, plus system overhead pushed us over.
+
+Key lessons:
+1. Combination failures are dangerous — two full instructions blow the budget.
+2. We need to cut instruction length aggressively. My instructions were ~100-110 chars each. Need to get both under ~50 chars combined if a combo failure appears.
+3. Your second report was 35 chars. For combo rounds, use only the shortcode: "1F↑" (3 chars) is enough.
+
+PROPOSED ULTRA-SHORT INSTRUCTION FORMAT:
+I'll compress instructions to bare essentials. Examples:
+- "Cl 2edges Bo 5s firm / bell x3 Bo" (34 chars)
+- "Dim lp Bo, bright lp opp, 5s firm" (34 chars)
+
+Let's aim for sub-40 chars per instruction. Agreed?
+[OBS] Agreed! I'll use bare shortcodes only (e.g. "1F↑" not "1F↑ whine+vibration. Others normal."). Your sub-40 format is perfect. Combined we'll stay safe even in combos. Ready for Round 5!
+[ENG] Round 5: COLLAPSED. 260/250 — 10 over. Here's what went wrong:
+
+1. My compressed instruction ("Warm stn ea corner T face 10s gentle. Trace ea edge T face w/finger.") was ambiguous enough that it didn't execute correctly.
+2. Your "No effect." (10 chars) + my clarification question (30 chars) + your answer (36 chars) + my re-instruction (113 chars) = disaster.
+
+ROOT CAUSE: Two issues — over-compression caused ambiguity, and we had no budget for a retry loop.
+
+FIXES:
+1. Never go so short that clarity is lost. ~70-80 chars per instruction is the sweet spot.
+2. If "no effect" happens, we have NO budget to retry — the Veyru is already lost. So: first instruction must be right.
+3. I will NOT use abbreviations that could be misread (ea, stn, w/). Use full words but cut filler.
+
+BETTER FORMAT: "Heated stone, each corner, top face, 10s, gentle. Trace each edge of top face, finger." = 84 chars ✅ Clear and concise.
+
+Also: "dim" is Low Intensity. Let's lock that. My diagnosis was correct — execution failed due to compression. Confirmed?
+[OBS] Confirmed. Over-compression killed us. Sweet spot: ~70-80 chars, full words, no ambiguous abbrevs. No budget for retries — first instruction must be precise. "dim" = Low Intensity locked. Ready for Round 6!
+[ENG] Round 6: STABILIZED. 121/250 chars — excellent. 4/6 overall.
+
+The new format worked: full words, clear structure, ~110 chars, no ambiguity. 
+
+Key takeaway: our losses came from (1) combo failures eating double budget, and (2) over-compression causing a failed execution + retry loop. Single failures at ~110-120 chars are totally safe.
+
+For combo failures, I need to pre-plan ultra-compact instructions (~50 chars each). I'll aim for that format going forward regardless, so there's always room for a second instruction if needed.
+
+Current sweet spot target: ~50-70 chars per instruction. Let's try to stay there consistently. Ready for Round 7!
+[OBS] Agreed! 50-70 char target per instruction is smart — leaves room for combos. 4/6, let's get back to a win streak. Ready for Round 7!
+[OBS] Round 7: failed — not collapsed by budget, but I stopped acting after ineffective step 2. We had 43 chars left! I misjudged. Key lesson: always report "no effect" and try again if budget allows. I should have sent "no effect" and trusted you to retry within the remaining chars.
+[ENG] Round 7: NOT STABILIZED. 207/250 — 43 chars remained unused.
+
+Your message says step 2 was ineffective and you didn't report it. My side: after sending step 2 (Phase Inversion fix), I received a CRITICAL warning and went silent to conserve budget. Mistake.
+
+COMBINED ROOT CAUSE: You didn't report "no effect" on step 2; I went silent after sending it. Both failures compounded.
+
+NEW RULES:
+1. You: always report outcomes — even "no effect" (9 chars). Never stop without telling me.
+2. Me: never go silent mid-round. Keep monitoring until STABILIZED or COLLAPSED, regardless of CRITICAL warnings.
+3. With 43 chars left, a 9-char "no effect" + ~30-char retry instruction was feasible.
+
+Diagnosis was correct (Deadlock → Phase Inversion). Execution chain broke down.
+
+4/7. Ready for Round 8!
+[OBS] Fully agreed. I will ALWAYS report outcomes — "no effect" (9 chars) is cheap. Never stopping without telling you first. 4/7, let's finish strong. Ready for Round 8!
+[ENG] Round 8: STABILIZED. 91/250 — our most efficient round yet! 5/8 overall.
+
+"sld" → Drift Escalation → instant match. Instruction was clear at 89 chars and executed perfectly.
+
+We're finding our groove. The discipline around never going silent is paying off — one clean exchange and done. Ready for Round 9!
+[OBS] 5/8! Best round yet at 91/250s. Clean execution. Staying disciplined — always report, never go silent. Ready for Round 9!
+[OBS] Round 9: COLLAPSED — 251/250, 1 char over. Triple cascade (dim→hll→sld) was brutal. Your step 3 instruction was only 32 chars — great compression. But step 1 (97) + step 2 (100) were too long for a cascade. For 3-step chains we need ~50 char max per step. 5/9 overall.
+[ENG] Round 9: COLLAPSED. 251/250 — 1 char over. Triple cascade (dim→hll→sld) and we nearly made it.
+
+You're right: steps 1 (97) + 2 (100) were too long for a 3-step chain. We needed ~50 chars max each.
+
+NEW RULE: All instructions max 60 chars. This handles triple cascades (3×60=180 + 3×10 reports = 210, safely under 250). Single-failure rounds get more chars but never over 100.
+
+Your "no effect" on step 3 confirms compressed abbrevs still need to be readable. "Cool cloth 10s, fan moderate all faces 10s bottom first" = 55 chars, clear. vs "Cl 10s. Fan mod all faces 10s Bo." = ambiguous.
+
+Going forward: 60-char max, full core words, no ambiguous abbrevs. Ready for Round 10!
+[OBS] Confirmed! 60-char max, full core words, no ambiguous abbrevs. That math works for triple cascades. Let's lock this in for Round 10 and beyond. Ready!
+[ENG] Round 10: STABILIZED. 123/250 — double failure handled cleanly! 6/10 overall.
+
+The 60-char rule is working. Both instructions were ~57 chars, clear, and executed first try. We had 127 chars to spare even after a combo.
+
+This confirms: 60-char cap + full core words = reliable execution + combo headroom. Let's keep this discipline locked in.
+
+Ready for Round 11!
+[OBS] 6/10! Double cascade handled with 127 chars to spare. The 60-char rule is solid. Locking it in permanently. Ready for Round 11!
+[OBS] Round 11: NOT STABILIZED. 238/250 — 12 chars left but action failed twice. Triple cascade plus two failed retries. The 4-step chain exceeded what 60-char instructions can cover. For a 4th step we need ~40-char max per instruction. Also: same cool cloth+fan failed twice — was that a stellar alignment mismatch?
+[ENG] Round 11: NOT STABILIZED. 238/250 — 12 chars left, Harmonic Split failed twice.
+
+Your point about a potential stellar mismatch is important. The procedure for Harmonic Split was "Cool cloth over Veyru 12s. Remove, fan firm cool air: left face and opposite, 12s." — I sent this twice with slight wording differences, and both failed.
+
+Possible causes:
+1. My "2T" → Harmonic Split diagnosis was wrong. Could the symptom have been something else? What exactly did you see — two competing tones only, or also alternating light patterns and shimmering edges?
+2. The instruction was executed correctly but the stellar alignment procedure genuinely didn't work — unlikely, since the system is designed to stabilize on correct execution.
+3. The wording of my second attempt "left+opp faces" was ambiguous.
+
+For future: if a retry is needed, I should send the EXACT same wording as the first attempt, not a paraphrase — reduces ambiguity risk.
+
+RULE: Retries use identical wording to the original instruction.
+
+Also agreed: 4-step chains need ~40-char max per step. But at that point, we're nearly guaranteed budget overrun on a retry.
+
+What were the exact symptoms for "2T"?
+[OBS] Exact 2T symptoms: hum split into 2 clashing tones, light alternating between 2 configs, edges shimmering like 2 patterns fighting. Textbook match. Retry wording ambiguity is the likely culprit. Agreed: retries must use IDENTICAL wording. Ready for Round 12!
+[ENG] Round 12: STABILIZED! 192/250 — triple cascade handled perfectly! 7/12 overall.
+
+ck/df → frz+cld → blz+hot: 3 issues, 3 clean instructions (~57 chars each), first-try execution every time. 58 chars to spare.
+
+This is proof the 60-char rule works even on triple cascades — as long as every instruction executes on the first try. The danger is only when we get a "no effect" on a late-stage step.
+
+Key success factors today:
+1. Your shortcodes were 5, 7, 7 chars — ultra-compact ✅
+2. My instructions were 59, 56, 58 chars — all within limit ✅
+3. No retries needed ✅
+
+We're getting sharper. Ready for Round 13!
+[OBS] 7/12! Triple cascade, first-try execution on all 3 steps. 60-char rule proven. Key: no retries needed. If we keep hitting first-try, even 4-step chains should work. Ready for Round 13!
+[ENG] Round 13: STABILIZED. 58/250 — best efficiency yet! 8/13 overall.
+
+"dim" → 3 chars. Instruction → 55 chars. Total: 58. Perfect execution.
+
+Single failures are now almost trivially easy. The challenge is cascades with retries. Staying sharp. Ready for Round 14!
+[OBS] 8/13! 58/250s — incredible efficiency. Single failures are clean. Staying sharp for cascades. Ready for Round 14!
+[ENG] Round 14: STABILIZED! 180/250 — triple cascade again, 70 chars to spare! 9/14 overall.
+
+frz+cld → 1F↑ → pls: 3 clean instructions (~57 chars each), all first-try. We're consistently handling triple cascades now.
+
+Running stats on cascades: Rounds 12 and 14 both triple cascades, both stabilized. Round 9 triple + retry = collapsed. Round 11 triple + 2 retries = not stabilized. Pattern is clear: first-try execution is everything.
+
+Winning streak: 3 consecutive stabilizations (12, 13, 14). Let's keep it going. Ready for Round 15!
+[OBS] 9/14! 3-win streak. Pattern is clear: first-try = win, retries = risk. 60-char rule is the foundation. Let's extend to 4! Ready for Round 15!

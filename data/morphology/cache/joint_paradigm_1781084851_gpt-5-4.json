@@ -1,0 +1,113 @@
+{
+  "grammar": {
+    "run_key": "veyru/1781084851",
+    "slots": [],
+    "segmentation": {
+      "TB": [
+        "TB"
+      ],
+      "LI": [
+        "LI"
+      ],
+      "AC": [
+        "AC"
+      ],
+      "cd-ef-hh": [
+        "cd-ef-hh"
+      ],
+      "bh-tk": [
+        "bh-tk"
+      ],
+      "ew-bu-mh": [
+        "ew-bu-mh"
+      ],
+      "ob-lh-fr": [
+        "ob-lh-fr"
+      ],
+      "rp-2t-ef": [
+        "rp-2t-ef"
+      ],
+      "rf-bi-hw": [
+        "rf-bi-hw"
+      ],
+      "fh-vw": [
+        "fh-vw"
+      ],
+      "hdr-rr": [
+        "hdr-rr"
+      ],
+      "dww": [
+        "dww"
+      ]
+    },
+    "head_index": {
+      "TB": 0,
+      "LI": 0,
+      "AC": 0,
+      "cd-ef-hh": 0,
+      "bh-tk": 0,
+      "ew-bu-mh": 0,
+      "ob-lh-fr": 0,
+      "rp-2t-ef": 0,
+      "rf-bi-hw": 0,
+      "fh-vw": 0,
+      "hdr-rr": 0,
+      "dww": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "TB": "Thermal Bleed",
+      "LI": "Leak",
+      "AC": "Alignment",
+      "cd-ef-hh": "corners dark, edges fade, hollow hum",
+      "bh-tk": "bright hot corner or corners, ticking",
+      "ew-bu-mh": "edges wobble, bulged, muffled hum",
+      "ob-lh-fr": "overbright, layered hum, frozen",
+      "rp-2t-ef": "rhythm pulse, 2 tones, edges flash",
+      "rf-bi-hw": "random face flicker, broken irregular hum",
+      "fh-vw": "one face hotter-brighter, high whine",
+      "hdr-rr": "hot, dim, rumble, rough, red",
+      "dww": "dim whisper washed-out, unless you want different codes."
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1781084851",
+    "n_codes": 12,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible compositional paradigm is supported by the data. Although several codes are hyphen-separated, the repeated pieces do not show stable meaning contributions in shared frames. For example, ef appears in cd-ef-hh ('edges fade') and rp-2t-ef ('edges flash'), which is a semantic mismatch rather than a consistent slot value. Final sound-like pieces such as hh/mh/lh/hw/rr are suggestive but never occur in the same clear frame with predictable whole meanings. The digit in 2t also fails the opaque-index test because there is no paradigm showing literal count substitution. Since no segmentation satisfies the required substitution, semantic stability, and compositional predictability tests, the safest analysis is a flat lexicon with all symbols treated as opaque stored labels.",
+    "lexical_symbols": [
+      "TB",
+      "LI",
+      "AC",
+      "cd-ef-hh",
+      "bh-tk",
+      "ew-bu-mh",
+      "ob-lh-fr",
+      "rp-2t-ef",
+      "rf-bi-hw",
+      "fh-vw",
+      "hdr-rr",
+      "dww"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

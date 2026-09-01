@@ -1,0 +1,425 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780439812",
+    "slots": [],
+    "segmentation": {
+      "s": [
+        "s"
+      ],
+      "btm": [
+        "btm"
+      ],
+      "opp": [
+        "opp"
+      ],
+      "w/": [
+        "w/"
+      ],
+      "b/w": [
+        "b/w"
+      ],
+      "B": [
+        "B"
+      ],
+      "S": [
+        "S"
+      ],
+      "F": [
+        "F"
+      ],
+      "C": [
+        "C"
+      ],
+      "P": [
+        "P"
+      ],
+      "L": [
+        "L"
+      ],
+      "fail": [
+        "fail"
+      ],
+      "?": [
+        "?"
+      ],
+      "A": [
+        "A"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "J"
+      ],
+      "K": [
+        "K"
+      ],
+      "M": [
+        "M"
+      ],
+      "N": [
+        "N"
+      ],
+      "AlignColl": [
+        "AlignColl"
+      ],
+      "Drift": [
+        "Drift"
+      ],
+      "Echo": [
+        "Echo"
+      ],
+      "Leak": [
+        "Leak"
+      ],
+      "LowI": [
+        "LowI"
+      ],
+      "HighI": [
+        "HighI"
+      ],
+      "PhaseInv": [
+        "PhaseInv"
+      ],
+      "Reson": [
+        "Reson"
+      ],
+      "CornerDL": [
+        "CornerDL"
+      ],
+      "BdrySoft": [
+        "BdrySoft"
+      ],
+      "PropStall": [
+        "PropStall"
+      ],
+      "HarmSplit": [
+        "HarmSplit"
+      ],
+      "ThermBleed": [
+        "ThermBleed"
+      ],
+      "CoreVoid": [
+        "CoreVoid"
+      ],
+      "mod": [
+        "mod"
+      ],
+      "ac": [
+        "ac"
+      ],
+      "dr": [
+        "dr"
+      ],
+      "ec": [
+        "ec"
+      ],
+      "lk": [
+        "lk"
+      ],
+      "li": [
+        "li"
+      ],
+      "hi": [
+        "hi"
+      ],
+      "pi": [
+        "pi"
+      ],
+      "rc": [
+        "rc"
+      ],
+      "cd": [
+        "cd"
+      ],
+      "bs": [
+        "bs"
+      ],
+      "ps": [
+        "ps"
+      ],
+      "hs": [
+        "hs"
+      ],
+      "tb": [
+        "tb"
+      ],
+      "cv": [
+        "cv"
+      ],
+      "t": [
+        "t"
+      ],
+      "fr": [
+        "fr"
+      ],
+      "bk": [
+        "bk"
+      ],
+      "g": [
+        "g"
+      ],
+      "m": [
+        "m"
+      ],
+      "f": [
+        "f"
+      ],
+      "br": [
+        "br"
+      ],
+      "dm": [
+        "dm"
+      ],
+      "c": [
+        "c"
+      ],
+      "w": [
+        "w"
+      ],
+      "??": [
+        "??"
+      ],
+      "bm": [
+        "bm"
+      ]
+    },
+    "head_index": {
+      "s": 0,
+      "btm": 0,
+      "opp": 0,
+      "w/": 0,
+      "b/w": 0,
+      "B": 0,
+      "S": 0,
+      "F": 0,
+      "C": 0,
+      "P": 0,
+      "L": 0,
+      "fail": 0,
+      "?": 0,
+      "A": 0,
+      "D": 0,
+      "E": 0,
+      "G": 0,
+      "H": 0,
+      "I": 0,
+      "J": 0,
+      "K": 0,
+      "M": 0,
+      "N": 0,
+      "AlignColl": 0,
+      "Drift": 0,
+      "Echo": 0,
+      "Leak": 0,
+      "LowI": 0,
+      "HighI": 0,
+      "PhaseInv": 0,
+      "Reson": 0,
+      "CornerDL": 0,
+      "BdrySoft": 0,
+      "PropStall": 0,
+      "HarmSplit": 0,
+      "ThermBleed": 0,
+      "CoreVoid": 0,
+      "mod": 0,
+      "ac": 0,
+      "dr": 0,
+      "ec": 0,
+      "lk": 0,
+      "li": 0,
+      "hi": 0,
+      "pi": 0,
+      "rc": 0,
+      "cd": 0,
+      "bs": 0,
+      "ps": 0,
+      "hs": 0,
+      "tb": 0,
+      "cv": 0,
+      "t": 0,
+      "fr": 0,
+      "bk": 0,
+      "g": 0,
+      "m": 0,
+      "f": 0,
+      "br": 0,
+      "dm": 0,
+      "c": 0,
+      "w": 0,
+      "??": 0,
+      "bm": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "s": "seconds",
+      "btm": "bottom",
+      "opp": "opposite",
+      "w/": "with",
+      "b/w": "between",
+      "B": "chime the bell alternating between the specified face and the opposite face for 5 cycles, using the specified tone intensity, with pauses of the specified duration between",
+      "S": "stone",
+      "F": "drape a cool cloth over Veyru for the specified duration; remove it, then fan specified-intensity cool air across the specified face and the opposite face for the specified duration",
+      "C": "drape cloth on 2 adjacent edges near the specified face for the specified duration with the specified coverage intensity; then chime the bell 3 times near the specified face",
+      "P": "board",
+      "L": "place Veyru on a soft surface with the specified face up, maintaining the specified contact intensity; leave it resting undisturbed for the specified duration",
+      "fail": "the tool rejected the action",
+      "?": "the tool rejected the action and a retry or guidance is needed",
+      "A": "sustain a tone across all 6 faces for the specified duration at the specified intensity, starting from the specified face; then let the tone fade",
+      "D": "warm each corner of the specified face in sequence with a heated stone, holding for the specified duration at the specified warmth intensity for each corner; then trace each edge of the specified face with a finger",
+      "E": "place a warm stone beside the specified face for the specified duration at the specified warmth intensity; rotate and repeat for each of the 6 faces",
+      "G": "place a dim lamp on the specified face and a bright lamp on the opposite face simultaneously, using the specified brightness intensity, for the specified duration, keeping the lamps still",
+      "H": "place folded cloth on the specified face for the specified duration with the specified coverage intensity; then chime the bell near each edge of the specified face 2 times",
+      "I": "at each corner of the specified face, chime the bell briefly at the specified tone intensity, then warm the 2 edges meeting at that corner with a heated stone for the specified duration",
+      "J": "rest a flat board against the specified face for the specified duration with the specified contact intensity; rotate and repeat for each face-pair, meaning top and bottom, left and right, and front and back",
+      "K": "chime the bell near the center of each face 1 time at the specified tone intensity, starting from the specified face; then place a warm stone beside Veyru for the specified duration",
+      "M": "drape a cool cloth over Veyru for the specified duration; remove it, then fan specified-intensity cool air across all 6 faces for the specified duration, starting from the specified face",
+      "N": "rotate Veyru slowly for the specified duration while sustaining a steady tone at the specified intensity near the opposite faces, starting from the specified face; then chime the bell 1 time near each of the 8 corners",
+      "AlignColl": "alignment collapse",
+      "Drift": "drift",
+      "Echo": "echo saturation",
+      "Leak": "leak",
+      "LowI": "low intensity",
+      "HighI": "high intensity",
+      "PhaseInv": "phase inversion",
+      "Reson": "resonance",
+      "CornerDL": "corner deadlock",
+      "BdrySoft": "boundary softening",
+      "PropStall": "propagation stall",
+      "HarmSplit": "harmonic split",
+      "ThermBleed": "thermal bleed",
+      "CoreVoid": "core void",
+      "mod": "moderate intensity",
+      "ac": "alignment collapse, flicker and broken hum",
+      "dr": "drift, sliding plus blur plus wavering pitch",
+      "ec": "echo saturation, bright plus layered hum plus frozen",
+      "lk": "leak, corners dim plus edges fading",
+      "li": "low intensity, dim plus washed",
+      "hi": "high intensity, blazing plus buzz plus hot",
+      "pi": "phase inversion, opposite faces pulsing",
+      "rc": "resonance, one face bright plus whine",
+      "cd": "corner deadlock, corners bright plus tick",
+      "bs": "boundary softening, wobble plus bulging",
+      "ps": "propagation stall, frozen plus silent plus cold",
+      "hs": "harmonic split, two tones clash",
+      "tb": "thermal bleed, hot plus dim plus red",
+      "cv": "core void, hollow tap plus dark center",
+      "t": "Bk to avoid clash with F template",
+      "fr": "front",
+      "bk": "back",
+      "g": "gentle",
+      "m": "moderate",
+      "f": "firm",
+      "br": "bright",
+      "dm": "dim",
+      "c": "cool",
+      "w": "warm",
+      "??": "expand because the compact procedure or template is unclear",
+      "bm": "bottom"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780439812",
+    "n_codes": 64,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible compositional paradigm is supported by the supplied codebook. The inventory contains many standalone symbols with meanings that could in principle participate in classes (e.g. face terms, intensity terms), but there are no attested multi-morpheme codes whose segmentable parts concatenate exactly to a symbol and form a meaning-predictable substitution frame. The capital-letter procedures (A, B, C, etc.) are opaque stored routines, not combinations of independently attested morphemes. The lowercase items like g/m/f, dm/br, c/w, fr/bk/btm/bm, and mod/LowI/HighI are standalone lexical labels, but without any composed entries they cannot license constructions. The suggested surface families (Cor-, -ll, -ft) fail the semantic paradigm test: their residues do not form stable substitutable contrasts in a shared compositional frame. Therefore the safest analysis is a flat lexicon, which is preferred over unsupported morphology.",
+    "lexical_symbols": [
+      "s",
+      "btm",
+      "opp",
+      "w/",
+      "b/w",
+      "B",
+      "S",
+      "F",
+      "C",
+      "P",
+      "L",
+      "fail",
+      "?",
+      "A",
+      "D",
+      "E",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "M",
+      "N",
+      "AlignColl",
+      "Drift",
+      "Echo",
+      "Leak",
+      "LowI",
+      "HighI",
+      "PhaseInv",
+      "Reson",
+      "CornerDL",
+      "BdrySoft",
+      "PropStall",
+      "HarmSplit",
+      "ThermBleed",
+      "CoreVoid",
+      "mod",
+      "ac",
+      "dr",
+      "ec",
+      "lk",
+      "li",
+      "hi",
+      "pi",
+      "rc",
+      "cd",
+      "bs",
+      "ps",
+      "hs",
+      "tb",
+      "cv",
+      "t",
+      "fr",
+      "bk",
+      "g",
+      "m",
+      "f",
+      "br",
+      "dm",
+      "c",
+      "w",
+      "??",
+      "bm"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

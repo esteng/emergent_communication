@@ -1,0 +1,84 @@
+{
+  "per_slot": {
+    "pos0": [
+      [
+        "A",
+        "all"
+      ]
+    ],
+    "pos1": [
+      [
+        "COLD",
+        "cold"
+      ],
+      [
+        "CURVED",
+        "curved, bulging"
+      ],
+      [
+        "HOT",
+        "hot"
+      ],
+      [
+        "dark-ctr",
+        "dark center, no light penetration at the center"
+      ],
+      [
+        "wm",
+        "warm"
+      ]
+    ],
+    "pos2": [
+      [
+        "back",
+        "back face or back location"
+      ],
+      [
+        "bot",
+        "bottom face or bottom location"
+      ],
+      [
+        "front",
+        "front face or front location"
+      ],
+      [
+        "left",
+        "left face or left location"
+      ],
+      [
+        "right",
+        "right face or right location"
+      ],
+      [
+        "top",
+        "top face or top location"
+      ]
+    ]
+  },
+  "stackable": [
+    [
+      "adj",
+      "adjacent"
+    ],
+    [
+      "alt",
+      "alternate between"
+    ],
+    [
+      "ea",
+      "each"
+    ],
+    [
+      "opp",
+      "opposite"
+    ],
+    [
+      "seq",
+      "in sequence"
+    ],
+    [
+      "sim",
+      "simultaneously, all at once"
+    ]
+  ]
+}

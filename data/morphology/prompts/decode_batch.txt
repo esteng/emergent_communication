@@ -1,0 +1,6 @@
+Below are candidate shorthand codes. For EACH candidate do TWO separate things:
+(1) DECODE it -- give your best reading of what it would mean in your code system, composing it from the morphemes you know, EVEN IF the form is unusual or one you would not normally use. Always attempt a decoding; do not leave it blank just because the form is odd.
+(2) Separately, say whether it is a VALID negotiated code (is_valid).
+Echo each candidate's exact form. Decoding and validity are independent: a form can be decodable but not a negotiated code.
+
+Candidates:

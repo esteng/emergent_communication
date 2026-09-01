@@ -1,0 +1,1195 @@
+{
+  "grammar": {
+    "run_key": "veyru/1778879419",
+    "slots": [
+      {
+        "role": "prefix",
+        "fillers": [
+          {
+            "form": "f",
+            "gloss": "firm",
+            "support": 2,
+            "is_defined": false
+          },
+          {
+            "form": "g",
+            "gloss": "gentle",
+            "support": 2,
+            "is_defined": true
+          },
+          {
+            "form": "opp",
+            "gloss": "opposite",
+            "support": 3,
+            "is_defined": true
+          }
+        ]
+      },
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "C",
+            "gloss": "corner",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "E",
+            "gloss": "edge",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "F",
+            "gloss": "face",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "cool",
+            "gloss": "cool",
+            "support": 2,
+            "is_defined": true
+          },
+          {
+            "form": "warm",
+            "gloss": "warm",
+            "support": 2,
+            "is_defined": true
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "F": [
+        "F"
+      ],
+      "E": [
+        "E"
+      ],
+      "C": [
+        "C"
+      ],
+      "P": [
+        "P"
+      ],
+      "Ctr": [
+        "Ctr"
+      ],
+      "A": [
+        "A"
+      ],
+      "dk": [
+        "dk"
+      ],
+      "dm": [
+        "dm"
+      ],
+      "br": [
+        "br"
+      ],
+      "fd": [
+        "fd"
+      ],
+      "fl": [
+        "fl"
+      ],
+      "frz": [
+        "frz"
+      ],
+      "pls": [
+        "pls"
+      ],
+      "h": [
+        "h"
+      ],
+      "s": [
+        "s"
+      ],
+      "thn": [
+        "thn"
+      ],
+      "ld": [
+        "ld"
+      ],
+      "buz": [
+        "buz"
+      ],
+      "cld": [
+        "cld"
+      ],
+      "hot": [
+        "hot"
+      ],
+      "vib": [
+        "vib"
+      ],
+      "num": [
+        "num"
+      ],
+      "B": [
+        "B"
+      ],
+      "S": [
+        "S"
+      ],
+      "Fn": [
+        "Fn"
+      ],
+      "Cl": [
+        "Cl"
+      ],
+      "Bd": [
+        "Bd"
+      ],
+      "L": [
+        "L"
+      ],
+      "drp": [
+        "drp"
+      ],
+      "chm": [
+        "chm"
+      ],
+      "fan": [
+        "fan"
+      ],
+      "wrm": [
+        "wrm"
+      ],
+      "prs": [
+        "prs"
+      ],
+      "shn": [
+        "shn"
+      ],
+      "tp": [
+        "tp"
+      ],
+      "1": [
+        "1"
+      ],
+      "2": [
+        "2"
+      ],
+      "3": [
+        "3"
+      ],
+      "4": [
+        "4"
+      ],
+      "5": [
+        "5"
+      ],
+      "6": [
+        "6"
+      ],
+      "AC": [
+        "AC"
+      ],
+      "DE": [
+        "DE"
+      ],
+      "ES": [
+        "ES"
+      ],
+      "LI": [
+        "LI"
+      ],
+      "LO": [
+        "LO"
+      ],
+      "HI": [
+        "HI"
+      ],
+      "PI": [
+        "PI"
+      ],
+      "RC": [
+        "RC"
+      ],
+      "CD": [
+        "CD"
+      ],
+      "BS": [
+        "BS"
+      ],
+      "PS": [
+        "PS"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "TB": [
+        "TB"
+      ],
+      "CV": [
+        "CV"
+      ],
+      "ea": [
+        "ea"
+      ],
+      "gen": [
+        "gen"
+      ],
+      "opp": [
+        "opp"
+      ],
+      "rot": [
+        "rot"
+      ],
+      "whn": [
+        "whn"
+      ],
+      "clk": [
+        "clk"
+      ],
+      "2tn": [
+        "2tn"
+      ],
+      "rmb": [
+        "rmb"
+      ],
+      "wob": [
+        "wob"
+      ],
+      "bul": [
+        "bul"
+      ],
+      "hol": [
+        "hol"
+      ],
+      "alt": [
+        "alt"
+      ],
+      "syn": [
+        "syn"
+      ],
+      "rd": [
+        "rd"
+      ],
+      "grt": [
+        "grt"
+      ],
+      "1F": [
+        "1F"
+      ],
+      "Lp": [
+        "Lp"
+      ],
+      "Bl": [
+        "Bl"
+      ],
+      "St": [
+        "St"
+      ],
+      "R": [
+        "R"
+      ],
+      "T": [
+        "T"
+      ],
+      "Bo": [
+        "Bo"
+      ],
+      "or": [
+        "or"
+      ],
+      "rst": [
+        "rst"
+      ],
+      "gcool": [
+        "g",
+        "cool"
+      ],
+      "fcool": [
+        "f",
+        "cool"
+      ],
+      "gwarm": [
+        "g",
+        "warm"
+      ],
+      "fwarm": [
+        "f",
+        "warm"
+      ],
+      "g": [
+        "g"
+      ],
+      "?": [
+        "?"
+      ],
+      "ineff": [
+        "ineff"
+      ],
+      "tone": [
+        "tone"
+      ],
+      "Vc": [
+        "Vc"
+      ],
+      "cool": [
+        "cool"
+      ],
+      "warm": [
+        "warm"
+      ],
+      "trace": [
+        "trace"
+      ],
+      "simul": [
+        "simul"
+      ],
+      "seq": [
+        "seq"
+      ],
+      "hum": [
+        "hum"
+      ],
+      "6F": [
+        "6F"
+      ],
+      "mod": [
+        "mod"
+      ],
+      "beside": [
+        "beside"
+      ],
+      "rot+repeat": [
+        "rot+repeat"
+      ],
+      "F-pair": [
+        "F-pair"
+      ],
+      "2adj": [
+        "2adj"
+      ],
+      "drift": [
+        "drift"
+      ],
+      "blur": [
+        "blur"
+      ],
+      "smear": [
+        "smear"
+      ],
+      "muf": [
+        "muf"
+      ],
+      "wvr": [
+        "wvr"
+      ],
+      "?dx": [
+        "?dx"
+      ],
+      "dx=XX:": [
+        "dx=XX:"
+      ],
+      "??": [
+        "??"
+      ],
+      "sx": [
+        "sx"
+      ],
+      "vs": [
+        "vs"
+      ],
+      "sand": [
+        "sand"
+      ],
+      "top-cycle": [
+        "top-cycle"
+      ],
+      "oppF": [
+        "opp",
+        "F"
+      ],
+      "oppE": [
+        "opp",
+        "E"
+      ],
+      "oppC": [
+        "opp",
+        "C"
+      ]
+    },
+    "head_index": {
+      "F": 0,
+      "E": 0,
+      "C": 0,
+      "P": 0,
+      "Ctr": 0,
+      "A": 0,
+      "dk": 0,
+      "dm": 0,
+      "br": 0,
+      "fd": 0,
+      "fl": 0,
+      "frz": 0,
+      "pls": 0,
+      "h": 0,
+      "s": 0,
+      "thn": 0,
+      "ld": 0,
+      "buz": 0,
+      "cld": 0,
+      "hot": 0,
+      "vib": 0,
+      "num": 0,
+      "B": 0,
+      "S": 0,
+      "Fn": 0,
+      "Cl": 0,
+      "Bd": 0,
+      "L": 0,
+      "drp": 0,
+      "chm": 0,
+      "fan": 0,
+      "wrm": 0,
+      "prs": 0,
+      "shn": 0,
+      "tp": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "AC": 0,
+      "DE": 0,
+      "ES": 0,
+      "LI": 0,
+      "LO": 0,
+      "HI": 0,
+      "PI": 0,
+      "RC": 0,
+      "CD": 0,
+      "BS": 0,
+      "PS": 0,
+      "HS": 0,
+      "TB": 0,
+      "CV": 0,
+      "ea": 0,
+      "gen": 0,
+      "opp": 0,
+      "rot": 0,
+      "whn": 0,
+      "clk": 0,
+      "2tn": 0,
+      "rmb": 0,
+      "wob": 0,
+      "bul": 0,
+      "hol": 0,
+      "alt": 0,
+      "syn": 0,
+      "rd": 0,
+      "grt": 0,
+      "1F": 0,
+      "Lp": 0,
+      "Bl": 0,
+      "St": 0,
+      "R": 0,
+      "T": 0,
+      "Bo": 0,
+      "or": 0,
+      "rst": 0,
+      "gcool": 1,
+      "fcool": 1,
+      "gwarm": 1,
+      "fwarm": 1,
+      "g": 0,
+      "?": 0,
+      "ineff": 0,
+      "tone": 0,
+      "Vc": 0,
+      "cool": 0,
+      "warm": 0,
+      "trace": 0,
+      "simul": 0,
+      "seq": 0,
+      "hum": 0,
+      "6F": 0,
+      "mod": 0,
+      "beside": 0,
+      "rot+repeat": 0,
+      "F-pair": 0,
+      "2adj": 0,
+      "drift": 0,
+      "blur": 0,
+      "smear": 0,
+      "muf": 0,
+      "wvr": 0,
+      "?dx": 0,
+      "dx=XX:": 0,
+      "??": 0,
+      "sx": 0,
+      "vs": 0,
+      "sand": 0,
+      "top-cycle": 0,
+      "oppF": 1,
+      "oppE": 1,
+      "oppC": 1
+    },
+    "attested_orderings": [
+      [
+        "prefix",
+        "stem"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [],
+    "form_positions": {
+      "g": 0,
+      "f": 0,
+      "cool": 1,
+      "warm": 1,
+      "opp": 2,
+      "F": 3,
+      "E": 3,
+      "C": 3
+    },
+    "position_labels": {
+      "0": "Intensity",
+      "1": "Thermal action",
+      "2": "Opposition marker",
+      "3": "Site type"
+    },
+    "positions_by_symbol": {
+      "gcool": [
+        0,
+        1
+      ],
+      "fcool": [
+        0,
+        1
+      ],
+      "gwarm": [
+        0,
+        1
+      ],
+      "fwarm": [
+        0,
+        1
+      ],
+      "oppF": [
+        2,
+        3
+      ],
+      "oppE": [
+        2,
+        3
+      ],
+      "oppC": [
+        2,
+        3
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "g": "gentle",
+        "f": "firm"
+      },
+      "1": {
+        "cool": "cool",
+        "warm": "warm"
+      },
+      "2": {
+        "opp": "opposite"
+      },
+      "3": {
+        "F": "face",
+        "E": "edge",
+        "C": "corner"
+      }
+    },
+    "meaning_by_symbol": {
+      "F": "face",
+      "E": "edge",
+      "C": "corner",
+      "P": "perimeter",
+      "Ctr": "center",
+      "A": "all",
+      "dk": "dark",
+      "dm": "dim",
+      "br": "bright",
+      "fd": "fading",
+      "fl": "flicker",
+      "frz": "frozen",
+      "pls": "pulsing",
+      "h": "hum",
+      "s": "silent",
+      "thn": "thin",
+      "ld": "loud",
+      "buz": "buzz",
+      "cld": "cold",
+      "hot": "hot",
+      "vib": "vibrating",
+      "num": "unresponsive",
+      "B": "bell",
+      "S": "stone",
+      "Fn": "fan",
+      "Cl": "cloth",
+      "Bd": "board",
+      "L": "lamp",
+      "drp": "drape",
+      "chm": "chime, fan",
+      "fan": "fan",
+      "wrm": "warm",
+      "prs": "press",
+      "shn": "shine",
+      "tp": "tap",
+      "1": "PS → voice hum 6F 8s ✓",
+      "2": "HI → board press → I never sent procedure b/c budget out",
+      "3": "Fan blowing across both Bo+T simultaneously held from side",
+      "4": "simul\" = literally simultaneous",
+      "5": "seq\" = explicit sequential",
+      "6": "bottom",
+      "AC": "AlignCollapse",
+      "DE": "DriftEsc",
+      "ES": "EchoSat",
+      "LI": "LeakInst",
+      "LO": "LowInt",
+      "HI": "HighInt",
+      "PI": "PhaseInv",
+      "RC": "ResCascade",
+      "CD": "CornerDead",
+      "BS": "BoundSoft",
+      "PS": "PropStall",
+      "HS": "HarmSplit",
+      "TB": "ThermBleed",
+      "CV": "CoreVoid",
+      "ea": "each",
+      "gen": "gentle",
+      "opp": "opposite face",
+      "rot": "rotate-repeat-each-face",
+      "whn": "whine",
+      "clk": "click, 2tn=two-tone",
+      "2tn": "two-tone",
+      "rmb": "rumble",
+      "wob": "wobbling",
+      "bul": "bulging",
+      "hol": "hollow-when-tapped",
+      "alt": "alternating",
+      "syn": "in-sync",
+      "rd": "reddish tint",
+      "grt": "gritty",
+      "1F": "one face only",
+      "Lp": "lamp instead of \"L",
+      "Bl": "for bell.)",
+      "St": "stone",
+      "R": "Right",
+      "T": "Top",
+      "Bo": "Bottom",
+      "or": "orient",
+      "rst": "rest, \"soft surf\"=on cloth implicit",
+      "gcool": "gentle cool",
+      "fcool": "firm cool",
+      "gwarm": "gentle warm",
+      "fwarm": "firm warm",
+      "g": "gentle",
+      "?": "nudge because the other side has gone silent",
+      "ineff": "the procedure failed and was ineffective",
+      "tone": "voice hum or vocalize, not bell",
+      "Vc": "voice hum",
+      "cool": "cool or cool air",
+      "warm": "warm",
+      "trace": "trace edge with a finger and no tool",
+      "simul": "simultaneous",
+      "seq": "sequential; the default for multi-face procedures if unspecified, but make it explicit if it matters",
+      "hum": "hum with the voice",
+      "6F": "all six faces",
+      "mod": "moderate intensity",
+      "beside": "place the warm stone beside a face for radiant heat with no contact",
+      "rot+repeat": "rotate and repeat",
+      "F-pair": "face-pair",
+      "2adj": "two adjacent edges",
+      "drift": "drift",
+      "blur": "blur",
+      "smear": "smear",
+      "muf": "muffled",
+      "wvr": "wavering pitch",
+      "?dx": "treat the symptoms as possibly misdiagnosed and re-describe symptoms in more detail so the engineer can propose an alternate motif",
+      "dx=XX:": "the engineer is uncertain about the diagnosis and is labeling the proposed procedure with diagnosis XX",
+      "??": "request more symptom detail",
+      "sx": "symptoms",
+      "vs": "against",
+      "sand": "sandwich a face-pair between the board and a hand",
+      "top-cycle": "rotate to put each pair's representative on top, then repeat for three presses total",
+      "oppF": "opposite face",
+      "oppE": "opposite edges",
+      "oppC": "opposite corners"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1778879419",
+    "n_codes": 115,
+    "n_multimorpheme": 7,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "prefix",
+        "label": "Intensity",
+        "fillers": [
+          {
+            "form": "f",
+            "gloss": "firm",
+            "count": 2
+          },
+          {
+            "form": "g",
+            "gloss": "gentle",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.5714285714285714,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "stem",
+        "label": "Thermal action",
+        "fillers": [
+          {
+            "form": "cool",
+            "gloss": "cool",
+            "count": 2
+          },
+          {
+            "form": "warm",
+            "gloss": "warm",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.5714285714285714,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos2",
+        "role": "prefix",
+        "label": "Opposition marker",
+        "fillers": [
+          {
+            "form": "opp",
+            "gloss": "opposite",
+            "count": 3
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.42857142857142855,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos3",
+        "role": "stem",
+        "label": "Site type",
+        "fillers": [
+          {
+            "form": "C",
+            "gloss": "corner",
+            "count": 1
+          },
+          {
+            "form": "E",
+            "gloss": "edge",
+            "count": 1
+          },
+          {
+            "form": "F",
+            "gloss": "face",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 3,
+        "obligatoriness": 0.42857142857142855,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 4,
+        "possible_combos": 4,
+        "saturation": 1.0
+      },
+      {
+        "slot_a": "pos2",
+        "slot_b": "pos3",
+        "attested_combos": 3,
+        "possible_combos": 3,
+        "saturation": 1.0
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ],
+      [
+        "pos2",
+        "pos3"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "gcool": [
+        "pos0",
+        "pos1"
+      ],
+      "fcool": [
+        "pos0",
+        "pos1"
+      ],
+      "gwarm": [
+        "pos0",
+        "pos1"
+      ],
+      "fwarm": [
+        "pos0",
+        "pos1"
+      ],
+      "oppF": [
+        "pos2",
+        "pos3"
+      ],
+      "oppE": [
+        "pos2",
+        "pos3"
+      ],
+      "oppC": [
+        "pos2",
+        "pos3"
+      ]
+    },
+    "construction_by_symbol": {
+      "gcool": "CX1",
+      "fcool": "CX1",
+      "gwarm": "CX1",
+      "fwarm": "CX1",
+      "oppF": "CX2",
+      "oppE": "CX2",
+      "oppC": "CX2"
+    },
+    "construction_labels": {
+      "CX1": "Intensified thermal action",
+      "CX2": "Opposite site"
+    },
+    "construction_templates": {
+      "CX1": [
+        "pos0",
+        "pos1"
+      ],
+      "CX2": [
+        "pos2",
+        "pos3"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "Two compositional paradigms are supported, and the partition is now exact. (1) gcool/fcool and gwarm/fwarm show a clear INTENSITY + THERMAL_ACTION frame: g and f alternate with stable gentle/firm meanings, while cool and warm alternate with stable thermal meanings. (2) oppF/oppE/oppC show a clear OPPOSITE + SITE_TYPE frame: opp is constant and F/E/C alternate with corresponding face/edge/corner meanings. Other apparent substring recurrences fail the required semantic-paradigmatic evidence and remain whole lexical symbols.",
+    "lexical_symbols": [
+      "F",
+      "E",
+      "C",
+      "P",
+      "Ctr",
+      "A",
+      "dk",
+      "dm",
+      "br",
+      "fd",
+      "fl",
+      "frz",
+      "pls",
+      "h",
+      "s",
+      "thn",
+      "ld",
+      "buz",
+      "cld",
+      "hot",
+      "vib",
+      "num",
+      "B",
+      "S",
+      "Fn",
+      "Cl",
+      "Bd",
+      "L",
+      "drp",
+      "chm",
+      "fan",
+      "wrm",
+      "prs",
+      "shn",
+      "tp",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "AC",
+      "DE",
+      "ES",
+      "LI",
+      "LO",
+      "HI",
+      "PI",
+      "RC",
+      "CD",
+      "BS",
+      "PS",
+      "HS",
+      "TB",
+      "CV",
+      "ea",
+      "gen",
+      "opp",
+      "rot",
+      "whn",
+      "clk",
+      "2tn",
+      "rmb",
+      "wob",
+      "bul",
+      "hol",
+      "alt",
+      "syn",
+      "rd",
+      "grt",
+      "1F",
+      "Lp",
+      "Bl",
+      "St",
+      "R",
+      "T",
+      "Bo",
+      "or",
+      "rst",
+      "g",
+      "?",
+      "ineff",
+      "tone",
+      "Vc",
+      "cool",
+      "warm",
+      "trace",
+      "simul",
+      "seq",
+      "hum",
+      "6F",
+      "mod",
+      "beside",
+      "rot+repeat",
+      "F-pair",
+      "2adj",
+      "drift",
+      "blur",
+      "smear",
+      "muf",
+      "wvr",
+      "?dx",
+      "dx=XX:",
+      "??",
+      "sx",
+      "vs",
+      "sand",
+      "top-cycle"
+    ],
+    "classes": [
+      {
+        "class_id": "CL1",
+        "label": "Intensity",
+        "description": "Intensity modifier prefixed to a thermal action.",
+        "repeatable": false,
+        "declared_fillers": [
+          {
+            "form": "g",
+            "gloss": "gentle"
+          }
+        ]
+      },
+      {
+        "class_id": "CL2",
+        "label": "Thermal action",
+        "description": "Thermal action meaning contributed by the second morpheme.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CL3",
+        "label": "Opposition marker",
+        "description": "Marker meaning opposite.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CL4",
+        "label": "Site type",
+        "description": "Geometric site type selected after the opposition marker.",
+        "repeatable": false,
+        "declared_fillers": [
+          {
+            "form": "F",
+            "gloss": "face"
+          },
+          {
+            "form": "E",
+            "gloss": "edge"
+          },
+          {
+            "form": "C",
+            "gloss": "corner"
+          }
+        ]
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "CX1",
+        "label": "Intensified thermal action",
+        "description": "Intensity prefix plus thermal action.",
+        "class_sequence": [
+          "CL1",
+          "CL2"
+        ]
+      },
+      {
+        "construction_id": "CX2",
+        "label": "Opposite site",
+        "description": "Opposition marker plus site type.",
+        "class_sequence": [
+          "CL3",
+          "CL4"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "gcool",
+        "construction_id": "CX1",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "g",
+            "class_id": "CL1",
+            "gloss": "gentle"
+          },
+          {
+            "form": "cool",
+            "class_id": "CL2",
+            "gloss": "cool"
+          }
+        ]
+      },
+      {
+        "symbol": "fcool",
+        "construction_id": "CX1",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "f",
+            "class_id": "CL1",
+            "gloss": "firm"
+          },
+          {
+            "form": "cool",
+            "class_id": "CL2",
+            "gloss": "cool"
+          }
+        ]
+      },
+      {
+        "symbol": "gwarm",
+        "construction_id": "CX1",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "g",
+            "class_id": "CL1",
+            "gloss": "gentle"
+          },
+          {
+            "form": "warm",
+            "class_id": "CL2",
+            "gloss": "warm"
+          }
+        ]
+      },
+      {
+        "symbol": "fwarm",
+        "construction_id": "CX1",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "f",
+            "class_id": "CL1",
+            "gloss": "firm"
+          },
+          {
+            "form": "warm",
+            "class_id": "CL2",
+            "gloss": "warm"
+          }
+        ]
+      },
+      {
+        "symbol": "oppF",
+        "construction_id": "CX2",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "opp",
+            "class_id": "CL3",
+            "gloss": "opposite"
+          },
+          {
+            "form": "F",
+            "class_id": "CL4",
+            "gloss": "face"
+          }
+        ]
+      },
+      {
+        "symbol": "oppE",
+        "construction_id": "CX2",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "opp",
+            "class_id": "CL3",
+            "gloss": "opposite"
+          },
+          {
+            "form": "E",
+            "class_id": "CL4",
+            "gloss": "edge"
+          }
+        ]
+      },
+      {
+        "symbol": "oppC",
+        "construction_id": "CX2",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "opp",
+            "class_id": "CL3",
+            "gloss": "opposite"
+          },
+          {
+            "form": "C",
+            "class_id": "CL4",
+            "gloss": "corner"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780594014",
+    "slots": [],
+    "segmentation": {
+      "AC": [
+        "AC"
+      ],
+      "DE": [
+        "DE"
+      ],
+      "ES": [
+        "ES"
+      ],
+      "LI": [
+        "LI"
+      ],
+      "LO": [
+        "LO"
+      ],
+      "HI": [
+        "HI"
+      ],
+      "PI": [
+        "PI"
+      ],
+      "RC": [
+        "RC"
+      ],
+      "CD": [
+        "CD"
+      ],
+      "BS": [
+        "BS"
+      ],
+      "PS": [
+        "PS"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "TB": [
+        "TB"
+      ],
+      "CV": [
+        "CV"
+      ],
+      "P1": [
+        "P1"
+      ],
+      "P2": [
+        "P2"
+      ],
+      "P3": [
+        "P3"
+      ],
+      "P4": [
+        "P4"
+      ],
+      "P5": [
+        "P5"
+      ],
+      "P6": [
+        "P6"
+      ],
+      "P7": [
+        "P7"
+      ],
+      "P8": [
+        "P8"
+      ],
+      "P9": [
+        "P9"
+      ],
+      "P10": [
+        "P10"
+      ],
+      "P11": [
+        "P11"
+      ],
+      "P12": [
+        "P12"
+      ],
+      "P13": [
+        "P13"
+      ],
+      "P14": [
+        "P14"
+      ],
+      "X": [
+        "X"
+      ],
+      "N+motif": [
+        "N+motif"
+      ],
+      "7": [
+        "7"
+      ],
+      "11": [
+        "11"
+      ],
+      "12": [
+        "12"
+      ],
+      "F": [
+        "F"
+      ],
+      "B": [
+        "B"
+      ],
+      "L": [
+        "L"
+      ],
+      "R": [
+        "R"
+      ],
+      "T": [
+        "T"
+      ],
+      "m": [
+        "m"
+      ],
+      "f": [
+        "f"
+      ],
+      "1": [
+        "1"
+      ],
+      "g": [
+        "g"
+      ],
+      "D": [
+        "D"
+      ],
+      "2": [
+        "2"
+      ]
+    },
+    "head_index": {
+      "AC": 0,
+      "DE": 0,
+      "ES": 0,
+      "LI": 0,
+      "LO": 0,
+      "HI": 0,
+      "PI": 0,
+      "RC": 0,
+      "CD": 0,
+      "BS": 0,
+      "PS": 0,
+      "HS": 0,
+      "TB": 0,
+      "CV": 0,
+      "P1": 0,
+      "P2": 0,
+      "P3": 0,
+      "P4": 0,
+      "P5": 0,
+      "P6": 0,
+      "P7": 0,
+      "P8": 0,
+      "P9": 0,
+      "P10": 0,
+      "P11": 0,
+      "P12": 0,
+      "P13": 0,
+      "P14": 0,
+      "X": 0,
+      "N+motif": 0,
+      "7": 0,
+      "11": 0,
+      "12": 0,
+      "F": 0,
+      "B": 0,
+      "L": 0,
+      "R": 0,
+      "T": 0,
+      "m": 0,
+      "f": 0,
+      "1": 0,
+      "g": 0,
+      "D": 0,
+      "2": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "AC": "random flicker and irregular hum",
+      "DE": "sliding light and blurred edges",
+      "ES": "too bright, layered hum, and frozen faces",
+      "LI": "dark corners and fading edges",
+      "LO": "dim all over and whisper",
+      "HI": "blazing white, harsh buzz, and hot",
+      "PI": "opposite-face pulse and two tones",
+      "RC": "one face much brighter and whine",
+      "CD": "bright corner or corners and clicking",
+      "BS": "wobbling edges or bulge and muffled hum",
+      "PS": "frozen, dim, silent, and cold",
+      "HS": "alternating configurations and clashing tones",
+      "TB": "hot, dim, red, rough, and rumble",
+      "CV": "hollow tap and dark center",
+      "P1": "sound one sustained tone near all 6 faces at once, starting from the named face, for the stated duration and intensity; then let it fade naturally and wait for the hum to settle",
+      "P2": "chime near one of the two opposite faces, then the other; one chime each time, with the stated pause between chimes, for five cycles, starting at the named face",
+      "P3": "apply cloth to 2 adjacent edges near the named face, then ring the bell at the named face 3 times",
+      "P4": "place a heated stone nearby at each corner of the named face in sequence, then trace the edges with a finger",
+      "P5": "place a warm stone beside the named face, then rotate all faces",
+      "P6": "apply a cool cloth, then fan the named face and the opposite face",
+      "P7": "dim a lamp on the named face and brighten a lamp on the opposite face at the same time, without moving the lamps, for the stated duration at the stated brightness",
+      "P8": "press a folded cloth to the named face for the stated duration, then ring the bell on each edge twice",
+      "P9": "at each corner, give a brief bell, then warm the 2 meeting edges",
+      "P10": "place a board against the named face, then rotate face-pairs",
+      "P11": "ring the bell at the center of each face once at the stated tone, starting from the named face; then place one warm stone beside the Veyru for the stated duration; the intensity field applies to the bell only, not the stone",
+      "P12": "place it on a folded cloth as the soft surface with the named face up, with the stated contact, and rest it undisturbed for the stated duration",
+      "P13": "apply a cool cloth, then fan all 6 faces from the named face",
+      "P14": "rotate slowly with a steady tone near opposite faces, then ring the bell once at each corner",
+      "X": "no effect",
+      "N+motif": "cascade, followed by the motif code",
+      "7": "dim a lamp on the named face and brighten a lamp on the opposite face at the same time, without moving the lamps, for the stated duration at the stated brightness",
+      "11": "ring the bell at the center of each face once at the stated tone, starting from the named face; then place one warm stone beside the Veyru for the stated duration; the intensity field applies to the bell only, not the stone",
+      "12": "place it on a folded cloth as the soft surface with the named face up, with the stated contact, and rest it undisturbed for the stated duration",
+      "F": "front face",
+      "B": "back face",
+      "L": "left face",
+      "R": "right face",
+      "T": "top face",
+      "m": "moderate",
+      "f": "firm",
+      "1": "sound one sustained tone near all 6 faces at once, starting from the named face, for the stated duration and intensity; then let it fade naturally and wait for the hum to settle",
+      "g": "gentle",
+      "D": "bottom face",
+      "2": "chime near one of the two opposite faces, then the other; one chime each time, with the stated pause between chimes, for five cycles, starting at the named face"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780594014",
+    "n_codes": 44,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible morpheme paradigm survives the evidence requirements. The strongest apparent pattern is P+number (P1...P14, plus bare 1/2/7/11/12), but this fails the opaque index test: the digits do not contribute literal quantity or another stable compositional meaning across a shared frame; they merely pick unrelated stored procedures. The candidate P1- family (P10...P14) is likewise just numbering, not morphology. The standalone face symbols (F/B/L/R/T/D) and intensity symbols (g/m/f) do form semantic sets, but there are no attested multi-morpheme code entries in which they alternate in a shared frame, so no construction can be licensed from the supplied codebook. N+motif suggests a schematic notation, but without instantiated contrasts it cannot support a construction here. Therefore the safest complete partition is a flat lexicon.",
+    "lexical_symbols": [
+      "AC",
+      "DE",
+      "ES",
+      "LI",
+      "LO",
+      "HI",
+      "PI",
+      "RC",
+      "CD",
+      "BS",
+      "PS",
+      "HS",
+      "TB",
+      "CV",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8",
+      "P9",
+      "P10",
+      "P11",
+      "P12",
+      "P13",
+      "P14",
+      "X",
+      "N+motif",
+      "7",
+      "11",
+      "12",
+      "F",
+      "B",
+      "L",
+      "R",
+      "T",
+      "m",
+      "f",
+      "1",
+      "g",
+      "D",
+      "2"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

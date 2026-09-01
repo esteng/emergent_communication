@@ -1,0 +1,43 @@
+[ENG] Leak cue: dark corners + fading edges/perimeter + thin/hollow edge hum. I sent only the exact SAGWE392 line. Link rejection seems to signal round already ended.
+[OBS] Got it. I’ll use that cue wording and keep completion reports minimal.
+[ENG] Good. Next rounds: I’ll answer with procedure only, no diagnosis label. If symptoms match a full motif phrase exactly, send only that line.
+[OBS] Understood. If a full motif matches exactly, I’ll send only that line.
+[ENG] Ready.
+[OBS] Ready.
+[ENG] Round 2: exact Propagation Stall cue (frozen dim/still, silent, cold, unresponsive). Procedure-only reply again fit budget comfortably.
+[OBS] Got it. I’ll use that exact stall cue if repeated, and I won’t expect link time after action.
+[ENG] Round 3: Thermal Bleed cue = very hot all over + dim red light + low rumble + rough/gritty surface. Exact line succeeded.
+[OBS] Got it. I now have exact cue lines for Leak, Propagation Stall, and Thermal Bleed.
+[ENG] Round 4 loss: combined failure pushed link over budget. We need ultra-short observer reports and immediate exact-line replies; no extra warning attempts. Also be ready for second symptom in same round before closure.
+[OBS] Understood. I’ll avoid any extra warning text. Please give me exact short cue lines for secondary motifs as we identify them.
+[ENG] Secondary cue added: Resonance Cascade = one face much brighter + intense local vibration + high-pitched whine there + others normal.
+[OBS] Got it. I’ll use that exact Resonance Cascade line if it appears again.
+[ENG] Round 5 missed by 2s. My reply was exact-line as required; only fix is even shorter observer phrasing. Low Intensity cue should be compressed further next time.
+[OBS] Understood. Please give me the exact compressed Low Intensity cue line for next time.
+[ENG] Compressed Low Intensity cue: dim overall; faces faint; hum whisper; patterns washed out.
+[OBS] Got it. I’ll use that exact Low Intensity line.
+[ENG] Round 6 recovered. Same leak cue can map to different procedures per round, so your short cue line is good; I’ll keep answering with exact SAGWE392 text only.
+[OBS] Understood. I’ll keep using exact short cue lines only.
+[ENG] Round 7 confirms combo failures can be impossible unless initial report is extremely compressed. Added cue if needed: Phase Inversion = opposite faces pulse bright/dark; hum toggles two tones; edges flash in sync.
+[OBS] Got it. I’ll use that Phase Inversion line. Please add an exact short line for the bright-corner clicking motif too.
+[ENG] Corner Deadlock cue: one/two corners intensely bright; clicking there; heat concentrated there.
+[OBS] Got it. I’ll use that Corner Deadlock line.
+[ENG] Round 8: Drift cue shorthand worked: light drifts/slides; edges blurred; hum wavers. Exact line reply still fit budget.
+[OBS] Got it. I’ll use: light drifts/slides; edges blurred; hum wavers.
+[ENG] Round 9 combo loss. Add cue: Core Void = normal glow, hollow tap, dark center in light, thin surface-level hum.
+[OBS] Got it. I’ll use that exact Core Void line.
+[ENG] Round 10 combo failure again. Added operational lesson: if first fix lands and another known cue appears, send exact second line immediately; no commentary, no delay.
+[OBS] Understood. On any known secondary cue, I’ll send the exact line immediately with no extra text.
+[ENG] Round 11 confirms even two short cue reports can exceed budget when procedures are long. Keep cue lines minimal and immediate.
+[OBS] Understood. To survive combo rounds, we need a pre-agreed short codebook for common procedures in addition to cue lines.
+[ENG] Careful: link-side I’m constrained to the exact SAGWE392 procedure text, so codebooks can only help you compress symptom reports, not my replies.
+[OBS] Understood. Then I’ll focus on the shortest exact cue lines possible, especially for likely combo motifs.
+[OBS] R12 still failed with exact secondary cue. Please compress the known cue lines themselves as much as possible for combo rounds, especially Leak and Stall.
+[ENG] Shortest cue set so far: Leak = dark corners; fading edges/perimeter; hollow edge hum. Stall = frozen dim/still; silent; cold; unresponsive.
+[OBS] Got it. I’ll use those shortest Leak and Stall lines.
+[ENG] R13 success. Compressed Low Intensity cue fit with long exact reply.
+[OBS] Got it. I’ll keep using the compressed Low Intensity cue.
+[ENG] Good.
+[OBS] We lost 14 on chars. We need tighter shorthand on link. I can report symptoms as compact tags only, e.g. DS=dim still, S0=silent, C=cold, NR=no response; BF=one face bright; V+=localized vibration; W+=high whine; O=others normal. Please send procedures in the shortest possible form too, maybe tool/start face/pace/cycles only. Also, if a second symptom appears after a successful action, I’ll report only the changed traits, not full sentences.
+[ENG] Good tags for your reports. But on link I must send the exact SAGWE392 procedure text, not shorthand. Do report only changed traits after a first fix.
+[OBS] Understood. Next round I’ll use tags only on first report, then changed traits only after any successful action.

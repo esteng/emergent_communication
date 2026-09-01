@@ -1,0 +1,45 @@
+{
+  "per_slot": {
+    "pos0": [
+      [
+        "hot",
+        "hot, dim, red"
+      ],
+      [
+        "blz",
+        "blazing, hot, buzzing"
+      ],
+      [
+        "w",
+        "warm"
+      ],
+      [
+        "c",
+        "cool"
+      ],
+      [
+        "cold",
+        "cold"
+      ],
+      [
+        "frz",
+        "frozen, silent, cold"
+      ]
+    ],
+    "pos1": [
+      [
+        "brt",
+        "bright"
+      ],
+      [
+        "drk",
+        "dark"
+      ],
+      [
+        "dim",
+        "dim all over"
+      ]
+    ]
+  },
+  "stackable": []
+}

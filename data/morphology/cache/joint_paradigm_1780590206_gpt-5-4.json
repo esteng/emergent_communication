@@ -1,0 +1,758 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780590206",
+    "slots": [
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "bellCtr",
+            "gloss": "ring the bell at the centers",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "cool",
+            "gloss": "apply a cool cloth, then fan",
+            "support": 2,
+            "is_defined": false
+          },
+          {
+            "form": "t",
+            "gloss": "sustain tone on",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "ws",
+            "gloss": "place a warm stone beside",
+            "support": 1,
+            "is_defined": true
+          }
+        ]
+      },
+      {
+        "role": "suffix",
+        "fillers": [
+          {
+            "form": "2",
+            "gloss": "the named face and its opposite face",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "6",
+            "gloss": "all 6 faces",
+            "support": 2,
+            "is_defined": false
+          },
+          {
+            "form": "All",
+            "gloss": "each face",
+            "support": 2,
+            "is_defined": false
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "C": [
+        "C"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "ctr": [
+        "ctr"
+      ],
+      "d": [
+        "d"
+      ],
+      "fd": [
+        "fd"
+      ],
+      "st": [
+        "st"
+      ],
+      "sl": [
+        "sl"
+      ],
+      "cl": [
+        "cl"
+      ],
+      "ur": [
+        "ur"
+      ],
+      "P1": [
+        "P1"
+      ],
+      "P2": [
+        "P2"
+      ],
+      "P3": [
+        "P3"
+      ],
+      "P4": [
+        "P4"
+      ],
+      "P5": [
+        "P5"
+      ],
+      "P6": [
+        "P6"
+      ],
+      "P7": [
+        "P7"
+      ],
+      "P8": [
+        "P8"
+      ],
+      "P9": [
+        "P9"
+      ],
+      "P10": [
+        "P10"
+      ],
+      "P11": [
+        "P11"
+      ],
+      "P12": [
+        "P12"
+      ],
+      "P13": [
+        "P13"
+      ],
+      "P14": [
+        "P14"
+      ],
+      "HW": [
+        "HW"
+      ],
+      "CB": [
+        "CB"
+      ],
+      "BR1": [
+        "BR1"
+      ],
+      "VL": [
+        "VL"
+      ],
+      "LK": [
+        "LK"
+      ],
+      "ST": [
+        "ST"
+      ],
+      "t6": [
+        "t",
+        "6"
+      ],
+      "bOpp": [
+        "bOpp"
+      ],
+      "cloth2E": [
+        "cloth2E"
+      ],
+      "bell3": [
+        "bell3"
+      ],
+      "warm4C": [
+        "warm4C"
+      ],
+      "traceE": [
+        "traceE"
+      ],
+      "wsAll": [
+        "ws",
+        "All"
+      ],
+      "cool2": [
+        "cool",
+        "2"
+      ],
+      "lamp": [
+        "lamp"
+      ],
+      "fold": [
+        "fold"
+      ],
+      "bellE2": [
+        "bellE2"
+      ],
+      "bellC": [
+        "bellC"
+      ],
+      "warmE": [
+        "warmE"
+      ],
+      "board": [
+        "board"
+      ],
+      "rotatePairs": [
+        "rotatePairs"
+      ],
+      "bellCtrAll": [
+        "bellCtr",
+        "All"
+      ],
+      "ws": [
+        "ws"
+      ],
+      "rest": [
+        "rest"
+      ],
+      "cool6": [
+        "cool",
+        "6"
+      ],
+      "rotTone": [
+        "rotTone"
+      ],
+      "DF": [
+        "DF"
+      ],
+      "RH": [
+        "RH"
+      ],
+      "SC": [
+        "SC"
+      ],
+      "DR": [
+        "DR"
+      ],
+      "CF": [
+        "CF"
+      ],
+      "HD": [
+        "HD"
+      ]
+    },
+    "head_index": {
+      "C": 0,
+      "E": 0,
+      "F": 0,
+      "ctr": 0,
+      "d": 0,
+      "fd": 0,
+      "st": 0,
+      "sl": 0,
+      "cl": 0,
+      "ur": 0,
+      "P1": 0,
+      "P2": 0,
+      "P3": 0,
+      "P4": 0,
+      "P5": 0,
+      "P6": 0,
+      "P7": 0,
+      "P8": 0,
+      "P9": 0,
+      "P10": 0,
+      "P11": 0,
+      "P12": 0,
+      "P13": 0,
+      "P14": 0,
+      "HW": 0,
+      "CB": 0,
+      "BR1": 0,
+      "VL": 0,
+      "LK": 0,
+      "ST": 0,
+      "t6": 0,
+      "bOpp": 0,
+      "cloth2E": 0,
+      "bell3": 0,
+      "warm4C": 0,
+      "traceE": 0,
+      "wsAll": 0,
+      "cool2": 0,
+      "lamp": 0,
+      "fold": 0,
+      "bellE2": 0,
+      "bellC": 0,
+      "warmE": 0,
+      "board": 0,
+      "rotatePairs": 0,
+      "bellCtrAll": 0,
+      "ws": 0,
+      "rest": 0,
+      "cool6": 0,
+      "rotTone": 0,
+      "DF": 0,
+      "RH": 0,
+      "SC": 0,
+      "DR": 0,
+      "CF": 0,
+      "HD": 0
+    },
+    "attested_orderings": [
+      [
+        "stem",
+        "suffix"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [],
+    "form_positions": {
+      "t": 0,
+      "cool": 0,
+      "6": 1,
+      "2": 1,
+      "ws": 2,
+      "bellCtr": 2,
+      "All": 3
+    },
+    "position_labels": {
+      "0": "procedure with face-scope",
+      "1": "face scope",
+      "2": "distributed procedure",
+      "3": "distribution over faces"
+    },
+    "positions_by_symbol": {
+      "t6": [
+        0,
+        1
+      ],
+      "cool2": [
+        0,
+        1
+      ],
+      "cool6": [
+        0,
+        1
+      ],
+      "wsAll": [
+        2,
+        3
+      ],
+      "bellCtrAll": [
+        2,
+        3
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "t": "sustain tone on",
+        "cool": "apply a cool cloth, then fan"
+      },
+      "1": {
+        "6": "all 6 faces",
+        "2": "the named face and its opposite face"
+      },
+      "2": {
+        "ws": "place a warm stone beside",
+        "bellCtr": "ring the bell at the centers"
+      },
+      "3": {
+        "All": "all faces"
+      }
+    },
+    "meaning_by_symbol": {
+      "C": "corners",
+      "E": "edges",
+      "F": "faces",
+      "ctr": "center",
+      "d": "dim",
+      "fd": "fading",
+      "st": "still",
+      "sl": "silent",
+      "cl": "cold",
+      "ur": "unresponsive",
+      "P1": "sustain tone on all 6 faces",
+      "P2": "alternate bell on opposite faces 5 times",
+      "P3": "place cloth on 2 adjacent edges, then ring the bell 3 times",
+      "P4": "warm each corner of the named face in sequence, then trace each edge",
+      "P5": "place a warm stone beside each face",
+      "P6": "apply a cool cloth, then fan the top and opposite face",
+      "P7": "dim the lamp at the top face and brighten the opposite face",
+      "P8": "place a folded cloth on top, then ring the bell at each edge 2 times",
+      "P9": "ring the bell at each corner, then warm the meeting edges",
+      "P10": "place the board on top, then rotate pairs",
+      "P11": "ring the bell at the centers of all faces, then place a warm stone beside",
+      "P12": "place it on a soft surface with the top face up and let it rest",
+      "P13": "apply a cool cloth, then fan all faces",
+      "P14": "rotate and apply a steady tone to opposite faces, then ring the bell at the corners",
+      "HW": "white, buzz, vibration, heat",
+      "CB": "1-2 corners bright, click, heat",
+      "BR1": "1 face bright, whine, vibration",
+      "VL": "bright, layered, frozen",
+      "LK": "corner dark, edge fading, perimeter dim, plus hum thin",
+      "ST": "dim, still, silent, cold, dead to the touch",
+      "t6": "sustain tone on all 6 faces, using the specified duration and intensity",
+      "bOpp": "alternate the bell on opposite faces 5 times, using the named face and its opposite, with the specified pause, optional duration count, and intensity",
+      "cloth2E": "place cloth on 2 adjacent edges of the named face, using the specified duration and intensity",
+      "bell3": "ring the bell 3 times on the named face",
+      "warm4C": "warm each of the 4 corners of the named face in sequence, using the specified duration and intensity",
+      "traceE": "trace each edge",
+      "wsAll": "place a warm stone beside each face, using the specified duration and intensity",
+      "cool2": "apply a cool cloth, then fan the named face and its opposite face, using the specified duration and intensity",
+      "lamp": "dim the lamp at one face and brighten the opposite face, using the specified duration and intensity",
+      "fold": "place a folded cloth on the named face, using the specified duration and intensity",
+      "bellE2": "ring the bell at each edge 2 times",
+      "bellC": "ring the bell at each corner",
+      "warmE": "warm the meeting edges of the named face, using the specified duration and intensity",
+      "board": "place the board on the named face, using the specified duration and intensity",
+      "rotatePairs": "rotate pairs",
+      "bellCtrAll": "ring the bell at the centers of all faces, using the specified duration and intensity",
+      "ws": "place a warm stone beside",
+      "rest": "place it on a soft surface with the named face up and let it rest, using the specified duration and intensity",
+      "cool6": "apply a cool cloth, then fan all faces, using the specified duration and intensity",
+      "rotTone": "rotate and apply a steady tone to opposite faces, using the specified duration and intensity",
+      "DF": "edge flexing, face bulging, muffled",
+      "RH": "hot, dim, red, rough, rumble",
+      "SC": "hum split or clash, alternating configurations, and edge shimmer",
+      "DR": "face lights drift, edges blurred or smeared, and hum wavering in pitch",
+      "CF": "faces show random flicker or patches, hum is broken or irregular, and edges are normal",
+      "HD": "face has a normal surface, tap sounds hollow, dark center appears in the light, and hum is thin and at the surface"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780590206",
+    "n_codes": 56,
+    "n_multimorpheme": 5,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "stem",
+        "label": "procedure with face-scope",
+        "fillers": [
+          {
+            "form": "cool",
+            "gloss": "apply a cool cloth, then fan",
+            "count": 2
+          },
+          {
+            "form": "t",
+            "gloss": "sustain tone on",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.6,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "suffix",
+        "label": "face scope",
+        "fillers": [
+          {
+            "form": "2",
+            "gloss": "the named face and its opposite face",
+            "count": 1
+          },
+          {
+            "form": "6",
+            "gloss": "all 6 faces",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.6,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos2",
+        "role": "stem",
+        "label": "distributed procedure",
+        "fillers": [
+          {
+            "form": "bellCtr",
+            "gloss": "ring the bell at the centers",
+            "count": 1
+          },
+          {
+            "form": "ws",
+            "gloss": "place a warm stone beside",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.4,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos3",
+        "role": "suffix",
+        "label": "distribution over faces",
+        "fillers": [
+          {
+            "form": "All",
+            "gloss": "each face",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.4,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 3,
+        "possible_combos": 4,
+        "saturation": 0.75
+      },
+      {
+        "slot_a": "pos2",
+        "slot_b": "pos3",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ],
+      [
+        "pos2",
+        "pos3"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "t6": [
+        "pos0",
+        "pos1"
+      ],
+      "cool2": [
+        "pos0",
+        "pos1"
+      ],
+      "cool6": [
+        "pos0",
+        "pos1"
+      ],
+      "wsAll": [
+        "pos2",
+        "pos3"
+      ],
+      "bellCtrAll": [
+        "pos2",
+        "pos3"
+      ]
+    },
+    "construction_by_symbol": {
+      "t6": "CX_SCOPE",
+      "cool2": "CX_SCOPE",
+      "cool6": "CX_SCOPE",
+      "wsAll": "CX_DISTR",
+      "bellCtrAll": "CX_DISTR"
+    },
+    "construction_labels": {
+      "CX_SCOPE": "procedure plus face-scope",
+      "CX_DISTR": "procedure plus all-faces distribution"
+    },
+    "construction_templates": {
+      "CX_SCOPE": [
+        "pos0",
+        "pos1"
+      ],
+      "CX_DISTR": [
+        "pos2",
+        "pos3"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "Most symbols are best treated as opaque lexemes: shared letters, digits, or candidate prefixes do not reliably yield compositional paradigms. Two small construction families are defensible. First, t6 / cool6 / cool2 support a shared PROC_WITH_SCOPE + SCOPE template: the root slot contrasts in the same 6-frame (t vs cool), and the scope slot contrasts in the same cool-frame (2 vs 6), with predictable meanings. Second, wsAll / bellCtrAll support PROC_DISTRIBUTED + DISTRIBUTION: ws and bellCtr contrast in the same All-frame, and All contributes a stable 'each/all faces' distribution. All other items lack sufficient same-frame substitution with stable compositional contributions, so they remain lexical.",
+    "lexical_symbols": [
+      "C",
+      "E",
+      "F",
+      "ctr",
+      "d",
+      "fd",
+      "st",
+      "sl",
+      "cl",
+      "ur",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8",
+      "P9",
+      "P10",
+      "P11",
+      "P12",
+      "P13",
+      "P14",
+      "HW",
+      "CB",
+      "BR1",
+      "VL",
+      "LK",
+      "ST",
+      "bOpp",
+      "cloth2E",
+      "bell3",
+      "warm4C",
+      "traceE",
+      "lamp",
+      "fold",
+      "bellE2",
+      "bellC",
+      "warmE",
+      "board",
+      "rotatePairs",
+      "ws",
+      "rest",
+      "rotTone",
+      "DF",
+      "RH",
+      "SC",
+      "DR",
+      "CF",
+      "HD"
+    ],
+    "classes": [
+      {
+        "class_id": "PROC_WITH_SCOPE",
+        "label": "procedure with face-scope",
+        "description": "Procedure root that combines with a face-scope morpheme.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "SCOPE",
+        "label": "face scope",
+        "description": "How many faces are involved in the procedure.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "PROC_DISTRIBUTED",
+        "label": "distributed procedure",
+        "description": "Procedure root that combines with an all-faces distribution morpheme.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "DISTRIBUTION",
+        "label": "distribution over faces",
+        "description": "Distribution of the procedure across all faces.",
+        "repeatable": false,
+        "declared_fillers": []
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "CX_SCOPE",
+        "label": "procedure plus face-scope",
+        "description": "A procedure root followed by a morpheme specifying the set of faces involved.",
+        "class_sequence": [
+          "PROC_WITH_SCOPE",
+          "SCOPE"
+        ]
+      },
+      {
+        "construction_id": "CX_DISTR",
+        "label": "procedure plus all-faces distribution",
+        "description": "A distributed procedure root followed by a morpheme meaning 'each/all faces'.",
+        "class_sequence": [
+          "PROC_DISTRIBUTED",
+          "DISTRIBUTION"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "t6",
+        "construction_id": "CX_SCOPE",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "t",
+            "class_id": "PROC_WITH_SCOPE",
+            "gloss": "sustain tone on"
+          },
+          {
+            "form": "6",
+            "class_id": "SCOPE",
+            "gloss": "all 6 faces"
+          }
+        ]
+      },
+      {
+        "symbol": "cool2",
+        "construction_id": "CX_SCOPE",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "cool",
+            "class_id": "PROC_WITH_SCOPE",
+            "gloss": "apply a cool cloth, then fan"
+          },
+          {
+            "form": "2",
+            "class_id": "SCOPE",
+            "gloss": "the named face and its opposite face"
+          }
+        ]
+      },
+      {
+        "symbol": "cool6",
+        "construction_id": "CX_SCOPE",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "cool",
+            "class_id": "PROC_WITH_SCOPE",
+            "gloss": "apply a cool cloth, then fan"
+          },
+          {
+            "form": "6",
+            "class_id": "SCOPE",
+            "gloss": "all 6 faces"
+          }
+        ]
+      },
+      {
+        "symbol": "wsAll",
+        "construction_id": "CX_DISTR",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "ws",
+            "class_id": "PROC_DISTRIBUTED",
+            "gloss": "place a warm stone beside"
+          },
+          {
+            "form": "All",
+            "class_id": "DISTRIBUTION",
+            "gloss": "each face"
+          }
+        ]
+      },
+      {
+        "symbol": "bellCtrAll",
+        "construction_id": "CX_DISTR",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "bellCtr",
+            "class_id": "PROC_DISTRIBUTED",
+            "gloss": "ring the bell at the centers"
+          },
+          {
+            "form": "All",
+            "class_id": "DISTRIBUTION",
+            "gloss": "all faces"
+          }
+        ]
+      }
+    ]
+  }
+}

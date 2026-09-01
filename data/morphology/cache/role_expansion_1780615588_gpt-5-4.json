@@ -1,0 +1,60 @@
+{
+  "per_slot": {
+    "pos1": [
+      [
+        "BR",
+        "too bright"
+      ],
+      [
+        "DM",
+        "too dim"
+      ],
+      [
+        "hi",
+        "high intensity"
+      ],
+      [
+        "lo",
+        "low intensity"
+      ],
+      [
+        "mod",
+        "moderate intensity"
+      ],
+      [
+        "gen",
+        "gentle, soft intensity"
+      ],
+      [
+        "firm",
+        "firm, strong intensity"
+      ]
+    ]
+  },
+  "stackable": [
+    [
+      "BK",
+      "back face"
+    ],
+    [
+      "BT",
+      "bottom face"
+    ],
+    [
+      "FR",
+      "front face"
+    ],
+    [
+      "LT",
+      "left face"
+    ],
+    [
+      "RT",
+      "right face"
+    ],
+    [
+      "TP",
+      "top face"
+    ]
+  ]
+}

@@ -1,0 +1,1856 @@
+{
+  "grammar": {
+    "run_key": "veyru/1778879414",
+    "slots": [
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "C",
+            "gloss": "corners",
+            "support": 2,
+            "is_defined": true
+          },
+          {
+            "form": "E",
+            "gloss": "edges",
+            "support": 3,
+            "is_defined": false
+          },
+          {
+            "form": "F",
+            "gloss": "faces",
+            "support": 4,
+            "is_defined": true
+          },
+          {
+            "form": "H",
+            "gloss": "hum/audio",
+            "support": 8,
+            "is_defined": false
+          },
+          {
+            "form": "K",
+            "gloss": "okay/done",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "P",
+            "gloss": "patterns",
+            "support": 4,
+            "is_defined": false
+          },
+          {
+            "form": "T",
+            "gloss": "temperature",
+            "support": 2,
+            "is_defined": true
+          },
+          {
+            "form": "ok",
+            "gloss": "phase done",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "wrong",
+            "gloss": "instruction had no effect",
+            "support": 1,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "suffix",
+        "fillers": [
+          {
+            "form": "!",
+            "gloss": "layered",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "+",
+            "gloss": "new codes/symptoms follow",
+            "support": 6,
+            "is_defined": false
+          },
+          {
+            "form": "-",
+            "gloss": "dark",
+            "support": 5,
+            "is_defined": false
+          },
+          {
+            "form": "0",
+            "gloss": "absent",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "?",
+            "gloss": "irregular",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "alt",
+            "gloss": "alternating",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "f",
+            "gloss": "frozen",
+            "support": 2,
+            "is_defined": false
+          },
+          {
+            "form": "m",
+            "gloss": "moving/sliding",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "o",
+            "gloss": "ok",
+            "support": 2,
+            "is_defined": false
+          },
+          {
+            "form": "q",
+            "gloss": "quiet",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "r",
+            "gloss": "rumble",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "s",
+            "gloss": "still/static",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "w",
+            "gloss": "wavering pitch",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "z",
+            "gloss": "buzz",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "~",
+            "gloss": "blurred/smearing",
+            "support": 1,
+            "is_defined": false
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "C-dark": [
+        "C-dark"
+      ],
+      "E-fade": [
+        "E-fade"
+      ],
+      "F-ok": [
+        "F-ok"
+      ],
+      "F-rim-": [
+        "F-rim-"
+      ],
+      "H-thin": [
+        "H-thin"
+      ],
+      "ok+": [
+        "ok",
+        "+"
+      ],
+      "C+": [
+        "C",
+        "+"
+      ],
+      "C-": [
+        "C",
+        "-"
+      ],
+      "E-": [
+        "E",
+        "-"
+      ],
+      "E~": [
+        "E",
+        "~"
+      ],
+      "Fo": [
+        "F",
+        "o"
+      ],
+      "F-": [
+        "F",
+        "-"
+      ],
+      "F+": [
+        "F",
+        "+"
+      ],
+      "Ff": [
+        "F",
+        "f"
+      ],
+      "H!": [
+        "H",
+        "!"
+      ],
+      "H?": [
+        "H",
+        "?"
+      ],
+      "Hw": [
+        "H",
+        "w"
+      ],
+      "H-": [
+        "H",
+        "-"
+      ],
+      "H0": [
+        "H",
+        "0"
+      ],
+      "T+": [
+        "T",
+        "+"
+      ],
+      "T-": [
+        "T",
+        "-"
+      ],
+      "Pm": [
+        "P",
+        "m"
+      ],
+      "Ps": [
+        "P",
+        "s"
+      ],
+      "Pf": [
+        "P",
+        "f"
+      ],
+      "wrong+": [
+        "wrong",
+        "+"
+      ],
+      "B": [
+        "B"
+      ],
+      "D": [
+        "D"
+      ],
+      "F": [
+        "F"
+      ],
+      "W": [
+        "W"
+      ],
+      "M": [
+        "M"
+      ],
+      "S": [
+        "S"
+      ],
+      "T": [
+        "T"
+      ],
+      "C": [
+        "C"
+      ],
+      "Hq": [
+        "H",
+        "q"
+      ],
+      "Hr": [
+        "H",
+        "r"
+      ],
+      "Hz": [
+        "H",
+        "z"
+      ],
+      "Eo": [
+        "E",
+        "o"
+      ],
+      "K": [
+        "K"
+      ],
+      "K+": [
+        "K",
+        "+"
+      ],
+      "Cl": [
+        "Cl"
+      ],
+      "Bd": [
+        "Bd"
+      ],
+      "L": [
+        "L"
+      ],
+      "Palt": [
+        "P",
+        "alt"
+      ],
+      "N": [
+        "N"
+      ],
+      "Hol": [
+        "Hol"
+      ],
+      "Dc": [
+        "Dc"
+      ],
+      "Hth": [
+        "Hth"
+      ],
+      "Flk": [
+        "Flk"
+      ]
+    },
+    "head_index": {
+      "C-dark": 0,
+      "E-fade": 0,
+      "F-ok": 0,
+      "F-rim-": 0,
+      "H-thin": 0,
+      "ok+": 0,
+      "C+": 0,
+      "C-": 0,
+      "E-": 0,
+      "E~": 0,
+      "Fo": 0,
+      "F-": 0,
+      "F+": 0,
+      "Ff": 0,
+      "H!": 0,
+      "H?": 0,
+      "Hw": 0,
+      "H-": 0,
+      "H0": 0,
+      "T+": 0,
+      "T-": 0,
+      "Pm": 0,
+      "Ps": 0,
+      "Pf": 0,
+      "wrong+": 0,
+      "B": 0,
+      "D": 0,
+      "F": 0,
+      "W": 0,
+      "M": 0,
+      "S": 0,
+      "T": 0,
+      "C": 0,
+      "Hq": 0,
+      "Hr": 0,
+      "Hz": 0,
+      "Eo": 0,
+      "K": 0,
+      "K+": 0,
+      "Cl": 0,
+      "Bd": 0,
+      "L": 0,
+      "Palt": 0,
+      "N": 0,
+      "Hol": 0,
+      "Dc": 0,
+      "Hth": 0,
+      "Flk": 0
+    },
+    "attested_orderings": [
+      [
+        "stem",
+        "suffix"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [],
+    "form_positions": {
+      "C": 0,
+      "+": 13,
+      "-": 9,
+      "E": 2,
+      "o": 5,
+      "~": 3,
+      "F": 4,
+      "f": 11,
+      "H": 6,
+      "!": 7,
+      "?": 7,
+      "w": 7,
+      "0": 7,
+      "q": 7,
+      "r": 7,
+      "z": 7,
+      "T": 8,
+      "P": 10,
+      "m": 11,
+      "s": 11,
+      "alt": 11,
+      "K": 12,
+      "ok": 12,
+      "wrong": 12
+    },
+    "position_labels": {
+      "0": "corner locus",
+      "1": "corner state",
+      "2": "edge locus",
+      "3": "edge state",
+      "4": "face locus",
+      "5": "face state",
+      "6": "hum/audio domain",
+      "7": "hum state",
+      "8": "temperature domain",
+      "9": "temperature state",
+      "10": "pattern domain",
+      "11": "pattern state",
+      "12": "message base",
+      "13": "followup marker"
+    },
+    "positions_by_symbol": {
+      "C+": [
+        0,
+        1
+      ],
+      "C-": [
+        0,
+        1
+      ],
+      "Eo": [
+        2,
+        3
+      ],
+      "E-": [
+        2,
+        3
+      ],
+      "E~": [
+        2,
+        3
+      ],
+      "Fo": [
+        4,
+        5
+      ],
+      "F-": [
+        4,
+        5
+      ],
+      "F+": [
+        4,
+        5
+      ],
+      "Ff": [
+        4,
+        5
+      ],
+      "H!": [
+        6,
+        7
+      ],
+      "H?": [
+        6,
+        7
+      ],
+      "Hw": [
+        6,
+        7
+      ],
+      "H-": [
+        6,
+        7
+      ],
+      "H0": [
+        6,
+        7
+      ],
+      "Hq": [
+        6,
+        7
+      ],
+      "Hr": [
+        6,
+        7
+      ],
+      "Hz": [
+        6,
+        7
+      ],
+      "T+": [
+        8,
+        9
+      ],
+      "T-": [
+        8,
+        9
+      ],
+      "Pm": [
+        10,
+        11
+      ],
+      "Ps": [
+        10,
+        11
+      ],
+      "Pf": [
+        10,
+        11
+      ],
+      "Palt": [
+        10,
+        11
+      ],
+      "K+": [
+        12,
+        13
+      ],
+      "ok+": [
+        12,
+        13
+      ],
+      "wrong+": [
+        12,
+        13
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "C": "corners"
+      },
+      "1": {
+        "+": "bright",
+        "-": "dark"
+      },
+      "2": {
+        "E": "edges"
+      },
+      "3": {
+        "o": "ok",
+        "-": "fading",
+        "~": "blurred/smearing"
+      },
+      "4": {
+        "F": "faces"
+      },
+      "5": {
+        "o": "ok",
+        "-": "dim",
+        "+": "bright",
+        "f": "frozen"
+      },
+      "6": {
+        "H": "hum/audio"
+      },
+      "7": {
+        "!": "layered",
+        "?": "irregular",
+        "w": "wavering pitch",
+        "-": "thin/hollow",
+        "0": "absent",
+        "q": "quiet",
+        "r": "rumble",
+        "z": "buzz"
+      },
+      "8": {
+        "T": "temperature"
+      },
+      "9": {
+        "+": "hot",
+        "-": "cold"
+      },
+      "10": {
+        "P": "patterns"
+      },
+      "11": {
+        "m": "moving/sliding",
+        "s": "still/static",
+        "f": "frozen/stopped",
+        "alt": "alternating"
+      },
+      "12": {
+        "K": "okay/done",
+        "ok": "phase done",
+        "wrong": "instruction had no effect"
+      },
+      "13": {
+        "+": "new codes/symptoms follow"
+      }
+    },
+    "meaning_by_symbol": {
+      "C-dark": "corners dark",
+      "E-fade": "edges fading",
+      "F-ok": "face centers fine",
+      "F-rim-": "face perimeters dim",
+      "H-thin": "hum thin/hollow",
+      "ok+": "phase done, new symptoms follow",
+      "C+": "corners bright",
+      "C-": "corners dark",
+      "E-": "edges fading, E~ = edges blurred/smearing",
+      "E~": "edges blurred/smearing",
+      "Fo": "face ok",
+      "F-": "faces dim",
+      "F+": "faces bright",
+      "Ff": "frozen faces",
+      "H!": "layered hum",
+      "H?": "irregular hum",
+      "Hw": "wavering pitch",
+      "H-": "thin/hollow hum",
+      "H0": "silence",
+      "T+": "heat",
+      "T-": "cold",
+      "Pm": "patterns moving/sliding",
+      "Ps": "patterns still/static",
+      "Pf": "patterns frozen/stopped",
+      "wrong+": "my instruction had no effect, extra tags follow",
+      "B": "bright",
+      "D": "dim",
+      "F": "frozen",
+      "W": "washed",
+      "M": "moving",
+      "S": "silent",
+      "T": "hot",
+      "C": "cold",
+      "Hq": "quiet hum",
+      "Hr": "rumble hum",
+      "Hz": "buzz hum",
+      "Eo": "edges ok",
+      "K": "okay/done",
+      "K+": "okay/done, new codes follow",
+      "Cl": "cloth",
+      "Bd": "board",
+      "L": "lamp",
+      "Palt": "patterns alternating",
+      "N": "faces normal/glow ok",
+      "Hol": "hollow tap",
+      "Dc": "dark center",
+      "Hth": "hum thin/surface",
+      "Flk": "flickering, no rhythm"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1778879414",
+    "n_codes": 48,
+    "n_multimorpheme": 26,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "stem",
+        "label": "corner locus",
+        "fillers": [
+          {
+            "form": "C",
+            "gloss": "corners",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.07692307692307693,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "suffix",
+        "label": "corner state",
+        "fillers": [
+          {
+            "form": "+",
+            "gloss": "bright",
+            "count": 1
+          },
+          {
+            "form": "-",
+            "gloss": "dark",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.07692307692307693,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos2",
+        "role": "stem",
+        "label": "edge locus",
+        "fillers": [
+          {
+            "form": "E",
+            "gloss": "edges",
+            "count": 3
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.11538461538461539,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos3",
+        "role": "suffix",
+        "label": "edge state",
+        "fillers": [
+          {
+            "form": "-",
+            "gloss": "fading",
+            "count": 1
+          },
+          {
+            "form": "o",
+            "gloss": "ok",
+            "count": 1
+          },
+          {
+            "form": "~",
+            "gloss": "blurred/smearing",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 3,
+        "obligatoriness": 0.11538461538461539,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos4",
+        "role": "stem",
+        "label": "face locus",
+        "fillers": [
+          {
+            "form": "F",
+            "gloss": "faces",
+            "count": 4
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.15384615384615385,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos5",
+        "role": "suffix",
+        "label": "face state",
+        "fillers": [
+          {
+            "form": "+",
+            "gloss": "bright",
+            "count": 1
+          },
+          {
+            "form": "-",
+            "gloss": "dim",
+            "count": 1
+          },
+          {
+            "form": "f",
+            "gloss": "frozen",
+            "count": 1
+          },
+          {
+            "form": "o",
+            "gloss": "ok",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 4,
+        "obligatoriness": 0.15384615384615385,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos6",
+        "role": "stem",
+        "label": "hum/audio domain",
+        "fillers": [
+          {
+            "form": "H",
+            "gloss": "hum/audio",
+            "count": 8
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.3076923076923077,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos7",
+        "role": "suffix",
+        "label": "hum state",
+        "fillers": [
+          {
+            "form": "!",
+            "gloss": "layered",
+            "count": 1
+          },
+          {
+            "form": "-",
+            "gloss": "thin/hollow",
+            "count": 1
+          },
+          {
+            "form": "0",
+            "gloss": "absent",
+            "count": 1
+          },
+          {
+            "form": "?",
+            "gloss": "irregular",
+            "count": 1
+          },
+          {
+            "form": "q",
+            "gloss": "quiet",
+            "count": 1
+          },
+          {
+            "form": "r",
+            "gloss": "rumble",
+            "count": 1
+          },
+          {
+            "form": "w",
+            "gloss": "wavering pitch",
+            "count": 1
+          },
+          {
+            "form": "z",
+            "gloss": "buzz",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 8,
+        "obligatoriness": 0.3076923076923077,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos8",
+        "role": "stem",
+        "label": "temperature domain",
+        "fillers": [
+          {
+            "form": "T",
+            "gloss": "temperature",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.07692307692307693,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos9",
+        "role": "suffix",
+        "label": "temperature state",
+        "fillers": [
+          {
+            "form": "+",
+            "gloss": "hot",
+            "count": 1
+          },
+          {
+            "form": "-",
+            "gloss": "cold",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.07692307692307693,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos10",
+        "role": "stem",
+        "label": "pattern domain",
+        "fillers": [
+          {
+            "form": "P",
+            "gloss": "patterns",
+            "count": 4
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.15384615384615385,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos11",
+        "role": "suffix",
+        "label": "pattern state",
+        "fillers": [
+          {
+            "form": "alt",
+            "gloss": "alternating",
+            "count": 1
+          },
+          {
+            "form": "f",
+            "gloss": "frozen/stopped",
+            "count": 1
+          },
+          {
+            "form": "m",
+            "gloss": "moving/sliding",
+            "count": 1
+          },
+          {
+            "form": "s",
+            "gloss": "still/static",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 4,
+        "obligatoriness": 0.15384615384615385,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos12",
+        "role": "stem",
+        "label": "message base",
+        "fillers": [
+          {
+            "form": "K",
+            "gloss": "okay/done",
+            "count": 1
+          },
+          {
+            "form": "ok",
+            "gloss": "phase done",
+            "count": 1
+          },
+          {
+            "form": "wrong",
+            "gloss": "instruction had no effect",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 3,
+        "obligatoriness": 0.11538461538461539,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos13",
+        "role": "suffix",
+        "label": "followup marker",
+        "fillers": [
+          {
+            "form": "+",
+            "gloss": "new codes/symptoms follow",
+            "count": 3
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.11538461538461539,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      },
+      {
+        "slot_a": "pos10",
+        "slot_b": "pos11",
+        "attested_combos": 4,
+        "possible_combos": 4,
+        "saturation": 1.0
+      },
+      {
+        "slot_a": "pos12",
+        "slot_b": "pos13",
+        "attested_combos": 3,
+        "possible_combos": 3,
+        "saturation": 1.0
+      },
+      {
+        "slot_a": "pos2",
+        "slot_b": "pos3",
+        "attested_combos": 3,
+        "possible_combos": 3,
+        "saturation": 1.0
+      },
+      {
+        "slot_a": "pos4",
+        "slot_b": "pos5",
+        "attested_combos": 4,
+        "possible_combos": 4,
+        "saturation": 1.0
+      },
+      {
+        "slot_a": "pos6",
+        "slot_b": "pos7",
+        "attested_combos": 8,
+        "possible_combos": 8,
+        "saturation": 1.0
+      },
+      {
+        "slot_a": "pos8",
+        "slot_b": "pos9",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ],
+      [
+        "pos10",
+        "pos11"
+      ],
+      [
+        "pos12",
+        "pos13"
+      ],
+      [
+        "pos2",
+        "pos3"
+      ],
+      [
+        "pos4",
+        "pos5"
+      ],
+      [
+        "pos6",
+        "pos7"
+      ],
+      [
+        "pos8",
+        "pos9"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "C+": [
+        "pos0",
+        "pos1"
+      ],
+      "C-": [
+        "pos0",
+        "pos1"
+      ],
+      "Eo": [
+        "pos2",
+        "pos3"
+      ],
+      "E-": [
+        "pos2",
+        "pos3"
+      ],
+      "E~": [
+        "pos2",
+        "pos3"
+      ],
+      "Fo": [
+        "pos4",
+        "pos5"
+      ],
+      "F-": [
+        "pos4",
+        "pos5"
+      ],
+      "F+": [
+        "pos4",
+        "pos5"
+      ],
+      "Ff": [
+        "pos4",
+        "pos5"
+      ],
+      "H!": [
+        "pos6",
+        "pos7"
+      ],
+      "H?": [
+        "pos6",
+        "pos7"
+      ],
+      "Hw": [
+        "pos6",
+        "pos7"
+      ],
+      "H-": [
+        "pos6",
+        "pos7"
+      ],
+      "H0": [
+        "pos6",
+        "pos7"
+      ],
+      "Hq": [
+        "pos6",
+        "pos7"
+      ],
+      "Hr": [
+        "pos6",
+        "pos7"
+      ],
+      "Hz": [
+        "pos6",
+        "pos7"
+      ],
+      "T+": [
+        "pos8",
+        "pos9"
+      ],
+      "T-": [
+        "pos8",
+        "pos9"
+      ],
+      "Pm": [
+        "pos10",
+        "pos11"
+      ],
+      "Ps": [
+        "pos10",
+        "pos11"
+      ],
+      "Pf": [
+        "pos10",
+        "pos11"
+      ],
+      "Palt": [
+        "pos10",
+        "pos11"
+      ],
+      "K+": [
+        "pos12",
+        "pos13"
+      ],
+      "ok+": [
+        "pos12",
+        "pos13"
+      ],
+      "wrong+": [
+        "pos12",
+        "pos13"
+      ]
+    },
+    "construction_by_symbol": {
+      "C+": "CXN_CORNER_REPORT",
+      "C-": "CXN_CORNER_REPORT",
+      "Eo": "CXN_EDGE_REPORT",
+      "E-": "CXN_EDGE_REPORT",
+      "E~": "CXN_EDGE_REPORT",
+      "Fo": "CXN_FACE_REPORT",
+      "F-": "CXN_FACE_REPORT",
+      "F+": "CXN_FACE_REPORT",
+      "Ff": "CXN_FACE_REPORT",
+      "H!": "CXN_HUM_REPORT",
+      "H?": "CXN_HUM_REPORT",
+      "Hw": "CXN_HUM_REPORT",
+      "H-": "CXN_HUM_REPORT",
+      "H0": "CXN_HUM_REPORT",
+      "Hq": "CXN_HUM_REPORT",
+      "Hr": "CXN_HUM_REPORT",
+      "Hz": "CXN_HUM_REPORT",
+      "T+": "CXN_TEMP_REPORT",
+      "T-": "CXN_TEMP_REPORT",
+      "Pm": "CXN_PATTERN_REPORT",
+      "Ps": "CXN_PATTERN_REPORT",
+      "Pf": "CXN_PATTERN_REPORT",
+      "Palt": "CXN_PATTERN_REPORT",
+      "K+": "CXN_MESSAGE_FOLLOWUP",
+      "ok+": "CXN_MESSAGE_FOLLOWUP",
+      "wrong+": "CXN_MESSAGE_FOLLOWUP"
+    },
+    "construction_labels": {
+      "CXN_CORNER_REPORT": "corner report",
+      "CXN_EDGE_REPORT": "edge report",
+      "CXN_FACE_REPORT": "face report",
+      "CXN_HUM_REPORT": "hum report",
+      "CXN_TEMP_REPORT": "temperature report",
+      "CXN_PATTERN_REPORT": "pattern report",
+      "CXN_MESSAGE_FOLLOWUP": "message plus followup"
+    },
+    "construction_templates": {
+      "CXN_CORNER_REPORT": [
+        "pos0",
+        "pos1"
+      ],
+      "CXN_EDGE_REPORT": [
+        "pos2",
+        "pos3"
+      ],
+      "CXN_FACE_REPORT": [
+        "pos4",
+        "pos5"
+      ],
+      "CXN_HUM_REPORT": [
+        "pos6",
+        "pos7"
+      ],
+      "CXN_TEMP_REPORT": [
+        "pos8",
+        "pos9"
+      ],
+      "CXN_PATTERN_REPORT": [
+        "pos10",
+        "pos11"
+      ],
+      "CXN_MESSAGE_FOLLOWUP": [
+        "pos12",
+        "pos13"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "Several symbols support true compositional paradigms with stable substitution frames: C+/C-, Eo/E-/E~, Fo/F-/F+/Ff, H!/H?/Hw/H-/H0/Hq/Hr/Hz, T+/T-, Pm/Ps/Pf/Palt, and K/K+/ok+/wrong+. Other lookalikes such as C-dark, E-fade, F-ok, F-rim-, H-thin, Hth, and Hol do not participate in a coherent multi-entry paradigm with predictable part meanings, so they remain lexical. Homographic standalone symbols like C, F, T, and K are left lexical while the same surface strings are used as morphemes inside supported constructions.",
+    "lexical_symbols": [
+      "C-dark",
+      "E-fade",
+      "F-ok",
+      "F-rim-",
+      "H-thin",
+      "B",
+      "D",
+      "F",
+      "W",
+      "M",
+      "S",
+      "T",
+      "C",
+      "K",
+      "Cl",
+      "Bd",
+      "L",
+      "N",
+      "Hol",
+      "Dc",
+      "Hth",
+      "Flk"
+    ],
+    "classes": [
+      {
+        "class_id": "CLS_LOC_CORNER",
+        "label": "corner locus",
+        "description": "Location morpheme referring to corners.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CLS_CORNER_STATE",
+        "label": "corner state",
+        "description": "State reported for corners.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CLS_LOC_EDGE",
+        "label": "edge locus",
+        "description": "Location morpheme referring to edges.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CLS_EDGE_STATE",
+        "label": "edge state",
+        "description": "State reported for edges.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CLS_LOC_FACE",
+        "label": "face locus",
+        "description": "Location morpheme referring to faces.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CLS_FACE_STATE",
+        "label": "face state",
+        "description": "State reported for faces.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CLS_AUDIO_DOMAIN",
+        "label": "hum/audio domain",
+        "description": "Domain morpheme referring to hum or audio behavior.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CLS_HUM_STATE",
+        "label": "hum state",
+        "description": "Quality or presence state of the hum/audio domain.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CLS_TEMP_DOMAIN",
+        "label": "temperature domain",
+        "description": "Domain morpheme referring to temperature.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CLS_TEMP_STATE",
+        "label": "temperature state",
+        "description": "Temperature value.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CLS_PATTERN_DOMAIN",
+        "label": "pattern domain",
+        "description": "Domain morpheme referring to visible patterns.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CLS_PATTERN_STATE",
+        "label": "pattern state",
+        "description": "State of visible patterns.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CLS_MESSAGE_BASE",
+        "label": "message base",
+        "description": "Base outcome/status message that can be followed by an additional-followup marker.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CLS_FOLLOWUP",
+        "label": "followup marker",
+        "description": "Marker indicating that new codes or symptoms follow.",
+        "repeatable": false,
+        "declared_fillers": []
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "CXN_CORNER_REPORT",
+        "label": "corner report",
+        "description": "A corner locus followed by a corner-specific state.",
+        "class_sequence": [
+          "CLS_LOC_CORNER",
+          "CLS_CORNER_STATE"
+        ]
+      },
+      {
+        "construction_id": "CXN_EDGE_REPORT",
+        "label": "edge report",
+        "description": "An edge locus followed by an edge-specific state.",
+        "class_sequence": [
+          "CLS_LOC_EDGE",
+          "CLS_EDGE_STATE"
+        ]
+      },
+      {
+        "construction_id": "CXN_FACE_REPORT",
+        "label": "face report",
+        "description": "A face locus followed by a face-specific state.",
+        "class_sequence": [
+          "CLS_LOC_FACE",
+          "CLS_FACE_STATE"
+        ]
+      },
+      {
+        "construction_id": "CXN_HUM_REPORT",
+        "label": "hum report",
+        "description": "A hum/audio domain followed by a hum-quality state.",
+        "class_sequence": [
+          "CLS_AUDIO_DOMAIN",
+          "CLS_HUM_STATE"
+        ]
+      },
+      {
+        "construction_id": "CXN_TEMP_REPORT",
+        "label": "temperature report",
+        "description": "A temperature domain followed by a temperature value.",
+        "class_sequence": [
+          "CLS_TEMP_DOMAIN",
+          "CLS_TEMP_STATE"
+        ]
+      },
+      {
+        "construction_id": "CXN_PATTERN_REPORT",
+        "label": "pattern report",
+        "description": "A pattern domain followed by a pattern state.",
+        "class_sequence": [
+          "CLS_PATTERN_DOMAIN",
+          "CLS_PATTERN_STATE"
+        ]
+      },
+      {
+        "construction_id": "CXN_MESSAGE_FOLLOWUP",
+        "label": "message plus followup",
+        "description": "A base status message followed by a marker that more codes or symptoms follow.",
+        "class_sequence": [
+          "CLS_MESSAGE_BASE",
+          "CLS_FOLLOWUP"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "C+",
+        "construction_id": "CXN_CORNER_REPORT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "C",
+            "class_id": "CLS_LOC_CORNER",
+            "gloss": "corners"
+          },
+          {
+            "form": "+",
+            "class_id": "CLS_CORNER_STATE",
+            "gloss": "bright"
+          }
+        ]
+      },
+      {
+        "symbol": "C-",
+        "construction_id": "CXN_CORNER_REPORT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "C",
+            "class_id": "CLS_LOC_CORNER",
+            "gloss": "corners"
+          },
+          {
+            "form": "-",
+            "class_id": "CLS_CORNER_STATE",
+            "gloss": "dark"
+          }
+        ]
+      },
+      {
+        "symbol": "Eo",
+        "construction_id": "CXN_EDGE_REPORT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "E",
+            "class_id": "CLS_LOC_EDGE",
+            "gloss": "edges"
+          },
+          {
+            "form": "o",
+            "class_id": "CLS_EDGE_STATE",
+            "gloss": "ok"
+          }
+        ]
+      },
+      {
+        "symbol": "E-",
+        "construction_id": "CXN_EDGE_REPORT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "E",
+            "class_id": "CLS_LOC_EDGE",
+            "gloss": "edges"
+          },
+          {
+            "form": "-",
+            "class_id": "CLS_EDGE_STATE",
+            "gloss": "fading"
+          }
+        ]
+      },
+      {
+        "symbol": "E~",
+        "construction_id": "CXN_EDGE_REPORT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "E",
+            "class_id": "CLS_LOC_EDGE",
+            "gloss": "edges"
+          },
+          {
+            "form": "~",
+            "class_id": "CLS_EDGE_STATE",
+            "gloss": "blurred/smearing"
+          }
+        ]
+      },
+      {
+        "symbol": "Fo",
+        "construction_id": "CXN_FACE_REPORT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "F",
+            "class_id": "CLS_LOC_FACE",
+            "gloss": "faces"
+          },
+          {
+            "form": "o",
+            "class_id": "CLS_FACE_STATE",
+            "gloss": "ok"
+          }
+        ]
+      },
+      {
+        "symbol": "F-",
+        "construction_id": "CXN_FACE_REPORT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "F",
+            "class_id": "CLS_LOC_FACE",
+            "gloss": "faces"
+          },
+          {
+            "form": "-",
+            "class_id": "CLS_FACE_STATE",
+            "gloss": "dim"
+          }
+        ]
+      },
+      {
+        "symbol": "F+",
+        "construction_id": "CXN_FACE_REPORT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "F",
+            "class_id": "CLS_LOC_FACE",
+            "gloss": "faces"
+          },
+          {
+            "form": "+",
+            "class_id": "CLS_FACE_STATE",
+            "gloss": "bright"
+          }
+        ]
+      },
+      {
+        "symbol": "Ff",
+        "construction_id": "CXN_FACE_REPORT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "F",
+            "class_id": "CLS_LOC_FACE",
+            "gloss": "faces"
+          },
+          {
+            "form": "f",
+            "class_id": "CLS_FACE_STATE",
+            "gloss": "frozen"
+          }
+        ]
+      },
+      {
+        "symbol": "H!",
+        "construction_id": "CXN_HUM_REPORT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "H",
+            "class_id": "CLS_AUDIO_DOMAIN",
+            "gloss": "hum/audio"
+          },
+          {
+            "form": "!",
+            "class_id": "CLS_HUM_STATE",
+            "gloss": "layered"
+          }
+        ]
+      },
+      {
+        "symbol": "H?",
+        "construction_id": "CXN_HUM_REPORT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "H",
+            "class_id": "CLS_AUDIO_DOMAIN",
+            "gloss": "hum/audio"
+          },
+          {
+            "form": "?",
+            "class_id": "CLS_HUM_STATE",
+            "gloss": "irregular"
+          }
+        ]
+      },
+      {
+        "symbol": "Hw",
+        "construction_id": "CXN_HUM_REPORT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "H",
+            "class_id": "CLS_AUDIO_DOMAIN",
+            "gloss": "hum/audio"
+          },
+          {
+            "form": "w",
+            "class_id": "CLS_HUM_STATE",
+            "gloss": "wavering pitch"
+          }
+        ]
+      },
+      {
+        "symbol": "H-",
+        "construction_id": "CXN_HUM_REPORT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "H",
+            "class_id": "CLS_AUDIO_DOMAIN",
+            "gloss": "hum/audio"
+          },
+          {
+            "form": "-",
+            "class_id": "CLS_HUM_STATE",
+            "gloss": "thin/hollow"
+          }
+        ]
+      },
+      {
+        "symbol": "H0",
+        "construction_id": "CXN_HUM_REPORT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "H",
+            "class_id": "CLS_AUDIO_DOMAIN",
+            "gloss": "hum/audio"
+          },
+          {
+            "form": "0",
+            "class_id": "CLS_HUM_STATE",
+            "gloss": "absent"
+          }
+        ]
+      },
+      {
+        "symbol": "Hq",
+        "construction_id": "CXN_HUM_REPORT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "H",
+            "class_id": "CLS_AUDIO_DOMAIN",
+            "gloss": "hum/audio"
+          },
+          {
+            "form": "q",
+            "class_id": "CLS_HUM_STATE",
+            "gloss": "quiet"
+          }
+        ]
+      },
+      {
+        "symbol": "Hr",
+        "construction_id": "CXN_HUM_REPORT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "H",
+            "class_id": "CLS_AUDIO_DOMAIN",
+            "gloss": "hum/audio"
+          },
+          {
+            "form": "r",
+            "class_id": "CLS_HUM_STATE",
+            "gloss": "rumble"
+          }
+        ]
+      },
+      {
+        "symbol": "Hz",
+        "construction_id": "CXN_HUM_REPORT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "H",
+            "class_id": "CLS_AUDIO_DOMAIN",
+            "gloss": "hum/audio"
+          },
+          {
+            "form": "z",
+            "class_id": "CLS_HUM_STATE",
+            "gloss": "buzz"
+          }
+        ]
+      },
+      {
+        "symbol": "T+",
+        "construction_id": "CXN_TEMP_REPORT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "T",
+            "class_id": "CLS_TEMP_DOMAIN",
+            "gloss": "temperature"
+          },
+          {
+            "form": "+",
+            "class_id": "CLS_TEMP_STATE",
+            "gloss": "hot"
+          }
+        ]
+      },
+      {
+        "symbol": "T-",
+        "construction_id": "CXN_TEMP_REPORT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "T",
+            "class_id": "CLS_TEMP_DOMAIN",
+            "gloss": "temperature"
+          },
+          {
+            "form": "-",
+            "class_id": "CLS_TEMP_STATE",
+            "gloss": "cold"
+          }
+        ]
+      },
+      {
+        "symbol": "Pm",
+        "construction_id": "CXN_PATTERN_REPORT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "P",
+            "class_id": "CLS_PATTERN_DOMAIN",
+            "gloss": "patterns"
+          },
+          {
+            "form": "m",
+            "class_id": "CLS_PATTERN_STATE",
+            "gloss": "moving/sliding"
+          }
+        ]
+      },
+      {
+        "symbol": "Ps",
+        "construction_id": "CXN_PATTERN_REPORT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "P",
+            "class_id": "CLS_PATTERN_DOMAIN",
+            "gloss": "patterns"
+          },
+          {
+            "form": "s",
+            "class_id": "CLS_PATTERN_STATE",
+            "gloss": "still/static"
+          }
+        ]
+      },
+      {
+        "symbol": "Pf",
+        "construction_id": "CXN_PATTERN_REPORT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "P",
+            "class_id": "CLS_PATTERN_DOMAIN",
+            "gloss": "patterns"
+          },
+          {
+            "form": "f",
+            "class_id": "CLS_PATTERN_STATE",
+            "gloss": "frozen/stopped"
+          }
+        ]
+      },
+      {
+        "symbol": "Palt",
+        "construction_id": "CXN_PATTERN_REPORT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "P",
+            "class_id": "CLS_PATTERN_DOMAIN",
+            "gloss": "patterns"
+          },
+          {
+            "form": "alt",
+            "class_id": "CLS_PATTERN_STATE",
+            "gloss": "alternating"
+          }
+        ]
+      },
+      {
+        "symbol": "K+",
+        "construction_id": "CXN_MESSAGE_FOLLOWUP",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "K",
+            "class_id": "CLS_MESSAGE_BASE",
+            "gloss": "okay/done"
+          },
+          {
+            "form": "+",
+            "class_id": "CLS_FOLLOWUP",
+            "gloss": "new codes/symptoms follow"
+          }
+        ]
+      },
+      {
+        "symbol": "ok+",
+        "construction_id": "CXN_MESSAGE_FOLLOWUP",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "ok",
+            "class_id": "CLS_MESSAGE_BASE",
+            "gloss": "phase done"
+          },
+          {
+            "form": "+",
+            "class_id": "CLS_FOLLOWUP",
+            "gloss": "new codes/symptoms follow"
+          }
+        ]
+      },
+      {
+        "symbol": "wrong+",
+        "construction_id": "CXN_MESSAGE_FOLLOWUP",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "wrong",
+            "class_id": "CLS_MESSAGE_BASE",
+            "gloss": "instruction had no effect"
+          },
+          {
+            "form": "+",
+            "class_id": "CLS_FOLLOWUP",
+            "gloss": "new codes/symptoms follow"
+          }
+        ]
+      }
+    ]
+  }
+}

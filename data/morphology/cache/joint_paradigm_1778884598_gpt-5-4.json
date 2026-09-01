@@ -1,0 +1,515 @@
+{
+  "grammar": {
+    "run_key": "veyru/1778884598",
+    "slots": [
+      {
+        "role": "prefix",
+        "fillers": [
+          {
+            "form": "br",
+            "gloss": "bright",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "cold",
+            "gloss": "cold",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "dim",
+            "gloss": "dim",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "hot",
+            "gloss": "hot",
+            "support": 1,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "F",
+            "gloss": "face",
+            "support": 4,
+            "is_defined": false
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "ok": [
+        "ok"
+      ],
+      "fail": [
+        "fail"
+      ],
+      "+": [
+        "+"
+      ],
+      "F1": [
+        "F1"
+      ],
+      "F2": [
+        "F2"
+      ],
+      "F3": [
+        "F3"
+      ],
+      "F4": [
+        "F4"
+      ],
+      "F5": [
+        "F5"
+      ],
+      "F6": [
+        "F6"
+      ],
+      "br": [
+        "br"
+      ],
+      "opp": [
+        "opp"
+      ],
+      "adj": [
+        "adj"
+      ],
+      "U": [
+        "U"
+      ],
+      "D": [
+        "D"
+      ],
+      "N": [
+        "N"
+      ],
+      "S": [
+        "S"
+      ],
+      "E": [
+        "E"
+      ],
+      "W": [
+        "W"
+      ],
+      "bell": [
+        "bell"
+      ],
+      "stone": [
+        "stone"
+      ],
+      "fan": [
+        "fan"
+      ],
+      "cloth": [
+        "cloth"
+      ],
+      "board": [
+        "board"
+      ],
+      "lamp": [
+        "lamp"
+      ],
+      "brF": [
+        "br",
+        "F"
+      ],
+      "coldF": [
+        "cold",
+        "F"
+      ],
+      "hotF": [
+        "hot",
+        "F"
+      ],
+      "dimF": [
+        "dim",
+        "F"
+      ],
+      "all6": [
+        "all6"
+      ],
+      "hum": [
+        "hum"
+      ],
+      "voice": [
+        "voice"
+      ],
+      "tap": [
+        "tap"
+      ],
+      "trace": [
+        "trace"
+      ],
+      "rest": [
+        "rest"
+      ],
+      "press": [
+        "press"
+      ]
+    },
+    "head_index": {
+      "ok": 0,
+      "fail": 0,
+      "+": 0,
+      "F1": 0,
+      "F2": 0,
+      "F3": 0,
+      "F4": 0,
+      "F5": 0,
+      "F6": 0,
+      "br": 0,
+      "opp": 0,
+      "adj": 0,
+      "U": 0,
+      "D": 0,
+      "N": 0,
+      "S": 0,
+      "E": 0,
+      "W": 0,
+      "bell": 0,
+      "stone": 0,
+      "fan": 0,
+      "cloth": 0,
+      "board": 0,
+      "lamp": 0,
+      "brF": 1,
+      "coldF": 1,
+      "hotF": 1,
+      "dimF": 1,
+      "all6": 0,
+      "hum": 0,
+      "voice": 0,
+      "tap": 0,
+      "trace": 0,
+      "rest": 0,
+      "press": 0
+    },
+    "attested_orderings": [
+      [
+        "prefix",
+        "stem"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [],
+    "form_positions": {
+      "br": 0,
+      "cold": 0,
+      "hot": 0,
+      "dim": 0,
+      "F": 1
+    },
+    "position_labels": {
+      "0": "FACE_PROPERTY",
+      "1": "FACE_BASE"
+    },
+    "positions_by_symbol": {
+      "brF": [
+        0,
+        1
+      ],
+      "coldF": [
+        0,
+        1
+      ],
+      "hotF": [
+        0,
+        1
+      ],
+      "dimF": [
+        0,
+        1
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "br": "bright",
+        "cold": "cold",
+        "hot": "hot",
+        "dim": "dim"
+      },
+      "1": {
+        "F": "face"
+      }
+    },
+    "meaning_by_symbol": {
+      "ok": "instruction executed successfully",
+      "fail": "instruction failed",
+      "+": "new symptoms follow",
+      "F1": "face 1",
+      "F2": "face 2",
+      "F3": "face 3",
+      "F4": "face 4",
+      "F5": "face 5",
+      "F6": "face 6",
+      "br": "bright",
+      "opp": "opposite",
+      "adj": "adjacent",
+      "U": "up orientation",
+      "D": "down orientation",
+      "N": "north orientation",
+      "S": "south orientation",
+      "E": "east orientation",
+      "W": "west orientation",
+      "bell": "bell tool",
+      "stone": "stone tool",
+      "fan": "hand fan air",
+      "cloth": "cloth tool",
+      "board": "board tool",
+      "lamp": "lamp held still",
+      "brF": "bright face",
+      "coldF": "cold face",
+      "hotF": "hot face",
+      "dimF": "dim face",
+      "all6": "all faces",
+      "hum": "voice tone, \"tap\"/\"trace\" = finger",
+      "voice": "voice tone",
+      "tap": "finger tap",
+      "trace": "finger trace",
+      "rest": "set down with no press",
+      "press": "firm contact"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1778884598",
+    "n_codes": 35,
+    "n_multimorpheme": 4,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "prefix",
+        "label": "FACE_PROPERTY",
+        "fillers": [
+          {
+            "form": "br",
+            "gloss": "bright",
+            "count": 1
+          },
+          {
+            "form": "cold",
+            "gloss": "cold",
+            "count": 1
+          },
+          {
+            "form": "dim",
+            "gloss": "dim",
+            "count": 1
+          },
+          {
+            "form": "hot",
+            "gloss": "hot",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 4,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "stem",
+        "label": "FACE_BASE",
+        "fillers": [
+          {
+            "form": "F",
+            "gloss": "face",
+            "count": 4
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 4,
+        "possible_combos": 4,
+        "saturation": 1.0
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "brF": [
+        "pos0",
+        "pos1"
+      ],
+      "coldF": [
+        "pos0",
+        "pos1"
+      ],
+      "hotF": [
+        "pos0",
+        "pos1"
+      ],
+      "dimF": [
+        "pos0",
+        "pos1"
+      ]
+    },
+    "construction_by_symbol": {
+      "brF": "K1",
+      "coldF": "K1",
+      "hotF": "K1",
+      "dimF": "K1"
+    },
+    "construction_labels": {
+      "K1": "PropertyFace"
+    },
+    "construction_templates": {
+      "K1": [
+        "pos0",
+        "pos1"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "Only one defensible compositional paradigm is supported. The forms brF, coldF, hotF, and dimF show a clear substitution set in the shared frame _ + F, where the first slot contributes a property ('bright'/'cold'/'hot'/'dim') and F contributes 'face'. Their whole meanings are predictable from the parts. The suggested ce and fa families fail the semantic-consistency and shared-frame tests, and F1–F6 are best treated as opaque indexed lexemes rather than F + numeral.",
+    "lexical_symbols": [
+      "ok",
+      "fail",
+      "+",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "br",
+      "opp",
+      "adj",
+      "U",
+      "D",
+      "N",
+      "S",
+      "E",
+      "W",
+      "bell",
+      "stone",
+      "fan",
+      "cloth",
+      "board",
+      "lamp",
+      "all6",
+      "hum",
+      "voice",
+      "tap",
+      "trace",
+      "rest",
+      "press"
+    ],
+    "classes": [
+      {
+        "class_id": "C1",
+        "label": "FACE_PROPERTY",
+        "description": "Property applied to a face.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "C2",
+        "label": "FACE_BASE",
+        "description": "Base denoting 'face' in property+face compounds.",
+        "repeatable": false,
+        "declared_fillers": []
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "K1",
+        "label": "PropertyFace",
+        "description": "A face specified by a property.",
+        "class_sequence": [
+          "C1",
+          "C2"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "brF",
+        "construction_id": "K1",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "br",
+            "class_id": "C1",
+            "gloss": "bright"
+          },
+          {
+            "form": "F",
+            "class_id": "C2",
+            "gloss": "face"
+          }
+        ]
+      },
+      {
+        "symbol": "coldF",
+        "construction_id": "K1",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "cold",
+            "class_id": "C1",
+            "gloss": "cold"
+          },
+          {
+            "form": "F",
+            "class_id": "C2",
+            "gloss": "face"
+          }
+        ]
+      },
+      {
+        "symbol": "hotF",
+        "construction_id": "K1",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "hot",
+            "class_id": "C1",
+            "gloss": "hot"
+          },
+          {
+            "form": "F",
+            "class_id": "C2",
+            "gloss": "face"
+          }
+        ]
+      },
+      {
+        "symbol": "dimF",
+        "construction_id": "K1",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "dim",
+            "class_id": "C1",
+            "gloss": "dim"
+          },
+          {
+            "form": "F",
+            "class_id": "C2",
+            "gloss": "face"
+          }
+        ]
+      }
+    ]
+  }
+}

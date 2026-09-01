@@ -1,0 +1,23 @@
+{
+  "item_id": "opaque_index_vs_literal_count",
+  "phenomenon": "opaque procedure indices stay lexical; literal counts segment",
+  "notes": "Both halves of the prompt's OPAQUE INDEX TEST in one item. The P-family numerals select unrelated stored procedures and contribute no quantity, so P1..P4 are whole lexemes; the x-family numerals contribute their literal count, so x3/x5/x8 are OPERATOR + COUNT. Segmenting P* fails precision, leaving x3 whole fails recall. Sized so the degradation gate cannot rescue a wrong answer: four segmented P-codes is well past the two-code threshold.",
+  "codebook": {
+    "P1": "shim the left bracket",
+    "P2": "purge the coolant line",
+    "P3": "reseat the upper clamp",
+    "P4": "vent the housing",
+    "x3": "repeat the previous step three times",
+    "x5": "repeat the previous step five times",
+    "x8": "repeat the previous step eight times"
+  },
+  "gold": {
+    "P1": null,
+    "P2": null,
+    "P3": null,
+    "P4": null,
+    "x3": "x=OPERATOR:repeat the previous step + 3=COUNT:three times",
+    "x5": "x=OPERATOR:repeat the previous step + 5=COUNT:five times",
+    "x8": "x=OPERATOR:repeat the previous step + 8=COUNT:eight times"
+  }
+}

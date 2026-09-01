@@ -1,0 +1,13 @@
+{
+  "per_slot": {},
+  "stackable": [
+    [
+      "+opp",
+      "and the opposite face"
+    ],
+    [
+      "@firm",
+      "apply with firm intensity; if not stated, firm intensity is assumed by default"
+    ]
+  ]
+}

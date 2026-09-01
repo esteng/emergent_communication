@@ -1,0 +1,1000 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780437719",
+    "slots": [
+      {
+        "role": "prefix",
+        "fillers": [
+          {
+            "form": "B",
+            "gloss": "board",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "K",
+            "gloss": "bell",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "S",
+            "gloss": "stone",
+            "support": 1,
+            "is_defined": true
+          }
+        ]
+      },
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "-trace",
+            "gloss": "trace",
+            "support": 3,
+            "is_defined": false
+          },
+          {
+            "form": "x",
+            "gloss": "repeat",
+            "support": 2,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "suffix",
+        "fillers": [
+          {
+            "form": "2",
+            "gloss": "two times",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "3",
+            "gloss": "three times",
+            "support": 1,
+            "is_defined": false
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "HC": [
+        "HC"
+      ],
+      "BR": [
+        "BR"
+      ],
+      "AC": [
+        "AC"
+      ],
+      "DR": [
+        "DR"
+      ],
+      "ES": [
+        "ES"
+      ],
+      "LK": [
+        "LK"
+      ],
+      "LI": [
+        "LI"
+      ],
+      "HI": [
+        "HI"
+      ],
+      "PI": [
+        "PI"
+      ],
+      "RC": [
+        "RC"
+      ],
+      "CD": [
+        "CD"
+      ],
+      "BS": [
+        "BS"
+      ],
+      "PS": [
+        "PS"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "TB": [
+        "TB"
+      ],
+      "CV": [
+        "CV"
+      ],
+      "B": [
+        "B"
+      ],
+      "L": [
+        "L"
+      ],
+      "F": [
+        "F"
+      ],
+      "C": [
+        "C"
+      ],
+      "S": [
+        "S"
+      ],
+      "K": [
+        "K"
+      ],
+      "T": [
+        "T"
+      ],
+      "t": [
+        "t"
+      ],
+      "bo": [
+        "bo"
+      ],
+      "n": [
+        "n"
+      ],
+      "s": [
+        "s"
+      ],
+      "e": [
+        "e"
+      ],
+      "w": [
+        "w"
+      ],
+      "all": [
+        "all"
+      ],
+      "opp": [
+        "opp"
+      ],
+      "pairs": [
+        "pairs"
+      ],
+      "all-pairs": [
+        "all-pairs"
+      ],
+      "lo": [
+        "lo"
+      ],
+      "md": [
+        "md"
+      ],
+      "hi": [
+        "hi"
+      ],
+      "?": [
+        "?"
+      ],
+      "+hi": [
+        "+hi"
+      ],
+      "5": [
+        "5"
+      ],
+      "trace": [
+        "trace"
+      ],
+      "K-trace": [
+        "K",
+        "-trace"
+      ],
+      "B-trace": [
+        "B",
+        "-trace"
+      ],
+      "S-trace": [
+        "S",
+        "-trace"
+      ],
+      "cnrs": [
+        "cnrs"
+      ],
+      "edgs": [
+        "edgs"
+      ],
+      "seq": [
+        "seq"
+      ],
+      "x2": [
+        "x",
+        "2"
+      ],
+      "x3": [
+        "x",
+        "3"
+      ]
+    },
+    "head_index": {
+      "HC": 0,
+      "BR": 0,
+      "AC": 0,
+      "DR": 0,
+      "ES": 0,
+      "LK": 0,
+      "LI": 0,
+      "HI": 0,
+      "PI": 0,
+      "RC": 0,
+      "CD": 0,
+      "BS": 0,
+      "PS": 0,
+      "HS": 0,
+      "TB": 0,
+      "CV": 0,
+      "B": 0,
+      "L": 0,
+      "F": 0,
+      "C": 0,
+      "S": 0,
+      "K": 0,
+      "T": 0,
+      "t": 0,
+      "bo": 0,
+      "n": 0,
+      "s": 0,
+      "e": 0,
+      "w": 0,
+      "all": 0,
+      "opp": 0,
+      "pairs": 0,
+      "all-pairs": 0,
+      "lo": 0,
+      "md": 0,
+      "hi": 0,
+      "?": 0,
+      "+hi": 0,
+      "5": 0,
+      "trace": 0,
+      "K-trace": 1,
+      "B-trace": 1,
+      "S-trace": 1,
+      "cnrs": 0,
+      "edgs": 0,
+      "seq": 0,
+      "x2": 0,
+      "x3": 0
+    },
+    "attested_orderings": [
+      [
+        "prefix",
+        "stem"
+      ],
+      [
+        "stem",
+        "suffix"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [
+      {
+        "stem": "AC",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "AC+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "B",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "B+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "BR",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "BR+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "BS",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "BS+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "C",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "C+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "CD",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "CD+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "CV",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "CV+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "DR",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "DR+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "ES",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "ES+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "F",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "F+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "HC",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "HC+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "HI",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "HI+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "HS",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "HS+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "K",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "K+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "L",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "L+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "LI",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "LI+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "LK",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "LK+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "PI",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "PI+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "PS",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "PS+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "RC",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "RC+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "S",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "S+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "T",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "T+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "TB",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "TB+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "all",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "all+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "bo",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "bo+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "cnrs",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "cnrs+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "e",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "e+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "edgs",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "edgs+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "lo",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "lo+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "md",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "md+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "n",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "n+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "opp",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "opp+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "pairs",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "pairs+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "s",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "s+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "seq",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "seq+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "t",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "t+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "trace",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "trace+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "w",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "w+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "x2",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "x2+hi",
+        "delimiter": "+"
+      },
+      {
+        "stem": "x3",
+        "affix": "+hi",
+        "role": "suffix",
+        "form": "x3+hi",
+        "delimiter": "+"
+      }
+    ],
+    "form_positions": {
+      "K": 0,
+      "B": 0,
+      "S": 0,
+      "-trace": 1,
+      "x": 2,
+      "2": 3,
+      "3": 3
+    },
+    "position_labels": {
+      "0": "instrument",
+      "1": "trace action",
+      "2": "repeat operator",
+      "3": "count"
+    },
+    "positions_by_symbol": {
+      "K-trace": [
+        0,
+        1
+      ],
+      "B-trace": [
+        0,
+        1
+      ],
+      "S-trace": [
+        0,
+        1
+      ],
+      "x2": [
+        2,
+        3
+      ],
+      "x3": [
+        2,
+        3
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "K": "bell",
+        "B": "board",
+        "S": "stone"
+      },
+      "1": {
+        "-trace": "trace"
+      },
+      "2": {
+        "x": "repeat"
+      },
+      "3": {
+        "2": "two times",
+        "3": "three times"
+      }
+    },
+    "meaning_by_symbol": {
+      "HC": "hot corners and ticking",
+      "BR": "too bright, layered hum, frozen faces",
+      "AC": "align collapse, chaotic flicker, broken hum",
+      "DR": "drift, sliding light, blurred edges, wavering pitch",
+      "ES": "echo, too bright, layered hum, frozen faces",
+      "LK": "leak, dim corners or edges, fading perimeter",
+      "LI": "low intensity, dim all, whisper hum",
+      "HI": "high intensity, blazing, harsh buzz, hot",
+      "PI": "phase inversion, opposite faces pulsing alternately",
+      "RC": "resonance, one face very bright, whine",
+      "CD": "corner deadlock, 1 to 2 corners bright and ticking",
+      "BS": "boundary soft, wobbly edges, bulging",
+      "PS": "prop stall, frozen dim, silent, cold",
+      "HS": "harmonic split, clashing tones, 2 patterns",
+      "TB": "thermal bleed, hot and dim, rumble, reddish",
+      "CV": "core void, hollow tap, dark center",
+      "B": "board",
+      "L": "lamp",
+      "F": "fan",
+      "C": "cloth",
+      "S": "stone",
+      "K": "bell",
+      "T": "tone",
+      "t": "top face",
+      "bo": "same action as before, but bottom face instead",
+      "n": "north face",
+      "s": "south face",
+      "e": "east face",
+      "w": "west face",
+      "all": "same action as before, but all corners, not just top",
+      "opp": "opposite faces",
+      "pairs": "face-pairs",
+      "all-pairs": "all face-pairs",
+      "lo": "low intensity",
+      "md": "moderate intensity",
+      "hi": "high intensity",
+      "?": "I am unsure of the code from your report; ask for clarification",
+      "+hi": "same action as before, but high intensity",
+      "5": "Rotate+tone: \"Rotate Veyru slowly 10s while sounding firm tone near opposite faces, from top",
+      "trace": "trace with bare finger",
+      "K-trace": "trace with bell",
+      "B-trace": "trace with board",
+      "S-trace": "trace with stone",
+      "cnrs": "corners",
+      "edgs": "edges",
+      "seq": "in sequence",
+      "x2": "twice",
+      "x3": "three times"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780437719",
+    "n_codes": 48,
+    "n_multimorpheme": 5,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "prefix",
+        "label": "instrument",
+        "fillers": [
+          {
+            "form": "B",
+            "gloss": "board",
+            "count": 1
+          },
+          {
+            "form": "K",
+            "gloss": "bell",
+            "count": 1
+          },
+          {
+            "form": "S",
+            "gloss": "stone",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 3,
+        "obligatoriness": 0.6,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "stem",
+        "label": "trace action",
+        "fillers": [
+          {
+            "form": "-trace",
+            "gloss": "trace",
+            "count": 3
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.6,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos2",
+        "role": "stem",
+        "label": "repeat operator",
+        "fillers": [
+          {
+            "form": "x",
+            "gloss": "repeat",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.4,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos3",
+        "role": "suffix",
+        "label": "count",
+        "fillers": [
+          {
+            "form": "2",
+            "gloss": "two times",
+            "count": 1
+          },
+          {
+            "form": "3",
+            "gloss": "three times",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.4,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 3,
+        "possible_combos": 3,
+        "saturation": 1.0
+      },
+      {
+        "slot_a": "pos2",
+        "slot_b": "pos3",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ],
+      [
+        "pos2",
+        "pos3"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "K-trace": [
+        "pos0",
+        "pos1"
+      ],
+      "B-trace": [
+        "pos0",
+        "pos1"
+      ],
+      "S-trace": [
+        "pos0",
+        "pos1"
+      ],
+      "x2": [
+        "pos2",
+        "pos3"
+      ],
+      "x3": [
+        "pos2",
+        "pos3"
+      ]
+    },
+    "construction_by_symbol": {
+      "K-trace": "CX_INSTRUMENT_TRACE",
+      "B-trace": "CX_INSTRUMENT_TRACE",
+      "S-trace": "CX_INSTRUMENT_TRACE",
+      "x2": "CX_REPEAT_COUNT",
+      "x3": "CX_REPEAT_COUNT"
+    },
+    "construction_labels": {
+      "CX_INSTRUMENT_TRACE": "instrument + trace",
+      "CX_REPEAT_COUNT": "repeat + count"
+    },
+    "construction_templates": {
+      "CX_INSTRUMENT_TRACE": [
+        "pos0",
+        "pos1"
+      ],
+      "CX_REPEAT_COUNT": [
+        "pos2",
+        "pos3"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "Most symbols are best treated as opaque lexical items: the two-letter fault/state codes do not show recurring substrings with stable, compositional meanings, and several standalone symbols explicitly mean whole stored procedures or context-dependent instructions ('same action as before'), which fails the productive paradigm test. Two small paradigms are defensible. First, K-trace/B-trace/S-trace form a clear shared frame __-trace with contrasting instrument fillers whose meanings match the whole-code contrasts; standalone trace remains lexical because no nonempty two-morpheme segmentation is supported for it. Second, x2/x3 support x + COUNT because the numeral contributes literal repetition count in the same frame. Candidate 'rs' and 'al' families are rejected: their residues do not form a coherent substitution class with predictable meanings.",
+    "lexical_symbols": [
+      "HC",
+      "BR",
+      "AC",
+      "DR",
+      "ES",
+      "LK",
+      "LI",
+      "HI",
+      "PI",
+      "RC",
+      "CD",
+      "BS",
+      "PS",
+      "HS",
+      "TB",
+      "CV",
+      "B",
+      "L",
+      "F",
+      "C",
+      "S",
+      "K",
+      "T",
+      "t",
+      "bo",
+      "n",
+      "s",
+      "e",
+      "w",
+      "all",
+      "opp",
+      "pairs",
+      "all-pairs",
+      "lo",
+      "md",
+      "hi",
+      "?",
+      "+hi",
+      "5",
+      "trace",
+      "cnrs",
+      "edgs",
+      "seq"
+    ],
+    "classes": [
+      {
+        "class_id": "CLS_INSTRUMENT",
+        "label": "instrument",
+        "description": "Instrument used to perform the tracing action in the __-trace frame.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CLS_TRACE_ACTION",
+        "label": "trace action",
+        "description": "Tracing action suffix in instrument-specific trace codes.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CLS_REPEAT_OP",
+        "label": "repeat operator",
+        "description": "Prefix indicating repetition/counting operation.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CLS_COUNT",
+        "label": "count",
+        "description": "Literal repetition count in the x_ frame.",
+        "repeatable": false,
+        "declared_fillers": []
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "CX_INSTRUMENT_TRACE",
+        "label": "instrument + trace",
+        "description": "An instrument morpheme followed by the trace action suffix.",
+        "class_sequence": [
+          "CLS_INSTRUMENT",
+          "CLS_TRACE_ACTION"
+        ]
+      },
+      {
+        "construction_id": "CX_REPEAT_COUNT",
+        "label": "repeat + count",
+        "description": "A repetition operator followed by a literal count.",
+        "class_sequence": [
+          "CLS_REPEAT_OP",
+          "CLS_COUNT"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "K-trace",
+        "construction_id": "CX_INSTRUMENT_TRACE",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "K",
+            "class_id": "CLS_INSTRUMENT",
+            "gloss": "bell"
+          },
+          {
+            "form": "-trace",
+            "class_id": "CLS_TRACE_ACTION",
+            "gloss": "trace"
+          }
+        ]
+      },
+      {
+        "symbol": "B-trace",
+        "construction_id": "CX_INSTRUMENT_TRACE",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "B",
+            "class_id": "CLS_INSTRUMENT",
+            "gloss": "board"
+          },
+          {
+            "form": "-trace",
+            "class_id": "CLS_TRACE_ACTION",
+            "gloss": "trace"
+          }
+        ]
+      },
+      {
+        "symbol": "S-trace",
+        "construction_id": "CX_INSTRUMENT_TRACE",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "S",
+            "class_id": "CLS_INSTRUMENT",
+            "gloss": "stone"
+          },
+          {
+            "form": "-trace",
+            "class_id": "CLS_TRACE_ACTION",
+            "gloss": "trace"
+          }
+        ]
+      },
+      {
+        "symbol": "x2",
+        "construction_id": "CX_REPEAT_COUNT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "x",
+            "class_id": "CLS_REPEAT_OP",
+            "gloss": "repeat"
+          },
+          {
+            "form": "2",
+            "class_id": "CLS_COUNT",
+            "gloss": "two times"
+          }
+        ]
+      },
+      {
+        "symbol": "x3",
+        "construction_id": "CX_REPEAT_COUNT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "x",
+            "class_id": "CLS_REPEAT_OP",
+            "gloss": "repeat"
+          },
+          {
+            "form": "3",
+            "class_id": "CLS_COUNT",
+            "gloss": "three times"
+          }
+        ]
+      }
+    ]
+  }
+}

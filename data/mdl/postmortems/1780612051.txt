@@ -1,0 +1,36 @@
+[ENG] Use shortest possible relay: symptom→motif→exact procedure only. Leak cue = dim corners + fading edges/perimeter loss + hollow edge hum. I’ll keep replies as bare procedure text.
+[OBS] Got it. I’ll report bare cues only. If this pattern repeats, I’ll send “LC?” for dim corners + fading edges/perimeter + hollow edge hum.
+[ENG] Good. I’ll interpret LC? as that leak pattern and answer with procedure only.
+[ENG] Round 2 cue: frozen dim/still + silent + cold + no response = PS. If you send “PS?” I’ll return exact procedure only.
+[OBS] Understood. I’ll use PS? for that cue. Also, I won’t send completion text unless new symptoms appear.
+[ENG] Perfect.
+[ENG] Round 3 cue: hot all over + dim + low rumble + rough/gritty + reddish = TB. “TB?” is enough.
+[OBS] Got it: TB?. One note: if edge choice matters, please specify exact pair; “two adjacent edges near the back face” was a little ambiguous.
+[ENG] Use this default: “two adjacent edges near the [face]” = any pair of edges that meet at one corner of that named face. I’ll keep live link replies verbatim, but if needed you can apply that rule.
+[OBS] R4 collapsed after secondary symptom report. Need shorthand for “one face overbright + local vibration + high whine; others normal,” and maybe no question mark / no extra words when a new symptom appears.
+[ENG] Yes: no question mark, no extra words. That symptom = RC. From next round, send only motif code: LC PS TB RC CD LI HI AC DE ES PI BS HS CV. If a step reveals a new issue, send only the new code.
+[OBS] Understood: code only, no extras. I know LC/PS/TB/RC. Please post the observation cues for the other codes so I can recognize them.
+[ENG] Cues: AC=random face flicker + broken hum. DE=light slides/drifts + blurred edges + wavering pitch. ES=too bright + layered hum + frozen bright patterns. LI=dim overall + barely audible hum. HI=blazing white + harsh buzz + heat. PI=opposite faces pulse bright/dark in strict rhythm + two-tone sync. CD=1–2 corners overbright + clicking/ticking + corner heat. BS=wobbly/flexing edges + bulging faces + muffled hum. HS=2+ clashing tones + alternating patterns + shimmering edges. CV=surface looks normal but hollow tap + dark center against external light.
+[OBS] We’re still losing on your live-link procedure length. Can we predefine procedure codes (P1, P2...) with exact actions/parameters, so live replies are just a short code after I send motif code?
+[ENG] Yes. Exact parameters vary each round, so use template code + face/intensity/seconds. Live reply form: Pn-F-I-S. Faces: T top, B back, D bottom. Intensity: g gentle, f firm. Example: P4-T-g-10. Templates: P1=tone all 6 faces, start face, hold S, let fade. P2=bell alternate opposite faces, pause S, 5 cycles. P3=cloth on 2 adjacent edges near face for S, then bell x3 near face. P4=warm each corner of face for S, then trace its edges. P5=warm stone beside face for S, rotate each face. P6=cool cloth whole for S, then fan face + opposite for S. P7=dim lamp on face + bright lamp on opposite for S. P8=folded cloth on face for S, then bell each edge x2. P9=at each corner: brief bell, then warm 2 meeting edges for S. P10=board on face for S, rotate each face-pair. P11=bell center of each face once from start face, then warm stone beside for S. P12=soft surface, face up, rest for S. P13=cool cloth whole for S, then fan all faces for S from start face. P14=rotate over S with steady tone near opposite faces, then bell each corner.
+[OBS] Good. I can use Pn-F-I-S. Need full face keys for all 6 faces (front/left/right too), not just T/B/D.
+[ENG] Use 2-letter face keys to avoid conflict: Tp=top, Bt=bottom, Bk=back, Fr=front, Lf=left, Rt=right. Live form becomes Pn-Face-I-S, e.g. P4-Tp-g-10 or P3-Bk-f-20.
+[OBS] P-codes worked great. One gap: I got “m” in P9-Bk-m-5; please define all intensity letters you might use.
+[ENG] Intensity keys: g=gentle, m=moderate, f=firm.
+[ENG] We lost to the extra clarification loop. Need to know why P6 failed. Did the code itself confuse you, or did you execute it and the symptoms truly stay CD? If a P-code fails, we need a shorter recovery protocol than asking for raw cues.
+[OBS] I understood P6 and executed it twice. Symptoms still looked CD. Suggest rule: if I resend the same motif code immediately after a P-code, interpret it as “procedure executed; symptoms persist” and send an alternate P-code. Also please avoid words like “raw/full cues” on link.
+[ENG] Good rule. New link syntax: if my P-code is executed and the same issue remains, send CODE! (or CODE/SECOND if another cue appears). I’ll answer with one fallback P-code only. Fallback pairs I’ll use: LC↔LI, ES↔HI, RC↔CD, AC↔HS, DE↔BS. PI! will fall back to HS; HS! will fall back to PI. PS/TB/CV repeating means I’ll resend the same P-code unless you add /SECOND. For today’s miss: CD! would have made me try the RC procedure next.
+[ENG] Round 8 saved by full prose after P13/P7 failed. Did P13 fail because the codebook shorthand was unclear, or did you execute it correctly and it still looked like DE? If some P-codes are too lossy, I need to know which ones.
+[OBS] P13 was unclear: I read its second 8s as per face, not one 8s pass total. P7 seemed clear enough. Any template with “all faces for S” should say “one S-second pass total” or “S each face.”
+[ENG] Good catch. Duration semantics for P-codes: unless I say “each,” S is total, not per face. So P6 = cloth S total, then one S-second fan pass total across the named face + opposite. P13 = cloth S total, then one S-second fan pass total across all six faces. P4 = S at each corner. P5 = S at each face. P9 = S at each corner (covering the two meeting edges at that corner). P10 = S at each face-pair. P14 = rotation lasts S total.
+[ENG] Round 9 confirms the compact system works well for serial multi-failures when the P-code is unambiguous.
+[OBS] Agreed. Please confirm P11 = bell centers of all faces once from start face, then heated stone beside the Veyru for S total.
+[ENG] Confirmed: P11 = bell near the center of each face once, starting at the named face, then place a warm stone beside the Veyru for S total.
+[ENG] Round 10 stayed efficient: direct motif code → direct P-code handled a two-step chain cleanly.
+[ENG] Good three-step chain.
+[ENG] Round 12: P10 needed full prose before the symptom shifted. Likely another template where the repeat pattern is easy to misapply.
+[OBS] Yes—P10 was ambiguous. “Repeat for each face-pair” left me unsure whether to do one placement per opposite pair or both faces in each pair. Full prose fixed it. P5 felt clear enough.
+[ENG] Got it. Clarify P10 as: hold board against one face of a face-pair for S, then the opposite face of that pair for S; repeat for the other two opposite pairs. I’ll treat P10 as a high-risk code like P13.
+[OBS] R13 stabilized, but P1/P14 are too lossy for me. “Tone all 6 faces / steady tone near opposite faces” is hard to map cleanly with one bell. Full prose was necessary.
+[ENG] Understood. New rule: P1, P10, P13, and P14 are high-risk. On link, if the mapped action is one of those, I’ll prefer full prose immediately unless the budget is already dangerously tight. I’ll keep compact P-codes for the clearer templates.
+[ENG] High-risk policy paid off there: full prose for P13, compact for the others, still under budget.

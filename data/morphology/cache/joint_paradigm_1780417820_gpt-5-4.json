@@ -1,0 +1,583 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780417820",
+    "slots": [
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "c4",
+            "gloss": "four corners",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "e4",
+            "gloss": "all edges",
+            "support": 1,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "suffix",
+        "fillers": [
+          {
+            "form": "(D)",
+            "gloss": "bottom face",
+            "support": 2,
+            "is_defined": false
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "R": [
+        "R"
+      ],
+      "L": [
+        "L"
+      ],
+      "U": [
+        "U"
+      ],
+      "D": [
+        "D"
+      ],
+      "F": [
+        "F"
+      ],
+      "B": [
+        "B"
+      ],
+      "OB": [
+        "OB"
+      ],
+      "LH": [
+        "LH"
+      ],
+      "FRZ": [
+        "FRZ"
+      ],
+      "Bk": [
+        "Bk"
+      ],
+      "b": [
+        "b"
+      ],
+      "t6": [
+        "t6"
+      ],
+      "ws": [
+        "ws"
+      ],
+      "cc": [
+        "cc"
+      ],
+      "cl": [
+        "cl"
+      ],
+      "fb": [
+        "fb"
+      ],
+      "bd": [
+        "bd"
+      ],
+      "fan": [
+        "fan"
+      ],
+      "dl": [
+        "dl"
+      ],
+      "bl": [
+        "bl"
+      ],
+      "opp": [
+        "opp"
+      ],
+      "c4": [
+        "c4"
+      ],
+      "e": [
+        "e"
+      ],
+      "rot": [
+        "rot"
+      ],
+      "mod": [
+        "mod"
+      ],
+      "ctr6": [
+        "ctr6"
+      ],
+      "a6": [
+        "a6"
+      ],
+      "rm": [
+        "rm"
+      ],
+      "nm": [
+        "nm"
+      ],
+      "ss": [
+        "ss"
+      ],
+      "fc": [
+        "fc"
+      ],
+      "mw": [
+        "mw"
+      ],
+      "ud": [
+        "ud"
+      ],
+      "x12": [
+        "x12"
+      ],
+      "Uc4": [
+        "Uc4"
+      ],
+      "e2": [
+        "e2"
+      ],
+      "f": [
+        "f"
+      ],
+      "c4(D)": [
+        "c4",
+        "(D)"
+      ],
+      "e4(D)": [
+        "e4",
+        "(D)"
+      ],
+      "seq": [
+        "seq"
+      ],
+      "C": [
+        "C"
+      ],
+      "O": [
+        "O"
+      ],
+      "l": [
+        "l"
+      ],
+      "V": [
+        "V"
+      ],
+      "P": [
+        "P"
+      ],
+      "W": [
+        "W"
+      ],
+      "S": [
+        "S"
+      ],
+      "D2": [
+        "D2"
+      ],
+      "A": [
+        "A"
+      ],
+      "t6sim(F,5)": [
+        "t6sim(F,5)"
+      ],
+      "toneopp(F,5)": [
+        "toneopp(F,5)"
+      ]
+    },
+    "head_index": {
+      "R": 0,
+      "L": 0,
+      "U": 0,
+      "D": 0,
+      "F": 0,
+      "B": 0,
+      "OB": 0,
+      "LH": 0,
+      "FRZ": 0,
+      "Bk": 0,
+      "b": 0,
+      "t6": 0,
+      "ws": 0,
+      "cc": 0,
+      "cl": 0,
+      "fb": 0,
+      "bd": 0,
+      "fan": 0,
+      "dl": 0,
+      "bl": 0,
+      "opp": 0,
+      "c4": 0,
+      "e": 0,
+      "rot": 0,
+      "mod": 0,
+      "ctr6": 0,
+      "a6": 0,
+      "rm": 0,
+      "nm": 0,
+      "ss": 0,
+      "fc": 0,
+      "mw": 0,
+      "ud": 0,
+      "x12": 0,
+      "Uc4": 0,
+      "e2": 0,
+      "f": 0,
+      "c4(D)": 0,
+      "e4(D)": 0,
+      "seq": 0,
+      "C": 0,
+      "O": 0,
+      "l": 0,
+      "V": 0,
+      "P": 0,
+      "W": 0,
+      "S": 0,
+      "D2": 0,
+      "A": 0,
+      "t6sim(F,5)": 0,
+      "toneopp(F,5)": 0
+    },
+    "attested_orderings": [
+      [
+        "stem",
+        "suffix"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [],
+    "form_positions": {
+      "c4": 0,
+      "e4": 0,
+      "(D)": 1
+    },
+    "position_labels": {
+      "0": "region on face",
+      "1": "parenthesized face"
+    },
+    "positions_by_symbol": {
+      "c4(D)": [
+        0,
+        1
+      ],
+      "e4(D)": [
+        0,
+        1
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "c4": "four corners",
+        "e4": "all edges"
+      },
+      "1": {
+        "(D)": "bottom face"
+      }
+    },
+    "meaning_by_symbol": {
+      "R": "right face",
+      "L": "the four corners are dim, the edges are fading, and the center is okay",
+      "U": "top face",
+      "D": "bottom face",
+      "F": "front face",
+      "B": "back face",
+      "OB": "overbright",
+      "LH": "layered hum",
+      "FRZ": "frozen, no change",
+      "Bk": "back face",
+      "b": "bell or chime",
+      "t6": "sustain tone at all 6 faces",
+      "ws": "warm stone",
+      "cc": "cool cloth",
+      "cl": "cloth",
+      "fb": "fold cloth",
+      "bd": "board",
+      "fan": "fan cool",
+      "dl": "dim lamp",
+      "bl": "bright lamp",
+      "opp": "opposite face",
+      "c4": "four corners",
+      "e": "edges",
+      "rot": "rotate",
+      "mod": "moderate",
+      "ctr6": "center of each of the 6 faces",
+      "a6": "all 6 faces",
+      "rm": "remove",
+      "nm": "no move",
+      "ss": "cloth on a soft surface",
+      "fc": "firm contact",
+      "mw": "moderate or firm warmth or brightness, depending on the round",
+      "ud": "undisturbed",
+      "x12": "repeat 12 times",
+      "Uc4": "the 4 corners on the top face",
+      "e2": "2 edges? Also I’ll avoid filler msgs like 'u'.",
+      "f": "fail",
+      "c4(D)": "all corners on the bottom face",
+      "e4(D)": "all edges on the bottom face",
+      "seq": "one by one",
+      "C": "bright at the four corners, with clicking, and hot",
+      "O": "overbright, layered, and frozen with no change",
+      "l": "all dim, with whispering, and washed out",
+      "V": "dark center, hollow, and thin",
+      "P": "frozen and dim, silent, and cold",
+      "W": "edge wobble, bulge, and muffled",
+      "S": "light drift, edge smear, and wavering",
+      "D2": "dual tone, alternating patterns, and shimmer",
+      "A": "random flicker, irregular hum, and chaotic",
+      "t6sim(F,5)": "sustained tone near all 6 faces simultaneously for 5 seconds from the front, then fade and wait",
+      "toneopp(F,5)": "steady tone near the opposite faces during rotation for 5 seconds from the front"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780417820",
+    "n_codes": 51,
+    "n_multimorpheme": 2,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "stem",
+        "label": "region on face",
+        "fillers": [
+          {
+            "form": "c4",
+            "gloss": "four corners",
+            "count": 1
+          },
+          {
+            "form": "e4",
+            "gloss": "all edges",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "suffix",
+        "label": "parenthesized face",
+        "fillers": [
+          {
+            "form": "(B)",
+            "gloss": "back face",
+            "count": 0
+          },
+          {
+            "form": "(Bk)",
+            "gloss": "back face",
+            "count": 0
+          },
+          {
+            "form": "(D)",
+            "gloss": "bottom face",
+            "count": 2
+          },
+          {
+            "form": "(F)",
+            "gloss": "front face",
+            "count": 0
+          },
+          {
+            "form": "(R)",
+            "gloss": "right face",
+            "count": 0
+          },
+          {
+            "form": "(U)",
+            "gloss": "top face",
+            "count": 0
+          }
+        ],
+        "paradigm_size": 6,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 2,
+        "possible_combos": 12,
+        "saturation": 0.16666666666666666
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "c4(D)": [
+        "pos0",
+        "pos1"
+      ],
+      "e4(D)": [
+        "pos0",
+        "pos1"
+      ]
+    },
+    "construction_by_symbol": {
+      "c4(D)": "REGION_ON_FACE",
+      "e4(D)": "REGION_ON_FACE"
+    },
+    "construction_labels": {
+      "REGION_ON_FACE": "region plus parenthesized face"
+    },
+    "construction_templates": {
+      "REGION_ON_FACE": [
+        "pos0",
+        "pos1"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "Most symbols are best treated as opaque lexical items: the codebook does not provide enough recurring, compositionally consistent contrasts to justify segmentation. In particular, the suggested shared suffix '(F,5)' is rejected: although t6sim(F,5) and toneopp(F,5) share the string, there is no substitution evidence for any internal slot there, and the residues do not form an independently supported paradigm. A small defensible paradigm does exist for c4(D) and e4(D): c4(D) 'all corners on the bottom face' contrasts with e4(D) 'all edges on the bottom face' in the shared frame '_(D)', giving a REGION contrast with stable meanings, while the final parenthesized face slot is supported by the standalone face key entries (R/U/D/F/B/Bk).",
+    "lexical_symbols": [
+      "R",
+      "L",
+      "U",
+      "D",
+      "F",
+      "B",
+      "OB",
+      "LH",
+      "FRZ",
+      "Bk",
+      "b",
+      "t6",
+      "ws",
+      "cc",
+      "cl",
+      "fb",
+      "bd",
+      "fan",
+      "dl",
+      "bl",
+      "opp",
+      "c4",
+      "e",
+      "rot",
+      "mod",
+      "ctr6",
+      "a6",
+      "rm",
+      "nm",
+      "ss",
+      "fc",
+      "mw",
+      "ud",
+      "x12",
+      "Uc4",
+      "e2",
+      "f",
+      "seq",
+      "C",
+      "O",
+      "l",
+      "V",
+      "P",
+      "W",
+      "S",
+      "D2",
+      "A",
+      "t6sim(F,5)",
+      "toneopp(F,5)"
+    ],
+    "classes": [
+      {
+        "class_id": "REGION_BOTTOM",
+        "label": "region on face",
+        "description": "Region selected before a parenthesized face specification.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "FACE_PAREN",
+        "label": "parenthesized face",
+        "description": "Face expressed in parenthesized form after a region term.",
+        "repeatable": false,
+        "declared_fillers": [
+          {
+            "form": "(R)",
+            "gloss": "right face"
+          },
+          {
+            "form": "(U)",
+            "gloss": "top face"
+          },
+          {
+            "form": "(D)",
+            "gloss": "bottom face"
+          },
+          {
+            "form": "(F)",
+            "gloss": "front face"
+          },
+          {
+            "form": "(B)",
+            "gloss": "back face"
+          },
+          {
+            "form": "(Bk)",
+            "gloss": "back face"
+          }
+        ]
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "REGION_ON_FACE",
+        "label": "region plus parenthesized face",
+        "description": "A region term followed by a parenthesized face specification.",
+        "class_sequence": [
+          "REGION_BOTTOM",
+          "FACE_PAREN"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "c4(D)",
+        "construction_id": "REGION_ON_FACE",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "c4",
+            "class_id": "REGION_BOTTOM",
+            "gloss": "four corners"
+          },
+          {
+            "form": "(D)",
+            "class_id": "FACE_PAREN",
+            "gloss": "bottom face"
+          }
+        ]
+      },
+      {
+        "symbol": "e4(D)",
+        "construction_id": "REGION_ON_FACE",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "e4",
+            "class_id": "REGION_BOTTOM",
+            "gloss": "all edges"
+          },
+          {
+            "form": "(D)",
+            "class_id": "FACE_PAREN",
+            "gloss": "bottom face"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "run_key": "veyru/1780448643",
+  "status": "analyzed",
+  "n_codes": 39,
+  "n_multimorpheme": 5,
+  "report": {
+    "encoder_agent": "stabilization_engineer",
+    "decoder_agent": "field_observer",
+    "encoder_model": "claude-opus-4-7",
+    "decoder_model": "claude-opus-4-7",
+    "context_budget": 800,
+    "n_cells": 77,
+    "exact_match_rate": 0.0,
+    "swapped_order_rate": 0.0,
+    "bag_match_rate": 0.0,
+    "decode_rate": 0.8246753246753247,
+    "decoder_valid_rate": 0.7922077922077922,
+    "decode_negative_control_rate": 0.8,
+    "decode_positive_control_rate": 1.0,
+    "per_role": [
+      {
+        "slot_id": "K_TARGETED_ACTION",
+        "slot_label": "targeted action",
+        "n": 77,
+        "exact_match_rate": 0.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.0,
+        "decode_rate": 0.8246753246753247
+      }
+    ],
+    "per_depth": [
+      {
+        "length": 2,
+        "n": 77,
+        "exact_match_rate": 0.0,
+        "decode_rate": 0.8246753246753247
+      }
+    ],
+    "per_purpose": [
+      {
+        "purpose": "grounded_control",
+        "n": 5,
+        "exact_match_rate": 0.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.0,
+        "decode_rate": 1.0
+      },
+      {
+        "purpose": "grounded_novel_role_pooled",
+        "n": 72,
+        "exact_match_rate": 0.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.0,
+        "decode_rate": 0.8125
+      }
+    ],
+    "per_construction": [
+      {
+        "construction_id": "K_TARGETED_ACTION",
+        "n": 77,
+        "n_control": 5,
+        "n_novel": 72,
+        "exact_match_rate": 0.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.0,
+        "decode_rate": 0.8246753246753247,
+        "novel_exact_match_rate": 0.0,
+        "novel_decode_rate": 0.8125
+      }
+    ],
+    "per_slot_generalization": [
+      {
+        "slot_id": "pos0",
+        "slot_label": "targeted action stem",
+        "slot_role": "stem",
+        "pooled": false,
+        "n": 50,
+        "valid_rate": 0.74,
+        "exact_match_rate": 0.0,
+        "decode_rate": 0.84
+      },
+      {
+        "slot_id": "pos0",
+        "slot_label": "targeted action stem",
+        "slot_role": "stem",
+        "pooled": true,
+        "n": 22,
+        "valid_rate": 0.8636363636363636,
+        "exact_match_rate": 0.0,
+        "decode_rate": 0.75
+      },
+      {
+        "slot_id": "pos1",
+        "slot_label": "specified target suffix",
+        "slot_role": "suffix",
+        "pooled": false,
+        "n": 2,
+        "valid_rate": 1.0,
+        "exact_match_rate": 0.0,
+        "decode_rate": 0.75
+      },
+      {
+        "slot_id": "pos1",
+        "slot_label": "specified target suffix",
+        "slot_role": "suffix",
+        "pooled": true,
+        "n": 70,
+        "valid_rate": 0.7714285714285715,
+        "exact_match_rate": 0.0,
+        "decode_rate": 0.8142857142857143
+      }
+    ]
+  }
+}

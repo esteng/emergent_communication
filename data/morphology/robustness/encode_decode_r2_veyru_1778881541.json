@@ -1,0 +1,888 @@
+{
+  "results": [
+    {
+      "target_meaning": "front face, washed out",
+      "expected_form": "Fwashed",
+      "expected_morphemes": [
+        "F",
+        "washed"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "F washed",
+      "produced_reading": "Front face appears washed out / faded (dim-all-style symptom localized to Front). Combines face-token F with symptom tag 'washed'. Not a negotiated form \u2014 'washed' is a global-state tag used in the 3-tag symptom report (dim-all/whisper/washed), not a face-qualified tag, and this 2-token 'face + tag' shape isn't part of our shorthand.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "bottom face, washed out",
+      "expected_form": "Botwashed",
+      "expected_morphemes": [
+        "Bot",
+        "washed"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "Bot washed",
+      "produced_reading": "Bottom face washed out / faded. Same shape as above with face=Bot. Not a negotiated code \u2014 'washed' is not face-qualified in our protocol.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "front face, bright",
+      "expected_form": "Fbright",
+      "expected_morphemes": [
+        "F",
+        "bright"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "F bright",
+      "produced_reading": "Front face is unusually bright. Decodes as face+brightness tag. Not negotiated \u2014 our brightness tags are prefixed forms like '1face-bright' or 'corner-bright', not 'face bright' as a free 2-token pair.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "corner, shimmering light",
+      "expected_form": "corner-shimmer",
+      "expected_morphemes": [
+        "corner-",
+        "shimmer"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "corner shimmer",
+      "produced_reading": "Corners exhibiting the shimmer/harmonic-clash pattern. Decodes as location=corner + tag=shimmer. Not negotiated \u2014 'shimmer' appears only inside the 3-tag report '2tone-clash/alt-pattern/shimmer' and isn't qualified by location in our system.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "bottom face, flickering light or faces",
+      "expected_form": "Botflicker",
+      "expected_morphemes": [
+        "Bot",
+        "flicker"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "Bot flicker",
+      "produced_reading": "Bottom face flickering light/dark chaotically. Decodable as face+tag. Not negotiated \u2014 'flicker' is used bare in the 'flicker/broken/chaos' report, never with a face qualifier.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "corner, flickering light or faces",
+      "expected_form": "corner-flicker",
+      "expected_morphemes": [
+        "corner-",
+        "flicker"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "corner flicker",
+      "produced_reading": "Corners flickering. Decodable. Not negotiated \u2014 same reason: 'flicker' is a bare symptom tag, not location-qualified.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "left face, bright",
+      "expected_form": "Lbright",
+      "expected_morphemes": [
+        "L",
+        "bright"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "L bright",
+      "produced_reading": "Left face is unusually bright. Decodes as face+brightness. Not negotiated \u2014 brightness tags are compound ('1face-bright', 'corner-bright'), not 'face bright'.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "right face, flickering light or faces",
+      "expected_form": "Rflicker",
+      "expected_morphemes": [
+        "R",
+        "flicker"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "R flicker",
+      "produced_reading": "Right face flickering. Decodable. Not negotiated \u2014 'flicker' isn't face-qualified in our shorthand.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "back face, bright",
+      "expected_form": "Bkbright",
+      "expected_morphemes": [
+        "Bk",
+        "bright"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "Bk bright",
+      "produced_reading": "Back face unusually bright. Decodable as face+brightness. Not negotiated \u2014 same reason as L bright.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "one face, flickering light or faces",
+      "expected_form": "1face-flicker",
+      "expected_morphemes": [
+        "1face-",
+        "flicker"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "1face flicker",
+      "produced_reading": "One single face is flickering (as opposed to all faces). Decodes by combining '1face-' prefix (as in '1face-bright') with 'flicker'. Not negotiated \u2014 our defined form is '1face-bright' for the resonance motif; we never paired '1face' with 'flicker'.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "left face, washed out",
+      "expected_form": "Lwashed",
+      "expected_morphemes": [
+        "L",
+        "washed"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "L washed",
+      "produced_reading": "Left face washed out / dim. Decodable. Not negotiated \u2014 'washed' is a global tag, not face-qualified.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "one face, shimmering light",
+      "expected_form": "1face-shimmer",
+      "expected_morphemes": [
+        "1face-",
+        "shimmer"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "1face shimmer",
+      "produced_reading": "A single face showing the shimmer (harmonic-clash) pattern. Decodable by combining '1face' with 'shimmer'. Not negotiated \u2014 no such compound in our list; shimmer is a bare tag inside the harmonic 3-tag report.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "top face, extremely bright",
+      "expected_form": "Tblaze",
+      "expected_morphemes": [
+        "T",
+        "blaze"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "T blaze",
+      "produced_reading": "Top face is blazing/painfully bright. Decodable as face+blaze. Not negotiated \u2014 'blaze' is used bare in the hi-intensity report 'blaze/buzz/hot' and is not face-qualified.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "front face, flashing light",
+      "expected_form": "Fflash",
+      "expected_morphemes": [
+        "F",
+        "flash"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "F flash",
+      "produced_reading": "Front face flashing. Decodable as face+flash. Not negotiated \u2014 'flash' appears in the pulse-opp report as a bare tag, not face-qualified.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "corner, washed out",
+      "expected_form": "corner-washed",
+      "expected_morphemes": [
+        "corner-",
+        "washed"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "corner washed",
+      "produced_reading": "Corners looking washed-out / faded. Decodable. Not negotiated \u2014 'washed' is a bare global tag.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "left face, flickering light or faces",
+      "expected_form": "Lflicker",
+      "expected_morphemes": [
+        "L",
+        "flicker"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "L flicker",
+      "produced_reading": "Left face flickering. Decodable. Not negotiated \u2014 'flicker' not face-qualified.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "front face, shimmering light",
+      "expected_form": "Fshimmer",
+      "expected_morphemes": [
+        "F",
+        "shimmer"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "F shimmer",
+      "produced_reading": "Front face shimmering with competing patterns. Decodable. Not negotiated \u2014 'shimmer' not face-qualified.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "right face, washed out",
+      "expected_form": "Rwashed",
+      "expected_morphemes": [
+        "R",
+        "washed"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "R washed",
+      "produced_reading": "Right face washed-out. Decodable. Not negotiated.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "bottom face, bright",
+      "expected_form": "Botbright",
+      "expected_morphemes": [
+        "Bot",
+        "bright"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "Bot bright",
+      "produced_reading": "Bottom face unusually bright. Decodable. Not negotiated \u2014 brightness is expressed via compounds ('1face-bright', 'corner-bright').",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "left face, extremely bright",
+      "expected_form": "Lblaze",
+      "expected_morphemes": [
+        "L",
+        "blaze"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "L blaze",
+      "produced_reading": "Left face blazing painfully bright. Decodable. Not negotiated \u2014 'blaze' is bare tag.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "top face, shimmering light",
+      "expected_form": "Tshimmer",
+      "expected_morphemes": [
+        "T",
+        "shimmer"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "T shimmer",
+      "produced_reading": "Top face shimmering. Decodable. Not negotiated.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "left face, flashing light",
+      "expected_form": "Lflash",
+      "expected_morphemes": [
+        "L",
+        "flash"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "L flash",
+      "produced_reading": "Left face flashing. Decodable. Not negotiated \u2014 'flash' is bare tag.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "right face, bright",
+      "expected_form": "Rbright",
+      "expected_morphemes": [
+        "R",
+        "bright"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "R bright",
+      "produced_reading": "Right face unusually bright. Decodable. Not negotiated.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "front face, extremely bright",
+      "expected_form": "Fblaze",
+      "expected_morphemes": [
+        "F",
+        "blaze"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "F blaze",
+      "produced_reading": "Front face blazing. Decodable. Not negotiated.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    },
+    {
+      "target_meaning": "bottom face, flashing light",
+      "expected_form": "Botflash",
+      "expected_morphemes": [
+        "Bot",
+        "flash"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "Bot flash",
+      "produced_reading": "Bottom face flashing. Decodable. Not negotiated.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "bottom face, shimmering light",
+      "expected_form": "Botshimmer",
+      "expected_morphemes": [
+        "Bot",
+        "shimmer"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "Bot shimmer",
+      "produced_reading": "Bottom face shimmering. Decodable. Not negotiated.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "top face, washed out",
+      "expected_form": "Twashed",
+      "expected_morphemes": [
+        "T",
+        "washed"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "T washed",
+      "produced_reading": "Top face washed-out. Decodable. Not negotiated.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "top face, flashing light",
+      "expected_form": "Tflash",
+      "expected_morphemes": [
+        "T",
+        "flash"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "T flash",
+      "produced_reading": "Top face flashing. Decodable. Not negotiated.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "one face, bright",
+      "expected_form": "1face-bright",
+      "expected_morphemes": [
+        "1face-",
+        "bright"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "1face bright",
+      "produced_reading": "One face is unusually bright (the resonance motif). Decodes as space-separated version of our tag '1face-bright'. Not negotiated in this form \u2014 our lexical tag is written with a hyphen ('1face-bright') and appears inside a slash-separated 3-tag report, not as a standalone space-separated 2-token phrase.",
+      "purpose": "grounded_control",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "bottom face, extremely bright",
+      "expected_form": "Botblaze",
+      "expected_morphemes": [
+        "Bot",
+        "blaze"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "Bot blaze",
+      "produced_reading": "Bottom face blazing painfully bright. Decodable. Not negotiated.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    },
+    {
+      "target_meaning": "back face, shimmering light",
+      "expected_form": "Bkshimmer",
+      "expected_morphemes": [
+        "Bk",
+        "shimmer"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "Bk shimmer",
+      "produced_reading": "Back face shimmering. Decodable. Not negotiated.",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    },
+    {
+      "target_meaning": "corner, bright",
+      "expected_form": "corner-bright",
+      "expected_morphemes": [
+        "corner-",
+        "bright"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "corner bright",
+      "produced_reading": "Corners glowing brightly (the deadlock motif). Decodes as the space-separated variant of our tag 'corner-bright'. Not negotiated in this form \u2014 our lexical tag is hyphenated ('corner-bright') and used inside slash-separated 3-tag reports, not as a standalone space-separated phrase.",
+      "purpose": "grounded_control",
+      "varied_slot": "K1",
+      "varied_slot_label": "Region-bright compound",
+      "n_morphemes": 2,
+      "construction_id": "K1",
+      "pooled_slots": [],
+      "is_valid": false,
+      "match_expected": true,
+      "match_bag": true,
+      "match_swapped_order": false,
+      "decodability": 1.0
+    }
+  ],
+  "decode_negative_control_rate": 0.45,
+  "n_decode_negative_controls": 20,
+  "decode_positive_control_rate": 1.0,
+  "n_decode_positive_controls": 10
+}

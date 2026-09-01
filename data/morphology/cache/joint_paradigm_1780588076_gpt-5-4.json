@@ -1,0 +1,593 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780588076",
+    "slots": [
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "L",
+            "gloss": "lamp",
+            "support": 2,
+            "is_defined": true
+          }
+        ]
+      },
+      {
+        "role": "suffix",
+        "fillers": [
+          {
+            "form": "b",
+            "gloss": "bright",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "d",
+            "gloss": "dim",
+            "support": 1,
+            "is_defined": false
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "C": [
+        "C"
+      ],
+      "H": [
+        "H"
+      ],
+      "D": [
+        "D"
+      ],
+      "B": [
+        "B"
+      ],
+      "F": [
+        "F"
+      ],
+      "S": [
+        "S"
+      ],
+      "U": [
+        "U"
+      ],
+      "NR": [
+        "NR"
+      ],
+      "O": [
+        "O"
+      ],
+      "CW": [
+        "CW"
+      ],
+      "WW": [
+        "WW"
+      ],
+      "FB": [
+        "FB"
+      ],
+      "Ld": [
+        "L",
+        "d"
+      ],
+      "Lb": [
+        "L",
+        "b"
+      ],
+      "bo": [
+        "bo"
+      ],
+      "op": [
+        "op"
+      ],
+      "W": [
+        "W"
+      ],
+      "L": [
+        "L"
+      ],
+      "fr": [
+        "fr"
+      ],
+      "bk": [
+        "bk"
+      ],
+      "lf": [
+        "lf"
+      ],
+      "rt": [
+        "rt"
+      ],
+      "tp": [
+        "tp"
+      ],
+      "br": [
+        "br"
+      ],
+      "vib": [
+        "vib"
+      ],
+      "whi": [
+        "whi"
+      ],
+      "dm": [
+        "dm"
+      ],
+      "frz": [
+        "frz"
+      ],
+      "sil": [
+        "sil"
+      ],
+      "wsh": [
+        "wsh"
+      ],
+      "nrm": [
+        "nrm"
+      ],
+      "ST": [
+        "ST"
+      ],
+      "BA": [
+        "BA"
+      ],
+      "DE": [
+        "DE"
+      ],
+      "FF": [
+        "FF"
+      ],
+      "WC": [
+        "WC"
+      ],
+      "WS": [
+        "WS"
+      ],
+      "CC/FC": [
+        "CC/FC"
+      ],
+      "LM": [
+        "LM"
+      ],
+      "BK": [
+        "BK"
+      ],
+      "BC": [
+        "BC"
+      ],
+      "SS": [
+        "SS"
+      ],
+      "ROT": [
+        "ROT"
+      ],
+      "co": [
+        "co"
+      ],
+      "ed": [
+        "ed"
+      ],
+      "ct": [
+        "ct"
+      ],
+      "hh": [
+        "hh"
+      ],
+      "dc": [
+        "dc"
+      ],
+      "ht": [
+        "ht"
+      ],
+      "hs": [
+        "hs"
+      ],
+      "OBSERVE": [
+        "OBSERVE"
+      ],
+      "RPT": [
+        "RPT"
+      ],
+      "NC": [
+        "NC"
+      ],
+      "co+ed+ct+hh": [
+        "co+ed+ct+hh"
+      ],
+      "HWB": [
+        "HWB"
+      ],
+      "WBM": [
+        "WBM"
+      ],
+      "C6": [
+        "C6"
+      ],
+      "WSv5": [
+        "WSv5"
+      ],
+      "RFN": [
+        "RFN"
+      ],
+      "BCT": [
+        "BCT"
+      ],
+      "DCH": [
+        "DCH"
+      ]
+    },
+    "head_index": {
+      "C": 0,
+      "H": 0,
+      "D": 0,
+      "B": 0,
+      "F": 0,
+      "S": 0,
+      "U": 0,
+      "NR": 0,
+      "O": 0,
+      "CW": 0,
+      "WW": 0,
+      "FB": 0,
+      "Ld": 0,
+      "Lb": 0,
+      "bo": 0,
+      "op": 0,
+      "W": 0,
+      "L": 0,
+      "fr": 0,
+      "bk": 0,
+      "lf": 0,
+      "rt": 0,
+      "tp": 0,
+      "br": 0,
+      "vib": 0,
+      "whi": 0,
+      "dm": 0,
+      "frz": 0,
+      "sil": 0,
+      "wsh": 0,
+      "nrm": 0,
+      "ST": 0,
+      "BA": 0,
+      "DE": 0,
+      "FF": 0,
+      "WC": 0,
+      "WS": 0,
+      "CC/FC": 0,
+      "LM": 0,
+      "BK": 0,
+      "BC": 0,
+      "SS": 0,
+      "ROT": 0,
+      "co": 0,
+      "ed": 0,
+      "ct": 0,
+      "hh": 0,
+      "dc": 0,
+      "ht": 0,
+      "hs": 0,
+      "OBSERVE": 0,
+      "RPT": 0,
+      "NC": 0,
+      "co+ed+ct+hh": 0,
+      "HWB": 0,
+      "WBM": 0,
+      "C6": 0,
+      "WSv5": 0,
+      "RFN": 0,
+      "BCT": 0,
+      "DCH": 0
+    },
+    "attested_orderings": [
+      [
+        "stem",
+        "suffix"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [],
+    "form_positions": {
+      "L": 0,
+      "d": 1,
+      "b": 1
+    },
+    "position_labels": {
+      "0": "lamp root",
+      "1": "lamp brightness modifier"
+    },
+    "positions_by_symbol": {
+      "Ld": [
+        0,
+        1
+      ],
+      "Lb": [
+        0,
+        1
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "L": "lamp"
+      },
+      "1": {
+        "d": "dim",
+        "b": "bright"
+      }
+    },
+    "meaning_by_symbol": {
+      "C": "cold",
+      "H": "hot",
+      "D": "dim",
+      "B": "bright",
+      "F": "frozen",
+      "S": "silent",
+      "U": "hum",
+      "NR": "no response",
+      "O": "opposite",
+      "CW": "cool cloth",
+      "WW": "warm stone",
+      "FB": "flat board",
+      "Ld": "dim lamp",
+      "Lb": "bright lamp",
+      "bo": "bottom",
+      "op": "opposite",
+      "W": "whisper",
+      "L": "washed or low",
+      "fr": "front",
+      "bk": "back",
+      "lf": "left",
+      "rt": "right",
+      "tp": "top",
+      "br": "bright",
+      "vib": "vibration",
+      "whi": "white",
+      "dm": "dim",
+      "frz": "frozen",
+      "sil": "silent",
+      "wsh": "washed",
+      "nrm": "normal",
+      "ST": "steady tone on all 6",
+      "BA": "bell alternate start face and opposite face, with a pause between hits; count is in pairs",
+      "DE": "edge cloth",
+      "FF": "fold cloth on face",
+      "WC": "warm corners then trace edges",
+      "WS": "warm stone beside each face",
+      "CC/FC": "cool cloth then fan",
+      "LM": "lamp dim on the target face and bright on the opposite face",
+      "BK": "bell corner then warm edges",
+      "BC": "bell centers on all faces then warm stone beside each face",
+      "SS": "soft surface, face-up, still, and time",
+      "ROT": "rotate, then tone on the opposite face, then bell each corner",
+      "co": "corner dim",
+      "ed": "edge fade",
+      "ct": "center OK",
+      "hh": "hollow hum",
+      "dc": "dark center",
+      "ht": "hollow tap",
+      "hs": "hum surface-thin",
+      "OBSERVE": "observe and report",
+      "RPT": "repeat",
+      "NC": "no change",
+      "co+ed+ct+hh": "leak",
+      "HWB": "all bright white, buzz, vibration, and heat",
+      "WBM": "edge wobble, face bulge, and muffled hum",
+      "C6": "bell centers on all 6 once, starting at the top",
+      "WSv5": "warm stone by Veyru for 5 seconds",
+      "RFN": "random face flicker, irregular hum, and edges normal",
+      "BCT": "1 to 2 bright corners, tick, and heat",
+      "DCH": "dark center, hollow tap, and thin surface hum"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780588076",
+    "n_codes": 61,
+    "n_multimorpheme": 2,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "stem",
+        "label": "lamp root",
+        "fillers": [
+          {
+            "form": "L",
+            "gloss": "lamp",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "suffix",
+        "label": "lamp brightness modifier",
+        "fillers": [
+          {
+            "form": "b",
+            "gloss": "bright",
+            "count": 1
+          },
+          {
+            "form": "d",
+            "gloss": "dim",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "Ld": [
+        "pos0",
+        "pos1"
+      ],
+      "Lb": [
+        "pos0",
+        "pos1"
+      ]
+    },
+    "construction_by_symbol": {
+      "Ld": "CX_LAMP_MOD",
+      "Lb": "CX_LAMP_MOD"
+    },
+    "construction_labels": {
+      "CX_LAMP_MOD": "lamp with brightness modifier"
+    },
+    "construction_templates": {
+      "CX_LAMP_MOD": [
+        "pos0",
+        "pos1"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "A single defensible compositional paradigm is supported by the minimal pair Ld 'dim lamp' and Lb 'bright lamp'. These two codes share the frame L_ and contrast only in the final segment, with a corresponding meaning contrast dim vs. bright; the whole meanings are predictable from the parts 'lamp' + modifier. No other proposed splits meet the evidence requirements: most other repeated substrings are either standalone lexemes, opaque abbreviations, or do not participate in a meaning-consistent substitution frame.",
+    "lexical_symbols": [
+      "C",
+      "H",
+      "D",
+      "B",
+      "F",
+      "S",
+      "U",
+      "NR",
+      "O",
+      "CW",
+      "WW",
+      "FB",
+      "bo",
+      "op",
+      "W",
+      "L",
+      "fr",
+      "bk",
+      "lf",
+      "rt",
+      "tp",
+      "br",
+      "vib",
+      "whi",
+      "dm",
+      "frz",
+      "sil",
+      "wsh",
+      "nrm",
+      "ST",
+      "BA",
+      "DE",
+      "FF",
+      "WC",
+      "WS",
+      "CC/FC",
+      "LM",
+      "BK",
+      "BC",
+      "SS",
+      "ROT",
+      "co",
+      "ed",
+      "ct",
+      "hh",
+      "dc",
+      "ht",
+      "hs",
+      "OBSERVE",
+      "RPT",
+      "NC",
+      "co+ed+ct+hh",
+      "HWB",
+      "WBM",
+      "C6",
+      "WSv5",
+      "RFN",
+      "BCT",
+      "DCH"
+    ],
+    "classes": [
+      {
+        "class_id": "CLS_LAMP_ROOT",
+        "label": "lamp root",
+        "description": "Content root denoting a lamp.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CLS_LAMP_MOD",
+        "label": "lamp brightness modifier",
+        "description": "Brightness value modifying the lamp.",
+        "repeatable": false,
+        "declared_fillers": []
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "CX_LAMP_MOD",
+        "label": "lamp with brightness modifier",
+        "description": "A lamp root followed by a brightness modifier.",
+        "class_sequence": [
+          "CLS_LAMP_ROOT",
+          "CLS_LAMP_MOD"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "Ld",
+        "construction_id": "CX_LAMP_MOD",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "L",
+            "class_id": "CLS_LAMP_ROOT",
+            "gloss": "lamp"
+          },
+          {
+            "form": "d",
+            "class_id": "CLS_LAMP_MOD",
+            "gloss": "dim"
+          }
+        ]
+      },
+      {
+        "symbol": "Lb",
+        "construction_id": "CX_LAMP_MOD",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "L",
+            "class_id": "CLS_LAMP_ROOT",
+            "gloss": "lamp"
+          },
+          {
+            "form": "b",
+            "class_id": "CLS_LAMP_MOD",
+            "gloss": "bright"
+          }
+        ]
+      }
+    ]
+  }
+}

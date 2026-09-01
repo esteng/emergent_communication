@@ -1,0 +1,399 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780621768",
+    "slots": [],
+    "segmentation": {
+      "F": [
+        "F"
+      ],
+      "B": [
+        "B"
+      ],
+      "T": [
+        "T"
+      ],
+      "Bot": [
+        "Bot"
+      ],
+      "L": [
+        "L"
+      ],
+      "R": [
+        "R"
+      ],
+      "OK": [
+        "OK"
+      ],
+      "no": [
+        "no"
+      ],
+      "+new": [
+        "+new"
+      ],
+      "RC": [
+        "RC"
+      ],
+      "PI": [
+        "PI"
+      ],
+      "CD": [
+        "CD"
+      ],
+      "LI": [
+        "LI"
+      ],
+      "HI": [
+        "HI"
+      ],
+      "TB": [
+        "TB"
+      ],
+      "LK": [
+        "LK"
+      ],
+      "PS": [
+        "PS"
+      ],
+      "AC": [
+        "AC"
+      ],
+      "DR": [
+        "DR"
+      ],
+      "ES": [
+        "ES"
+      ],
+      "BS": [
+        "BS"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "CV": [
+        "CV"
+      ],
+      "ea": [
+        "ea"
+      ],
+      "opp": [
+        "opp"
+      ],
+      "btwn": [
+        "btwn"
+      ],
+      "ctr": [
+        "ctr"
+      ],
+      "btw": [
+        "btw"
+      ]
+    },
+    "head_index": {
+      "F": 0,
+      "B": 0,
+      "T": 0,
+      "Bot": 0,
+      "L": 0,
+      "R": 0,
+      "OK": 0,
+      "no": 0,
+      "+new": 0,
+      "RC": 0,
+      "PI": 0,
+      "CD": 0,
+      "LI": 0,
+      "HI": 0,
+      "TB": 0,
+      "LK": 0,
+      "PS": 0,
+      "AC": 0,
+      "DR": 0,
+      "ES": 0,
+      "BS": 0,
+      "HS": 0,
+      "CV": 0,
+      "ea": 0,
+      "opp": 0,
+      "btwn": 0,
+      "ctr": 0,
+      "btw": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [
+      {
+        "stem": "AC",
+        "affix": "+new",
+        "role": "suffix",
+        "form": "AC+new",
+        "delimiter": "+"
+      },
+      {
+        "stem": "B",
+        "affix": "+new",
+        "role": "suffix",
+        "form": "B+new",
+        "delimiter": "+"
+      },
+      {
+        "stem": "BS",
+        "affix": "+new",
+        "role": "suffix",
+        "form": "BS+new",
+        "delimiter": "+"
+      },
+      {
+        "stem": "Bot",
+        "affix": "+new",
+        "role": "suffix",
+        "form": "Bot+new",
+        "delimiter": "+"
+      },
+      {
+        "stem": "CD",
+        "affix": "+new",
+        "role": "suffix",
+        "form": "CD+new",
+        "delimiter": "+"
+      },
+      {
+        "stem": "CV",
+        "affix": "+new",
+        "role": "suffix",
+        "form": "CV+new",
+        "delimiter": "+"
+      },
+      {
+        "stem": "DR",
+        "affix": "+new",
+        "role": "suffix",
+        "form": "DR+new",
+        "delimiter": "+"
+      },
+      {
+        "stem": "ES",
+        "affix": "+new",
+        "role": "suffix",
+        "form": "ES+new",
+        "delimiter": "+"
+      },
+      {
+        "stem": "F",
+        "affix": "+new",
+        "role": "suffix",
+        "form": "F+new",
+        "delimiter": "+"
+      },
+      {
+        "stem": "HI",
+        "affix": "+new",
+        "role": "suffix",
+        "form": "HI+new",
+        "delimiter": "+"
+      },
+      {
+        "stem": "HS",
+        "affix": "+new",
+        "role": "suffix",
+        "form": "HS+new",
+        "delimiter": "+"
+      },
+      {
+        "stem": "L",
+        "affix": "+new",
+        "role": "suffix",
+        "form": "L+new",
+        "delimiter": "+"
+      },
+      {
+        "stem": "LI",
+        "affix": "+new",
+        "role": "suffix",
+        "form": "LI+new",
+        "delimiter": "+"
+      },
+      {
+        "stem": "LK",
+        "affix": "+new",
+        "role": "suffix",
+        "form": "LK+new",
+        "delimiter": "+"
+      },
+      {
+        "stem": "OK",
+        "affix": "+new",
+        "role": "suffix",
+        "form": "OK+new",
+        "delimiter": "+"
+      },
+      {
+        "stem": "PI",
+        "affix": "+new",
+        "role": "suffix",
+        "form": "PI+new",
+        "delimiter": "+"
+      },
+      {
+        "stem": "PS",
+        "affix": "+new",
+        "role": "suffix",
+        "form": "PS+new",
+        "delimiter": "+"
+      },
+      {
+        "stem": "R",
+        "affix": "+new",
+        "role": "suffix",
+        "form": "R+new",
+        "delimiter": "+"
+      },
+      {
+        "stem": "RC",
+        "affix": "+new",
+        "role": "suffix",
+        "form": "RC+new",
+        "delimiter": "+"
+      },
+      {
+        "stem": "T",
+        "affix": "+new",
+        "role": "suffix",
+        "form": "T+new",
+        "delimiter": "+"
+      },
+      {
+        "stem": "TB",
+        "affix": "+new",
+        "role": "suffix",
+        "form": "TB+new",
+        "delimiter": "+"
+      },
+      {
+        "stem": "btw",
+        "affix": "+new",
+        "role": "suffix",
+        "form": "btw+new",
+        "delimiter": "+"
+      },
+      {
+        "stem": "btwn",
+        "affix": "+new",
+        "role": "suffix",
+        "form": "btwn+new",
+        "delimiter": "+"
+      },
+      {
+        "stem": "ctr",
+        "affix": "+new",
+        "role": "suffix",
+        "form": "ctr+new",
+        "delimiter": "+"
+      },
+      {
+        "stem": "ea",
+        "affix": "+new",
+        "role": "suffix",
+        "form": "ea+new",
+        "delimiter": "+"
+      },
+      {
+        "stem": "no",
+        "affix": "+new",
+        "role": "suffix",
+        "form": "no+new",
+        "delimiter": "+"
+      },
+      {
+        "stem": "opp",
+        "affix": "+new",
+        "role": "suffix",
+        "form": "opp+new",
+        "delimiter": "+"
+      }
+    ],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "F": "front",
+      "B": "back",
+      "T": "top",
+      "Bot": "bottom",
+      "L": "left",
+      "R": "right",
+      "OK": "stable, \"+new\" = stable but new symptoms",
+      "no": "failed, \"+X\" or \"+desc\" = new symptom.",
+      "+new": "stable but new symptoms",
+      "RC": "one face bright and whining",
+      "PI": "opposite faces alternating pulse",
+      "CD": "corner bright and ticking",
+      "LI": "dim and whispering",
+      "HI": "blazing, hot, and buzzing",
+      "TB": "hot, dim, red, and rumbling",
+      "LK": "corners and edges dim",
+      "PS": "frozen, silent, and cold",
+      "AC": "chaotic flicker",
+      "DR": "sliding light and blur",
+      "ES": "too bright, layered, and frozen",
+      "BS": "wobbly edges and bulge",
+      "HS": "clashing tones and alternating patterns",
+      "CV": "dark center and hollow tap",
+      "ea": "each",
+      "opp": "opposite",
+      "btwn": "between",
+      "ctr": "center, btw chime cycles etc.",
+      "btw": "between"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780621768",
+    "n_codes": 28,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible compositional paradigm survives the evidence requirements. The only suggested family, btwn/btw, shares initial bt but the residues wn and w do not form a stable substitution contrast with predictable meanings, so the shared characters are insufficient evidence for morphology. The standalone face terms F/B/T/Bot/L/R and relational terms ea/opp/ctr/btwn/btw are semantically related, but there are no multi-morpheme codes showing them alternating in a common frame. Likewise OK, no, and +new hint at possible combinatorics, but no composed entries are actually attested here. Because segmentation must be supported jointly by morpheme boundaries, substitution classes, and construction templates, the safest analysis is a flat lexicon with all symbols opaque lexical entries.",
+    "lexical_symbols": [
+      "F",
+      "B",
+      "T",
+      "Bot",
+      "L",
+      "R",
+      "OK",
+      "no",
+      "+new",
+      "RC",
+      "PI",
+      "CD",
+      "LI",
+      "HI",
+      "TB",
+      "LK",
+      "PS",
+      "AC",
+      "DR",
+      "ES",
+      "BS",
+      "HS",
+      "CV",
+      "ea",
+      "opp",
+      "btwn",
+      "ctr",
+      "btw"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

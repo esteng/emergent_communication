@@ -1,0 +1,281 @@
+{
+  "grammar": {
+    "run_key": "veyru/1778877878",
+    "slots": [],
+    "segmentation": {
+      "B": [
+        "B"
+      ],
+      "W": [
+        "W"
+      ],
+      "V": [
+        "V"
+      ],
+      "F": [
+        "F"
+      ],
+      "D": [
+        "D"
+      ],
+      "DK": [
+        "DK"
+      ],
+      "DR": [
+        "DR"
+      ],
+      "FL": [
+        "FL"
+      ],
+      "PU": [
+        "PU"
+      ],
+      "BL": [
+        "BL"
+      ],
+      "WB": [
+        "WB"
+      ],
+      "RH": [
+        "RH"
+      ],
+      "HW": [
+        "HW"
+      ],
+      "LC": [
+        "LC"
+      ],
+      "TH": [
+        "TH"
+      ],
+      "B+W+V": [
+        "B+W+V"
+      ],
+      "FAIL": [
+        "FAIL"
+      ],
+      "WH": [
+        "WH"
+      ],
+      "Fb": [
+        "Fb"
+      ],
+      "St": [
+        "St"
+      ],
+      "Cf": [
+        "Cf"
+      ],
+      "Wm": [
+        "Wm"
+      ],
+      "Fa": [
+        "Fa"
+      ],
+      "Cl": [
+        "Cl"
+      ],
+      "Lm": [
+        "Lm"
+      ],
+      "Bl": [
+        "Bl"
+      ],
+      "BC": [
+        "BC"
+      ],
+      "CK": [
+        "CK"
+      ],
+      "FX": [
+        "FX"
+      ],
+      "FD": [
+        "FD"
+      ],
+      "RH+D": [
+        "RH+D"
+      ],
+      "BC+CK": [
+        "BC+CK"
+      ],
+      "BWV": [
+        "BWV"
+      ],
+      "BCCK": [
+        "BCCK"
+      ],
+      "FDS": [
+        "FDS"
+      ],
+      "opp": [
+        "opp"
+      ],
+      "DE": [
+        "DE"
+      ],
+      "DU": [
+        "DU"
+      ],
+      "Clf": [
+        "Clf"
+      ],
+      "SP": [
+        "SP"
+      ]
+    },
+    "head_index": {
+      "B": 0,
+      "W": 0,
+      "V": 0,
+      "F": 0,
+      "D": 0,
+      "DK": 0,
+      "DR": 0,
+      "FL": 0,
+      "PU": 0,
+      "BL": 0,
+      "WB": 0,
+      "RH": 0,
+      "HW": 0,
+      "LC": 0,
+      "TH": 0,
+      "B+W+V": 0,
+      "FAIL": 0,
+      "WH": 0,
+      "Fb": 0,
+      "St": 0,
+      "Cf": 0,
+      "Wm": 0,
+      "Fa": 0,
+      "Cl": 0,
+      "Lm": 0,
+      "Bl": 0,
+      "BC": 0,
+      "CK": 0,
+      "FX": 0,
+      "FD": 0,
+      "RH+D": 0,
+      "BC+CK": 0,
+      "BWV": 0,
+      "BCCK": 0,
+      "FDS": 0,
+      "opp": 0,
+      "DE": 0,
+      "DU": 0,
+      "Clf": 0,
+      "SP": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "B": "one face blazing bright",
+      "W": "whine) and action codes so replies fit under ~20 chars each",
+      "V": "vibrating",
+      "F": "frozen or still patterns",
+      "D": "dim overall",
+      "DK": "dark corners",
+      "DR": "drifting light",
+      "FL": "flickering chaotic, corresponding to Alignment Collapse",
+      "PU": "pulsing opposite faces",
+      "BL": "blurred edges",
+      "WB": "wobbly edges",
+      "RH": "reddish tint, hot all over, rough or gritty surface, and a low rumble hum",
+      "HW": "a hollow sound when tapped, a dark center, and a thin hum, corresponding to Core Void",
+      "LC": "layered or stacked hum",
+      "TH": "thin or hollow hum at the edges",
+      "B+W+V": "one face blazing bright, high-pitched whine, and vibrating, corresponding to Resonance Cascade",
+      "FAIL": "stabilization failed, and the sender is unsure whether it was an execution error or a wrong diagnosis",
+      "WH": "wavering hum",
+      "Fb": "flat board",
+      "St": "stone that provides warmth; when used with a face, edge, or corner, hold it near or beside that target without touching; when used as 'St beside', place it beside the Veyru as a whole on the surface",
+      "Cf": "cool fan",
+      "Wm": "warm",
+      "Fa": "fan, used cool",
+      "Cl": "cloth, flat or unfolded by default",
+      "Lm": "lamp",
+      "Bl": "bell",
+      "BC": "bright corners",
+      "CK": "clicking or ticking",
+      "FX": "execution fail; the sender may have done it wrong, so retry the same instruction",
+      "FD": "diagnostic fail; the Veyru did not respond at all, so try a different approach",
+      "RH+D": "reddish tint, hot all over, rough or gritty surface, dim light, and a low rumble hum, corresponding to Thermal Bleed",
+      "BC+CK": "bright corners and clicking or ticking, corresponding to Corner Deadlock",
+      "BWV": "one face blazing bright, high-pitched whine, and vibrating, corresponding to Resonance Cascade",
+      "BCCK": "bright corners and clicking or ticking, corresponding to Corner Deadlock",
+      "FDS": "Propagation Stall",
+      "opp": "directly opposite face, not an adjacent face",
+      "DE": "dim at the edges or perimeter, with the face centers brighter, corresponding to Leak Instability when paired with edge-thin hum",
+      "DU": "dim uniformly across all faces, corresponding to Low Intensity",
+      "Clf": "folded cloth, with doubled thickness or firmness",
+      "SP": "split or competing hum, alternating patterns, and edge shimmer, corresponding to Harmonic Split"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1778877878",
+    "n_codes": 40,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible paradigm survives the evidence requirements. Although several symbols share substrings (e.g. BC/CK in BCCK, B/W/V in BWV, plus-marked variants like BC+CK and B+W+V), the codebook does not provide a stable substitutional frame with attested alternation and predictable compositional morphology. The apparent combinations are too sparse and inconsistent in surface realization: some use '+' separators, some fuse without separators, and there is no independently supported morpheme for '+' or for separator omission. The safest analysis is therefore a flat lexicon, which avoids over-segmentation.",
+    "lexical_symbols": [
+      "B",
+      "W",
+      "V",
+      "F",
+      "D",
+      "DK",
+      "DR",
+      "FL",
+      "PU",
+      "BL",
+      "WB",
+      "RH",
+      "HW",
+      "LC",
+      "TH",
+      "B+W+V",
+      "FAIL",
+      "WH",
+      "Fb",
+      "St",
+      "Cf",
+      "Wm",
+      "Fa",
+      "Cl",
+      "Lm",
+      "Bl",
+      "BC",
+      "CK",
+      "FX",
+      "FD",
+      "RH+D",
+      "BC+CK",
+      "BWV",
+      "BCCK",
+      "FDS",
+      "opp",
+      "DE",
+      "DU",
+      "Clf",
+      "SP"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

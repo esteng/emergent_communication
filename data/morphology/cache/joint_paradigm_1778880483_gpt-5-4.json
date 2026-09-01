@@ -1,0 +1,233 @@
+{
+  "grammar": {
+    "run_key": "veyru/1778880483",
+    "slots": [],
+    "segmentation": {
+      "TB": [
+        "TB"
+      ],
+      "CD": [
+        "CD"
+      ],
+      "AC": [
+        "AC"
+      ],
+      "ES": [
+        "ES"
+      ],
+      "DE": [
+        "DE"
+      ],
+      "PE": [
+        "PE"
+      ],
+      "WH": [
+        "WH"
+      ],
+      "B": [
+        "B"
+      ],
+      "T": [
+        "T"
+      ],
+      "W": [
+        "W"
+      ],
+      "C": [
+        "C"
+      ],
+      "F": [
+        "F"
+      ],
+      "L": [
+        "L"
+      ],
+      "D": [
+        "D"
+      ],
+      "FB": [
+        "FB"
+      ],
+      "P": [
+        "P"
+      ],
+      "R": [
+        "R"
+      ],
+      "Bd": [
+        "Bd"
+      ],
+      "Tr": [
+        "Tr"
+      ],
+      "O": [
+        "O"
+      ],
+      "6": [
+        "6"
+      ],
+      "2E": [
+        "2E"
+      ],
+      "4C": [
+        "4C"
+      ],
+      "EC": [
+        "EC"
+      ],
+      "ctr": [
+        "ctr"
+      ],
+      "CV": [
+        "CV"
+      ],
+      "x3": [
+        "x3"
+      ],
+      "alt5/20": [
+        "alt5/20"
+      ],
+      "PI": [
+        "PI"
+      ],
+      "LO": [
+        "LO"
+      ],
+      "WB": [
+        "WB"
+      ],
+      "BF": [
+        "BF"
+      ]
+    },
+    "head_index": {
+      "TB": 0,
+      "CD": 0,
+      "AC": 0,
+      "ES": 0,
+      "DE": 0,
+      "PE": 0,
+      "WH": 0,
+      "B": 0,
+      "T": 0,
+      "W": 0,
+      "C": 0,
+      "F": 0,
+      "L": 0,
+      "D": 0,
+      "FB": 0,
+      "P": 0,
+      "R": 0,
+      "Bd": 0,
+      "Tr": 0,
+      "O": 0,
+      "6": 0,
+      "2E": 0,
+      "4C": 0,
+      "EC": 0,
+      "ctr": 0,
+      "CV": 0,
+      "x3": 0,
+      "alt5/20": 0,
+      "PI": 0,
+      "LO": 0,
+      "WB": 0,
+      "BF": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "TB": "hot, dim red, rumble, gritty; in that shorthand it mapped to dim lamp on the front face and bright lamp on the opposite face for 15 seconds",
+      "CD": "bright corners, clicking, corner heat; in that shorthand it mapped to cloth on two adjacent edges near the front for 15 seconds, then bell three times at the front",
+      "AC": "random face flicker, broken hum, edges normal; in that shorthand it mapped to bell at each front corner, then warm the meeting edges for 15 seconds",
+      "ES": "too bright, layered hum, frozen unresponsive face patterns; in that shorthand it mapped to a sustained gentle tone near all six faces for 15 seconds, start at the right face, and let it fade",
+      "DE": "light drifts across faces, smeared edges, wavering pitch; in that shorthand it mapped to a warm stone beside the top face for 12 seconds, then rotate and repeat at each face",
+      "PE": "dim corners and edges, centers fine, hollow edge hum",
+      "WH": "all-face white blaze, harsh buzz, heat",
+      "B": "bell or chime",
+      "T": "top face as the target",
+      "W": "warm stone",
+      "C": "cool cloth",
+      "F": "front face as the target",
+      "L": "lamp",
+      "D": "drape cloth",
+      "FB": "folded cloth",
+      "P": "soft place or rest",
+      "R": "right face as the target",
+      "Bd": "board",
+      "Tr": "trace edges",
+      "O": "opposite, 6=all six, 2E=two adjacent edges, 4C=four corners",
+      "6": "all six faces",
+      "2E": "two adjacent edges",
+      "4C": "four corners",
+      "EC": "edge centers",
+      "ctr": "center of each face",
+      "CV": "normal surface glow, hollow tap, dark center blocks light, thin surface hum; in that shorthand it mapped to cool cloth over all for 10 seconds, remove it, then fan all six faces for 10 seconds starting at the back",
+      "x3": "three times",
+      "alt5/20": "alternate between the two targets with 20-second pauses for 5 cycles",
+      "PI": "opposite faces pulse bright and dark in strict rhythm, hum flips between two tones in sync, edges flash in time",
+      "LO": "dim overall, faint faces, whisper hum, washed-out patterns",
+      "WB": "edges wobble, faces bulge or distort, underwater hum",
+      "BF": "one face much brighter, local vibration, high whine; others normal"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1778880483",
+    "n_codes": 32,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible multi-entry compositional paradigm is supported by the supplied codebook. Although some symbols share characters with standalone entries (e.g. T, B, C, W, F, R, O, 6, 2E, 4C), the longer codes do not form meaning-consistent substitution frames whose whole meanings are predictable from reusable parts. For example, TB is not compositionally 'top face + bell', CD is not predictably 'cool cloth + drape cloth', and symbols like PI, LO, WB, BF, CV, PE, WH behave as opaque labels rather than products of a shared construction. There is also no confirmed alternating frame showing stable morpheme contributions across multiple segmented entries. Per the instructions, a flat lexicon is preferred over unsupported morphology.",
+    "lexical_symbols": [
+      "TB",
+      "CD",
+      "AC",
+      "ES",
+      "DE",
+      "PE",
+      "WH",
+      "B",
+      "T",
+      "W",
+      "C",
+      "F",
+      "L",
+      "D",
+      "FB",
+      "P",
+      "R",
+      "Bd",
+      "Tr",
+      "O",
+      "6",
+      "2E",
+      "4C",
+      "EC",
+      "ctr",
+      "CV",
+      "x3",
+      "alt5/20",
+      "PI",
+      "LO",
+      "WB",
+      "BF"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

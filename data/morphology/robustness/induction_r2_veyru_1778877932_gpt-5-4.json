@@ -1,0 +1,2010 @@
+{
+  "grammar": {
+    "run_key": "veyru/1778877932",
+    "slots": [
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "B",
+            "gloss": "bell near",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "BC",
+            "gloss": "gentle bell the center of each face once",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "BD",
+            "gloss": "gentle board; rotate and repeat on face-pairs",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "BE",
+            "gloss": "bell near each edge",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "C",
+            "gloss": "cool cloth",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "CE",
+            "gloss": "gentle cloth-over-edges then bell-three-times routine",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "CV",
+            "gloss": "cover or drape cloth",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "F",
+            "gloss": "fan",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "FA",
+            "gloss": "fan all six faces in a sweep",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "HC",
+            "gloss": "gentle corner-bell then warm-meeting-edges routine",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "L",
+            "gloss": "fixed gentle dim/bright opposite-face lamp",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "R",
+            "gloss": "rotate",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "RS",
+            "gloss": "gentle soft-surface rest",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "RT",
+            "gloss": "rotate with steady gentle tone at opposite faces, then bell each corner once",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "RW",
+            "gloss": "gentle warm-stone then rotate-through-faces routine",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "S6",
+            "gloss": "sustained gentle tone near all six faces, then fade and wait",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "W",
+            "gloss": "warm stone",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "WB",
+            "gloss": "warm stone beside Veyru once",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "WC",
+            "gloss": "gentle warm-corners then trace-edges routine",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "board",
+            "gloss": "flat board",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "cc",
+            "gloss": "cool cloth",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "cover",
+            "gloss": "cloth cover",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "fan",
+            "gloss": "fan",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "rest",
+            "gloss": "soft-surface rest",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "rot",
+            "gloss": "rotate",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "ws",
+            "gloss": "warm stone",
+            "support": 1,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "suffix",
+        "fillers": [
+          {
+            "form": "12",
+            "gloss": "12 seconds",
+            "support": 7,
+            "is_defined": false
+          },
+          {
+            "form": "[f]",
+            "gloss": "face",
+            "support": 18,
+            "is_defined": false
+          },
+          {
+            "form": "g",
+            "gloss": "gentle intensity",
+            "support": 2,
+            "is_defined": true
+          },
+          {
+            "form": "t#",
+            "gloss": "specified number of seconds",
+            "support": 16,
+            "is_defined": false
+          },
+          {
+            "form": "x#",
+            "gloss": "specified number of times",
+            "support": 2,
+            "is_defined": false
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "F": [
+        "F"
+      ],
+      "C": [
+        "C"
+      ],
+      "E": [
+        "E"
+      ],
+      "Lk": [
+        "Lk"
+      ],
+      "Lo": [
+        "Lo"
+      ],
+      "Hi": [
+        "Hi"
+      ],
+      "P": [
+        "P"
+      ],
+      "R": [
+        "R"
+      ],
+      "B": [
+        "B"
+      ],
+      "H": [
+        "H"
+      ],
+      "T": [
+        "T"
+      ],
+      "V": [
+        "V"
+      ],
+      "D": [
+        "D"
+      ],
+      "A": [
+        "A"
+      ],
+      "L": [
+        "L"
+      ],
+      "U": [
+        "U"
+      ],
+      "mod": [
+        "mod"
+      ],
+      "rot12": [
+        "rot",
+        "12"
+      ],
+      "opp": [
+        "opp"
+      ],
+      "tone": [
+        "tone"
+      ],
+      "ctr": [
+        "ctr"
+      ],
+      "ws12": [
+        "ws",
+        "12"
+      ],
+      "cc12": [
+        "cc",
+        "12"
+      ],
+      "fan12": [
+        "fan",
+        "12"
+      ],
+      "board12": [
+        "board",
+        "12"
+      ],
+      "rest12": [
+        "rest",
+        "12"
+      ],
+      "cover12": [
+        "cover",
+        "12"
+      ],
+      "AC": [
+        "AC"
+      ],
+      "DE": [
+        "DE"
+      ],
+      "ES": [
+        "ES"
+      ],
+      "LI": [
+        "LI"
+      ],
+      "PI": [
+        "PI"
+      ],
+      "RC": [
+        "RC"
+      ],
+      "CD": [
+        "CD"
+      ],
+      "BS": [
+        "BS"
+      ],
+      "PS": [
+        "PS"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "TB": [
+        "TB"
+      ],
+      "CV": [
+        "CV"
+      ],
+      "N": [
+        "N"
+      ],
+      "S": [
+        "S"
+      ],
+      "W": [
+        "W"
+      ],
+      "C[f]t#": [
+        "C",
+        "[f]",
+        "t#"
+      ],
+      "W[f]t#": [
+        "W",
+        "[f]",
+        "t#"
+      ],
+      "F[f]t#g": [
+        "F",
+        "[f]",
+        "t#",
+        "g"
+      ],
+      "FA": [
+        "FA"
+      ],
+      "B[f]x#g": [
+        "B",
+        "[f]",
+        "x#",
+        "g"
+      ],
+      "BA[f1/f2]p#x#g": [
+        "BA[f1/f2]p#x#g"
+      ],
+      "BE[f]x#": [
+        "BE",
+        "[f]",
+        "x#"
+      ],
+      "CV[f]t#": [
+        "CV",
+        "[f]",
+        "t#"
+      ],
+      "R[f]t#": [
+        "R",
+        "[f]",
+        "t#"
+      ],
+      "T[f1/f2]t#m": [
+        "T[f1/f2]t#m"
+      ],
+      "L[f]t#": [
+        "L",
+        "[f]",
+        "t#"
+      ],
+      "BD[f]t#": [
+        "BD",
+        "[f]",
+        "t#"
+      ],
+      "RS[f]t#": [
+        "RS",
+        "[f]",
+        "t#"
+      ],
+      "WC[f]t#": [
+        "WC",
+        "[f]",
+        "t#"
+      ],
+      "HC[f]t#": [
+        "HC",
+        "[f]",
+        "t#"
+      ],
+      "BC[f]": [
+        "BC",
+        "[f]"
+      ],
+      "S6[f]t#": [
+        "S6",
+        "[f]",
+        "t#"
+      ],
+      "K": [
+        "K"
+      ],
+      "CE[f]t#": [
+        "CE",
+        "[f]",
+        "t#"
+      ],
+      "RW[f]t#": [
+        "RW",
+        "[f]",
+        "t#"
+      ],
+      "RT[f]t#": [
+        "RT",
+        "[f]",
+        "t#"
+      ],
+      "FA[f]t#": [
+        "FA",
+        "[f]",
+        "t#"
+      ],
+      "WBt#": [
+        "WB",
+        "t#"
+      ],
+      "g": [
+        "g"
+      ],
+      "m": [
+        "m"
+      ],
+      "f": [
+        "f"
+      ]
+    },
+    "head_index": {
+      "F": 0,
+      "C": 0,
+      "E": 0,
+      "Lk": 0,
+      "Lo": 0,
+      "Hi": 0,
+      "P": 0,
+      "R": 0,
+      "B": 0,
+      "H": 0,
+      "T": 0,
+      "V": 0,
+      "D": 0,
+      "A": 0,
+      "L": 0,
+      "U": 0,
+      "mod": 0,
+      "rot12": 0,
+      "opp": 0,
+      "tone": 0,
+      "ctr": 0,
+      "ws12": 0,
+      "cc12": 0,
+      "fan12": 0,
+      "board12": 0,
+      "rest12": 0,
+      "cover12": 0,
+      "AC": 0,
+      "DE": 0,
+      "ES": 0,
+      "LI": 0,
+      "PI": 0,
+      "RC": 0,
+      "CD": 0,
+      "BS": 0,
+      "PS": 0,
+      "HS": 0,
+      "TB": 0,
+      "CV": 0,
+      "N": 0,
+      "S": 0,
+      "W": 0,
+      "C[f]t#": 0,
+      "W[f]t#": 0,
+      "F[f]t#g": 0,
+      "FA": 0,
+      "B[f]x#g": 0,
+      "BA[f1/f2]p#x#g": 0,
+      "BE[f]x#": 0,
+      "CV[f]t#": 0,
+      "R[f]t#": 0,
+      "T[f1/f2]t#m": 0,
+      "L[f]t#": 0,
+      "BD[f]t#": 0,
+      "RS[f]t#": 0,
+      "WC[f]t#": 0,
+      "HC[f]t#": 0,
+      "BC[f]": 0,
+      "S6[f]t#": 0,
+      "K": 0,
+      "CE[f]t#": 0,
+      "RW[f]t#": 0,
+      "RT[f]t#": 0,
+      "FA[f]t#": 0,
+      "WBt#": 0,
+      "g": 0,
+      "m": 0,
+      "f": 0
+    },
+    "attested_orderings": [
+      [
+        "stem",
+        "suffix"
+      ],
+      [
+        "stem",
+        "suffix",
+        "suffix"
+      ],
+      [
+        "stem",
+        "suffix",
+        "suffix",
+        "suffix"
+      ]
+    ],
+    "depth_ceiling": 4,
+    "notation_cells": [],
+    "form_positions": {
+      "rot": 0,
+      "ws": 0,
+      "cc": 0,
+      "fan": 0,
+      "board": 0,
+      "rest": 0,
+      "cover": 0,
+      "C": 0,
+      "W": 0,
+      "F": 0,
+      "CV": 0,
+      "R": 0,
+      "L": 0,
+      "BD": 0,
+      "RS": 0,
+      "WC": 0,
+      "HC": 0,
+      "BC": 0,
+      "CE": 0,
+      "RW": 0,
+      "RT": 0,
+      "FA": 0,
+      "S6": 0,
+      "WB": 0,
+      "B": 0,
+      "BE": 0,
+      "12": 2,
+      "t#": 2,
+      "[f]": 1,
+      "g": 3,
+      "x#": 4
+    },
+    "position_labels": {
+      "0": "procedure root",
+      "1": "face target",
+      "2": "duration",
+      "3": "intensity",
+      "4": "count"
+    },
+    "positions_by_symbol": {
+      "rot12": [
+        0,
+        2
+      ],
+      "ws12": [
+        0,
+        2
+      ],
+      "cc12": [
+        0,
+        2
+      ],
+      "fan12": [
+        0,
+        2
+      ],
+      "board12": [
+        0,
+        2
+      ],
+      "rest12": [
+        0,
+        2
+      ],
+      "cover12": [
+        0,
+        2
+      ],
+      "C[f]t#": [
+        0,
+        1,
+        2
+      ],
+      "W[f]t#": [
+        0,
+        1,
+        2
+      ],
+      "F[f]t#g": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "CV[f]t#": [
+        0,
+        1,
+        2
+      ],
+      "R[f]t#": [
+        0,
+        1,
+        2
+      ],
+      "L[f]t#": [
+        0,
+        1,
+        2
+      ],
+      "BD[f]t#": [
+        0,
+        1,
+        2
+      ],
+      "RS[f]t#": [
+        0,
+        1,
+        2
+      ],
+      "WC[f]t#": [
+        0,
+        1,
+        2
+      ],
+      "HC[f]t#": [
+        0,
+        1,
+        2
+      ],
+      "BC[f]": [
+        0,
+        1
+      ],
+      "CE[f]t#": [
+        0,
+        1,
+        2
+      ],
+      "RW[f]t#": [
+        0,
+        1,
+        2
+      ],
+      "RT[f]t#": [
+        0,
+        1,
+        2
+      ],
+      "FA[f]t#": [
+        0,
+        1,
+        2
+      ],
+      "S6[f]t#": [
+        0,
+        1,
+        2
+      ],
+      "WBt#": [
+        0,
+        2
+      ],
+      "B[f]x#g": [
+        0,
+        1,
+        4,
+        3
+      ],
+      "BE[f]x#": [
+        0,
+        1,
+        4
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "rot": "rotate",
+        "ws": "warm stone",
+        "cc": "cool cloth",
+        "fan": "fan",
+        "board": "flat board",
+        "rest": "soft-surface rest",
+        "cover": "cloth cover",
+        "C": "cool cloth",
+        "W": "warm stone",
+        "F": "fan",
+        "CV": "cover or drape cloth",
+        "R": "rotate",
+        "L": "fixed gentle dim/bright opposite-face lamp",
+        "BD": "gentle board; rotate and repeat on face-pairs",
+        "RS": "gentle soft-surface rest",
+        "WC": "gentle warm-corners then trace-edges routine",
+        "HC": "gentle corner-bell then warm-meeting-edges routine",
+        "BC": "gentle bell the center of each face once",
+        "CE": "gentle cloth-over-edges then bell-three-times routine",
+        "RW": "gentle warm-stone then rotate-through-faces routine",
+        "RT": "rotate with steady gentle tone at opposite faces, then bell each corner once",
+        "FA": "fan all six faces in a sweep",
+        "S6": "sustained gentle tone near all six faces, then fade and wait",
+        "WB": "warm stone beside Veyru once",
+        "B": "bell near",
+        "BE": "bell near each edge"
+      },
+      "2": {
+        "12": "12 seconds",
+        "t#": "specified number of seconds"
+      },
+      "1": {
+        "[f]": "face"
+      },
+      "3": {
+        "g": "gentle intensity"
+      },
+      "4": {
+        "x#": "specified number of times"
+      }
+    },
+    "meaning_by_symbol": {
+      "F": "dim, frozen, silent, cold, no response",
+      "C": "1\u20132 corners bright, hot, ticking, rest normal",
+      "E": "too bright layered hum, frozen face pattern",
+      "Lk": "dim corners, fading edges",
+      "Lo": "dim overall whisper",
+      "Hi": "blazing white, harsh buzz, hot",
+      "P": "opposite faces pulse bright/dark, two-tone",
+      "R": "one face much brighter, whine",
+      "B": "edges wobble or bulge, muffled hum",
+      "H": "competing tones, alternating patterns",
+      "T": "hot all over but dim, red, rumble",
+      "V": "normal surface glow but hollow dark center",
+      "D": "light sliding, edges blur, wavering pitch",
+      "A": "random face flicker, irregular hum",
+      "L": "left face label",
+      "U": "up face label",
+      "mod": "moderate, dim/bright obvious",
+      "rot12": "take 12 seconds rotating",
+      "opp": "opposite faces",
+      "tone": "steady tone",
+      "ctr": "center",
+      "ws12": "warm stone for 12 seconds",
+      "cc12": "cool cloth for 12 seconds",
+      "fan12": "cool air for 12 seconds",
+      "board12": "flat board for 12 seconds",
+      "rest12": "soft surface for 12 seconds",
+      "cover12": "cloth for 12 seconds",
+      "AC": "random flicker, broken hum",
+      "DE": "sliding light, blurred edges",
+      "ES": "too bright layered hum",
+      "LI": "dark corners, fading edges",
+      "PI": "opposite-face pulse",
+      "RC": "one face bright, whine",
+      "CD": "bright corner clicking",
+      "BS": "wobbly edges",
+      "PS": "frozen, dim, silent, cold",
+      "HS": "competing tones",
+      "TB": "hot, dim, red, rumble",
+      "CV": "normal shell, hollow center",
+      "N": "front face",
+      "S": "back face",
+      "W": "left face",
+      "C[f]t#": "cool cloth on face or faces for the specified number of seconds",
+      "W[f]t#": "warm stone on face or faces for the specified number of seconds",
+      "F[f]t#g": "gentle fan on face or faces for the specified number of seconds",
+      "FA": "fan all 6 faces starting from the named face; sweep across all 6 starting at that face",
+      "B[f]x#g": "bell near face or faces, the specified number of chimes, gentle",
+      "BA[f1/f2]p#x#g": "alternate bell between opposite faces in the order first face then second face, pause the specified number of seconds after each chime, for the specified number of face-pairs, with the specified intensity",
+      "BE[f]x#": "bell near each edge of face f, the specified number of times each edge",
+      "CV[f]t#": "cover or drape cloth on face f for the specified number of seconds",
+      "R[f]t#": "rotate starting from face f for the specified number of seconds",
+      "T[f1/f2]t#m": "steady tone near the named opposite faces for the specified number of seconds, moderate",
+      "L[f]t#": "dim lamp on face f and bright lamp on the opposite face, fixed, gentle, for the specified number of seconds",
+      "BD[f]t#": "board on face f, gentle, for the specified number of seconds; rotate and repeat on face-pairs",
+      "RS[f]t#": "soft surface, with face f up, gentle, rest for the specified number of seconds",
+      "WC[f]t#": "warm each corner of face f in sequence, gentle, for the specified number of seconds each; then trace each edge of face f",
+      "HC[f]t#": "at each corner of face f: brief gentle bell, then warm the 2 meeting edges for the specified number of seconds",
+      "BC[f]": "bell the center of each face once, starting with face f, gentle",
+      "S6[f]t#": "sustained gentle tone near all 6 faces, starting with face f, for the specified number of seconds; then fade and wait",
+      "K": "bell each corner once",
+      "CE[f]t#": "cloth over 2 adjacent edges near face f, gentle, for the specified number of seconds; then bell face f 3 times",
+      "RW[f]t#": "warm stone beside face f, gentle, for the specified number of seconds; rotate and repeat on each face",
+      "RT[f]t#": "rotate over the specified number of seconds while a steady gentle tone is near opposite faces starting with face f; then bell each corner once",
+      "FA[f]t#": "fan all 6 faces starting from face f for the specified number of seconds",
+      "WBt#": "warm stone beside Veyru once for the specified number of seconds",
+      "g": "gentle intensity",
+      "m": "moderate intensity",
+      "f": "firm intensity"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1778877932",
+    "n_codes": 68,
+    "n_multimorpheme": 26,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "stem",
+        "label": "procedure root",
+        "fillers": [
+          {
+            "form": "B",
+            "gloss": "bell near",
+            "count": 1
+          },
+          {
+            "form": "BC",
+            "gloss": "gentle bell the center of each face once",
+            "count": 1
+          },
+          {
+            "form": "BD",
+            "gloss": "gentle board; rotate and repeat on face-pairs",
+            "count": 1
+          },
+          {
+            "form": "BE",
+            "gloss": "bell near each edge",
+            "count": 1
+          },
+          {
+            "form": "C",
+            "gloss": "cool cloth",
+            "count": 1
+          },
+          {
+            "form": "CE",
+            "gloss": "gentle cloth-over-edges then bell-three-times routine",
+            "count": 1
+          },
+          {
+            "form": "CV",
+            "gloss": "cover or drape cloth",
+            "count": 1
+          },
+          {
+            "form": "F",
+            "gloss": "fan",
+            "count": 1
+          },
+          {
+            "form": "FA",
+            "gloss": "fan all six faces in a sweep",
+            "count": 1
+          },
+          {
+            "form": "HC",
+            "gloss": "gentle corner-bell then warm-meeting-edges routine",
+            "count": 1
+          },
+          {
+            "form": "L",
+            "gloss": "fixed gentle dim/bright opposite-face lamp",
+            "count": 1
+          },
+          {
+            "form": "R",
+            "gloss": "rotate",
+            "count": 1
+          },
+          {
+            "form": "RS",
+            "gloss": "gentle soft-surface rest",
+            "count": 1
+          },
+          {
+            "form": "RT",
+            "gloss": "rotate with steady gentle tone at opposite faces, then bell each corner once",
+            "count": 1
+          },
+          {
+            "form": "RW",
+            "gloss": "gentle warm-stone then rotate-through-faces routine",
+            "count": 1
+          },
+          {
+            "form": "S6",
+            "gloss": "sustained gentle tone near all six faces, then fade and wait",
+            "count": 1
+          },
+          {
+            "form": "W",
+            "gloss": "warm stone",
+            "count": 1
+          },
+          {
+            "form": "WB",
+            "gloss": "warm stone beside Veyru once",
+            "count": 1
+          },
+          {
+            "form": "WC",
+            "gloss": "gentle warm-corners then trace-edges routine",
+            "count": 1
+          },
+          {
+            "form": "board",
+            "gloss": "flat board",
+            "count": 1
+          },
+          {
+            "form": "cc",
+            "gloss": "cool cloth",
+            "count": 1
+          },
+          {
+            "form": "cover",
+            "gloss": "cloth cover",
+            "count": 1
+          },
+          {
+            "form": "fan",
+            "gloss": "fan",
+            "count": 1
+          },
+          {
+            "form": "rest",
+            "gloss": "soft-surface rest",
+            "count": 1
+          },
+          {
+            "form": "rot",
+            "gloss": "rotate",
+            "count": 1
+          },
+          {
+            "form": "ws",
+            "gloss": "warm stone",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 26,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "suffix",
+        "label": "face target",
+        "fillers": [
+          {
+            "form": "[N]",
+            "gloss": "front face",
+            "count": 0
+          },
+          {
+            "form": "[S]",
+            "gloss": "back face",
+            "count": 0
+          },
+          {
+            "form": "[U]",
+            "gloss": "up face",
+            "count": 0
+          },
+          {
+            "form": "[W]",
+            "gloss": "left face",
+            "count": 0
+          },
+          {
+            "form": "[f]",
+            "gloss": "face",
+            "count": 18
+          }
+        ],
+        "paradigm_size": 5,
+        "obligatoriness": 0.6923076923076923,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos2",
+        "role": "suffix",
+        "label": "duration",
+        "fillers": [
+          {
+            "form": "12",
+            "gloss": "12 seconds",
+            "count": 7
+          },
+          {
+            "form": "t#",
+            "gloss": "specified number of seconds",
+            "count": 16
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.8846153846153846,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos3",
+        "role": "suffix",
+        "label": "intensity",
+        "fillers": [
+          {
+            "form": "f",
+            "gloss": "firm intensity",
+            "count": 0
+          },
+          {
+            "form": "g",
+            "gloss": "gentle intensity",
+            "count": 2
+          },
+          {
+            "form": "m",
+            "gloss": "moderate intensity",
+            "count": 0
+          }
+        ],
+        "paradigm_size": 3,
+        "obligatoriness": 0.07692307692307693,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos4",
+        "role": "suffix",
+        "label": "count",
+        "fillers": [
+          {
+            "form": "x#",
+            "gloss": "specified number of times",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.07692307692307693,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 18,
+        "possible_combos": 130,
+        "saturation": 0.13846153846153847
+      },
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos2",
+        "attested_combos": 23,
+        "possible_combos": 52,
+        "saturation": 0.4423076923076923
+      },
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos3",
+        "attested_combos": 2,
+        "possible_combos": 78,
+        "saturation": 0.02564102564102564
+      },
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos4",
+        "attested_combos": 2,
+        "possible_combos": 26,
+        "saturation": 0.07692307692307693
+      },
+      {
+        "slot_a": "pos1",
+        "slot_b": "pos2",
+        "attested_combos": 1,
+        "possible_combos": 10,
+        "saturation": 0.1
+      },
+      {
+        "slot_a": "pos1",
+        "slot_b": "pos3",
+        "attested_combos": 1,
+        "possible_combos": 15,
+        "saturation": 0.06666666666666667
+      },
+      {
+        "slot_a": "pos1",
+        "slot_b": "pos4",
+        "attested_combos": 1,
+        "possible_combos": 5,
+        "saturation": 0.2
+      },
+      {
+        "slot_a": "pos2",
+        "slot_b": "pos3",
+        "attested_combos": 1,
+        "possible_combos": 6,
+        "saturation": 0.16666666666666666
+      },
+      {
+        "slot_a": "pos3",
+        "slot_b": "pos4",
+        "attested_combos": 1,
+        "possible_combos": 3,
+        "saturation": 0.3333333333333333
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ],
+      [
+        "pos0",
+        "pos1",
+        "pos2"
+      ],
+      [
+        "pos0",
+        "pos1",
+        "pos2",
+        "pos3"
+      ],
+      [
+        "pos0",
+        "pos1",
+        "pos4"
+      ],
+      [
+        "pos0",
+        "pos1",
+        "pos4",
+        "pos3"
+      ],
+      [
+        "pos0",
+        "pos2"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "F[f]t#g": [
+        "pos0",
+        "pos1",
+        "pos2",
+        "pos3"
+      ],
+      "C[f]t#": [
+        "pos0",
+        "pos1",
+        "pos2"
+      ],
+      "W[f]t#": [
+        "pos0",
+        "pos1",
+        "pos2"
+      ],
+      "CV[f]t#": [
+        "pos0",
+        "pos1",
+        "pos2"
+      ],
+      "R[f]t#": [
+        "pos0",
+        "pos1",
+        "pos2"
+      ],
+      "L[f]t#": [
+        "pos0",
+        "pos1",
+        "pos2"
+      ],
+      "BD[f]t#": [
+        "pos0",
+        "pos1",
+        "pos2"
+      ],
+      "RS[f]t#": [
+        "pos0",
+        "pos1",
+        "pos2"
+      ],
+      "WC[f]t#": [
+        "pos0",
+        "pos1",
+        "pos2"
+      ],
+      "HC[f]t#": [
+        "pos0",
+        "pos1",
+        "pos2"
+      ],
+      "CE[f]t#": [
+        "pos0",
+        "pos1",
+        "pos2"
+      ],
+      "RW[f]t#": [
+        "pos0",
+        "pos1",
+        "pos2"
+      ],
+      "RT[f]t#": [
+        "pos0",
+        "pos1",
+        "pos2"
+      ],
+      "FA[f]t#": [
+        "pos0",
+        "pos1",
+        "pos2"
+      ],
+      "S6[f]t#": [
+        "pos0",
+        "pos1",
+        "pos2"
+      ],
+      "rot12": [
+        "pos0",
+        "pos2"
+      ],
+      "ws12": [
+        "pos0",
+        "pos2"
+      ],
+      "cc12": [
+        "pos0",
+        "pos2"
+      ],
+      "fan12": [
+        "pos0",
+        "pos2"
+      ],
+      "board12": [
+        "pos0",
+        "pos2"
+      ],
+      "rest12": [
+        "pos0",
+        "pos2"
+      ],
+      "cover12": [
+        "pos0",
+        "pos2"
+      ],
+      "BC[f]": [
+        "pos0",
+        "pos1"
+      ],
+      "WBt#": [
+        "pos0",
+        "pos2"
+      ],
+      "B[f]x#g": [
+        "pos0",
+        "pos1",
+        "pos4",
+        "pos3"
+      ],
+      "BE[f]x#": [
+        "pos0",
+        "pos1",
+        "pos4"
+      ]
+    },
+    "construction_by_symbol": {
+      "F[f]t#g": "CX_FTDI",
+      "C[f]t#": "CX_FTDI",
+      "W[f]t#": "CX_FTDI",
+      "CV[f]t#": "CX_FTDI",
+      "R[f]t#": "CX_FTDI",
+      "L[f]t#": "CX_FTDI",
+      "BD[f]t#": "CX_FTDI",
+      "RS[f]t#": "CX_FTDI",
+      "WC[f]t#": "CX_FTDI",
+      "HC[f]t#": "CX_FTDI",
+      "CE[f]t#": "CX_FTDI",
+      "RW[f]t#": "CX_FTDI",
+      "RT[f]t#": "CX_FTDI",
+      "FA[f]t#": "CX_FTDI",
+      "S6[f]t#": "CX_FTDI",
+      "rot12": "CX_FTDI",
+      "ws12": "CX_FTDI",
+      "cc12": "CX_FTDI",
+      "fan12": "CX_FTDI",
+      "board12": "CX_FTDI",
+      "rest12": "CX_FTDI",
+      "cover12": "CX_FTDI",
+      "BC[f]": "CX_FTDI",
+      "WBt#": "CX_FTDI",
+      "B[f]x#g": "CX_FXI",
+      "BE[f]x#": "CX_FXI"
+    },
+    "construction_labels": {
+      "CX_FTDI": "procedure with optional face, duration, intensity",
+      "CX_FXI": "procedure with face, count, optional intensity"
+    },
+    "construction_templates": {
+      "CX_FTDI": [
+        "pos0",
+        "pos1",
+        "pos2",
+        "pos3"
+      ],
+      "CX_FXI": [
+        "pos0",
+        "pos1",
+        "pos4",
+        "pos3"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "A small paradigm network is defensible for the procedural codes. The strongest evidence is recurring compositional frames with substituting procedure roots: X12, X[f]t#(g), and X[f]x#(g). FACE and INTENSITY are additionally supported by standalone key entries (N/S/W/U and g/m/f). I rejected more speculative splits for BA[f1/f2]p#x#g and T[f1/f2]t#m because the pair-face and pause material lack a broader substitutional paradigm here. All remaining symbols are kept lexical to avoid false morphology.",
+    "lexical_symbols": [
+      "F",
+      "C",
+      "E",
+      "Lk",
+      "Lo",
+      "Hi",
+      "P",
+      "R",
+      "B",
+      "H",
+      "T",
+      "V",
+      "D",
+      "A",
+      "L",
+      "U",
+      "mod",
+      "opp",
+      "tone",
+      "ctr",
+      "AC",
+      "DE",
+      "ES",
+      "LI",
+      "PI",
+      "RC",
+      "CD",
+      "BS",
+      "PS",
+      "HS",
+      "TB",
+      "CV",
+      "N",
+      "S",
+      "W",
+      "FA",
+      "BA[f1/f2]p#x#g",
+      "T[f1/f2]t#m",
+      "K",
+      "g",
+      "m",
+      "f"
+    ],
+    "classes": [
+      {
+        "class_id": "PROC_ROOT",
+        "label": "procedure root",
+        "description": "Content morphemes naming a procedure or operation.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "FACE",
+        "label": "face target",
+        "description": "A named face used as the target or starting face of a procedure.",
+        "repeatable": false,
+        "declared_fillers": [
+          {
+            "form": "[N]",
+            "gloss": "front face"
+          },
+          {
+            "form": "[S]",
+            "gloss": "back face"
+          },
+          {
+            "form": "[W]",
+            "gloss": "left face"
+          },
+          {
+            "form": "[U]",
+            "gloss": "up face"
+          }
+        ]
+      },
+      {
+        "class_id": "DURATION",
+        "label": "duration",
+        "description": "A duration specification in seconds.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "INTENSITY",
+        "label": "intensity",
+        "description": "Intensity specification.",
+        "repeatable": false,
+        "declared_fillers": [
+          {
+            "form": "g",
+            "gloss": "gentle intensity"
+          },
+          {
+            "form": "m",
+            "gloss": "moderate intensity"
+          },
+          {
+            "form": "f",
+            "gloss": "firm intensity"
+          }
+        ]
+      },
+      {
+        "class_id": "COUNT",
+        "label": "count",
+        "description": "A count of repetitions or chimes.",
+        "repeatable": false,
+        "declared_fillers": []
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "CX_FTDI",
+        "label": "procedure with optional face, duration, intensity",
+        "description": "Procedure root followed optionally by a face, a duration, and an intensity marker, in that order.",
+        "class_sequence": [
+          "PROC_ROOT",
+          "FACE",
+          "DURATION",
+          "INTENSITY"
+        ]
+      },
+      {
+        "construction_id": "CX_FXI",
+        "label": "procedure with face, count, optional intensity",
+        "description": "Procedure root followed by a face, a repetition count, and optionally an intensity marker.",
+        "class_sequence": [
+          "PROC_ROOT",
+          "FACE",
+          "COUNT",
+          "INTENSITY"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "rot12",
+        "construction_id": "CX_FTDI",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "rot",
+            "class_id": "PROC_ROOT",
+            "gloss": "rotate"
+          },
+          {
+            "form": "12",
+            "class_id": "DURATION",
+            "gloss": "12 seconds"
+          }
+        ]
+      },
+      {
+        "symbol": "ws12",
+        "construction_id": "CX_FTDI",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "ws",
+            "class_id": "PROC_ROOT",
+            "gloss": "warm stone"
+          },
+          {
+            "form": "12",
+            "class_id": "DURATION",
+            "gloss": "12 seconds"
+          }
+        ]
+      },
+      {
+        "symbol": "cc12",
+        "construction_id": "CX_FTDI",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "cc",
+            "class_id": "PROC_ROOT",
+            "gloss": "cool cloth"
+          },
+          {
+            "form": "12",
+            "class_id": "DURATION",
+            "gloss": "12 seconds"
+          }
+        ]
+      },
+      {
+        "symbol": "fan12",
+        "construction_id": "CX_FTDI",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "fan",
+            "class_id": "PROC_ROOT",
+            "gloss": "fan"
+          },
+          {
+            "form": "12",
+            "class_id": "DURATION",
+            "gloss": "12 seconds"
+          }
+        ]
+      },
+      {
+        "symbol": "board12",
+        "construction_id": "CX_FTDI",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "board",
+            "class_id": "PROC_ROOT",
+            "gloss": "flat board"
+          },
+          {
+            "form": "12",
+            "class_id": "DURATION",
+            "gloss": "12 seconds"
+          }
+        ]
+      },
+      {
+        "symbol": "rest12",
+        "construction_id": "CX_FTDI",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "rest",
+            "class_id": "PROC_ROOT",
+            "gloss": "soft-surface rest"
+          },
+          {
+            "form": "12",
+            "class_id": "DURATION",
+            "gloss": "12 seconds"
+          }
+        ]
+      },
+      {
+        "symbol": "cover12",
+        "construction_id": "CX_FTDI",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "cover",
+            "class_id": "PROC_ROOT",
+            "gloss": "cloth cover"
+          },
+          {
+            "form": "12",
+            "class_id": "DURATION",
+            "gloss": "12 seconds"
+          }
+        ]
+      },
+      {
+        "symbol": "C[f]t#",
+        "construction_id": "CX_FTDI",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "C",
+            "class_id": "PROC_ROOT",
+            "gloss": "cool cloth"
+          },
+          {
+            "form": "[f]",
+            "class_id": "FACE",
+            "gloss": "face or faces"
+          },
+          {
+            "form": "t#",
+            "class_id": "DURATION",
+            "gloss": "specified number of seconds"
+          }
+        ]
+      },
+      {
+        "symbol": "W[f]t#",
+        "construction_id": "CX_FTDI",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "W",
+            "class_id": "PROC_ROOT",
+            "gloss": "warm stone"
+          },
+          {
+            "form": "[f]",
+            "class_id": "FACE",
+            "gloss": "face or faces"
+          },
+          {
+            "form": "t#",
+            "class_id": "DURATION",
+            "gloss": "specified number of seconds"
+          }
+        ]
+      },
+      {
+        "symbol": "F[f]t#g",
+        "construction_id": "CX_FTDI",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "F",
+            "class_id": "PROC_ROOT",
+            "gloss": "fan"
+          },
+          {
+            "form": "[f]",
+            "class_id": "FACE",
+            "gloss": "face or faces"
+          },
+          {
+            "form": "t#",
+            "class_id": "DURATION",
+            "gloss": "specified number of seconds"
+          },
+          {
+            "form": "g",
+            "class_id": "INTENSITY",
+            "gloss": "gentle intensity"
+          }
+        ]
+      },
+      {
+        "symbol": "CV[f]t#",
+        "construction_id": "CX_FTDI",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "CV",
+            "class_id": "PROC_ROOT",
+            "gloss": "cover or drape cloth"
+          },
+          {
+            "form": "[f]",
+            "class_id": "FACE",
+            "gloss": "face"
+          },
+          {
+            "form": "t#",
+            "class_id": "DURATION",
+            "gloss": "specified number of seconds"
+          }
+        ]
+      },
+      {
+        "symbol": "R[f]t#",
+        "construction_id": "CX_FTDI",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "R",
+            "class_id": "PROC_ROOT",
+            "gloss": "rotate"
+          },
+          {
+            "form": "[f]",
+            "class_id": "FACE",
+            "gloss": "face"
+          },
+          {
+            "form": "t#",
+            "class_id": "DURATION",
+            "gloss": "specified number of seconds"
+          }
+        ]
+      },
+      {
+        "symbol": "L[f]t#",
+        "construction_id": "CX_FTDI",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "L",
+            "class_id": "PROC_ROOT",
+            "gloss": "fixed gentle dim/bright opposite-face lamp"
+          },
+          {
+            "form": "[f]",
+            "class_id": "FACE",
+            "gloss": "face"
+          },
+          {
+            "form": "t#",
+            "class_id": "DURATION",
+            "gloss": "specified number of seconds"
+          }
+        ]
+      },
+      {
+        "symbol": "BD[f]t#",
+        "construction_id": "CX_FTDI",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "BD",
+            "class_id": "PROC_ROOT",
+            "gloss": "gentle board; rotate and repeat on face-pairs"
+          },
+          {
+            "form": "[f]",
+            "class_id": "FACE",
+            "gloss": "face"
+          },
+          {
+            "form": "t#",
+            "class_id": "DURATION",
+            "gloss": "specified number of seconds"
+          }
+        ]
+      },
+      {
+        "symbol": "RS[f]t#",
+        "construction_id": "CX_FTDI",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "RS",
+            "class_id": "PROC_ROOT",
+            "gloss": "gentle soft-surface rest"
+          },
+          {
+            "form": "[f]",
+            "class_id": "FACE",
+            "gloss": "face"
+          },
+          {
+            "form": "t#",
+            "class_id": "DURATION",
+            "gloss": "specified number of seconds"
+          }
+        ]
+      },
+      {
+        "symbol": "WC[f]t#",
+        "construction_id": "CX_FTDI",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "WC",
+            "class_id": "PROC_ROOT",
+            "gloss": "gentle warm-corners then trace-edges routine"
+          },
+          {
+            "form": "[f]",
+            "class_id": "FACE",
+            "gloss": "face"
+          },
+          {
+            "form": "t#",
+            "class_id": "DURATION",
+            "gloss": "specified number of seconds"
+          }
+        ]
+      },
+      {
+        "symbol": "HC[f]t#",
+        "construction_id": "CX_FTDI",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "HC",
+            "class_id": "PROC_ROOT",
+            "gloss": "gentle corner-bell then warm-meeting-edges routine"
+          },
+          {
+            "form": "[f]",
+            "class_id": "FACE",
+            "gloss": "face"
+          },
+          {
+            "form": "t#",
+            "class_id": "DURATION",
+            "gloss": "specified number of seconds"
+          }
+        ]
+      },
+      {
+        "symbol": "BC[f]",
+        "construction_id": "CX_FTDI",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "BC",
+            "class_id": "PROC_ROOT",
+            "gloss": "gentle bell the center of each face once"
+          },
+          {
+            "form": "[f]",
+            "class_id": "FACE",
+            "gloss": "face"
+          }
+        ]
+      },
+      {
+        "symbol": "CE[f]t#",
+        "construction_id": "CX_FTDI",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "CE",
+            "class_id": "PROC_ROOT",
+            "gloss": "gentle cloth-over-edges then bell-three-times routine"
+          },
+          {
+            "form": "[f]",
+            "class_id": "FACE",
+            "gloss": "face"
+          },
+          {
+            "form": "t#",
+            "class_id": "DURATION",
+            "gloss": "specified number of seconds"
+          }
+        ]
+      },
+      {
+        "symbol": "RW[f]t#",
+        "construction_id": "CX_FTDI",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "RW",
+            "class_id": "PROC_ROOT",
+            "gloss": "gentle warm-stone then rotate-through-faces routine"
+          },
+          {
+            "form": "[f]",
+            "class_id": "FACE",
+            "gloss": "face"
+          },
+          {
+            "form": "t#",
+            "class_id": "DURATION",
+            "gloss": "specified number of seconds"
+          }
+        ]
+      },
+      {
+        "symbol": "RT[f]t#",
+        "construction_id": "CX_FTDI",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "RT",
+            "class_id": "PROC_ROOT",
+            "gloss": "rotate with steady gentle tone at opposite faces, then bell each corner once"
+          },
+          {
+            "form": "[f]",
+            "class_id": "FACE",
+            "gloss": "face"
+          },
+          {
+            "form": "t#",
+            "class_id": "DURATION",
+            "gloss": "specified number of seconds"
+          }
+        ]
+      },
+      {
+        "symbol": "FA[f]t#",
+        "construction_id": "CX_FTDI",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "FA",
+            "class_id": "PROC_ROOT",
+            "gloss": "fan all six faces in a sweep"
+          },
+          {
+            "form": "[f]",
+            "class_id": "FACE",
+            "gloss": "face"
+          },
+          {
+            "form": "t#",
+            "class_id": "DURATION",
+            "gloss": "specified number of seconds"
+          }
+        ]
+      },
+      {
+        "symbol": "S6[f]t#",
+        "construction_id": "CX_FTDI",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "S6",
+            "class_id": "PROC_ROOT",
+            "gloss": "sustained gentle tone near all six faces, then fade and wait"
+          },
+          {
+            "form": "[f]",
+            "class_id": "FACE",
+            "gloss": "face"
+          },
+          {
+            "form": "t#",
+            "class_id": "DURATION",
+            "gloss": "specified number of seconds"
+          }
+        ]
+      },
+      {
+        "symbol": "WBt#",
+        "construction_id": "CX_FTDI",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "WB",
+            "class_id": "PROC_ROOT",
+            "gloss": "warm stone beside Veyru once"
+          },
+          {
+            "form": "t#",
+            "class_id": "DURATION",
+            "gloss": "specified number of seconds"
+          }
+        ]
+      },
+      {
+        "symbol": "B[f]x#g",
+        "construction_id": "CX_FXI",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "B",
+            "class_id": "PROC_ROOT",
+            "gloss": "bell near"
+          },
+          {
+            "form": "[f]",
+            "class_id": "FACE",
+            "gloss": "face or faces"
+          },
+          {
+            "form": "x#",
+            "class_id": "COUNT",
+            "gloss": "specified number of times"
+          },
+          {
+            "form": "g",
+            "class_id": "INTENSITY",
+            "gloss": "gentle intensity"
+          }
+        ]
+      },
+      {
+        "symbol": "BE[f]x#",
+        "construction_id": "CX_FXI",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "BE",
+            "class_id": "PROC_ROOT",
+            "gloss": "bell near each edge"
+          },
+          {
+            "form": "[f]",
+            "class_id": "FACE",
+            "gloss": "face"
+          },
+          {
+            "form": "x#",
+            "class_id": "COUNT",
+            "gloss": "specified number of times"
+          }
+        ]
+      }
+    ]
+  }
+}

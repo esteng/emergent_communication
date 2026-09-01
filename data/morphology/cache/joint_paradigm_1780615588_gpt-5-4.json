@@ -1,0 +1,479 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780615588",
+    "slots": [
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "LP",
+            "gloss": "lamp",
+            "support": 2,
+            "is_defined": true
+          }
+        ]
+      },
+      {
+        "role": "suffix",
+        "fillers": [
+          {
+            "form": "[bright]",
+            "gloss": "full brightness",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "[dim]",
+            "gloss": "dimmed",
+            "support": 1,
+            "is_defined": false
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "A6": [
+        "A6"
+      ],
+      "BD": [
+        "BD"
+      ],
+      "BK": [
+        "BK"
+      ],
+      "BL": [
+        "BL"
+      ],
+      "BR": [
+        "BR"
+      ],
+      "BT": [
+        "BT"
+      ],
+      "CE": [
+        "CE"
+      ],
+      "CL": [
+        "CL"
+      ],
+      "CR": [
+        "CR"
+      ],
+      "DM": [
+        "DM"
+      ],
+      "ea": [
+        "ea"
+      ],
+      "FF": [
+        "FF"
+      ],
+      "FN": [
+        "FN"
+      ],
+      "FR": [
+        "FR"
+      ],
+      "HE": [
+        "HE"
+      ],
+      "hi": [
+        "hi"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "LH": [
+        "LH"
+      ],
+      "lo": [
+        "lo"
+      ],
+      "LP": [
+        "LP"
+      ],
+      "LT": [
+        "LT"
+      ],
+      "mod": [
+        "mod"
+      ],
+      "PF": [
+        "PF"
+      ],
+      "RT": [
+        "RT"
+      ],
+      "SH": [
+        "SH"
+      ],
+      "TP": [
+        "TP"
+      ],
+      "WH": [
+        "WH"
+      ],
+      "x5": [
+        "x5"
+      ],
+      "TN": [
+        "TN"
+      ],
+      ">XX": [
+        ">XX"
+      ],
+      "FLIP": [
+        "FLIP"
+      ],
+      "opp": [
+        "opp"
+      ],
+      "ROT": [
+        "ROT"
+      ],
+      "alt": [
+        "alt"
+      ],
+      "fail": [
+        "fail"
+      ],
+      "LP[bright]": [
+        "LP",
+        "[bright]"
+      ],
+      "LP[dim]": [
+        "LP",
+        "[dim]"
+      ],
+      "click": [
+        "click"
+      ],
+      "foldCL": [
+        "foldCL"
+      ],
+      "LP>[face]": [
+        "LP>[face]"
+      ],
+      "firm": [
+        "firm"
+      ],
+      "gen": [
+        "gen"
+      ]
+    },
+    "head_index": {
+      "A6": 0,
+      "BD": 0,
+      "BK": 0,
+      "BL": 0,
+      "BR": 0,
+      "BT": 0,
+      "CE": 0,
+      "CL": 0,
+      "CR": 0,
+      "DM": 0,
+      "ea": 0,
+      "FF": 0,
+      "FN": 0,
+      "FR": 0,
+      "HE": 0,
+      "hi": 0,
+      "HS": 0,
+      "LH": 0,
+      "lo": 0,
+      "LP": 0,
+      "LT": 0,
+      "mod": 0,
+      "PF": 0,
+      "RT": 0,
+      "SH": 0,
+      "TP": 0,
+      "WH": 0,
+      "x5": 0,
+      "TN": 0,
+      ">XX": 0,
+      "FLIP": 0,
+      "opp": 0,
+      "ROT": 0,
+      "alt": 0,
+      "fail": 0,
+      "LP[bright]": 0,
+      "LP[dim]": 0,
+      "click": 0,
+      "foldCL": 0,
+      "LP>[face]": 0,
+      "firm": 0,
+      "gen": 0
+    },
+    "attested_orderings": [
+      [
+        "stem",
+        "suffix"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [],
+    "form_positions": {
+      "LP": 0,
+      "[bright]": 1,
+      "[dim]": 1
+    },
+    "position_labels": {
+      "0": "lamp base",
+      "1": "lamp brightness state"
+    },
+    "positions_by_symbol": {
+      "LP[bright]": [
+        0,
+        1
+      ],
+      "LP[dim]": [
+        0,
+        1
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "LP": "lamp"
+      },
+      "1": {
+        "[bright]": "full brightness",
+        "[dim]": "dimmed"
+      }
+    },
+    "meaning_by_symbol": {
+      "A6": "all 6 faces",
+      "BD": "board",
+      "BK": "back face",
+      "BL": "bell",
+      "BR": "too bright",
+      "BT": "bottom face",
+      "CE": "cold edges",
+      "CL": "cloth",
+      "CR": "corner issues",
+      "DM": "too dim",
+      "ea": "each, in sequence",
+      "FF": "frozen faces",
+      "FN": "fan",
+      "FR": "front face",
+      "HE": "hot edges",
+      "hi": "high intensity",
+      "HS": "heated stone",
+      "LH": "layered hum",
+      "lo": "low intensity",
+      "LP": "lamp",
+      "LT": "left face",
+      "mod": "moderate intensity",
+      "PF": "pulsing faces",
+      "RT": "right face",
+      "SH": "silent, hum stopped",
+      "TP": "top face",
+      "WH": "whining hum",
+      "x5": "five cycles",
+      "TN": "sustained tone using voice or humming",
+      ">XX": "start from the specified face XX",
+      "FLIP": "flip over",
+      "opp": "opposite face",
+      "ROT": "rotate",
+      "alt": "alternating",
+      "fail": "the tool failed",
+      "LP[bright]": "lamp at full brightness, aimed at that face",
+      "LP[dim]": "lamp dimmed or covered, aimed at that face",
+      "click": "clicking sound",
+      "foldCL": "folded cloth",
+      "LP>[face]": "lamp placed at that face's side, aimed inward directly at it; for LP>BT the lamp is below, shining upward at the bottom face, for LP>TP the lamp is above, shining downward at the top face, and for side faces the lamp is positioned on that side shining inward; the opposite face gets only ambient or indirect light and is therefore dim automatically",
+      "firm": "firm, strong intensity",
+      "gen": "gentle, soft intensity"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780615588",
+    "n_codes": 42,
+    "n_multimorpheme": 2,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "stem",
+        "label": "lamp base",
+        "fillers": [
+          {
+            "form": "LP",
+            "gloss": "lamp",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "suffix",
+        "label": "lamp brightness state",
+        "fillers": [
+          {
+            "form": "[bright]",
+            "gloss": "full brightness",
+            "count": 1
+          },
+          {
+            "form": "[dim]",
+            "gloss": "dimmed",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "LP[bright]": [
+        "pos0",
+        "pos1"
+      ],
+      "LP[dim]": [
+        "pos0",
+        "pos1"
+      ]
+    },
+    "construction_by_symbol": {
+      "LP[bright]": "K_LAMP_STATE",
+      "LP[dim]": "K_LAMP_STATE"
+    },
+    "construction_labels": {
+      "K_LAMP_STATE": "lamp with brightness-state modifier"
+    },
+    "construction_templates": {
+      "K_LAMP_STATE": [
+        "pos0",
+        "pos1"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "A single defensible compositional family is supported: LP[bright] vs LP[dim] is an exact minimal pair in the shared frame LP[__], with stable meanings 'lamp' + brightness-state. Their meanings are predictable from the parts, so this yields one construction. I do not extend the analysis to LP>[face] or >XX, because the codebook gives only schematic placeholders there and no attested multi-entry substitution contrast within those frames beyond the declaration itself; given the instruction to prefer caution over false morphology, those remain lexical here. All other symbols are left opaque because no further meaning-consistent substitution paradigm is securely supported.",
+    "lexical_symbols": [
+      "A6",
+      "BD",
+      "BK",
+      "BL",
+      "BR",
+      "BT",
+      "CE",
+      "CL",
+      "CR",
+      "DM",
+      "ea",
+      "FF",
+      "FN",
+      "FR",
+      "HE",
+      "hi",
+      "HS",
+      "LH",
+      "lo",
+      "LP",
+      "LT",
+      "mod",
+      "PF",
+      "RT",
+      "SH",
+      "TP",
+      "WH",
+      "x5",
+      "TN",
+      ">XX",
+      "FLIP",
+      "opp",
+      "ROT",
+      "alt",
+      "fail",
+      "click",
+      "foldCL",
+      "LP>[face]",
+      "firm",
+      "gen"
+    ],
+    "classes": [
+      {
+        "class_id": "C_LAMP_HEAD",
+        "label": "lamp base",
+        "description": "Lamp as the content head in the LP[STATE] construction.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "C_LAMP_STATE",
+        "label": "lamp brightness state",
+        "description": "Brightness-state modifier applied to the lamp frame.",
+        "repeatable": false,
+        "declared_fillers": []
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "K_LAMP_STATE",
+        "label": "lamp with brightness-state modifier",
+        "description": "A lamp code modified by a bracketed brightness state.",
+        "class_sequence": [
+          "C_LAMP_HEAD",
+          "C_LAMP_STATE"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "LP[bright]",
+        "construction_id": "K_LAMP_STATE",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "LP",
+            "class_id": "C_LAMP_HEAD",
+            "gloss": "lamp"
+          },
+          {
+            "form": "[bright]",
+            "class_id": "C_LAMP_STATE",
+            "gloss": "full brightness"
+          }
+        ]
+      },
+      {
+        "symbol": "LP[dim]",
+        "construction_id": "K_LAMP_STATE",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "LP",
+            "class_id": "C_LAMP_HEAD",
+            "gloss": "lamp"
+          },
+          {
+            "form": "[dim]",
+            "class_id": "C_LAMP_STATE",
+            "gloss": "dimmed"
+          }
+        ]
+      }
+    ]
+  }
+}

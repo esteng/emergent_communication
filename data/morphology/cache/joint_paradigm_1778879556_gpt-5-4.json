@@ -1,0 +1,431 @@
+{
+  "grammar": {
+    "run_key": "veyru/1778879556",
+    "slots": [],
+    "segmentation": {
+      "S1": [
+        "S1"
+      ],
+      "S2": [
+        "S2"
+      ],
+      "S3": [
+        "S3"
+      ],
+      "S4": [
+        "S4"
+      ],
+      "S5": [
+        "S5"
+      ],
+      "S6": [
+        "S6"
+      ],
+      "S7": [
+        "S7"
+      ],
+      "S8": [
+        "S8"
+      ],
+      "S9": [
+        "S9"
+      ],
+      "S10": [
+        "S10"
+      ],
+      "S11": [
+        "S11"
+      ],
+      "S12": [
+        "S12"
+      ],
+      "S13": [
+        "S13"
+      ],
+      "S14": [
+        "S14"
+      ],
+      "+": [
+        "+"
+      ],
+      "B": [
+        "B"
+      ],
+      "WS": [
+        "WS"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "CC": [
+        "CC"
+      ],
+      "C": [
+        "C"
+      ],
+      "F": [
+        "F"
+      ],
+      "L": [
+        "L"
+      ],
+      "FB": [
+        "FB"
+      ],
+      "SS": [
+        "SS"
+      ],
+      "R": [
+        "R"
+      ],
+      "T": [
+        "T"
+      ],
+      "bot": [
+        "bot"
+      ],
+      "top": [
+        "top"
+      ],
+      "opp": [
+        "opp"
+      ],
+      "all": [
+        "all"
+      ],
+      "ctr": [
+        "ctr"
+      ],
+      "edge": [
+        "edge"
+      ],
+      "corner": [
+        "corner"
+      ],
+      "lo": [
+        "lo"
+      ],
+      "mod": [
+        "mod"
+      ],
+      "hi": [
+        "hi"
+      ],
+      "dim": [
+        "dim"
+      ],
+      "bright": [
+        "bright"
+      ],
+      "P1": [
+        "P1"
+      ],
+      "P2": [
+        "P2"
+      ],
+      "P3": [
+        "P3"
+      ],
+      "P4": [
+        "P4"
+      ],
+      "P5": [
+        "P5"
+      ],
+      "P6": [
+        "P6"
+      ],
+      "P7": [
+        "P7"
+      ],
+      "P8": [
+        "P8"
+      ],
+      "P9": [
+        "P9"
+      ],
+      "P10": [
+        "P10"
+      ],
+      "P11": [
+        "P11"
+      ],
+      "P12": [
+        "P12"
+      ],
+      "P13": [
+        "P13"
+      ],
+      "P14": [
+        "P14"
+      ],
+      "left": [
+        "left"
+      ],
+      "right": [
+        "right"
+      ],
+      "front": [
+        "front"
+      ],
+      "back": [
+        "back"
+      ],
+      "K": [
+        "K"
+      ],
+      "g": [
+        "g"
+      ],
+      "m": [
+        "m"
+      ],
+      "h": [
+        "h"
+      ],
+      "l": [
+        "l"
+      ],
+      "d": [
+        "d"
+      ],
+      "b": [
+        "b"
+      ],
+      "f": [
+        "f"
+      ],
+      "Veyru": [
+        "Veyru"
+      ]
+    },
+    "head_index": {
+      "S1": 0,
+      "S2": 0,
+      "S3": 0,
+      "S4": 0,
+      "S5": 0,
+      "S6": 0,
+      "S7": 0,
+      "S8": 0,
+      "S9": 0,
+      "S10": 0,
+      "S11": 0,
+      "S12": 0,
+      "S13": 0,
+      "S14": 0,
+      "+": 0,
+      "B": 0,
+      "WS": 0,
+      "HS": 0,
+      "CC": 0,
+      "C": 0,
+      "F": 0,
+      "L": 0,
+      "FB": 0,
+      "SS": 0,
+      "R": 0,
+      "T": 0,
+      "bot": 0,
+      "top": 0,
+      "opp": 0,
+      "all": 0,
+      "ctr": 0,
+      "edge": 0,
+      "corner": 0,
+      "lo": 0,
+      "mod": 0,
+      "hi": 0,
+      "dim": 0,
+      "bright": 0,
+      "P1": 0,
+      "P2": 0,
+      "P3": 0,
+      "P4": 0,
+      "P5": 0,
+      "P6": 0,
+      "P7": 0,
+      "P8": 0,
+      "P9": 0,
+      "P10": 0,
+      "P11": 0,
+      "P12": 0,
+      "P13": 0,
+      "P14": 0,
+      "left": 0,
+      "right": 0,
+      "front": 0,
+      "back": 0,
+      "K": 0,
+      "g": 0,
+      "m": 0,
+      "h": 0,
+      "l": 0,
+      "d": 0,
+      "b": 0,
+      "f": 0,
+      "Veyru": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "S1": "dim all faces, whisper sound, washed appearance",
+      "S2": "blazing white, harsh buzz, hot",
+      "S3": "corners dark, edges fading",
+      "S4": "random face flicker, irregular hum",
+      "S5": "sliding light, blurred edges, wavering pitch",
+      "S6": "opposite faces pulse bright-dark, two-tone sound",
+      "S7": "one face much brighter, whine",
+      "S8": "bright corner or corners, clicking, hot corner",
+      "S9": "edges wobble, bulge, muffled sound",
+      "S10": "frozen dim, silent, cold",
+      "S11": "clashing tones, two configurations, shimmering edges",
+      "S12": "hot, dull red, rumble, gritty",
+      "S13": "bright surface but hollow, dark center",
+      "S14": "too bright, layered hum, frozen patches",
+      "+": "combine symptom IDs in the order seen",
+      "B": "bell or chime",
+      "WS": "the same stone used warm; place it beside the target face",
+      "HS": "the same stone used hotter; hold it near the target edge or corner, not touching unless obvious",
+      "CC": "cool cloth",
+      "C": "cloth",
+      "F": "front face",
+      "L": "left face",
+      "FB": "flat board",
+      "SS": "soft surface",
+      "R": "right face",
+      "T": "top face",
+      "bot": "bottom",
+      "top": "top",
+      "opp": "opposite face",
+      "all": "all faces",
+      "ctr": "center",
+      "edge": "edge",
+      "corner": "corner",
+      "lo": "low intensity",
+      "mod": "moderate intensity",
+      "hi": "high intensity",
+      "dim": "dim intensity",
+      "bright": "bright intensity",
+      "P1": "tone all 6 faces simultaneously; start at the given face; hold; let fade",
+      "P2": "bell alternating between opposite faces; pause means hold; 5 cycles",
+      "P3": "cloth on 2 adjacent edges near the given face; hold; then bell that face 3 times",
+      "P4": "warm each corner of the named face with the stone nearby for the hold, then trace each edge of the named face with a finger",
+      "P5": "warm stone beside the given face; hold; rotate and repeat each face",
+      "P6": "drape cool cloth over the whole Veyru, then fan gentle cool air across the named face and its opposite",
+      "P7": "lamp very close to the opposite face for bright direct light; flat board angled on the far side to reflect weak light onto the named face; hold both fixed for the count",
+      "P8": "folded cloth on the given face; hold; then bell each edge 2 times",
+      "P9": "at each corner: brief bell, then warm the 2 meeting edges with the stone; hold",
+      "P10": "flat board against the given face; hold; rotate and repeat each opposite face-pair, meaning all 3 opposite pairs",
+      "P11": "bell the center of each face 1 time starting from the given face; then warm stone beside Veyru; hold",
+      "P12": "soft surface, face up; rest undisturbed; hold",
+      "P13": "drape cool cloth over the whole Veyru, then fan all 6 faces starting from the named face",
+      "P14": "rotate slowly during the hold while a steady tone is near opposite faces starting from the given face; then bell each corner 1 time",
+      "left": "left face",
+      "right": "right face",
+      "front": "front face",
+      "back": "back face",
+      "K": "back face",
+      "g": "gentle intensity",
+      "m": "moderate intensity",
+      "h": "high intensity",
+      "l": "low intensity",
+      "d": "dim intensity",
+      "b": "bright intensity",
+      "f": "firm intensity, meaning stronger pressure or airflow where relevant",
+      "Veyru": "the object being acted on"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1778879556",
+    "n_codes": 65,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible compositional paradigm survives the evidence tests. The numbered S1–S14 and P1–P14 forms fail the opaque-index test: the numerals do not contribute a stable literal meaning such as count, duration, or ordered semantic contrast across a shared frame; instead each whole form names an idiosyncratic symptom or procedure. The candidate splits based on shared prefixes/suffixes (S1-, P1-, -10, -11, etc.) are unsupported because the residues do not form a meaning-consistent substitution class in a common construction. Other surface resemblances such as bright/right or CC/C likewise lack a stable compositional contrast. Although the codebook includes standalone semantic key entries for faces and intensities, there is no independently supported multi-morpheme construction in which those values alternate, so they remain lexical symbols here rather than paradigm members. Therefore the safest complete partition is a flat lexicon.",
+    "lexical_symbols": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6",
+      "S7",
+      "S8",
+      "S9",
+      "S10",
+      "S11",
+      "S12",
+      "S13",
+      "S14",
+      "+",
+      "B",
+      "WS",
+      "HS",
+      "CC",
+      "C",
+      "F",
+      "L",
+      "FB",
+      "SS",
+      "R",
+      "T",
+      "bot",
+      "top",
+      "opp",
+      "all",
+      "ctr",
+      "edge",
+      "corner",
+      "lo",
+      "mod",
+      "hi",
+      "dim",
+      "bright",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8",
+      "P9",
+      "P10",
+      "P11",
+      "P12",
+      "P13",
+      "P14",
+      "left",
+      "right",
+      "front",
+      "back",
+      "K",
+      "g",
+      "m",
+      "h",
+      "l",
+      "d",
+      "b",
+      "f",
+      "Veyru"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

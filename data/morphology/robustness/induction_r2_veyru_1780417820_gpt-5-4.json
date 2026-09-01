@@ -1,0 +1,698 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780417820",
+    "slots": [
+      {
+        "role": "prefix",
+        "fillers": [
+          {
+            "form": "b",
+            "gloss": "bright",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "d",
+            "gloss": "dim",
+            "support": 1,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "l",
+            "gloss": "lamp",
+            "support": 2,
+            "is_defined": true
+          },
+          {
+            "form": "t6sim",
+            "gloss": "sustain tone near all 6 faces simultaneously, then fade and wait",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "toneopp",
+            "gloss": "steady tone near the opposite faces during rotation",
+            "support": 1,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "suffix",
+        "fillers": [
+          {
+            "form": "(F,5)",
+            "gloss": "from the front for 5 seconds",
+            "support": 2,
+            "is_defined": false
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "R": [
+        "R"
+      ],
+      "L": [
+        "L"
+      ],
+      "U": [
+        "U"
+      ],
+      "D": [
+        "D"
+      ],
+      "F": [
+        "F"
+      ],
+      "B": [
+        "B"
+      ],
+      "OB": [
+        "OB"
+      ],
+      "LH": [
+        "LH"
+      ],
+      "FRZ": [
+        "FRZ"
+      ],
+      "Bk": [
+        "Bk"
+      ],
+      "b": [
+        "b"
+      ],
+      "t6": [
+        "t6"
+      ],
+      "ws": [
+        "ws"
+      ],
+      "cc": [
+        "cc"
+      ],
+      "cl": [
+        "cl"
+      ],
+      "fb": [
+        "fb"
+      ],
+      "bd": [
+        "bd"
+      ],
+      "fan": [
+        "fan"
+      ],
+      "dl": [
+        "d",
+        "l"
+      ],
+      "bl": [
+        "b",
+        "l"
+      ],
+      "opp": [
+        "opp"
+      ],
+      "c4": [
+        "c4"
+      ],
+      "e": [
+        "e"
+      ],
+      "rot": [
+        "rot"
+      ],
+      "mod": [
+        "mod"
+      ],
+      "ctr6": [
+        "ctr6"
+      ],
+      "a6": [
+        "a6"
+      ],
+      "rm": [
+        "rm"
+      ],
+      "nm": [
+        "nm"
+      ],
+      "ss": [
+        "ss"
+      ],
+      "fc": [
+        "fc"
+      ],
+      "mw": [
+        "mw"
+      ],
+      "ud": [
+        "ud"
+      ],
+      "x12": [
+        "x12"
+      ],
+      "Uc4": [
+        "Uc4"
+      ],
+      "e2": [
+        "e2"
+      ],
+      "f": [
+        "f"
+      ],
+      "c4(D)": [
+        "c4(D)"
+      ],
+      "e4(D)": [
+        "e4(D)"
+      ],
+      "seq": [
+        "seq"
+      ],
+      "C": [
+        "C"
+      ],
+      "O": [
+        "O"
+      ],
+      "l": [
+        "l"
+      ],
+      "V": [
+        "V"
+      ],
+      "P": [
+        "P"
+      ],
+      "W": [
+        "W"
+      ],
+      "S": [
+        "S"
+      ],
+      "D2": [
+        "D2"
+      ],
+      "A": [
+        "A"
+      ],
+      "t6sim(F,5)": [
+        "t6sim",
+        "(F,5)"
+      ],
+      "toneopp(F,5)": [
+        "toneopp",
+        "(F,5)"
+      ]
+    },
+    "head_index": {
+      "R": 0,
+      "L": 0,
+      "U": 0,
+      "D": 0,
+      "F": 0,
+      "B": 0,
+      "OB": 0,
+      "LH": 0,
+      "FRZ": 0,
+      "Bk": 0,
+      "b": 0,
+      "t6": 0,
+      "ws": 0,
+      "cc": 0,
+      "cl": 0,
+      "fb": 0,
+      "bd": 0,
+      "fan": 0,
+      "dl": 1,
+      "bl": 1,
+      "opp": 0,
+      "c4": 0,
+      "e": 0,
+      "rot": 0,
+      "mod": 0,
+      "ctr6": 0,
+      "a6": 0,
+      "rm": 0,
+      "nm": 0,
+      "ss": 0,
+      "fc": 0,
+      "mw": 0,
+      "ud": 0,
+      "x12": 0,
+      "Uc4": 0,
+      "e2": 0,
+      "f": 0,
+      "c4(D)": 0,
+      "e4(D)": 0,
+      "seq": 0,
+      "C": 0,
+      "O": 0,
+      "l": 0,
+      "V": 0,
+      "P": 0,
+      "W": 0,
+      "S": 0,
+      "D2": 0,
+      "A": 0,
+      "t6sim(F,5)": 0,
+      "toneopp(F,5)": 0
+    },
+    "attested_orderings": [
+      [
+        "prefix",
+        "stem"
+      ],
+      [
+        "stem",
+        "suffix"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [],
+    "form_positions": {
+      "d": 0,
+      "b": 0,
+      "l": 1,
+      "t6sim": 2,
+      "toneopp": 2,
+      "(F,5)": 3
+    },
+    "position_labels": {
+      "0": "brightness modifier",
+      "1": "lamp device root",
+      "2": "sound procedure root",
+      "3": "front-and-5-seconds parameter"
+    },
+    "positions_by_symbol": {
+      "dl": [
+        0,
+        1
+      ],
+      "bl": [
+        0,
+        1
+      ],
+      "t6sim(F,5)": [
+        2,
+        3
+      ],
+      "toneopp(F,5)": [
+        2,
+        3
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "d": "dim",
+        "b": "bright"
+      },
+      "1": {
+        "l": "lamp"
+      },
+      "2": {
+        "t6sim": "sustain tone near all 6 faces simultaneously, then fade and wait",
+        "toneopp": "steady tone near the opposite faces during rotation"
+      },
+      "3": {
+        "(F,5)": "from the front for 5 seconds"
+      }
+    },
+    "meaning_by_symbol": {
+      "R": "right face",
+      "L": "the four corners are dim, the edges are fading, and the center is okay",
+      "U": "top face",
+      "D": "bottom face",
+      "F": "front face",
+      "B": "back face",
+      "OB": "overbright",
+      "LH": "layered hum",
+      "FRZ": "frozen, no change",
+      "Bk": "back face",
+      "b": "bell or chime",
+      "t6": "sustain tone at all 6 faces",
+      "ws": "warm stone",
+      "cc": "cool cloth",
+      "cl": "cloth",
+      "fb": "fold cloth",
+      "bd": "board",
+      "fan": "fan cool",
+      "dl": "dim lamp",
+      "bl": "bright lamp",
+      "opp": "opposite face",
+      "c4": "four corners",
+      "e": "edges",
+      "rot": "rotate",
+      "mod": "moderate",
+      "ctr6": "center of each of the 6 faces",
+      "a6": "all 6 faces",
+      "rm": "remove",
+      "nm": "no move",
+      "ss": "cloth on a soft surface",
+      "fc": "firm contact",
+      "mw": "moderate or firm warmth or brightness, depending on the round",
+      "ud": "undisturbed",
+      "x12": "repeat 12 times",
+      "Uc4": "the 4 corners on the top face",
+      "e2": "2 edges? Also I\u2019ll avoid filler msgs like 'u'.",
+      "f": "fail",
+      "c4(D)": "all corners on the bottom face",
+      "e4(D)": "all edges on the bottom face",
+      "seq": "one by one",
+      "C": "bright at the four corners, with clicking, and hot",
+      "O": "overbright, layered, and frozen with no change",
+      "l": "all dim, with whispering, and washed out",
+      "V": "dark center, hollow, and thin",
+      "P": "frozen and dim, silent, and cold",
+      "W": "edge wobble, bulge, and muffled",
+      "S": "light drift, edge smear, and wavering",
+      "D2": "dual tone, alternating patterns, and shimmer",
+      "A": "random flicker, irregular hum, and chaotic",
+      "t6sim(F,5)": "sustained tone near all 6 faces simultaneously for 5 seconds from the front, then fade and wait",
+      "toneopp(F,5)": "steady tone near the opposite faces during rotation for 5 seconds from the front"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780417820",
+    "n_codes": 51,
+    "n_multimorpheme": 4,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "prefix",
+        "label": "brightness modifier",
+        "fillers": [
+          {
+            "form": "b",
+            "gloss": "bright",
+            "count": 1
+          },
+          {
+            "form": "d",
+            "gloss": "dim",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.5,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "stem",
+        "label": "lamp device root",
+        "fillers": [
+          {
+            "form": "l",
+            "gloss": "lamp",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.5,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos2",
+        "role": "stem",
+        "label": "sound procedure root",
+        "fillers": [
+          {
+            "form": "t6sim",
+            "gloss": "sustain tone near all 6 faces simultaneously, then fade and wait",
+            "count": 1
+          },
+          {
+            "form": "toneopp",
+            "gloss": "steady tone near the opposite faces during rotation",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.5,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos3",
+        "role": "suffix",
+        "label": "front-and-5-seconds parameter",
+        "fillers": [
+          {
+            "form": "(F,5)",
+            "gloss": "from the front for 5 seconds",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.5,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      },
+      {
+        "slot_a": "pos2",
+        "slot_b": "pos3",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ],
+      [
+        "pos2",
+        "pos3"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "dl": [
+        "pos0",
+        "pos1"
+      ],
+      "bl": [
+        "pos0",
+        "pos1"
+      ],
+      "t6sim(F,5)": [
+        "pos2",
+        "pos3"
+      ],
+      "toneopp(F,5)": [
+        "pos2",
+        "pos3"
+      ]
+    },
+    "construction_by_symbol": {
+      "dl": "CX_LAMP_STATE",
+      "bl": "CX_LAMP_STATE",
+      "t6sim(F,5)": "CX_SOUND_PROC_WITH_PARAM",
+      "toneopp(F,5)": "CX_SOUND_PROC_WITH_PARAM"
+    },
+    "construction_labels": {
+      "CX_LAMP_STATE": "brightness-modified lamp",
+      "CX_SOUND_PROC_WITH_PARAM": "sound procedure with front/5s parameter"
+    },
+    "construction_templates": {
+      "CX_LAMP_STATE": [
+        "pos0",
+        "pos1"
+      ],
+      "CX_SOUND_PROC_WITH_PARAM": [
+        "pos2",
+        "pos3"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "Most symbols are best treated as opaque lexical items because the dataset does not provide enough meaning-consistent substitution evidence for broader morphology. Two small paradigms are defensible. First, dl/bl form an exact compositional minimal pair: the second segment l contributes 'lamp' in both, while d vs b contrast as 'dim' vs 'bright' in the same frame; unrelated standalone homographs do not block this. Second, t6sim(F,5)/toneopp(F,5) share the same final parameter string (F,5), whose contribution is stable ('from the front for 5 seconds'), while the initial procedure roots contrast in the same frame. Other tempting segmentations, including c4(D)/e4(D) and Uc4, are left lexical because the current evidence does not yet show a sufficiently secure shared construction with substituting fillers and fully predictable meanings.",
+    "lexical_symbols": [
+      "R",
+      "L",
+      "U",
+      "D",
+      "F",
+      "B",
+      "OB",
+      "LH",
+      "FRZ",
+      "Bk",
+      "b",
+      "t6",
+      "ws",
+      "cc",
+      "cl",
+      "fb",
+      "bd",
+      "fan",
+      "opp",
+      "c4",
+      "e",
+      "rot",
+      "mod",
+      "ctr6",
+      "a6",
+      "rm",
+      "nm",
+      "ss",
+      "fc",
+      "mw",
+      "ud",
+      "x12",
+      "Uc4",
+      "e2",
+      "f",
+      "c4(D)",
+      "e4(D)",
+      "seq",
+      "C",
+      "O",
+      "l",
+      "V",
+      "P",
+      "W",
+      "S",
+      "D2",
+      "A"
+    ],
+    "classes": [
+      {
+        "class_id": "CLS_MOD_BRIGHTNESS",
+        "label": "brightness modifier",
+        "description": "Preposed modifier specifying lamp brightness state.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CLS_DEVICE_LAMP",
+        "label": "lamp device root",
+        "description": "Lamp root in the lamp-state construction.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CLS_SOUND_PROC",
+        "label": "sound procedure root",
+        "description": "Procedure root for a sound-producing action pattern.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CLS_FRONT5_PARAM",
+        "label": "front-and-5-seconds parameter",
+        "description": "Fixed trailing parameter meaning 'from the front for 5 seconds'.",
+        "repeatable": false,
+        "declared_fillers": []
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "CX_LAMP_STATE",
+        "label": "brightness-modified lamp",
+        "description": "Brightness modifier followed by lamp root.",
+        "class_sequence": [
+          "CLS_MOD_BRIGHTNESS",
+          "CLS_DEVICE_LAMP"
+        ]
+      },
+      {
+        "construction_id": "CX_SOUND_PROC_WITH_PARAM",
+        "label": "sound procedure with front/5s parameter",
+        "description": "Sound procedure root followed by a fixed front-and-duration parameter.",
+        "class_sequence": [
+          "CLS_SOUND_PROC",
+          "CLS_FRONT5_PARAM"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "dl",
+        "construction_id": "CX_LAMP_STATE",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "d",
+            "class_id": "CLS_MOD_BRIGHTNESS",
+            "gloss": "dim"
+          },
+          {
+            "form": "l",
+            "class_id": "CLS_DEVICE_LAMP",
+            "gloss": "lamp"
+          }
+        ]
+      },
+      {
+        "symbol": "bl",
+        "construction_id": "CX_LAMP_STATE",
+        "head_morpheme_index": 1,
+        "morphemes": [
+          {
+            "form": "b",
+            "class_id": "CLS_MOD_BRIGHTNESS",
+            "gloss": "bright"
+          },
+          {
+            "form": "l",
+            "class_id": "CLS_DEVICE_LAMP",
+            "gloss": "lamp"
+          }
+        ]
+      },
+      {
+        "symbol": "t6sim(F,5)",
+        "construction_id": "CX_SOUND_PROC_WITH_PARAM",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "t6sim",
+            "class_id": "CLS_SOUND_PROC",
+            "gloss": "sustain tone near all 6 faces simultaneously, then fade and wait"
+          },
+          {
+            "form": "(F,5)",
+            "class_id": "CLS_FRONT5_PARAM",
+            "gloss": "from the front for 5 seconds"
+          }
+        ]
+      },
+      {
+        "symbol": "toneopp(F,5)",
+        "construction_id": "CX_SOUND_PROC_WITH_PARAM",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "toneopp",
+            "class_id": "CLS_SOUND_PROC",
+            "gloss": "steady tone near the opposite faces during rotation"
+          },
+          {
+            "form": "(F,5)",
+            "class_id": "CLS_FRONT5_PARAM",
+            "gloss": "from the front for 5 seconds"
+          }
+        ]
+      }
+    ]
+  }
+}

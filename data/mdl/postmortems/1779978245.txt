@@ -1,0 +1,39 @@
+[ENG] Round 1 nearly timed out. I’ll keep link replies to exact procedure only. Symptom shorthand: corners dim + edges fading/perimeter loss + hollow edge hum => folded cloth back face 8s gentle, then bell each back-face edge twice.
+[OBS] Got it. I’ll use shorthand only and skip confirmation unless there’s a new symptom. Possible report: “Corners dim, edges fade, perimeter loss, hollow edge hum.”
+[ENG] Perfect. I’ll answer with procedure only, no diagnosis/extras.
+[OBS] Understood.
+[ENG] Round 2 shorthand: frozen dim still + silent + cold + no touch response => soft surface, top face up, gentle contact, rest 5s.
+[OBS] Got it. I used the folded cloth as the soft surface. If you want a specific item, say it explicitly; otherwise I’ll default to cloth for “soft surface.”
+[ENG] Yes—default cloth for soft surface unless I specify otherwise.
+[OBS] Understood.
+[ENG] Round 3 shorthand: hot all over + dim + reddish + low rumble + rough/gritty => cloth over 2 adjacent edges near back face 20s firm, then bell x3 near back face.
+[OBS] Got it. I used two adjacent back-face edges without a specified pair. If pair matters, please name it; otherwise I’ll assume any adjacent pair on the named face is acceptable.
+[ENG] Assume any adjacent pair on the named face unless I specify otherwise.
+[OBS] Understood.
+[OBS] Round 4 collapsed on time. We need much shorter link traffic, especially for repeat symptoms and follow-up reports. I can use compressed symptom strings if you’re OK with them.
+[ENG] Yes. Use ultra-short symptom codes. I’ll map them. My link reply must be exact, so your reports need to be minimal, especially on second symptoms.
+[OBS] Proposed codes: CD corners dim; EF edges fade; PL perimeter loss; HH hollow-edge hum. FS frozen dim/still; S0 silent; C cold; NR no response. H hot; R red; LR low rumble; G gritty. B1 one face bright; V vib; W whine; ON others normal.
+[ENG] Good. Use those. If needed: FP frozen pattern, MT multi-tone, OP opposite-face pulsing, ED edges flash, BD blurred edges, SL sliding light.
+[OBS] Got it. I’ll use codes only on link.
+[ENG] Budget math: combo rounds can still fit if your link reports are ~10–20 chars each. Keep using observation codes only. Avoid full words. For echo use B+MT+FP. For leak use CD+EF+PL+HH. For stall use FS+S0+C+NR. For thermal bleed use H+dim+R+LR+G. For resonance use B1+V+W+ON.
+[OBS] Got it. I’ll keep link reports ~10–20 chars. We should also add codes for dim overall / whisper hum / washed-out patterns / too bright so I don’t improvise next time.
+[ENG] Add: DO dim overall, WH whisper hum, WO washed out, TB too bright, LH layered hum, AC alt configs, ES edge shimmer, BH blazing/hot harsh buzz, HT radiating heat, CK clicking, UF underwater/muffled, BL bulging, HC hollow tap, DC dark center.
+[OBS] Got it. I’ll use those codes.
+[ENG] Codes worked. Round 6 stabilized with 164 chars. Keep reports this short.
+[OBS] Understood.
+[ENG] Problem: some combo rounds are mathematically impossible if 2 exact procedures are needed; two full replies can exceed 250 alone. Keep link reports minimal anyway. If a second symptom appears, send only its code string immediately—no “new” or extras.
+[OBS] Understood. If a second symptom appears, I’ll send only the code string. Please map bright corners if you can; I used “1-2 bright corners+CK+HT.”
+[ENG] Use BC for bright corner(s). So corner deadlock = BC+CK+HT.
+[OBS] Got it.
+[ENG] Add WHU = wavering hum. SL+BD+WHU mapped cleanly this round.
+[OBS] Got it.
+[ENG] Add TH = thin hum. HC+DC+TH is enough for core void. Still, long combo-round replies may remain impossible under 250.
+[OBS] Got it.
+[OBS] Round 10 also died on a two-procedure sequence. I’m keeping second reports to code-only as agreed.
+[OBS] Round 11 missed by only 20 chars. If the two exact procedure replies can be shortened at all, combo rounds may fit.
+[OBS] Round 12 also missed budget on a 2-step round. Also, “repeat for each face-pair” was a little ambiguous; if that comes up again, a shorter explicit variant may help.
+[ENG] Use bundle codes now: X1=CD+EF+PL+HH X2=FS+S0+C+NR X3=DO+WH+WO X4=B1+V+W+ON X5=BC+CK+HT X6=HC+DC+TH X7=SL+BD+WHU X8=TB+MT+FP X9=OP+ED+2T. Send only X#. I can’t safely shorten the procedure text itself.
+[OBS] Got it. I’ll use X# only.
+[ENG] X# worked. Keep using it.
+[OBS] Understood.
+[OBS] X# helps, but two exact procedures still overflowed Round 14.

@@ -1,0 +1,2807 @@
+{
+  "grammar": {
+    "run_key": "veyru/1778879551",
+    "slots": [
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "B",
+            "gloss": "brightness",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "H",
+            "gloss": "hum",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "M",
+            "gloss": "mid-action observation",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "T",
+            "gloss": "tap",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "X",
+            "gloss": "extras",
+            "support": 1,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "suffix",
+        "fillers": [
+          {
+            "form": ":_",
+            "gloss": "fixed symptom panel field",
+            "support": 5,
+            "is_defined": false
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "B": [
+        "B"
+      ],
+      "S": [
+        "S"
+      ],
+      "C": [
+        "C"
+      ],
+      "L": [
+        "L"
+      ],
+      "F": [
+        "F"
+      ],
+      "BD": [
+        "BD"
+      ],
+      "R": [
+        "R"
+      ],
+      "T": [
+        "T"
+      ],
+      "Bot": [
+        "Bot"
+      ],
+      "Fr": [
+        "Fr"
+      ],
+      "Bk": [
+        "Bk"
+      ],
+      "all": [
+        "all"
+      ],
+      "opp": [
+        "opp"
+      ],
+      "g": [
+        "g"
+      ],
+      "m": [
+        "m"
+      ],
+      "s": [
+        "s"
+      ],
+      "dim": [
+        "dim"
+      ],
+      "norm": [
+        "norm"
+      ],
+      "bright": [
+        "bright"
+      ],
+      "flare": [
+        "flare"
+      ],
+      "whisper": [
+        "whisper"
+      ],
+      "low": [
+        "low"
+      ],
+      "loud": [
+        "loud"
+      ],
+      "scream": [
+        "scream"
+      ],
+      "wash": [
+        "wash"
+      ],
+      "sharp": [
+        "sharp"
+      ],
+      "flicker": [
+        "flicker"
+      ],
+      "static": [
+        "static"
+      ],
+      "cold": [
+        "cold"
+      ],
+      "cool": [
+        "cool"
+      ],
+      "warm": [
+        "warm"
+      ],
+      "hot": [
+        "hot"
+      ],
+      "C1-C8": [
+        "C1-C8"
+      ],
+      "pulse-sync": [
+        "pulse-sync"
+      ],
+      "chaos": [
+        "chaos"
+      ],
+      "1tone": [
+        "1tone"
+      ],
+      "2tone": [
+        "2tone"
+      ],
+      "layered": [
+        "layered"
+      ],
+      "Cx": [
+        "Cx"
+      ],
+      "Fx": [
+        "Fx"
+      ],
+      "hollow": [
+        "hollow"
+      ],
+      "solid": [
+        "solid"
+      ],
+      "dead": [
+        "dead"
+      ],
+      "wobble": [
+        "wobble"
+      ],
+      "curve": [
+        "curve"
+      ],
+      "4C/R": [
+        "4C/R"
+      ],
+      "4E/R": [
+        "4E/R"
+      ],
+      "6F": [
+        "6F"
+      ],
+      "seq": [
+        "seq"
+      ],
+      "sim": [
+        "sim"
+      ],
+      "+opp": [
+        "+opp"
+      ],
+      "rot": [
+        "rot"
+      ],
+      "8C": [
+        "8C"
+      ],
+      "S/": [
+        "S/"
+      ],
+      "silent": [
+        "silent"
+      ],
+      "whine": [
+        "whine"
+      ],
+      "rumble": [
+        "rumble"
+      ],
+      "sliding": [
+        "sliding"
+      ],
+      "frozen": [
+        "frozen"
+      ],
+      "1F": [
+        "1F"
+      ],
+      "2C": [
+        "2C"
+      ],
+      "4C/X": [
+        "4C/X"
+      ],
+      "4E/X": [
+        "4E/X"
+      ],
+      "B:_": [
+        "B",
+        ":_"
+      ],
+      "H:_": [
+        "H",
+        ":_"
+      ],
+      "T:_": [
+        "T",
+        ":_"
+      ],
+      "X:_": [
+        "X",
+        ":_"
+      ],
+      "n": [
+        "n"
+      ],
+      "click": [
+        "click"
+      ],
+      "dark-core": [
+        "dark-core"
+      ],
+      "edges-dim": [
+        "edges-dim"
+      ],
+      "hot-C1": [
+        "hot-C1"
+      ],
+      "red-tint": [
+        "red-tint"
+      ],
+      "M:_": [
+        "M",
+        ":_"
+      ],
+      "20/face": [
+        "20/face"
+      ],
+      "ea": [
+        "ea"
+      ],
+      "total": [
+        "total"
+      ],
+      "ea-face": [
+        "ea-face"
+      ],
+      "C-fold": [
+        "C-fold"
+      ],
+      "C-wrap": [
+        "C-wrap"
+      ],
+      "over-all": [
+        "over-all"
+      ],
+      "LEAK": [
+        "LEAK"
+      ],
+      "STALL": [
+        "STALL"
+      ],
+      "ALIGN": [
+        "ALIGN"
+      ],
+      "ECHO": [
+        "ECHO"
+      ],
+      "RES": [
+        "RES"
+      ],
+      "DEAD": [
+        "DEAD"
+      ],
+      "BOUND": [
+        "BOUND"
+      ],
+      "DRIFT": [
+        "DRIFT"
+      ],
+      "PHASE": [
+        "PHASE"
+      ],
+      "HARM": [
+        "HARM"
+      ],
+      "THERM": [
+        "THERM"
+      ],
+      "VOID": [
+        "VOID"
+      ],
+      "LOW": [
+        "LOW"
+      ],
+      "HIGH": [
+        "HIGH"
+      ],
+      "@window": [
+        "@window"
+      ],
+      "@dark": [
+        "@dark"
+      ],
+      "@bright": [
+        "@bright"
+      ],
+      "Fr&opp": [
+        "Fr&opp"
+      ],
+      "Fr&Bk": [
+        "Fr&Bk"
+      ]
+    },
+    "head_index": {
+      "B": 0,
+      "S": 0,
+      "C": 0,
+      "L": 0,
+      "F": 0,
+      "BD": 0,
+      "R": 0,
+      "T": 0,
+      "Bot": 0,
+      "Fr": 0,
+      "Bk": 0,
+      "all": 0,
+      "opp": 0,
+      "g": 0,
+      "m": 0,
+      "s": 0,
+      "dim": 0,
+      "norm": 0,
+      "bright": 0,
+      "flare": 0,
+      "whisper": 0,
+      "low": 0,
+      "loud": 0,
+      "scream": 0,
+      "wash": 0,
+      "sharp": 0,
+      "flicker": 0,
+      "static": 0,
+      "cold": 0,
+      "cool": 0,
+      "warm": 0,
+      "hot": 0,
+      "C1-C8": 0,
+      "pulse-sync": 0,
+      "chaos": 0,
+      "1tone": 0,
+      "2tone": 0,
+      "layered": 0,
+      "Cx": 0,
+      "Fx": 0,
+      "hollow": 0,
+      "solid": 0,
+      "dead": 0,
+      "wobble": 0,
+      "curve": 0,
+      "4C/R": 0,
+      "4E/R": 0,
+      "6F": 0,
+      "seq": 0,
+      "sim": 0,
+      "+opp": 0,
+      "rot": 0,
+      "8C": 0,
+      "S/": 0,
+      "silent": 0,
+      "whine": 0,
+      "rumble": 0,
+      "sliding": 0,
+      "frozen": 0,
+      "1F": 0,
+      "2C": 0,
+      "4C/X": 0,
+      "4E/X": 0,
+      "B:_": 0,
+      "H:_": 0,
+      "T:_": 0,
+      "X:_": 0,
+      "n": 0,
+      "click": 0,
+      "dark-core": 0,
+      "edges-dim": 0,
+      "hot-C1": 0,
+      "red-tint": 0,
+      "M:_": 0,
+      "20/face": 0,
+      "ea": 0,
+      "total": 0,
+      "ea-face": 0,
+      "C-fold": 0,
+      "C-wrap": 0,
+      "over-all": 0,
+      "LEAK": 0,
+      "STALL": 0,
+      "ALIGN": 0,
+      "ECHO": 0,
+      "RES": 0,
+      "DEAD": 0,
+      "BOUND": 0,
+      "DRIFT": 0,
+      "PHASE": 0,
+      "HARM": 0,
+      "THERM": 0,
+      "VOID": 0,
+      "LOW": 0,
+      "HIGH": 0,
+      "@window": 0,
+      "@dark": 0,
+      "@bright": 0,
+      "Fr&opp": 0,
+      "Fr&Bk": 0
+    },
+    "attested_orderings": [
+      [
+        "stem",
+        "suffix"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [
+      {
+        "stem": "ALIGN",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "ALIGN+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "B",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "B+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "BD",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "BD+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "BOUND",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "BOUND+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "Bk",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "Bk+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "Bot",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "Bot+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "C",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "C+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "Cx",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "Cx+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "DEAD",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "DEAD+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "DRIFT",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "DRIFT+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "ECHO",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "ECHO+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "F",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "F+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "Fr",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "Fr+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "Fx",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "Fx+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "HARM",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "HARM+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "HIGH",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "HIGH+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "L",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "L+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "LEAK",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "LEAK+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "LOW",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "LOW+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "PHASE",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "PHASE+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "R",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "R+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "RES",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "RES+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "S",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "S+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "STALL",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "STALL+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "T",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "T+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "THERM",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "THERM+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "VOID",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "VOID+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "all",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "all+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "bright",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "bright+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "chaos",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "chaos+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "click",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "click+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "cold",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "cold+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "cool",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "cool+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "curve",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "curve+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "dead",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "dead+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "dim",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "dim+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "ea",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "ea+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "flare",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "flare+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "flicker",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "flicker+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "frozen",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "frozen+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "g",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "g+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "hollow",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "hollow+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "hot",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "hot+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "layered",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "layered+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "loud",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "loud+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "low",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "low+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "m",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "m+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "n",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "n+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "norm",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "norm+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "rot",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "rot+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "rumble",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "rumble+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "s",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "s+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "scream",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "scream+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "seq",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "seq+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "sharp",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "sharp+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "silent",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "silent+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "sim",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "sim+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "sliding",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "sliding+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "solid",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "solid+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "static",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "static+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "total",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "total+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "warm",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "warm+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "wash",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "wash+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "whine",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "whine+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "whisper",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "whisper+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "wobble",
+        "affix": "+opp",
+        "role": "suffix",
+        "form": "wobble+opp",
+        "delimiter": "+"
+      },
+      {
+        "stem": "ALIGN",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "ALIGN@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "B",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "B@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "BD",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "BD@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "BOUND",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "BOUND@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "Bk",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "Bk@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "Bot",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "Bot@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "C",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "C@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "Cx",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "Cx@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "DEAD",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "DEAD@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "DRIFT",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "DRIFT@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "ECHO",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "ECHO@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "F",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "F@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "Fr",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "Fr@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "Fx",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "Fx@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "HARM",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "HARM@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "HIGH",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "HIGH@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "L",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "L@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "LEAK",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "LEAK@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "LOW",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "LOW@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "PHASE",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "PHASE@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "R",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "R@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "RES",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "RES@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "S",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "S@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "STALL",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "STALL@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "T",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "T@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "THERM",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "THERM@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "VOID",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "VOID@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "all",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "all@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "chaos",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "chaos@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "click",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "click@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "cold",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "cold@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "cool",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "cool@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "curve",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "curve@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "dead",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "dead@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "dim",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "dim@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "ea",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "ea@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "flare",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "flare@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "flicker",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "flicker@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "frozen",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "frozen@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "g",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "g@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "hollow",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "hollow@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "hot",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "hot@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "layered",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "layered@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "loud",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "loud@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "low",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "low@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "m",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "m@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "n",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "n@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "norm",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "norm@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "opp",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "opp@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "rot",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "rot@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "rumble",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "rumble@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "s",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "s@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "scream",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "scream@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "seq",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "seq@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "sharp",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "sharp@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "silent",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "silent@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "sim",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "sim@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "sliding",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "sliding@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "solid",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "solid@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "static",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "static@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "total",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "total@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "warm",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "warm@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "wash",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "wash@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "whine",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "whine@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "whisper",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "whisper@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "wobble",
+        "affix": "@bright",
+        "role": "suffix",
+        "form": "wobble@bright",
+        "delimiter": "@"
+      },
+      {
+        "stem": "ALIGN",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "ALIGN@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "B",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "B@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "BD",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "BD@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "BOUND",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "BOUND@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "Bk",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "Bk@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "Bot",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "Bot@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "C",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "C@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "Cx",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "Cx@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "DEAD",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "DEAD@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "DRIFT",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "DRIFT@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "ECHO",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "ECHO@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "F",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "F@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "Fr",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "Fr@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "Fx",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "Fx@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "HARM",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "HARM@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "HIGH",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "HIGH@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "L",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "L@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "LEAK",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "LEAK@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "LOW",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "LOW@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "PHASE",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "PHASE@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "R",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "R@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "RES",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "RES@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "S",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "S@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "STALL",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "STALL@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "T",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "T@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "THERM",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "THERM@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "VOID",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "VOID@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "all",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "all@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "bright",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "bright@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "chaos",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "chaos@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "click",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "click@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "cold",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "cold@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "cool",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "cool@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "curve",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "curve@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "dead",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "dead@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "dim",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "dim@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "ea",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "ea@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "flare",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "flare@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "flicker",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "flicker@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "frozen",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "frozen@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "g",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "g@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "hollow",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "hollow@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "hot",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "hot@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "layered",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "layered@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "loud",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "loud@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "low",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "low@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "m",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "m@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "n",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "n@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "norm",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "norm@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "opp",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "opp@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "rot",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "rot@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "rumble",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "rumble@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "s",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "s@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "scream",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "scream@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "seq",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "seq@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "sharp",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "sharp@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "silent",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "silent@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "sim",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "sim@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "sliding",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "sliding@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "solid",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "solid@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "static",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "static@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "total",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "total@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "warm",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "warm@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "wash",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "wash@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "whine",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "whine@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "whisper",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "whisper@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "wobble",
+        "affix": "@dark",
+        "role": "suffix",
+        "form": "wobble@dark",
+        "delimiter": "@"
+      },
+      {
+        "stem": "ALIGN",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "ALIGN@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "B",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "B@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "BD",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "BD@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "BOUND",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "BOUND@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "Bk",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "Bk@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "Bot",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "Bot@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "C",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "C@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "Cx",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "Cx@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "DEAD",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "DEAD@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "DRIFT",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "DRIFT@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "ECHO",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "ECHO@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "F",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "F@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "Fr",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "Fr@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "Fx",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "Fx@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "HARM",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "HARM@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "HIGH",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "HIGH@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "L",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "L@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "LEAK",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "LEAK@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "LOW",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "LOW@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "PHASE",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "PHASE@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "R",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "R@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "RES",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "RES@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "S",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "S@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "STALL",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "STALL@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "T",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "T@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "THERM",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "THERM@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "VOID",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "VOID@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "all",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "all@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "bright",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "bright@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "chaos",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "chaos@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "click",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "click@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "cold",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "cold@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "cool",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "cool@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "curve",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "curve@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "dead",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "dead@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "dim",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "dim@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "ea",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "ea@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "flare",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "flare@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "flicker",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "flicker@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "frozen",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "frozen@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "g",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "g@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "hollow",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "hollow@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "hot",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "hot@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "layered",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "layered@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "loud",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "loud@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "low",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "low@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "m",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "m@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "n",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "n@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "norm",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "norm@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "opp",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "opp@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "rot",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "rot@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "rumble",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "rumble@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "s",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "s@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "scream",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "scream@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "seq",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "seq@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "sharp",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "sharp@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "silent",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "silent@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "sim",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "sim@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "sliding",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "sliding@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "solid",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "solid@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "static",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "static@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "total",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "total@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "warm",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "warm@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "wash",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "wash@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "whine",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "whine@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "whisper",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "whisper@window",
+        "delimiter": "@"
+      },
+      {
+        "stem": "wobble",
+        "affix": "@window",
+        "role": "suffix",
+        "form": "wobble@window",
+        "delimiter": "@"
+      }
+    ],
+    "form_positions": {
+      "B": 0,
+      "H": 0,
+      "T": 0,
+      "X": 0,
+      "M": 0,
+      ":_": 1
+    },
+    "position_labels": {
+      "0": "panel field label",
+      "1": "fixed symptom panel marker"
+    },
+    "positions_by_symbol": {
+      "B:_": [
+        0,
+        1
+      ],
+      "H:_": [
+        0,
+        1
+      ],
+      "T:_": [
+        0,
+        1
+      ],
+      "X:_": [
+        0,
+        1
+      ],
+      "M:_": [
+        0,
+        1
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "B": "brightness",
+        "H": "hum",
+        "T": "tap",
+        "X": "extras",
+        "M": "mid-action observation"
+      },
+      "1": {
+        ":_": "fixed symptom panel field"
+      }
+    },
+    "meaning_by_symbol": {
+      "B": "bell",
+      "S": "heated stone",
+      "C": "cloth",
+      "L": "left face",
+      "F": "fan",
+      "BD": "board",
+      "R": "right face",
+      "T": "top face",
+      "Bot": "bottom face",
+      "Fr": "front face",
+      "Bk": "back face",
+      "all": "the whole Veyru",
+      "opp": "opposite face",
+      "g": "gentle intensity",
+      "m": "moderate intensity",
+      "s": "strong intensity",
+      "dim": "dim brightness",
+      "norm": "normal brightness",
+      "bright": "bright brightness",
+      "flare": "brightness flare",
+      "whisper": "whisper-level hum",
+      "low": "low hum",
+      "loud": "loud hum",
+      "scream": "screaming hum",
+      "wash": "wash pattern",
+      "sharp": "sharp pattern",
+      "flicker": "flicker pattern",
+      "static": "static pattern",
+      "cold": "cold temperature",
+      "cool": "cool temperature",
+      "warm": "warm temperature",
+      "hot": "hot temperature",
+      "C1-C8": "corners 1 through 8",
+      "pulse-sync": "opposite faces pulsing in sync",
+      "chaos": "random flicker",
+      "1tone": "one tone",
+      "2tone": "two tones",
+      "layered": "layered tones",
+      "Cx": "a corner location",
+      "Fx": "a face location",
+      "hollow": "hollow on tap test",
+      "solid": "solid on tap test",
+      "dead": "cold or dead on tap test",
+      "wobble": "wobble on touch test",
+      "curve": "curve on touch test",
+      "4C/R": "all 4 corners of the right face",
+      "4E/R": "all 4 edges of the right face",
+      "6F": "all six faces",
+      "seq": "in sequence, one after another",
+      "sim": "simultaneously",
+      "+opp": "and the opposite face",
+      "rot": "rotate and repeat for each face",
+      "8C": "all corners",
+      "S/": "hold the heated stone beside the target, radiant and not touching",
+      "silent": "silent hum state",
+      "whine": "whining hum",
+      "rumble": "rumbling hum",
+      "sliding": "sliding pattern",
+      "frozen": "frozen pattern",
+      "1F": "one face, used when the exact face is uncertain",
+      "2C": "two corners, used when the exact corners are uncertain",
+      "4C/X": "4E/X, 6F = corners/edges of face X, all faces",
+      "4E/X": "edges of face X",
+      "B:_": "brightness field in the fixed symptom panel",
+      "H:_": "hum field in the fixed symptom panel",
+      "T:_": "tap field in the fixed symptom panel",
+      "X:_": "extras field in the fixed symptom panel",
+      "n": "normal or no issue noticed",
+      "click": "clicking hum or clicking sound symptom",
+      "dark-core": "dark center or core",
+      "edges-dim": "edges are dim",
+      "hot-C1": "hot at corner 1",
+      "red-tint": "red color tint",
+      "M:_": "mid-action observation field, only if something changed during execution",
+      "20/face": "20 seconds per face",
+      "ea": "each or per each target when attached to duration",
+      "total": "total duration for the whole multi-face sweep or coverage, not per face",
+      "ea-face": "sequential one-face-at-a-time coverage",
+      "C-fold": "folded cloth",
+      "C-wrap": "wrapped cloth",
+      "over-all": "whole-Veyru simultaneous coverage",
+      "LEAK": "corners dark plus edges fading plus perimeter dim plus thin hollow edge hum",
+      "STALL": "frozen plus silent plus cold plus dead, meaning Propagation Stall",
+      "ALIGN": "chaos flicker plus broken hum, meaning Alignment Collapse",
+      "ECHO": "too bright plus layered hum plus frozen patterns, meaning Echo Saturation",
+      "RES": "one face flare plus whine plus localized vibration, meaning Resonance Cascade",
+      "DEAD": "1 to 2 corners bright plus clicking plus hot corners, meaning Corner Deadlock",
+      "BOUND": "wobble or curve faces plus muffled hum, meaning Boundary Softening",
+      "DRIFT": "sliding color plus blurred edges plus wavering pitch, meaning Pattern Drift",
+      "PHASE": "opposite pulse sync plus two-tone rhythm, meaning Phase Inversion",
+      "HARM": "two-tone clash plus alternating configurations plus shimmer, meaning Harmonic Split",
+      "THERM": "hot plus dim plus rumble plus reddish plus gritty, meaning Thermal Bleed",
+      "VOID": "normal surface plus hollow tap plus dark core plus thin hum, meaning Core Void",
+      "LOW": "all dim plus whisper plus washed, meaning Low Intensity",
+      "HIGH": "blazing plus harsh buzz plus heat, meaning High Intensity",
+      "@window": "the Veyru is near a window, so daylight is available",
+      "@dark": "the environment is dark, with no useful ambient light",
+      "@bright": "the environment is brightly lit",
+      "Fr&opp": "both faces of the opposite pair anchored on front, that is front and back together",
+      "Fr&Bk": "front and back faces together"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1778879551",
+    "n_codes": 100,
+    "n_multimorpheme": 5,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "stem",
+        "label": "panel field label",
+        "fillers": [
+          {
+            "form": "B",
+            "gloss": "brightness",
+            "count": 1
+          },
+          {
+            "form": "H",
+            "gloss": "hum",
+            "count": 1
+          },
+          {
+            "form": "M",
+            "gloss": "mid-action observation",
+            "count": 1
+          },
+          {
+            "form": "T",
+            "gloss": "tap",
+            "count": 1
+          },
+          {
+            "form": "X",
+            "gloss": "extras",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 5,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "suffix",
+        "label": "fixed symptom panel marker",
+        "fillers": [
+          {
+            "form": ":_",
+            "gloss": "fixed symptom panel field",
+            "count": 5
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 5,
+        "possible_combos": 5,
+        "saturation": 1.0
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "B:_": [
+        "pos0",
+        "pos1"
+      ],
+      "H:_": [
+        "pos0",
+        "pos1"
+      ],
+      "T:_": [
+        "pos0",
+        "pos1"
+      ],
+      "X:_": [
+        "pos0",
+        "pos1"
+      ],
+      "M:_": [
+        "pos0",
+        "pos1"
+      ]
+    },
+    "construction_by_symbol": {
+      "B:_": "FIXED_PANEL_FIELD",
+      "H:_": "FIXED_PANEL_FIELD",
+      "T:_": "FIXED_PANEL_FIELD",
+      "X:_": "FIXED_PANEL_FIELD",
+      "M:_": "FIXED_PANEL_FIELD"
+    },
+    "construction_labels": {
+      "FIXED_PANEL_FIELD": "fixed symptom panel field"
+    },
+    "construction_templates": {
+      "FIXED_PANEL_FIELD": [
+        "pos0",
+        "pos1"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "Most symbols are best treated as opaque lexical entries: the candidate surface overlaps (ot, pp, im, ow, ne, ho, right, face, old, ble, whi) do not support stable compositional meanings across a shared substitution frame. One family does survive: B:_, H:_, T:_, X:_, M:_ form a coherent minimal substitution paradigm in the fixed frame __:_, where the initial element consistently identifies which symptom-panel field is being named, and :_ contributes the fixed-panel-field format. The standalone homograph B='bell' does not block a distinct morphemic B inside B:_.",
+    "lexical_symbols": [
+      "B",
+      "S",
+      "C",
+      "L",
+      "F",
+      "BD",
+      "R",
+      "T",
+      "Bot",
+      "Fr",
+      "Bk",
+      "all",
+      "opp",
+      "g",
+      "m",
+      "s",
+      "dim",
+      "norm",
+      "bright",
+      "flare",
+      "whisper",
+      "low",
+      "loud",
+      "scream",
+      "wash",
+      "sharp",
+      "flicker",
+      "static",
+      "cold",
+      "cool",
+      "warm",
+      "hot",
+      "C1-C8",
+      "pulse-sync",
+      "chaos",
+      "1tone",
+      "2tone",
+      "layered",
+      "Cx",
+      "Fx",
+      "hollow",
+      "solid",
+      "dead",
+      "wobble",
+      "curve",
+      "4C/R",
+      "4E/R",
+      "6F",
+      "seq",
+      "sim",
+      "+opp",
+      "rot",
+      "8C",
+      "S/",
+      "silent",
+      "whine",
+      "rumble",
+      "sliding",
+      "frozen",
+      "1F",
+      "2C",
+      "4C/X",
+      "4E/X",
+      "n",
+      "click",
+      "dark-core",
+      "edges-dim",
+      "hot-C1",
+      "red-tint",
+      "20/face",
+      "ea",
+      "total",
+      "ea-face",
+      "C-fold",
+      "C-wrap",
+      "over-all",
+      "LEAK",
+      "STALL",
+      "ALIGN",
+      "ECHO",
+      "RES",
+      "DEAD",
+      "BOUND",
+      "DRIFT",
+      "PHASE",
+      "HARM",
+      "THERM",
+      "VOID",
+      "LOW",
+      "HIGH",
+      "@window",
+      "@dark",
+      "@bright",
+      "Fr&opp",
+      "Fr&Bk"
+    ],
+    "classes": [
+      {
+        "class_id": "FIELD_LABEL",
+        "label": "panel field label",
+        "description": "Identifies which field of the fixed symptom panel is being referred to.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "PANEL_FORMAT",
+        "label": "fixed symptom panel marker",
+        "description": "Marks the symbol as a fixed symptom-panel field header.",
+        "repeatable": false,
+        "declared_fillers": []
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "FIXED_PANEL_FIELD",
+        "label": "fixed symptom panel field",
+        "description": "A field label followed by the fixed panel-field marker.",
+        "class_sequence": [
+          "FIELD_LABEL",
+          "PANEL_FORMAT"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "B:_",
+        "construction_id": "FIXED_PANEL_FIELD",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "B",
+            "class_id": "FIELD_LABEL",
+            "gloss": "brightness"
+          },
+          {
+            "form": ":_",
+            "class_id": "PANEL_FORMAT",
+            "gloss": "fixed symptom panel field"
+          }
+        ]
+      },
+      {
+        "symbol": "H:_",
+        "construction_id": "FIXED_PANEL_FIELD",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "H",
+            "class_id": "FIELD_LABEL",
+            "gloss": "hum"
+          },
+          {
+            "form": ":_",
+            "class_id": "PANEL_FORMAT",
+            "gloss": "fixed symptom panel field"
+          }
+        ]
+      },
+      {
+        "symbol": "T:_",
+        "construction_id": "FIXED_PANEL_FIELD",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "T",
+            "class_id": "FIELD_LABEL",
+            "gloss": "tap"
+          },
+          {
+            "form": ":_",
+            "class_id": "PANEL_FORMAT",
+            "gloss": "fixed symptom panel field"
+          }
+        ]
+      },
+      {
+        "symbol": "X:_",
+        "construction_id": "FIXED_PANEL_FIELD",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "X",
+            "class_id": "FIELD_LABEL",
+            "gloss": "extras"
+          },
+          {
+            "form": ":_",
+            "class_id": "PANEL_FORMAT",
+            "gloss": "fixed symptom panel field"
+          }
+        ]
+      },
+      {
+        "symbol": "M:_",
+        "construction_id": "FIXED_PANEL_FIELD",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "M",
+            "class_id": "FIELD_LABEL",
+            "gloss": "mid-action observation"
+          },
+          {
+            "form": ":_",
+            "class_id": "PANEL_FORMAT",
+            "gloss": "fixed symptom panel field"
+          }
+        ]
+      }
+    ]
+  }
+}

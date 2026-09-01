@@ -1,0 +1,238 @@
+[ENG] Tough round — we went over budget by 21 chars. A few things to tighten up:
+
+1. SYMPTOM REPORTS: Keep to ~50 chars max. Use abbreviations. E.g. "corners dim, edges fade, perimeter dark, hum hollow" is enough.
+
+2. MY INSTRUCTIONS: I'll cut to bare minimums. For procedures I'll use shorthand like "cloth/back/8s/gentle → bell x2 all back edges."
+
+3. AVOID FOLLOW-UPS: If a step fails, don't ask for guidance — just proceed to the next step in the sequence. I'll make sure my first message covers the full procedure so you don't need to ask.
+
+4. CONFIRMATION: No need to confirm success — silence = success. Only message if something looks wrong AND you need new instructions.
+
+Let's aim for under 150 total chars next round. Agree?
+[OBS] Agree fully. My revised approach: ~50 char symptom report, follow full procedure in order, only message if truly stuck/unexpected symptom. Silence = success. Ready for round 2.
+[ENG] Good recovery — 187/250, stabilized! Key lesson: the tool matters as much as the action. "Soft surface" is not a stone — the specific instrument is always in my instruction, please follow it exactly.
+
+Going forward:
+- If my instruction says "soft surface," that means place the Veyru down on cloth/padding — no tools applied to it.
+- If I say "warm stone," then use the stone.
+- If a step truly fails (not mis-executed), just report: "failed" — nothing more. Save chars.
+- No need to say what you tried — I'll know from my instruction.
+
+Proposed failure report shorthand for next round: just the symptom keywords, no full sentences. E.g. "frozen dim cold silent" instead of "Light frozen/dim/still. Hum gone. Surface cold, no response." That saves ~30 chars.
+
+Looking good overall. Ready for round 3.
+[OBS] Understood — I misread "soft surface." Will follow instructions literally going forward. Agreed on failure shorthand: just "failed." And symptom keywords only, no sentences. E.g. "frozen dim cold silent." Ready for round 3!
+[ENG] Good — 201/250, stabilized! But we had a "failed" report that cost us a retry message. A few notes:
+
+- When the procedure fails on first try, the retry message costs chars. If you get a failed result and I haven't changed the diagnosis, try once more on your own before reporting — my instruction stands unless I update it.
+- "failed" (6 chars) is perfectly concise — good job on that.
+- We cut it close at the end (49 chars left when we got the critical warning). The retry message was 78 chars — just barely fit.
+
+For round 4+: if a step fails, attempt it once more silently before sending "failed." Only report failure if it fails twice. This could save us a full retry exchange (~80+ chars).
+
+Overall: 2/3 stabilized. Good momentum. Ready for round 4.
+[OBS] Agreed — silent retry before reporting "failed." That's a smart save. Two things I noticed: (1) The cloth placement needed "touching edges" clarification — maybe specify "2 adj corner-sharing edges" vs "2 parallel edges" in future? (2) After cloth step succeeded, I tried bell immediately but the round ended — seems the stabilization was complete after step 1 alone. Good to know not all steps are always needed. Ready for round 4!
+[ENG] Collapsed again at 267 chars. Two problems this round:
+
+1. REPEATED FAILURES: We burned chars on 2 failed attempts before it worked. The "silent retry" protocol helped but the extra retry message cost 71 chars.
+
+2. NEW SYMPTOM REPORT: After partial stabilization, your symptom report was 71 chars — that alone nearly broke us. 
+
+ROOT ISSUE: Combination failures (multiple rounds needed) are budget killers.
+
+REVISED PROTOCOL:
+- Symptom reports: MAX 20 chars. Use codes. E.g.:
+  - "corners dark edges dim hollow" → "LK" (Leak)
+  - "bright face whine vibrate" → "RC" (Resonance)
+  - "frozen dim cold silent" → "PS" (Stall)
+  - "bright blinding hot buzz" → "HI" (High Int)
+  Let's build a codebook in this channel.
+
+- New symptoms after partial fix: Just send the new symptom CODE, not a description. E.g. "RC?" and I'll respond with the fix.
+
+- I'll keep my instructions under 60 chars always.
+
+TARGET: Under 130 total chars per round. That gives buffer for combo failures.
+
+Let's build the codebook now — I'll start, you confirm or add:
+[ENG] CODEBOOK (symptom → code):
+- Random flicker, broken hum → AC (Align Collapse)
+- Drifting colors, blurred edges, wavering pitch → DE (Drift)
+- Too bright, layered hum, frozen patches → ES (Echo Sat)
+- Dark corners/edges, hollow hum → LK (Leak)
+- All dim, faint hum → LI (Low Int)
+- Blazing bright, hot, loud buzz → HI (High Int)
+- Opposite faces pulse bright/dark, 2-tone hum → PI (Phase Inv)
+- 1 face bright+vibrate, high whine → RC (Resonance)
+- 1-2 corners glowing+hot, clicking → CD (Corner Dead)
+- Edges wobble/bulge, muffled hum → BS (Boundary)
+- Frozen dim, silent, cold → PS (Stall)
+- Split hum tones, 2 alternating patterns → HS (Harm Split)
+- Hot/dim/red/rough, low rumble → TB (Thermal)
+- Normal look, sounds hollow, dark center → CV (Core Void)
+
+New symptom report format: just send the code. E.g. "RC" = Resonance Cascade. I'll respond with the procedure. Confirm?
+[OBS] Codebook confirmed: LK, RC, PS, HI. I'll add face suffix when relevant: RC-top, RC-front, etc. For new symptoms mid-procedure, I'll just send the code (e.g. "RC-front"). If I can't ID the face, I'll add "?" (e.g. "RC?"). You reply with fix. Max 20 chars from me per message. What other symptom types should we code? Add: rough/gritty/hot/red-tint = "OV" (Overheat)?
+[ENG] Codebook confirmed. Keep "TB" for hot/dim/red/rough (Thermal Bleed) — same as your "OV." No need for a new code.
+
+Face suffix idea is great: RC-top, LK-front, etc. Use "?" only if totally unsure.
+
+Final protocol summary:
+- Observer: send code only (+ face if relevant). Max 20 chars.
+- Me: send procedure in max 60 chars.
+- On failure: silent retry once, then send "F" (1 char). I retry-send.
+- New symptom after partial fix: send new code immediately.
+- No other messages.
+
+"F" replaces "failed" — saves 5 chars each time. Confirm?
+[OBS] Confirmed. Full codebook saved. "F" = fail after 2 tries. Code + face suffix only. Ready for round 5.
+[ENG] STABILIZED — 234/250. Very close but we made it! The codebook is working: "LI" and "ES" each cost 2 chars vs 50+ with full descriptions. That saved us.
+
+Key issue remaining: the "F" failure + retry exchange still costs ~90 chars. In a combo-failure round like this one (LI → ES after fix), we had almost no margin.
+
+Ideas for round 6+:
+1. If my instruction fails, try it EXACTLY as stated (don't paraphrase) before sending "F." Execution precision seems to be the issue.
+2. I'll try to keep retry instructions under 50 chars (last retry was 89 chars — too long).
+3. For combo failures, we now know 2 fixes = ~200+ chars. We survived this time. Barely.
+
+Overall score: 3 stabilized, 2 collapsed. We're improving. The codebook is the key win. Ready for round 6!
+[OBS] Agreed on execution precision — I'll follow wording exactly. Your retry instructions: please keep under 50 chars. Codebook is our best tool. 3/5 — improving. Ready for round 6!
+[ENG] PERFECT ROUND. 90/250 — 160 chars to spare! This is exactly what we aimed for.
+
+"LK" = 2 chars. My instruction = 88 chars. One exchange, done. No failures, no retries, no new symptoms.
+
+We now have a reliable strategy for single-failure rounds. Combo rounds will still push ~200 chars, but we've shown we can handle those too (Veyru 5).
+
+Final score so far: 4 stabilized, 2 collapsed (both from before the codebook). Codebook is our edge — keep using it exactly. Ready for round 7!
+[OBS] Agreed — 4/6 and improving. Codebook + precise execution = the winning formula. Ready for round 7!
+[ENG] Not a budget collapse this time — 247/250 — but the PI (Phase Inversion) fix kept failing and we ran out of time to try again. 
+
+Two things to unpack:
+1. The PI procedure is: stone firm near each corner left face 15s each, then trace edges. Two failed attempts suggest execution issue. Are you holding the stone close to the corner but NOT touching? "Nearby" = held close, not resting on surface.
+
+2. Combo failures with PI as second fix are risky — PI requires 4 sequential corner treatments. Ensure each corner is done individually before moving to the next.
+
+For round 8+: If we hit a second "F" on any procedure, we're out of budget — we can't afford a 3rd attempt. So execution must be precise on attempt 1.
+
+Please describe in the postmortem what you did during the PI attempts so I can spot the issue. What went wrong?
+[OBS] Understood — I was pressing stone to the corners. "Near/nearby" = close but not touching. I'll treat "near" = hovering ~1cm away, and "on" = direct contact. Is that the right interpretation? Also confirming: 4 corners done one at a time, 15s each, then trace edges — I did that order. The non-contact detail was likely the issue. Ready for round 8 with that fix in mind.
+[ENG] Yes, that's exactly right. Contact vocabulary going forward:
+- "near/nearby" = hover, no touch (~1cm)
+- "beside" = adjacent to face, no touch
+- "against" = direct contact (board, cloth)
+- "over" = draped on (cloth)
+- "on" = placed on surface (Veyru resting)
+
+That was almost certainly the PI failure cause. Good catch — this will prevent future execution errors.
+
+Score: 4 stabilized, 3 collapsed. Still above 50% and improving our understanding. Ready for round 8!
+[OBS] Contact vocabulary locked in. near=hover, beside=no touch, against=contact, over=draped, on=resting. This is the missing piece. Round 8 ready!
+[ENG] Excellent — 83/250! Nearly our best round. Clean execution, no retries.
+
+Score: 5 stabilized, 3 collapsed. Momentum is strong.
+
+We're in a great groove now:
+- Codebook = minimal symptom chars
+- Contact vocab = precise execution
+- Single-failure rounds = ~85-95 chars
+- Combo-failure rounds = ~200-235 chars (survivable)
+
+One remaining risk: combo + failure (like round 7). If we get a combo and one procedure fails, we may run out. No fix for that except perfect execution.
+
+Keep doing exactly what you're doing. Ready for round 9!
+[OBS] 5/8 and climbing! Codebook + contact vocab = strong foundation. My goal: zero retries from round 9 onward. Ready!
+[OBS] 236/250 and 4-symptom cascade is basically unwinnable with 250-char budget. LI→CV→DE→PI each cost ~56-86 chars. No way to fit 4 fix exchanges in 250. Is there anything we could do differently? Perhaps: can instructions be shorter for secondary/tertiary symptoms? The DE fix was only 56 chars — if all were that short we'd have more room. Also: is it possible to recognize early that a cascade is building and abort faster? Not sure there's a solution here — this may just be a budget problem. Thoughts?
+[ENG] You're right — 4-component cascade is a math ceiling. We executed cleanly; it simply can't fit.
+
+Your DE example (56 chars) is key: instructions CAN be shorter. My PI instruction was 79 chars — that's 23 chars of fat. Let me compress every procedure to ~45 chars max:
+
+COMPRESSED PROCEDURE TEMPLATES:
+- PI: "Hover stone moderate near each corner [face] 10s x4. Trace edges."  = 63 chars... still long
+- Core issue: PI/HS require 4 corner steps — they're inherently verbose.
+
+REAL SOLUTION: Pre-shared procedure codebook. You learn procedures by code in this channel, then my link message is just "[code]-[face]" = ~8 chars. Saves 50-70 chars per instruction.
+
+Let me write the codebook by face/intensity/duration patterns in the next message. If you memorize it, we can handle 4-combo chains within budget.
+[ENG] PROCEDURE CODEBOOK (for the comm link — I'll just send "CODE-face"):
+
+AC = Soft surface, [face] up, rest [dur]s
+DE = Cool cloth [dur]s, fan [int] all 6 faces [dur]s start [face]
+ES = Rotate slowly [dur]s, steady [int] tone near opposite start [face], bell each corner
+LK = Sustained [int] tone all 6 faces [dur]s start [face], let fade
+LI = Bell near [face], [dur]s pause, bell opposite, repeat 5x [int]
+HI = Cloth 2 adj edges near [face] [dur]s [int], bell x3 near [face]
+PI = Hover stone [int] near each corner [face] [dur]s x4, trace edges
+RC = Stone [int] beside [face] [dur]s, rotate all faces
+CD = Cool cloth [dur]s, fan [int] [face]+opposite [dur]s
+BS = Dim lamp [face], bright lamp opposite, [int], [dur]s
+PS = Folded cloth [face] [dur]s [int], bell x2 each [face] edge
+HS = Bell near each corner [face] [int], hover stone [int] 2 edges per corner [dur]s x4
+TB = Flat board against [face] [int] [dur]s, rotate all face-pairs
+CV = Bell near center each face [int] start [face], stone beside [dur]s
+
+You'll need to memorize these and fill in the round parameters from context (I'll still confirm face/int/dur in my link message, just much shorter). Agree to try this?
+[OBS] Procedure codebook confirmed and memorized. With this, your link messages drop to ~15-25 chars max (CODE+face+dur+int). A 4-combo chain would cost: ~8 (my codes) + ~80 (your 4 short instructions) + stabilization attempts = ~88 chars. That's well within budget even with retries! One clarification: for PI, "trace edges" — with finger? And which edges — all 4 edges of [face]? Confirming so execution is precise.
+[ENG] Yes — "trace edges" = finger tracing all 4 edges of the [face] in sequence. One continuous motion, touching the edge surface lightly.
+
+CONFIRMED COMPACT LINK FORMAT:
+"CODE face/int/dur" — e.g. "PI btm/mod/10" = Phase Inversion, bottom face, moderate, 10s.
+
+Face shorthands: top/btm/left/right/front/back
+Intensity: gtl/mod/firm
+Duration: the number in seconds
+
+With this format, even a 4-combo round costs ~80 chars total. We can handle any cascade now.
+
+Ready for round 10 with full procedure codebook + compact format active!
+[OBS] Compact format locked in. PI/btm/mod/10 = crystal clear. Face/int/dur shorthands memorized. This is the system we needed. Round 10 ready — let's go!
+[ENG] STABILIZED — 160/250! This is the new system working. We had PS fail 3 times + a clarification message + a second fix (LI), and still had 90 chars to spare. That's the power of the compact format.
+
+Key note on PS failures: "drape over top face with full coverage" was the missing detail. The folded cloth needs to cover the entire top face, not just be placed on it loosely.
+
+PS clarification for the codebook:
+PS = Folded cloth draped over [face] (full coverage), firm hold [dur]s, then bell x2 near each edge of [face].
+
+Score: 6 stabilized, 4 collapsed. 60% — and rising. The compact format is our breakthrough. Ready for round 11!
+[OBS] PS codebook update confirmed: drape over [face] with full coverage, firm hold [dur]s, bell x2 near each edge of [face]. Logged. 6/10 and rising — compact format is the breakthrough. Ready for round 11!
+[ENG] STABILIZED — 198/250! 3-component chain, no retries, clean execution.
+
+CRITICAL DISCOVERY THIS ROUND: The procedure mappings CHANGE each round. LK this round meant "soft surface rest" — not the "sustained tone" from our procedure codebook. The codebook procedures are only valid for a specific round, not permanently.
+
+This means the compact "CODE face/int/dur" format ONLY works if I happen to know the observer knows the current round's mapping. Since I do know, and the observer follows my instruction literally — it still works! But I should NOT rely on the observer to infer the procedure from the code.
+
+My approach going forward: I'll always send the actual procedure steps (not just the code), but compress them as much as possible. The procedure codebook in postmortem is useful as a template, but I fill in this round's specific action.
+
+Target: keep instructions under 75 chars per fix. We're managing 3-chains within budget now. 7/11 stabilized — 63.6%! Momentum is strong. Ready for round 12!
+[OBS] Understood — codebook templates are reference only, not fixed procedures. Stellar alignment changes the actual treatment each round. My job: observe+report (symptom code). Your job: send actual steps. Compact format (under 75 chars per fix) is our target. 7/11 = 63.6% and improving. Ready for round 12!
+[OBS] 208/250 — 3-chain LK→PS→HI stabilized with 42 to spare! 8/12 = 66.7%. We're consistently handling triple cascades now. Key observation: each fix instruction was under 75 chars. The system is working. No retries this round — perfect execution. Ready for round 13!
+[ENG] STABILIZED — 208/250! 3-component chain (LK→PS→HI), zero retries, 42 chars to spare.
+
+We're consistently handling 3-combos now. Each fix costs ~70 chars when compressed well. 3 fixes = ~210 chars — right at our ceiling, but survivable.
+
+4-combo chains remain our hard limit unless we compress further. Key: abbreviate face names (btm/top/lft/rgt), use "x" instead of "each", drop articles. Aim for ~55 chars per fix → 4-combo = ~220 chars = within budget.
+
+Score: 8 stabilized, 4 collapsed. 66.7%! Best yet. Ready for round 13!
+[OBS] Compression target noted: ~55 chars/fix → 4-combo ≈ 220 chars. Abbreviations: btm/top/lft/rgt, "x" for "each", drop articles. I'll also keep my codes to 2 chars. 8/12, ready for round 13!
+[ENG] STABILIZED — 150/250! Single fix (LI) with one retry. Good margin.
+
+The LI failure taught us something: "near all 6 faces simultaneously" means the tone source must cover all faces at once — not going face by face. Possibly move the sound source to the center of the room so it reaches all faces equally, or use a bell held above the Veyru.
+
+Updated LI note for future:
+LI = sustained gentle tone from ONE position near center, not sequentially face by face. Let fade completely before checking result.
+
+Score: 9 stabilized, 4 collapsed. 69.2%! Our best yet. Ready for round 14!
+[OBS] LI note confirmed: tone from center/above, all 6 faces at once, let fade. Will execute that way going forward. 9/13 = strong. Ready for round 14!
+[OBS] 248/250 — agonizing. Root cause: "btm face up" in first PI instruction meant UP, but retry said "btm-face-down." Ambiguity cost us 2 retries = ~70 chars. Proposal: for "soft surface" instructions, always specify face-direction explicitly: "btm-face-down ON cloth" vs "btm-face-up ON cloth." The direction is critical. Also: "no touch" vs "firm" are contradictory — clarify: does firm mean press Veyru down, or just don't touch it? These precision gaps keep costing us budget.
+[ENG] You're right — I contradicted myself. "btm face up" = bottom face pointing skyward (Veyru resting on its top face). My retry said "btm-face-down" which was wrong. My error, not yours.
+
+Clarification for all future soft surface instructions:
+- "btm face up" = Veyru resting with bottom face pointing UP (sitting on top face/another face)
+- "top face up" = Veyru resting normally, top face pointing UP (sitting on bottom face)
+- Always read literally: the named face is the one pointing upward.
+
+On "firm contact" for soft surface: "firm" means the Veyru presses into the surface with gentle but definite pressure — not floating or barely touching. Set it down fully, no hovering.
+
+"No touch" = don't touch the Veyru externally while it rests. "Firm" = how it sits on the surface.
+
+These are now locked in. Score: 9/14, 64.3%. Ready for round 15.
+[OBS] Locked in: [face]-up = that face pointing skyward. firm = sits with definite pressure. no touch = no external contact during rest. These are crystal clear now. 9/14, ready for round 15!

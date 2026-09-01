@@ -1,0 +1,599 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780446220",
+    "slots": [
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "K4",
+            "gloss": "the four corners of",
+            "support": 2,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "suffix",
+        "fillers": [
+          {
+            "form": "F",
+            "gloss": "front face",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "U",
+            "gloss": "under face",
+            "support": 1,
+            "is_defined": false
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "AC": [
+        "AC"
+      ],
+      "BS": [
+        "BS"
+      ],
+      "CD": [
+        "CD"
+      ],
+      "CV": [
+        "CV"
+      ],
+      "DR": [
+        "DR"
+      ],
+      "ES": [
+        "ES"
+      ],
+      "HI": [
+        "HI"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "LK": [
+        "LK"
+      ],
+      "LO": [
+        "LO"
+      ],
+      "OK": [
+        "OK"
+      ],
+      "PI": [
+        "PI"
+      ],
+      "PS": [
+        "PS"
+      ],
+      "RC": [
+        "RC"
+      ],
+      "TB": [
+        "TB"
+      ],
+      "→F": [
+        "→F"
+      ],
+      "A": [
+        "A"
+      ],
+      "dm": [
+        "dm"
+      ],
+      "f": [
+        "f"
+      ],
+      "g": [
+        "g"
+      ],
+      "m": [
+        "m"
+      ],
+      "s": [
+        "s"
+      ],
+      "br": [
+        "br"
+      ],
+      "DCF": [
+        "DCF"
+      ],
+      "EofF": [
+        "EofF"
+      ],
+      "K4F": [
+        "K4",
+        "F"
+      ],
+      "/": [
+        "/"
+      ],
+      "10/f": [
+        "10/f"
+      ],
+      "@": [
+        "@"
+      ],
+      "BL": [
+        "BL"
+      ],
+      "BD": [
+        "BD"
+      ],
+      "CL": [
+        "CL"
+      ],
+      "EFT": [
+        "EFT"
+      ],
+      "FN": [
+        "FN"
+      ],
+      "K1U": [
+        "K1U"
+      ],
+      "K4U": [
+        "K4",
+        "U"
+      ],
+      "LP": [
+        "LP"
+      ],
+      "ST": [
+        "ST"
+      ],
+      "alt": [
+        "alt"
+      ],
+      "cyc5": [
+        "cyc5"
+      ],
+      "opp": [
+        "opp"
+      ],
+      "rot": [
+        "rot"
+      ],
+      "seq": [
+        "seq"
+      ],
+      "simul": [
+        "simul"
+      ],
+      "EF": [
+        "EF"
+      ],
+      "rep": [
+        "rep"
+      ],
+      "+": [
+        "+"
+      ],
+      "&": [
+        "&"
+      ],
+      "obs?": [
+        "obs?"
+      ],
+      "full?": [
+        "full?"
+      ],
+      "warmCL": [
+        "warmCL"
+      ],
+      "Bk": [
+        "Bk"
+      ],
+      "Br": [
+        "Br"
+      ],
+      "Bt": [
+        "Bt"
+      ],
+      "Dm": [
+        "Dm"
+      ],
+      "Fr": [
+        "Fr"
+      ],
+      "Hk": [
+        "Hk"
+      ],
+      "Lf": [
+        "Lf"
+      ],
+      "Op": [
+        "Op"
+      ],
+      "Rt": [
+        "Rt"
+      ],
+      "Tp": [
+        "Tp"
+      ],
+      "stop": [
+        "stop"
+      ]
+    },
+    "head_index": {
+      "AC": 0,
+      "BS": 0,
+      "CD": 0,
+      "CV": 0,
+      "DR": 0,
+      "ES": 0,
+      "HI": 0,
+      "HS": 0,
+      "LK": 0,
+      "LO": 0,
+      "OK": 0,
+      "PI": 0,
+      "PS": 0,
+      "RC": 0,
+      "TB": 0,
+      "→F": 0,
+      "A": 0,
+      "dm": 0,
+      "f": 0,
+      "g": 0,
+      "m": 0,
+      "s": 0,
+      "br": 0,
+      "DCF": 0,
+      "EofF": 0,
+      "K4F": 0,
+      "/": 0,
+      "10/f": 0,
+      "@": 0,
+      "BL": 0,
+      "BD": 0,
+      "CL": 0,
+      "EFT": 0,
+      "FN": 0,
+      "K1U": 0,
+      "K4U": 0,
+      "LP": 0,
+      "ST": 0,
+      "alt": 0,
+      "cyc5": 0,
+      "opp": 0,
+      "rot": 0,
+      "seq": 0,
+      "simul": 0,
+      "EF": 0,
+      "rep": 0,
+      "+": 0,
+      "&": 0,
+      "obs?": 0,
+      "full?": 0,
+      "warmCL": 0,
+      "Bk": 0,
+      "Br": 0,
+      "Bt": 0,
+      "Dm": 0,
+      "Fr": 0,
+      "Hk": 0,
+      "Lf": 0,
+      "Op": 0,
+      "Rt": 0,
+      "Tp": 0,
+      "stop": 0
+    },
+    "attested_orderings": [
+      [
+        "stem",
+        "suffix"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [],
+    "form_positions": {
+      "K4": 1,
+      "F": 0,
+      "U": 0
+    },
+    "position_labels": {
+      "0": "Face locator",
+      "1": "Corner-set operator"
+    },
+    "positions_by_symbol": {
+      "K4F": [
+        1,
+        0
+      ],
+      "K4U": [
+        1,
+        0
+      ]
+    },
+    "position_glosses": {
+      "1": {
+        "K4": "the four corners of"
+      },
+      "0": {
+        "F": "front face",
+        "U": "under face"
+      }
+    },
+    "meaning_by_symbol": {
+      "AC": "alignment collapse: flickering randomly, broken hum",
+      "BS": "boundary soft: edges wobbling, faces curved, muffled sound",
+      "CD": "corner deadlock: one or two corners bright, clicking, hot corners",
+      "CV": "core void: hollow tap, dark center",
+      "DR": "drift: sliding light, blurred edges, wavering pitch",
+      "ES": "echo saturation: too bright, layered hum, frozen patterns",
+      "HI": "high intensity: blazing, buzzing, heat",
+      "HS": "harmonic split: two clashing tones, alternating patterns",
+      "LK": "leak: dim corners, faint edges, hollow hum",
+      "LO": "low output: dim on all faces, whispering, washed out",
+      "OK": "fully stable",
+      "PI": "phase inversion: opposite faces pulsing, two tones synchronized",
+      "PS": "propagation stall: frozen, silent, cold",
+      "RC": "resonance concentration: one face bright, whining",
+      "TB": "thermal bleed: hot, dim, red, rumbling, gritty",
+      "→F": "start at the front face",
+      "A": "all faces",
+      "dm": "dim intensity",
+      "f": "firm intensity",
+      "g": "gentle intensity",
+      "m": "medium or moderate intensity",
+      "s": "soft intensity",
+      "br": "bright intensity",
+      "DCF": "drape cloth over the front face",
+      "EofF": "the edges of the front face",
+      "K4F": "the four corners of the front face",
+      "/": "next step in sequence",
+      "10/f": "hold or perform for 10 seconds, firm intensity",
+      "@": "near",
+      "BL": "bell",
+      "BD": "board",
+      "CL": "cloth",
+      "EFT": "front-top edge",
+      "FN": "fan",
+      "K1U": "corner 1 of the under face, numbered clockwise from top-left as you face that face",
+      "K4U": "the four corners of the under face",
+      "LP": "lamp",
+      "ST": "stone",
+      "alt": "alternate",
+      "cyc5": "five cycles",
+      "opp": "the face opposite to the start face",
+      "rot": "rotate the Veyru",
+      "seq": "in sequence",
+      "simul": "simultaneous; if two light sources are needed, improvise the second source",
+      "EF": "the four edges of the specified face",
+      "rep": "try again exactly",
+      "+": "simultaneous in the same step",
+      "&": "multiple targets with the same action",
+      "obs?": "re-observe and reply with only the 2-letter symptom code",
+      "full?": "send the literal observation words",
+      "warmCL": "warm cloth",
+      "Bk": "back face",
+      "Br": "bright face, the symptomatic bright one",
+      "Bt": "bottom face",
+      "Dm": "dim face, the symptomatic dim one",
+      "Fr": "front face",
+      "Hk": "hot or bright corner, the symptomatic corner",
+      "Lf": "left face",
+      "Op": "opposite of the starting face",
+      "Rt": "right face",
+      "Tp": "top face",
+      "stop": "hard abort; stop and accept the loss"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780446220",
+    "n_codes": 62,
+    "n_multimorpheme": 2,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "suffix",
+        "label": "Face locator",
+        "fillers": [
+          {
+            "form": "F",
+            "gloss": "front face",
+            "count": 1
+          },
+          {
+            "form": "U",
+            "gloss": "under face",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "stem",
+        "label": "Corner-set operator",
+        "fillers": [
+          {
+            "form": "K4",
+            "gloss": "the four corners of",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      }
+    ],
+    "orderings": [
+      [
+        "pos1",
+        "pos0"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "K4F": [
+        "pos1",
+        "pos0"
+      ],
+      "K4U": [
+        "pos1",
+        "pos0"
+      ]
+    },
+    "construction_by_symbol": {
+      "K4F": "C_K4_FACE",
+      "K4U": "C_K4_FACE"
+    },
+    "construction_labels": {
+      "C_K4_FACE": "Four corners of face"
+    },
+    "construction_templates": {
+      "C_K4_FACE": [
+        "pos1",
+        "pos0"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "Almost the entire codebook is best treated as a flat lexicon: most repeated letters/digits do not appear in meaning-consistent substitution frames, and the opaque-index test blocks segmentations like 10/f or K1U without further contrasts. The only defensible productive paradigm is K4F ~ K4U, where the same initial element recurs in the same frame and the final element contrasts with a corresponding face contrast in meaning. This supports one construction K4 + FACE_LOC with K4 contributing 'the four corners of' and {F,U} contributing the face.",
+    "lexical_symbols": [
+      "AC",
+      "BS",
+      "CD",
+      "CV",
+      "DR",
+      "ES",
+      "HI",
+      "HS",
+      "LK",
+      "LO",
+      "OK",
+      "PI",
+      "PS",
+      "RC",
+      "TB",
+      "→F",
+      "A",
+      "dm",
+      "f",
+      "g",
+      "m",
+      "s",
+      "br",
+      "DCF",
+      "EofF",
+      "10/f",
+      "@",
+      "BL",
+      "BD",
+      "CL",
+      "EFT",
+      "FN",
+      "K1U",
+      "LP",
+      "ST",
+      "alt",
+      "cyc5",
+      "opp",
+      "rot",
+      "seq",
+      "simul",
+      "EF",
+      "rep",
+      "+",
+      "&",
+      "obs?",
+      "full?",
+      "warmCL",
+      "Bk",
+      "Br",
+      "Bt",
+      "Dm",
+      "Fr",
+      "Hk",
+      "Lf",
+      "Op",
+      "Rt",
+      "Tp",
+      "stop",
+      "/"
+    ],
+    "classes": [
+      {
+        "class_id": "FACE_LOC",
+        "label": "Face locator",
+        "description": "Face specified by the final segment in the K4 face-corner construction.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CORNERS_OF",
+        "label": "Corner-set operator",
+        "description": "Selects the four corners of the following face.",
+        "repeatable": false,
+        "declared_fillers": []
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "C_K4_FACE",
+        "label": "Four corners of face",
+        "description": "A corner-set operator followed by a face locator.",
+        "class_sequence": [
+          "CORNERS_OF",
+          "FACE_LOC"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "K4F",
+        "construction_id": "C_K4_FACE",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "K4",
+            "class_id": "CORNERS_OF",
+            "gloss": "the four corners of"
+          },
+          {
+            "form": "F",
+            "class_id": "FACE_LOC",
+            "gloss": "front face"
+          }
+        ]
+      },
+      {
+        "symbol": "K4U",
+        "construction_id": "C_K4_FACE",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "K4",
+            "class_id": "CORNERS_OF",
+            "gloss": "the four corners of"
+          },
+          {
+            "form": "U",
+            "class_id": "FACE_LOC",
+            "gloss": "under face"
+          }
+        ]
+      }
+    ]
+  }
+}

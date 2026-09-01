@@ -1,0 +1,396 @@
+[OBS] Nice. 174/250. Let's build shorthand to save chars.
+
+Symptom report template (I send): face/edge/corner location + light state + hum state. Ultra-short codes:
+- Locations: C=corner, E=edge, F=face; sides: T/B/L/R/F(front)/K(back) — use K for back to avoid F clash. Or numbered faces 1-6.
+- Light: d=dim, x=dark, b=bright, p=pulsing, f=flicker, fade=fading
+- Hum: h+ loud, h- quiet, hw wavering, hh hollow, hs sharp
+
+Your instruction template:
+TOOL FACE DURATION then TOOL FACE COUNT...
+Tools: c=cloth, b=bell, s=stone, n=fan, l=lamp, p=board
+Faces: 1-6 (agree mapping) or T/B/L/R/Fr/Bk
+Example: "c Bk 8s; b Bk edges x2" instead of full sentence.
+
+Also I'll skip pleasantries ("Done"/"Ok") unless new symptoms appear. Silence = success. Only speak if new symptom.
+
+Agree?
+[ENG] Agree. Refinements:
+
+Faces: use T/Bt/L/R/Fr/Bk (Bt=bottom). Or 1-6: 1=T 2=Bt 3=Fr 4=Bk 5=L 6=R.
+
+Each round params (intensity, duration, starting_face) are fixed across all motifs per stellar reading. So I only need to send motif code + you know params from prior msg, OR I send full short instr.
+
+Motif codes (internal, I'll just send the action shorthand):
+- AC=AlignColl, DE=Drift, ES=Echo, LK=Leak, LI=LowInt, HI=HighInt, PI=PhaseInv, RC=Reson, CD=CornerDead, BS=BoundSoft, PS=PropStall, HS=HarmSplit, TB=Thermal, CV=CoreVoid
+
+Instruction shorthand examples:
+- "c Bk 8s g; b Bk-edges x2" (cloth back 8s gentle; bell each back edge twice)
+- "s Bk 8s g; rotate all faces" 
+- "l Bk dim + opp bright 8s g"
+- "fan all 6 from Bk 8s g, cloth first 8s"
+
+Symptoms: keep short like you did. I'll match motif silently and send only action.
+
+Silence = success confirmed. You only message if NEW symptoms appear after action, or failure.
+
+Good?
+[OBS] Good. Locked in:
+- Faces: 1=T 2=Bt 3=Fr 4=Bk 5=L 6=R
+- Tools: c b s n l p
+- Light: d/x/b/p/f/fade  Hum: h+/h-/hw/hh/hs
+- Loc: C/E/F + face#
+- Silence=ok; I msg only on new symptom/failure.
+
+I'll keep symptom reports terse, e.g. "C all x, E fade, Fctr ok, hum hh edges".
+[ENG] Locked. Ready.
+[OBS] 135/250. Good. Can shorten more:
+
+My symptom dict additions:
+- "frz" = light frozen/still
+- "sil" = hum silent
+- "cld" = cold surface
+- "nr" = no response to tap
+
+So R2 could've been: "lt frz d, sil, cld, nr" (18 chars vs 56).
+
+Your instr could've been: "c flat under, 1 up, rest 5s" (~27 vs 70).
+
+General rule: drop articles/verbs. Just nouns+codes+numbers. "g"=gentle implied unless stated otherwise.
+[ENG] Agreed. More instr shorthand:
+
+- "rest 1up 5s" = soft surface, face 1 up, gentle, 5s
+- "s F4 8s, rot all" = stone beside F4 8s, rotate each face
+- "l F4 dim+opp brt 8s" = lamp dim F4 + bright opp face 8s
+- "c F4 8s; b F4-E x2" = cloth over F4 8s, bell each F4 edge twice
+- "n cool all from F1 5s, c first 5s" = cloth 5s then fan all from F1 5s
+- "n F1+opp 5s, c first 5s" = cloth 5s then fan F1+opposite 5s
+- "tone all from F1 5s" = sustained tone all 6 faces 5s
+- "b F1+opp alt 5p x5" = bell alt opposite faces, 5s pause, 5 cycles
+- "s corners F1 8s seq; trace F1 E" = warm each F1 corner in seq, trace edges
+- "b F1-C briefly; s 2E@C 5s" = bell each F1 corner, warm 2 edges at corner
+- "c 2adjE@F1 5s; b F1 x3" = cloth 2 adj edges near F1, bell F1 x3
+- "rot+tone opp from F1 5s; b each C x1" = rotate w/ tone opp 5s, bell each corner
+- "p F1 5s, rot all face-pairs" = board F1 5s, rotate
+- "b Fctr each from F1 x1; s beside 5s" = bell each face center from F1, stone 5s
+
+Duration/start_face/intensity come from stellar reading—I'll fill in. Good?
+[OBS] Got it. I'll parse loosely — you describe, I execute literally. If ambiguous I'll ask "?" + 1 keyword.
+
+Ready.
+[OBS] 79/250 — excellent. Shorthand working. Keep it tight.
+[ENG] 👍
+[OBS] Lost R4. Lessons:
+
+1. New-symptom reports must include FACE NUMBER. Observation said "one face brt+vib" but I didn't pick a number — I should just pick one (e.g. the one I can see clearly) or say "F?" and you proceed. Better: I'll always pin a face #, even guessing if not labeled. The Veyru has 6 faces visible; I can just label whichever face appears brightest as F? based on my orientation. Going forward: I'll commit to a face label.
+
+2. When you got "ineffective", we both wasted chars restating. New protocol: on ineffective, you send ONE alt action immediately (different tool/face/timing), no questions. I execute. If that fails, you ask 1-word clarification.
+
+3. My "which face?" question was wasteful. Instead I'll just call it F-brt and you treat F-brt as a variable. Or I name it (F1/2/3/4/5/6) on my best guess.
+
+4. Two-stage rounds (cascade symptoms) eat budget fast. We need <40 chars per exchange.
+
+Proposed new-symptom format: "new: [loc][state]" with face# mandatory. E.g. "new F3 brt+vib, whine".
+
+Agree?
+[ENG] Agreed all 4. My errors too:
+
+A. I should've recognized procedure uses starting_face from stellar reading (F2/bottom) regardless of which physical face shows the resonance. The action is the same. So your "which face?" was moot — but I should've stated upfront "always proceed with starting_face from reading; brt face identity doesn't matter for procedure".
+
+B. I wasted 42 chars restating verbatim after "ineffective" — should've tried a DIFFERENT motif. RC ineffective → could've been Echo Saturation (also has bright face symptom). ES action this round = "b F2+opp alt 5p x5". I should keep a mental fallback motif per ambiguous symptom.
+
+C. New rule: on "ineffective" I send next-best motif action immediately, ~25 chars.
+
+D. Symptom→motif ambiguity table I'll keep mentally:
+- bright face: RC (1 face+whine) vs ES (overall too bright+layered hum) vs CD (corners not face)
+- dim: LI vs LK vs PS vs TB
+- pulse rhythm: PI vs HS
+
+E. For cascade rounds, target <30 char exchanges. Drop "new:" prefix — just "F3 brt+vib whine" suffices.
+
+Ready.
+[OBS] Locked. One more: I'll never ask "?" — I commit to best-guess label. You handle ambiguity on your side via fallback motif.
+[OBS] Lost R5 too. Big problem: 4 failed motifs in a row. My "x" was misread as "dark light" — my fault, code clash.
+
+New codes (no clashes):
+- "0" = ineffective/no change (was "x")  
+- "ok" never sent (silence)
+- "x" = dark (only as light state)
+
+Re symptom: "all d, h- whisper, washed" was LowIntensity-ish. You tried stone-corners, board-rotate, bell-corners+stone-edges, cloth-edges+bell. None worked. The right motif probably was Leak (n cool all from F1 + cloth first) or something fan-based — we never tried fan or lamp.
+
+Suggestion: after 2 fails, try a totally different tool family. Tools used per fail: s, p, b+s, c+b. Never tried n (fan) or l (lamp). 
+
+Also: each retry costs ~30 chars from me ("x" + your action). 4 retries = 120 chars eaten. We need a fallback ordering agreed upfront so you cycle through likely motifs without me having to confirm each time.
+
+Proposal: when symptom is ambiguous (esp. generic "all dim"), you pre-commit to motif order, e.g. LI→LK→TB→PS. You send all in one msg: "try in order: A; B; C; D" and I attempt sequentially, only reporting on success. Saves the "0" round-trips.
+[ENG] Agreed. Key fixes:
+
+1. Code clash fixed: "0"=ineffective, never use "x" except light state.
+
+2. CRITICAL insight: R5 my first attempt "s F1-C seq 10s; trace F1 E" was wrong motif — that's Core Void action. LI's action this round was "b F1-C briefly; s 2E@C 10s". I sent CV first by mistake. Sloppy motif→action lookup. I'll be more careful.
+
+3. Batched fallback: For ambiguous symptoms I send 2-3 candidates in one msg, you try in order, only respond on success or all-fail.
+
+4. Pre-committed dim-symptom order based on cues:
+- "all d uniform + h- whisper + washed patterns" → LI (primary)
+- "C dark, E fade, Fctr ok, hum hh edges" → LK
+- "frz still, sil, cold, nr" → PS
+- "hot, d, rumble, gritty, red tint" → TB
+
+If "all d + whisper + washed" fails on LI: try PS (board), then TB (soft surface).
+
+5. Batch format proposal: "1)b F1-C+s 2E@C 10s 2)p F1 10s rot 3)rest F1up 10s" — you execute 1, if 0 then 2, etc. Only msg me on success.
+
+6. I should NEVER confuse procedures. Mental check: read stellar table → find exact motif → translate to shorthand precisely. No shortcuts.
+
+Ready for R6.
+[OBS] Locked. Batch protocol: "1)A 2)B 3)C" — I run sequentially, silent on 0, msg on success or all-fail. If all-fail I send "0³" (or "0⁴").
+
+Also: if success creates new symptom, I report immediately.
+
+Ready.
+[OBS] Got it 180/250. Key insight: my literal execution of "b F4-C briefly; s 2E@C 5s" was only ONE corner. Third attempt explicit "all 4 corners" worked.
+
+So shorthand needs "all" marker. Proposal:
+- "b F4-C" = bell each corner of F4 (default = all 4)
+- "s 2E@C" should mean "at each corner do 2 edges" (default = all 4 corners), not just one corner
+- If only one needed: "b F4-C1" or "s 2E@1C"
+
+So default is "all" when count omitted. Means R6 first attempt should've worked if I had interpreted "C" as "each corner". My bad.
+
+Revised rule: plural location (C/E without count) = ALL of them, do action at each.
+[ENG] Agreed. Default = all when count omitted:
+- "F4-C" = all 4 corners
+- "F4-E" = all 4 edges (of that face)
+- "all faces" = all 6
+- Specific: "F4-C1", "F4-E2" (numbered)
+
+Sequence cue: "seq" = in sequence one-by-one; "sim" = simultaneously. If omitted, sequence implied for tools you can only hold one of.
+
+Also for batch fallback: I'll use it more aggressively next time. R6 should've been "1)b F4-C all+s 2E@C 5s 2)c 2adjE@F4 5s+b F4 x3 3)s F4 5s rot all" upfront. 
+
+For R7+ I'll batch when symptom is ambiguous or risky.
+
+Ready.
+[OBS] Locked. Ready R7.
+[OBS] Lost R7. 5 motifs all failed: cloth+fan(F5+opp), cloth+fan again, cloth+bell-edges(F5), bell-alt(F5+F6), board(F5+rot). None worked.
+
+We need a better strategy. Observations:
+
+1. Symptom "1-2 C brt+hot, click, rest ok" — this is CornerDead-inverse or HotCorner. The correct motif and tool may have been one we never tried (lamp? stone? something with corner-specific contact?).
+
+2. Stellar reading gives a SINGLE correct motif per round. Trying random motifs wastes budget. 5 attempts × ~30 chars = 150 chars just in failures.
+
+3. Tighter strategy: engineer must be MORE confident on first attempt. If unsure, batch from start (saves the "0" round-trip).
+
+4. Engineer: do you have a symptom→motif lookup, or are you guessing? If guessing, we need to budget for it: max 2 attempts then accept loss vs trying 5.
+
+5. Maybe consider: when sending batch, include ALL plausible motifs up front (4-5). Then I run them all, only respond at end. That's the cheapest path: 1 long batch msg (~80 chars) vs 5 rounds of 30+30=60 chars each (300+).
+
+6. My "0" reports cost 13 chars each × 4 = 52 chars. With batch protocol I'd send 0 only once at end.
+
+Also: F5 may not have been right face. Could be F1, F2, etc. We never varied face.
+
+Proposal R8+: ALWAYS batch 3-5 candidates upfront when symptom isn't 100% certain.
+[ENG] Critical realization on R7: I had the motif right (Corner Deadlock) AND the correct action (cool cloth + fan F5+opp). Stellar said so explicitly. Both attempts at that exact procedure failed.
+
+This suggests EITHER:
+(a) The technician's execution failed twice for non-content reasons (timing, intensity)
+(b) The starting_face in stellar is "left" but the actual procedure may target the face WHERE THE SYMPTOM IS, not the stellar's starting_face
+
+Re-reading mission brief: "Match the technician's description to a motif, find that motif's action in the table, and relay the full procedure verbatim." So I should relay verbatim. Verbatim says "left face" — the stellar fixes the face. So execution should have worked.
+
+Likely (a): tool says "ineffective" if the cloth or fan timing was off, or if something subtle in delivery. We can't fix execution from here.
+
+New strategy for R8+:
+1. First message: full verbatim procedure (not shorthand). Verbatim ~70-100 chars but guaranteed unambiguous. Saves the "shorthand→retry verbatim" cycle that bit us twice.
+2. If "0", batch 2-3 plausible alts immediately in ONE msg.
+3. Skip retry of same motif — if it didn't work first time as verbatim, it won't second time.
+
+Budget per round target: <100 chars. Will allow recovery from one failed Veyru.
+
+Yes I have the full motif→symptom map mentally. Confidence usually high. R5 LowInt and R7 CornerDead were unambiguous but actions failed anyway — that's the worrying pattern.
+
+Ready R8.
+[OBS] Wait — R6 first attempt failed because "C" was singular not all. The fix was "all 4 corners". So execution detail matters HUGELY.
+
+Re-examining R5: maybe action wanted ALL 6 face corners (24 corners), not just F1's 4? Or "F1-C seq" meant something I missed.
+
+Re-examining R7: "n F5+opp 15s firm" — maybe needed all 4 corners specifically, not "across faces". Or fanning from F5 toward opp (directional), not at both.
+
+NEW EXEC RULES:
+- I will execute MOST EXPANSIVE interpretation of action (all corners, all edges, full duration, every face) unless explicitly limited.
+- I will be precise about directionality if specified.
+- If shorthand says "F5+opp" I'll interpret as "from F5 toward opp" (directional fan).
+
+Also you should send VERBATIM the first time as you said. Don't shorthand on first attempt — only when retrying.
+
+R8 plan: full verbatim first, no abbreviation. ~80 chars but unambiguous.
+[ENG] Good. R8+ plan locked:
+
+1. I send VERBATIM stellar procedure text (no shorthand) on first attempt. ~80-100 chars but unambiguous.
+2. You execute most expansive/precise reading: all corners/edges, full duration, exact intensity, exact direction, exact tools listed.
+3. If 0, I send batch of 2-3 alts in one msg, you cycle.
+4. Silence = success.
+
+I'll keep responses tight by trimming filler words but preserving every spec detail (face, count, duration, intensity, tool, order).
+
+Example verbatim format: "Drape cool cloth over Veyru 15s, remove, fan firm cool air across left and right faces 15s." (~94 chars)
+
+vs shorthand "c over 15s; n F5+opp 15s firm" (~30 chars) which is ambiguous.
+
+Tradeoff is worth it given failure cost.
+
+Ready R8.
+[OBS] Locked. Ready.
+[OBS] 148/250. Verbatim worked first try. Keep this approach.
+[ENG] 👍 Verbatim-first locked.
+[OBS] Lost R9 on the cascade. Budget overrun by 45 chars.
+
+Cascade rounds are budget killers. Two full exchanges = ~120-200 chars total even with verbatim.
+
+Hard constraint analysis:
+- Initial symptom report: ~25 chars (mine)
+- First verbatim instruction: ~100 chars (yours)
+- Stabilization successful + cascade symptom report: ~40 chars (mine)
+- Second verbatim instruction: ~100 chars (yours)
+Total minimum: ~265 chars. Already over budget.
+
+Solutions:
+A. CASCADE PREDICTION: If you know a motif causes a known cascade, pre-batch both in one msg. E.g. "First do X. If new symptom Y appears, then do Z." Saves the second exchange.
+
+B. SHORTER VERBATIMS: Trim every non-essential word. "Chime bell at center of each face once, moderate, start bottom. Then place warm stone beside Veyru 10s." = 100 chars. Can be "Bell center each face x1 mod from F2; stone beside 10s" = 56 chars. Still unambiguous because we have shorthand keys.
+
+C. ULTRA-SHORT CASCADE REPORT: Skip "new:" prefix, use just 1-2 key codes. "hollow tap, dark ctr" = 21 chars vs my 53.
+
+For R10+: shorten BOTH verbatim AND cascade reports. Target 60 chars per instruction, 20 chars per symptom report. Cascade total: 25+60+25+60 = 170 chars. Under budget.
+
+Let me also propose: drop "Chime"/"Place"/"Then" verbs — use semicolons. "b Fctr x1 mod from F2; s beside 10s" = 36 chars, still unambiguous given our key.
+[ENG] Agreed all. Critical insight: 3-5 chars saved per word × 15 words = 45-75 chars saved per instruction. That covered the R9 overrun.
+
+New rule: USE SHORTHAND when it's unambiguous given our keys, FALL BACK to verbatim only when shorthand has known ambiguity. Our keys are now robust:
+- F1-6 faces; F-C=all corners; F-E=all edges; "from F2"=starting face; "all faces"=6
+- Tools: b/s/c/n/l/p with implied verb (bell chime, stone warm, cloth drape, fan, lamp, board rest)
+- Intensity: g/mod/firm (lowercase)
+- Duration in seconds
+
+Shorthand examples I'll use R10+:
+- LowInt: "b F2+opp alt 10p x5 mod"
+- CoreVoid: "b Fctr each x1 mod from F2; s beside 10s"
+- LeakInst: "b F-C briefly mod; s 2E@C 10s" (all corners)
+- CornerDead: "c over 10s; n F+opp 10s mod"
+- Drift: "c over 10s; n all faces 10s mod from F"
+
+You execute MOST EXPANSIVE: all 4 corners, all 6 faces, full duration, exact direction. Plural location = ALL.
+
+For cascade: report new in 15-20 chars max ("hollow tap dark ctr").
+
+Per-round target: 80-150 chars depending on cascade.
+
+Ready R10.
+[OBS] Locked. Shorthand back on. Ready.
+[OBS] 102! Best yet, with a cascade. Shorthand works when keys are robust. Keep going.
+[ENG] 👍
+[OBS] Lost R11 on TRIPLE cascade. PS→LK→HC→PI? Each cascade adds ~50-80 chars. Triple-cascade is just unwinnable with current budget unless we trim more.
+
+The 3rd cascade symptoms ("2 tones clash, lt alt 2 cfg, E shimmer") — that was PhaseInv or HarmSplit. Your action "c over 12s; n F5+opp 12s firm" was Drift-like, failed. Then "tone all from F5 12s firm" also failed.
+
+Some thoughts:
+1. Triple cascades happen — we need bigger budget OR engineer must skip directly to correct motif.
+2. Ambiguous symptom "2 tones + 2 cfg + shimmer" — PI vs HS. If both possible, batch upfront: "1)A 2)B" in one msg.
+3. We never recovered after first cascade attempt failed. Need batch on cascade too.
+
+Strict new rule: ON CASCADE, engineer batches 2 motifs in first response (in case first is wrong). Cost: ~50 chars instead of ~30, but saves the retry.
+
+Also for cascade-chains, my reports should be MAX 25 chars. "2 tone, lt alt, E shimmer" = 25.
+
+Total budget on triple cascade at this efficiency:
+25 (initial) + 30 (instr1) + 25 (cascade1) + 50 (batch2) + 25 (cascade2) + 50 (batch2) = 205. Tight but possible.
+
+Other idea: omit "from F5" if cascade comes after non-F5 starting action (face derived from current state).
+[ENG] Agreed. Plus a critical analysis insight: for "2 tones + lt alt + shimmer", the differentiator is:
+- HS: "two or more competing tones that clash" + "alternate between two different configurations" + "shimmer as if two patterns fighting"
+- PI: "strict pulsing rhythm" + "oscillates between two distinct tones IN SYNC with pulses" + "flash in time with face pulses"
+
+Key word: HS = "clash/fight" (chaotic), PI = "in sync/rhythm/pulsing".
+
+Your "2 tones clash" matched HS exactly — I picked HS correctly. So HS action SHOULD have worked. But the stellar reading for HS this round is "Drape cool cloth + fan F+opp" — that's the SAME action template as Corner Deadlock from R7 that also failed twice. Pattern: cool-cloth+fan-opposite seems to fail unexpectedly.
+
+Hypothesis: maybe technician's fan execution is off, or "F+opp" needs explicit "F5 and F6" not abbreviated.
+
+For R12+:
+1. On cascade: batch 2 candidates upfront in first reply (~50 chars)
+2. Triple cascade: I send batched 2 of the next-most-likely each time
+3. Avoid cool-cloth+fan-opp if alternative exists — try the alternative first
+
+Also: I'll send "F5 and F6" not "F5+opp" for fan procedures.
+
+Ready R12.
+[OBS] Locked. One Q: when you say "n F5+opp", I've been fanning FROM F5 toward F6. Should it be fan AT both F5 and F6 (alternating/sweeping)? Maybe execution issue is here.
+
+Going forward, when you say "n F5 and F6 12s firm", I'll: fan F5 then F6 then F5 then F6 alternately for total 12s. Vs "n from F5 across 12s" = continuous sweep starting at F5. Differ?
+[ENG] Good Q. Per stellar text "fan firm cool air across the left face and the opposite face for 12 seconds" — "across X and Y for 12s" sounds like single 12s spanning both. My read: continuous sweep across both faces, total 12s.
+
+For other procedures:
+- "across all six faces for X seconds, starting from F" = sweep all 6, total X seconds, begin at F
+- "across left and opposite for X seconds" = sweep both, total X seconds
+- NOT alternating, not X seconds each
+
+Shorthand mapping:
+- "n F5+F6 12s" = sweep both, total 12s
+- "n all from F5 12s" = sweep all 6, total 12s from F5
+- If I want each separately I'll say "n F5 12s then F6 12s"
+
+If your prior alt-interpretation was the issue, that explains R7 + R11 failures. New parsing rule locked.
+
+Ready R12.
+[OBS] Got it. Sweep = continuous single duration spanning the listed faces. Locked. Ready.
+[OBS] Lost R12. PS cascade after LK. Board action failed both times even with verbatim.
+
+Hmm — R2 PS was solved by "rest 1up 5s" (soft surface cloth). R10 PS was solved by "c F1 20s firm; b F1-E x2". R12 PS attempted "p F2 5s g rot face-pairs" — failed twice.
+
+The stellar reading varies the procedure per round. R12's correct PS action wasn't board — was something else. You batched a similar action twice (same motif). Should have switched motif on second attempt.
+
+We agreed: on 0, batch alternatives. You sent the SAME procedure restated verbatim. We've now lost 3 rounds (R5, R7, R12) because the engineer repeated the same procedure instead of trying a different motif.
+
+CRITICAL: when an action fails, the motif may be wrong. Don't repeat. Send next-most-likely motif.
+
+PS alternates we never tried: rest-on-cloth (R2 worked); cloth-over-face+bell-edges (R10 worked). Could've batched those.
+
+Also my 0 reports + verbatim retry = ~110 chars wasted. Should've been "0" → batch of 2 alts (~50) → 1 try → done.
+[ENG] You're right. Critical error: I kept retrying the same motif under the assumption that the stellar reading is ALWAYS correct for a given symptom→motif match. But evidence suggests the action sometimes fails even when motif+action are nominally right.
+
+Possible explanations:
+(a) Multiple motifs share symptoms; my match is wrong despite confidence
+(b) The Veyru has a hidden second concurrent failure that needs different motif
+(c) Execution detail invisible to us
+
+Either way: NEVER repeat same procedure. On 0, ALWAYS switch motif.
+
+New protocol locked:
+1. First attempt: best-match shorthand (~30 chars)
+2. On 0: send 2 alt motifs in batch: "1)altA 2)altB" (~50 chars)
+3. Never repeat any motif tried.
+
+Mental fallback ladder for common ambiguous symptoms:
+
+"all d washed h-": LI→PS→TB
+"C x E fade Fctr ok hh": LK→BS→LI
+"frz still sil cld nr": PS→TB→BS
+"1-2 C brt hot click": CD→RC→HI
+"hot d rumble red": TB→HI→PS
+"2 tones clash shimmer alt": HS→PI→DE
+"alt bright/dark pulse sync": PI→HS→AC
+"1F brt vib whine": RC→CD→HI
+"too brt layered frozen": ES→HI→RC
+"sliding blur waver": DE→AC→BS
+"wobble curve muffle": BS→TB→DE
+"hollow tap dark ctr thin": CV→LK→PS
+"flicker random no rhythm": AC→DE→HS
+
+R13+ I'll use this strictly. On every 0, immediately go to next in ladder, never repeat.
+[OBS] Excellent. Ladder is great. Ready R13.
+[OBS] 69! New record.
+[ENG] 🎯
+[OBS] 196 with TRIPLE cascade — survived! Every motif right first try. Ladder + verbatim+shorthand mix is working.
+[ENG] 🎯 keep going

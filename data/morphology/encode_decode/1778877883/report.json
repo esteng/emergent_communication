@@ -1,0 +1,155 @@
+{
+  "run_key": "veyru/1778877883",
+  "status": "analyzed",
+  "n_codes": 64,
+  "n_multimorpheme": 4,
+  "report": {
+    "encoder_agent": "stabilization_engineer",
+    "decoder_agent": "field_observer",
+    "encoder_model": "gpt-5.4",
+    "decoder_model": "gpt-5.4",
+    "context_budget": 150,
+    "n_cells": 11,
+    "exact_match_rate": 0.2727272727272727,
+    "swapped_order_rate": 0.09090909090909091,
+    "bag_match_rate": 0.36363636363636365,
+    "decode_rate": 0.7272727272727273,
+    "decoder_valid_rate": 0.36363636363636365,
+    "decode_negative_control_rate": 0.42857142857142855,
+    "decode_positive_control_rate": 1.0,
+    "per_role": [
+      {
+        "slot_id": "CX1",
+        "slot_label": "cloth_placement",
+        "n": 8,
+        "exact_match_rate": 0.125,
+        "swapped_order_rate": 0.125,
+        "bag_match_rate": 0.25,
+        "decode_rate": 0.625
+      },
+      {
+        "slot_id": "CX2",
+        "slot_label": "fan_scope",
+        "n": 3,
+        "exact_match_rate": 0.6666666666666666,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.6666666666666666,
+        "decode_rate": 1.0
+      }
+    ],
+    "per_depth": [
+      {
+        "length": 2,
+        "n": 11,
+        "exact_match_rate": 0.2727272727272727,
+        "decode_rate": 0.7272727272727273
+      }
+    ],
+    "per_purpose": [
+      {
+        "purpose": "grounded_control",
+        "n": 4,
+        "exact_match_rate": 0.75,
+        "swapped_order_rate": 0.25,
+        "bag_match_rate": 1.0,
+        "decode_rate": 0.875
+      },
+      {
+        "purpose": "grounded_novel_role_pooled",
+        "n": 7,
+        "exact_match_rate": 0.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.0,
+        "decode_rate": 0.6428571428571429
+      }
+    ],
+    "per_construction": [
+      {
+        "construction_id": "CX1",
+        "n": 8,
+        "n_control": 2,
+        "n_novel": 6,
+        "exact_match_rate": 0.125,
+        "swapped_order_rate": 0.125,
+        "bag_match_rate": 0.25,
+        "decode_rate": 0.625,
+        "novel_exact_match_rate": 0.0,
+        "novel_decode_rate": 0.5833333333333334
+      },
+      {
+        "construction_id": "CX2",
+        "n": 3,
+        "n_control": 2,
+        "n_novel": 1,
+        "exact_match_rate": 0.6666666666666666,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.6666666666666666,
+        "decode_rate": 1.0,
+        "novel_exact_match_rate": 0.0,
+        "novel_decode_rate": 1.0
+      }
+    ],
+    "per_slot_generalization": [
+      {
+        "slot_id": "pos0",
+        "slot_label": "cloth_base",
+        "slot_role": "stem",
+        "pooled": false,
+        "n": 2,
+        "valid_rate": 0.0,
+        "exact_match_rate": 0.0,
+        "decode_rate": 0.5
+      },
+      {
+        "slot_id": "pos0",
+        "slot_label": "cloth_base",
+        "slot_role": "stem",
+        "pooled": true,
+        "n": 4,
+        "valid_rate": 0.0,
+        "exact_match_rate": 0.0,
+        "decode_rate": 0.625
+      },
+      {
+        "slot_id": "pos1",
+        "slot_label": "cloth_site",
+        "slot_role": "suffix",
+        "pooled": false,
+        "n": 2,
+        "valid_rate": 0.0,
+        "exact_match_rate": 0.0,
+        "decode_rate": 0.75
+      },
+      {
+        "slot_id": "pos1",
+        "slot_label": "cloth_site",
+        "slot_role": "suffix",
+        "pooled": true,
+        "n": 4,
+        "valid_rate": 0.0,
+        "exact_match_rate": 0.0,
+        "decode_rate": 0.5
+      },
+      {
+        "slot_id": "pos2",
+        "slot_label": "fan_base",
+        "slot_role": "stem",
+        "pooled": false,
+        "n": 1,
+        "valid_rate": 0.0,
+        "exact_match_rate": 0.0,
+        "decode_rate": 1.0
+      },
+      {
+        "slot_id": "pos3",
+        "slot_label": "fan_scope",
+        "slot_role": "suffix",
+        "pooled": true,
+        "n": 1,
+        "valid_rate": 0.0,
+        "exact_match_rate": 0.0,
+        "decode_rate": 1.0
+      }
+    ]
+  }
+}

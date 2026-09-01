@@ -1,0 +1,1273 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780445165",
+    "slots": [
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "bell-",
+            "gloss": "chime the bell",
+            "support": 5,
+            "is_defined": false
+          },
+          {
+            "form": "warm-",
+            "gloss": "apply warm stone",
+            "support": 3,
+            "is_defined": false
+          },
+          {
+            "form": "x",
+            "gloss": "repeated occurrence",
+            "support": 3,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "suffix",
+        "fillers": [
+          {
+            "form": "2",
+            "gloss": "two",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "3",
+            "gloss": "three",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "3x",
+            "gloss": "three times at one face",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "5",
+            "gloss": "five",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "beside",
+            "gloss": "beside the target face",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "centers",
+            "gloss": "at the center of each face",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "corners",
+            "gloss": "briefly at each corner",
+            "support": 2,
+            "is_defined": false
+          },
+          {
+            "form": "edge-pair",
+            "gloss": "to the two edges that meet at a corner",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "edges",
+            "gloss": "at each edge",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "opp-alt",
+            "gloss": "alternating between opposite faces with pauses",
+            "support": 1,
+            "is_defined": false
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "F#": [
+        "F#"
+      ],
+      "E#": [
+        "E#"
+      ],
+      "C#": [
+        "C#"
+      ],
+      "B": [
+        "B"
+      ],
+      "D": [
+        "D"
+      ],
+      "V": [
+        "V"
+      ],
+      "W": [
+        "W"
+      ],
+      "H": [
+        "H"
+      ],
+      "Hot": [
+        "Hot"
+      ],
+      "Cold": [
+        "Cold"
+      ],
+      "Flick": [
+        "Flick"
+      ],
+      "St": [
+        "St"
+      ],
+      "Bl": [
+        "Bl"
+      ],
+      "Fn": [
+        "Fn"
+      ],
+      "Cl": [
+        "Cl"
+      ],
+      "Bd": [
+        "Bd"
+      ],
+      "Lp": [
+        "Lp"
+      ],
+      "AC": [
+        "AC"
+      ],
+      "DE": [
+        "DE"
+      ],
+      "ES": [
+        "ES"
+      ],
+      "LK": [
+        "LK"
+      ],
+      "LO": [
+        "LO"
+      ],
+      "HI": [
+        "HI"
+      ],
+      "PI": [
+        "PI"
+      ],
+      "RC": [
+        "RC"
+      ],
+      "CD": [
+        "CD"
+      ],
+      "BS": [
+        "BS"
+      ],
+      "PS": [
+        "PS"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "TB": [
+        "TB"
+      ],
+      "CV": [
+        "CV"
+      ],
+      "Tn": [
+        "Tn"
+      ],
+      "top": [
+        "top"
+      ],
+      "opp": [
+        "opp"
+      ],
+      "all": [
+        "all"
+      ],
+      "x5": [
+        "x",
+        "5"
+      ],
+      "x3": [
+        "x",
+        "3"
+      ],
+      "x2": [
+        "x",
+        "2"
+      ],
+      "X": [
+        "X"
+      ],
+      "+": [
+        "+"
+      ],
+      "P:mod/20s/bot": [
+        "P:mod/20s/bot"
+      ],
+      "bot": [
+        "bot"
+      ],
+      "S": [
+        "S"
+      ],
+      "T": [
+        "T"
+      ],
+      "Flk": [
+        "Flk"
+      ],
+      "Frz": [
+        "Frz"
+      ],
+      "Pls": [
+        "Pls"
+      ],
+      "Bz": [
+        "Bz"
+      ],
+      "Tk": [
+        "Tk"
+      ],
+      "Hol": [
+        "Hol"
+      ],
+      "Wob": [
+        "Wob"
+      ],
+      "Mfl": [
+        "Mfl"
+      ],
+      "Lay": [
+        "Lay"
+      ],
+      "Sli": [
+        "Sli"
+      ],
+      "h": [
+        "h"
+      ],
+      "!": [
+        "!"
+      ],
+      "?": [
+        "?"
+      ],
+      "rest": [
+        "rest"
+      ],
+      "board": [
+        "board"
+      ],
+      "drape": [
+        "drape"
+      ],
+      "cool": [
+        "cool"
+      ],
+      "warm-beside": [
+        "warm-",
+        "beside"
+      ],
+      "warm-corners": [
+        "warm-",
+        "corners"
+      ],
+      "warm-edge-pair": [
+        "warm-",
+        "edge-pair"
+      ],
+      "lamps": [
+        "lamps"
+      ],
+      "bell-opp-alt": [
+        "bell-",
+        "opp-alt"
+      ],
+      "bell-edges": [
+        "bell-",
+        "edges"
+      ],
+      "bell-corners": [
+        "bell-",
+        "corners"
+      ],
+      "bell-centers": [
+        "bell-",
+        "centers"
+      ],
+      "bell-3x": [
+        "bell-",
+        "3x"
+      ],
+      "tone-all": [
+        "tone-all"
+      ],
+      "tone-rotate": [
+        "tone-rotate"
+      ],
+      "trace": [
+        "trace"
+      ],
+      "P1": [
+        "P1"
+      ],
+      "P2": [
+        "P2"
+      ],
+      "P3": [
+        "P3"
+      ],
+      "P4": [
+        "P4"
+      ],
+      "P5": [
+        "P5"
+      ],
+      "P6": [
+        "P6"
+      ],
+      "P7": [
+        "P7"
+      ],
+      "P8": [
+        "P8"
+      ],
+      "P9": [
+        "P9"
+      ],
+      "P10": [
+        "P10"
+      ],
+      "P11": [
+        "P11"
+      ],
+      "P12": [
+        "P12"
+      ],
+      "P13": [
+        "P13"
+      ],
+      "P14": [
+        "P14"
+      ],
+      "L": [
+        "L"
+      ],
+      "R": [
+        "R"
+      ],
+      "O": [
+        "O"
+      ],
+      "simul": [
+        "simul"
+      ]
+    },
+    "head_index": {
+      "F#": 0,
+      "E#": 0,
+      "C#": 0,
+      "B": 0,
+      "D": 0,
+      "V": 0,
+      "W": 0,
+      "H": 0,
+      "Hot": 0,
+      "Cold": 0,
+      "Flick": 0,
+      "St": 0,
+      "Bl": 0,
+      "Fn": 0,
+      "Cl": 0,
+      "Bd": 0,
+      "Lp": 0,
+      "AC": 0,
+      "DE": 0,
+      "ES": 0,
+      "LK": 0,
+      "LO": 0,
+      "HI": 0,
+      "PI": 0,
+      "RC": 0,
+      "CD": 0,
+      "BS": 0,
+      "PS": 0,
+      "HS": 0,
+      "TB": 0,
+      "CV": 0,
+      "Tn": 0,
+      "top": 0,
+      "opp": 0,
+      "all": 0,
+      "x5": 0,
+      "x3": 0,
+      "x2": 0,
+      "X": 0,
+      "+": 0,
+      "P:mod/20s/bot": 0,
+      "bot": 0,
+      "S": 0,
+      "T": 0,
+      "Flk": 0,
+      "Frz": 0,
+      "Pls": 0,
+      "Bz": 0,
+      "Tk": 0,
+      "Hol": 0,
+      "Wob": 0,
+      "Mfl": 0,
+      "Lay": 0,
+      "Sli": 0,
+      "h": 0,
+      "!": 0,
+      "?": 0,
+      "rest": 0,
+      "board": 0,
+      "drape": 0,
+      "cool": 0,
+      "warm-beside": 0,
+      "warm-corners": 0,
+      "warm-edge-pair": 0,
+      "lamps": 0,
+      "bell-opp-alt": 0,
+      "bell-edges": 0,
+      "bell-corners": 0,
+      "bell-centers": 0,
+      "bell-3x": 0,
+      "tone-all": 0,
+      "tone-rotate": 0,
+      "trace": 0,
+      "P1": 0,
+      "P2": 0,
+      "P3": 0,
+      "P4": 0,
+      "P5": 0,
+      "P6": 0,
+      "P7": 0,
+      "P8": 0,
+      "P9": 0,
+      "P10": 0,
+      "P11": 0,
+      "P12": 0,
+      "P13": 0,
+      "P14": 0,
+      "L": 0,
+      "R": 0,
+      "O": 0,
+      "simul": 0
+    },
+    "attested_orderings": [
+      [
+        "stem",
+        "suffix"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [],
+    "form_positions": {
+      "bell-": 0,
+      "opp-alt": 1,
+      "edges": 1,
+      "corners": 3,
+      "centers": 1,
+      "3x": 1,
+      "warm-": 2,
+      "beside": 3,
+      "edge-pair": 3,
+      "x": 4,
+      "2": 5,
+      "3": 5,
+      "5": 5
+    },
+    "position_labels": {
+      "0": "bell procedure base",
+      "1": "bell application schema",
+      "2": "warm-stone procedure base",
+      "3": "warm-stone target region",
+      "4": "repetition prefix",
+      "5": "count value"
+    },
+    "positions_by_symbol": {
+      "bell-opp-alt": [
+        0,
+        1
+      ],
+      "bell-edges": [
+        0,
+        1
+      ],
+      "bell-corners": [
+        0,
+        1
+      ],
+      "bell-centers": [
+        0,
+        1
+      ],
+      "bell-3x": [
+        0,
+        1
+      ],
+      "warm-beside": [
+        2,
+        3
+      ],
+      "warm-corners": [
+        2,
+        3
+      ],
+      "warm-edge-pair": [
+        2,
+        3
+      ],
+      "x2": [
+        4,
+        5
+      ],
+      "x3": [
+        4,
+        5
+      ],
+      "x5": [
+        4,
+        5
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "bell-": "chime the bell"
+      },
+      "1": {
+        "opp-alt": "alternating between opposite faces with pauses",
+        "edges": "at each edge",
+        "corners": "briefly at each corner",
+        "centers": "at the center of each face",
+        "3x": "three times at one face"
+      },
+      "2": {
+        "warm-": "apply warm stone"
+      },
+      "3": {
+        "beside": "beside the target face",
+        "corners": "at each corner",
+        "edge-pair": "to the two edges that meet at a corner"
+      },
+      "4": {
+        "x": "repeated occurrence"
+      },
+      "5": {
+        "2": "two",
+        "3": "three",
+        "5": "five"
+      }
+    },
+    "meaning_by_symbol": {
+      "F#": "face number",
+      "E#": "edge number",
+      "C#": "corner number",
+      "B": "bright",
+      "D": "dim",
+      "V": "vibrating",
+      "W": "whine",
+      "H": "hum, Hot, Cold",
+      "Hot": "hot",
+      "Cold": "cold",
+      "Flick": "flickering",
+      "St": "stone",
+      "Bl": "bell",
+      "Fn": "fan",
+      "Cl": "cloth",
+      "Bd": "board",
+      "Lp": "lamp",
+      "AC": "flicker or chaos",
+      "DE": "slide or blur",
+      "ES": "two bright, layered, frozen",
+      "LK": "corners and edges dim",
+      "LO": "all dim, whisper",
+      "HI": "all blaze, buzz, hot",
+      "PI": "opposite faces pulse",
+      "RC": "one face bright and whine",
+      "CD": "corner bright, tick, hot",
+      "BS": "edges wobble, muffled",
+      "PS": "frozen, silent, cold",
+      "HS": "two tones clash",
+      "TB": "hot, dim, red",
+      "CV": "hollow, dark center",
+      "Tn": "tone",
+      "top": "top face",
+      "opp": "opposite face",
+      "all": "all faces",
+      "x5": "five cycles",
+      "x3": "three times",
+      "x2": "twice",
+      "X": "fail",
+      "+": "and",
+      "P:mod/20s/bot": "intensity moderate, hold duration 20 seconds, starting face bottom",
+      "bot": "bottom face",
+      "S": "start face",
+      "T": "temperature",
+      "Flk": "flicker",
+      "Frz": "frozen",
+      "Pls": "pulse",
+      "Bz": "buzz",
+      "Tk": "tick",
+      "Hol": "hollow",
+      "Wob": "wobble",
+      "Mfl": "muffled",
+      "Lay": "layered",
+      "Sli": "slide",
+      "h": "hum-quiet, Hot, Cold",
+      "!": "new symptom appeared during or after the procedure",
+      "?": "need clarification or diagnosis is ambiguous",
+      "rest": "place the Veyru on a soft surface and leave it undisturbed",
+      "board": "use flat board contact",
+      "drape": "put cloth over the target",
+      "cool": "use a cool cloth and fan air",
+      "warm-beside": "place a warm stone beside the target face",
+      "warm-corners": "apply the stone at each corner",
+      "warm-edge-pair": "apply the stone to the two edges that meet at a corner",
+      "lamps": "use lamps with one dim and one bright on opposite faces",
+      "bell-opp-alt": "chime the bell alternating between two opposite faces with a pause between alternations",
+      "bell-edges": "chime the bell at each edge",
+      "bell-corners": "chime the bell briefly at each corner",
+      "bell-centers": "chime the bell at the center of each face",
+      "bell-3x": "chime the bell three times at one face",
+      "tone-all": "sound a sustained tone at all six faces",
+      "tone-rotate": "sound a tone at opposite faces while rotating",
+      "trace": "trace the edges with a finger",
+      "P1": "sustain a tone at all six faces from the starting face and let it fade naturally",
+      "P2": "chime the bell alternating between two opposite faces for five cycles with a pause between alternations",
+      "P3": "drape cloth over two adjacent edges near the starting face, then chime the bell three times at the starting face",
+      "P4": "warm each corner of the starting face in sequence with the stone, then trace the edges",
+      "P5": "place the stone beside the starting face, then rotate and repeat for all faces",
+      "P6": "drape a cool cloth over the Veyru, then fan the starting face and the opposite face",
+      "P7": "use lamps with a dim lamp on the starting face and a bright lamp on the opposite face",
+      "P8": "drape cloth over the starting face, then chime the bell at each edge twice",
+      "P9": "at each corner of the starting face, chime the bell briefly and then warm the two edges meeting at that corner with the stone",
+      "P10": "rest the board against the starting face, then rotate through each face-pair",
+      "P11": "chime the bell at the center of each face starting from the starting face, then place the stone beside the Veyru",
+      "P12": "place the Veyru on a soft surface with the starting face up and let it rest undisturbed",
+      "P13": "drape a cool cloth over the Veyru, then fan all six faces starting from the starting face",
+      "P14": "rotate slowly while sounding a tone at opposite faces, then chime the bell at each corner",
+      "L": "left face",
+      "R": "right face",
+      "O": "opposite of the starting face",
+      "simul": "simultaneously"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780445165",
+    "n_codes": 91,
+    "n_multimorpheme": 11,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "stem",
+        "label": "bell procedure base",
+        "fillers": [
+          {
+            "form": "bell-",
+            "gloss": "chime the bell",
+            "count": 5
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.45454545454545453,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "suffix",
+        "label": "bell application schema",
+        "fillers": [
+          {
+            "form": "3x",
+            "gloss": "three times at one face",
+            "count": 1
+          },
+          {
+            "form": "centers",
+            "gloss": "at the center of each face",
+            "count": 1
+          },
+          {
+            "form": "corners",
+            "gloss": "briefly at each corner",
+            "count": 1
+          },
+          {
+            "form": "edges",
+            "gloss": "at each edge",
+            "count": 1
+          },
+          {
+            "form": "opp-alt",
+            "gloss": "alternating between opposite faces with pauses",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 5,
+        "obligatoriness": 0.45454545454545453,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos2",
+        "role": "stem",
+        "label": "warm-stone procedure base",
+        "fillers": [
+          {
+            "form": "warm-",
+            "gloss": "apply warm stone",
+            "count": 3
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.2727272727272727,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos3",
+        "role": "suffix",
+        "label": "warm-stone target region",
+        "fillers": [
+          {
+            "form": "beside",
+            "gloss": "beside the target face",
+            "count": 1
+          },
+          {
+            "form": "corners",
+            "gloss": "at each corner",
+            "count": 1
+          },
+          {
+            "form": "edge-pair",
+            "gloss": "to the two edges that meet at a corner",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 3,
+        "obligatoriness": 0.2727272727272727,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos4",
+        "role": "stem",
+        "label": "repetition prefix",
+        "fillers": [
+          {
+            "form": "x",
+            "gloss": "repeated occurrence",
+            "count": 3
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.2727272727272727,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos5",
+        "role": "suffix",
+        "label": "count value",
+        "fillers": [
+          {
+            "form": "2",
+            "gloss": "two",
+            "count": 1
+          },
+          {
+            "form": "3",
+            "gloss": "three",
+            "count": 1
+          },
+          {
+            "form": "5",
+            "gloss": "five",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 3,
+        "obligatoriness": 0.2727272727272727,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 5,
+        "possible_combos": 5,
+        "saturation": 1.0
+      },
+      {
+        "slot_a": "pos2",
+        "slot_b": "pos3",
+        "attested_combos": 3,
+        "possible_combos": 3,
+        "saturation": 1.0
+      },
+      {
+        "slot_a": "pos4",
+        "slot_b": "pos5",
+        "attested_combos": 3,
+        "possible_combos": 3,
+        "saturation": 1.0
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ],
+      [
+        "pos2",
+        "pos3"
+      ],
+      [
+        "pos4",
+        "pos5"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "bell-opp-alt": [
+        "pos0",
+        "pos1"
+      ],
+      "bell-edges": [
+        "pos0",
+        "pos1"
+      ],
+      "bell-corners": [
+        "pos0",
+        "pos1"
+      ],
+      "bell-centers": [
+        "pos0",
+        "pos1"
+      ],
+      "bell-3x": [
+        "pos0",
+        "pos1"
+      ],
+      "warm-beside": [
+        "pos2",
+        "pos3"
+      ],
+      "warm-corners": [
+        "pos2",
+        "pos3"
+      ],
+      "warm-edge-pair": [
+        "pos2",
+        "pos3"
+      ],
+      "x2": [
+        "pos4",
+        "pos5"
+      ],
+      "x3": [
+        "pos4",
+        "pos5"
+      ],
+      "x5": [
+        "pos4",
+        "pos5"
+      ]
+    },
+    "construction_by_symbol": {
+      "bell-opp-alt": "CX_BELL",
+      "bell-edges": "CX_BELL",
+      "bell-corners": "CX_BELL",
+      "bell-centers": "CX_BELL",
+      "bell-3x": "CX_BELL",
+      "warm-beside": "CX_WARM",
+      "warm-corners": "CX_WARM",
+      "warm-edge-pair": "CX_WARM",
+      "x2": "CX_REPEAT",
+      "x3": "CX_REPEAT",
+      "x5": "CX_REPEAT"
+    },
+    "construction_labels": {
+      "CX_BELL": "bell procedure",
+      "CX_WARM": "warm-stone procedure",
+      "CX_REPEAT": "counted repetition"
+    },
+    "construction_templates": {
+      "CX_BELL": [
+        "pos0",
+        "pos1"
+      ],
+      "CX_WARM": [
+        "pos2",
+        "pos3"
+      ],
+      "CX_REPEAT": [
+        "pos4",
+        "pos5"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "Most symbols are best treated as lexical/opaque. In particular, P1–P14 fail the opaque-index test: the numerals do not contribute literal count meanings, but select unrelated stored procedures. I retain only three defensible paradigms where segmentation yields stable, compositional contrasts in a shared frame: x2/x3/x5; warm-beside/warm-corners/warm-edge-pair; bell-opp-alt/bell-edges/bell-corners/bell-centers/bell-3x. I reject other surface-hint families such as P1~/P10~ and Hot/bot/-ot because they do not support coherent compositional substitution classes.",
+    "lexical_symbols": [
+      "F#",
+      "E#",
+      "C#",
+      "B",
+      "D",
+      "V",
+      "W",
+      "H",
+      "Hot",
+      "Cold",
+      "Flick",
+      "St",
+      "Bl",
+      "Fn",
+      "Cl",
+      "Bd",
+      "Lp",
+      "AC",
+      "DE",
+      "ES",
+      "LK",
+      "LO",
+      "HI",
+      "PI",
+      "RC",
+      "CD",
+      "BS",
+      "PS",
+      "HS",
+      "TB",
+      "CV",
+      "Tn",
+      "top",
+      "opp",
+      "all",
+      "X",
+      "+",
+      "P:mod/20s/bot",
+      "bot",
+      "S",
+      "T",
+      "Flk",
+      "Frz",
+      "Pls",
+      "Bz",
+      "Tk",
+      "Hol",
+      "Wob",
+      "Mfl",
+      "Lay",
+      "Sli",
+      "h",
+      "!",
+      "?",
+      "rest",
+      "board",
+      "drape",
+      "cool",
+      "lamps",
+      "tone-all",
+      "tone-rotate",
+      "trace",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8",
+      "P9",
+      "P10",
+      "P11",
+      "P12",
+      "P13",
+      "P14",
+      "L",
+      "R",
+      "O",
+      "simul"
+    ],
+    "classes": [
+      {
+        "class_id": "PROC_BELL",
+        "label": "bell procedure base",
+        "description": "Fixed procedural morpheme meaning bell-chiming.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "BELL_SCHEMA",
+        "label": "bell application schema",
+        "description": "Alternating fillers specifying where/how the bell is applied within the bell procedure frame.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "PROC_WARM",
+        "label": "warm-stone procedure base",
+        "description": "Fixed procedural morpheme meaning warm-stone application.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "WARM_TARGET",
+        "label": "warm-stone target region",
+        "description": "Alternating fillers specifying the target region/configuration for warm-stone application.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "REP_PREFIX",
+        "label": "repetition prefix",
+        "description": "Fixed prefix marking repeated cycles/occurrences.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "COUNT",
+        "label": "count value",
+        "description": "Literal count fillers in the repetition frame.",
+        "repeatable": false,
+        "declared_fillers": []
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "CX_BELL",
+        "label": "bell procedure",
+        "description": "Bell-chiming procedure plus a bell-application schema.",
+        "class_sequence": [
+          "PROC_BELL",
+          "BELL_SCHEMA"
+        ]
+      },
+      {
+        "construction_id": "CX_WARM",
+        "label": "warm-stone procedure",
+        "description": "Warm-stone procedure plus a target-region specification.",
+        "class_sequence": [
+          "PROC_WARM",
+          "WARM_TARGET"
+        ]
+      },
+      {
+        "construction_id": "CX_REPEAT",
+        "label": "counted repetition",
+        "description": "Repetition marker plus literal count.",
+        "class_sequence": [
+          "REP_PREFIX",
+          "COUNT"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "bell-opp-alt",
+        "construction_id": "CX_BELL",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "bell-",
+            "class_id": "PROC_BELL",
+            "gloss": "chime the bell"
+          },
+          {
+            "form": "opp-alt",
+            "class_id": "BELL_SCHEMA",
+            "gloss": "alternating between opposite faces with pauses"
+          }
+        ]
+      },
+      {
+        "symbol": "bell-edges",
+        "construction_id": "CX_BELL",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "bell-",
+            "class_id": "PROC_BELL",
+            "gloss": "chime the bell"
+          },
+          {
+            "form": "edges",
+            "class_id": "BELL_SCHEMA",
+            "gloss": "at each edge"
+          }
+        ]
+      },
+      {
+        "symbol": "bell-corners",
+        "construction_id": "CX_BELL",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "bell-",
+            "class_id": "PROC_BELL",
+            "gloss": "chime the bell"
+          },
+          {
+            "form": "corners",
+            "class_id": "BELL_SCHEMA",
+            "gloss": "briefly at each corner"
+          }
+        ]
+      },
+      {
+        "symbol": "bell-centers",
+        "construction_id": "CX_BELL",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "bell-",
+            "class_id": "PROC_BELL",
+            "gloss": "chime the bell"
+          },
+          {
+            "form": "centers",
+            "class_id": "BELL_SCHEMA",
+            "gloss": "at the center of each face"
+          }
+        ]
+      },
+      {
+        "symbol": "bell-3x",
+        "construction_id": "CX_BELL",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "bell-",
+            "class_id": "PROC_BELL",
+            "gloss": "chime the bell"
+          },
+          {
+            "form": "3x",
+            "class_id": "BELL_SCHEMA",
+            "gloss": "three times at one face"
+          }
+        ]
+      },
+      {
+        "symbol": "warm-beside",
+        "construction_id": "CX_WARM",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "warm-",
+            "class_id": "PROC_WARM",
+            "gloss": "apply warm stone"
+          },
+          {
+            "form": "beside",
+            "class_id": "WARM_TARGET",
+            "gloss": "beside the target face"
+          }
+        ]
+      },
+      {
+        "symbol": "warm-corners",
+        "construction_id": "CX_WARM",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "warm-",
+            "class_id": "PROC_WARM",
+            "gloss": "apply warm stone"
+          },
+          {
+            "form": "corners",
+            "class_id": "WARM_TARGET",
+            "gloss": "at each corner"
+          }
+        ]
+      },
+      {
+        "symbol": "warm-edge-pair",
+        "construction_id": "CX_WARM",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "warm-",
+            "class_id": "PROC_WARM",
+            "gloss": "apply warm stone"
+          },
+          {
+            "form": "edge-pair",
+            "class_id": "WARM_TARGET",
+            "gloss": "to the two edges that meet at a corner"
+          }
+        ]
+      },
+      {
+        "symbol": "x2",
+        "construction_id": "CX_REPEAT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "x",
+            "class_id": "REP_PREFIX",
+            "gloss": "repeated occurrence"
+          },
+          {
+            "form": "2",
+            "class_id": "COUNT",
+            "gloss": "two"
+          }
+        ]
+      },
+      {
+        "symbol": "x3",
+        "construction_id": "CX_REPEAT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "x",
+            "class_id": "REP_PREFIX",
+            "gloss": "repeated occurrence"
+          },
+          {
+            "form": "3",
+            "class_id": "COUNT",
+            "gloss": "three"
+          }
+        ]
+      },
+      {
+        "symbol": "x5",
+        "construction_id": "CX_REPEAT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "x",
+            "class_id": "REP_PREFIX",
+            "gloss": "repeated occurrence"
+          },
+          {
+            "form": "5",
+            "class_id": "COUNT",
+            "gloss": "five"
+          }
+        ]
+      }
+    ]
+  }
+}

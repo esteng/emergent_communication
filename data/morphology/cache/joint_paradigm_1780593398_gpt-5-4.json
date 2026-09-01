@@ -1,0 +1,257 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780593398",
+    "slots": [],
+    "segmentation": {
+      "D/S/C/U": [
+        "D/S/C/U"
+      ],
+      "D": [
+        "D"
+      ],
+      "S": [
+        "S"
+      ],
+      "C": [
+        "C"
+      ],
+      "U": [
+        "U"
+      ],
+      "Bc/T/H": [
+        "Bc/T/H"
+      ],
+      "Bc": [
+        "Bc"
+      ],
+      "T": [
+        "T"
+      ],
+      "H": [
+        "H"
+      ],
+      "H/D/R/Rg": [
+        "H/D/R/Rg"
+      ],
+      "A/W/B/H": [
+        "A/W/B/H"
+      ],
+      "Lo": [
+        "Lo"
+      ],
+      "Flex": [
+        "Flex"
+      ],
+      "same": [
+        "same"
+      ],
+      "F20g": [
+        "F20g"
+      ],
+      "P1": [
+        "P1"
+      ],
+      "P2": [
+        "P2"
+      ],
+      "P3": [
+        "P3"
+      ],
+      "P4": [
+        "P4"
+      ],
+      "P5": [
+        "P5"
+      ],
+      "P6": [
+        "P6"
+      ],
+      "P7": [
+        "P7"
+      ],
+      "P8": [
+        "P8"
+      ],
+      "P9": [
+        "P9"
+      ],
+      "P10": [
+        "P10"
+      ],
+      "P11": [
+        "P11"
+      ],
+      "P12": [
+        "P12"
+      ],
+      "P13": [
+        "P13"
+      ],
+      "P14": [
+        "P14"
+      ],
+      "CV": [
+        "CV"
+      ],
+      "BS": [
+        "BS"
+      ],
+      "DE": [
+        "DE"
+      ],
+      "PI": [
+        "PI"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "1F": [
+        "1F"
+      ],
+      "LIMP": [
+        "LIMP"
+      ]
+    },
+    "head_index": {
+      "D/S/C/U": 0,
+      "D": 0,
+      "S": 0,
+      "C": 0,
+      "U": 0,
+      "Bc/T/H": 0,
+      "Bc": 0,
+      "T": 0,
+      "H": 0,
+      "H/D/R/Rg": 0,
+      "A/W/B/H": 0,
+      "Lo": 0,
+      "Flex": 0,
+      "same": 0,
+      "F20g": 0,
+      "P1": 0,
+      "P2": 0,
+      "P3": 0,
+      "P4": 0,
+      "P5": 0,
+      "P6": 0,
+      "P7": 0,
+      "P8": 0,
+      "P9": 0,
+      "P10": 0,
+      "P11": 0,
+      "P12": 0,
+      "P13": 0,
+      "P14": 0,
+      "CV": 0,
+      "BS": 0,
+      "DE": 0,
+      "PI": 0,
+      "HS": 0,
+      "1F": 0,
+      "LIMP": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "D/S/C/U": "dim and still, silent, cold, unresponsive",
+      "D": "dim and still",
+      "S": "silent",
+      "C": "cold",
+      "U": "unresponsive",
+      "Bc/T/H": "bright corners, ticking, hot",
+      "Bc": "bright corners",
+      "T": "ticking",
+      "H": "hot",
+      "H/D/R/Rg": "hot all over, dim red, low rumble, rough or gritty",
+      "A/W/B/H": "all faces blazing white, harsh buzz, heat",
+      "Lo": "dim all over, whispering, washed-out",
+      "Flex": "wobbling edges, bulging, muffled hum",
+      "same": "the action failed and the symptoms are the same",
+      "F20g": "front, 20 seconds, gentle",
+      "P1": "apply tone to all six faces",
+      "P2": "ring the bell on alternating opposite faces",
+      "P3": "apply cloth to 2 adjacent edges, then ring the bell 3 times near the face",
+      "P4": "warm 4 corners, then trace the edges",
+      "P5": "place a warm stone beside each face",
+      "P6": "apply cool cloth, then fan the start face and the opposite face",
+      "P7": "use a dim lamp on the start face and a bright lamp on the opposite face",
+      "P8": "place folded cloth on the face, then ring the bell at each edge twice",
+      "P9": "for each corner of the start face in sequence, ring a brief bell, then warm that corner's 2 edges for the full duration at the round intensity",
+      "P10": "place the board on the start face for the duration, then rotate and repeat on each face-pair",
+      "P11": "ring the bell once at the center of each face starting from the start face, then place the warm stone beside the Veyru for the duration",
+      "P12": "place the Veyru on a soft surface face-up, with moderate contact, and leave it undisturbed to rest",
+      "P13": "apply cool cloth, then fan all 6 faces",
+      "P14": "rotate for 12 seconds with a steady tone at the faces opposite the L face, then ring the bell at each corner once",
+      "CV": "core void",
+      "BS": "boundary softening",
+      "DE": "drift, etc.",
+      "PI": "opposite-face pulse or two tones",
+      "HS": "competing tones or competing configurations",
+      "1F": "one-face bright, high whine",
+      "LIMP": "one-lamp impossible geometry for P7-type actions"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780593398",
+    "n_codes": 36,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible multi-entry paradigm survives the evidence requirements. Although some symbols are suggestive on the surface, the codebook does not provide enough substitutional evidence with stable, compositional meaning contributions to justify segmentation. In particular: (1) P1–P14 fail the opaque-index test, since the numerals do not contribute literal count meanings but instead select unrelated procedures; (2) the apparent shared suffix /H is not supported by a substitution contrast in a common frame; both attested /H forms have unrelated preceding material and no contrasting filler in that slot; (3) D/S/C/U is compositionally suggestive because D, S, C, and U exist as standalone meanings, but there is no broader paradigm with demonstrated slot-wise substitution across multiple codes, and promoting slash-delimited symptom lists to a construction would require inventing classes and separator behavior not supported elsewhere; (4) F20g has no paradigm support for any internal slot. Because the instructions prefer a flat lexicon over false morphology, all symbols are treated as lexical.",
+    "lexical_symbols": [
+      "D/S/C/U",
+      "D",
+      "S",
+      "C",
+      "U",
+      "Bc/T/H",
+      "Bc",
+      "T",
+      "H",
+      "H/D/R/Rg",
+      "A/W/B/H",
+      "Lo",
+      "Flex",
+      "same",
+      "F20g",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6",
+      "P7",
+      "P8",
+      "P9",
+      "P10",
+      "P11",
+      "P12",
+      "P13",
+      "P14",
+      "CV",
+      "BS",
+      "DE",
+      "PI",
+      "HS",
+      "1F",
+      "LIMP"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

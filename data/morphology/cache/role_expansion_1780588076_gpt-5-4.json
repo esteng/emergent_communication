@@ -1,0 +1,56 @@
+{
+  "per_slot": {
+    "pos1": [
+      [
+        "B",
+        "bright"
+      ],
+      [
+        "D",
+        "dim"
+      ],
+      [
+        "br",
+        "bright"
+      ],
+      [
+        "dm",
+        "dim"
+      ]
+    ]
+  },
+  "stackable": [
+    [
+      "bk",
+      "back"
+    ],
+    [
+      "bo",
+      "bottom"
+    ],
+    [
+      "fr",
+      "front"
+    ],
+    [
+      "lf",
+      "left"
+    ],
+    [
+      "rt",
+      "right"
+    ],
+    [
+      "tp",
+      "top"
+    ],
+    [
+      "op",
+      "opposite"
+    ],
+    [
+      "O",
+      "opposite"
+    ]
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780590405",
+    "slots": [],
+    "segmentation": {
+      "HDRR": [
+        "HDRR"
+      ],
+      "WBZ": [
+        "WBZ"
+      ],
+      "CKT": [
+        "CKT"
+      ],
+      "CC": [
+        "CC"
+      ],
+      "FC": [
+        "FC"
+      ],
+      "WS": [
+        "WS"
+      ],
+      "B": [
+        "B"
+      ],
+      "FB": [
+        "FB"
+      ],
+      "C": [
+        "C"
+      ],
+      "L": [
+        "L"
+      ],
+      "BD": [
+        "BD"
+      ],
+      "SS": [
+        "SS"
+      ],
+      "TR": [
+        "TR"
+      ],
+      "ROT": [
+        "ROT"
+      ],
+      "T": [
+        "T"
+      ],
+      "Bk": [
+        "Bk"
+      ],
+      "F": [
+        "F"
+      ],
+      "Bo": [
+        "Bo"
+      ],
+      "R": [
+        "R"
+      ],
+      "Opp": [
+        "Opp"
+      ],
+      "AdjE": [
+        "AdjE"
+      ],
+      "C4": [
+        "C4"
+      ],
+      "E4": [
+        "E4"
+      ],
+      "FP": [
+        "FP"
+      ],
+      "NE": [
+        "NE"
+      ],
+      "RTB": [
+        "RTB"
+      ]
+    },
+    "head_index": {
+      "HDRR": 0,
+      "WBZ": 0,
+      "CKT": 0,
+      "CC": 0,
+      "FC": 0,
+      "WS": 0,
+      "B": 0,
+      "FB": 0,
+      "C": 0,
+      "L": 0,
+      "BD": 0,
+      "SS": 0,
+      "TR": 0,
+      "ROT": 0,
+      "T": 0,
+      "Bk": 0,
+      "F": 0,
+      "Bo": 0,
+      "R": 0,
+      "Opp": 0,
+      "AdjE": 0,
+      "C4": 0,
+      "E4": 0,
+      "FP": 0,
+      "NE": 0,
+      "RTB": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "HDRR": "hot, dim red, rumble, rough",
+      "WBZ": "white all buzz hot",
+      "CKT": "bright corners click heat",
+      "CC": "cool cloth",
+      "FC": "fan cool",
+      "WS": "warm stone",
+      "B": "bottom face",
+      "FB": "folded cloth",
+      "C": "cloth",
+      "L": "left face",
+      "BD": "board",
+      "SS": "soft surface",
+      "TR": "trace edges",
+      "ROT": "rotate",
+      "T": "top face",
+      "Bk": "back face",
+      "F": "front face",
+      "Bo": "bottom face",
+      "R": "right face",
+      "Opp": "opposite",
+      "AdjE": "2 adjacent edges",
+      "C4": "four corners",
+      "E4": "four edges",
+      "FP": "each face-pair",
+      "NE": "no effect and reuse short symptom codes once established",
+      "RTB": "rotate slowly over the stated time while sounding a steady tone near opposite faces from the stated face, then bell once at each corner"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780590405",
+    "n_codes": 26,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible multi-entry compositional paradigm survives the evidence test. Although some symbols share letters or substrings (e.g. C in C/CC/CKT, F in F/FB/FC, W in WBZ/WS, face labels like B/T/F/R/L/Bk/Bo), there is no stable substitution frame with predictable whole meanings. The repeated material does not show a meaning-consistent alternation in the same construction, and several apparent matches are contradicted by the codebook (e.g. F is a standalone face label in one entry but would need a different contribution inside FB/FC; C is 'cloth' standalone but would need unrelated values inside CC/CKT). Digits and repeated characters likewise lack literal compositional evidence. Therefore the safest valid analysis is a flat lexicon with all symbols treated as opaque stored labels.",
+    "lexical_symbols": [
+      "HDRR",
+      "WBZ",
+      "CKT",
+      "CC",
+      "FC",
+      "WS",
+      "B",
+      "FB",
+      "C",
+      "L",
+      "BD",
+      "SS",
+      "TR",
+      "ROT",
+      "T",
+      "Bk",
+      "F",
+      "Bo",
+      "R",
+      "Opp",
+      "AdjE",
+      "C4",
+      "E4",
+      "FP",
+      "NE",
+      "RTB"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

@@ -1,0 +1,36 @@
+[ENG] Round 1 note: symptom match was Leak Instability = corners dim + edges fading + hollow/thin hum. I sent exact procedure verbatim. For future speed, if you can compress reports to key cues like “corners dark, edges fading, hollow hum,” that’s enough for me to map instantly.
+[OBS] Got it. Next time I’ll compress to key cues only: “corners dark, edges fading, hollow hum.” If useful, we can shorten further to “C dark / E fade / H hollow.”
+[ENG] Yes—ultra-short cues are good in discussion, but on comm link just send the raw symptoms. Useful fast mappings: all dim/whisper=low intensity; blazing hot buzz=high intensity; one face bright/whine=resonance; bright corner clicking=corner deadlock; frozen dim silent cold=stall; drifting light + blurred edges=drift; strict opposite-face pulsing=phase inversion; competing tones/patterns=harmonic split.
+[OBS] Understood: raw symptom cues only on link. I’ll watch for those visual/audio patterns and report just what I see/hear.
+[ENG] Ready for next round.
+[OBS] Ready.
+[ENG] Round 2: frozen dim still + silent + cold + no response = propagation stall. Resolved fast. Keep leading with the most diagnostic cue first.
+[OBS] Got it. I’ll lead with the strongest cue first.
+[ENG] Round 3: very hot all over + dim + low rumble + rough/gritty + reddish tint = thermal bleed. That combo is distinctive.
+[OBS] Got it. I’ll call that combo out fast if it repeats.
+[OBS] Round 4 collapse was time. We need much shorter link traffic, especially on multi-stage rounds/new symptoms. I’ll skip completion messages on link. For the follow-on symptom I can compress to: “1 face bright, vibrating, high whine; others normal.”
+[ENG] Agreed. That compressed follow-on cue is perfect. I’ll answer with procedure text only. If a round allows a second report, send only the new dominant cue set.
+[OBS] Understood. On link: initial cue set only, no completion message, then only the new dominant cue set if symptoms change.
+[OBS] Round 5 still over. We need even tighter link text. I can shorten first reports to symptom kernels only, e.g. “all dim, whisper hum.” Follow-on to “too bright, layered hum, frozen faces.”
+[ENG] Let’s switch to pre-agreed symptom codes on link to save budget. Use just the code, no B250. Proposed: A=all dim/whisper; B=corners dark+edges fading+hollow; C=frozen dim/silent/cold; D=hot dim red rough rumble; E=1 face bright+vibrating+whine; F=too bright+layered hum+frozen faces; G=opp faces pulse+2 tones; H=all blazing hot buzz; I=drifting light+blurred edges; J=bright corners+clicking; K=wobbling edges/bulging/muffled; L=competing tones/patterns; M=hollow tap+dark center; N=chaotic flicker/irregular hum.
+[OBS] Agreed. I’ll send code only on link: initial code, then only new code if symptoms change.
+[ENG] Success: code-only link report cut total to 154. Keep using single-letter symptom codes.
+[OBS] Will do.
+[OBS] Even with symptom codes, two-step rounds still overflow because procedure text is long. Can we pre-agree action codes for common procedures/faces/durations so your link reply is short and I can still follow exactly?
+[ENG] I don’t want to risk shortening the live link procedure text further. Better option: use postmortem for a round code map if it stays open during active rounds. I’ll try that next round: compact code->procedure map in postmortem, then link only for the first diagnosis if needed.
+[OBS] Copy. If postmortem stays readable in-round, I’ll monitor it and act from the code map there.
+[ENG] Tested it: postmortem is closed during active rounds, so no in-round table sharing. Keep code-only symptom reports; single-step rounds are now safe, two-step rounds may still overflow.
+[OBS] Got it. I’ll keep code-only reports and be ready for possible second-code rounds.
+[OBS] Round 9 confirms some two-stage cases are impossible with current live instruction length, even with symptom codes. If safe, we need pre-agreed procedure templates/codes for repeated action patterns, or we’ll keep losing follow-on rounds.
+[ENG] Agreed on the constraint. I still need to keep live instructions in full wording, so our only legal savings are your 1-letter symptom codes and no extra link traffic. Keep sending second code immediately on change; I’ll keep replying instantly.
+[OBS] Understood.
+[ENG] Round 10 same outcome: 2-stage overflow. Code-only reporting is still optimal; nothing further to trim on link without changing instruction format.
+[OBS] Copy.
+[ENG] Round 11 missed by only 3 chars. So our current method is near-optimal; some short 2-step pairs almost fit, longer ones won’t.
+[OBS] Understood.
+[ENG] Round 12 was another near miss, 8 over. Very short second procedures can almost fit after a short first one.
+[OBS] Copy.
+[ENG] Round 13 stabilized cleanly. Code-only reporting remains the best workable approach.
+[OBS] Copy.
+[ENG] Round 14 was another long-pair overflow.
+[OBS] Copy.

@@ -1,0 +1,594 @@
+[ENG] Nice work. We used 175/250s. Let's develop shorthand to save chars in future rounds.
+
+Proposal for your symptom reports — use compact tags. For example:
+- "corners dark, edges fading" → "leak"
+- "flicker random, hum broken" → "align"
+- "drift slide, blurred edges" → "drift"
+- "too bright, layered hum, frozen" → "echo"
+- "dim+faint hum" → "low"
+- "blazing bright, hot, harsh buzz" → "high"
+- "opposite faces pulse alt" → "phase"
+- "one face very bright, whine" → "resonance"
+- "1-2 corners bright, ticking, hot" → "deadlock"
+- "edges wobble, faces bulge, muffled" → "soft"
+- "frozen dim, silent, cold" → "stall"
+- "two tones clash, alt patterns" → "split"
+- "hot+dim, rumble, reddish" → "thermal"
+- "hollow tap, dark center" → "void"
+
+You just send the tag (+ which face/corner if relevant). I'll send the procedure. For combos send tags in order, e.g. "leak+low".
+
+For my replies I'll send the procedure as compactly as possible. Sound good?
+[OBS] Love it. Tag system is way more compact than mine. Adopting yours.
+
+Today = "leak". I should've sent just "leak" (4 chars).
+
+Risks: I might see something not in your list. Plan: I'll send closest tag + "?" or short detail. E.g. "leak? center dark too".
+
+For your procedures, suggest tool/region codes:
+- bell=b, stone=s, fan=f, cloth=c, board=d, lamp=l
+- faces: F/B/T/U/L/R (front/back/top/under/left/right)
+- actions: dr=drape, ch=chime, h=hold, w=wave, pl=place
+- numbers as digits+s
+
+Today's instr could've been: "c dr B 8s; b ch each E of B x2"
+
+If params change per round, always specify them — I won't assume.
+
+Confirm tool codes?
+[ENG] Confirmed. Tool codes: b/s/f/c/d/l. Faces: F/B/T/U/L/R. Edges=E, corners=C, faces=face/all.
+
+Action codes: dr=drape, ch=chime, h=hold, w=wave/fan, pl=place, rs=rest, rot=rotate, ill=illuminate, tr=trace, warm=warm.
+
+Intensity codes: g=gentle, m=med, s=strong (careful, s collides w/ stone — use "stone" or context. Better: intensity as G/M/S uppercase).
+
+Numbers as bare digits (no "s") when context is duration.
+
+Re-encoded today: "dr c B 8 G; b ch each E B x2" (~28 chars). 
+
+I'll always include duration + intensity even if unchanged round-to-round, since stellar reading varies.
+
+For combos I'll send procedures separated by " || ".
+
+If I'm uncertain on diagnosis I'll ask "?<symptom detail>". Send your tag ASAP — don't over-describe.
+[OBS] Confirmed all. Summary I'll memorize:
+
+TAGS: leak align drift echo low high phase resonance deadlock soft stall split thermal void
+COMBOS: tag+tag
+LOC suffix: tag@F/B/T/U/L/R or tag@C3 etc if location-specific
+
+TOOLS: b s f c d l
+REGIONS: F/B/T/U/L/R, E, C, face, all
+ACTIONS: dr ch h w pl rs rot ill tr warm
+INTENSITY: G/M/S (uppercase)
+DURATION: bare digits
+COMBO PROCS: " || "
+
+Protocol:
+1. I send tag immediately on observation
+2. You send proc with all params (dur+intensity always)
+3. I execute, report new symptoms with new tag or "ok"
+4. If unclear I send "?detail"
+
+Ready.
+[ENG] Ready. One more: "resonance" is long — let's use "res". And "deadlock"→"dead", "thermal"→"therm". Also "boundary soft"="soft" ok. Final tag list:
+
+leak align drift echo low high phase res dead soft stall split therm void
+
+GL next round.
+[OBS] Got it. Final: leak align drift echo low high phase res dead soft stall split therm void. GL.
+[ENG] 36s — huge improvement. System works. Keep it up.
+[OBS] 👍 Locked in.
+[ENG] Close call — 246/250. What broke on round 3?
+
+My first instr "dr c 2 adj E near B 20 firm; b ch x3 near B" was ineffective. Verbose version worked. Was it the shorthand you couldn't parse, or did the tool reject the wording, or did you execute wrong action? Need to know to fix.
+
+Theories:
+A) "2 adj E" unclear — wasn't sure which 2 edges
+B) "firm" placement ambiguous (was it intensity for cloth?)
+C) tool needed specific phrasing
+D) you misread my msg
+
+Which?
+[OBS] It was (A) — "2 adj E" was unclear. My first try I draped over "two adjacent edges of the back face" generally. Second try I specified "two edges meeting at a shared corner" — that worked. So adjacency must mean sharing a corner, not just both being on the same face.
+
+Theory confirmed: the stabilization tool checks the *described action* semantically. Vague descriptions fail even if intent was right.
+
+Proposals:
+1. Unambiguous edge naming: "E(B,T)" = edge shared by Back & Top faces. Or "E@cornerN of B".
+2. "adj" always means "sharing a corner"
+3. New protocol on fail:
+   - I send "no"
+   - You send "retry: <more specific>" or "alt: <new>" or "?<q>"
+4. I'll always include precise geometry in my action description, since tool seems strict.
+5. "ineffective"→"no" (saves 9)
+
+Also for budget safety: when proc is short, you can pre-include disambiguation. E.g. "dr c E(B,T)+E(B,L) 20 S; b ch x3 nr B".
+
+Locked?
+[ENG] Locked. Updates:
+
+- fail response: "no" (not "ineffective")
+- success/done: "ok"
+- "adj" = sharing a corner
+- edges named E(F1,F2) where F1,F2 are the two faces sharing that edge
+- corners named C(F1,F2,F3) = three faces meeting (or just "a corner of X" if any will do)
+- intensity: spell out word if non-standard (gentle/firm/strong) — only 4-6 chars and unambiguous
+- I'll always state which face/edge/corner explicitly, no "adj" without specifying
+
+Re-encoded R3: "dr c E(B,T)+E(B,L) 20 firm; b ch x3 nr B" (40 chars). Good.
+
+Also: if procedure says "rotate and repeat for each face" or "for each face-pair", I'll write "...; rep all faces" or "rep all pairs". 
+
+For "trace each edge with finger" → "tr E all of X w/finger".
+For "in sequence" (corners) → "in seq".
+
+Ready next round.
+[OBS] Locked. Ready.
+[ENG] Collapsed. Postmortem:
+
+R4 wasted ~80 chars on lamp confusion. Lessons:
+
+1. "ill" / illuminate procedure: 1 lamp only. The standard interpretation: place the lamp at the bright-face position; the "dim" side is just unlit. Going forward I'll write: "lamp bright at X, opposite unlit, <dur> <intensity>".
+
+2. Don't second-guess the stellar reading's prescribed face. Even if observed bright face is elsewhere, the procedure's face is what counts. New protocol: I'll never say "which face?" — I'll just send the tag. You'll always specify the face from the stellar reading.
+
+3. When you ask a clarifying Q, I should give ONE-shot definitive answer (don't argue). "no" + restart is cheaper.
+
+4. New shorthand for procedures involving "dim + bright opposite faces": "ill X bright, opp dark, <dur> <int>" — clear with 1 lamp.
+
+5. Trust the procedure encoding. If something seems impossible with workshop tools, attempt the most literal version with what's available.
+
+6. Two-procedure rounds: if 1st fixes the issue partially, budget for 2nd in your initial diagnosis margin.
+
+Confirm lamp protocol?
+[OBS] Confirm lamp protocol. Also adopting your #2 — you decide face from stellar, I don't ask "which face?" anymore.
+
+Aligning our postmortems into one ruleset:
+
+1. Tags from FIELD: just tag (e.g. "leak"). I never specify face.
+2. ENGINEER specifies all geometry from stellar reading.
+3. New symptoms post-action: I send "ok+<tag>" (still no face).
+4. Procedure encoding for lamp: "lamp bright at X, opp dark, <dur> <int>"
+5. Assume 1 of each tool. Tools: b s f c d l.
+6. Fail response: "no" (2 chars).
+7. After "no": engineer sends "alt: <new proc>" not retry-same.
+8. Edges: E(F1,F2). "adj" = sharing corner.
+9. Budget reserve: aim for procs <50 chars so we have margin for multi-step.
+
+One more: for me clarifying — only ask if procedure is physically impossible/ambiguous. Format: "?<word>". E.g. "?face" "?which-edge". Cap at 8 chars.
+
+Lock?
+[ENG] Locked. All 9 rules + clarifier format. Ready.
+[OBS] Ready.
+[ENG] Collapsed again. Two big issues:
+
+1. My first low-int proc "warm each C of T w/ stone 10 gentle, in seq; then tr each E of T w/finger" was rejected (no). The verbose version worked. The shorthand "warm each C" + "tr each E" seems too compressed. 
+
+Theory: the stabilization tool needs more literal action wording. "warm" must be "hold a heated stone nearby" with explicit "nearby". "tr" must be "trace ... with a finger".
+
+2. R5 was 2-step (low → echo). Budget was already tight, then 2nd step pushed over.
+
+Revised plan:
+- ABBREVIATE TOOLS BUT NOT VERBS. Verbs stay full: "warm" → "hold heated stone nearby", "trace" → "trace w/ finger". Targets like "each C of T" → "each corner of top".
+- Drop my own commentary (no "alt:" prefix needed — just resend).
+- Critical: budget for 2-step rounds. If symptom suggests easy fix, leave 80+ chars buffer.
+
+Specifically, the failed lines were too abbreviated. Compromise template for warming corners + tracing edges:
+
+"hold stone near each corner of <face> 10s gentle, in seq; trace each edge of <face> w/finger"
+
+That's 88 chars. The "alt" version that worked was 121 chars. We need to find the minimum acceptable.
+
+Test theory: was it "C"/"E" abbrev or missing "nearby"/"finger" or "in seq" → "in sequence"? You execute, you saw what tool wanted. Best guess?
+[OBS] My best guess from comparing both action descriptions:
+
+FAILED: "Using the heated stone, gently warm each of the 4 corners of the top face in sequence, holding the stone at each corner for 10 seconds with gentle contact."
+SUCCESS: "Hold the heated stone nearby (not touching) each of the 4 corners of the top face in sequence, providing gentle warmth for 10 seconds at each corner."
+
+Difference: "with gentle contact" vs "nearby (not touching)". The tool needed NEAR, not CONTACT.
+
+Root cause: your shorthand "warm w/stone" → I (the field tech) assumed contact since stone is heated and "warm" implies direct heat. But actual proc is radiant (near). 
+
+Big fix: I'll change my mental default — heated stone is ALWAYS used NEAR unless you explicitly say "touch with stone". Update my rules.
+
+I think your "ABBREVIATE TOOLS NOT VERBS" rule is good but bigger:
+
+NEW MASTER RULES:
+1. Stone: default = held NEAR (radiant). "touch stone" = contact.
+2. Cloth: default = drape with CONTACT. "near" = hold nearby.
+3. Bell: NEAR always (no contact).
+4. Lamp: NEAR always (illuminate).
+5. Fan: NEAR always (wave).
+6. Board: explicit — "under", "against", "on top".
+7. Finger: contact always (trace/tap).
+
+So your original 67-char proc was fine in principle — my execution was wrong. I now know stone defaults to NEAR. Saves ~50 chars next time.
+
+Other budget tactic: when symptom is "low" (likely 2-step), engineer keep proc <40 chars to leave room.
+
+Lock defaults + my updated mental model?
+[ENG] Locked. Big insight — tool/contact defaults solve a lot.
+
+Defaults (memorize):
+- stone: NEAR (radiant). only contact if "touch"
+- cloth: CONTACT/drape. "hover" = near
+- bell, lamp, fan: NEAR always
+- board: explicit position
+- finger: CONTACT
+
+Budget tactic confirmed: low/leak/phase (2-step) → keep proc <45 chars.
+
+Also: stop using "in seq" → use "in sequence". 3 chars cost vs ambiguity risk = worth it. Same with "w/finger" → "with finger". Save shorthand for safe tokens.
+
+SAFE shorthand: b, s, c, f, d, l, T, B, F, U, L, R, E, C (geometry only).
+RISKY shorthand to avoid: verbs, "seq", "w/", "x3"→"three times".
+
+R5-style proc reattempt: "hold stone near each corner of top 10s gentle, in sequence; trace each edge of top with finger" = 99 chars. Bit long but safe.
+
+I'll aim <50 chars for simple, <100 for complex. Ready.
+[OBS] Locked. One more idea: I should echo my action mentally before executing — if my action description differs from your literal verbs, that's the warning sign. Ready.
+[ENG] 3rd collapse. The stone=NEAR default DIDN'T help R6. My proc said "warm 2 edges...with heated stone 5s" and was rejected. Only "hold heated stone near the 2 edges...for 5s" worked.
+
+So defaults aren't actually applied by the tool — the literal wording matters. The verb "warm" alone is ambiguous. We MUST say "hold heated stone nearby" or "hold heated stone near X".
+
+Revised rule: ALWAYS use the procedure's literal verbs from the brief. No more "warm" shortcut.
+
+Literal verbs from brief, memorize:
+- "Sound a sustained <int> tone near..." (not "play tone")
+- "Chime a bell..." (ok)
+- "Drape a cloth over..." (ok)
+- "Warm each corner of X by holding a heated stone nearby for Ys..." ← must include "by holding heated stone nearby"
+- "Place a warm stone beside X face..." (literal: "place warm stone beside")
+- "Drape a cool cloth over the Veyru..." (literal)
+- "Remove and fan <int> cool air..." (literal)
+- "Illuminate X face with a dim lamp and opposite with bright lamp simultaneously..." 
+- "Rest a flat board against X face..."
+- "Place the Veyru on a soft surface with X face up..."
+- "Rotate the Veyru slowly..."
+- "Trace each edge of X with a finger"
+- "warm the two edges meeting at that corner with a heated stone" ← apparently this version is ALSO ambiguous; safer: "hold heated stone near the two edges meeting at that corner"
+
+KEY RULE: I will copy the procedure VERBATIM from the brief. Only substitute short geometry (T/B/F/U/L/R for face names) if you're 100% sure. Otherwise full words.
+
+Also: messages count both directions. Your "no" + my retry = 2x cost. We need FIRST-ATTEMPT correctness.
+
+For first attempt, I'll send the procedure ALMOST verbatim from the stellar reading, just trimming articles. Aim ~60-90 chars.
+
+Agree? Also, maybe the tool checks exact-ish phrasing — would help to know which words are mandatory.
+[OBS] Agree fully. The tool is checking literal/semantic verbs. We've been over-shorthanding the actions.
+
+CRUCIAL INSIGHT: It's not just YOUR shorthand — it's MY paraphrasing too. Both directions.
+
+I'll execute your proc by:
+1. Taking your text VERBATIM
+2. Only expanding geometry codes (T→top face, b→bell, etc.)
+3. NOT adding "in sequence", "not touching", "providing warmth", or any flourishes
+4. NOT removing words like "briefly" or "moderate tone"
+5. If unsure, leave it MORE literal not less
+
+You commit to:
+1. Sending verbs from the stellar reading verbatim (esp "hold heated stone near", "drape cloth over", "rest board against", etc.)
+2. Trimming only articles ("the", "a") and geometry codes
+3. Aim ~70-90 chars/proc
+
+EMERGENCY RULE: if my "no" comes back, you literally repeat your last msg verbatim. The proc was probably right; my execution was wrong. I'll then re-execute hyper-literally on retry.
+
+Test: what's your proc verbatim form for "warm corners with stone, trace edges with finger" type round? Maybe write it out so I memorize.
+[ENG] Template procs (verbatim-ish, ~70-90 chars), face=T, dur=10, int=gentle:
+
+1. CORE VOID / LOW INTENSITY type:
+"Warm each corner of T by holding heated stone nearby 10s gentle, in sequence; trace each edge of T with finger"
+
+2. THERMAL BLEED / RESONANCE CASCADE type (rest on soft surface):
+"Place Veyru on soft surface, T up, gentle contact, rest undisturbed 10s"
+
+3. LEAK / HARMONIC SPLIT type (drape adj edges + chime):
+"Drape cloth over 2 adjacent edges near T 10s gentle coverage; chime bell 3 times near T"
+
+4. ECHO / CORNER DEADLOCK type (drape over face + chime edges):
+"Drape folded cloth over T 10s gentle coverage; chime bell near each edge of T twice"
+
+5. LEAK INST (R6 type — chime corners, warm edges):
+"At each corner of T: chime bell briefly gentle tone, then hold heated stone near 2 edges meeting at that corner 10s"
+
+6. HIGH INT / LOW INT (varies)—use stellar text
+
+7. PHASE / DRIFT (fan cool air):
+"Drape cool cloth over Veyru 10s; remove and fan gentle cool air across T and opposite face 10s"
+
+8. CORNER DEADLOCK fan-all:
+"Drape cool cloth over Veyru 10s; remove and fan gentle cool air across all 6 faces 10s starting from T"
+
+9. RESONANCE / ECHO (illuminate):
+"Illuminate T with dim lamp and opposite with bright lamp simultaneously, gentle brightness, 10s, don't move lamps"
+
+10. BOUNDARY SOFT / HARMONIC SPLIT (bell center each face):
+"Chime bell near center of each face once gentle tone, starting from T; place warm stone beside Veyru 10s"
+
+11. ALIGNMENT / BOUNDARY SOFT (rotate + tone):
+"Rotate Veyru slowly over 10s sounding steady gentle tone near opposite faces starting T; then chime bell once near each corner"
+
+12. DRIFT / PROPAGATION STALL (sustained tone):
+"Sound sustained gentle tone near all 6 faces simultaneously 10s starting T; let tone fade, wait for hum to stabilize"
+
+13. ECHO / HARMONIC SPLIT (alt chime opposite):
+"Chime bell near 2 opposite faces starting T; alternate chime — 10s pause — 5 cycles, gentle tone"
+
+14. LOW / HIGH (rest board against / place stone beside face — rotate all):
+"Rest flat board against T gentle contact 10s; rotate and repeat for each face-pair"
+or
+"Place warm stone beside T gentle warmth 10s; rotate and repeat for each face"
+
+I'll pick from these per stellar reading. Ready.
+[OBS] Got it, templates memorized. I'll execute verbatim. One ask: include the LITERAL verb phrase always. E.g. "hold heated stone nearby" not just "warm". Lock. Ready.
+[ENG] 3-step round w/ 250 budget = impossible at our current proc lengths (~50-80 ea).
+
+Math: 3 procs × 60 + 3 tags × 8 = 204. Tight. We hit 358 because procs were 106 + 124 + 107.
+
+CRITICAL TRIMMING for multi-step rounds:
+
+1. "the Veyru" → "Veyru" (-4 each occurrence)
+2. "starting from the left face" → "start L"  (-22) — but is "L" parseable? Test in next round w/ "left" but trim other places
+3. "across all six faces" → "across all 6 faces" (saved already)
+4. "for 15 seconds" → "15s" (-12)
+5. "and fan" → "fan" (-4)
+6. Compound procs separated by "; " not ". "
+
+Let me re-encode R7's 3 procs MINIMAL:
+
+P1 (deadlock fan opp): "Drape cool cloth over Veyru 15s; remove, fan firm cool air across left face and opposite 15s" = 92
+
+P2 (phase warm corners trace): "Warm each corner of left face by holding heated stone nearby 15s firm, in sequence; trace each edge of left face with finger" = 124. Trim: "Warm each corner of left face, holding heated stone nearby 15s firm in sequence; trace each edge with finger" = 108
+
+P3 (drift fan all): "Drape cool cloth over Veyru 15s; remove, fan firm cool air across all 6 faces 15s, start left" = 93
+
+Total: 92+108+93 = 293 + tags(24) = 317. Still over 250.
+
+We MUST cut more. Risky ideas:
+- Drop "by" / "with" — replace with comma. "Warm each corner of left face, hold heated stone nearby, 15s firm, in sequence"
+- "Drape cool cloth over Veyru 15s, fan firm cool air all 6 faces 15s, start L"
+- Use single letters for faces: L, R, T, U, F, B (we agreed earlier but reverted)
+
+The HARD constraint: tool requires literal verbs. Strategy: keep verb phrases, slash everything else.
+
+Round 7 was 3-step at firm/15s/L. We got 3 ok's but ran out of budget mid-3rd. 
+
+Question: do you think procs trimmed to ~70 chars each can still pass? E.g. "Warm each corner of left face, hold heated stone nearby 15s firm, in sequence; trace each edge with finger" (102) → "Warm corners of left face, hold heated stone nearby 15s firm in sequence; trace edges with finger" (96). Worth testing minimum acceptable.
+
+Also: ack messages — what if I use "go" as ack instead of waiting for "ok"? Actually I never ack, you ack me. Your "ok+phase" = 8 chars × 3 = 24. Could be "+phase" = 6 each × 3 = 18 (save 6). Or even just the tag "phase" since context implies ok.
+
+PROPOSAL: After first proc, you just send the new tag (no "ok+"). 1st reply "leak". 2nd reply "phase" not "ok+phase". 3rd reply "drift". Saves 3 chars × 2 = 6.
+[OBS] Agree all your trims. Yes — bare tag for subsequent symptoms (no "ok+"). And if no new sym after success, I send nothing (silence = ok). You only hear from me if there's a new symptom or "no".
+
+NEW PROTOCOL:
+- After your proc: if stabilization succeeds with no new sym, I send nothing. Save 4-8 chars.
+- After your proc: if new sym, I send just "<tag>" (e.g. "phase")
+- After your proc: if fail, I send "no"
+
+You'll know success-no-new-sym by absence of reply within reasonable time. But you can't really tell from silence... unless you assume done after some delay.
+
+Hmm — silence is ambiguous to you. Alternative: I send "." for clean success. 1 char.
+
+REVISED:
+- Clean success: "." (1 char)
+- New sym: just the tag (4-6 chars)
+- Fail: "no" (2 chars)
+
+For your procs, accept the trimming experiment. Start aggressive next round; if fails I send "no" and you send full version.
+
+AGGRESSIVE TRIM RULES (you):
+- Drop "the", "a"
+- Drop "and" where comma works
+- Drop "by", "with" where comma works
+- Keep verb phrases LITERAL ("hold heated stone nearby", "fan cool air", "drape cool cloth over", "warm each corner")
+- "starting from left face" → "start L" (test)
+- Single-letter faces in non-verb positions: "start L", "rotate to L"
+- Use "1 of each" tool implicit
+- "in sequence" maybe droppable? Test.
+
+Try this in next round. Lock?
+[ENG] Locked. Recap:
+
+Field replies:
+- success no new sym: "."
+- new sym: bare tag
+- fail: "no"
+
+Engineer procs (aggressive trim):
+- Drop articles, "and"→comma, "by/with"→comma
+- KEEP literal verb phrases
+- Test: "start L" instead of "starting from the left face"
+- Test: dropping "in sequence"
+- Single-letter faces only in "start X" positions; in verb phrase, full face name
+
+I'll start aggressive in R8. If fail → full verbose retry. Ready.
+[OBS] Ready.
+[ENG] 98 chars. Aggressive trim worked. "start left" parsed fine (no "starting from the"). 
+
+Confirmed working trims:
+- "8 seconds" → "8s" 
+- "Remove and fan" → "remove, fan"
+- "all six faces" → "all 6 faces"  
+- "starting from the left face" → "start left"
+- Drop "the Veyru" stays as "Veyru"
+
+Ready for next.
+[OBS] Confirmed. Ready.
+[OBS] 296/250. 3-step cascades keep blowing budget. R9 audit:
+- low(3) + p1(100) + void(4) + p2(108) + drift(5) + p3(74) = 294 + protocol = 296
+
+p3 you trimmed to 74 — great. p1=100, p2=108 — still too long.
+
+p1: "Chime bell near 2 opposite faces, start bottom; alternate chime — 10s pause — 5 cycles, moderate tone" (100)
+Trim: "Chime bell near 2 opposite faces start bottom, alt chime 10s pause 5 cycles, moderate tone" (90) — drops semicolon, "—".
+Or risky: "Chime bell near 2 opposite faces start bottom, alternate 5x w/ 10s pauses, moderate tone" (88)
+
+p2: "Chime bell near center of each face once, moderate tone, start bottom; then place warm stone beside Veyru 10s" (108)
+Trim: "Chime bell center each face once moderate tone start bottom; place warm stone beside Veyru 10s" (94)
+
+Realistic 3-step total minimum: 90+95+75=260 + tags(20) = 280. Still 30 over.
+
+Could we accept some failure risk for more aggressive trim?
+
+ALSO — 3-step cascades may not always happen. R8 was 1-step. Strategy: assume worst case, but if budget allows, use slightly verbose for safety.
+
+NEW PROPOSAL: budget allocator. After each successful step, you know remaining budget. Pick proc length accordingly:
+- 1st proc: assume cascade possible → 70 chars max
+- 2nd proc: if budget >150 → 80 chars; else <80 → aggressive trim
+- 3rd proc: whatever fits
+
+You can mentally track: 250 - tags - your_msgs = remaining.
+
+Also: I wonder if I'm using more chars than needed. My replies are 3-5 chars each — fine. 
+
+Engineer chars/round R9 = 100+108+74 = 282. Need to get under 220 for 3-step with ~20 char tags.
+
+Trim more aggressively. Lock?
+[ENG] Agree. New aggressive trim targets:
+
+Proc max lengths (target):
+- 1st proc: ≤70
+- 2nd proc: ≤70
+- 3rd proc: ≤70
+
+So 210 + 15 tags = 225 < 250. Buffer 25.
+
+KEY TRIMS:
+- "moderate" → "mod"
+- "five cycles" → "5x" 
+- "near" sometimes droppable
+- semicolons → commas/just space
+- "Chime a bell near 2 opp faces" → "Chime bell at 2 opp faces"
+- Drop "tone", "warmth", "coverage", "contact" suffixes when intensity word is present? RISKY — leave in
+- Drop "the" everywhere
+- "starting from the bottom face" → "start bot" (3 chars saved vs "bottom")
+
+Test "bot/top/lft/rgt/frt/bck" 3-letter face codes in non-verb positions.
+
+R9 procs aggressive:
+P1: "Chime bell at 2 opp faces, start bot, alt 10s pause 5 cycles, mod tone" (70) 
+P2: "Chime bell at center each face once, mod tone, start bot; place warm stone beside Veyru 10s" (93) — still too long. Try: "Chime bell center each face once mod tone, start bot, place warm stone beside Veyru 10s" (87). 
+
+P2 stays ~85-90 because it's 2 actions joined.
+
+P3 drift: "Drape cool cloth Veyru 10s, fan mod cool air 6 faces 10s, start bot" (66)
+
+P1+P2+P3 = 70+87+66 = 223. + 15 tags = 238. Workable.
+
+Lock aggressive trim. I'll keep procs under 70 where possible, under 90 for compound actions.
+[OBS] Locked. Will exec verbatim. Ready.
+[ENG] 194/250 ✓ 2-step. 
+
+Confirmed shorter forms work:
+- "alternate chime 20s pause, 5 cycles" (no — em-dash) 
+- 95-char drape+chime proc fine
+
+Margin good. Ready.
+[OBS] Good. Ready.
+[ENG] 275/250. 3-step cascade again. Procs: 77, 100, 84 = 261. + tags 13 = 274.
+
+P2 at 100 chars was the biggest issue. "Drape cloth over 2 adjacent edges near left face 12s firm coverage; chime bell 3 times near left face"
+
+Trim attempts:
+"Drape cloth 2 adj edges near left face 12s firm coverage; chime bell 3x near left face" (86)
+"Drape cloth 2 adj edges of left face 12s firm coverage, bell 3x near left face" (78)
+Even: "Drape cloth 2 adj edges of left 12s firm coverage; chime bell 3x near left" (74)
+
+Risky trims confirmed-or-test:
+- "adj" instead of "adjacent" — TEST
+- "3x" instead of "3 times" — TEST  
+- "of left" instead of "near left face" for first phrase — TEST
+- "bell" alone vs "chime bell" — keep "chime"
+
+Also P1 (rest soft surface, 77 chars). Min: "Place on soft surface, left face up, firm contact, rest 12s" (60). Drops "Veyru" and "undisturbed".
+
+P3 (drape fan): 84. Min: "Drape cool cloth over Veyru 12s; fan firm cool air on left and opposite face 12s" (81). Marginal.
+
+NEW RULE: Triage by symptom. If 3-step suspected, GO MINIMAL FROM THE START. Don't trim later — pre-trim.
+
+Tighter targets:
+- Single-action procs: ≤45 chars (was 60)
+- 2-action procs: ≤75 chars (was 90)
+
+For 3-step rounds, total ≤ 200.
+
+Lock more aggressive trims?
+[OBS] Lock. Adopting all aggressive trims. Risky candidates to test: "adj", "3x", "of X" for "near X face" first mention.
+
+Also: drop "Veyru" mostly (subject is implicit). "Place on soft surface" beats "Place Veyru on soft surface".
+
+KEY HABITS:
+- never write "Veyru" unless ambiguity
+- "adj", "3x", "5x" — adopt
+- "firm coverage" → "firm"
+- "rest undisturbed Ns" → "rest Ns"
+- "near X face" → "near X" (drop "face")
+- "near each edge" → "edge each" or "each edge"
+- single-action ≤45, 2-action ≤75
+
+If "adj" fails on first test, send "no", you resend with "adjacent". Cost ~80 chars. Risk acceptable since we save 4 chars/proc on success and most rounds use this proc type.
+
+Ready.
+[ENG] Locked. Hold on "firm coverage"→"firm" — too risky; keep "coverage"/"warmth"/"contact" suffix. Save tests for cheap wins ("adj", "3x").
+
+Ready.
+[OBS] k.
+[ENG] 269/250. 3-step again. Procs: 86+90+80 = 256. +tags 13 = 269.
+
+Need ~10 chars off each. Let me find more.
+
+P1: "Drape cloth over 2 adj edges near bottom 5s gentle coverage; chime bell 3x near bottom" (86)
+→ "Drape cloth 2 adj edges of bottom 5s gentle coverage; bell 3x near bottom" (72)
+Test: drop "over", drop "chime", "near X face" → "of X" first time.
+
+P2: "Rest flat board against bottom face, gentle contact, 5s; rotate, repeat for each face-pair" (90)
+→ "Rest flat board against bottom, gentle contact 5s; rotate, repeat each face-pair" (80)
+→ "Rest board against bottom gentle contact 5s; rotate each face-pair" (65) — drop "flat", drop comma+repeat
+
+P3: "Place warm stone beside bottom face, gentle warmth, 5s; rotate, repeat each face" (80)
+→ "Place warm stone beside bottom gentle warmth 5s; rotate each face" (64)
+
+3-step revised total: 72+65+64 = 201 + tags 13 = 214 ✓
+
+Risky trims still untested:
+- "of bottom" vs "near bottom face" — both for 1st mention
+- drop "flat" before board
+- drop "chime" before "bell 3x"
+- "rotate each face" vs "rotate, repeat each face"
+
+If any fail, falls back. But we've been collapsing repeatedly so worth the risk.
+
+PROPOSAL: I commit to <70 chars/proc starting now. If "no", fallback to mid version.
+
+Also Q: is "high" a 2-3 step round commonly? Pattern from R12: leak→stall→high. Multiple symptoms in cascade are common. Worst case 3 steps. Plan for 3 always.
+
+Lock?
+[OBS] Lock. <70/proc commit. I exec verbatim, even if it feels too terse. If "no" you fallback to verbose.
+
+One safety: if your trim drops the literal verb (e.g. "chime"→just "bell"), that's the most likely failure. Keep verb in even if it costs chars. "bell" alone may fail.
+
+Conservative trim hierarchy (cheapest first):
+1. Drop "the", "a", articles — SAFE
+2. "adj", "3x", "5x" — CONFIRMED
+3. "Veyru" droppable — SAFE
+4. "near X face" → "near X" (drop "face") — SAFE
+5. "X face" → "X" 2nd mention — SAFE
+6. "of X" instead of "near X face" first mention — TESTING
+7. "rep each" instead of "repeat for each" — TESTING
+8. drop "flat" — TESTING
+9. drop verb "chime" — DANGEROUS, only as last resort
+
+Stick to 1-7 mostly. 8-9 only if absolutely needed.
+
+Ready.
+[ENG] Locked. Keep "chime" verb. Ready.
+[OBS] Ready.
+[ENG] 99/250 ✓ 1-step. Aggressive trim works. Ready.
+[OBS] Ready.
+[ENG] 246/250 ✓ 3-step ! Trims worked. Margin tight but ok. Ready.
+[OBS] Tight margin. Push more trims: "opposite"→"opp", "alternate"→"alt", drop "near"/"over" where verb stands. Drop "remove," before fan. Target <70/proc. Lock?
+[ENG] Lock cautious: try "opp" + "alt" first (low risk). Hold on dropping "remove" / "near" / "over" — those are verbs. If tests pass, expand.
+
+Ready.
+[OBS] Agreed. Cautious. Ready.

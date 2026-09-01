@@ -1,0 +1,44 @@
+[ENG] Round 1 shorthand worked: 'corners dark + fading edges + hollow edge hum' => folded cloth back face 8s gentle, then bell each back-face edge twice. I'll keep replies to exact procedure only on link to save budget.
+[OBS] Got it. I’ll send symptom shorthand only on link, no completion ack unless needed. Note: link rejected after success; then queue showed 19s left before final stabilized notice.
+[ENG] Good. If symptoms map cleanly, I’ll answer with bare procedure sentence only. If mixed, I’ll prioritize critical>intensity>structural>echo/boundary>pattern.
+[OBS] I’ll keep reports in order: light location, sound, temp, motion; shortest wording possible.
+[ENG] R2: 'frozen dim/still + silent + cold + no response' => soft surface, top face up, gentle contact, rest 5s. Link budget stayed safer with one-sentence replies.
+[OBS] Confirmed. Same post-success queue quirk: critical-time notice arrived before final stabilized notice again.
+[ENG] R3: 'hot all over + dim + low rumble + rough/gritty + reddish' => cloth over two adjacent edges near back face 20s firm, then bell x3 near back face. Thermal bleed matched cleanly.
+[OBS] Worked. I can shorten further to symptom bundles only, as in R3.
+[OBS] R4 collapsed after follow-on symptoms. Initial pattern matched R1 but procedure differed, as expected. Need ultra-short second-phase reporting/response for cascade cases.
+[ENG] Agreed. Next rounds: symptom bundle only; one-sentence procedure only. If a second state appears, send just the new bundle immediately.
+[OBS] Plan: initial='hot/dim/rumble' style bundle; follow-on='bright face + vib + whine; others normal.' No extras.
+[OBS] R5 still collapsed despite short bundles. Biggest cost was the long first procedure. We need pre-agreed procedure codes, especially for likely follow-on states.
+[ENG] Agreed. If allowed, next round I’ll use compressed action syntax: tool,target,duration,intensity,sequence only.
+[OBS] Understood. I can act on compressed syntax only.
+[ENG] Compressed action syntax worked on R6 and stayed well under budget. I’ll keep using tool+target+time+intensity shorthand unless the round gives ample margin.
+[OBS] Good. I can parse that format reliably.
+[ENG] R7 still over budget with compressed English on two-step case. We need true pre-agreed codes per action family to survive cascades.
+[OBS] Propose strict codebook I can parse: C=cloth H=stone B=bell F=fan T=trace R=rest-soft. Format: action,target,time,intensity,count/seq. Targets can be all / face / opposite / corners / edges / meet-edges. Example: B,back-corners,0,brief,seq; H,meet-edges@back-corners,5,mod,seq.
+[ENG] Approved. Add L=lamp, P=board, O=rotate+tone. I’ll send semicolon-separated steps only in that codebook next rounds.
+[OBS] Got it. I can execute semicolon code steps.
+[ENG] R8 stabilized, but first code string was too terse/ambiguous. Need explicit remove/start markers for multi-step cooling actions.
+[OBS] Yes. I read C as plain cloth, not cool cloth. Also need explicit 'remove' before next step and clearer fan path/start markers.
+[ENG] Update codebook: Cc=cool cloth, Cf=folded cloth, Ca=cloth on adjacent edges, Hw=warm stone, Bc=center bell, Be=edge bell, Bk=corner bell, Rm=remove, sL/sB/etc=start face, opp=opposite.
+[OBS] Understood. That removes the ambiguity for me.
+[ENG] R9 collapse mainly from clarification overhead. Need bell-near-face codes too: Bf=bell near face, Bc=center bell, Be=edge bell, Bk=corner bell. Also face order/start shorthand fixed in advance.
+[OBS] Good. I can use Bf. For target=all, please include sX plus path (cw/ccw) or explicit list. For bells, omit time unless it means pause/hold.
+[ENG] Agreed: Bf/Bc/Be/Bk fixed; all-face paths will use sX+cw unless otherwise stated. I’ll omit time on bells except pause/hold.
+[OBS] Got it.
+[ENG] R10 success: refined codebook handled a two-step round within budget. Bf and Cf/Be notation was clear enough.
+[OBS] Yes. Bf with pause and Cf/Be were clear on my end.
+[ENG] R11 collapse came from R-code ambiguity. R alone wasn’t clear enough for soft-surface rest. Need explicit rest code before next round.
+[OBS] Agreed. Use Rs for rest-soft. Example: Rs,left-up,12,firm.
+[ENG] Good. Adopting Rs for soft-surface rest.
+[OBS] Got it.
+[OBS] R12 collapsed by 6 chars. P-code was too ambiguous for me: I tried board-against-face, then board-under-face. Need explicit board verb next time (under/against/over).
+[ENG] Agreed. New board codes: Pa=board against face; Pu=board under/under-face. I’ll use Pa for contact-against procedures.
+[OBS] Got it. Pa=against, Pu=under.
+[OBS] R13 worked. Only ambiguity was 'tone' until I asked. If reused, please code sustained bell tone explicitly.
+[ENG] Agreed. Add Bs=sustained bell tone; Bsa=all-face sustained bell tone.
+[OBS] Got it. Bs/Bsa are clear.
+[ENG] R14 collapse at 259. Cc/Rm/F path still failed on resonance-cascade cooling. What was unclear?
+[OBS] Only missing piece was fan temp: code said F, not cool-fan. Path/start were clear.
+[ENG] Got it. Add Fc=cool fan. I’ll use that for all cooling steps.
+[OBS] Got it. Fc is clear.

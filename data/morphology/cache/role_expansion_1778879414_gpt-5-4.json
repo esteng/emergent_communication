@@ -1,0 +1,99 @@
+{
+  "per_slot": {
+    "pos1": [
+      [
+        "B",
+        "bright"
+      ],
+      [
+        "D",
+        "dim"
+      ],
+      [
+        "o",
+        "ok"
+      ],
+      [
+        "W",
+        "washed"
+      ],
+      [
+        "Flk",
+        "flickering, no rhythm"
+      ],
+      [
+        "~",
+        "blurred/smearing"
+      ]
+    ],
+    "pos3": [
+      [
+        "+",
+        "bright"
+      ],
+      [
+        "B",
+        "bright"
+      ],
+      [
+        "D",
+        "dim"
+      ],
+      [
+        "W",
+        "washed"
+      ],
+      [
+        "Flk",
+        "flickering, no rhythm"
+      ]
+    ],
+    "pos5": [
+      [
+        "B",
+        "bright"
+      ],
+      [
+        "D",
+        "dim"
+      ],
+      [
+        "N",
+        "faces normal/glow ok"
+      ],
+      [
+        "W",
+        "washed"
+      ],
+      [
+        "Flk",
+        "flickering, no rhythm"
+      ],
+      [
+        "~",
+        "blurred/smearing"
+      ]
+    ],
+    "pos7": [
+      [
+        "S",
+        "silent"
+      ]
+    ],
+    "pos11": [
+      [
+        "M",
+        "moving"
+      ],
+      [
+        "?",
+        "irregular"
+      ],
+      [
+        "Flk",
+        "flickering, no rhythm"
+      ]
+    ]
+  },
+  "stackable": []
+}

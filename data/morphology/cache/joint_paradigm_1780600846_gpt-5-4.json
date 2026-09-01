@@ -1,0 +1,691 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780600846",
+    "slots": [
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "board",
+            "gloss": "board",
+            "support": 2,
+            "is_defined": false
+          },
+          {
+            "form": "cloth",
+            "gloss": "cloth",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "lamp",
+            "gloss": "lamp",
+            "support": 2,
+            "is_defined": false
+          },
+          {
+            "form": "stone",
+            "gloss": "stone",
+            "support": 2,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "suffix",
+        "fillers": [
+          {
+            "form": "-beside",
+            "gloss": "beside the target",
+            "support": 2,
+            "is_defined": false
+          },
+          {
+            "form": "-near",
+            "gloss": "near the target",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "-on",
+            "gloss": "on the target",
+            "support": 4,
+            "is_defined": false
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "silent": [
+        "silent"
+      ],
+      "whisper": [
+        "whisper"
+      ],
+      "thin": [
+        "thin"
+      ],
+      "off": [
+        "off"
+      ],
+      "dim": [
+        "dim"
+      ],
+      "faint-glow": [
+        "faint-glow"
+      ],
+      "bright": [
+        "bright"
+      ],
+      "blinding": [
+        "blinding"
+      ],
+      "soft-surface": [
+        "soft-surface"
+      ],
+      "click+hotcorn": [
+        "click+hotcorn"
+      ],
+      "layers+frozen": [
+        "layers+frozen"
+      ],
+      "silent+cold+still": [
+        "silent+cold+still"
+      ],
+      "stone-beside": [
+        "stone",
+        "-beside"
+      ],
+      "stone-on": [
+        "stone",
+        "-on"
+      ],
+      "stone-near:corner": [
+        "stone-near:corner"
+      ],
+      "cloth-on": [
+        "cloth",
+        "-on"
+      ],
+      "cloth-wrap": [
+        "cloth-wrap"
+      ],
+      "lamp-on": [
+        "lamp",
+        "-on"
+      ],
+      "lamp-near": [
+        "lamp",
+        "-near"
+      ],
+      "board-on": [
+        "board",
+        "-on"
+      ],
+      "board-beside": [
+        "board",
+        "-beside"
+      ],
+      "bell-near": [
+        "bell-near"
+      ],
+      "bell-at:corner": [
+        "bell-at:corner"
+      ],
+      "stone-near:corner-junction": [
+        "stone-near:corner-junction"
+      ],
+      "whine+1bright": [
+        "whine+1bright"
+      ],
+      "hotcorn": [
+        "hotcorn"
+      ],
+      "2tone+clash": [
+        "2tone+clash"
+      ],
+      "wobble+muffled": [
+        "wobble+muffled"
+      ],
+      "hollow-tap": [
+        "hollow-tap"
+      ],
+      "cold+silent": [
+        "cold+silent"
+      ],
+      "lamp-close": [
+        "lamp-close"
+      ],
+      "board-reflect": [
+        "board-reflect"
+      ],
+      "2lamp-fail": [
+        "2lamp-fail"
+      ],
+      "cloth-drape:corner-front": [
+        "cloth-drape:corner-front"
+      ],
+      "cloth-press:edge": [
+        "cloth-press:edge"
+      ],
+      "cloth-wrap:face": [
+        "cloth-wrap:face"
+      ],
+      "cloth:edges": [
+        "cloth:edges"
+      ],
+      "veyru-rotate:each-face": [
+        "veyru-rotate:each-face"
+      ],
+      "rotate-all": [
+        "rotate-all"
+      ],
+      "bell-hold:center:face": [
+        "bell-hold:center:face"
+      ],
+      "bell-swing:near:face": [
+        "bell-swing:near:face"
+      ],
+      "room-tone": [
+        "room-tone"
+      ],
+      "tone": [
+        "tone"
+      ],
+      "bell-ring": [
+        "bell-ring"
+      ],
+      "fan:held-at:face": [
+        "fan:held-at:face"
+      ],
+      "rotate-Veyru-while-tone": [
+        "rotate-Veyru-while-tone"
+      ],
+      "fan:top+opp": [
+        "fan:top+opp"
+      ]
+    },
+    "head_index": {
+      "silent": 0,
+      "whisper": 0,
+      "thin": 0,
+      "off": 0,
+      "dim": 0,
+      "faint-glow": 0,
+      "bright": 0,
+      "blinding": 0,
+      "soft-surface": 0,
+      "click+hotcorn": 0,
+      "layers+frozen": 0,
+      "silent+cold+still": 0,
+      "stone-beside": 0,
+      "stone-on": 0,
+      "stone-near:corner": 0,
+      "cloth-on": 0,
+      "cloth-wrap": 0,
+      "lamp-on": 0,
+      "lamp-near": 0,
+      "board-on": 0,
+      "board-beside": 0,
+      "bell-near": 0,
+      "bell-at:corner": 0,
+      "stone-near:corner-junction": 0,
+      "whine+1bright": 0,
+      "hotcorn": 0,
+      "2tone+clash": 0,
+      "wobble+muffled": 0,
+      "hollow-tap": 0,
+      "cold+silent": 0,
+      "lamp-close": 0,
+      "board-reflect": 0,
+      "2lamp-fail": 0,
+      "cloth-drape:corner-front": 0,
+      "cloth-press:edge": 0,
+      "cloth-wrap:face": 0,
+      "cloth:edges": 0,
+      "veyru-rotate:each-face": 0,
+      "rotate-all": 0,
+      "bell-hold:center:face": 0,
+      "bell-swing:near:face": 0,
+      "room-tone": 0,
+      "tone": 0,
+      "bell-ring": 0,
+      "fan:held-at:face": 0,
+      "rotate-Veyru-while-tone": 0,
+      "fan:top+opp": 0
+    },
+    "attested_orderings": [
+      [
+        "stem",
+        "suffix"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [],
+    "form_positions": {
+      "stone": 0,
+      "cloth": 0,
+      "lamp": 0,
+      "board": 0,
+      "-beside": 1,
+      "-on": 1,
+      "-near": 1
+    },
+    "position_labels": {
+      "0": "PLACEABLE_OBJECT",
+      "1": "PLACEMENT_RELATION"
+    },
+    "positions_by_symbol": {
+      "stone-beside": [
+        0,
+        1
+      ],
+      "stone-on": [
+        0,
+        1
+      ],
+      "cloth-on": [
+        0,
+        1
+      ],
+      "lamp-on": [
+        0,
+        1
+      ],
+      "lamp-near": [
+        0,
+        1
+      ],
+      "board-on": [
+        0,
+        1
+      ],
+      "board-beside": [
+        0,
+        1
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "stone": "stone",
+        "cloth": "cloth",
+        "lamp": "lamp",
+        "board": "board"
+      },
+      "1": {
+        "-beside": "beside the target",
+        "-on": "on the target",
+        "-near": "near the target"
+      }
+    },
+    "meaning_by_symbol": {
+      "silent": "completely silent, zero hum at all",
+      "whisper": "very faint sound, near-silent",
+      "thin": "hollow sound",
+      "off": "totally off, no light",
+      "dim": "dim light",
+      "faint-glow": "faint glow",
+      "bright": "bright light",
+      "blinding": "blinding light",
+      "soft-surface": "place the Veyru on a soft surface",
+      "click+hotcorn": "Corner Deadlock",
+      "layers+frozen": "Echo Saturation",
+      "silent+cold+still": "Propagation Stall",
+      "stone-beside": "place the stone beside the target face, not on it",
+      "stone-on": "place the stone on the target face",
+      "stone-near:corner": "place the stone near the target corner",
+      "cloth-on": "place the cloth on the target area",
+      "cloth-wrap": "wrap or drape the cloth around the target face or faces",
+      "lamp-on": "place the lamp on the target area",
+      "lamp-near": "place the lamp near the target area",
+      "board-on": "place the board on the target area",
+      "board-beside": "place the board beside the target area",
+      "bell-near": "place or ring the bell near the target area",
+      "bell-at:corner": "place or ring the bell at the target corner",
+      "stone-near:corner-junction": "one placement at the corner where two edges meet, held there for the stated number of seconds total, covering both edges simultaneously, not 5 seconds per edge separately",
+      "whine+1bright": "Resonance Cascade",
+      "hotcorn": "hot corners",
+      "2tone+clash": "Harmonic Split",
+      "wobble+muffled": "Boundary Softening",
+      "hollow-tap": "Core Void",
+      "cold+silent": "Propagation Stall",
+      "lamp-close": "hold the lamp close to the target face so it serves as the bright side",
+      "board-reflect": "angle the board to reflect dim lamp light onto the opposite face",
+      "2lamp-fail": "the dual-lamp procedure failed twice",
+      "cloth-drape:corner-front": "drape the cloth over two edges that share a front corner, with the cloth hanging over both edges at once",
+      "cloth-press:edge": "press the cloth flat against an edge",
+      "cloth-wrap:face": "drape the cloth over the face surface",
+      "cloth:edges": "drape the cloth over the target edges, not press it against them",
+      "veyru-rotate:each-face": "physically rotate the Veyru through all six face positions so each face takes the same position in turn",
+      "rotate-all": "physically rotate the Veyru through all six face positions",
+      "bell-hold:center:face": "hold the bell stationary at the geometric center of the face, then ring once",
+      "bell-swing:near:face": "swing the bell near the face while ringing",
+      "room-tone": "a sustained tone filling the room around all six faces simultaneously, with no starting face, rather than sequentially face by face",
+      "tone": "sustained sound, such as a held bell note or humming or vocalizing, not a short ring",
+      "bell-ring": "a short bell chime",
+      "fan:held-at:face": "position the fan in front of the target face, hold still, then fan",
+      "rotate-Veyru-while-tone": "hold the tone source near one pair of opposite faces, rotate the Veyru slowly 360 degrees, then ring the bell at each corner",
+      "fan:top+opp": "with the Veyru stationary, fan the top face from above, then fan the true opposite bottom face from below, without moving or flipping the Veyru, all within the same 10-second window"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780600846",
+    "n_codes": 47,
+    "n_multimorpheme": 7,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "stem",
+        "label": "PLACEABLE_OBJECT",
+        "fillers": [
+          {
+            "form": "board",
+            "gloss": "board",
+            "count": 2
+          },
+          {
+            "form": "cloth",
+            "gloss": "cloth",
+            "count": 1
+          },
+          {
+            "form": "lamp",
+            "gloss": "lamp",
+            "count": 2
+          },
+          {
+            "form": "stone",
+            "gloss": "stone",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 4,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "suffix",
+        "label": "PLACEMENT_RELATION",
+        "fillers": [
+          {
+            "form": "-beside",
+            "gloss": "beside the target",
+            "count": 2
+          },
+          {
+            "form": "-near",
+            "gloss": "near the target",
+            "count": 1
+          },
+          {
+            "form": "-on",
+            "gloss": "on the target",
+            "count": 4
+          }
+        ],
+        "paradigm_size": 3,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 7,
+        "possible_combos": 12,
+        "saturation": 0.5833333333333334
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "stone-beside": [
+        "pos0",
+        "pos1"
+      ],
+      "stone-on": [
+        "pos0",
+        "pos1"
+      ],
+      "cloth-on": [
+        "pos0",
+        "pos1"
+      ],
+      "lamp-on": [
+        "pos0",
+        "pos1"
+      ],
+      "lamp-near": [
+        "pos0",
+        "pos1"
+      ],
+      "board-on": [
+        "pos0",
+        "pos1"
+      ],
+      "board-beside": [
+        "pos0",
+        "pos1"
+      ]
+    },
+    "construction_by_symbol": {
+      "stone-beside": "K1",
+      "stone-on": "K1",
+      "cloth-on": "K1",
+      "lamp-on": "K1",
+      "lamp-near": "K1",
+      "board-on": "K1",
+      "board-beside": "K1"
+    },
+    "construction_labels": {
+      "K1": "object-placement"
+    },
+    "construction_templates": {
+      "K1": [
+        "pos0",
+        "pos1"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "A minimal paradigm survives for object-placement codes where object fillers combine compositionally with spatial relations. The evidence is strongest for stone/board alternating with both -on and -beside, and cloth/lamp also appearing with -on in the same construction. lamp-near is included as the same construction: although near is only observed with lamp in this clean object-placement frame, its meaning is compositionally transparent and fits the established object+relation template without forcing any new class. Other apparent similarities elsewhere (bell-, face, tone, etc.) fail the substitution-and-compositionality tests or mix different semantic roles, so those symbols remain lexical.",
+    "lexical_symbols": [
+      "silent",
+      "whisper",
+      "thin",
+      "off",
+      "dim",
+      "faint-glow",
+      "bright",
+      "blinding",
+      "soft-surface",
+      "click+hotcorn",
+      "layers+frozen",
+      "silent+cold+still",
+      "stone-near:corner",
+      "cloth-wrap",
+      "bell-near",
+      "bell-at:corner",
+      "stone-near:corner-junction",
+      "whine+1bright",
+      "hotcorn",
+      "2tone+clash",
+      "wobble+muffled",
+      "hollow-tap",
+      "cold+silent",
+      "lamp-close",
+      "board-reflect",
+      "2lamp-fail",
+      "cloth-drape:corner-front",
+      "cloth-press:edge",
+      "cloth-wrap:face",
+      "cloth:edges",
+      "veyru-rotate:each-face",
+      "rotate-all",
+      "bell-hold:center:face",
+      "bell-swing:near:face",
+      "room-tone",
+      "tone",
+      "bell-ring",
+      "fan:held-at:face",
+      "rotate-Veyru-while-tone",
+      "fan:top+opp"
+    ],
+    "classes": [
+      {
+        "class_id": "C1",
+        "label": "PLACEABLE_OBJECT",
+        "description": "Object being placed relative to the target area or face.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "C2",
+        "label": "PLACEMENT_RELATION",
+        "description": "Spatial relation of the object to the target.",
+        "repeatable": false,
+        "declared_fillers": []
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "K1",
+        "label": "object-placement",
+        "description": "Placement instruction composed of an object plus a spatial relation.",
+        "class_sequence": [
+          "C1",
+          "C2"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "stone-beside",
+        "construction_id": "K1",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "stone",
+            "class_id": "C1",
+            "gloss": "stone"
+          },
+          {
+            "form": "-beside",
+            "class_id": "C2",
+            "gloss": "beside the target"
+          }
+        ]
+      },
+      {
+        "symbol": "stone-on",
+        "construction_id": "K1",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "stone",
+            "class_id": "C1",
+            "gloss": "stone"
+          },
+          {
+            "form": "-on",
+            "class_id": "C2",
+            "gloss": "on the target"
+          }
+        ]
+      },
+      {
+        "symbol": "cloth-on",
+        "construction_id": "K1",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "cloth",
+            "class_id": "C1",
+            "gloss": "cloth"
+          },
+          {
+            "form": "-on",
+            "class_id": "C2",
+            "gloss": "on the target"
+          }
+        ]
+      },
+      {
+        "symbol": "lamp-on",
+        "construction_id": "K1",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "lamp",
+            "class_id": "C1",
+            "gloss": "lamp"
+          },
+          {
+            "form": "-on",
+            "class_id": "C2",
+            "gloss": "on the target"
+          }
+        ]
+      },
+      {
+        "symbol": "lamp-near",
+        "construction_id": "K1",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "lamp",
+            "class_id": "C1",
+            "gloss": "lamp"
+          },
+          {
+            "form": "-near",
+            "class_id": "C2",
+            "gloss": "near the target"
+          }
+        ]
+      },
+      {
+        "symbol": "board-on",
+        "construction_id": "K1",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "board",
+            "class_id": "C1",
+            "gloss": "board"
+          },
+          {
+            "form": "-on",
+            "class_id": "C2",
+            "gloss": "on the target"
+          }
+        ]
+      },
+      {
+        "symbol": "board-beside",
+        "construction_id": "K1",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "board",
+            "class_id": "C1",
+            "gloss": "board"
+          },
+          {
+            "form": "-beside",
+            "class_id": "C2",
+            "gloss": "beside the target"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "per_slot": {
+    "pos0": [
+      [
+        "C",
+        "cloth"
+      ],
+      [
+        "F",
+        "fan"
+      ],
+      [
+        "L",
+        "lamp"
+      ]
+    ],
+    "pos1": [
+      [
+        "trace",
+        "trace with bare finger"
+      ]
+    ]
+  },
+  "stackable": [
+    [
+      "+hi",
+      "same action as before, but high intensity"
+    ],
+    [
+      "all",
+      "same action as before, but all corners, not just top"
+    ],
+    [
+      "all-pairs",
+      "all face-pairs"
+    ],
+    [
+      "bo",
+      "same action as before, but bottom face instead"
+    ],
+    [
+      "cnrs",
+      "corners"
+    ],
+    [
+      "e",
+      "east face"
+    ],
+    [
+      "edgs",
+      "edges"
+    ],
+    [
+      "hi",
+      "high intensity"
+    ],
+    [
+      "lo",
+      "low intensity"
+    ],
+    [
+      "md",
+      "moderate intensity"
+    ],
+    [
+      "n",
+      "north face"
+    ],
+    [
+      "opp",
+      "opposite faces"
+    ],
+    [
+      "pairs",
+      "face-pairs"
+    ],
+    [
+      "s",
+      "south face"
+    ],
+    [
+      "seq",
+      "in sequence"
+    ],
+    [
+      "t",
+      "top face"
+    ],
+    [
+      "w",
+      "west face"
+    ]
+  ]
+}

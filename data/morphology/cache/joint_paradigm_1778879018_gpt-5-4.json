@@ -1,0 +1,347 @@
+{
+  "grammar": {
+    "run_key": "veyru/1778879018",
+    "slots": [],
+    "segmentation": {
+      "D": [
+        "D"
+      ],
+      "C": [
+        "C"
+      ],
+      "F": [
+        "F"
+      ],
+      "W": [
+        "W"
+      ],
+      "R": [
+        "R"
+      ],
+      "P": [
+        "P"
+      ],
+      "M": [
+        "M"
+      ],
+      "1": [
+        "1"
+      ],
+      "2": [
+        "2"
+      ],
+      "3": [
+        "3"
+      ],
+      "4": [
+        "4"
+      ],
+      "5": [
+        "5"
+      ],
+      "6": [
+        "6"
+      ],
+      "7": [
+        "7"
+      ],
+      "8": [
+        "8"
+      ],
+      "9": [
+        "9"
+      ],
+      "10": [
+        "10"
+      ],
+      "11": [
+        "11"
+      ],
+      "12": [
+        "12"
+      ],
+      "13": [
+        "13"
+      ],
+      "14": [
+        "14"
+      ],
+      "TA": [
+        "TA"
+      ],
+      "BO": [
+        "BO"
+      ],
+      "CE": [
+        "CE"
+      ],
+      "WC": [
+        "WC"
+      ],
+      "WS": [
+        "WS"
+      ],
+      "CT": [
+        "CT"
+      ],
+      "LB": [
+        "LB"
+      ],
+      "FE": [
+        "FE"
+      ],
+      "CW": [
+        "CW"
+      ],
+      "BP": [
+        "BP"
+      ],
+      "BC": [
+        "BC"
+      ],
+      "SR": [
+        "SR"
+      ],
+      "CA": [
+        "CA"
+      ],
+      "RT": [
+        "RT"
+      ],
+      "E": [
+        "E"
+      ],
+      "S": [
+        "S"
+      ],
+      "X": [
+        "X"
+      ],
+      "H": [
+        "H"
+      ],
+      "T": [
+        "T"
+      ],
+      "B": [
+        "B"
+      ],
+      "L": [
+        "L"
+      ],
+      "K": [
+        "K"
+      ],
+      "G": [
+        "G"
+      ],
+      "Fm": [
+        "Fm"
+      ],
+      "U": [
+        "U"
+      ],
+      "V": [
+        "V"
+      ],
+      "Z": [
+        "Z"
+      ],
+      "I": [
+        "I"
+      ],
+      "Y": [
+        "Y"
+      ],
+      "Q": [
+        "Q"
+      ]
+    },
+    "head_index": {
+      "D": 0,
+      "C": 0,
+      "F": 0,
+      "W": 0,
+      "R": 0,
+      "P": 0,
+      "M": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "TA": 0,
+      "BO": 0,
+      "CE": 0,
+      "WC": 0,
+      "WS": 0,
+      "CT": 0,
+      "LB": 0,
+      "FE": 0,
+      "CW": 0,
+      "BP": 0,
+      "BC": 0,
+      "SR": 0,
+      "CA": 0,
+      "RT": 0,
+      "E": 0,
+      "S": 0,
+      "X": 0,
+      "H": 0,
+      "T": 0,
+      "B": 0,
+      "L": 0,
+      "K": 0,
+      "G": 0,
+      "Fm": 0,
+      "U": 0,
+      "V": 0,
+      "Z": 0,
+      "I": 0,
+      "Y": 0,
+      "Q": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "D": "all dim, whisper, washout",
+      "C": "1-2 bright hot clicking corners",
+      "F": "1 bright vibrating face, high whine",
+      "W": "near window",
+      "R": "random face flicker, broken hum, edges normal",
+      "P": "opposite-face strict pulse, 2-tone hum, edge flash",
+      "M": "moderate",
+      "1": "tone all 6 faces 20 seconds then fade",
+      "2": "bell alternating opposite faces, 20 seconds pause, repeat 5 times",
+      "3": "cloth 2 adjacent edges near top 20 seconds then bell top 3 times",
+      "4": "warm each top corner 20 seconds in sequence then trace top edges",
+      "5": "warm stone beside top 20 seconds, rotate each face",
+      "6": "cool cloth all 20 seconds then fan top and opposite face 20 seconds",
+      "7": "dim lamp top and bright lamp opposite face 20 seconds",
+      "8": "folded cloth top 20 seconds then bell each top edge 2 times",
+      "9": "for each top corner: brief bell then warm both meeting edges 20 seconds",
+      "10": "board top 20 seconds, rotate face-pairs",
+      "11": "bell face centers once then warm stone beside 20 seconds",
+      "12": "soft surface, top up, rest 20 seconds",
+      "13": "cool cloth all 20 seconds then fan all 6 faces 20 seconds",
+      "14": "slow rotate 20 seconds and steady tone near opposite faces, then bell each corner once",
+      "TA": "tone all 6 faces",
+      "BO": "bell alternating opposite faces",
+      "CE": "cloth 2 adjacent edges then bell top 3 times",
+      "WC": "warm corners then trace top edges",
+      "WS": "warm stone then rotate faces",
+      "CT": "cool cloth then fan 2 faces",
+      "LB": "lamps dim and bright",
+      "FE": "folded cloth face then bell edges",
+      "CW": "corner bell then warm edges",
+      "BP": "board then rotate face-pairs",
+      "BC": "bell face centers then warm stone",
+      "SR": "soft rest",
+      "CA": "cool cloth then fan all 6 faces",
+      "RT": "rotate and tone, then corner bells",
+      "E": "edge and corner dim, centers fine, hollow edge hum",
+      "S": "surface glow only, dark center, thin shallow hum",
+      "X": "action failed on link",
+      "H": "all faces blazing white and hot, loud harsh buzz",
+      "T": "top",
+      "B": "bottom",
+      "L": "left",
+      "K": "back from now on",
+      "G": "gentle",
+      "Fm": "firm",
+      "U": "wobbly or flexing edges, bulged faces, muffled underwater hum",
+      "V": "drifting face light, smeared edges, wavering hum",
+      "Z": "hot all over but dim red, low rumble, rough gritty surfaces",
+      "I": "dim frozen light, silent, cold unresponsive",
+      "Y": "too bright, layered hum, some frozen face patterns",
+      "Q": "clashing multi-tone hum, 2 light configs, edges shimmer"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1778879018",
+    "n_codes": 51,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible compositional paradigm survives the evidence test. The two-character codes (TA, BO, CE, WC, etc.) look like mnemonic labels for whole procedures, but there is no stable substitution frame with recurring parts whose meanings compose predictably across multiple entries. Shared initials/finals are not semantically consistent: e.g. C appears in C, CE, CT, CA, CW with unrelated contributions; T appears in T, TA, CT, RT with incompatible roles; L in LB cannot be justified as the standalone L 'left'. The digit symbols 1–14 also behave as opaque indexed procedures rather than literal counts. Standalone symbols such as G/M/Fm and T/B/L/K may suggest semantic families, but without attested multi-morpheme contrasts in a shared frame they do not license classes or segmented entries. Therefore the safest analysis is a flat lexicon.",
+    "lexical_symbols": [
+      "D",
+      "C",
+      "F",
+      "W",
+      "R",
+      "P",
+      "M",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "TA",
+      "BO",
+      "CE",
+      "WC",
+      "WS",
+      "CT",
+      "LB",
+      "FE",
+      "CW",
+      "BP",
+      "BC",
+      "SR",
+      "CA",
+      "RT",
+      "E",
+      "S",
+      "X",
+      "H",
+      "T",
+      "B",
+      "L",
+      "K",
+      "G",
+      "Fm",
+      "U",
+      "V",
+      "Z",
+      "I",
+      "Y",
+      "Q"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

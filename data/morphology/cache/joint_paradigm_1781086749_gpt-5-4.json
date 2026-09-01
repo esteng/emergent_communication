@@ -1,0 +1,119 @@
+{
+  "grammar": {
+    "run_key": "veyru/1781086749",
+    "slots": [],
+    "segmentation": {
+      "CV": [
+        "CV"
+      ],
+      "RC": [
+        "RC"
+      ],
+      "BS": [
+        "BS"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "ES": [
+        "ES"
+      ],
+      "HI": [
+        "HI"
+      ],
+      "DE": [
+        "DE"
+      ],
+      "CD": [
+        "CD"
+      ],
+      "PS": [
+        "PS"
+      ],
+      "AC": [
+        "AC"
+      ],
+      "TB": [
+        "TB"
+      ],
+      "LI": [
+        "LI"
+      ],
+      "1L": [
+        "1L"
+      ]
+    },
+    "head_index": {
+      "CV": 0,
+      "RC": 0,
+      "BS": 0,
+      "HS": 0,
+      "ES": 0,
+      "HI": 0,
+      "DE": 0,
+      "CD": 0,
+      "PS": 0,
+      "AC": 0,
+      "TB": 0,
+      "LI": 0,
+      "1L": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "CV": "surface-normal hollow, backlit dark center",
+      "RC": "one face bright plus whine",
+      "BS": "wobble or bulge plus muffled sound",
+      "HS": "clashing tones plus 2 configurations plus shimmering edges",
+      "ES": "too bright plus layered hum plus frozen or unresponsive faces",
+      "HI": "blazing white plus harsh buzz plus hot faces",
+      "DE": "drifting light plus blurred edges plus wavering pitch",
+      "CD": "1-2 bright corners plus clicking or ticking plus corner heat",
+      "PS": "dim frozen plus silent plus cold or unresponsive",
+      "AC": "random patch flicker plus broken start-stop hum plus edges normal",
+      "TB": "hot all over but dim plus low rumble plus rough or gritty red",
+      "LI": "dim or faint plus whisper hum plus washed-out patterns",
+      "1L": "one-lamp direct or spill geometry: place lamp close to the target-bright face so the opposite target gets only spill; hold fixed"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1781086749",
+    "n_codes": 13,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible compositional paradigm is supported by this codebook. Although some symbols share characters (e.g. several end in S/C/I), there is no evidence of a stable substitution frame with recurring forms making the same meaning contribution across multiple entries. The meanings of whole codes are heterogeneous and not predictably compositional from any proposed subparts. In particular, pairs like RC/AC/CD do not show a consistent final C meaning, and PS/ES/HS/BS do not show a consistent final S meaning. The initial digit in 1L also fails the opaque index test: there is no paradigm showing 1 as a literal count morpheme alternating with other count values in the same frame. Therefore the safest analysis is a flat lexicon with all symbols treated as opaque lexical items.",
+    "lexical_symbols": [
+      "CV",
+      "RC",
+      "BS",
+      "HS",
+      "ES",
+      "HI",
+      "DE",
+      "CD",
+      "PS",
+      "AC",
+      "TB",
+      "LI",
+      "1L"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "grammar": {
+    "run_key": "veyru/1781089666",
+    "slots": [],
+    "segmentation": {
+      "LI": [
+        "LI"
+      ],
+      "CD": [
+        "CD"
+      ],
+      "BS": [
+        "BS"
+      ],
+      "PI": [
+        "PI"
+      ]
+    },
+    "head_index": {
+      "LI": 0,
+      "CD": 0,
+      "BS": 0,
+      "PI": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "LI": "low intensity",
+      "CD": "corner deadlock",
+      "BS": "boundary softening",
+      "PI": "phase inversion"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1781089666",
+    "n_codes": 4,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible paradigm can be induced from these four items. Although all symbols are two letters, shared length and letter shape are not evidence of morphology. There are no minimal pairs showing substitution in a stable frame, no recurring segment with a consistent compositional meaning, and no way to predict whole meanings from smaller parts. In particular, the final I in LI and PI does not stably mean the same thing ('intensity' vs. 'inversion'), and the initial letters likewise do not form a coherent substitution class. Therefore the safest analysis is a flat lexicon.",
+    "lexical_symbols": [
+      "LI",
+      "CD",
+      "BS",
+      "PI"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

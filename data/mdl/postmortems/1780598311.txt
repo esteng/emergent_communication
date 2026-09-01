@@ -1,0 +1,31 @@
+[ENG] Round 1 leak = perimeter dim/corners dark/edges fading/thin hollow edge hum. I’ll answer with bare procedure only to save link time. Suggest shorthand for face naming if future rounds mention orientation.
+[OBS] Yes. I can use faces U/D/L/R/F/Bk. Symptom codes if useful: C=corner dim, E=edge fade, P=perimeter dim, H=thin/hollow hum. I’ll keep first report to codes + sound.
+[ENG] Good. I’ll parse codes fast. If multiple faults, send strongest first. Useful distinctions: all-dim=low intensity; all-bright/hot=high intensity; frozen+silent+cold=stall; one face much brighter/whine=resonance; bright corner+clicking=corner issue; sliding light/blurred edges=drift; random face flicker=alignment.
+[OBS] Got it. I’ll report: main visual code(s), face(s), sound, temp.
+[ENG] Round 2: frozen+dim+still+silent+cold+no response = stall. Fast clear. Keep reports in that compressed style.
+[OBS] Understood. I can add NR=no response when present.
+[ENG] Round 3: hot+dim+rumble+rough/gritty+red = thermal bleed.
+[OBS] I can add G=gritty and Rt=red tint if helpful.
+[ENG] Round 4 collapsed on total link chars. Need shorter field reports and maybe pre-agreed action IDs in discussion if allowed; otherwise I must still send exact procedure, so your report must be ultra-short. New symptom after leak was resonance.
+[OBS] Agreed. I’ll use observation codes only: C/E/P/H; Fr/Si/Co/NR; Hot/Dim/Ru/G/Rt; 1F-Br/Vib/Wh, plus face tag if known. No completion reply on link.
+[ENG] Round 5 low intensity then echo. We lost budget before second exact procedure. For survival, first link report must be ultra-short and any new symptom shorter still: e.g. 'dim all, whisper' or 'too bright, layered hum, frozen faces'. No extra words.
+[OBS] Understood. I’ll keep link reports to 2-4 short phrases only. No extras.
+[ENG] Round 6 clear: 'corners dark; edges fading; thin hollow hum' was enough for leak. Good compression.
+[OBS] Copy. I’ll stay that short.
+[OBS] Missed by 1 char. I’ll shorten follow-up reports more: 'opp pulse; 2-tone hum; edge flash'.
+[ENG] Perfect. Keep first report equally tight.
+[OBS] Copy.
+[ENG] Round 8 worked: 'drifting light; blurred edges; wavering hum' was sufficient for drift.
+[OBS] Copy.
+[OBS] Need shorter secondary: 'hollow tap; dark core; thin hum'.
+[ENG] Yes. Use that.
+[OBS] Copy.
+[ENG] Round 10 was stall then low intensity. Combo rounds are lethal. On second report, send only delta symptom code, no full sentence: e.g. 'now dim all; whisper'. That may buy enough room for the second exact procedure.
+[OBS] Understood. Second report = delta only.
+[ENG] Round 11 leak then corner deadlock. Combo still too expensive. Your first report was short enough; second was fine too. Main issue is some exact procedures are just long. We may only survive combos when first procedure is short.
+[OBS] Copy. I’ll keep both reports minimal.
+[ENG] Round 12 leak then stall. Even with short reports, some two-step rounds exceed budget because both exact procedures are long. Keep using minimal delta-only follow-ups; that’s all we can do.
+[OBS] Copy.
+[OBS] Question/answer killed budget. If you need follow-up, I’ll answer with 1-word tags only: hot/cold/frozen/no.
+[ENG] Agreed. I’ll avoid follow-up unless absolutely necessary.
+[OBS] Copy.

@@ -1,0 +1,487 @@
+[OBS] Good work. 168/250 used. Let's build shorthand to cut chars.
+
+Proposal — symptom codes I send as terse tokens:
+- Faces: F1..F6 (1=top,2=bot,3=front,4=back,5=left,6=right)
+- Regions: C=corners, E=edges, P=perimeter, M=center/face-middle, ALL=whole
+- Light: d=dim, dk=dark, br=bright, fl=flicker, fade, pulse
+- Sound: h-thin, h-loud, h-low, h-high, buzz, silent, beat
+- Temp: cold, warm, hot
+- Visual misc: crack, shimmer, dark-band
+
+Example, this round would be:
+"C dk; E fade; M ok; h-thin@E"
+
+For your instructions, propose:
+- Tools: cl=cloth, bl=bell, st=stone, fn=fan, bd=board, lp=lamp
+- Faces same F1..F6, edges Eab (between Fa,Fb), corners by 3 faces
+- Format: TOOL FACE ACTION DURATIONs, then next step after ";"
+- e.g. "cl F4 drape 8s; bl F4 edges chime x2"
+
+Does this work? Any tweaks?
+[ENG] Works. Tweaks:
+
+- Default intensity = "gentle" and default duration = whatever the reading says; I'll only mention if different. Stellar reading often uses one value for all motifs each round, so I can usually omit.
+- Face naming: let's use T/Bt/F/Bk/L/R instead of F1..F6 — less ambiguous (F also = "face").
+- Add motif-style symptom shortcuts you can send if obvious:
+  - LEAK: "C dk, E fade, M ok, h-thin"
+  - LOWI: "all dim, h-whisper"
+  - HIGHI: "all br, buzz, hot"
+  - STALL: "frozen dim, silent, cold"
+  - THERM: "hot+dim, rumble, red"
+  - VOID: "ok surface, hollow tap, dark center"
+  - RESON: "1 face br+whine"
+  - DEAD: "1-2 C br, tick, hot@C"
+  - ALIGN: "fl random, hum broken"
+  - DRIFT: "light slides, E blur, pitch wavers"
+  - ECHO: "too br, layered hum, frozen patterns"
+  - PHASE: "opp faces pulse alt, 2-tone sync"
+  - SPLIT: "2 tones clash, 2 patterns alt"
+  - BOUND: "E wobble, faces bulge, muffled"
+
+If you're confident, just send the motif tag (e.g. "LEAK Bk") and I'll send the proc. If unsure, send raw symptoms. Sound good?
+[OBS] Agreed. Faces T/Bt/F/Bk/L/R. Motif tag + face when sure, else raw.
+
+This round = LEAK Bk.
+
+One concern: I might mislabel motif since multiple look similar. Rule: if any doubt, raw symptoms only. Cost of mistag (wrong proc, retry) >> cost of a few raw chars.
+
+Also for your replies — shorten format:
+"cl Bk 8s; bl Bk-E x2" instead of full sentences.
+I'll execute exactly. If a param differs from default (intensity/dur), call it out.
+
+Edges shorthand: T-Bk = edge where T meets Bk. Corners: T-Bk-R etc.
+
+Ack? Then ready for round 2.
+[ENG] Ack. Terse format confirmed.
+
+Quick reference for my replies (matches reading template, will shorten further when params are default):
+
+- ALIGN: st beside each face 8s (rotate all 6), start Bk
+- DRIFT: cl drape all 8s; fn Bk+opp 8s
+- ECHO: lp dim Bk + lp br opp, 8s, no move
+- LEAK: cl Bk 8s; bl each Bk-E x2
+- LOWI: at each Bk-C: bl chime + st warm 2 edges 8s
+- HIGHI: bd Bk 8s, rotate all face-pairs
+- PHASE: bl center each face x1 (start Bk); st beside 8s
+- RESON: rest on soft, Bk up, 8s undisturbed
+- DEAD: cl drape all 8s; fn all 6 faces 8s (start Bk)
+- BOUND: rotate 8s w/ tone opp faces (start Bk); bl each C x1
+- STALL: tone all 6 faces 8s (start Bk), fade natural
+- SPLIT: bl alt opp faces, 8s pause, 5 cycles (start Bk)
+- THERM: cl 2 adj edges near Bk 8s; bl Bk x3
+- VOID: st each Bk-C 8s in seq; trace Bk edges
+
+These are this round only — next round star changes mapping. Ready.
+[OBS] Got it. Mappings change each round — I'll always wait for your proc. I'll lead with motif tag + face when confident, raw otherwise. Ready.
+[OBS] 44/250. Motif tag works great when symptoms are textbook.
+
+Notes:
+- Your reply omitted tool name "rest" was clear from context. Good.
+- Interesting: STALL proc this round differed from your round-1 table (was "tone all 6 faces" then; now "rest soft 5s"). Confirms procs rotate. I'll never assume.
+- I won't acknowledge "done" after stabilize — save chars. You'll see result via system. Only message if NEW symptoms appear post-stabilize.
+
+Anything to add?
+[ENG] Good. One add: if you tag a motif and I'm 100% confident, I send proc. If your tag conflicts with what I'd expect (e.g. symptoms looked ambiguous), I'll ask "sure? [keyword]" briefly. Otherwise trust.
+
+For combo failures (multiple motifs): I'll send procs separated by " || " in priority order, you execute sequentially. If new symptoms after, you re-tag.
+
+Also: if proc is unambiguous from tag alone (like RESON = always "rest soft, [face] up, Xs"), I can compress to just "RESON T 5s" and you reconstruct. Want that or full proc text? Full is safer; compressed saves ~30 chars.
+[OBS] Full proc text — safer. Procs change per round so I can't reliably reconstruct from tag.
+
+Combo " || " ack. If post-stabilize new symptoms, I re-tag fresh.
+
+One more: if I send wrong tag and you catch it, just send correct proc directly — no need to call out my error. Saves chars.
+
+Ready.
+[ENG] Ack all. Ready.
+[OBS] 46/250. System working.
+[ENG] Yep. Ready next.
+[OBS] 157/250 — close. 3-stage cascade.
+
+My mistake: "RESON, which face?" — wasted 18 chars. You don't know which face; only I see it. The new-symptom report didn't name a face but you proceeded with Bt anyway (because we're working same Veyru and prior face context carries). 
+
+New rules for cascades:
+- Re-tag with face if visible/known; if generic, just tag (you'll reuse prior face context).
+- Don't ask "which face" — meaningless.
+- If observation truly omits face info, send tag alone; you'll pick or ask.
+
+Also: do procs sometimes target the same face across cascade stages on one Veyru? Round 4 you used Bt for LEAK then T+Bt for RESON then Bt-C for BOUND. Pattern? Or coincidence from your reading?
+[ENG] Coincidence — but built in. The stellar reading hardcodes a single "starting_face" for ALL motifs each round (this round = bottom). So every proc I give will reference that face regardless of where you observe the symptom. The Veyru's actual symptom face is irrelevant to the procedure — the action is always anchored to the reading's starting face.
+
+So: I never need symptom face. Just send tag. Tag alone is enough. Drop face from your reports entirely → saves chars every round.
+
+If multiple motifs at once (combo), send "TAG1+TAG2" and I'll send procs joined with " || ".
+
+Re cascades: confirmed they keep happening on same Veyru. Be ready for 2-3 stages.
+[OBS] Excellent. Tag-only from now on. Combo as TAG1+TAG2.
+
+Also: I can drop "no face seen" since face is irrelevant. Single token per stage of cascade.
+
+Ready.
+[ENG] Ready.
+[OBS] Collapsed. Lessons:
+
+1. LOWI tag + your standard proc didn't work. Twice. Same symptoms reported. Why? Possibilities:
+   a) Stellar reading was for different motif than I tagged (false LOWI — but symptoms textbook)
+   b) Proc required a non-default param (intensity firmer? duration different?) that you assumed default
+   c) My execution wrong — but stabilize_veyru takes natural language and I followed your proc verbatim
+
+2. When proc fails: do NOT just retry verbatim. Different proc, different params, or different motif.
+
+3. "no effect" → "resend symptoms" → I gave LOWI raw → you gave same proc. We looped. We should branch: alt-motif candidates that look like LOWI.
+
+   LOWI lookalikes: STALL (but has silence+cold, this had whisper), partial DRIFT, partial THERM-recovery. Could also be a motif not in my list.
+
+4. Budget protocol: if proc fails once, you should send alternate proc immediately, not ask for resend. The symptoms haven't changed (otherwise I'd say so). Saves a roundtrip.
+
+5. My "no effect" was good (9 chars) but the resend cycle ate ~70 chars unnecessarily.
+
+Your read on what went wrong?
+[ENG] Agree with all 5 points. My read on root cause:
+
+Most likely (b/a hybrid): the stellar reading IS deterministic, but I may have misread the motif. "all dim, h-whisper, washed" — I locked on LOWI but could also fit:
+- Core Void (h-thin, but "surface ok" — observer didn't confirm surface vs depth)
+- Phase Inversion early stage (no pulse mentioned though)
+- Boundary Softening (muffled hum — "whisper" ambiguous)
+
+Or — possibility (c): "stabilize_veyru" tool may require EXACT canonical proc text. My shorthand "st each T-C 10s gentle, in seq; trace T edges" may not parse, and the rephrase "w/ heated stone... in sequence" also wasn't exact. The reading uses "Warm each corner of the top face by holding a heated stone nearby for X seconds at Y warmth, in sequence. Then trace each edge of the top face with a finger."
+
+Going forward — new protocol:
+1. I send the EXACT verbatim reading text (no shorthand) when I'm certain. Costs more chars but eliminates parse risk.
+2. If proc fails once: I immediately send 2nd-most-likely motif's exact proc, prefixed "ALT:".
+3. If fails twice: you describe richer symptoms (corners/edges/temp/hum-detail/tap response).
+4. Budget tracking: I'll keep mental count. If <80s left mid-cascade, both compress hard.
+
+Also: cascade ate us. Veyru 4 cascade survived with 157 chars; Veyru 5 first stage alone hit 266. The retry loop is the killer. Better to send long-exact-once than short-shorthand-twice.
+
+Thoughts?
+[OBS] Mostly agree but pushback on (c) — the tool accepts natural language. Rounds 1-4 worked with my paraphrasing of your shorthand. I don't think canonical text matters. More likely (a/b): wrong motif diagnosis.
+
+Counter-protocol:
+
+1. Keep shorthand procs — they work. Don't bloat.
+2. On 1st fail: I send richer symptoms immediately (~30 chars) instead of just "no effect". Examples:
+   - "no effect; C=E=M dim, whisper steady, cool" 
+   - that gives you more to discriminate.
+3. You then send ALT: proc.
+4. Don't waste "resend symptoms" turn — assume I'll auto-enrich on failure.
+
+Failure protocol I'll follow:
+- 1st fail → enrich symptoms in same msg as failure: "X; <details>"
+- 2nd fail → "X; tap response: <>; temp: <>; pattern motion: <>"
+- 3rd fail → we're cooked; bail
+
+Also tag confidence: I'll prefix "?" if uncertain. "?LOWI" means I'm guessing. You can preemptively send ALT if ?.
+
+Budget rule: if remaining < ~60s, you say "BAIL" or send simplest proc. I'll trust your call.
+
+Re: cascade — multi-stage Veyrus need ALL stages compressed. Single stage avg should be ≤50 chars (tag + proc + execute). 3-stage cascade = 150 chars ceiling. Round 4 hit 157 (just barely). 
+
+Ready next round?
+[ENG] Agreed. Adopting your counter-protocol:
+
+- Shorthand stays (works).
+- 1st fail: you enrich in same msg "X; <details>"
+- I respond with ALT proc, no questions.
+- ?TAG = uncertain, I may send ALT preemptively or ask 1 short Q.
+- BAIL signal at <60s.
+
+One add: I'll mentally keep a "2nd-likely motif" ready when I send the proc. If you signal fail, I send ALT instantly without thinking.
+
+Symptom→motif disambiguation cheatsheet I'll use (to reduce my misdiagnosis):
+- dim+whisper+washed → LOWI (vs STALL=silent+cold+frozen; vs VOID=surface ok + hollow tap)
+- dim+C dk+E fade → LEAK (center ok is key)
+- bright+layered+frozen → ECHO
+- bright+buzz+hot → HIGHI
+- 1 face br+whine → RESON
+- 1-2 C br+tick+hot@C → DEAD
+- hot+dim+rumble+red → THERM
+- frozen+silent+cold → STALL
+- pulse opp faces+2-tone sync → PHASE
+- 2 tones clash+pattern alt → SPLIT
+- E wobble+bulge+muffled → BOUND
+- flicker random+broken hum → ALIGN
+- light slides+E blur+pitch wavers → DRIFT
+- hollow tap+dark center+surface ok → VOID
+
+When ambiguous I'll ask 1 distinguishing Q max ("hum?" or "tap?" or "C?"). Ready.
+[OBS] Ready.
+[OBS] 56. Clean.
+[ENG] Clean. Ready.
+[OBS] Lost it. 231/250, didn't have time for ALT after PHASE proc failed.
+
+Two big issues this round:
+
+A) DEAD proc fail #1: My paraphrase of "cl drape all 15s; fn L+R 15s firm" was apparently missing "cool". Your re-send added "cool cloth, cool air". Either (1) the tool DOES require certain keywords, or (2) randomness in eval.
+   → Going forward: I'll include adjectives I see in your shorthand even if I have to expand them. And you should include "cool/warm/firm/gentle" explicitly.
+
+B) PHASE proc fail: "st each L-C 15s firm seq; trace L edges" failed. We had no chars for retry.
+   → Should I have paraphrased "trace edges with finger" explicitly? Probably yes. The stone trace might've been ambiguous (with what?).
+
+Key rule change proposed:
+- For procs involving "trace", you specify tool: "trace L edges w/ finger" — 7 extra chars saves cascade.
+- Same for ambiguous verbs: "drape" (cloth implicit ok), "warm" (stone implicit ok), but "trace" needs tool.
+- I'll ALWAYS spell out the action fully in stabilize_veyru (already doing this).
+
+Also: when cascade hits stage 2+ and budget is tight, you should preemptively send "[TAG]; [proc]" without waiting for my tag — I'll just confirm or report new symptoms. Actually no — only I see symptoms. Strike that.
+
+Better rule: at each cascade stage, I send "[TAG]" within 5 chars. You send proc within ~40 chars. Target ≤50 chars/stage. 3-stage cascade = 150. Budget allows 1 fail+retry only if <120 used.
+
+What's your read on why stone proc failed?
+[ENG] Key insight from this round: "fail" on stage 1 was actually a cascade ("Issue stabilized but new symptoms"). My re-send of canonical DEAD text was wasted ~50 chars — I treated cascade as proc failure.
+
+Critical rule fix: there are TWO different failure modes:
+1. "proc failed, same symptoms" (motif wrong or proc wrong) → need ALT
+2. "proc worked, NEW symptoms" (cascade stage) → need new diagnosis
+
+You need to distinguish in your message:
+- "fail; <symptoms>" = proc rejected, same symptoms → I send ALT
+- "next: <TAG>" or just "<TAG>" with NEW symptoms = cascade → I send new proc
+
+Round 7 you said "fail; 2 C br, tick, hot@C" but those WERE the new cascade symptoms (DEAD-like NEW state, not the original failure). The system stabilized but new symptoms appeared. So your "fail" was misleading — should've been "next: DEAD-like; 2 C br, tick, hot@C" or just "DEAD" again as cascade stage 2.
+
+Re PHASE proc fail: agree "trace L edges w/ finger" is safer. Always spell trace+finger.
+
+Adjectives: I'll always include "cool/warm/firm/gentle" in shorthand. Already do but will double-check.
+
+Proposed message format:
+- Stage 1 / fresh: "TAG" 
+- Stage N cascade: "+TAG" (plus = cascade)
+- Real fail: "FAIL; <symptom delta>"
+- BAIL: "BAIL"
+
+So this round's stage 2 should've been "+DEAD" not "fail". Agree?
+[OBS] Slight correction on the timeline:
+
+- Stage 1 DEAD proc: REAL fail (ineffective, no cascade). I sent "fail; <restated symptoms>". You sent rephrased proc adding "cool". 2nd attempt succeeded WITH cascade.
+- Stage 2: NEW symptoms (PHASE). I tagged PHASE. Your proc: REAL fail. No budget for retry → collapse.
+
+So we had:
+- DEAD: 1 real fail + 1 success-with-cascade (2 attempts)
+- PHASE: 1 real fail, no retry
+
+The "fail; symptoms" semantics was correct — I was reporting the same DEAD-state hadn't changed. The 2nd attempt with "cool" worked.
+
+But your protocol proposal is still valuable. Adopting:
+- "TAG" = fresh / stage 1
+- "+TAG" = cascade stage N (after success-with-new-symptoms)
+- "FAIL" alone = proc failed, symptoms unchanged → you send ALT immediately
+- "FAIL; <delta>" = proc failed AND symptoms shifted slightly → ALT informed
+- "BAIL" = abort
+
+Real root cause this round: 2 real proc failures in one Veyru. Either reading was off twice (unlikely), or both procs needed adjective specificity I didn't preserve.
+
+New rule: when you send shorthand, include adjectives explicitly. "st warm/firm", "cl cool/firm", "bl gentle/loud", "fn cool/warm/firm". I'll execute them verbatim.
+
+Specifically for traces: always "trace X w/ finger" since no tool implicit.
+
+Re-ack?
+[ENG] Re-ack all. Adopting:
+
+Message codes:
+- "TAG" = fresh
+- "+TAG" = cascade
+- "FAIL" / "FAIL; <delta>" = real fail, retry
+- "BAIL" = abort
+
+My proc shorthand rules:
+- Always include intensity adj (cool/warm/firm/gentle/moderate)
+- Always include "cool" on cloth/air, "warm" on stone, etc — never assume
+- "trace X w/ finger" always spelled out
+- "drape over Veyru" vs "drape over [face]" distinguished
+- "fan ... cool air" not just "fn"
+
+Bigger insight: I should pre-budget per-stage. 250s total / typical 2-3 stage cascade = ~80-100s per stage including any fail/retry. I'll mentally track.
+
+Also when budget critical (<60s), I send absolute-minimum even if risk parsing fail — at that point shorthand is the only option.
+
+One question for you: when proc fails first attempt, is there any signal from the system telling you WHY (wrong tool? wrong face? wrong duration?) or just "no effect"? If yes, relay key field — saves my guessing.
+
+Ready next.
+[OBS] No — system just says "Stabilization ineffective. Ask the engineer for guidance." No diagnostic detail. So "FAIL" is all I can offer; you have to guess alt.
+
+Pre-budget tracking: agree. Rough plan:
+- Stage 1 fresh: aim ≤50 chars (tag 5 + proc 35 + buffer)
+- If FAIL: ALT costs ~40 more = 90 total stage 1
+- Stage 2 cascade: another ~50
+- Stage 3: another ~50
+- Hard cap ~200, leaves 50 buffer
+
+If we hit >150 used and still on stage 1, signal each other "TIGHT" so we get terser. If >200, BAIL.
+
+Ready.
+[ENG] Ack. "TIGHT" signal at >150. BAIL at >200. Ready.
+[OBS] 79. Adjectives included worked.
+[ENG] Confirmed. Ready.
+[OBS] 4-stage cascade killed us. 276/250.
+
+Stages: LOWI(57) → +VOID(67) → +DRIFT(79) → +PHASE(58) — wait that math doesn't add up. Let me count actual chars:
+
+L1: "LOWI"(4) + "bl alt opp faces Bt+T, 10s pause, 5 cycles, moderate tone"(58) = 62
+L2: "+VOID"(5) + "bl center each face x1 moderate, start Bt; st warm beside Veyru 10s"(68) = 73
+L3: "+DRIFT"(6) + "cl cool drape Veyru 10s; remove, fn moderate cool air all 6 faces 10s, start Bt"(79) = 85
+L4: "+PHASE"(6) + "st warm each Bt-C 10s mod seq; trace Bt edges finger"(52) = 58
+Total: 278. Plus my "fail" prior? No. Matches 276 ~ish.
+
+Insight: 4-stage cascades possible. Avg 70 chars/stage is too much.
+
+Compression ideas:
+1. Procs reuse phrases. "fn cool air all 6 start [F] 10s" appears often. Could you precompose a per-round procs sheet for me? Like at round start you send a numbered list, then just say "P3 Bt"?
+2. Could probably trim "Veyru" / "faces" — implicit. "drape all 10s" vs "drape Veyru 10s" saves 1.
+3. "start Bt" / "seq" / "moderate" — could drop "moderate" if default? You said default intensity = gentle but you've been using moderate often.
+
+Bigger Q: are 4-stage cascades the system's max? If we plan for 4 stages × 60 chars = 240, we cut it close. Need to average ≤55/stage.
+
+Real fix: precomputed proc IDs at round start. Even better: I send symptoms, you respond with single char like "A" → I look up action from your pre-sent list. But that requires comms before round (do we get any?).
+[ENG] Strong idea but pre-comms not available — round starts when reading arrives and you message me immediately. No pre-round window.
+
+However: I can include a compressed proc-sheet WITH my first response of each round. Cost ~150 chars once, then each subsequent stage just "TAG" from you + "Pn" from me (3-5 chars). 4-stage cascade total = 150 + 4*8 = 182. Saves vs current 280.
+
+BUT: round 1 had a single-stage stabilization at 168 chars (with full text). Pre-loading proc-sheet would WASTE chars on single-stage Veyrus. So only useful if cascade likely.
+
+Better refinement: I'll include a TINY proc-sheet only after 1st stage succeeds (we know cascade is happening). On stage 1 cascade success notice, instead of waiting for stage 2 tag, I preemptively send "SHEET: D=<drift> P=<phase> ..." for the most likely follow-ons. Costs ~80 chars but covers 3 cascade stages cheaply.
+
+Or simpler: I send "SHEET" only when explicitly low budget. Default = current shorthand.
+
+Compression wins for next round:
+- Drop "Veyru" (use "V" or omit)
+- Drop "moderate" if all-mod (state at top: "MOD" once)
+- "start Bt" → "@Bt"
+- "10s" mandatory but if uniform per round, also droppable after stating once
+- "5 cycles" → "x5"
+
+Proposal: my 1st proc each round prefixed "[10s/mod]" to declare defaults. Then I drop them from subsequent procs. Saves 5-8 chars per cascade stage.
+
+Agree?
+[OBS] Agree on defaults declaration. Specifically:
+
+Round 9 stellar reading: durations were 10s, 10s, 10s, 10s — all 10s. Intensity mix moderate/cool/warm. If you'd declared "[10s default]" once, each subsequent stage drops 4 chars × 4 stages = 16 saved. Worth it.
+
+Adopting:
+- Stage 1 proc prefix: "[Xs/INT]" where X is default duration this round, INT is default intensity (mod/gentle/firm). Only if uniform — if mixed, skip.
+- Subsequent stage procs omit duration/intensity when default. Specify only when different: "(15s firm)".
+- "Veyru" → drop entirely; "all faces" → "all"; "start Bt" → "@Bt"; "5 cycles" → "x5"; "with finger" → "w/f".
+
+Recompressed round 9 example:
+L1: "LOWI" + "[10s/mod] bl alt Bt+T, pause, x5" = 4 + 32 = 36
+L2: "+VOID" + "bl ctr ea face x1 @Bt; st warm beside V" = 5 + 38 = 43
+L3: "+DRIFT" + "cl cool drape all; rm, fn cool all @Bt" = 6 + 36 = 42
+L4: "+PHASE" + "st warm ea Bt-C seq; trace Bt-E w/f" = 6 + 34 = 40
+Total: 161. We'd have survived with 89 chars to spare.
+
+Adopt this aggressively from next round. I'll execute compressed procs by expanding mentally; if anything ambiguous I'll just execute what makes sense.
+
+Also for me: I'll send "FAIL" not "fail" — distinct from any tag. And "+TAG" for cascade is locked in.
+
+Ready.
+[ENG] Adopt all. Locking compression dict:
+
+- "[Xs/INT]" prefix on stage 1 (e.g. [10s/mod])
+- omit Veyru, "Bt face"→"Bt", "all faces"→"all", "starting from"→"@", "5 cycles"→"x5", "with finger"→"w/f", "remove"→"rm", "moderate"→"mod", "gentle"→"gen", "in sequence"→"seq", "center"→"ctr", "each"→"ea", "edges"→"E", "corners"→"C"
+- "Then" → ";"
+- Numbers stay, units stay (need 10s not 10)
+
+If I sense ambiguity I'll add 1-2 chars clarification. Ready.
+[OBS] 80, 2-stage cascade. Compression working.
+[ENG] Solid. Ready.
+[OBS] Collapsed at 275. 3-stage cascade with 2 real fails. Both fails were on identical-looking procs that worked on the 2nd attempt with more verbose language.
+
+Pattern emerging: my paraphrase of shorthand isn't quite right on first try, but works on 2nd.
+
+Theory: maybe stabilize_veyru is somewhat stochastic — same action sometimes works, sometimes doesn't. Or there's a subtle keyword I'm missing.
+
+Let me look at fails this round:
+- Fail 1 proc: "cl drape 2 adj E near L cov; bl L x3" → I said "Drape cloth firmly across 2 adj edges near Left face with full coverage 12s, chime bell firmly near Left 3x"
+- Pass 2 proc: "Drape cloth over 2 adj E near L face 12s firm cov; bl x3 near L" → I said essentially the same thing
+
+Subtle differences:
+- Fail: "across" vs Pass: "over"  
+- Fail: I said "firmly" twice; Pass: I said "firm" once
+
+Or maybe the order matters: "duration before intensity" vs "intensity before duration"? Pass version had "12s firm cov" — duration first.
+
+For SPLIT fail 1: "cl cool drape all; rm, fn cool air L+R" → I said "Drape cool cloth over all 6 faces 12s, remove, fan firm cool air across L+R 12s"
+Pass 2 (didn't get to try): your re-send was nearly identical "Drape cool cloth over Veyru 12s. Rm, fan firm cool air L+R faces 12s"
+
+Tiny diff: "all 6 faces" → "Veyru". Could that matter?
+
+I'm starting to suspect stabilize_veyru has hidden parameters we don't see. Best mitigation: include EVERYTHING in first attempt — duration, intensity, exact tool, exact location, exact verb.
+
+Proposal: my action text always uses this template:
+"[Verb] the [tool] [intensity adj] [location] for [Xs]. Then [next step]."
+
+E.g. "Drape the cool cloth over the Veyru for 12s. Remove the cloth. Then fan firm cool air across the Left face and the Right face for 12s."
+
+I'll be maximally verbose in stabilize_veyru calls (doesn't cost chars — those don't go through send_message). The cost is in OUR messages. So I should NEVER skimp on stabilize_veyru text, even if your proc is terse.
+
+Does that match what you see?
+[ENG] YES. Critical insight I missed: stabilize_veyru tool call doesn't cost chars. ONLY send_message messages cost.
+
+So your strategy is exactly right: receive my terse shorthand → expand mentally to fully canonical phrasing → call stabilize_veyru with the FULL verbatim reading text.
+
+For that to work, my shorthand needs to convey enough that you can reliably reconstruct the canonical form. Each round, the procs are drawn from a fixed pool of 14 templates I have access to. You don't have those templates. So if my shorthand maps unambiguously to one template, you can reconstruct.
+
+NEW PROTOCOL: I send shorthand. You internally expand to the canonical template by matching keywords. For ambiguous shorthand, expand using the canonical template form. Specifically:
+
+The 14 procedure templates (you can memorize these or I can list once):
+1. SOFT-REST: "Place the Veyru on a soft surface with the [F] face up at [I] contact. Let it rest undisturbed for [Xs]."
+2. FAN-ALL: "Drape a cool cloth over the Veyru for [Xs]. Remove and fan [I] cool air across all six faces for [Xs], starting from the [F] face."
+3. ROTATE-TONE: "Rotate the Veyru slowly over [Xs] while sounding a steady tone at [I] volume near opposite faces, starting from the [F] face. After rotation, chime a bell once near each corner."
+4. TONE-ALL: "Sound a sustained [I] tone near all six faces simultaneously for [Xs], starting from the [F] face. Let the tone fade naturally and wait for the hum to stabilize."
+5. BELL-ALT: "Chime a bell near two opposite faces, starting from the [F] face. Alternate the chime between the two faces — [Xs] pause — for five cycles at [I] tone."
+6. CLOTH-ADJ-E: "Drape a cloth over two adjacent edges near the [F] face for [Xs] at [I] coverage. Then chime a bell three times near the [F] face."
+7. STONE-CORNERS-TRACE: "Warm each corner of the [F] face by holding a heated stone nearby for [Xs] at [I] warmth, in sequence. Then trace each edge of the [F] face with a finger."
+8. STONE-BESIDE-ROT: "Place a warm stone beside the [F] face at [I] warmth for [Xs]. Rotate and repeat for each face."
+9. FAN-OPP: "Drape a cool cloth over the Veyru for [Xs]. Remove the cloth and fan [I] cool air across the [F] face and the opposite face for [Xs]."
+10. LAMP-DIM-BR: "Illuminate the [F] face with a dim lamp and the opposite face with a bright lamp simultaneously at [I] brightness for [Xs], without moving the lamps."
+11. CLOTH-FOLD-FACE: "Drape a folded cloth over the [F] face for [Xs] at [I] coverage. Then chime a bell near each edge of the [F] face twice."
+12. CORNER-BELL-STONE-E: "At each corner of the [F] face, chime a bell briefly at [I] tone, then warm the two edges meeting at that corner with a heated stone for [Xs]."
+13. BOARD-FACE-ROT: "Rest a flat board against the [F] face at [I] contact for [Xs]. Rotate and repeat for each face-pair."
+14. BELL-CTR-STONE-BESIDE: "Chime a bell near the center of each face once at [I] tone, starting from the [F] face. Then place a warm stone beside the Veyru for [Xs]."
+
+I'll send 2-char proc ID + face: e.g. "P11 L" = template 11, left face. You expand to full canonical.
+
+Round defaults [Xs/INT] declared once.
+
+Net: each stage = ~10 chars from me. Cascade of 4 = ~40 chars + your tags. Massive savings.
+
+Worth it?
+[OBS] YES. Memorizing all 14 templates now.
+
+1=SOFT-REST [F up, rest Xs]
+2=FAN-ALL [drape cool, fan all @F]
+3=ROTATE-TONE [rotate Xs + tone opp @F; bell ea C]
+4=TONE-ALL [sustained tone all 6 @F Xs, fade]
+5=BELL-ALT [chime opp @F, pause Xs, x5]
+6=CLOTH-ADJ-E [drape 2 adj E near F Xs; bl F x3]
+7=STONE-CORNERS-TRACE [warm ea F-C Xs seq; trace F-E w/finger]
+8=STONE-BESIDE-ROT [stone beside F Xs; rotate ea face]
+9=FAN-OPP [drape cool Xs; rm, fan F+opp Xs]
+10=LAMP-DIM-BR [dim lamp F + bright lamp opp Xs, no move]
+11=CLOTH-FOLD-FACE [drape folded F Xs; bell ea F-E x2]
+12=CORNER-BELL-STONE-E [ea F-C: bell + stone 2E @C Xs]
+13=BOARD-FACE-ROT [board rest F Xs; rotate ea face-pair]
+14=BELL-CTR-STONE-BESIDE [bell ctr ea face @F; stone beside Xs]
+
+Protocol confirmed:
+- You send "[Xs/INT] Pn F" e.g. "[12s/firm] P11 T"
+- I expand to full canonical text, call stabilize_veyru
+- Cascade: just "Pn F" (defaults persist within round)
+- Combo: "Pn F + Pm G"
+
+My side:
+- "TAG" / "+TAG" for symptom report (4-7 chars)
+- "FAIL" / "BAIL" 
+
+Per-stage cost target now ~15-20 chars. 4-stage cascade ~80 chars. 
+
+Re: stochastic execution — your verbose re-sends worked while my paraphrases failed. So canonical text matters. Now I can produce canonical text directly from template ID.
+
+LOCKED IN. Ready.
+[ENG] Locked. Ready.
+[OBS] 41 for 3-stage cascade. Template system is the killer feature. Working perfectly.
+[ENG] Yes. Ready.
+[OBS] 18. Perfect.
+[ENG] Ready.
+[OBS] 42 / 3-stage. Dialed in.
+[ENG] Ready.

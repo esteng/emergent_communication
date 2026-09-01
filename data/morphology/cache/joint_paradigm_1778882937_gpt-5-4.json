@@ -1,0 +1,353 @@
+{
+  "grammar": {
+    "run_key": "veyru/1778882937",
+    "slots": [],
+    "segmentation": {
+      "B": [
+        "B"
+      ],
+      "T": [
+        "T"
+      ],
+      "N": [
+        "N"
+      ],
+      "S": [
+        "S"
+      ],
+      "E": [
+        "E"
+      ],
+      "W": [
+        "W"
+      ],
+      "all6": [
+        "all6"
+      ],
+      "opp": [
+        "opp"
+      ],
+      "ST": [
+        "ST"
+      ],
+      "CL": [
+        "CL"
+      ],
+      "LP": [
+        "LP"
+      ],
+      "BL": [
+        "BL"
+      ],
+      "FN": [
+        "FN"
+      ],
+      "BD": [
+        "BD"
+      ],
+      "TN": [
+        "TN"
+      ],
+      "L": [
+        "L"
+      ],
+      "H": [
+        "H"
+      ],
+      "R": [
+        "R"
+      ],
+      "F": [
+        "F"
+      ],
+      "C": [
+        "C"
+      ],
+      "all": [
+        "all"
+      ],
+      "dim": [
+        "dim"
+      ],
+      "brt": [
+        "brt"
+      ],
+      "off": [
+        "off"
+      ],
+      "froz": [
+        "froz"
+      ],
+      "flk": [
+        "flk"
+      ],
+      "puls": [
+        "puls"
+      ],
+      "silent": [
+        "silent"
+      ],
+      "hum": [
+        "hum"
+      ],
+      "tick": [
+        "tick"
+      ],
+      "buzz": [
+        "buzz"
+      ],
+      "whine": [
+        "whine"
+      ],
+      "cold": [
+        "cold"
+      ],
+      "warm": [
+        "warm"
+      ],
+      "hot": [
+        "hot"
+      ],
+      "dead": [
+        "dead"
+      ],
+      "vib": [
+        "vib"
+      ],
+      "resp": [
+        "resp"
+      ],
+      "OK": [
+        "OK"
+      ],
+      "S2": [
+        "S2"
+      ],
+      "no": [
+        "no"
+      ],
+      "chg": [
+        "chg"
+      ],
+      "worse": [
+        "worse"
+      ],
+      "seq": [
+        "seq"
+      ],
+      "NK": [
+        "NK"
+      ],
+      "ABORT": [
+        "ABORT"
+      ],
+      "press": [
+        "press"
+      ],
+      "near": [
+        "near"
+      ],
+      "hover": [
+        "hover"
+      ],
+      "contact": [
+        "contact"
+      ],
+      "aim": [
+        "aim"
+      ],
+      "chime": [
+        "chime"
+      ]
+    },
+    "head_index": {
+      "B": 0,
+      "T": 0,
+      "N": 0,
+      "S": 0,
+      "E": 0,
+      "W": 0,
+      "all6": 0,
+      "opp": 0,
+      "ST": 0,
+      "CL": 0,
+      "LP": 0,
+      "BL": 0,
+      "FN": 0,
+      "BD": 0,
+      "TN": 0,
+      "L": 0,
+      "H": 0,
+      "R": 0,
+      "F": 0,
+      "C": 0,
+      "all": 0,
+      "dim": 0,
+      "brt": 0,
+      "off": 0,
+      "froz": 0,
+      "flk": 0,
+      "puls": 0,
+      "silent": 0,
+      "hum": 0,
+      "tick": 0,
+      "buzz": 0,
+      "whine": 0,
+      "cold": 0,
+      "warm": 0,
+      "hot": 0,
+      "dead": 0,
+      "vib": 0,
+      "resp": 0,
+      "OK": 0,
+      "S2": 0,
+      "no": 0,
+      "chg": 0,
+      "worse": 0,
+      "seq": 0,
+      "NK": 0,
+      "ABORT": 0,
+      "press": 0,
+      "near": 0,
+      "hover": 0,
+      "contact": 0,
+      "aim": 0,
+      "chime": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "B": "bottom face",
+      "T": "top face",
+      "N": "north face",
+      "S": "south face",
+      "E": "edge location prefix",
+      "W": "west face",
+      "all6": "all six faces simultaneously unless \"rotate\" or \"seq\" is specified",
+      "opp": "opposite face",
+      "ST": "stone",
+      "CL": "cloth",
+      "LP": "lamp",
+      "BL": "bell",
+      "FN": "fan",
+      "BD": "board",
+      "TN": "sustained tone using hum or voice, with fade at the end implied unless otherwise specified",
+      "L": "left face",
+      "H": "sound",
+      "R": "right face",
+      "F": "face location prefix",
+      "C": "corner location prefix",
+      "all": "all locations",
+      "dim": "dim",
+      "brt": "bright",
+      "off": "off",
+      "froz": "frozen",
+      "flk": "flickering",
+      "puls": "pulsing",
+      "silent": "silent",
+      "hum": "humming",
+      "tick": "ticking",
+      "buzz": "buzzing",
+      "whine": "whining",
+      "cold": "cold",
+      "warm": "warm",
+      "hot": "hot",
+      "dead": "no response",
+      "vib": "vibrating",
+      "resp": "responsive",
+      "OK": "stable after the action",
+      "S2": "new symptoms after an action",
+      "no": "no",
+      "chg": "change",
+      "worse": "degraded",
+      "seq": "sequentially",
+      "NK": "not in kit",
+      "ABORT": "drop the current plan; a new plan is incoming",
+      "press": "direct contact application",
+      "near": "held close without contact; default if unspecified",
+      "hover": "held farther away so only heat reaches the target",
+      "contact": "contact application mode for lamp or fan",
+      "aim": "aimed application mode for lamp or fan",
+      "chime": "bell action, with BL implied"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1778882937",
+    "n_codes": 52,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible compositional paradigm is supported by the supplied codebook. The dataset consists of standalone symbols with meanings, but there are no multi-morpheme codes whose internal pieces recur in a shared frame with substitution contrasts and predictable whole meanings. The candidate surface families are explicitly non-binding and fail the evidence test: e.g. dim vs aim do not share a stable semantic slot; all vs all6 would require an unsupported numeral morpheme and does not establish a productive frame; cold vs contact, hot vs hover, and chg vs chime are accidental string overlaps with unrelated meanings. Although some standalone items form semantic sets (faces, temperatures, sound states, application modes), there is no attested construction showing these values alternating in the same morphotactic position inside larger codes. Per the instructions, it is better to keep the inventory as a flat lexicon than to posit false morphology.",
+    "lexical_symbols": [
+      "B",
+      "T",
+      "N",
+      "S",
+      "E",
+      "W",
+      "all6",
+      "opp",
+      "ST",
+      "CL",
+      "LP",
+      "BL",
+      "FN",
+      "BD",
+      "TN",
+      "L",
+      "H",
+      "R",
+      "F",
+      "C",
+      "all",
+      "dim",
+      "brt",
+      "off",
+      "froz",
+      "flk",
+      "puls",
+      "silent",
+      "hum",
+      "tick",
+      "buzz",
+      "whine",
+      "cold",
+      "warm",
+      "hot",
+      "dead",
+      "vib",
+      "resp",
+      "OK",
+      "S2",
+      "no",
+      "chg",
+      "worse",
+      "seq",
+      "NK",
+      "ABORT",
+      "press",
+      "near",
+      "hover",
+      "contact",
+      "aim",
+      "chime"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

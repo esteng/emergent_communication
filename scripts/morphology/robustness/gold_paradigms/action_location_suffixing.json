@@ -1,0 +1,35 @@
+{
+  "item_id": "action_location_suffixing",
+  "phenomenon": "clean two-slot concatenative paradigm (positive control)",
+  "notes": "The methodology doc's running example (veyru/1778877868). Seven action stems cross three location suffixes; every stem takes at least one location and every location attaches to at least three stems, so both slots substitute freely. A regression here means the inducer has lost basic recall.",
+  "codebook": {
+    "chC": "chime at the corner",
+    "chE": "chime at the edge",
+    "chF": "chime at the face",
+    "drF": "drape the face",
+    "prC": "press the corner",
+    "prF": "press the face",
+    "wmC": "warm the corner",
+    "wmE": "warm the edge",
+    "wmF": "warm the face",
+    "trC": "trace the corner",
+    "trE": "trace the edge",
+    "shF": "shine on the face",
+    "fanF": "fan the face"
+  },
+  "gold": {
+    "chC": "ch=ACTION:chime + C=LOCATION:corner",
+    "chE": "ch=ACTION:chime + E=LOCATION:edge",
+    "chF": "ch=ACTION:chime + F=LOCATION:face",
+    "drF": "dr=ACTION:drape + F=LOCATION:face",
+    "prC": "pr=ACTION:press + C=LOCATION:corner",
+    "prF": "pr=ACTION:press + F=LOCATION:face",
+    "wmC": "wm=ACTION:warm + C=LOCATION:corner",
+    "wmE": "wm=ACTION:warm + E=LOCATION:edge",
+    "wmF": "wm=ACTION:warm + F=LOCATION:face",
+    "trC": "tr=ACTION:trace + C=LOCATION:corner",
+    "trE": "tr=ACTION:trace + E=LOCATION:edge",
+    "shF": "sh=ACTION:shine + F=LOCATION:face",
+    "fanF": "fan=ACTION:fan + F=LOCATION:face"
+  }
+}

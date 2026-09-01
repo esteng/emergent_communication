@@ -1,0 +1,76 @@
+model,provider,round_time_budget_seconds,seed,round_count,run_key,construction_id,construction_label,n_slots,native_capacity,pooled_capacity,n_attested_codebook,grid_saturation,n_control_tested,n_novel_tested,n_novel_pooled,novel_success_exact,effective_saturation_exact,novel_success_bag,effective_saturation_bag,novel_success_decodability,effective_saturation_decodability
+claude-sonnet-4-6,anthropic,150,730175194,15,veyru/1778877857,K1,placement expression,2,4,45,3,0.75,3,42,41,0.5476190476190477,0.8869047619047619,0.5476190476190477,0.8869047619047619,1.0,1.0
+claude-opus-4-7,anthropic,150,251510859,15,veyru/1778877868,CX_LOC_PROC,localized procedure,2,9,9,8,0.8888888888888888,8,1,0,1.0,1.0,1.0,1.0,1.0,1.0
+claude-opus-4-7,anthropic,150,251510859,15,veyru/1778877868,CX_AIR_SCOPE,fan by scope,2,3,4,3,1.0,3,1,1,0.0,1.0,0.0,1.0,1.0,1.0
+gpt-5.4,openai,150,1456952272,15,veyru/1778877873,K_LAMP_STATE,Lamp brightness expression,2,2,5,2,1.0,2,3,3,0.6666666666666666,1.0,0.6666666666666666,1.0,0.0,1.0
+gpt-5.4,openai,150,1456952272,15,veyru/1778877873,K_COUNT_EXPR,Count expression,2,2,2,2,1.0,2,0,0,,,,,,
+gpt-5.4,openai,150,1822438676,15,veyru/1778877883,CX1,cloth_placement,2,2,8,2,1.0,2,6,6,0.0,1.0,0.0,1.0,0.5833333333333334,1.0
+gpt-5.4,openai,150,1822438676,15,veyru/1778877883,CX2,fan_scope,2,2,3,2,1.0,2,1,1,0.0,1.0,0.0,1.0,1.0,1.0
+gpt-5.4,openai,250,1082376521,15,veyru/1778877932,PROC12_CX,procedure plus 12-second duration,2,7,8,7,1.0,7,1,1,0.0,1.0,0.0,1.0,0.5,1.0
+gpt-5.4,openai,250,1840551497,15,veyru/1778877941,K1,modified_cloth,2,2,3,2,1.0,2,1,1,1.0,1.0,1.0,1.0,0.5,1.0
+gpt-5.4,openai,250,1840551497,15,veyru/1778877941,K2,procedure_plus_right_face_10s,2,6,14,6,1.0,6,8,8,0.75,1.0,0.75,1.0,0.625,1.0
+claude-sonnet-4-6,anthropic,250,1201171594,15,veyru/1778878790,K1,Degree + intensity,2,2,3,2,1.0,2,1,1,0.0,1.0,0.0,1.0,0.5,1.0
+gpt-5.4,openai,450,507612507,15,veyru/1778878886,K1,lamp_brightness,2,2,2,2,1.0,2,0,0,,,,,,
+claude-opus-4-7,anthropic,250,1108894012,15,veyru/1778878983,CX_MOD_LAMP,modifier + lamp,2,2,6,2,1.0,2,4,4,1.0,1.0,1.0,1.0,0.5,1.0
+claude-opus-4-7,anthropic,250,1108894012,15,veyru/1778878983,CX_E4_SPATIAL,each-of-four spatial unit,2,2,8,2,1.0,2,6,6,0.8333333333333334,1.0,0.8333333333333334,1.0,0.5,1.0
+claude-sonnet-4-6,anthropic,250,1488817174,15,veyru/1778879414,CXN_CORNER_REPORT,corner report,2,2,8,2,1.0,2,6,6,0.6666666666666666,1.0,0.6666666666666666,1.0,0.8333333333333334,1.0
+claude-sonnet-4-6,anthropic,250,1488817174,15,veyru/1778879414,CXN_EDGE_REPORT,edge report,2,3,8,3,1.0,3,5,5,0.6,1.0,0.6,1.0,0.9,1.0
+claude-sonnet-4-6,anthropic,250,1488817174,15,veyru/1778879414,CXN_FACE_REPORT,face report,2,4,10,4,1.0,4,6,6,0.6666666666666666,1.0,0.6666666666666666,1.0,0.9166666666666666,1.0
+claude-sonnet-4-6,anthropic,250,1488817174,15,veyru/1778879414,CXN_HUM_REPORT,hum report,2,8,9,8,1.0,8,1,1,0.0,1.0,0.0,1.0,0.0,1.0
+claude-sonnet-4-6,anthropic,250,1488817174,15,veyru/1778879414,CXN_TEMP_REPORT,temperature report,2,2,2,2,1.0,2,0,0,,,,,,
+claude-sonnet-4-6,anthropic,250,1488817174,15,veyru/1778879414,CXN_PATTERN_REPORT,pattern report,2,4,7,4,1.0,4,3,3,0.3333333333333333,1.0,0.3333333333333333,1.0,0.8333333333333334,1.0
+claude-sonnet-4-6,anthropic,250,1488817174,15,veyru/1778879414,CXN_MESSAGE_FOLLOWUP,message plus followup,2,3,3,3,1.0,3,0,0,,,,,,
+claude-opus-4-7,anthropic,250,41590297,15,veyru/1778879419,CX1,Intensified thermal action,2,4,36,4,1.0,4,32,32,0.0,1.0,0.5625,1.0,0.515625,1.0
+claude-opus-4-7,anthropic,250,41590297,15,veyru/1778879419,CX2,Opposite site,2,3,11,3,1.0,3,8,8,0.75,1.0,0.75,1.0,1.0,1.0
+claude-opus-4-7,anthropic,250,1959388619,15,veyru/1778879551,FIXED_PANEL_FIELD,fixed symptom panel field,2,5,5,5,1.0,5,0,0,,,,,,
+claude-sonnet-4-6,anthropic,450,369394895,15,veyru/1778880866,CX_FAIL_IND,failure with accompanying indicator,3,5,22,5,1.0,5,17,17,1.0,1.0,1.0,1.0,0.8529411764705882,1.0
+claude-opus-4-7,anthropic,450,1524614360,15,veyru/1778881319,K1,repeat-count,2,2,2,2,1.0,2,0,0,,,,,,
+claude-opus-4-7,anthropic,450,1497257848,15,veyru/1778881541,K1,Region-bright compound,2,2,48,2,1.0,2,46,46,1.0,1.0,1.0,1.0,0.9130434782608695,1.0
+claude-sonnet-4-6,anthropic,800,533657164,15,veyru/1778882943,CX_CLOTH_STATE,cloth-state expression,2,2,5,2,1.0,2,3,3,1.0,1.0,1.0,1.0,0.8333333333333334,1.0
+claude-sonnet-4-6,anthropic,800,533657164,15,veyru/1778882943,CX_FAN_TYPE,fan-type expression,2,2,3,2,1.0,2,1,1,1.0,1.0,1.0,1.0,1.0,1.0
+claude-sonnet-4-6,anthropic,800,1868584591,15,veyru/1778883044,CX_PROPERTY_CORNERS,property + corners,2,2,12,2,1.0,3,9,9,0.0,1.0,0.0,1.0,0.7222222222222222,1.0
+claude-opus-4-7,anthropic,800,1506829538,15,veyru/1778883170,CX_HUM_DESC,Hum description,2,13,85,13,1.0,13,72,72,0.08333333333333333,1.0,0.08333333333333333,1.0,0.6041666666666666,1.0
+claude-opus-4-7,anthropic,800,1506829538,15,veyru/1778883170,CX_COLOR,Color expression,2,2,2,2,1.0,2,0,0,,,,,,
+claude-opus-4-7,anthropic,2000,1442105971,15,veyru/1778884598,K1,PropertyFace,2,4,32,4,1.0,4,28,28,0.8571428571428571,1.0,0.8571428571428571,1.0,1.0,1.0
+claude-opus-4-7,anthropic,2000,1118310560,15,veyru/1778884860,K_FACE_REGION,face-region specification,2,2,16,2,1.0,2,14,0,0.8571428571428571,1.0,0.8571428571428571,1.0,0.9642857142857143,1.0
+claude-opus-4-7,anthropic,2000,1118310560,15,veyru/1778884860,K_FAN_SEQUENCE,fan sequence with start face,2,2,16,2,1.0,2,14,0,0.0,1.0,0.0,1.0,0.5,1.0
+gpt-5.4,openai,150,195606919,15,veyru/1780417820,REGION_ON_FACE,region plus parenthesized face,2,2,39,2,1.0,2,37,27,0.0,1.0,0.1891891891891892,1.0,0.8918918918918919,1.0
+gpt-5.4,openai,150,1822438676,15,veyru/1780420992,CF_CONSTR,CF procedure with scope,2,2,2,2,1.0,2,0,0,,,,,,
+claude-sonnet-4-6,anthropic,150,1107666244,15,veyru/1780437444,CX_STATUS,subsystem status report,2,72,115,21,0.2916666666666667,21,94,43,0.8936170212765957,0.924645390070922,0.8936170212765957,0.924645390070922,0.8882978723404256,0.9208776595744681
+claude-sonnet-4-6,anthropic,150,1107666244,15,veyru/1780437444,CX_FAILURE_SUSPECT,failure with suspected part,2,2,2,2,1.0,2,0,0,,,,,,
+claude-sonnet-4-6,anthropic,150,1107666244,15,veyru/1780437444,CX_FACE_REGION,face-derived boundary region,2,6,24,5,0.8333333333333334,5,19,12,0.3684210526315789,0.8947368421052632,0.3684210526315789,0.8947368421052632,0.9736842105263158,0.9956140350877193
+claude-opus-4-7,anthropic,150,195368233,15,veyru/1780437719,CX_INSTRUMENT_TRACE,instrument + trace,2,3,12,3,1.0,3,9,9,0.0,1.0,0.0,1.0,0.5555555555555556,1.0
+claude-opus-4-7,anthropic,150,195368233,15,veyru/1780437719,CX_REPEAT_COUNT,repeat + count,2,2,2,2,1.0,2,0,0,,,,,,
+claude-sonnet-4-6,anthropic,250,1541649163,15,veyru/1780441382,K_STEP_STATUS,step with optional status,3,4,2,3,0.75,1,1,0,1.0,1.0,1.0,1.0,0.5,0.875
+claude-opus-4-7,anthropic,450,978025339,15,veyru/1780442252,CX_FAMILY_RESET,family reset construction,2,5,10,5,1.0,5,5,5,0.0,1.0,0.0,1.0,0.9,1.0
+claude-opus-4-7,anthropic,450,978025339,15,veyru/1780442252,CX_LAMP_STATE,lamp state construction,2,2,3,2,1.0,2,1,1,0.0,1.0,0.0,1.0,0.5,1.0
+claude-opus-4-7,anthropic,450,978025339,15,veyru/1780442252,CX_REPEAT_COUNT,repeat-count construction,2,2,4,2,1.0,2,2,2,0.0,1.0,0.0,1.0,0.5,1.0
+claude-opus-4-7,anthropic,150,1582742009,15,veyru/1780444375,CX_HOT_CASE,hot case with brightness,2,2,35,2,1.0,3,32,32,0.0,1.0,0.0,1.0,0.484375,1.0
+claude-opus-4-7,anthropic,150,1582742009,15,veyru/1780444375,CX_RESOURCE_COUNT,counted resource,2,6,6,6,1.0,6,0,0,,,,,,
+claude-opus-4-7,anthropic,150,1682950403,15,veyru/1780445165,CX_BELL,bell procedure,2,5,90,5,1.0,8,82,82,0.2926829268292683,1.0,0.2926829268292683,1.0,0.75,1.0
+claude-opus-4-7,anthropic,150,1682950403,15,veyru/1780445165,CX_WARM,warm-stone procedure,2,3,78,3,1.0,0,0,0,,,,,,
+claude-opus-4-7,anthropic,150,1682950403,15,veyru/1780445165,CX_REPEAT,counted repetition,2,3,3,3,1.0,3,0,0,,,,,,
+claude-opus-4-7,anthropic,250,1108894012,15,veyru/1780446220,C_K4_FACE,Four corners of face,2,2,26,2,1.0,2,24,24,0.875,1.0,0.875,1.0,1.0,1.0
+claude-opus-4-7,anthropic,250,1959388619,15,veyru/1780446940,CX_SINGLE_FACE_LIGHT_LEVEL,single-face light level,2,2,14,2,1.0,2,12,12,0.3333333333333333,1.0,0.3333333333333333,1.0,0.8333333333333334,1.0
+claude-opus-4-7,anthropic,800,511873730,15,veyru/1780448643,K_TARGETED_ACTION,targeted action,2,5,77,5,1.0,5,72,72,0.0,1.0,0.0,1.0,0.8125,1.0
+claude-opus-4-7,anthropic,800,1506829538,15,veyru/1780449113,K1,Glow at location,2,2,21,2,1.0,2,19,18,1.0,1.0,1.0,1.0,0.9736842105263158,1.0
+gpt-5.4,openai,250,1245697238,15,veyru/1780588076,CX_LAMP_MOD,lamp with brightness modifier,2,2,6,2,1.0,2,4,4,0.0,1.0,0.0,1.0,1.0,1.0
+gpt-5.4,openai,450,124608717,15,veyru/1780590206,CX_SCOPE,procedure plus face-scope,2,4,24,3,0.75,5,19,18,0.0,0.75,0.0,0.75,0.8947368421052632,0.9736842105263158
+gpt-5.4,openai,450,124608717,15,veyru/1780590206,CX_DISTR,procedure plus all-faces distribution,2,2,24,2,1.0,0,0,0,,,,,,
+claude-sonnet-4-6,anthropic,250,369777122,15,veyru/1780600846,K1,object-placement,2,12,12,7,0.5833333333333334,7,5,0,1.0,1.0,1.0,1.0,0.9,0.9583333333333334
+claude-sonnet-4-6,anthropic,450,856216628,15,veyru/1780606103,K1,Toolkit inventory update,2,2,2,2,1.0,2,0,0,,,,,,
+claude-sonnet-4-6,anthropic,800,1186281533,15,veyru/1780608292,CX_LAMP_BRIGHTNESS,lamp brightness construction,2,2,2,2,1.0,2,0,0,,,,,,
+claude-opus-4-7,anthropic,800,422090940,15,veyru/1780613142,CX_HUM_PATTERN,hum pattern,2,2,4,2,1.0,2,2,2,0.0,1.0,0.0,1.0,0.5,1.0
+claude-opus-4-7,anthropic,800,422090940,15,veyru/1780613142,CX_INSTRUMENT_TRACE,instrument trace,2,2,32,2,1.0,2,30,29,1.0,1.0,1.0,1.0,0.85,1.0
+claude-sonnet-4-6,anthropic,250,1201171594,15,veyru/1780615588,K_LAMP_STATE,lamp with brightness-state modifier,2,2,9,2,1.0,2,7,7,0.8571428571428571,1.0,0.8571428571428571,1.0,0.8571428571428571,1.0
+claude-sonnet-4-6,anthropic,450,924827217,15,veyru/1780617581,K1,Lamp brightness expression,2,2,3,2,1.0,2,1,1,1.0,1.0,1.0,1.0,1.0,1.0
+claude-opus-4-7,anthropic,450,1497257848,15,veyru/1780617759,CX_LP,lamp setting,2,2,16,2,1.0,2,14,14,0.7142857142857143,1.0,0.7142857142857143,1.0,0.8571428571428571,1.0
+claude-opus-4-7,anthropic,450,1497257848,15,veyru/1780617759,CX_TN,tone application,2,4,12,4,1.0,4,8,8,1.0,1.0,1.0,1.0,0.75,1.0
+claude-opus-4-7,anthropic,450,1497257848,15,veyru/1780617759,CX_FN,fan application,2,2,10,2,1.0,2,8,8,1.0,1.0,1.0,1.0,0.9375,1.0
+claude-opus-4-7,anthropic,450,1497257848,15,veyru/1780617759,CX_BD,board operation,2,2,6,2,1.0,2,4,2,0.5,1.0,0.5,1.0,0.625,1.0
+claude-opus-4-7,anthropic,450,1497257848,15,veyru/1780617759,CX_BL,bell pattern,2,2,20,2,1.0,2,18,16,1.0,1.0,1.0,1.0,0.9722222222222222,1.0
+claude-opus-4-7,anthropic,450,1497257848,15,veyru/1780617759,CX_DRAPE,drape coverage,2,2,14,2,1.0,2,12,12,0.5,1.0,0.5,1.0,0.9166666666666666,1.0
+claude-sonnet-4-6,anthropic,800,1675439230,15,veyru/1780619478,K_CYCLE_COUNT,cycle count expression,2,2,3,2,1.0,2,1,1,0.0,1.0,0.0,1.0,0.5,1.0
+claude-sonnet-4-6,anthropic,800,1675439230,15,veyru/1780619478,K_PAUSE_SECONDS,pause duration expression,2,2,2,2,1.0,2,0,0,,,,,,
+claude-opus-4-7,anthropic,800,852236905,15,veyru/1781083392,CX1,Temperature-specified cloth,2,2,2,2,1.0,2,0,0,,,,,,
+claude-opus-4-7,anthropic,800,852236905,15,veyru/1781083392,CX2,Source-specified tone,2,2,4,2,1.0,2,2,2,0.0,1.0,0.0,1.0,1.0,1.0

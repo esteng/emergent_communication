@@ -1,0 +1,94 @@
+{
+  "run_key": "veyru/1778878790",
+  "status": "analyzed",
+  "n_codes": 34,
+  "n_multimorpheme": 2,
+  "report": {
+    "encoder_agent": "stabilization_engineer",
+    "decoder_agent": "field_observer",
+    "encoder_model": "claude-sonnet-4-6",
+    "decoder_model": "claude-sonnet-4-6",
+    "context_budget": 250,
+    "n_cells": 3,
+    "exact_match_rate": 0.6666666666666666,
+    "swapped_order_rate": 0.0,
+    "bag_match_rate": 0.6666666666666666,
+    "decode_rate": 0.8333333333333334,
+    "decoder_valid_rate": 0.6666666666666666,
+    "decode_negative_control_rate": 0.0,
+    "decode_positive_control_rate": 1.0,
+    "per_role": [
+      {
+        "slot_id": "K1",
+        "slot_label": "Degree + intensity",
+        "n": 3,
+        "exact_match_rate": 0.6666666666666666,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.6666666666666666,
+        "decode_rate": 0.8333333333333334
+      }
+    ],
+    "per_depth": [
+      {
+        "length": 2,
+        "n": 3,
+        "exact_match_rate": 0.6666666666666666,
+        "decode_rate": 0.8333333333333334
+      }
+    ],
+    "per_purpose": [
+      {
+        "purpose": "grounded_control",
+        "n": 2,
+        "exact_match_rate": 1.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 1.0,
+        "decode_rate": 1.0
+      },
+      {
+        "purpose": "grounded_novel_role_pooled",
+        "n": 1,
+        "exact_match_rate": 0.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.0,
+        "decode_rate": 0.5
+      }
+    ],
+    "per_construction": [
+      {
+        "construction_id": "K1",
+        "n": 3,
+        "n_control": 2,
+        "n_novel": 1,
+        "exact_match_rate": 0.6666666666666666,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.6666666666666666,
+        "decode_rate": 0.8333333333333334,
+        "novel_exact_match_rate": 0.0,
+        "novel_decode_rate": 0.5
+      }
+    ],
+    "per_slot_generalization": [
+      {
+        "slot_id": "pos0",
+        "slot_label": "DEGREE",
+        "slot_role": "prefix",
+        "pooled": true,
+        "n": 1,
+        "valid_rate": 0.0,
+        "exact_match_rate": 0.0,
+        "decode_rate": 0.5
+      },
+      {
+        "slot_id": "pos1",
+        "slot_label": "INTENSITY_BASE",
+        "slot_role": "stem",
+        "pooled": false,
+        "n": 1,
+        "valid_rate": 0.0,
+        "exact_match_rate": 0.0,
+        "decode_rate": 0.5
+      }
+    ]
+  }
+}

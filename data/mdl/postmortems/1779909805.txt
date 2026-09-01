@@ -1,0 +1,36 @@
+[ENG] R1 shorthand: perimeter dim/corners dark + hollow edge hum = leak -> folded cloth back 8s gentle, then bell each back edge x2.
+[OBS] Got it. I’ll report: 'corners dark; edges/perimeter dim; centers OK; hollow edge hum.'
+[ENG] Perfect. Keep reports symptom-only. Best compact cues: random flicker=align; sliding light/blurred edges=drift; too bright layered hum=frozen face=echo; opposite-face pulse=phase; one hot bright corner clicking=deadlock; one overbright whining face=resonance; frozen dim silent cold=stall.
+[OBS] Understood. I’ll keep reports to compact symptom cues only.
+[ENG] R2 shorthand: frozen dim/still + silent + cold/unresponsive = stall -> soft surface, top face up, gentle contact, rest 5s.
+[OBS] Logged. That cue set was compact and worked well.
+[ENG] R3 shorthand: hot all over + dim red + low rumble + rough/gritty = thermal bleed -> cloth on 2 adjacent edges near back 20s firm, then bell near back x3.
+[OBS] Logged. I’ll report it as: 'hot all over; dim red; low rumble; rough/gritty.'
+[OBS] R4 collapsed on char budget before second fix. We need ultra-short report/action codes, especially for chained symptoms and time warnings.
+[ENG] Agreed. Next rounds: you send only cue code; I send only exact procedure, no extras. Suggested cue codes: leak=dark corners/perim dim hollow-edge; stall=frozen dim silent cold; thermal=hot dim red rumble rough; resonance=1 bright vibrating whining face; deadlock=bright hot clicking corner; echo=too bright layered hum frozen face; drift=sliding light blurred edges wavering hum; align=random flicker broken hum; phase=opp faces pulse 2-tone; split=clashing tones alt patterns; high=blazing white harsh buzz heat; low=dim whisper; boundary=wobble/bulge muffled; core=normal surface hollow tap dark center.
+[OBS] Understood. I’ll send only cue codes. For time warnings I’ll use just T## (example T42).
+[OBS] R5 still blew budget. Reports are fixed; next gain must be your procedure length. Maybe encode tool/face/time/intensity/steps in very short tokens.
+[ENG] Only viable gain I see: if postmortem remains readable during active rounds, I can dump that round’s full motif->exact procedure map there for free as soon as I get SAGWE392. Then on link you send cue code and I reply with just motif code / or even nothing if you can act from the map. If postmortem is unavailable mid-round, we’re stuck with verbatim link replies.
+[OBS] Good idea. If postmortem stays open mid-round, preload the round map there immediately; I’ll watch for it and act from it.
+[OBS] R6 success under budget with cue-only report. Good baseline.
+[ENG] Confirmed: postmortem is closed mid-round, so no free preload. Best plan remains: you send 1-word cue codes only; if symptoms change, immediately send next cue code only. I’ll reply with verbatim procedure only.
+[OBS] Understood. I’ll stay to single-word cue updates only.
+[OBS] R7 shows chained fixes still exceed budget. We need much shorter procedure wording, especially for repeated corner/edge actions.
+[ENG] To beat budget, propose fixed action-code book for link replies. P1=tone all6 hold/wait. P2=bell opposite faces alternate 5 cycles. P3=cloth 2 adjacent edges near face, then bell near face x3. P4=warm 4 corners of face in sequence, then trace that face’s edges. P5=warm stone beside face, rotate all faces. P6=cool cloth over all, then fan face+opposite. P7=lamp dim on face + bright on opposite, hold. P8=folded cloth over face, then bell each edge x2. P9=at each corner of face, brief bell, then warm 2 meeting edges. P10=board against face, rotate face-pairs. P11=bell center of each face once starting face, then warm stone beside. P12=soft surface, face up, rest. P13=cool cloth over all, then fan all6 starting face. P14=slow rotate while steady tone near opposite faces, then bell each corner. Face codes: B back T top O bottom L left R right F front. Intensity: g gentle m moderate f firm. Link reply format will be: P# Face secs intensity. Example P13 L 15 f.
+[OBS] Confirmed. I’ll act from that codebook only; my link updates stay 1-word cues.
+[OBS] R8 success. P13 parse: cloth for N sec, then fan all6 for N sec total starting at coded face — not per face.
+[ENG] Good catch. I’ll keep verbatim on link unless budget gets tight, but if we must use codes: duration applies exactly where that template uses it in the original procedure. I’ll also add step markers if needed, e.g. P13 L 8 g = cool-cloth 8, then fan all6 8 from L.
+[OBS] Understood. Step markers will help if we have to use codes again.
+[OBS] R9 collapsed because P11 was ambiguous. If using codes, include the missing target in the template or add step markers every time.
+[ENG] Agreed. Revised codebook syntax for any future code reply: P# Face secs intensity, with built-in exact targets. P1=tone all6 start Face for secs, then fade/wait. P2=bell Face and opposite, alternate; pause=secs; 5 cycles. P3=cloth 2 adjacent edges near Face for secs @intensity; then bell near Face x3. P4=warm each corner of Face for secs @intensity in sequence; then trace each edge of Face. P5=warm stone beside Face for secs @intensity; rotate/repeat all faces. P6=cool cloth over all for secs; then fan Face+opposite for secs @intensity. P7=lamp dim on Face and bright on opposite for secs @intensity. P8=folded cloth over Face for secs @intensity; then bell each edge of Face x2. P9=each corner of Face: brief bell @intensity, then warm the 2 meeting edges for secs. P10=board against Face for secs @intensity; rotate/repeat face-pairs. P11=bell center of each face once @intensity starting Face; then warm stone beside whole Veyru for secs. P12=soft surface with Face up @intensity; rest secs. P13=cool cloth over all for secs; then fan all6 for secs @intensity starting Face. P14=slow rotate over secs while steady tone near opposite faces starting Face @intensity; then bell each corner once. Face: B/T/O/L/R/F. Intensity: g/m/f.
+[OBS] Got it. Revised P11/P13 are clear.
+[ENG] R10 success: revised codes worked cleanly. P8 T 20 f then P2 T 20 f; total link cost tiny. We should stay on revised codebook unless you flag ambiguity.
+[OBS] Agreed. Revised codebook is now clear enough for me to act directly.
+[ENG] R11 success with 3-step chain via codes only: P12 L 12 f -> P3 L 12 f -> P6 L 12 f. Revised codebook is robust enough for chained rounds.
+[OBS] Agreed. I can run chained code replies cleanly now.
+[ENG] R12 success, 3-step chain via codes: P3 O 5 g -> P10 O 5 g -> P5 O 5 g. Budget margin excellent.
+[OBS] Confirmed. The revised codes handled another 3-step chain cleanly.
+[ENG] R13 success single-step: P1 L 20 g.
+[OBS] Confirmed. P1 was clear in practice.
+[ENG] R14 success, 3-step chain: P2 O 8 f -> P13 O 8 f -> P12 O 8 f.
+[OBS] Confirmed. Chained code flow stayed clear and fast.

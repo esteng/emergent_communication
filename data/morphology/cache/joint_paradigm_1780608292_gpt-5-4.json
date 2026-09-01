@@ -1,0 +1,275 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780608292",
+    "slots": [
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "LAMP-",
+            "gloss": "lamp",
+            "support": 2,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "suffix",
+        "fillers": [
+          {
+            "form": "B",
+            "gloss": "bright",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "D",
+            "gloss": "dim",
+            "support": 1,
+            "is_defined": false
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "C": [
+        "C"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "H": [
+        "H"
+      ],
+      "LAMP-D": [
+        "LAMP-",
+        "D"
+      ],
+      "LAMP-B": [
+        "LAMP-",
+        "B"
+      ],
+      "CLOTH-F": [
+        "CLOTH-F"
+      ],
+      "BELL-2": [
+        "BELL-2"
+      ]
+    },
+    "head_index": {
+      "C": 0,
+      "E": 0,
+      "F": 0,
+      "H": 0,
+      "LAMP-D": 0,
+      "LAMP-B": 0,
+      "CLOTH-F": 0,
+      "BELL-2": 0
+    },
+    "attested_orderings": [
+      [
+        "stem",
+        "suffix"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [],
+    "form_positions": {
+      "LAMP-": 0,
+      "D": 1,
+      "B": 1
+    },
+    "position_labels": {
+      "0": "lamp base",
+      "1": "lamp brightness"
+    },
+    "positions_by_symbol": {
+      "LAMP-D": [
+        0,
+        1
+      ],
+      "LAMP-B": [
+        0,
+        1
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "LAMP-": "lamp"
+      },
+      "1": {
+        "D": "dim",
+        "B": "bright"
+      }
+    },
+    "meaning_by_symbol": {
+      "C": "corners",
+      "E": "edges",
+      "F": "faces",
+      "H": "hum",
+      "LAMP-D": "dim lamp",
+      "LAMP-B": "bright lamp",
+      "CLOTH-F": "firm cloth",
+      "BELL-2": "bell twice"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780608292",
+    "n_codes": 8,
+    "n_multimorpheme": 2,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "stem",
+        "label": "lamp base",
+        "fillers": [
+          {
+            "form": "LAMP-",
+            "gloss": "lamp",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "suffix",
+        "label": "lamp brightness",
+        "fillers": [
+          {
+            "form": "B",
+            "gloss": "bright",
+            "count": 1
+          },
+          {
+            "form": "D",
+            "gloss": "dim",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 1.0,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "LAMP-D": [
+        "pos0",
+        "pos1"
+      ],
+      "LAMP-B": [
+        "pos0",
+        "pos1"
+      ]
+    },
+    "construction_by_symbol": {
+      "LAMP-D": "CX_LAMP_BRIGHTNESS",
+      "LAMP-B": "CX_LAMP_BRIGHTNESS"
+    },
+    "construction_labels": {
+      "CX_LAMP_BRIGHTNESS": "lamp brightness construction"
+    },
+    "construction_templates": {
+      "CX_LAMP_BRIGHTNESS": [
+        "pos0",
+        "pos1"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "Only LAMP-D and LAMP-B support a compositional paradigm: they share the frame LAMP- + X, X alternates with a meaning contrast (dim vs bright), and each whole meaning is predictable from the parts. No other proposed split is supported by a substitution contrast, so C, E, F, H, CLOTH-F, and BELL-2 remain lexical symbols. In particular, BELL-2 could in principle contain a count morpheme, but with no contrasting counts in the same frame there is insufficient evidence; CLOTH-F likewise lacks a contrasting partner.",
+    "lexical_symbols": [
+      "C",
+      "E",
+      "F",
+      "H",
+      "CLOTH-F",
+      "BELL-2"
+    ],
+    "classes": [
+      {
+        "class_id": "CLS_LAMP_BASE",
+        "label": "lamp base",
+        "description": "Base naming the lamp referent.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CLS_LAMP_BRIGHTNESS",
+        "label": "lamp brightness",
+        "description": "Brightness setting applied to the lamp.",
+        "repeatable": false,
+        "declared_fillers": []
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "CX_LAMP_BRIGHTNESS",
+        "label": "lamp brightness construction",
+        "description": "Lamp base followed by a brightness modifier.",
+        "class_sequence": [
+          "CLS_LAMP_BASE",
+          "CLS_LAMP_BRIGHTNESS"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "LAMP-D",
+        "construction_id": "CX_LAMP_BRIGHTNESS",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "LAMP-",
+            "class_id": "CLS_LAMP_BASE",
+            "gloss": "lamp"
+          },
+          {
+            "form": "D",
+            "class_id": "CLS_LAMP_BRIGHTNESS",
+            "gloss": "dim"
+          }
+        ]
+      },
+      {
+        "symbol": "LAMP-B",
+        "construction_id": "CX_LAMP_BRIGHTNESS",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "LAMP-",
+            "class_id": "CLS_LAMP_BASE",
+            "gloss": "lamp"
+          },
+          {
+            "form": "B",
+            "class_id": "CLS_LAMP_BRIGHTNESS",
+            "gloss": "bright"
+          }
+        ]
+      }
+    ]
+  }
+}

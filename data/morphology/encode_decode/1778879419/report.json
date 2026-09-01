@@ -1,0 +1,155 @@
+{
+  "run_key": "veyru/1778879419",
+  "status": "analyzed",
+  "n_codes": 115,
+  "n_multimorpheme": 7,
+  "report": {
+    "encoder_agent": "stabilization_engineer",
+    "decoder_agent": "field_observer",
+    "encoder_model": "claude-opus-4-7",
+    "decoder_model": "claude-opus-4-7",
+    "context_budget": 250,
+    "n_cells": 47,
+    "exact_match_rate": 0.23404255319148937,
+    "swapped_order_rate": 0.3829787234042553,
+    "bag_match_rate": 0.6170212765957447,
+    "decode_rate": 0.6595744680851063,
+    "decoder_valid_rate": 0.19148936170212766,
+    "decode_negative_control_rate": 0.95,
+    "decode_positive_control_rate": 1.0,
+    "per_role": [
+      {
+        "slot_id": "CX1",
+        "slot_label": "Intensified thermal action",
+        "n": 36,
+        "exact_match_rate": 0.05555555555555555,
+        "swapped_order_rate": 0.5,
+        "bag_match_rate": 0.5555555555555556,
+        "decode_rate": 0.5555555555555556
+      },
+      {
+        "slot_id": "CX2",
+        "slot_label": "Opposite site",
+        "n": 11,
+        "exact_match_rate": 0.8181818181818182,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.8181818181818182,
+        "decode_rate": 1.0
+      }
+    ],
+    "per_depth": [
+      {
+        "length": 2,
+        "n": 47,
+        "exact_match_rate": 0.23404255319148937,
+        "decode_rate": 0.6595744680851063
+      }
+    ],
+    "per_purpose": [
+      {
+        "purpose": "grounded_control",
+        "n": 7,
+        "exact_match_rate": 0.7142857142857143,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.7142857142857143,
+        "decode_rate": 0.9285714285714286
+      },
+      {
+        "purpose": "grounded_novel_role_pooled",
+        "n": 40,
+        "exact_match_rate": 0.15,
+        "swapped_order_rate": 0.45,
+        "bag_match_rate": 0.6,
+        "decode_rate": 0.6125
+      }
+    ],
+    "per_construction": [
+      {
+        "construction_id": "CX1",
+        "n": 36,
+        "n_control": 4,
+        "n_novel": 32,
+        "exact_match_rate": 0.05555555555555555,
+        "swapped_order_rate": 0.5,
+        "bag_match_rate": 0.5555555555555556,
+        "decode_rate": 0.5555555555555556,
+        "novel_exact_match_rate": 0.0,
+        "novel_decode_rate": 0.515625
+      },
+      {
+        "construction_id": "CX2",
+        "n": 11,
+        "n_control": 3,
+        "n_novel": 8,
+        "exact_match_rate": 0.8181818181818182,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.8181818181818182,
+        "decode_rate": 1.0,
+        "novel_exact_match_rate": 0.75,
+        "novel_decode_rate": 1.0
+      }
+    ],
+    "per_slot_generalization": [
+      {
+        "slot_id": "pos0",
+        "slot_label": "Intensity",
+        "slot_role": "prefix",
+        "pooled": false,
+        "n": 8,
+        "valid_rate": 0.125,
+        "exact_match_rate": 0.0,
+        "decode_rate": 0.5
+      },
+      {
+        "slot_id": "pos0",
+        "slot_label": "Intensity",
+        "slot_role": "prefix",
+        "pooled": true,
+        "n": 24,
+        "valid_rate": 0.25,
+        "exact_match_rate": 0.0,
+        "decode_rate": 0.5208333333333334
+      },
+      {
+        "slot_id": "pos1",
+        "slot_label": "Thermal action",
+        "slot_role": "stem",
+        "pooled": false,
+        "n": 8,
+        "valid_rate": 0.5,
+        "exact_match_rate": 0.0,
+        "decode_rate": 0.6875
+      },
+      {
+        "slot_id": "pos1",
+        "slot_label": "Thermal action",
+        "slot_role": "stem",
+        "pooled": true,
+        "n": 24,
+        "valid_rate": 0.125,
+        "exact_match_rate": 0.0,
+        "decode_rate": 0.4583333333333333
+      },
+      {
+        "slot_id": "pos2",
+        "slot_label": "Opposition marker",
+        "slot_role": "prefix",
+        "pooled": false,
+        "n": 8,
+        "valid_rate": 0.0,
+        "exact_match_rate": 0.75,
+        "decode_rate": 1.0
+      },
+      {
+        "slot_id": "pos3",
+        "slot_label": "Site type",
+        "slot_role": "stem",
+        "pooled": true,
+        "n": 8,
+        "valid_rate": 0.0,
+        "exact_match_rate": 0.75,
+        "decode_rate": 1.0
+      }
+    ]
+  }
+}

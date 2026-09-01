@@ -1,0 +1,407 @@
+{
+  "run_key": "veyru/1780617759",
+  "status": "analyzed",
+  "n_codes": 99,
+  "n_multimorpheme": 14,
+  "report": {
+    "encoder_agent": "stabilization_engineer",
+    "decoder_agent": "field_observer",
+    "encoder_model": "claude-opus-4-7",
+    "decoder_model": "claude-opus-4-7",
+    "context_budget": 450,
+    "n_cells": 78,
+    "exact_match_rate": 0.8205128205128205,
+    "swapped_order_rate": 0.0,
+    "bag_match_rate": 0.8205128205128205,
+    "decode_rate": 0.8846153846153846,
+    "decoder_valid_rate": 0.6153846153846154,
+    "decode_negative_control_rate": 1.0,
+    "decode_positive_control_rate": 1.0,
+    "per_role": [
+      {
+        "slot_id": "CX_BD",
+        "slot_label": "board operation",
+        "n": 6,
+        "exact_match_rate": 0.6666666666666666,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.6666666666666666,
+        "decode_rate": 0.6666666666666666
+      },
+      {
+        "slot_id": "CX_BL",
+        "slot_label": "bell pattern",
+        "n": 20,
+        "exact_match_rate": 1.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 1.0,
+        "decode_rate": 0.975
+      },
+      {
+        "slot_id": "CX_DRAPE",
+        "slot_label": "drape coverage",
+        "n": 14,
+        "exact_match_rate": 0.42857142857142855,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.42857142857142855,
+        "decode_rate": 0.8928571428571429
+      },
+      {
+        "slot_id": "CX_FN",
+        "slot_label": "fan application",
+        "n": 10,
+        "exact_match_rate": 1.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 1.0,
+        "decode_rate": 0.95
+      },
+      {
+        "slot_id": "CX_LP",
+        "slot_label": "lamp setting",
+        "n": 16,
+        "exact_match_rate": 0.75,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.75,
+        "decode_rate": 0.84375
+      },
+      {
+        "slot_id": "CX_TN",
+        "slot_label": "tone application",
+        "n": 12,
+        "exact_match_rate": 1.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 1.0,
+        "decode_rate": 0.8333333333333334
+      }
+    ],
+    "per_depth": [
+      {
+        "length": 2,
+        "n": 78,
+        "exact_match_rate": 0.8205128205128205,
+        "decode_rate": 0.8846153846153846
+      }
+    ],
+    "per_purpose": [
+      {
+        "purpose": "grounded_control",
+        "n": 14,
+        "exact_match_rate": 0.8571428571428571,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.8571428571428571,
+        "decode_rate": 0.8928571428571429
+      },
+      {
+        "purpose": "grounded_novel",
+        "n": 4,
+        "exact_match_rate": 1.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 1.0,
+        "decode_rate": 0.875
+      },
+      {
+        "purpose": "grounded_novel_role_pooled",
+        "n": 60,
+        "exact_match_rate": 0.8,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.8,
+        "decode_rate": 0.8833333333333333
+      }
+    ],
+    "per_construction": [
+      {
+        "construction_id": "CX_BD",
+        "n": 6,
+        "n_control": 2,
+        "n_novel": 4,
+        "exact_match_rate": 0.6666666666666666,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.6666666666666666,
+        "decode_rate": 0.6666666666666666,
+        "novel_exact_match_rate": 0.5,
+        "novel_decode_rate": 0.625
+      },
+      {
+        "construction_id": "CX_BL",
+        "n": 20,
+        "n_control": 2,
+        "n_novel": 18,
+        "exact_match_rate": 1.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 1.0,
+        "decode_rate": 0.975,
+        "novel_exact_match_rate": 1.0,
+        "novel_decode_rate": 0.9722222222222222
+      },
+      {
+        "construction_id": "CX_DRAPE",
+        "n": 14,
+        "n_control": 2,
+        "n_novel": 12,
+        "exact_match_rate": 0.42857142857142855,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.42857142857142855,
+        "decode_rate": 0.8928571428571429,
+        "novel_exact_match_rate": 0.5,
+        "novel_decode_rate": 0.9166666666666666
+      },
+      {
+        "construction_id": "CX_FN",
+        "n": 10,
+        "n_control": 2,
+        "n_novel": 8,
+        "exact_match_rate": 1.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 1.0,
+        "decode_rate": 0.95,
+        "novel_exact_match_rate": 1.0,
+        "novel_decode_rate": 0.9375
+      },
+      {
+        "construction_id": "CX_LP",
+        "n": 16,
+        "n_control": 2,
+        "n_novel": 14,
+        "exact_match_rate": 0.75,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 0.75,
+        "decode_rate": 0.84375,
+        "novel_exact_match_rate": 0.7142857142857143,
+        "novel_decode_rate": 0.8571428571428571
+      },
+      {
+        "construction_id": "CX_TN",
+        "n": 12,
+        "n_control": 4,
+        "n_novel": 8,
+        "exact_match_rate": 1.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 1.0,
+        "decode_rate": 0.8333333333333334,
+        "novel_exact_match_rate": 1.0,
+        "novel_decode_rate": 0.75
+      }
+    ],
+    "per_slot_generalization": [
+      {
+        "slot_id": "pos0",
+        "slot_label": "lamp base",
+        "slot_role": "stem",
+        "pooled": false,
+        "n": 6,
+        "valid_rate": 0.3333333333333333,
+        "exact_match_rate": 0.6666666666666666,
+        "decode_rate": 0.8333333333333334
+      },
+      {
+        "slot_id": "pos0",
+        "slot_label": "lamp base",
+        "slot_role": "stem",
+        "pooled": true,
+        "n": 8,
+        "valid_rate": 0.5,
+        "exact_match_rate": 0.75,
+        "decode_rate": 0.875
+      },
+      {
+        "slot_id": "pos1",
+        "slot_label": "lamp brightness setting",
+        "slot_role": "suffix",
+        "pooled": false,
+        "n": 2,
+        "valid_rate": 1.0,
+        "exact_match_rate": 1.0,
+        "decode_rate": 1.0
+      },
+      {
+        "slot_id": "pos1",
+        "slot_label": "lamp brightness setting",
+        "slot_role": "suffix",
+        "pooled": true,
+        "n": 12,
+        "valid_rate": 0.3333333333333333,
+        "exact_match_rate": 0.6666666666666666,
+        "decode_rate": 0.8333333333333334
+      },
+      {
+        "slot_id": "pos10",
+        "slot_label": "drape base",
+        "slot_role": "stem",
+        "pooled": false,
+        "n": 5,
+        "valid_rate": 0.2,
+        "exact_match_rate": 0.6,
+        "decode_rate": 1.0
+      },
+      {
+        "slot_id": "pos10",
+        "slot_label": "drape base",
+        "slot_role": "stem",
+        "pooled": true,
+        "n": 7,
+        "valid_rate": 0.42857142857142855,
+        "exact_match_rate": 0.42857142857142855,
+        "decode_rate": 0.8571428571428571
+      },
+      {
+        "slot_id": "pos11",
+        "slot_label": "drape coverage",
+        "slot_role": "suffix",
+        "pooled": false,
+        "n": 2,
+        "valid_rate": 1.0,
+        "exact_match_rate": 0.0,
+        "decode_rate": 0.75
+      },
+      {
+        "slot_id": "pos11",
+        "slot_label": "drape coverage",
+        "slot_role": "suffix",
+        "pooled": true,
+        "n": 10,
+        "valid_rate": 0.2,
+        "exact_match_rate": 0.6,
+        "decode_rate": 0.95
+      },
+      {
+        "slot_id": "pos2",
+        "slot_label": "sustained-tone base",
+        "slot_role": "stem",
+        "pooled": false,
+        "n": 2,
+        "valid_rate": 0.0,
+        "exact_match_rate": 1.0,
+        "decode_rate": 1.0
+      },
+      {
+        "slot_id": "pos2",
+        "slot_label": "sustained-tone base",
+        "slot_role": "stem",
+        "pooled": true,
+        "n": 6,
+        "valid_rate": 0.6666666666666666,
+        "exact_match_rate": 1.0,
+        "decode_rate": 0.6666666666666666
+      },
+      {
+        "slot_id": "pos3",
+        "slot_label": "tone application mode",
+        "slot_role": "suffix",
+        "pooled": false,
+        "n": 4,
+        "valid_rate": 1.0,
+        "exact_match_rate": 1.0,
+        "decode_rate": 0.75
+      },
+      {
+        "slot_id": "pos3",
+        "slot_label": "tone application mode",
+        "slot_role": "suffix",
+        "pooled": true,
+        "n": 4,
+        "valid_rate": 0.0,
+        "exact_match_rate": 1.0,
+        "decode_rate": 0.75
+      },
+      {
+        "slot_id": "pos4",
+        "slot_label": "fan base",
+        "slot_role": "stem",
+        "pooled": false,
+        "n": 3,
+        "valid_rate": 0.3333333333333333,
+        "exact_match_rate": 1.0,
+        "decode_rate": 0.8333333333333334
+      },
+      {
+        "slot_id": "pos4",
+        "slot_label": "fan base",
+        "slot_role": "stem",
+        "pooled": true,
+        "n": 5,
+        "valid_rate": 0.6,
+        "exact_match_rate": 1.0,
+        "decode_rate": 1.0
+      },
+      {
+        "slot_id": "pos5",
+        "slot_label": "fan application mode",
+        "slot_role": "suffix",
+        "pooled": false,
+        "n": 2,
+        "valid_rate": 1.0,
+        "exact_match_rate": 1.0,
+        "decode_rate": 1.0
+      },
+      {
+        "slot_id": "pos5",
+        "slot_label": "fan application mode",
+        "slot_role": "suffix",
+        "pooled": true,
+        "n": 6,
+        "valid_rate": 0.3333333333333333,
+        "exact_match_rate": 1.0,
+        "decode_rate": 0.9166666666666666
+      },
+      {
+        "slot_id": "pos6",
+        "slot_label": "board base",
+        "slot_role": "stem",
+        "pooled": false,
+        "n": 4,
+        "valid_rate": 0.5,
+        "exact_match_rate": 0.5,
+        "decode_rate": 0.625
+      },
+      {
+        "slot_id": "pos7",
+        "slot_label": "board operation",
+        "slot_role": "suffix",
+        "pooled": false,
+        "n": 2,
+        "valid_rate": 1.0,
+        "exact_match_rate": 1.0,
+        "decode_rate": 0.75
+      },
+      {
+        "slot_id": "pos7",
+        "slot_label": "board operation",
+        "slot_role": "suffix",
+        "pooled": true,
+        "n": 2,
+        "valid_rate": 0.0,
+        "exact_match_rate": 0.0,
+        "decode_rate": 0.5
+      },
+      {
+        "slot_id": "pos8",
+        "slot_label": "bell base",
+        "slot_role": "stem",
+        "pooled": false,
+        "n": 18,
+        "valid_rate": 0.7777777777777778,
+        "exact_match_rate": 1.0,
+        "decode_rate": 0.9722222222222222
+      },
+      {
+        "slot_id": "pos9",
+        "slot_label": "bell striking pattern",
+        "slot_role": "suffix",
+        "pooled": false,
+        "n": 2,
+        "valid_rate": 1.0,
+        "exact_match_rate": 1.0,
+        "decode_rate": 1.0
+      },
+      {
+        "slot_id": "pos9",
+        "slot_label": "bell striking pattern",
+        "slot_role": "suffix",
+        "pooled": true,
+        "n": 16,
+        "valid_rate": 0.75,
+        "exact_match_rate": 1.0,
+        "decode_rate": 0.96875
+      }
+    ]
+  }
+}

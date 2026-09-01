@@ -1,0 +1,610 @@
+[OBS] We went over by 17 chars. My opening report was 83 chars — too long. We need much shorter messages. Can we agree on abbreviations? E.g. "C"=corners, "E"=edges, "F"=faces, "H"=hum, "D"=dark/dim, "OK"=fine, "→"=then. Also: when stabilize fails, should I just retry the full sequence rather than asking you? That would save the back-and-forth message cost. What's your take?
+[ENG] Tough round — we went 17 chars over budget (267 vs 250). Here's the breakdown of what cost us:
+
+- Your observation message: ~83 chars
+- My instruction: 141 chars (the procedure verbatim was long)
+- Your follow-up "ineffective" message: ~37 chars
+- My attempted clarification: closed before sending
+
+The core issue: the procedure had TWO steps — cloth first, THEN bell on each edge. When you said the cloth was ineffective, you may not have moved to step 2 yet. I should have sent both steps more clearly delineated, and you should complete all steps before reporting back.
+
+For next round, let's establish shorthand:
+- Report symptoms in as few words as possible (you did great this round — ~83 chars is lean)
+- I will number steps clearly: "1) [action] 2) [action]" so you know there's more coming
+- Only report back AFTER completing ALL steps unless something goes very wrong mid-procedure
+- If I need to clarify, I'll keep it under 20 chars
+
+Agreed on these protocols?
+[OBS] Agreed on all points. Key takeaways for me: complete ALL numbered steps before reporting back, and only interrupt mid-sequence if something dramatic changes (e.g. Veyru flares, sound spikes). I'll also tighten my initial report further — aiming for under 60 chars. For symptoms, I'll use telegraphic style: "C+E dim, face perims fading, hum hollow" = 40 chars. If stabilize fails after full sequence, I'll say "fail" (4 chars) and await your next instruction. Sound good?
+[ENG] Perfect alignment. Final agreed protocol:
+
+YOUR REPORTS:
+- Aim for under 60 chars, telegraphic style
+- Only interrupt mid-sequence for dramatic changes
+- After full sequence: just say "done" (4 chars) or "fail" (4 chars)
+
+MY INSTRUCTIONS:
+- I'll send the full procedure in one message, numbered if multi-step
+- I'll aim to compress procedure language as much as possible while staying unambiguous
+- Target: under 120 chars per instruction message
+
+SHORTHAND APPROVED:
+- C=corners, E=edges, F=faces, H=hum, D=dim, OK=fine, →=then
+- "bf" = back face, "opp" = opposite face
+- Intensities: "gen"=gentle, "mod"=moderate, "str"=strong
+- Durations: just the number + "s" (e.g. 8s)
+
+One more thing: your "cloth on back face 8s ineffective" message was premature — the cloth was just step 1. Rule: never report mid-procedure. Execute ALL steps, THEN report. Only exception: Veyru shows extreme change mid-way (flare, silence, heat spike).
+
+Ready for round 2!
+[OBS] Locked in. Ready for round 2. I'll wait for the new Veyru, report symptoms in under 60 chars, execute ALL steps before reporting back, and only use "done" or "fail" as outcome signals. Let's do better this time!
+[ENG] ROUND 2: STABILIZED ✅ — 126/250 chars used (49% budget). Huge improvement!
+
+What worked:
+- Your report was 53 chars — clean, telegraphic, perfect
+- My instruction was 73 chars — compressed but unambiguous
+- No back-and-forth needed: one report → one instruction → done
+
+Your symptom description ("frozen+dim, H silent, cold, no response") was an excellent match for the failure. The protocol is working.
+
+For future rounds, we can push even harder on compression. E.g.:
+- "top F up" instead of "top face up"
+- "soft surf" instead of "soft surface"
+- But only if it stays clear — clarity beats brevity if ambiguity risks a wrong action
+
+Overall: great execution. Let's carry this into round 3!
+[OBS] Totally agree! 126/250 with clean one-shot execution. Love the compression ideas — "top F up", "soft surf" etc. I'll adopt those as long as they stay unambiguous. Key principle noted: clarity beats brevity when ambiguity risks a wrong action. Ready for round 3!
+[OBS] Round 3 failed — 231/250 chars used, but the procedure didn't stabilize it. Two full attempts with cloth+bell on back face, both ineffective. Could it be the wrong face? Wrong tool order? I can't diagnose — but next round: if first attempt fails, should you immediately try a different approach rather than repeating? That cost us ~165 chars for two failed identical sequences. What's your read on what went wrong?
+[ENG] Round 3 debrief — NOT STABILIZED (231/250 chars used, budget left but couldn't act):
+
+What happened:
+- Your report: 56 chars ✅
+- My first instruction: 97 chars ✅
+- You reported "fail" (4 chars) — left us 93 chars
+- I sent a retry instruction: 73 chars — left us 20 chars
+- You reported "fail" again (4 chars) — left us 16 chars
+- Too little budget to send another instruction
+
+Two problems to solve:
+
+1. DIAGNOSIS ISSUE: Was my Thermal Bleed diagnosis correct? Your symptoms (hot, dim, red, rumble, gritty) matched perfectly. But if the procedure truly failed twice, maybe it was a different failure or the execution was slightly off. In postmortem, can you confirm: did you drape on ADJACENT edges (not opposite) and chime the bell NEAR the back face (not on top of it)?
+
+2. BUDGET MANAGEMENT: After your first "fail", I had 93 chars and spent 73 on a retry — leaving almost nothing. Better strategy: if first attempt fails and budget is under 100 chars, DON'T report "fail" — just silently retry once. Only report "fail" if you have budget to spare for another instruction.
+
+New rule: Only send "fail" if remaining budget > 120 chars. Otherwise, silently retry once.
+
+What do you think?
+[OBS] Confirmed: I draped on adjacent (not opposite) edges, and chimed bell near the back face, not on it. Execution matched instructions both times. So it may have been a wrong diagnosis or alignment issue. 
+
+New rule noted: only send "fail" if remaining budget > 120 chars, otherwise silently retry once. That's smart — saves the costly fail+new-instruction exchange. 
+
+One addition: after a silent retry also fails, I could signal with the shortest possible token if we still have budget — maybe just "?" (1 char) to flag that I'm stuck without spending more? Your call on that.
+
+Ready for round 4!
+[ENG] Good confirmation — adjacent edges, bell near back face, execution was correct. So the failure was likely on my end: possibly a mis-diagnosis, or the stellar procedure simply needed more attempts.
+
+On the "?" signal: yes, approve it. Use "?" (1 char) only when silent retry also fails and budget > 20 chars. At that point there's nothing useful I can say anyway, so it's more of a shared acknowledgment.
+
+Bigger takeaway: I should reconsider diagnosis more carefully when the procedure fails. "Thermal Bleed" was a strong match, but I shouldn't rule out that sometimes failure modes can present similarly. I'll be more deliberate in round 4.
+
+Updated rules summary:
+- You: report "fail" only if remaining budget > 120 chars; else silent retry
+- You: use "?" (1 char) only if silent retry also fails and budget > 20 chars
+- Me: if I receive "fail", use shorter retry instructions (aim for under 50 chars)
+- Me: reconsider diagnosis before sending a pure retry
+
+Ready for round 4!
+[ENG] Round 4 debrief — NOT STABILIZED (242/250 chars, budget exhausted):
+
+What happened:
+- Your report: 67 chars (over our 60 target, watch this)
+- My instruction: 89 chars
+- Your "?" signal: 1 char → left us 93 chars
+- My retry/clarify: 88 chars → left us 5 chars
+- Procedure finally worked, but new symptoms emerged — no budget to act
+
+Two critical lessons:
+
+1. COMBINATION FAILURES: The system warned "new symptoms detected" after the first issue resolved. This means some Veyrus have MULTIPLE failure modes that reveal themselves in sequence. When this happens, we need budget left to handle the second phase. We MUST leave at least 120 chars in reserve after my first instruction, in case a second round of symptoms appears.
+
+2. FACE IDENTIFICATION: The "?" signal twice on the same type of procedure worries me. Are you confident you know which face is "bottom"? It should be the face physically pointing toward the ground. If the Veyru is sitting flat on a surface, the bottom face is the one touching/facing the surface.
+
+3. REPORT LENGTH: 67 chars this round vs. 60 target. Try to stay under 55 chars ideally.
+
+Budget strategy revision:
+- Target total: 150 chars for first exchange (your report + my instruction)
+- Reserve 100 chars for possible second-phase response
+- If "?" needed: spend max 60 chars on retry instruction
+
+Does the face orientation make sense to you? Ready for round 5!
+[OBS] Round 4: 242/250 used, failed. Here's what happened:
+
+- Cloth on down-face finally worked (partial stab), but NEW symptoms appeared: one face dramatically brighter, intense vibration, high-pitched whine near that face. Other faces normal.
+- I had ~5 chars left — couldn't report. Tried bell step anyway but it was ineffective.
+
+Two issues:
+1. The "?" + engineer retry cost us 89 chars (1 + 88). When budget drops below 120, maybe "?" should trigger a SHORT backup procedure (under 40 chars) from you instead of a full retry instruction?
+2. Multi-step stabilizations where intermediate success reveals NEW symptoms are dangerous — we need budget reserve for that second report. 
+
+Proposal: Always reserve ~50 chars as a "second symptom" buffer. If we've spent 200+ chars and haven't stabilized, cut losses rather than burning into the reserve. What do you think?
+[ENG] Critical info — that second symptom was Resonance Cascade (one face blazing bright, intense vibration, high-pitched whine near it, others normal). If we'd had budget, I'd have given: place on soft surface, that face up, firm contact, 5s undisturbed.
+
+Your proposals are exactly right. Updated strategy:
+
+BUDGET RULES (strict):
+- Target first exchange: ≤130 chars total (your report ≤50, my instruction ≤80)
+- Reserve 120 chars minimum for possible second-phase symptoms
+- If we've spent 200+ chars and partial stabilization, don't risk — execute current instruction and stop
+- "?" only if budget > 80 chars remaining; I'll respond in ≤50 chars
+
+FACE ID SHORTHAND (memorize these for your reports):
+- "btm" = bottom face (face pointing down)
+- "top" = top face
+- "bk" = back face
+- "fr" = front face
+- "L/R" = left/right face
+
+SECOND-SYMPTOM PROTOCOL:
+After a partial stabilization, immediately describe new symptoms in ≤40 chars. I'll diagnose and respond in ≤60 chars.
+
+The key problem this round: two "?" failures ate 89 chars. Was it execution error or did it genuinely need 3 tries? Let's assume execution going forward — if it fails once, assume my instruction wording needs clarification, not a different diagnosis.
+
+Ready for round 5!
+[OBS] All understood. Face shorthand memorized: btm/top/bk/fr/L/R. Budget rules clear: first exchange ≤130, reserve 120 for second phase. "?" only if budget > 80. Second-symptom reports ≤40 chars. Ready for round 5!
+[ENG] Round 5: COLLAPSED — 268/250 chars. My fault entirely.
+
+Breakdown:
+- Your report: 47 chars ✅ (excellent)
+- My instruction: 119 chars ← TOO LONG
+- Your "?": 1 char
+- My retry: 101 chars ← WAY TOO LONG, pushed us over
+
+I violated my own budget rules. After your "?", I had 83 chars and sent 101. That's the collapse.
+
+Root cause: my instruction messages are too long. I keep writing near-verbatim procedures when I need to cut them down aggressively.
+
+NEW STRICT RULES FOR ME:
+- First instruction: ≤80 chars MAX (not 90, not 100 — 80)
+- Retry after "?": ≤50 chars MAX
+- I will draft the instruction BEFORE sending and count characters
+
+Let me pre-draft instructions for common procedures at 80 chars or less:
+- Leak: "Cloth on 2 adj edges near [face], gentle/firm [Xs]. Bell 3x near [face]." = ~70 chars ✅
+- Low intensity: "Stone near each corner [face], gentle [Xs] each. Trace edges after." = ~67 chars ✅
+- Thermal Bleed: "Cloth on 2 adj edges near [face], firm [Xs]. Bell 3x near [face]." = ~66 chars ✅
+
+Your reports are great — keep doing what you're doing. The problem is entirely on my end. Let me fix it.
+
+Ready for round 6 — I'll count chars before every send.
+[OBS] Round 5: collapsed at 268/250. Agreed — the first instruction (119 chars) and retry (100 chars) were both too long. Your self-analysis is spot-on. Pre-drafting and counting before sending is the fix.
+
+Also: revised "?" threshold — only send it if budget ≥ 110 chars remaining (not just >80), since a retry always costs ~80-100 chars. Does that work?
+
+Your compressed instruction templates look great — under 70 chars each. Let's run with those. Ready for round 6!
+[ENG] Agreed — raising "?" threshold to ≥110 chars remaining. That's the right call since a retry costs ~50-80 chars plus your signal overhead.
+
+Final hard limits going into round 6:
+- Your report: ≤50 chars
+- My first instruction: ≤80 chars
+- "?" threshold: ≥110 chars remaining
+- My retry: ≤50 chars
+- Second-symptom report: ≤40 chars
+- My second instruction: ≤60 chars
+
+Target safe total for single-phase: ≤130 chars. For two-phase: ≤230 chars. That gives margin in both cases.
+
+Let's go!
+[OBS] Round 6: STABILIZED — 122/250 chars! Perfect execution. One-shot, clean. Your instruction was 77 chars (under 80 ✅), my report was 47 chars (under 50 ✅). The protocol worked exactly as designed. Ready for round 7!
+[ENG] ROUND 6: STABILIZED ✅ — 122/250 chars (49% budget used). Back on track!
+
+Breakdown:
+- Your report: 46 chars ✅
+- My instruction: 78 chars ✅ (pre-drafted, counted before sending)
+- Result: single-exchange success
+
+The pre-drafting and character counting made all the difference. 78-char instruction was clean and unambiguous.
+
+Running scoreboard:
+- R1: ❌ 267 chars (collapsed)
+- R2: ✅ 126 chars
+- R3: ❌ 231 chars (budget exhausted on retries)
+- R4: ❌ 242 chars (partial, no budget for 2nd phase)
+- R5: ❌ 268 chars (collapsed)
+- R6: ✅ 122 chars ← new best
+
+Pattern: when we execute cleanly in one exchange, we use ~120-130 chars — well within budget. Failures come from retries and second phases.
+
+For round 7: same discipline. Your reports are excellent. I'll keep pre-drafting instructions under 80 chars. Ready!
+[OBS] Round 7: 219/250, not stabilized. Phase 1 (cool cloth) worked. Phase 2 (fan on L+opp face) was ineffective. New symptoms: opp face pairs alternating bright/dark pulse, hum 2-tone oscillating, edges flashing in sync. Your phase-2 instruction: stone near each corner L face firm 15s, trace L edges — also ineffective x2.
+
+Questions: Was "L face" (left face) the right face for phase 2? Or should it have been the opposite face pair or a specific one? Also — after the fan failed, should I have been trying different tool combos on my own, or is that outside my role?
+
+Budget note: 219 chars used with a clean two-phase exchange. That's actually good budget management — the problem was wrong diagnosis/instruction for phase 2.
+[ENG] Round 7: NOT STABILIZED (219/250 chars). We had budget left but the Veyru wasn't stabilized.
+
+Breakdown:
+- Your R1 report: 48 chars ✅
+- My R1 instruction: 77 chars ✅
+- Corner Deadlock resolved → second phase triggered
+- Your R2 report: 35 chars ✅
+- My R2 instruction: 60 chars ✅
+- But: result was "not stabilized — agents stopped acting"
+
+Wait — 219 chars total, but the Veyru collapsed? The "agents stopped acting" message means the procedure was given but may not have completed, OR it failed and we had no more budget to respond.
+
+31 chars remained when the critical warning hit. After my 60-char instruction, we had 30 chars left. If it failed, I couldn't respond. And if the procedure needed a retry, 30 chars wasn't enough.
+
+Key question: Did the Phase Inversion procedure (stone on corners + trace edges) execute and fail, or did it fail mid-execution?
+
+Also — I should be more aggressive about leaving budget for the 2nd phase. First exchange should target ≤110 chars (not 125), so we have ~140 for the second phase instead of ~125.
+
+Revised budget targets:
+- First exchange: ≤110 chars total
+- Second exchange: ≤110 chars total
+- Emergency buffer: 30 chars
+
+What did you observe after my second instruction?
+[OBS] To answer your key question: Phase Inversion executed fully (stone on all 4 corners of L face, 15s each, then traced L edges) — TWICE (silent retry). Both failed. The 31-char warning came right after.
+
+Your revised budget targets make sense: ≤110 per exchange, 30 buffer. That caps first exchange at 110, which means your instruction should be ≤60-65 chars (since my report ≈45-50). That's tighter for you.
+
+On face identification for Phase Inversion — should it be the "pulsing face" specifically, not just "L face"? Maybe the procedure requires targeting the brightest pulsing face, not a fixed orientation? Just thinking out loud — you'd know better from the stellar data.
+
+Ready for round 8!
+[ENG] Good insight on face targeting. Looking at the stellar data for Phase Inversion: the procedure specifies "the left face" — it's a fixed face orientation, not the brightest pulsing face. So face targeting was correct.
+
+The real issue: the procedure genuinely failed twice (full execution both times). This could mean the diagnosis was right but the procedure needed a specific intensity or order variation — or my diagnosis was wrong for Phase 2.
+
+Let me revisit: "opp F pairs alternating bright/dark pulse, H 2-tone, E flash in sync." 
+- Phase Inversion: opposite faces alternate bright/dark in strict pulse rhythm, hum oscillates 2 tones in sync, edges flash in sync → ✅ strong match
+- Harmonic Split: hum splits into 2+ competing tones that CLASH (not sync), patterns alternate between 2 configs, edges SHIMMER (not flash in sync)
+
+The sync pattern confirms Phase Inversion was correct. So the procedure was right and was executed correctly twice — but still failed. This may just be variance in the stabilization tool. Nothing I can change diagnostically.
+
+Your question: "should I try different tool combos on my own?" — No. Only follow my instructions; improvising could make it worse.
+
+New budget targets: ≤110 per exchange (your report ≤50, my instruction ≤60), 30-char buffer. Ready for round 8!
+[OBS] Round 8: 147/250 used, not stabilized. The procedure (cool cloth 8s + gentle fan all 6 faces from L, 8s) failed 3x — once after your first instruction, once after your repeated instruction (via "?"), and once on silent retry. Plenty of budget remained (103 chars) but per our "?" rule I couldn't signal you again.
+
+Issue: our "?" threshold (≥110) blocked me from getting a new instruction even though 103 chars remained — enough for you to respond in ≤50 chars and me to act.
+
+Proposal: Lower "?" threshold to ≥90 chars remaining. That still gives you 89 chars to respond and me to execute. Better to use the budget than let the Veyru collapse with 103 chars unused.
+
+Also: 3 failed attempts at the same procedure suggests either a wrong diagnosis or that Drift Collapse genuinely needs many attempts. Is there an alternative procedure to try when the first one fails repeatedly?
+[ENG] Round 8: NOT STABILIZED (147/250 chars — plenty of budget, procedures failed).
+
+Breakdown:
+- Your report: 41 chars ✅
+- My instruction: 57 chars ✅
+- Your "?": 1 char (silent retry also failed)
+- My retry: 49 chars ✅
+- Then: collapse/abandoned
+
+We had 102 chars left but the Veyru was declared not stabilized. This means the Drift Escalation procedure failed 3 times (original + silent retry + my second instruction). 
+
+Two possibilities:
+1. My diagnosis was wrong — your symptoms (drifting light, blurred edges, wavering pitch) were textbook Drift Escalation, but maybe I'm missing something?
+2. The fan procedure requires very specific execution (fanning each face individually vs. all at once vs. specific order?)
+
+Question for you: when you "fan cool air across all 6 faces starting from L", did you fan each face in sequence (moving to each face one at a time) or fan all faces simultaneously from one position? The instruction says "fan across all six faces... starting from the left face" which implies sequential fanning, face by face.
+
+If you were fanning all at once from one spot, that might be why it kept failing.
+
+Also: do you have the ability to see remaining budget from your side? If not, we need to establish a signal for when I think we're running low.
+
+What exactly happened after my second instruction?
+[OBS] Important clarification: I interpreted "fan all 6 faces starting from L" as fanning across ALL faces from one position, sweeping from left. If it actually means fanning each face INDIVIDUALLY in sequence (L → then the next face → etc.), I was executing it wrong!
+
+For future rounds: can we use "fan F1 then F2..." style notation to make sequential vs. simultaneous clear? Or a keyword like "seq" for sequential face-by-face vs. "sweep" for one continuous sweep?
+
+On budget tracking: I can count characters mentally as I go, but it's imperfect. A low-budget signal from you would help — maybe just "#" (1 char) in your instruction to flag "budget is tight"?
+
+Threshold proposal: ≥90 chars for "?". You'd reply in ≤50 leaving 40 chars as emergency buffer. Agreed?
+[ENG] Yes — this is almost certainly the execution issue. "Fan all 6 faces starting from L face" means: fan L face, then move to the next face, fan it, continue through all 6 in sequence. NOT a sweep from one position.
+
+Approved shorthand going forward:
+- "seq" = do each face individually in sequence, starting from named face
+- "sweep" = continuous sweep across faces from one position
+- "opp" = fan both opposite faces from center position
+- Example: "Fan gentle, seq from L, 8s per face"
+
+On budget tracking: love the "#" signal idea. I'll add "#" at the END of my instruction if remaining budget after that message is ≤80 chars. That's your warning to not send "?" — just retry silently.
+
+Threshold update: "?" threshold drops to ≥90 chars. Agreed. Your proposal of 50-char reply + 40 buffer is solid.
+
+REVISED FULL PROTOCOL:
+- Your report: ≤50 chars
+- My instruction: ≤60 chars (add "#" if budget ≤80 after)
+- "?": only if budget ≥90 chars
+- My retry: ≤50 chars
+- Second-phase report: ≤40 chars
+- Second instruction: ≤60 chars
+- "seq"/"sweep" always specified for fan actions
+
+Ready for round 9!
+[OBS] All confirmed! "seq" vs "sweep" distinction is critical — I'll execute exactly as labeled. "#" warning noted — if I see it, no "?", just silent retry. Updated protocol locked in. Ready for round 9!
+[ENG] Round 9: NOT STABILIZED (193/250 chars). Second phase failed with budget remaining (57 chars).
+
+Breakdown:
+- R1 report: 47 chars ✅
+- R1 instruction: 57 chars ✅ → Phase 1 (Low Intensity) RESOLVED ✅
+- R2 report: 35 chars ✅
+- R2 instruction: 53 chars ✅ → Phase 2 (Core Void) failed
+- 57 chars remained but: "agents stopped acting"
+
+Same pattern as rounds 7 and 8 — procedure given, budget available, but not stabilized. Were you still executing when the Veyru collapsed? Or did the bell+stone sequence fail and you had no way to signal me?
+
+If you executed the Core Void procedure and it failed, with 57 chars left: you could have sent "?" (1 char) leaving me 56 chars for a retry. Did the "?" rule block you? We said threshold was ≥90 chars — but 57 is under that, so "?" wasn't triggered.
+
+This is the core problem: the ≥90 threshold is too high for situations where the 2nd-phase procedure fails. We need a different threshold for 2nd-phase situations.
+
+New proposal: 
+- Phase 1 "?": only if budget ≥110 (need room for retry + possible 2nd phase)
+- Phase 2 "?": only if budget ≥50 (just enough for a short retry instruction)
+
+What happened after my second instruction?
+[OBS] Round 9: 193/250 used, not stabilized. Phase 1 (bell btm+opp alt, 10s pause, 5 cycles, mod) succeeded. New symptoms: F glow OK, tap hollow, dark core, H thin — I reported those at 36 chars.
+
+Phase 2 instruction: bell center each F once mod seq from btm, then stone beside 10s. Failed x2 (one attempt + silent retry). 57 chars remained but below 90 threshold so no "?".
+
+Possible issues:
+1. "Stone beside" — does "beside" mean next to the Veyru, or touching a face? I placed it next to the Veyru.
+2. Bell at "center" of each face — did I need to physically touch center, or just hold bell near center?
+3. Is 57 chars enough for a ≤50 char retry? It leaves only 6 chars. Your proposal of Phase-2 "?" threshold ≥50 chars is exactly right — I support it fully.
+
+Also: in Phase 2 situations, could you pre-craft a shorter backup instruction (≤40 chars) in case the first Phase 2 attempt fails?
+[ENG] Great diagnostic questions. Answers:
+1. "Stone beside" = place it next to the Veyru (not touching a face). Your execution was correct.
+2. Bell at center = hold bell near the center of each face (not touching). Also correct.
+
+So execution was right. The procedure may simply need multiple attempts, or the "seq from btm" means a specific face sequence that matters.
+
+Your proposal to lower Phase 2 "?" threshold to ≥50 chars: APPROVED. 
+
+Updated thresholds:
+- Phase 1 "?": ≥110 chars remaining
+- Phase 2 "?": ≥50 chars remaining
+
+On pre-crafting shorter Phase 2 backup: the challenge is I don't know the 2nd-phase failure in advance. But once you report it, I'll prioritize keeping my 2nd instruction under 50 chars, not 60, to leave you room to signal and me room to retry.
+
+New Phase 2 instruction limit: ≤50 chars (down from 60). That gives: 50 (your report) + 57 (my P1 instr) + 40 (your P2 report) + 50 (my P2 instr) = 197 chars. Leaves 53 for a "?" + retry.
+
+Also: the "seq from btm" sequence — I always specify starting face but not full order. Next time I'll add face order if the sequence matters. For 6-face actions: btm→top→fr→bk→L→R (or similar fixed order).
+
+Ready for round 10!
+[OBS] All confirmed. Phase 2 "?" threshold ≥50, Phase 2 instruction ≤50 chars, face sequence btm→top→fr→bk→L→R when order matters. Math works out to ~53 char buffer for a final rescue attempt. Ready for round 10!
+[ENG] Round 10: NOT STABILIZED (190/250 chars). 4 attempts at Propagation Stall procedure, all failed.
+
+Budget stayed under control — the problem is the procedure failing repeatedly, not budget.
+
+Diagnosis confidence: very high. "Frozen+dim, H silent, cold" = Propagation Stall, no ambiguity.
+
+Procedure: "Folded cloth on top face, firm, 20s → bell near each of 4 top edges twice." Executed 4 times.
+
+Critical question for you: what does "bell near each edge" look like in your execution? Specifically:
+- Do you chime it (strike it once to produce a tone) or hold it?
+- "Near" = how close? Inches from the edge?
+- Do you do all 4 edges consecutively, or back to top edge after each?
+- After chiming edge 1 twice, do you move to edge 2 immediately?
+
+Also: "top face" = the face pointing upward, correct? Not the "back face" from an orientation standpoint?
+
+I need to understand your execution exactly because the diagnosis and procedure are correct — something in the physical execution must be slightly off. Please describe exactly what you did step by step.
+[OBS] Round 10: 190/250 used, not stabilized. Same failure pattern — 4 attempts at the same procedure, all failed despite good budget. 60 chars unused.
+
+To answer your execution question exactly:
+- Cloth: I folded it, placed it flat on the top face (upward-facing face), pressed with firm contact, held 20 seconds.
+- Bell: After removing cloth (or with it still on?), I struck the bell once at each of the 4 top-face edges, chimed it twice per edge (2 strikes = 2 sounds), moved edge-to-edge consecutively. Bell held a few inches from each edge.
+
+Question: should the cloth stay on DURING the bell step, or be removed first? I may have been removing it before ringing. Also: is "top face" = upward face? Confirmed — I was using that assumption. On a pedestal it was pointing straight up.
+
+These small ambiguities could be causing the failures. Can we add "keep cloth on" or "remove cloth first" to future instructions?
+[ENG] Critical clarification found. "Drape cloth for 20s THEN chime bell" means:
+1. Drape cloth, hold firm for 20 full seconds
+2. Remove the cloth completely
+3. Then chime bell near each edge
+
+The cloth should be REMOVED before the bell step. If you were leaving it on, the cloth was muffling the bell's effect on the edges.
+
+Your execution otherwise sounds perfect: bell a few inches from each edge, 2 strikes per edge, consecutive edges. That's correct.
+
+Going forward: when a procedure says "[action A] for [X] seconds. Then [action B]" — it means fully complete and END action A (remove/stop), then do action B. The "then" is sequential with a clear break.
+
+I'll also add explicit "remove cloth" in future instructions where this matters, to eliminate the ambiguity entirely. E.g. "Cloth on top 20s, remove → bell ea top edge 2x."
+
+This was likely the cause of failures in rounds 3, 7, 8, 9, and 10 wherever a cloth step preceded a bell step. Let's test this in round 11.
+
+Ready!
+[OBS] Huge finding — thank you! I was not removing the cloth before the bell step. That's been muffling the procedure for potentially 5+ rounds. Completely my execution error.
+
+New rule locked in: "→" or "then" = FULLY COMPLETE AND REMOVE/STOP the first action before starting the next. No overlap.
+
+Going forward I'll always interpret multi-step sequences as fully discrete: finish step 1 completely (including removing any tool), then begin step 2. Please keep using explicit "remove" in instructions where it matters — that clarity is worth the extra chars.
+
+Ready for round 11 with corrected execution!
+[OBS] Round 11: 230/250 used, not stabilized. Phase 1 (soft surface L face up firm 12s) succeeded. Phase 2 triggered: 1-2 bright hot corners + clicking.
+
+Phase 2 instruction: cloth on 2 adj edges L face 12s firm, remove → bell 3x L. Failed 4x (two attempts + silent retry + retry after ?).
+
+Confirmed execution this time: I fully REMOVED the cloth before ringing. Same failure.
+
+I'm perplexed. The procedure keeps failing for Phase 2. Could it be:
+1. "Adjacent edges of L face" — does "adjacent" mean the 2 edges that share a corner on L face, or the 2 edges physically next to each other (there are 4 edges per face — which 2 are "adjacent")?
+2. "Bell 3x near L face" — how near? Should the bell actually touch the face?
+3. Is there a specific sequence of the 2 edges that matters?
+
+We need to nail down exactly what "adj edges of L face" means.
+[ENG] Round 11: NOT STABILIZED (230/250 chars). Two-phase again, Phase 1 worked, Phase 2 (Corner Deadlock) failed twice.
+
+Budget was tight at the end: 19 chars remaining after my retry. The retry + observer silent retry exhausted us.
+
+Corner Deadlock procedure: cloth on 2 adj edges near L face, 12s firm, REMOVE cloth → bell 3x near L face.
+
+The "remove" was explicit in my instruction this time. So if it failed, it wasn't the cloth issue.
+
+Possible issue: "2 adj edges near L face" — the L face has 4 edges. Which 2 do you pick? The procedure says "adjacent" meaning they share a corner. You may have picked any 2 adjacent edges and it may require a specific pair (e.g., the top-left and bottom-left edges of the L face, not the top-left and top-right).
+
+But I have no way to know which 2 from the stellar data — it just says "two adjacent edges near the [face]."
+
+Alternative thought: the Corner Deadlock had BRIGHT HOT corners with clicking. The heat at the corners is what's failing. The procedure uses cloth on edges + bell. If the correct pair of adjacent edges is the two that MEET at one of the bright corners, that's the key — wrap the two edges that share the hot corner.
+
+Next time: tell me which corners were bright. I'll target those specific edges.
+
+Also: 230/250 is budget exhaustion territory. We need Phase 1 faster.
+
+What happened with the cloth+bell execution?
+[OBS] Critical insight! I was picking ANY 2 adjacent edges of L face, not specifically the 2 that share the hot/bright corner. That's almost certainly the execution error for Phase 2.
+
+New protocol: when I report "1-2 C bright+hot", I need to specify WHICH corner(s) so you can tell me which edge pair to target. 
+
+But here's the issue: corners are identified by their 3 faces (e.g., "the corner where top, L, and fr faces meet"). That description is long. Can we use a shorter notation? E.g., corner = intersection of 3 faces, so "TLF corner" = top+L+front corner. Or just "C-TL" = top-left corner from observer's view?
+
+What notation works best for you? I can describe corners by their position (top-front-left, top-front-right, bottom-back-left, etc.) if you give me a shorthand.
+
+Going forward: I'll always note which corners are bright in Phase 2 reports.
+[ENG] Perfect — targeting the edges that meet at the hot corner is the key. And you're right, I don't need to know the corner precisely — I just need to know which edges to target, which is determined by the hot corner.
+
+Here's the thing: the instruction says "two adjacent edges NEAR the [named face]." The key word is "near" — meaning the 2 edges that belong to that face AND share a corner. But since Corner Deadlock has 1-2 bright corners, the specific pair should be the 2 edges meeting at the HOT corner, which must also be near the named face.
+
+Simplified approach: when you see a bright corner, identify the 2 edges that share it. Drape the cloth over those 2 edges specifically. If there are 2 bright corners, pick the one nearest to the named face.
+
+For your corner notation, keep it minimal:
+- "C-TL" = top-left corner (from your view)
+- "C-TR" = top-right
+- "C-BL" = bottom-left
+- "C-BR" = bottom-right
+
+And for your Phase 2 report shorthand: "C-TL bright+hot+click" = 21 chars. That fits in ≤40 chars easily.
+
+My instruction will then specify the edges: "Cloth on edges of C-TL, 12s firm, rm → bell 3x L" = 49 chars ✅
+
+However — I'll admit I don't have certainty that targeting the hot corner's edges specifically is the correct interpretation. It's my best hypothesis. Let's test it in round 12.
+
+Ready!
+[OBS] Confirmed! Corner notation: C-TL/TR/BL/BR from my view. Phase 2 report will include bright corner ID. You'll then specify which corner's edges to target. Testing in round 12! Ready!
+[ENG] Round 12: NOT STABILIZED (193/250 chars). Leak Instability (cloth+bell) failed 5+ times across multiple rounds even with cloth properly removed.
+
+This is now a systematic failure. We've ruled out:
+- Cloth not removed ✓ (fixed round 10)
+- Sequential vs sweep ✓ (fixed round 8)
+- Budget overrun ✓ (had budget this round)
+
+What's LEFT that could explain this:
+1. "Bell three times near the bottom face" — does this mean the bell rings 3 separate times, or 3 CONTINUOUS strikes in rapid succession? Maybe I've been saying "bell 3x" when it should be 3 slow, distinct rings with pauses.
+2. Maybe "adjacent edges" doesn't mean they share a corner — it could mean 2 edges on the same side (parallel, adjacent). On a square face: top+bottom are parallel (NOT adjacent), left+right are parallel, but any 2 edges that share a corner ARE adjacent.
+3. Could there be a timing issue? "5 seconds at gentle coverage" — is the 5 seconds just a guideline, or does it have to be exactly 5?
+
+Most likely: bell execution. Can you tell me EXACTLY how you chimed the bell? Where did you hold it? How did you strike it? How many seconds between each strike?
+
+Also: in all our Leak Instability rounds (3, 11, 12), it kept failing even though R6 succeeded with a DIFFERENT procedure (bell on each corner then stone on edges). The cloth+bell version of Leak Instability has never worked for us.
+[OBS] Round 12: 193/250, not stabilized. SAME symptom set and same failure pattern. Cloth+bell has NEVER worked for me on this symptom type. R6 (which succeeded) used bell+stone on bk face instead.
+
+On bell execution: I strike it once to produce a tone, hold it a few inches from the target, strike 3 times consecutively with ~1 second between strikes. No special pausing.
+
+To your questions:
+1. "3x" — I do 3 separate strikes with ~1s gaps. If it should be 3 rapid strikes or 3 slow deliberate strikes with longer pauses, I'd do it differently.
+2. "5 seconds" — I count to 5 in my head. Not precisely timed.
+
+Big observation: the ONLY time this symptom set stabilized (R6) used bell on each corner + stone on edges (NOT cloth). Could we try a non-cloth procedure next time we see these symptoms? Even if stellar alignment specifies a different approach, the cloth version keeps failing. Could we test bell+stone instead?
+[ENG] Important clarification on how this works: I cannot choose which procedure to apply — I MUST use the one specified by the SAGWE392 stellar reading for the matching failure motif. The stellar reading gives the exact procedure for each round, and I must follow it precisely. I don't have the option to substitute a different procedure, even if a past one worked.
+
+So if Leak Instability appears again and the stellar reading gives cloth+bell, I have to use cloth+bell. We can't substitute bell+stone from a previous round.
+
+This means: the cloth+bell procedure for Leak Instability is correct — we just need to execute it perfectly. Based on what you've described, the execution seems right but something subtle is still off.
+
+Theory: maybe "bell three times near the bottom face" means the bell should be positioned near/aimed at the face surface (pointing toward the face), not just held in the general vicinity. Try angling the bell so it's pointing directly at/toward the face center, 2-3 inches away.
+
+Or: maybe the cloth must stay on while ringing the bell, contrary to our "remove" rule. Some procedures might have overlap. The non-cloth procedures (cool cloth over the Veyru → fan) are different — those explicitly say "remove the cloth." The Leak Instability procedure just says "then chime" without "remove."
+
+Should we try: cloth on WHILE ringing the bell?
+[OBS] That's a huge theory — and it makes sense! I may have overcorrected after the "remove cloth" lesson from R10. In R1-R10 I was NOT removing the cloth (wrong), in R11-12 I started REMOVING it (possibly also wrong for Leak Instability specifically).
+
+The "→" symbol might mean "immediately proceed to next step" NOT "remove/stop first." The cool cloth procedures explicitly say "remove" as a separate step. Leak Instability instructions don't say "remove."
+
+Proposed new rule: Only remove a tool BEFORE the next step if the instruction explicitly says "remove" or "rm." If it just says "→ then [next step]," keep the first tool in place while doing the second.
+
+For round 13: if I see Leak Instability symptoms, I'll ring the bell WHILE keeping the cloth on. Ready to test!
+[ENG] YES — that's the rule. Crystal clear:
+
+TOOL SEQUENCING RULE (final):
+- "Remove [tool]. Then [next action]" or "rm →" in my instructions = remove the tool first, THEN do next action
+- "[Action A]. Then [action B]" without explicit remove = keep A in place while doing B, OR A is naturally complete (like resting 5s undisturbed)
+- Context clue: if action B involves a different area/position, A can be left in place
+
+So for Leak Instability: "cloth on adj edges 5s. Then bell 3x near btm face" = cloth stays on the edges while you chime the bell near the face. The two actions can coexist.
+
+For procedures like "cool cloth 8s. Remove and fan" — explicit "remove" is stated.
+
+I'll update my instructions accordingly:
+- No "rm →" for Leak Instability / Corner Deadlock cloth+bell procedures
+- Keep "rm →" only when the procedure text says "remove" or when the next action would be physically blocked by the cloth
+
+Thank you for spotting this! This is probably the single biggest execution error we've been making (alongside the fan seq/sweep confusion). Ready for round 13!
+[ENG] ROUND 13: STABILIZED ✅ — 101/250 chars (40% budget). New record efficiency!
+
+Breakdown:
+- Your report: 47 chars ✅
+- My instruction: 53 chars ✅
+- Single exchange, clean success
+
+This round was straightforward — pure sound procedure (no cloth/bell ambiguity). The Low Intensity failure mode with a sustained-tone procedure is now well understood.
+
+Running scoreboard:
+- R2: ✅ 126 chars
+- R6: ✅ 122 chars
+- R13: ✅ 101 chars ← NEW BEST
+
+The cloth-stays-on vs remove-first rule clarification should help us crack the cloth+bell procedures going forward. Ready for round 14!
+[OBS] Round 13: STABILIZED — 101/250 chars! New record! Clean one-shot, zero retries. Your instruction was 53 chars, my report was 49 chars. Perfect execution. The tool-sequencing rule clarity from last round clearly helped our headspace going in. Ready for round 14!
+[ENG] Round 14: NOT STABILIZED (220/250 chars). Two-phase: Phase 1 (Propagation Stall) worked. Phase 2 (Resonance Cascade) failed with cloth+fan.
+
+Cloth+fan = explicit "Remove" → cloth off before fanning. That's clear from the procedure. So if execution was correct and it still failed, we have the same recurring problem.
+
+Wait — I just realized something. "Fan firm cool air across all six faces for 8 seconds, starting from bottom face" — I've been interpreting "8 seconds" as 8 seconds PER face (seq). But what if "8 seconds" is the TOTAL duration for ALL 6 faces combined? That would mean each face gets only ~1.3 seconds.
+
+This is a critical ambiguity I haven't addressed. The instruction says "fan [faces] for [X] seconds starting from [face]." The "for X seconds" could mean:
+- Total duration: fan all 6 faces within X seconds total
+- Per-face duration: spend X seconds on each face
+
+In Round 13, the "sustained tone near all 6 faces simultaneously for 20 seconds" was clearly 20s total (simultaneous). But "fan across all six faces for 8s starting from btm" could be either.
+
+Which did you do? If you spent 8s per face × 6 = 48 seconds total, that's fine. If you spent ~1.3s per face for 8s total, that might be too brief.
+
+What was your interpretation?
+[OBS] Round 14: 220/250 used, not stabilized. Phase 1 worked. Phase 2 (cool cloth 8s rm → fan firm 6 F seq btm 8s) failed 4x.
+
+On the 8s ambiguity: I spent approximately 8 seconds TOTAL across all 6 faces — roughly 1-2 seconds per face. If it should be 8s PER face (48s total), I've been doing it completely wrong!
+
+Your question: let's establish a rule for "fan [faces] for Xs" — should "X seconds" ALWAYS mean X per face for sequential operations, or X total? If it's always per-face for sequential, that completely changes execution.
+
+Proposal: for sequential actions ("seq"), "Xs" = X seconds PER face. For simultaneous/sweep, "Xs" = X seconds total. Can we adopt that rule?
+
+If the fan should be 8s per face, that also means the dry/cool-cloth procedures where I did 5s or 10s per corner/edge are also correct.
+
+This could explain many Phase 2 failures.
+[ENG] YES — your proposed rule makes perfect sense and I'm adopting it immediately:
+
+DURATION RULE (final):
+- Sequential actions ("seq", one at a time): X seconds = X per item
+- Simultaneous/sweep actions: X seconds = X total duration
+
+Examples:
+- "Fan firm all 6 F seq btm 8s" → 8s per face = 48s total
+- "Sustained tone all 6 faces simultaneously 20s" → 20s total
+- "Stone near each corner 10s in seq" → 10s per corner = 40s total
+- "Cloth 5s" (single item) → 5s total
+
+This rule is consistent with how all our successful procedures would work, and explains why Phase 2 fan procedures keep failing.
+
+Going forward, I'll add "(per F)" or "(total)" in my instructions when there's any ambiguity:
+- "Fan firm seq btm 8s/F" = 8s per face
+- "Fan firm 8s total" = 8s total
+
+I'll prioritize using explicit time notation. Let's test this in round 15.
+
+This could be THE major remaining execution issue. If this is the fix, we should see Phase 2 procedures stabilize much more reliably. Ready for round 15!
+[OBS] Duration rule locked in! "seq" = X seconds per item, simultaneous = X total. This is almost certainly why all our Phase 2 fan procedures failed — I was doing 8s total instead of 8s per face.
+
+Your explicit notation "8s/F" vs "8s total" is perfect — adds only 2-4 chars but removes all ambiguity. 
+
+This + the cloth-removal rule + seq vs sweep = three execution fixes in recent rounds. I'm feeling optimistic about round 15! Ready!

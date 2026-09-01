@@ -1,0 +1,47 @@
+{
+  "per_slot": {
+    "pos0": [
+      [
+        "C",
+        "cold"
+      ],
+      [
+        "N",
+        "normal"
+      ],
+      [
+        "blaze",
+        "High Intensity"
+      ],
+      [
+        "dim",
+        "Low"
+      ],
+      [
+        "faint",
+        "faint light"
+      ],
+      [
+        "frozen",
+        "frozen patterns"
+      ],
+      [
+        "hollow",
+        "Void"
+      ],
+      [
+        "red-tint",
+        "red tint"
+      ],
+      [
+        "rough",
+        "rough surface"
+      ],
+      [
+        "smooth",
+        "smooth surface"
+      ]
+    ]
+  },
+  "stackable": []
+}

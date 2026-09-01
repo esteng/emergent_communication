@@ -1,0 +1,52 @@
+{
+  "per_slot": {
+    "pos0": [
+      [
+        "tone",
+        "steady tone"
+      ]
+    ]
+  },
+  "stackable": [
+    [
+      "L",
+      "left face label"
+    ],
+    [
+      "N",
+      "front face"
+    ],
+    [
+      "S",
+      "back face"
+    ],
+    [
+      "U",
+      "up face label"
+    ],
+    [
+      "W",
+      "left face"
+    ],
+    [
+      "ctr",
+      "center"
+    ],
+    [
+      "opp",
+      "opposite faces"
+    ],
+    [
+      "f",
+      "firm intensity"
+    ],
+    [
+      "g",
+      "gentle intensity"
+    ],
+    [
+      "m",
+      "moderate intensity"
+    ]
+  ]
+}

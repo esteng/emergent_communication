@@ -1,0 +1,137 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780594679",
+    "slots": [],
+    "segmentation": {
+      "LI": [
+        "LI"
+      ],
+      "RC": [
+        "RC"
+      ],
+      "PI": [
+        "PI"
+      ],
+      "DPE": [
+        "DPE"
+      ],
+      "BFV": [
+        "BFV"
+      ],
+      "ABP": [
+        "ABP"
+      ],
+      "PS": [
+        "PS"
+      ],
+      "LO": [
+        "LO"
+      ],
+      "WB": [
+        "WB"
+      ],
+      "MB": [
+        "MB"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "?ineff": [
+        "?ineff"
+      ],
+      "DS": [
+        "DS"
+      ],
+      "CH": [
+        "CH"
+      ],
+      "CV": [
+        "CV"
+      ],
+      "CD": [
+        "CD"
+      ]
+    },
+    "head_index": {
+      "LI": 0,
+      "RC": 0,
+      "PI": 0,
+      "DPE": 0,
+      "BFV": 0,
+      "ABP": 0,
+      "PS": 0,
+      "LO": 0,
+      "WB": 0,
+      "MB": 0,
+      "HS": 0,
+      "?ineff": 0,
+      "DS": 0,
+      "CH": 0,
+      "CV": 0,
+      "CD": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "LI": "Bell centers 6 times from bottom; place the warm stone beside it for 20 seconds.",
+      "RC": "Sustain a firm tone on all 6 faces for 20 seconds from bottom; let it fade.",
+      "PI": "Rotate for 20 seconds with a steady tone near opposite faces from bottom; then bell each corner once.",
+      "DPE": "Corners and edges dim, centers okay, hollow edge hum.",
+      "BFV": "1 face bright, with vibration and whine.",
+      "ABP": "Opposite faces pulse, 2-tone hum, edge flash.",
+      "PS": "Frozen, cold, silent.",
+      "LO": "Dim whisper.",
+      "WB": "Edges wobble, bulged, underwater hum.",
+      "MB": "Echo saturation: too bright, layered hum, frozen patterns.",
+      "HS": "Harmonic split: competing tones, 2 configurations, shimmering edges.",
+      "?ineff": "The exact response seems ineffective; timing feels off; treat as rediagnose or round-rollover and answer again fast.",
+      "DS": "Drifting light, smeared edges, wavering hum.",
+      "CH": "Alignment collapse: random face flicker or patches, broken irregular hum.",
+      "CV": "Core void: surface-glow normal, hollow tap, dark center, thin surface hum.",
+      "CD": "Corner deadlock: bright corners, clicking."
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780594679",
+    "n_codes": 16,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible compositional paradigm can be induced from this codebook. There are no reliable minimal pairs or recurring substrings with stable, predictable meanings across multiple entries. Repeated letters such as D/C/P/B/S/V occur in different symbols but do not show a shared morphotactic frame with corresponding meaning contrasts. The two- and three-letter forms do not supply evidence for substitution classes, optional slots, or compositional templates, and the opaque-index caution applies generally: these are best treated as stored whole-code labels rather than segmented morphemes. Therefore the safest analysis is a flat lexicon.",
+    "lexical_symbols": [
+      "LI",
+      "RC",
+      "PI",
+      "DPE",
+      "BFV",
+      "ABP",
+      "PS",
+      "LO",
+      "WB",
+      "MB",
+      "HS",
+      "?ineff",
+      "DS",
+      "CH",
+      "CV",
+      "CD"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

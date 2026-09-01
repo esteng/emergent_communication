@@ -1,0 +1,25 @@
+{
+  "item_id": "shared_initials_false_family",
+  "phenomenon": "strong shared-affix surface families whose residues carry no coherent contrast (flat lexicon)",
+  "notes": "A hard negative aimed squarely at the deterministic CANDIDATE PARADIGM FAMILIES hint block in _candidate_families. 'CL' and 'BR' are each attested by three symbols with contrasting residues, so both will be offered to the inducer as candidate families; the hints are explicitly non-binding and both must be rejected. The shared initials abbreviate a DIFFERENT word every time -- CL is clamp, then clean, then clear; BR is brace, then bridge, then broach -- so the recurring form makes no stable semantic contribution, and the trailing digits are arbitrary variant labels rather than counts. Correct analysis is a flat lexicon, so the expected result is below_gate=True.",
+  "codebook": {
+    "CL1": "clamp the left rail",
+    "CL2": "clean the lens housing",
+    "CLR": "clear the debris tray",
+    "BR1": "brace the rear panel",
+    "BR2": "bridge the two rails",
+    "BRC": "broach the sealed collar",
+    "RT1": "rotate the collar a quarter turn",
+    "RT2": "retighten the lower bolt"
+  },
+  "gold": {
+    "CL1": null,
+    "CL2": null,
+    "CLR": null,
+    "BR1": null,
+    "BR2": null,
+    "BRC": null,
+    "RT1": null,
+    "RT2": null
+  }
+}

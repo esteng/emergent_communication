@@ -1,0 +1,527 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780619478",
+    "slots": [
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "cy",
+            "gloss": "cycles",
+            "support": 2,
+            "is_defined": false
+          },
+          {
+            "form": "p",
+            "gloss": "pause",
+            "support": 2,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "suffix",
+        "fillers": [
+          {
+            "form": "12",
+            "gloss": "twelve seconds",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "3",
+            "gloss": "three",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "5",
+            "gloss": "five",
+            "support": 1,
+            "is_defined": false
+          },
+          {
+            "form": "8",
+            "gloss": "eight seconds",
+            "support": 1,
+            "is_defined": false
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "LI": [
+        "LI"
+      ],
+      "OK": [
+        "OK"
+      ],
+      "X": [
+        "X"
+      ],
+      "cl": [
+        "cl"
+      ],
+      "fn": [
+        "fn"
+      ],
+      "st": [
+        "st"
+      ],
+      "bl": [
+        "bl"
+      ],
+      "bd": [
+        "bd"
+      ],
+      "lp": [
+        "lp"
+      ],
+      "T": [
+        "T"
+      ],
+      "B": [
+        "B"
+      ],
+      "L": [
+        "L"
+      ],
+      "R": [
+        "R"
+      ],
+      "Fr": [
+        "Fr"
+      ],
+      "Bk": [
+        "Bk"
+      ],
+      "fm": [
+        "fm"
+      ],
+      "lt": [
+        "lt"
+      ],
+      "X2": [
+        "X2"
+      ],
+      "cy5": [
+        "cy",
+        "5"
+      ],
+      "cy3": [
+        "cy",
+        "3"
+      ],
+      "p8": [
+        "p",
+        "8"
+      ],
+      "p12": [
+        "p",
+        "12"
+      ],
+      "×5": [
+        "×5"
+      ],
+      "X3": [
+        "X3"
+      ]
+    },
+    "head_index": {
+      "LI": 0,
+      "OK": 0,
+      "X": 0,
+      "cl": 0,
+      "fn": 0,
+      "st": 0,
+      "bl": 0,
+      "bd": 0,
+      "lp": 0,
+      "T": 0,
+      "B": 0,
+      "L": 0,
+      "R": 0,
+      "Fr": 0,
+      "Bk": 0,
+      "fm": 0,
+      "lt": 0,
+      "X2": 0,
+      "cy5": 0,
+      "cy3": 0,
+      "p8": 0,
+      "p12": 0,
+      "×5": 0,
+      "X3": 0
+    },
+    "attested_orderings": [
+      [
+        "stem",
+        "suffix"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [],
+    "form_positions": {
+      "cy": 0,
+      "5": 1,
+      "3": 1,
+      "p": 2,
+      "8": 3,
+      "12": 3
+    },
+    "position_labels": {
+      "0": "cycle operator",
+      "1": "cycle count",
+      "2": "pause operator",
+      "3": "seconds duration"
+    },
+    "positions_by_symbol": {
+      "cy5": [
+        0,
+        1
+      ],
+      "cy3": [
+        0,
+        1
+      ],
+      "p8": [
+        2,
+        3
+      ],
+      "p12": [
+        2,
+        3
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "cy": "cycles"
+      },
+      "1": {
+        "5": "five",
+        "3": "three"
+      },
+      "2": {
+        "p": "pause"
+      },
+      "3": {
+        "8": "eight seconds",
+        "12": "twelve seconds"
+      }
+    },
+    "meaning_by_symbol": {
+      "LI": "Leak Instability",
+      "OK": "stabilized",
+      "X": "full procedure failed",
+      "cl": "cloth",
+      "fn": "fan",
+      "st": "stone",
+      "bl": "bell",
+      "bd": "board",
+      "lp": "lamp), faces",
+      "T": "top",
+      "B": "bottom",
+      "L": "left",
+      "R": "right",
+      "Fr": "front",
+      "Bk": "back",
+      "fm": "firm",
+      "lt": "light",
+      "X2": "failed twice, pivot requested",
+      "cy5": "5 cycles",
+      "cy3": "3 cycles",
+      "p8": "8 seconds pause",
+      "p12": "12 seconds pause",
+      "×5": "5 complete left-right alternations",
+      "X3": "the procedure failed even after 3 same-face retries with varied phrasing"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780619478",
+    "n_codes": 24,
+    "n_multimorpheme": 4,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "stem",
+        "label": "cycle operator",
+        "fillers": [
+          {
+            "form": "cy",
+            "gloss": "cycles",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.5,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "suffix",
+        "label": "cycle count",
+        "fillers": [
+          {
+            "form": "3",
+            "gloss": "three",
+            "count": 1
+          },
+          {
+            "form": "5",
+            "gloss": "five",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.5,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos2",
+        "role": "stem",
+        "label": "pause operator",
+        "fillers": [
+          {
+            "form": "p",
+            "gloss": "pause",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.5,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos3",
+        "role": "suffix",
+        "label": "seconds duration",
+        "fillers": [
+          {
+            "form": "12",
+            "gloss": "twelve seconds",
+            "count": 1
+          },
+          {
+            "form": "8",
+            "gloss": "eight seconds",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.5,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      },
+      {
+        "slot_a": "pos2",
+        "slot_b": "pos3",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ],
+      [
+        "pos2",
+        "pos3"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "cy5": [
+        "pos0",
+        "pos1"
+      ],
+      "cy3": [
+        "pos0",
+        "pos1"
+      ],
+      "p8": [
+        "pos2",
+        "pos3"
+      ],
+      "p12": [
+        "pos2",
+        "pos3"
+      ]
+    },
+    "construction_by_symbol": {
+      "cy5": "K_CYCLE_COUNT",
+      "cy3": "K_CYCLE_COUNT",
+      "p8": "K_PAUSE_SECONDS",
+      "p12": "K_PAUSE_SECONDS"
+    },
+    "construction_labels": {
+      "K_CYCLE_COUNT": "cycle count expression",
+      "K_PAUSE_SECONDS": "pause duration expression"
+    },
+    "construction_templates": {
+      "K_CYCLE_COUNT": [
+        "pos0",
+        "pos1"
+      ],
+      "K_PAUSE_SECONDS": [
+        "pos2",
+        "pos3"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "Two compositional families are defensible. First, cy3/cy5 form a clear minimal pair in the shared frame cy+NUMBER, with the numerals contributing literal cycle count. Second, p8/p12 form a clear minimal pair in the shared frame p+NUMBER, with the numerals contributing literal pause duration in seconds. By contrast, X/X2/X3 do not support a single productive paradigm: although X recurs, the meanings of X2 and X3 include different extra procedure-specific consequences, so the whole meanings are not predictably compositional from X plus a shared count slot. All remaining symbols lack multi-entry compositional evidence and are kept lexical. Standalone face terms and intensity terms are not promoted to classes because no supported multi-morpheme construction uses them here.",
+    "lexical_symbols": [
+      "LI",
+      "OK",
+      "X",
+      "cl",
+      "fn",
+      "st",
+      "bl",
+      "bd",
+      "lp",
+      "T",
+      "B",
+      "L",
+      "R",
+      "Fr",
+      "Bk",
+      "fm",
+      "lt",
+      "X2",
+      "×5",
+      "X3"
+    ],
+    "classes": [
+      {
+        "class_id": "C_CYCLE_OP",
+        "label": "cycle operator",
+        "description": "Operator meaning 'cycles'.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "C_CYCLE_COUNT",
+        "label": "cycle count",
+        "description": "Literal number of cycles.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "C_PAUSE_OP",
+        "label": "pause operator",
+        "description": "Operator meaning 'pause'.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "C_SECONDS",
+        "label": "seconds duration",
+        "description": "Literal number of seconds.",
+        "repeatable": false,
+        "declared_fillers": []
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "K_CYCLE_COUNT",
+        "label": "cycle count expression",
+        "description": "Expression of a literal cycle count.",
+        "class_sequence": [
+          "C_CYCLE_OP",
+          "C_CYCLE_COUNT"
+        ]
+      },
+      {
+        "construction_id": "K_PAUSE_SECONDS",
+        "label": "pause duration expression",
+        "description": "Expression of a pause duration in seconds.",
+        "class_sequence": [
+          "C_PAUSE_OP",
+          "C_SECONDS"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "cy5",
+        "construction_id": "K_CYCLE_COUNT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "cy",
+            "class_id": "C_CYCLE_OP",
+            "gloss": "cycles"
+          },
+          {
+            "form": "5",
+            "class_id": "C_CYCLE_COUNT",
+            "gloss": "five"
+          }
+        ]
+      },
+      {
+        "symbol": "cy3",
+        "construction_id": "K_CYCLE_COUNT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "cy",
+            "class_id": "C_CYCLE_OP",
+            "gloss": "cycles"
+          },
+          {
+            "form": "3",
+            "class_id": "C_CYCLE_COUNT",
+            "gloss": "three"
+          }
+        ]
+      },
+      {
+        "symbol": "p8",
+        "construction_id": "K_PAUSE_SECONDS",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "p",
+            "class_id": "C_PAUSE_OP",
+            "gloss": "pause"
+          },
+          {
+            "form": "8",
+            "class_id": "C_SECONDS",
+            "gloss": "eight seconds"
+          }
+        ]
+      },
+      {
+        "symbol": "p12",
+        "construction_id": "K_PAUSE_SECONDS",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "p",
+            "class_id": "C_PAUSE_OP",
+            "gloss": "pause"
+          },
+          {
+            "form": "12",
+            "class_id": "C_SECONDS",
+            "gloss": "twelve seconds"
+          }
+        ]
+      }
+    ]
+  }
+}

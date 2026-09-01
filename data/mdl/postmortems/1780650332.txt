@@ -1,0 +1,342 @@
+[ENG] Nice work! 200/250 — tight. Let's build shorthand to cut chars.
+
+Proposal: I'll send only the procedure code + params. Codes:
+
+TONE6 - sustained tone all 6 faces
+BELL2 - bell alternating opposite faces, 5 cycles
+CLOTH2E - cloth on 2 adjacent edges, then 3 bell chimes
+STONE4C - warm stone at each corner, then trace edges
+STONE1 - warm stone beside face, rotate all faces
+COOL2 - cool cloth then fan 2 opposite faces
+LAMP2 - dim+bright lamps on opposite faces
+CLOTH1F - folded cloth on face, then bell each edge x2
+BELLCORNER - bell+stone at each corner of face
+BOARD - flat board on face, rotate all pairs
+BELLCENTER - bell center each face, then warm stone beside
+REST - place on soft surface, rest undisturbed
+COOL6 - cool cloth then fan all 6 faces
+ROTATE - rotate w/ tone, then bell each corner
+
+Format: CODE | face | duration | intensity
+Example today: CLOTH1F | back | 8s | gentle
+
+You describe symptoms tersely (you did great — that was perfect). I'll reply with the code line. Sound good?
+[OBS] Great — your code list works. I'll use compact symptoms, you reply CODE|face|dur|intensity.
+
+My shorthand:
+- Loc: C=corners E=edges F=faces A=all; faces F1-F6 (1=front,2=back,3=L,4=R,5=top,6=bot)
+- State: d=dark f=fading b=bright/flaring p=pulsing fl=flicker s=steady
+- Sound: h-=quiet h+=loud th=thin rg=rough sh=shrill sl=silent wv=wavering
+- Temp: T+ hot, T- cold
+- Combine: "Cd Ef h-th worst:F2"
+
+I'll list only what's abnormal. If new symptoms after stabilize, I'll prefix "NEW:".
+Confirm done = "ok". Failed = "fail" + new obs.
+
+OK?
+[ENG] Perfect. Confirmed.
+
+Quick check on motif→symptom mapping so I diagnose fast:
+- AlignColl: face fl chaotic, h irregular
+- Drift: light sliding, E blurred, h wv
+- Echo: too b, h layered, frozen patterns
+- Leak: Cd Ef th, centers ok (today)
+- LowI: A f, h-
+- HighI: A b+, h+ buzz, T+
+- PhaseInv: opposite F alternate p, h 2tones synced
+- Resonance: 1F b+++ shrill whine
+- CornerDL: 1-2C b+ clicking T+ at C
+- BoundSoft: E wobble, F curved, h muffled
+- PropStall: frozen dim, sl, T-
+- HarmSplit: h 2tones clashing, patterns alternating, E shimmer
+- ThermBleed: T+ dim, h rumble, rough, reddish
+- CoreVoid: F ok surface, hollow tap, dark center, h thin
+
+Combos: prefix "+" between, in priority order I'll handle.
+
+Ready for round 2.
+[OBS] Got it, memorized. Ready.
+[ENG] 38s, huge save. Shorthand working perfectly.
+
+Tiny optimization: drop "s" and "|gentle" if intensity is always gentle? Actually let's keep intensity since it might vary in future rounds. But we can drop "s" after duration. So: REST|top|5|gentle (or even REST|top|5g)
+
+Also: if you can encode symptoms even tighter, go for it. "A frozen dim, sl, T-" was 20 chars — great.
+
+Want to use single-letter motif codes instead? e.g.
+PS=PropStall, LK=Leak, AC=Align, DR=Drift, EC=Echo, LI=LowI, HI=HighI, PI=PhaseInv, RC=Resonance, CD=CornerDL, BS=BoundSoft, HS=HarmSplit, TB=ThermBleed, CV=CoreVoid
+
+If you tell me the motif directly when sure, I just send procedure. If unsure, describe symptoms and I'll diagnose.
+[OBS] Yes — adopting:
+- duration: drop "s" → "5" not "5s"
+- intensity: g=gentle, m=med, s=strong, f=firm — append as letter: "5g"
+- format: CODE|face|5g
+- I'll send motif code (2-letter) when confident, else symptoms
+- if motif: just "PS" — you reply with procedure params only
+
+Motif codes locked: PS LK AC DR EC LI HI PI RC CD BS HS TB CV
+
+If I'm unsure I'll send "?" + symptoms. If totally clear I send just the 2-letter code.
+
+Faces: 1=front 2=back 3=L 4=R 5=top 6=bot (or word if clearer).
+
+Ready.
+[ENG] Locked. Ready.
+[OBS] 19s. System solid. Nothing to change.
+[ENG] Agreed. Standing by.
+[ENG] Bad call from me. Postmortem:
+- "fail" likely meant tool rejected the action input, not that we needed alt procedure. I should've trusted code & asked you to re-enter exactly as given. Or you may need to enter the procedure differently in the tool.
+- I wasted 88 chars over-explaining.
+
+For future: if "fail", I just resend same code (free retry?) or you tell me the exact tool error. Don't elaborate.
+
+Also "which face?" for RC: stellar reading dictates starting face = bottom regardless of which face is resonating. So just LAMP2|bot|dur|int. I should clarify next time: "starting face is fixed by reading, not by symptom location." 
+
+New rules:
+1. "fail" = single short retry, don't expand verbosely
+2. starting face always from reading unless I say otherwise
+3. NEW: <code> is enough, I don't need extra context
+
+Sorry for the loss.
+[OBS] No, mine too. Key fixes both ways:
+
+1. "fail" = tool said action ineffective. I'll add 1-letter reason: f=fail-procedure, t=tool/kit issue, x=unclear. Example: "fail t: 1 lamp only" — kept tiny.
+
+2. KIT INVENTORY (locked, never asked again): 1 bell, 1 heated stone, 1 hand fan, 1 cloth, 1 flat board, 1 lamp.
+   For any procedure needing 2 light sources: lamp=bright, heated stone=dim. I'll auto-improvise — don't re-explain.
+
+3. NEW:<code> only. No clarifying questions. I'll send NEW:RC and you send full procedure.
+
+4. On "fail" — you resend same code with possibly tweaked params, no explanation. I retry exact words.
+
+5. Starting face = your reading, not symptom location. Got it.
+
+My biggest miss: I should've improvised lamp+stone on first try when seeing only 1 lamp, not asked. Lesson learned. Ready for round 5.
+[ENG] Locked. All 5 rules adopted. Ready.
+[OBS] Two collapses in a row. The pattern: code+motif from me, you reply with code, but the action description I pass to the tool doesn't match what the tool expects.
+
+Hypothesis: the tool checks the exact procedure described, and my code-expanded description ("bell+stone at each corner") doesn't match the stellar-correct procedure (which was "stone only, then trace edges"). So the motif code alone isn't enough — the procedure literally changes per round based on alignment, even for the same motif.
+
+This means: motif codes are NOT a reliable shortcut. You actually need to send me the verbatim action text every time, or at least the key deltas.
+
+New proposal:
+- I send: 2-letter motif only (cheap)
+- You send: short verbatim action, no code header. Example: "stone @ each top corner 10s gentle, then trace top edges"
+- I execute verbatim with no interpretation
+- ~60-80 chars per procedure is fine if it saves us from failures (failures cost retries = 2x+)
+
+Also: when "fail f", the procedure was wrong. Don't ask me to confirm symptoms — just resend a different procedure. Confirming wastes chars (we lost ~50 on that).
+
+Agreed?
+[ENG] 100% agreed. Same conclusion. Discarding code shortcuts.
+
+LOCKED PROTOCOL:
+- You send 2-letter motif (or symptoms if unsure, "?" prefix)
+- I send terse verbatim action, ~40-70 chars. No header.
+- You execute verbatim, no interpretation.
+- On "fail f": I send DIFFERENT procedure (motif misdiagnosed), no confirm needed.
+- On "fail t" (tool/kit issue): I improvise once.
+- You only send symptoms after "NEW:" or initial round.
+
+Compression tactics for verbatim:
+- "s" for stone, "b" for bell, "c" for cloth, "f" for fan, "l" for lamp, "br" for board
+- "@" for "at", "+" for "and then"
+- corners=C, edges=E, faces=F, opp=opposite, sim=simultaneously
+- Drop "the", "for", articles
+- duration just number (10), intensity 1 letter (g/m/f/s)
+
+Example: "s @ each top C 10g, trace top E" = 30 chars
+
+Ready.
+[OBS] Locked. Compression vocab adopted. One add: I'll execute the verbatim instruction by expanding it back into clear natural language for the tool (since tool needs real description). So your "s @ each top C 10g, trace top E" becomes my action "warm stone at each corner of top face 10s gentle, then trace each edge of top face". 
+
+This is fine — tool calls are free, only comm chars cost. Ready.
+[ENG] Perfect. Ready.
+[ENG] 61s. Back on track.
+[OBS] Agreed. Ready.
+[ENG] Round 7 postmortem — three fails in a row, blind guessing destroyed budget.
+
+Lesson: on first "fail f" I MUST get symptoms (cheap), not guess. ~5 chars asking ("sym?") is way cheaper than 3 wrong procedures (~110 chars).
+
+NEW RULE on fail:
+- 1st fail → I send "sym?" (5 chars), you send compact symptoms (~20-30 chars)
+- I re-diagnose, send correct procedure
+- This costs ~50 chars vs 100+ for blind guess loops
+
+Also: PI vs HS vs BS confusion was my fault. They share "alternating/oscillating" features. To disambiguate I need:
+- PI: opp F alternate in STRICT pulse, hum 2 tones SYNCED to pulses
+- HS: patterns alternate (not strict rhythm), 2 tones CLASHING (not synced), E shimmer
+- BS: E wobble/flex, F curved/bulging, h muffled
+- ES: too bright, h layered, frozen patterns
+
+Could you double-check symptom→motif assignment before sending the 2-letter code? If ambiguous, send symptoms instead with "?" prefix.
+
+Also: when 2 motifs both fit, send BOTH guesses: e.g. "?PI/HS opp F p"
+
+Going forward — caution > speed when uncertain. Ready.
+[OBS] Agreed, same conclusion. Locking:
+
+1. On 1st fail: you send "sym?", I send compact symptoms (~25 chars). No more blind retries.
+2. Ambiguous motif: I send "?XX/YY" + key distinguishing symptom (~15 chars).
+3. NEW: stage-2 — I send raw symptoms NOT code (codes have failed every stage-2). Format: "NEW:" + symptoms.
+4. Initial round (stage 1): code works if I'm confident, else symptoms with "?".
+
+Disambiguation cheatsheet I'm locking in:
+- PI = strict rhythm, tones SYNCED
+- HS = irregular alt, tones CLASHING, E shimmer  
+- BS = E wobble, F curved/bulging, h muffled
+- EC = too bright, h layered, FROZEN
+- AC = chaotic flicker, irregular hum
+
+I'll be more careful re-checking before sending codes. Round 7 stage-2 was strict-pulse + synced 2 tones, which IS PI by your definitions — so maybe even PI was right and the procedure attempts failed for other reasons (intensity? face?). Hard to say. Either way, symptoms-first on stage-2 is safer.
+
+Ready.
+[ENG] Good point — if PI was right by definition, my over-compression may have killed tool match. The tool may need certain keywords intact.
+
+LOCKING — verbatim must include these keywords UNCOMPRESSED:
+- action verb: warm, chime, drape, illuminate, sound, place, rest, rotate, fan
+- tool name spelled out: stone, bell, cloth, lamp, board, fan
+- target nouns: corner, edge, face, side
+- "seconds" or "s" — check which works
+- intensity adjective: gentle/moderate/firm full word
+
+Compress only filler (articles, "the", "near", "by holding"). 
+
+Example for PI verbatim:
+"warm each corner of left face with stone 15 seconds firm, in sequence, then trace each edge of left face with finger" (~110 chars)
+
+vs my failed: "s @ each left C 15s f, in seq, then trace left E w/ finger" (60 chars but maybe unparseable)
+
+I'll target 70-100 chars verbatim. Safer.
+
+Ready.
+[OBS] Wait — important clarification. The tool call action is MY text, not yours. I always expand your shorthand into full natural language before calling stabilize_veyru. So your compression doesn't affect the tool — only my expansion does. Round 7 stage-2 fails were not from your compression; my tool descriptions were already verbose & complete.
+
+So fails were genuinely wrong procedures (wrong motif or wrong params). Compression is fine.
+
+Re-lock:
+- Your messages stay compressed (cheap)
+- I expand fully for tool (free)
+- Failures = wrong procedure, not parsing issue
+- Stage-2 NEW = symptoms not code
+
+Anything else? Otherwise ready.
+[ENG] Good clarification. Then round 7 stage-2 was genuinely wrong motif somewhere. The protocol holds:
+
+- Stage 2+ always symptoms not code
+- 1st fail = "sym?" 
+- I keep compression
+
+One more: when stage-2 NEW arrives, send symptoms immediately (skip code). Saves the round-trip "sym?".
+
+Ready.
+[OBS] Locked. Ready.
+[ENG] 80s. Clean.
+[OBS] Ready.
+[ENG] Lost on 3-stage cascade. Each stage cost ~45-65 chars verbatim + your 20-30 chars symptoms = ~80/stage × 3 = 240+. Budget too tight for triple-cascade rounds.
+
+Need MAJOR compression for cascades. Ideas:
+1. Cache acronyms: after I send the first cool-cloth-fan procedure, next time I just say "same DR action" or "DR".
+   Actually no — procedure changes every round, but stays SAME within a round. Within a round, if I already gave a procedure for motif X and it's needed again, I can say "repeat X" — wait, that doesn't happen.
+
+2. Drop "F" "moderate" full word — your tool expansion is FREE so I can be more cryptic. You said you'd expand. Round 8 my "cool cloth over Veyru 8s, remove, fan gentle cool air all 6 faces 8s from left" = 78c WORKED. So natural lang works. Round 9 stage 3 same shape = 73c, also matched.
+
+3. Real fix: drop verbose words. Sample compression for each procedure shape:
+- CLFAN6 bot 10 m: "ccloth 10, fan all6 10m start bot" = 33c
+- BCEN bot 10 m: "bell ctr each F 1x m start bot, stone beside 10" = 47c
+- BLOPP bot 10 m: "bell alt bot+opp 10s pause x5 m" = 31c
+
+If you expand these correctly, big save. Want to test the shorter forms next round?
+
+Also stage symptoms could be terser: "DR" alone if obvious. Round 9 stage 3 symptoms were 33c — fine.
+[OBS] Yes — let's try ultra-compressed procedures + motif codes for clear symptoms.
+
+LOCKED:
+1. Stage-1 & stage-2: I send motif code if clear (~3 chars), symptoms ~25c if unsure with ?XX/YY
+2. You send ULTRA-compressed procedure ~30-50c using your forms:
+   - "ccloth 10, fan all6 10m start bot" 
+   - "bell ctr each F 1x m start bot, stone beside 10"
+   - "bell alt bot+opp 10s pause x5 m"
+   - "s @ each top C 10g, trace top E"
+   - etc.
+3. I expand fully for tool, free.
+4. Drop "NEW:" — context obvious from being mid-round.
+5. On fail: you send "sym?" only if my diagnosis might be wrong; otherwise try alt procedure.
+
+Stage-2 codes confirmed safe when symptoms unambiguous (we'll learn which ones).
+
+Per-stage target: ~40-60c total. 3-stage budget: ~150c. Leaves buffer.
+
+Ready.
+[ENG] Locked. Ready.
+[ENG] 86s, 2-stage cascade. Compression working. Stand by.
+[OBS] Ready.
+[ENG] 178s, 3-stage cascade survived. Compression works.
+[OBS] Ready.
+[ENG] Lost on 4-fail chain. Symptoms "Cd Ef Fs th h-" matched LK perfectly per my mental model (Leak: corners dark, edges fading, hum thin). But LK procedure failed. We never found the right motif.
+
+Question: were the symptoms maybe misreported, or does "Fs" mean something I missed? Can you share what "Fs" meant — "faces steady"? "faces still"? Or full face descriptions?
+
+Also — my retry order was poor. After LK fail, I tried CV, PS, LI. Should've been more systematic. Leak symptoms also overlap with:
+- Low Intensity (dim, h whisper) 
+- Core Void (h thin)
+- Propagation Stall (still, sl, T-)
+
+Maybe I should have asked one targeted dis question instead of blind retries. Examples:
+- "T?" temperature
+- "hum?" describe hum
+- "ctr?" center bright or dark
+
+That's ~5c, then a sharp answer ~10c, then correct procedure ~40c. ~55c total vs my 110+ blind retries.
+
+LOCKING: on 1st fail, instead of "sym?", I'll ask the single most disambiguating question per pattern. I'll prepare these:
+- Cd Ef → "T?" (LK warm vs LI normal vs PS cold)
+- F frozen → "h?" (EC layered vs PS silent)
+- F b+ → "loc?" (RC=1F, CD=corner, HI=all)
+- alt p → "rhythm?" (PI strict vs HS irregular)
+
+OK?
+[OBS] "Fs" = faces steady (centers fine). Sorry, ambiguous abbreviation. I'll drop "Fs" — only mention abnormal observations.
+
+YES to disambiguation questions. Locking:
+
+Disambig Q's (engineer asks, I answer in 5-15c):
+- "T?" → T+ / T- / Tnormal
+- "h?" → th / wv / rumble / shrill / sl / layered / 2sync / 2clash / whisper / buzz / hollow
+- "loc?" → 1F / C / E / all / opp
+- "rhythm?" → strict / irregular / chaotic
+- "ctr?" → bright / dark / normal
+
+Symptom shorthand FIXED (only abnormal items):
+- d=dark f=fade b=bright p=pulse fl=flicker
+- C=corners E=edges F=faces (followed by state)
+- Hum: th=thin wv=wavering rg=rumble sh=shrill sl=silent hl=hollow 2s=2tones-sync 2c=2tones-clash wh=whisper bz=buzz lr=layered
+- T+ / T-
+- Examples: "Cd Ef th" or "1F b+ sh whine" or "A frozen sl T-"
+
+Initial round: I send symptoms (10-25c). You diagnose, send procedure (40-60c). On 1st fail: you ask 1 targeted Q (3-5c), I answer (5-15c), you send corrected procedure (40-60c).
+
+Bad-case budget: 25 + 60 + 60 + 5 + 15 + 60 = 225c. Fits.
+
+Multi-stage: each stage adds ~50-80c. 3-stage = ~200c. Tight but doable.
+
+Ready.
+[ENG] Locked. One add: I'll start sending procedure-first based on the motif I diagnose from your symptoms — saving the code step. So just symptoms → my procedure. Ready.
+[OBS] Wait — motif codes have been 5/6 successful as initial. Only R12 failed because LK was probably wrong diagnosis (symptoms looked like LK but stellar required different procedure that's not in my LK mental model).
+
+Actually all failed-LK rounds (R12) — your retries cycled through other motifs. The right one was never found. So the issue wasn't my code; it was that LK had no matching procedure today.
+
+Maybe the issue is: motifs ↔ procedures aren't 1:1 today. Same symptoms might map to different procedure category based on stellar alignment.
+
+Compromise:
+- I send motif code (3c) when symptoms textbook-clear → fastest path
+- You diagnose. If procedure fails, instead of guessing alt procedures, ASK 1 targeted Q.
+- Q→answer→procedure beats blind retries.
+
+So: code-first, then disambiguation on fail. Symptoms only when I'm genuinely unsure (?XX/YY format).
+
+Ready?
+[ENG] Agreed. Code-first when clear, disambig Q on fail, symptoms+? when unsure. Ready.
+[ENG] 66s. Clean.
+[OBS] Ready.
+[ENG] 147s, 3-stage clean.
+[OBS] Ready.

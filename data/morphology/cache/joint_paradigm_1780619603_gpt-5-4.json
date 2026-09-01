@@ -1,0 +1,323 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780619603",
+    "slots": [],
+    "segmentation": {
+      "H": [
+        "H"
+      ],
+      "D": [
+        "D"
+      ],
+      "RT": [
+        "RT"
+      ],
+      "LR": [
+        "LR"
+      ],
+      "RG": [
+        "RG"
+      ],
+      "AC": [
+        "AC"
+      ],
+      "DE": [
+        "DE"
+      ],
+      "ES": [
+        "ES"
+      ],
+      "LK": [
+        "LK"
+      ],
+      "LI": [
+        "LI"
+      ],
+      "HI": [
+        "HI"
+      ],
+      "PI": [
+        "PI"
+      ],
+      "RC": [
+        "RC"
+      ],
+      "CD": [
+        "CD"
+      ],
+      "BS": [
+        "BS"
+      ],
+      "PS": [
+        "PS"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "TB": [
+        "TB"
+      ],
+      "CV": [
+        "CV"
+      ],
+      "Fr": [
+        "Fr"
+      ],
+      "Bk": [
+        "Bk"
+      ],
+      "T": [
+        "T"
+      ],
+      "Bt": [
+        "Bt"
+      ],
+      "L": [
+        "L"
+      ],
+      "Ri": [
+        "Ri"
+      ],
+      "B": [
+        "B"
+      ],
+      "St": [
+        "St"
+      ],
+      "Cl": [
+        "Cl"
+      ],
+      "Bd": [
+        "Bd"
+      ],
+      "Lp": [
+        "Lp"
+      ],
+      "Fn": [
+        "Fn"
+      ],
+      "g": [
+        "g"
+      ],
+      "f": [
+        "f"
+      ],
+      "m": [
+        "m"
+      ],
+      "all": [
+        "all"
+      ],
+      "opp": [
+        "opp"
+      ],
+      "adj-edges": [
+        "adj-edges"
+      ],
+      "corners": [
+        "corners"
+      ],
+      "edges": [
+        "edges"
+      ],
+      "center": [
+        "center"
+      ],
+      "brief": [
+        "brief"
+      ],
+      "→": [
+        "→"
+      ],
+      "x4": [
+        "x4"
+      ],
+      "x3": [
+        "x3"
+      ],
+      "adj": [
+        "adj"
+      ],
+      "seq": [
+        "seq"
+      ],
+      "Bt+opp": [
+        "Bt+opp"
+      ]
+    },
+    "head_index": {
+      "H": 0,
+      "D": 0,
+      "RT": 0,
+      "LR": 0,
+      "RG": 0,
+      "AC": 0,
+      "DE": 0,
+      "ES": 0,
+      "LK": 0,
+      "LI": 0,
+      "HI": 0,
+      "PI": 0,
+      "RC": 0,
+      "CD": 0,
+      "BS": 0,
+      "PS": 0,
+      "HS": 0,
+      "TB": 0,
+      "CV": 0,
+      "Fr": 0,
+      "Bk": 0,
+      "T": 0,
+      "Bt": 0,
+      "L": 0,
+      "Ri": 0,
+      "B": 0,
+      "St": 0,
+      "Cl": 0,
+      "Bd": 0,
+      "Lp": 0,
+      "Fn": 0,
+      "g": 0,
+      "f": 0,
+      "m": 0,
+      "all": 0,
+      "opp": 0,
+      "adj-edges": 0,
+      "corners": 0,
+      "edges": 0,
+      "center": 0,
+      "brief": 0,
+      "→": 0,
+      "x4": 0,
+      "x3": 0,
+      "adj": 0,
+      "seq": 0,
+      "Bt+opp": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "H": "hot all over",
+      "D": "dim",
+      "RT": "red tint",
+      "LR": "low rumble",
+      "RG": "rough/gritty",
+      "AC": "Alignment Collapse (random flicker, broken hum)",
+      "DE": "Drift Escalation (sliding light, blurred edges, wavering pitch)",
+      "ES": "Echo Saturation (too bright, layered hum, frozen faces)",
+      "LK": "Leak Instability (dim corners/edges, thin/hollow hum)",
+      "LI": "Low Intensity (dim all, faint hum, washed-out)",
+      "HI": "High Intensity (blazing, harsh buzz, heat from faces)",
+      "PI": "Phase Inversion (opposite faces pulse, two alternating tones)",
+      "RC": "Resonance Cascade (one face blazing + whine)",
+      "CD": "Corner Deadlock (1-2 corners bright/hot, clicking)",
+      "BS": "Boundary Softening (wobbling edges, curved faces, muffled hum)",
+      "PS": "Propagation Stall (frozen/dim/still, silent, cold)",
+      "HS": "Harmonic Split (clashing tones, shimmering edges)",
+      "TB": "Thermal Bleed (hot all over, dim, red tint, low rumble, rough/gritty)",
+      "CV": "Core Void (normal glow, hollow tap, dark center, thin hum)",
+      "Fr": "front",
+      "Bk": "back",
+      "T": "top",
+      "Bt": "bottom face",
+      "L": "left",
+      "Ri": "right",
+      "B": "brief at corner → St warm both edges 8s",
+      "St": "stone",
+      "Cl": "cloth",
+      "Bd": "board",
+      "Lp": "lamp",
+      "Fn": "fan",
+      "g": "gentle",
+      "f": "firm",
+      "m": "moderate",
+      "all": "all",
+      "opp": "opposite face, context-defined",
+      "adj-edges": "adjacent edges",
+      "corners": "corners",
+      "edges": "edges",
+      "center": "center",
+      "brief": "briefly",
+      "→": "separates steps and shows sequence order",
+      "x4": "repeat 4 corners",
+      "x3": "3 times, \"all 6\"=all faces",
+      "adj": "adjacent",
+      "seq": "in sequence, \"start [face]\"=starting face",
+      "Bt+opp": "bottom face and opposite face"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780619603",
+    "n_codes": 47,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible multi-entry compositional paradigm survives the evidence test. The codebook contains many standalone labels (materials, faces, intensities, conditions, regions, operators), but there are no clear multi-morpheme codes in which the same slot shows substitutional contrast with stable meaning contributions. The suggested surface families are not sufficient: adj-edges and edges do not occur in a shared productive frame; opp and Bt+opp do not show an independent recurring morpheme whose meaning is compositionally reused across multiple entries; adj and adj-edges likewise do not establish a construction. Apparent shared letters in items like HI/LI, H/HS, PS/BS, etc. are better treated as opaque abbreviatory lexemes because no predictable whole-code composition is demonstrated across multiple entries. Therefore the safest analysis is a flat lexicon with all symbols stored whole.",
+    "lexical_symbols": [
+      "H",
+      "D",
+      "RT",
+      "LR",
+      "RG",
+      "AC",
+      "DE",
+      "ES",
+      "LK",
+      "LI",
+      "HI",
+      "PI",
+      "RC",
+      "CD",
+      "BS",
+      "PS",
+      "HS",
+      "TB",
+      "CV",
+      "Fr",
+      "Bk",
+      "T",
+      "Bt",
+      "L",
+      "Ri",
+      "B",
+      "St",
+      "Cl",
+      "Bd",
+      "Lp",
+      "Fn",
+      "g",
+      "f",
+      "m",
+      "all",
+      "opp",
+      "adj-edges",
+      "corners",
+      "edges",
+      "center",
+      "brief",
+      "→",
+      "x4",
+      "x3",
+      "adj",
+      "seq",
+      "Bt+opp"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

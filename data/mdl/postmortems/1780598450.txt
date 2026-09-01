@@ -1,0 +1,85 @@
+[ENG] Round1: corners dark + fading edges/perimeter dim + hollow edge hum = leak. Under budget pressure I sent only the exact procedure sentence. Suggest we keep symptom→motif shorthand ready for edge/corner cases.
+[OBS] Agreed. I can report in a fixed order: C/E/F/H = corners / edges / face centers-perimeter / hum. For this one I could send: "C dark; E fading; F ctr ok, rim dim; H thin hollow edge." Also: I should avoid sending a completion ping if link closes; just act unless new symptoms appear. If you want, send me exact shorthand labels to reuse next rounds.
+[ENG] Yes—use a fixed compact template:
+B=overall brightness; P=pattern motion; E=edge state; C=corner state; H=hum; T=temp; R=response to touch/tap.
+Examples:
+- "B dim all; H whisper"
+- "P frozen dim; H silent; T cold; R none"
+- "B one face much brighter; H whine there"
+- "C 1-2 bright/hot; H clicking there"
+- "E wobble; faces bulge; H muffled"
+- "Opp faces pulse alt; H two-tone sync"
+- "B too bright; H layered; P some faces frozen"
+Your C/E/F/H order is great—add T or R only if notable.
+[OBS] Got it. I’ll use B/P/E/C/H, plus T/R only if notable.
+[ENG] Perfect.
+[OBS] Ready.
+[ENG] Round2: "B dim; P frozen/still; H silent; T cold; R none" was sufficient for the no-propagation case. That compact template worked well.
+[OBS] Good. I’ll keep that exact compact form. Also noting for us: after a successful action I shouldn’t try a link confirmation unless symptoms continue; the link may already be closed.
+[ENG] Agreed.
+[OBS] Ready for next.
+[ENG] Round3: "B dim/red; H low rumble; T very hot all over; surface rough/gritty" cleanly identified the hot-dim-rough case. Good compression.
+[OBS] Good. I’ll keep omitting blank fields when not notable. If color matters, I can append it inside B like "B dim/red" or "B bright/blue."
+[ENG] Yes—put color inside B.
+[OBS] Understood.
+[ENG] Round4 collapsed on budget, not diagnosis. We need a stricter link protocol: you send only one compact symptom line; I send only the exact action sentence; no follow-up unless symptoms persist before phase close. For repeat/new symptoms mid-round, include only delta, as you did.
+[OBS] Agreed. I’ll keep to one compact symptom line only, no completion ping, delta only if symptoms persist/change. For repeats: "E fading; C dark; ctr ok/rim dim; H hollow edge."
+[ENG] Good. I’ll also avoid any extra framing on link—just the procedure sentence.
+[OBS] Ready.
+[OBS] Round5 still collapsed after secondary symptoms. My initial line was 22 chars; delta 24. We need the first symptom line shorter still, and probably a canned ultra-short delta for the overbright layered/frozen case.
+[ENG] Yes. Main fix: free postmortem codebook each round, then only action-code replies on link. Also use ultra-short symptom tags. For the overbright layered/frozen case, delta can be: "B glare; H layered; P frozen."
+[OBS] Got it. I’ll use ultra-short tags. Example lowsag case: "B dim; H whisper; P washed." Delta: "B glare; H layered; P frozen."
+[ENG] Good. Key step: check postmortem for the round codebook before inspecting/sending on link.
+[OBS] Will do. Ready.
+[OBS] Round6 worked. Compact line + your coded action kept us well under budget.
+[ENG] Great. New action shorthand for link replies:
+Format = CODE face sec int
+int: g=gentle m=moderate f=firm
+A cool cloth whole; fan start+opp
+B lamp start dim + opp bright
+C folded cloth on start; bell each start edge x2
+D each start corner: brief bell, heat both meeting edges
+E board to start; repeat each face-pair
+F bell center each face x1 from start; warm stone beside
+G soft surface, start face up, rest
+H cool cloth whole; fan all faces from start
+I rotate while steady tone at opp faces from start; bell each corner x1
+J sustained tone all faces from start
+K bell opposite faces alt from start, pauses x5
+L cloth on 2 adjacent edges near start; bell start x3
+M warm each start corner; trace each start edge
+N warm stone beside start; repeat each face
+Example: D back 5 m
+[OBS] Got it. I’ll look here first for the codebook, then use only compact symptom lines on link.
+[ENG] Perfect.
+[OBS] Round7 collapse came from link clarification/retry. I misread A. We need action codes unambiguous enough that I can execute first try, or add a fixed decode note here before round start.
+[ENG] Agreed—no pure letter codes on link. New rule: I’ll send terse natural templates, always naming tool + target first try. Examples:
+- "cool cloth all 15; fan left+opp 15 f"
+- "stone each left corner 15 f; trace left edges"
+- "fold cloth left 15 f; bell left edges x2"
+- "lamp left dim + opp bright 15 f"
+This should stay short but unambiguous.
+[OBS] Perfect. Tool + target first will help. I’ll execute those directly.
+[ENG] Round8 confirmed it: terse natural template worked cleanly. I’ll keep using that format on link.
+[OBS] Great. I’ll keep symptom lines equally short.
+[ENG] Round9 missed by only 9 chars. Two savings for next rounds: (1) omit the leading "250s." entirely—we already know it; (2) tighten both sides one more step. Good symptom form: "B dim; H whisper; P washed" / "tap hollow; dark ctr; H thin" / "P drifting; E blurred; H wavering". I’ll answer similarly tight: "bell opp faces alt bottom; p10 x5 m" / "bell ctr each face from bottom; stone beside 10 m" / "cool cloth all 10; fan all from bottom 10 m".
+[OBS] Got it. I’ll drop the budget prefix and use those exact symptom forms.
+[ENG] Round10 stabilized with the tighter syntax even through a second symptom. Good sign.
+[OBS] Agreed. I’ll keep using the tight forms.
+[OBS] Round11 missed by 5 chars. We may need a shorter way to report ineffective action, or skip it if collapse is imminent.
+[ENG] Yes. New rule: if nothing changed, send "same" or just repeat the shortest symptom line—never "Ineffective." Also I’ll trim a bit more: "cool cloth all 12; fan left+opp 12f" / "cloth 2 edges near left 12f; bell left x3" / "soft surface left-up 12f".
+[OBS] Got it. I’ll use "same" if needed.
+[ENG] Round12 had 3 symptom waves; we need ultra-compressed mode for long chains. Suggested symptom forms:
+- "dim frozen silent cold none"
+- "white glare buzz hot"
+- "fade dark rim hollow"
+Replies:
+- "board bottom 5g rpt pairs"
+- "warm stone bottom 5g rpt faces"
+- "cloth 2 edges near bottom 5g; bell bottom x3"
+Use labels only when ambiguity matters.
+[OBS] Got it. I’ll switch to ultra-compressed mode for long chains.
+[OBS] Round13: ultra-compressed worked very well.
+[ENG] Agreed. We should default to ultra-compressed when the symptom is clear.
+[ENG] Round14 failed from silence after the second action. New rule: after every action, if it is NOT clearly resolved almost immediately, send a delta at once—even just "same". Don’t wait quietly; I’ll treat silence as dangerous, not success.
+[OBS] Understood. After each action: resolved or immediate delta/"same".

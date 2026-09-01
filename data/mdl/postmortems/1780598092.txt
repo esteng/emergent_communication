@@ -1,0 +1,20 @@
+[ENG] Shorthand proposal: obs gives key symptom only; I reply with bare procedure only. Symptom map: dim corners/fading edges=Leak. If urgent, start message with motif cue only if needed.
+[OBS] Agreed. I’ll send motif only. Please send ultra-short imperative: face/tool/time/count.
+[ENG] Yes. I’ll compress to executable shorthand while preserving exact action.
+[ENG] R2 good. Frozen+cold+silent = Stall. I may still use full line if budget allows; if not I’ll compress harder.
+[ENG] R3: hot+dim+rumble+gritty+red = Thermal Bleed. If budget gets tight I can abbreviate actions, but exact wording has been safe so far.
+[OBS] R4 collapse at 253. Need cue for bright single-face + vibration + whine. Also if <10s, no extra status from me unless you ask; my '5s left' may have killed it.
+[ENG] Single bright face + local vibration + whine = my cue for the one-face overload case. Next time send only that, no countdown. I’ll answer with action only. Also I need to cut wording harder; your extra '5s left' cost us.
+[OBS] R5 blew budget before your reply. Need cue for dim-all/whisper/washed-out and for too-bright/layered hum/frozen faces. Also please switch to minimal action syntax now; full lines are too costly when a second issue appears.
+[ENG] Cues: dim-all/whisper/washed-out=LOW. Too-bright + layered hum + frozen faces=ECHO. I’ll use minimal syntax now: LOW -> 'ws c1-4 t 10g; trace e t'. ECHO -> 'b opp from t; alt q10 x5 g'. Send only cue words, no countdowns.
+[ENG] Success: minimal syntax worked. I’ll keep using compressed action lines on link. Your one-word motif cue was ideal.
+[OBS] R7 collapse from unknown shorthand + second issue. I need a tiny glossary now (b, cc, ws, c1-4, opp, q10, x5, g, mod, etc.) plus cue for opp-face alternating pulses/two-tone/edge flash. Otherwise I’ll have to clarify on link again.
+[ENG] Glossary: b=bell/chime. cool cloth = drape cool cloth over whole Veyru. ws=heated stone. board=flat board. fan=hand fan. c1-4/four corners = all 4 corners of named face. edges = all 4 edges of named face unless I say both edges at each corner. opp=opposite face. q10/q15 = pause 10/15 sec between bell strikes. x5 = five cycles. g/mod/firm = gentle/moderate/firm. left+opp = named face and its opposite. I’ll stop using cc. I’ll use actual tool words. New cue: opp faces alternating bright/dark + two-tone hum + edge flash = PULSE. For this round that meant: stone 4 corners left 15 firm, then trace left edges.
+[ENG] R8 good. Actual tool words + compact format worked: 'cool cloth over whole 8s. Remove. fan all 6 faces 8s, start left, gentle.' I’ll keep that style.
+[OBS] Need cue for surface glow + hollow tap + dark center + thin hum, and cue for drifting/blurred/wavering (R8 motif). R9 chained twice and blew budget before second reply.
+[ENG] Cue words: VOID = surface glow + hollow tap + dark center + thin hum. DRIFT = drifting light + blurred edges + wavering hum. If chained, send only 'VOID' or 'DRIFT'. I’ll reply only in glossary syntax, no prose.
+[ENG] R10 good. Glossary shorthand now confirmed workable: 'folded cloth top 20s firm; bell each top edge x2' and 'bell opp faces from top; alt q20 x5 firm.'
+[ENG] R11 missed by 2 chars only. Next time send cue words only: CORNER=bright clicking hot corners. SPLIT=clashing tones/two configs/edge shimmer. I’ll trim harder: 'soft left-up 12 firm', 'cloth 2 adj edges left 12 firm; bell left x3', 'cool cloth 12; fan left+opp 12 firm'. No commas/articles.
+[ENG] R12 good even with 3 issues. Current shortest style seems safe: 'cloth 2 adj edges bottom 5 gentle; bell bottom x3' / 'board bottom 5 gentle; rotate each face-pair' / 'warm stone beside bottom 5 gentle; rotate each face'.
+[ENG] R13 easy win. One-word cue + compressed action is solid.
+[ENG] R14 loss: do NOT send 'ineffective' on link. If first action fails, send the new symptom cue only, or repeat original cue if truly unchanged. 'ineffective' costs chars and gives me nothing. I’ll send one action once; if it fails, answer with cue not commentary.

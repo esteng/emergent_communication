@@ -1,0 +1,57 @@
+{
+  "per_slot": {
+    "pos0": [
+      [
+        "A",
+        "all faces"
+      ],
+      [
+        "Bk",
+        "back face"
+      ],
+      [
+        "Br",
+        "bright face, the symptomatic bright one"
+      ],
+      [
+        "Bt",
+        "bottom face"
+      ],
+      [
+        "Dm",
+        "dim face, the symptomatic dim one"
+      ],
+      [
+        "Fr",
+        "front face"
+      ],
+      [
+        "Lf",
+        "left face"
+      ],
+      [
+        "Op",
+        "opposite of the starting face"
+      ],
+      [
+        "Rt",
+        "right face"
+      ],
+      [
+        "Tp",
+        "top face"
+      ],
+      [
+        "opp",
+        "the face opposite to the start face"
+      ]
+    ],
+    "pos1": [
+      [
+        "Hk",
+        "hot or bright corner, the symptomatic corner"
+      ]
+    ]
+  },
+  "stackable": []
+}

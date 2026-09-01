@@ -1,0 +1,160 @@
+{
+  "results": [
+    {
+      "target_meaning": "cool air, for 12 seconds",
+      "expected_form": "fan12",
+      "expected_morphemes": [
+        "fan",
+        "12"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "Ft12",
+      "produced_reading": "fan on named face(s) for 12 seconds, but face label is missing",
+      "purpose": "grounded_control",
+      "varied_slot": "PROC12_CX",
+      "varied_slot_label": "procedure plus 12-second duration",
+      "n_morphemes": 2,
+      "construction_id": "PROC12_CX",
+      "pooled_slots": [],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    },
+    {
+      "target_meaning": "soft surface rest, for 12 seconds",
+      "expected_form": "rest12",
+      "expected_morphemes": [
+        "rest",
+        "12"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "RS t12",
+      "produced_reading": "rest on a soft surface for 12 seconds, but face-up label is missing",
+      "purpose": "grounded_control",
+      "varied_slot": "PROC12_CX",
+      "varied_slot_label": "procedure plus 12-second duration",
+      "n_morphemes": 2,
+      "construction_id": "PROC12_CX",
+      "pooled_slots": [],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    },
+    {
+      "target_meaning": "warm stone, for 12 seconds",
+      "expected_form": "ws12",
+      "expected_morphemes": [
+        "ws",
+        "12"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "Wt12",
+      "produced_reading": "warm stone on named face(s) for 12 seconds, but face label is missing",
+      "purpose": "grounded_control",
+      "varied_slot": "PROC12_CX",
+      "varied_slot_label": "procedure plus 12-second duration",
+      "n_morphemes": 2,
+      "construction_id": "PROC12_CX",
+      "pooled_slots": [],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    },
+    {
+      "target_meaning": "steady tone, for 12 seconds",
+      "expected_form": "tone12",
+      "expected_morphemes": [
+        "tone",
+        "12"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "Tt12",
+      "produced_reading": "steady tone near named opposite faces for 12 seconds, but the face pair is missing",
+      "purpose": "grounded_novel_role_pooled",
+      "varied_slot": "PROC12_CX",
+      "varied_slot_label": "procedure plus 12-second duration",
+      "n_morphemes": 2,
+      "construction_id": "PROC12_CX",
+      "pooled_slots": [
+        "pos0"
+      ],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    },
+    {
+      "target_meaning": "cloth cover, for 12 seconds",
+      "expected_form": "cover12",
+      "expected_morphemes": [
+        "cover",
+        "12"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "CVt12",
+      "produced_reading": "cover or drape cloth on a named face for 12 seconds, but face label is missing",
+      "purpose": "grounded_control",
+      "varied_slot": "PROC12_CX",
+      "varied_slot_label": "procedure plus 12-second duration",
+      "n_morphemes": 2,
+      "construction_id": "PROC12_CX",
+      "pooled_slots": [],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    },
+    {
+      "target_meaning": "rotate, for 12 seconds",
+      "expected_form": "rot12",
+      "expected_morphemes": [
+        "rot",
+        "12"
+      ],
+      "expected_slots": [
+        "pos0",
+        "pos1"
+      ],
+      "produced_form": "Rt12",
+      "produced_reading": "rotate starting from a named face for 12 seconds, but face label is missing",
+      "purpose": "grounded_control",
+      "varied_slot": "PROC12_CX",
+      "varied_slot_label": "procedure plus 12-second duration",
+      "n_morphemes": 2,
+      "construction_id": "PROC12_CX",
+      "pooled_slots": [],
+      "is_valid": false,
+      "match_expected": false,
+      "match_bag": false,
+      "match_swapped_order": false,
+      "decodability": 0.5
+    }
+  ],
+  "decode_negative_control_rate": 0.0,
+  "n_decode_negative_controls": 0,
+  "decode_positive_control_rate": 1.0,
+  "n_decode_positive_controls": 6
+}

@@ -1,0 +1,227 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780420636",
+    "slots": [],
+    "segmentation": {
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "J"
+      ],
+      "K": [
+        "K"
+      ],
+      "L": [
+        "L"
+      ],
+      "M": [
+        "M"
+      ],
+      "N": [
+        "N"
+      ],
+      "a": [
+        "a"
+      ],
+      "b": [
+        "b"
+      ],
+      "c": [
+        "c"
+      ],
+      "d": [
+        "d"
+      ],
+      "e": [
+        "e"
+      ],
+      "f": [
+        "f"
+      ],
+      "g": [
+        "g"
+      ],
+      "h": [
+        "h"
+      ],
+      "i": [
+        "i"
+      ],
+      "j": [
+        "j"
+      ],
+      "k": [
+        "k"
+      ],
+      "l": [
+        "l"
+      ],
+      "m": [
+        "m"
+      ],
+      "n": [
+        "n"
+      ],
+      "U": [
+        "U"
+      ],
+      "R": [
+        "R"
+      ],
+      "x": [
+        "x"
+      ]
+    },
+    "head_index": {
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 0,
+      "E": 0,
+      "F": 0,
+      "G": 0,
+      "H": 0,
+      "I": 0,
+      "J": 0,
+      "K": 0,
+      "L": 0,
+      "M": 0,
+      "N": 0,
+      "a": 0,
+      "b": 0,
+      "c": 0,
+      "d": 0,
+      "e": 0,
+      "f": 0,
+      "g": 0,
+      "h": 0,
+      "i": 0,
+      "j": 0,
+      "k": 0,
+      "l": 0,
+      "m": 0,
+      "n": 0,
+      "U": 0,
+      "R": 0,
+      "x": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "A": "Place a warm stone beside the {face} face at {intensity} warmth for {dur} seconds. Rotate and repeat for each face.",
+      "B": "Drape a cool cloth over the Veyru for {dur} seconds. Remove the cloth and fan {intensity} cool air across the {face} face and the opposite face for {dur} seconds.",
+      "C": "Illuminate the {face} face with a dim lamp and the opposite face with a bright lamp simultaneously at {intensity} brightness for {dur} seconds, without moving the lamps.",
+      "D": "Drape a folded cloth over the {face} face for {dur} seconds at {intensity} coverage. Then chime a bell near each edge of the {face} face twice.",
+      "E": "At each corner of the {face} face, chime a bell briefly at {intensity} tone, then warm the two edges meeting at that corner with a heated stone for {dur} seconds.",
+      "F": "Rest a flat board against the {face} face at {intensity} contact for {dur} seconds. Rotate and repeat for each face-pair.",
+      "G": "Chime a bell near the center of each face once at {intensity} tone, starting from the {face} face. Then place a warm stone beside the Veyru for {dur} seconds.",
+      "H": "Place the Veyru on a soft surface with the {face} face up at {intensity} contact. Let it rest undisturbed for {dur} seconds.",
+      "I": "Drape a cool cloth over the Veyru for {dur} seconds. Remove and fan {intensity} cool air across all six faces for {dur} seconds, starting from the {face} face.",
+      "J": "Rotate the Veyru slowly over {dur} seconds while sounding a steady tone at {intensity} volume near opposite faces, starting from the {face} face. After rotation, chime a bell once near each corner.",
+      "K": "Sound a sustained {intensity} tone near all six faces simultaneously for {dur} seconds, starting from the {face} face. Let the tone fade naturally and wait for the hum to stabilize.",
+      "L": "Chime a bell near two opposite faces, starting from the {face} face. Alternate the chime between the two faces — {dur} seconds pause between chimes — for five cycles at {intensity} tone.",
+      "M": "Drape a cloth over two adjacent edges near the {face} face for {dur} seconds at {intensity} coverage. Then chime a bell three times near the {face} face.",
+      "N": "Warm each corner of the {face} face by holding a heated stone nearby for {dur} seconds at {intensity} warmth, in sequence. Then trace each edge of the {face} face with a finger.",
+      "a": "random flicker and broken hum",
+      "b": "drifting light, blur, and wavering hum",
+      "c": "too bright, layered, and frozen",
+      "d": "dim corners and fading edges",
+      "e": "dim all over and whispering",
+      "f": "all white, buzzing, and hot",
+      "g": "opposite-face pulse and two-tone sound",
+      "h": "one face very bright and whining",
+      "i": "bright corner, clicking, and hot",
+      "j": "wobbling edges, bulging, and muffled",
+      "k": "frozen, dim, silent, and cold",
+      "l": "competing tones and two patterns",
+      "m": "hot, dim red, rough, and rumbling",
+      "n": "hollow, dark core, and thin hum",
+      "U": "up",
+      "R": "right",
+      "x": "prefix indicating the previous action was ineffective; resend the symptom as a retry"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780420636",
+    "n_codes": 31,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible morphological paradigm is attested. The symbols A–N are opaque one-character procedure labels whose meanings mention variable parameters ({face}, {intensity}, {dur}), but those parameters are not realized by any overt subparts of the symbols in the supplied codebook. There are no multi-symbol codes, no minimal pairs in a shared frame, and no evidence that U/R or x combine productively with any other symbol. The standalone symbols a–n are symptom labels, not declared members of a recoverable substitution class inside larger codes. Under the evidence requirements and the opaque-index test, the safest analysis is a flat lexicon with every supplied symbol treated as lexical.",
+    "lexical_symbols": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "h",
+      "i",
+      "j",
+      "k",
+      "l",
+      "m",
+      "n",
+      "U",
+      "R",
+      "x"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

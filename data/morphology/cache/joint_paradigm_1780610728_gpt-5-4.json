@@ -1,0 +1,347 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780610728",
+    "slots": [],
+    "segmentation": {
+      "F": [
+        "F"
+      ],
+      "H": [
+        "H"
+      ],
+      "E": [
+        "E"
+      ],
+      "C": [
+        "C"
+      ],
+      "T": [
+        "T"
+      ],
+      "k": [
+        "k"
+      ],
+      "y": [
+        "y"
+      ],
+      "n": [
+        "n"
+      ],
+      "F*": [
+        "F*"
+      ],
+      "F*'": [
+        "F*'"
+      ],
+      "Fs": [
+        "Fs"
+      ],
+      "F2": [
+        "F2"
+      ],
+      "fx": [
+        "fx"
+      ],
+      "T1": [
+        "T1"
+      ],
+      "T2": [
+        "T2"
+      ],
+      "T3": [
+        "T3"
+      ],
+      "T4": [
+        "T4"
+      ],
+      "T5": [
+        "T5"
+      ],
+      "T6": [
+        "T6"
+      ],
+      "T7": [
+        "T7"
+      ],
+      "T8": [
+        "T8"
+      ],
+      "T9": [
+        "T9"
+      ],
+      "T10": [
+        "T10"
+      ],
+      "T11": [
+        "T11"
+      ],
+      "T12": [
+        "T12"
+      ],
+      "T13": [
+        "T13"
+      ],
+      "T14": [
+        "T14"
+      ],
+      "f": [
+        "f"
+      ],
+      "d": [
+        "d"
+      ],
+      "i": [
+        "i"
+      ],
+      "g": [
+        "g"
+      ],
+      "s": [
+        "s"
+      ],
+      "P1": [
+        "P1"
+      ],
+      "P2": [
+        "P2"
+      ],
+      "P3": [
+        "P3"
+      ],
+      "P4": [
+        "P4"
+      ],
+      "P5": [
+        "P5"
+      ],
+      "stall": [
+        "stall"
+      ],
+      "leak": [
+        "leak"
+      ],
+      "reson": [
+        "reson"
+      ],
+      "echo": [
+        "echo"
+      ],
+      "phase": [
+        "phase"
+      ],
+      "therm": [
+        "therm"
+      ],
+      "core": [
+        "core"
+      ],
+      "bound": [
+        "bound"
+      ],
+      "harm": [
+        "harm"
+      ],
+      "align": [
+        "align"
+      ],
+      "drift": [
+        "drift"
+      ],
+      "corner": [
+        "corner"
+      ],
+      "lowint": [
+        "lowint"
+      ],
+      "highint": [
+        "highint"
+      ]
+    },
+    "head_index": {
+      "F": 0,
+      "H": 0,
+      "E": 0,
+      "C": 0,
+      "T": 0,
+      "k": 0,
+      "y": 0,
+      "n": 0,
+      "F*": 0,
+      "F*'": 0,
+      "Fs": 0,
+      "F2": 0,
+      "fx": 0,
+      "T1": 0,
+      "T2": 0,
+      "T3": 0,
+      "T4": 0,
+      "T5": 0,
+      "T6": 0,
+      "T7": 0,
+      "T8": 0,
+      "T9": 0,
+      "T10": 0,
+      "T11": 0,
+      "T12": 0,
+      "T13": 0,
+      "T14": 0,
+      "f": 0,
+      "d": 0,
+      "i": 0,
+      "g": 0,
+      "s": 0,
+      "P1": 0,
+      "P2": 0,
+      "P3": 0,
+      "P4": 0,
+      "P5": 0,
+      "stall": 0,
+      "leak": 0,
+      "reson": 0,
+      "echo": 0,
+      "phase": 0,
+      "therm": 0,
+      "core": 0,
+      "bound": 0,
+      "harm": 0,
+      "align": 0,
+      "drift": 0,
+      "corner": 0,
+      "lowint": 0,
+      "highint": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "F": "faces",
+      "H": "hum",
+      "E": "edges",
+      "C": "corners",
+      "T": "temperature",
+      "k": "action done",
+      "y": "yes",
+      "n": "no",
+      "F*": "the anomalous face",
+      "F*'": "the face opposite the anomalous face",
+      "Fs": "the side faces",
+      "F2": "the secondary anomalous face, the less extreme anomaly when multiple anomalies are present",
+      "fx": "effect",
+      "T1": "rest soft, with the specified face up, with the specified intensity of contact, for the specified number of seconds undisturbed",
+      "T2": "cool cloth over for the specified number of seconds; then fan cool air at the specified intensity across all six faces for the specified number of seconds, starting from the specified face",
+      "T3": "sustain a tone at the specified intensity near all six faces simultaneously for the specified number of seconds, starting from the specified face, then let the tone fade",
+      "T4": "chime the bell at two opposite faces, starting from the specified face, alternating with the specified number of seconds of pause, for five cycles, at the specified intensity of tone",
+      "T5": "place cloth over the two adjacent edges near the specified face for the specified number of seconds with the specified intensity of coverage; then chime the bell three times near the specified face",
+      "T6": "warm each corner of the specified face with the heated stone for the specified number of seconds at the specified intensity of warmth in sequence; then trace each edge of the specified face with a finger",
+      "T7": "place a warm stone beside the specified face with the specified intensity of warmth for the specified number of seconds; then rotate and repeat at each face",
+      "T8": "cool cloth over for the specified number of seconds; then fan cool air at the specified intensity at the specified face and its opposite for the specified number of seconds",
+      "T9": "place a dim lamp at the specified face and a bright lamp at the opposite face simultaneously at the specified intensity of brightness for the specified number of seconds, with no movement",
+      "T10": "place cloth over the specified face for the specified number of seconds with the specified intensity of coverage; then chime the bell twice at each edge of the specified face",
+      "T11": "at each corner of the specified face, chime the bell at the specified intensity of tone, then warm the two edges meeting at that corner with the stone for the specified number of seconds",
+      "T12": "place the flat board against the specified face with the specified intensity of contact for the specified number of seconds; then rotate and repeat for each face-pair",
+      "T13": "chime the bell once at the center of each face at the specified intensity of tone, starting from the specified face; then place the warm stone beside the Veyru for the specified number of seconds",
+      "T14": "rotate the Veyru slowly for the specified number of seconds while keeping a steady tone at the specified intensity near opposite faces, starting from the specified face; then chime the bell once at each corner",
+      "f": "face parameter in a procedure template message",
+      "d": "duration parameter in a procedure template message",
+      "i": "intensity parameter in a procedure template message",
+      "g": "gentle",
+      "s": "strong",
+      "P1": "Resting motif: place cloth on board, set the Veyru top-face-up, maintain gentle contact, then rest for 20 seconds",
+      "P2": "Resonance fan: place a cool cloth over for 20 seconds, then fan the affected face and its opposite for 20 seconds",
+      "P3": "Leak dual-lamp: place a dim lamp on the back and a bright lamp on the front, keep firm and still for 15 seconds",
+      "P4": "Stall lamp: place a bright lamp at the top and keep the bottom in shadow, firm and still for 12 seconds",
+      "P5": "Stall tone: sustain a gentle tone at all six faces simultaneously for 10 seconds, start at the left face, then let the tone fade",
+      "stall": "Propagation Stall",
+      "leak": "Leak Instability",
+      "reson": "Resonance Cascade",
+      "echo": "Echo Saturation",
+      "phase": "Phase Inversion",
+      "therm": "Thermal Bleed",
+      "core": "Core Void",
+      "bound": "Boundary Softening",
+      "harm": "Harmonic Split",
+      "align": "Alignment Collapse",
+      "drift": "Drift",
+      "corner": "Corner Deadlock",
+      "lowint": "Low Intensity",
+      "highint": "High Intensity"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780610728",
+    "n_codes": 51,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible multi-entry compositional paradigm survives the evidence tests. The numbered T1–T14 and P1–P5 forms fail the opaque index test: the numerals do not contribute literal count/sequence meaning compositionally, but instead select unrelated stored procedures/motifs. The candidate string-overlap families (T1-/cor-/ -rm/ -int) likewise lack a coherent shared morphotactic frame with stable compositional meanings for their residues. Although g/s and f/d/i are standalone semantic labels, there are no attested multi-morpheme codes in which they alternate inside a shared frame, so no construction can be justified. To avoid false morphology, all supplied symbols are treated as lexical.",
+    "lexical_symbols": [
+      "F",
+      "H",
+      "E",
+      "C",
+      "T",
+      "k",
+      "y",
+      "n",
+      "F*",
+      "F*'",
+      "Fs",
+      "F2",
+      "fx",
+      "T1",
+      "T2",
+      "T3",
+      "T4",
+      "T5",
+      "T6",
+      "T7",
+      "T8",
+      "T9",
+      "T10",
+      "T11",
+      "T12",
+      "T13",
+      "T14",
+      "f",
+      "d",
+      "i",
+      "g",
+      "s",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "stall",
+      "leak",
+      "reson",
+      "echo",
+      "phase",
+      "therm",
+      "core",
+      "bound",
+      "harm",
+      "align",
+      "drift",
+      "corner",
+      "lowint",
+      "highint"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

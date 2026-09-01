@@ -1,0 +1,98 @@
+{
+  "per_slot": {
+    "pos0": [
+      [
+        "B",
+        "bell"
+      ],
+      [
+        "Bd",
+        "board"
+      ],
+      [
+        "C",
+        "cloth"
+      ],
+      [
+        "Cl",
+        "cloth"
+      ],
+      [
+        "F",
+        "fan"
+      ],
+      [
+        "L",
+        "lamp"
+      ],
+      [
+        "S",
+        "stone"
+      ]
+    ],
+    "pos1": [
+      [
+        "Adj",
+        "adjacent"
+      ],
+      [
+        "Ct",
+        "contact"
+      ],
+      [
+        "Opp",
+        "opposite"
+      ]
+    ]
+  },
+  "stackable": [
+    [
+      "V",
+      "Veyru"
+    ],
+    [
+      "Bk",
+      "back face"
+    ],
+    [
+      "Bt",
+      "bottom face"
+    ],
+    [
+      "Ctr",
+      "center"
+    ],
+    [
+      "Cr",
+      "corners"
+    ],
+    [
+      "Ed",
+      "edges"
+    ],
+    [
+      "Fc",
+      "faces"
+    ],
+    [
+      "Fr",
+      "front face"
+    ],
+    [
+      "Lf",
+      "left face"
+    ],
+    [
+      "Rt",
+      "right face"
+    ],
+    [
+      "Surf",
+      "surface"
+    ],
+    [
+      "T",
+      "top face"
+    ]
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "grammar": {
+    "run_key": "veyru/1778884754",
+    "slots": [],
+    "segmentation": {
+      "DIM": [
+        "DIM"
+      ],
+      "BRIGHT1": [
+        "BRIGHT1"
+      ],
+      "WOBBLE": [
+        "WOBBLE"
+      ],
+      "DRIFT": [
+        "DRIFT"
+      ],
+      "BLAZE": [
+        "BLAZE"
+      ],
+      "FLICKER": [
+        "FLICKER"
+      ],
+      "FROZEN": [
+        "FROZEN"
+      ],
+      "ECHO": [
+        "ECHO"
+      ],
+      "PULSE": [
+        "PULSE"
+      ],
+      "CLASH": [
+        "CLASH"
+      ],
+      "LEAK": [
+        "LEAK"
+      ],
+      "HOTDIM": [
+        "HOTDIM"
+      ],
+      "CLICK": [
+        "CLICK"
+      ],
+      "HOLLOW": [
+        "HOLLOW"
+      ],
+      "FAIL": [
+        "FAIL"
+      ]
+    },
+    "head_index": {
+      "DIM": 0,
+      "BRIGHT1": 0,
+      "WOBBLE": 0,
+      "DRIFT": 0,
+      "BLAZE": 0,
+      "FLICKER": 0,
+      "FROZEN": 0,
+      "ECHO": 0,
+      "PULSE": 0,
+      "CLASH": 0,
+      "LEAK": 0,
+      "HOTDIM": 0,
+      "CLICK": 0,
+      "HOLLOW": 0,
+      "FAIL": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "DIM": "all faces dim, faint hum",
+      "BRIGHT1": "1 face overbright, vibration, whine",
+      "WOBBLE": "edges flex, faces bulge, muffled hum",
+      "DRIFT": "light sliding on faces, edges blurred, wavering hum",
+      "BLAZE": "all faces blazing, loud buzz, heat",
+      "FLICKER": "random face flicker, broken hum",
+      "FROZEN": "patterns still, cold, silent",
+      "ECHO": "too bright, layered hum, frozen faces",
+      "PULSE": "opposite faces alternating, 2 synced tones",
+      "CLASH": "2 clashing tones, alternating patterns",
+      "LEAK": "corners dark, edges faint, hollow hum",
+      "HOTDIM": "hot all over, dim, reddish, rough",
+      "CLICK": "bright corner or corners, clicking, heat there",
+      "HOLLOW": "normal glow but hollow tap and dark center",
+      "FAIL": "the attempt failed; resend the same instruction"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1778884754",
+    "n_codes": 15,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible multi-entry paradigm survives the evidence requirements. The suggested string overlaps ('IM', 'CL', 'HO') do not support stable substitution classes with compositional meanings. 'DIM' and 'HOTDIM' both contain the substring 'DIM', but there is no independent contrast showing a shared frame where one slot contributes just 'dim' and another slot alternates productively; 'HOT' is not attested elsewhere, and 'DIM' itself is a whole stored label. Likewise 'CLASH' and 'CLICK' share 'CL' only orthographically, with no coherent common contribution and no substitutable residue class. 'HOTDIM' and 'HOLLOW' share 'HO' only as initial letters, again without a stable semantic role. Digits and recurring letter sequences here behave as opaque parts of stored labels, not as compositional morphemes. Therefore the safest analysis is a flat lexicon with all symbols treated as lexical symbols and no classes, constructions, or segmented entries proposed.",
+    "lexical_symbols": [
+      "DIM",
+      "BRIGHT1",
+      "WOBBLE",
+      "DRIFT",
+      "BLAZE",
+      "FLICKER",
+      "FROZEN",
+      "ECHO",
+      "PULSE",
+      "CLASH",
+      "LEAK",
+      "HOTDIM",
+      "CLICK",
+      "HOLLOW",
+      "FAIL"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

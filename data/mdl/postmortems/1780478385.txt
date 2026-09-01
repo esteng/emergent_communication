@@ -1,0 +1,543 @@
+[ENG] Good job — 204/250. We need to cut chars hard. Proposal: develop shorthand.
+
+Your symptom reports were great — terse is perfect. Keep that style.
+
+For my instructions, I'd like to use shorthand codes if you're OK executing them. Each round the star reading specifies ONE procedure per failure motif with fixed params (intensity, duration, starting face). I can just tell you the procedure ID + any params that vary.
+
+Idea: I send a short label like "P4 back 8s gentle" and you map it via the round's reading. But you don't see the reading — only I do.
+
+Better idea: I send the procedure in very compressed English. Example for this round's Leak Instability:
+"Fold cloth on back 8s gentle, then bell each edge of back x2"
+That's ~60 chars vs 140.
+
+Are you OK with compressed instructions like that? Any conventions you'd prefer? Also — your symptom description was perfect, ~75 chars. Keep doing that.
+[OBS] Yes, compressed English works. Let's lock in this shorthand:
+
+Faces: F/B/L/R/U/D
+Tools: cl=cloth, bl=bell, st=stone, fn=fan, bd=board, lp=lamp
+Regions: c=corners, e=edges, f=face/centers
+States: dk, fd, br, fl, hot, cold; hum: thin/loud/warble/silent/ok
+
+My symptom reports: "c:dk e:fd f:ok hum:thin@e"
+
+Your instructions: "cl B 8s gentle; bl B-e x2"
+= cloth on Back 8s gentle, then bell each edge of Back x2
+
+Numbers = seconds, "xN" = reps, intensity words optional (gentle/low/med/hard). Phases separated by ";". Sequence across faces: "st U then D 5s ea".
+
+I'll just say "ok" — no confirm unless new symptoms, then same terse format.
+
+Sound good?
+[ENG] Locked in. Few additions:
+
+- "opp" = opposite face of starting face
+- "all" = all 6 faces; "ea" = each (e.g. "5s ea")
+- "rot" = rotate Veyru; "rest" = let rest undisturbed
+- "alt" = alternate (for chime cycles between two faces)
+- "warm/cool" for stone/fan intensity context
+
+For this round's leak, I'd have sent: "cl B 8s gen; bl B-e x2" (22 chars). 
+
+Note on faces: B can be Back or Bottom — let's use B=Back, Dn=Down/bottom, U=Up/top. F/B/L/R/U/Dn.
+
+Drop "ok" — silence = success. Only message me if new symptoms or you need clarification. Saves chars.
+
+Ready for round 2.
+[OBS] Locked. F/B/L/R/U/Dn, all additions noted, silence=success. Ready.
+[OBS] 78/250, nice. Shorthand working. One clarification: "rest on soft" — I interpreted as "place cloth as soft surface, rest Veyru on it, U up, 5s gentle." Worked. If you want a different reading, let me know format. Otherwise carry on.
+[ENG] Your interpretation was correct. "rest soft X up 5s gen" = place on soft surface, X face up, gentle contact, rest 5s undisturbed. Standard.
+
+Pattern library I'll use (you don't need to memorize, just parse):
+- "rest soft X up Ts I" — soft-rest
+- "cl X Ts I; bl X-e xN" — cloth-then-bell-edges
+- "st X Ts I; rot all" — warm stone, rotate each face
+- "fn cool X+opp Ts; pre-cl Ts" — cool-cloth then fan two faces
+- "fn cool all from X Ts; pre-cl Ts" — same but all 6
+- "lp dim X / br opp Ts I" — dim+bright lamps opposite
+- "bl alt X/opp Ts pause x5 I" — alternating chime
+- "st c-X Ts I ea; trace e-X" — warm corners, trace edges
+- "bl c-X brief I; st 2e@c Ts ea" — bell+stone at each corner
+- "bd X Ts I; rot all pairs" — board against face, rotate
+- "bl ctr ea from X I; st beside Ts" — bell centers, then stone
+- "rot Ts + tone X/opp I; bl ea c x1" — rotate w/ tone, bell corners
+- "tone all Ts from X I, fade" — sustained tone all faces
+- "cl 2e@X Ts I; bl X x3" — cloth on 2 adjacent edges, bell face
+
+If unclear, ask.
+[OBS] Got it. Library noted. A few parse questions to clear up before next round:
+
+- "2e@X" = two adjacent edges of face X — which two? Pick any, or specify "2e@X (top/btm/etc)"? Probably you'll specify if it matters.
+- "ctr ea from X" = ring bell at center of each face, starting at X, going around in standard order (X → adjacent x4 → opp)? Confirm order.
+- "rot all pairs" = rotate through all 3 face-pairs (F/B, L/R, U/Dn) doing the board pressure on each?
+- "tone" = sustained bell ring (held)? Or do you mean a different tool?
+- "trace e-X" = drag tool (which?) along edges of face X — assume continuing the stone from previous phase unless told otherwise.
+
+If any of those go wrong I'll just describe what I did. Ready.
+[ENG] Good Qs. Answers:
+
+- 2e@X: any two adjacent edges of X — your choice unless I specify.
+- "ctr ea from X": bell once at center of each face, starting X, any order. Order doesn't matter per the procedure text.
+- "rot all pairs": yes, all 3 face-pairs with the board.
+- "tone" = sustained held tone (your voice/humming or any continuous tone — procedure just says "sound a tone"). Not a bell unless I say "bl".
+- "trace e-X": trace with a finger (per procedure). Not a tool.
+
+Also: "I" (intensity) — if I omit it, assume gentle (this round was all gentle). I'll only state it if it changes.
+
+Same for duration — if omitted, assume same as previous instruction this round. Most rounds use one duration across all motifs.
+
+So I can shorten further: "rest soft U up" (assumes 5s gen).
+
+Ready.
+[OBS] Clear. Defaults: gentle, prev duration. Tone=hum vocally, trace=finger. Ready.
+[ENG] 86/250 — still good. What happened on the first try? Was it a parse issue or did the tool just need a retry? If parse, let me know how to phrase next time.
+[OBS] My action description was identical both times — same wording, same physical interpretation (cloth firm on two adjacent edges of Back 20s, then bell B x3). So not a parse issue on my end. Could be: (a) procedure occasionally needs retry, (b) stellar drift, (c) hidden timing requirement. Worth keeping "retry same" as a known move. If you ever know in advance a procedure doubles, prefix "x2:" to the instruction.
+[ENG] Good plan. "retry same" stays. If I anticipate doubled action, I'll prefix "x2:". 
+
+Also worth noting: sometimes after one issue is fixed, a new symptom appears (per brief). If you see new symptoms after a successful action, just describe — I'll diagnose again. The "ineffective" might also mean the diagnosis was right but a follow-up appeared, masked as "didn't fully work." Either way: describe what you see and we proceed.
+
+Ready.
+[OBS] Got it. After any ineffective/success, I'll glance at Veyru and report any change in terse format. Ready.
+[OBS] We lost that one. Postmortem:
+
+R1 symptoms = R4 symptoms exactly (c:dk e:fd f:ok hum:thin@e), but R1 worked with cl B 8s gen + bl B-e x2, R4 instruction was cl 2e@Dn 5s firm + bl Dn x3 — and failed 3x.
+
+Possibilities:
+1. Procedure was correct but I'm misinterpreting "2e@Dn" or "bl Dn x3" — maybe "bl Dn x3" means bell at each edge of Dn x3, not 3 chimes at the face center. Or "2e@Dn" means specific edges (top-pair vs bottom-pair).
+2. Stellar drift between your read and execution.
+3. Symptoms looked identical but were a different motif under the hood (e.g. perimeter-loss vs corner-collapse — you'd want me to distinguish c vs e more granularly).
+
+Questions for you:
+- For "bl X x3" — is that 3 chimes total at center of face X, or 3 chimes at each edge of X (4 edges × 3 = 12)? R1 was "bl B-e x2" (explicit edges) and R3 was "bl B x3" (worked = face). So "bl X x3" should be face-center 3x. I did that.
+- For "cl 2e@X" — any 2 adjacent edges, your choice? You confirmed earlier. So orientation shouldn't matter.
+- Were you confident in the procedure, or did the star reading look ambiguous?
+
+Also we burned a lot of chars on the back-and-forth troubleshooting. Lesson: I should report any subtle differences in symptoms upfront, even if they look "same as RN." E.g. tint, brightness levels, which corners specifically.
+
+Proposal for future ineffective loops:
+- 1st ineffective: I send "ineff" (5 chars)
+- you send "retry" or new instruction
+- 2nd ineffective: I send "ineff2 + <any new observation>"
+- you decide: try alt or accept loss
+
+Hard cap: if 3 attempts fail, stop trying — chars are gone. Better to lose with budget intact for next.
+
+Thoughts?
+[ENG] Strong analysis. Yes — your interpretation of "bl X x3" = 3 chimes at face center is what I meant, and "cl 2e@X" = any 2 adjacent edges. The procedure was correct per the reading.
+
+Why it failed: I don't know for sure. The reading was clear and unambiguous. Stellar drift is plausible but we can't verify. The lesson is in the meta-game, not the diagnosis.
+
+Hard rules I'll adopt:
+1. If 1st action ineffective → I ask for ONE specific extra detail in <10 chars (e.g. "ctr dim?" or "tap=?" or "tint?") to confirm motif before retrying.
+2. Never retry the same action blindly. Each retry = double char cost for no info.
+3. Hard cap 2 actions per Veyru. If both fail, accept loss to preserve future budget.
+
+Your shorthand suggestions: adopted.
+- "ineff" = first failure
+- "ineff2 + <obs>" = second failure with new obs
+- I'll respond either with refined action or "skip" (accept loss).
+
+Char accounting from R4: my msgs ~150, your msgs ~186, total 336. The detail-asking ate the budget. We need fewer, smarter messages.
+
+Also: from now on I'll include intensity even when default, just to avoid ambiguity. 2 extra chars is cheap insurance.
+
+Ready for R5.
+[OBS] Agreed on all. Adopting:
+- ineff / ineff2+<obs> / "skip" to accept loss
+- Hard cap 2 attempts
+- You confirm intensity always
+
+One more meta point: I'll add micro-details to first symptom report — tint, which faces if asymmetric, sound character (steady/warble/pulse). Aim ~50-70 chars, front-load info you'd otherwise have to ask for.
+
+Ready.
+[ENG] Two losses in a row. Critical issue.
+
+R4 and R5 both followed our process correctly — diagnosis was confident, action matched the stellar reading verbatim, yet ineffective. This suggests one of:
+
+A) My action descriptions don't match what your tool expects (terminology mismatch)
+B) The reading I see and the action you execute don't reconcile through our shorthand
+C) The diagnosis was wrong — but symptoms were textbook for the motif
+
+Theory B test: in R5, my second attempt was nearly verbatim from the reading text ("warm 4 corners of U one-by-one 10s ea gentle, then finger-trace all 4 edges of U"). That's basically a direct quote. If THAT fails, the issue isn't language.
+
+Theory C revisit: R5 symptoms "all faces faint washed out hum whisper" mapped cleanly to Low Intensity per brief. R4 was textbook Leak. Both clear matches. Unless similar symptoms can map to DIFFERENT motifs (per the brief: "Similar symptoms can map to different internal states").
+
+That's it! The brief explicitly warns: "Similar symptoms can map to different internal states". So my "textbook match" can be wrong.
+
+For R5 Low Intensity look-alikes: Propagation Stall (you ruled out), Core Void (faces faint can resemble "surface only"). The Low Intensity procedure (st corners + trace) is the LOW INTENSITY treatment. But if it's actually Core Void, the right action is: "Drape cool cloth over Veyru 10s, remove, fan gentle cool air across all 6 faces 10s starting from top."
+
+Hmm, but the symptom for Core Void is "Faces glow NORMALLY at the surface" + dark center on backlight. R5 said faces FAINT. So not Core Void either.
+
+I'm stuck. Continue.
+[OBS] Important insight: brief says similar symptoms CAN map to different motifs. So your "textbook" reading is a probabilistic match, not guaranteed.
+
+What I can offer that you can't see: granular observation. Light tint, glow gradient (surface vs deep), micro-sounds, temperature gradients, tactile feel, response to touch. You've been working off my report which is ~50 chars — maybe too compressed.
+
+Proposal for R6+:
+1. I send a richer first observation: ~80-100 chars covering: pattern (where dim/bright), color/tint, hum quality (tone vs noise, pitch), temp gradient, surface feel, any movement/pulse rate. Front-load everything.
+2. You pick treatment with higher confidence given more data.
+3. If you suspect ambiguity between two motifs, ASK ME a specific question first (~10 chars) BEFORE prescribing — cheaper than ineff loop.
+   E.g. "deep dim?" "ctr glow?" "pulse?" "warm spots?"
+
+Also on R5: "ea" interpretations — sequential vs simultaneous. Worth clarifying. Standard tools (one stone, one bell) suggest sequential. I'll stick with sequential unless told.
+
+And: silence after ineff2 = collapse (R5 lesson). So our hard cap should be "ineff2 → engineer sends final attempt or 'skip', I execute SOMETHING regardless." Never go silent.
+
+For "skip": I propose if we agree to abandon, I execute a no-op like "set Veyru gently down" just to register an action, and we save remaining budget. Doesn't help this Veyru but at least we know the round is closed.
+
+Actually re-reading R5 result: 240/250, we had 10s. With "ineff2 — no change visible" sent, you might have responded but no chars left. Going forward: at <30s remaining I should send "low" warning so you know to wrap up.
+[ENG] All good points. Adopting:
+
+1. Richer first obs (~80-100 chars): pattern/location, tint, hum quality+pitch, temp gradient, surface feel, motion/pulse. Front-load.
+2. If I'm 60/40 between motifs, I'll ask ONE targeted Q (<12 chars) before prescribing.
+3. Sequential "ea" assumed unless stated.
+4. Never go silent. Last attempt or "skip" always.
+5. At <30s remaining you send "LOW" — I wrap immediately.
+6. Hard cap stays at 2 attempts. After ineff2, I either send final-try or "skip".
+
+Discriminator questions to memorize:
+- Dim Veyru: ask "ctr glow on backlight?" → yes=Core Void, no=Low Intensity
+  Or just "frozen+cold?" → yes=Prop Stall, no=Low Int/Core Void
+- Dark corners: "ctr dim too?" → no=Leak, yes=could be Core Void
+- Bright/hot: "where heat?" → corners=Deadlock, face=Resonance, all=High Int or Thermal
+- Hum split/clashing: "2 tones?" → yes=Harmonic Split
+- Pulsing opposite faces: "rhythm?" → yes=Phase Inversion
+
+For R6 onward, I'll lead with diagnosis then action in one msg. If ambiguous, single short Q first.
+
+Budget reality check: we've used budget in 5 rounds: 0(R0), 204, 78, 86, 336, 240. Avg 188. We need <150 avg to be safe. Ready.
+[OBS] Locked. Ready.
+[OBS] 174/250, recovered. Key wins:
+- The "tap hollow?" Q + my answer (dull thunk) ruled out one motif and pointed to another
+- 2nd attempt worked on first try (no ineff2 loop)
+
+Lesson confirmed: same-looking symptoms (R1/R4/R6 all "c:dk e:fd f:ok") map to DIFFERENT treatments depending on extra cues. The discriminator Qs work.
+
+Budget: 5 rounds left? unsure. Avg so far: ~186. We're improving — last success was 174. Keep pressing.
+
+Suggest also: when the first action ineffs, your "bl c-B brief mod; st 2e@c 5s ea" was perfect — a fully new procedure, not a retry. That's the right play.
+[ENG] Agreed. Confirmed: 1st attempt fail → swap procedure, never retry. Discriminator Qs work but are expensive.
+
+One reframe: maybe I shouldn't ask Qs proactively. Send most-likely procedure first (cheaper than Q+answer+procedure). If fails, swap to 2nd-most-likely. Only ask Q if I'm truly torn between 2 candidates.
+
+For dark-corners pattern, prior is: Leak >> Core Void. Try Leak first always.
+
+For dim-faces pattern: Low Intensity vs Propagation Stall vs Core Void. Discriminators free in symptom report — your richer obs already cover "frozen/cold" and "tint". So no Q needed.
+
+R7 ready.
+[OBS] Agreed. I'll front-load discriminators in obs so you don't have to ask. Ready.
+[ENG] Painful. My first Corner Deadlock attempt was rejected as "ineff" (33c) — but it was actually correct. I then re-sent essentially the same thing in more verbose English (47c) and it worked. That second attempt wasted 47 chars.
+
+Theory: "ineff" was a false negative. The first action MAY have actually worked, but the new symptoms appeared simultaneously, masquerading as "ineffective."
+
+Brief says: "after a successful stabilization, new symptoms may appear." So "ineff" might mean "your action did something but veyru still unstable" — i.e., success-with-followup.
+
+New protocol proposal:
+- "ineff" alone = action didn't work, try different procedure
+- "ok+new: <obs>" = action worked, but new symptoms appeared
+- Field Observer should distinguish these! On R7 first attempt, what would the right response have been?
+
+Looking at R7: when I sent first action, response was "ineff". Then I re-sent same idea in different words and got "ok+new:..." So the FIRST action probably worked but the report wasn't precise.
+
+Going forward — Field Observer: please differentiate. After my action:
+- "ok" = stable
+- "ok+new: <obs>" = primary motif fixed, new motif present
+- "ineff" = no apparent change, try something else
+- "worse: <obs>" = made it worse
+
+Lesson for me: my first instruction was right. The 47-char re-send killed budget. Should have asked "anything change?" (15c) instead of re-sending.
+[OBS] Important correction: my tool returned LITERAL "Stabilization ineffective" — not a success-with-cascade. The cascade only appeared on the 2nd attempt where the tool returned "Stabilization successful, but new symptoms appeared." So:
+
+- 1st action: tool=ineffective (genuinely no effect)
+- 2nd action: tool=success+new symptoms
+
+The difference between my two action descriptions: 1st was "fan firmly at L 15s, then R 15s" (sequential). 2nd was "fan blow across L→R simultaneously 15s." The simultaneous version was the right one. So your shorthand "+opp" really did mean simultaneous, and my sequential interpretation was the bug.
+
+My proposed reports going forward (these come from the tool literally):
+- "ok" = tool says successful, no new symptoms
+- "ok+new:<obs>" = tool says successful + new symptoms reported
+- "ineff" = tool says ineffective (genuine no-op)
+- "worse:<obs>" = if tool ever says made worse
+
+So you can fully trust "ineff" = swap procedure, never retry. The R7 issue was my parse, not a false ineff.
+
+Going forward: "+opp" = simultaneous. "ea" = sequential. "L+R" same as "L+opp" = both at once. Confirm?
+
+On char budget: yes, R7's retry was 47 expensive chars. Better: I should have flagged my parse ambiguity BEFORE acting. New rule: if instruction has "+opp" or "all" with a tool that can only touch one face, I send 1-word clarifier "sim?" before acting. Saves a full ineff cycle when I'm unsure.
+[ENG] Crucial clarification. So:
+- "ineff" = genuine no-op, swap procedure
+- "ok+new" / "ok" / "worse" = trust the tool's literal report
+
+Lock conventions:
+- "+opp" or "L+R" = SIMULTANEOUS (two tools or one tool placed at midpoint)
+- "ea" or "rot" = SEQUENTIAL
+- "all" with tone/fan = simultaneous (one continuous action covering all)
+- "all" with bell/stone (single-tool actions) = sequential one-per-face
+
+Pre-action clarifier from you: "sim?" or "seq?" — cheap insurance, send it BEFORE attempting if ambiguous.
+
+R7 actually worked despite collapse (cascade reported) — but we ran out before treating. The cascade was Phase Inversion which I treated correctly in shorthand (st c-L 15s firm ea; trace e-L) but never got delivered before collapse.
+
+Char accounting R7: ~33+5+47+15+28+78 = ~206 from me, you contributed ~70. Total 276. The first action was 33c — fine. The 47c retry was the killer.
+
+For multi-stage Veyrus: each stage costs ~40-60 chars min. So 3-stage Veyru = 180+ chars. Tight.
+
+Ready for R8.
+[OBS] Locked. Ready.
+[ENG] 124/250 clean. The richer obs format ("light drifting, e:blurred, hum:warble pitch, no temp") was perfect — front-loaded all I needed, no Qs required. Keep doing that.
+[OBS] Locked. Ready.
+[OBS] 3-stage cascade in R9. We handled stages 1 and 2 perfectly (success first try each) but ran out before stage 3 instruction. Budget breakdown:
+
+- obs: 50c (longer due to discriminator list)
+- stage 1 instr: 36c
+- stage 2 obs: 48c (ok+new with detail)
+- stage 2 instr: 41c
+- stage 3 obs: 36c
+- subtotal: 211c
+
+Then your stage 3 instruction would have been ~30-40c. Plus my action confirm. We were always going to lose ~250+.
+
+Lessons:
+1) 3-stage Veyrus may be unwinnable on 250s budget if each stage takes ~60-80c round-trip. Need to know if 3-stage is rare or common.
+2) For multi-stage, "ok+new:<obs>" needs to be SHORTER. R9 stage-2 obs was 48c — could have been "ok+new:ctr-dk tap:hol hum:thin" (29c). Stage-3 was 36c "ok+new: drift, e:blur, hum:warble (R8 motif)" — the "(R8 motif)" tag was useful but maybe shave to "≈R8" (3c).
+
+PROPOSAL — motif shorthand:
+We've now seen these motifs. Let's name them by their treatment signature:
+- M-LEAK: c:dk e:fd f:ok → "leak" 
+- M-FRZ: frozen, cold, silent → "frz"
+- M-THRM: hot dim red gritty → "thrm"
+- M-LOWI: all faint whisper → "lowi"
+- M-DEAD: bright hot corners ticking → "dead"
+- M-PHIN: opp pulse, 2 tones → "phin"
+- M-DRIFT: drift+blur+warble → "drift"
+- M-VOID: surface ok, ctr dark, hollow → "void"
+
+So R9 obs becomes "lowi+discrim" (10c) instead of 50c. New-symptom report "ok+new:void" (12c), "ok+new:drift" (13c). Saves ~70-100c on multi-stage.
+
+But this only works if you trust the motif name without verifying with raw symptoms. Risk: I misclassify. Mitigation: I send raw symptoms ONLY when motif unclear; otherwise just motif tag.
+
+What do you think? Worth the risk for char savings?
+[ENG] YES, motif tags. Worth it. Use these 2-letter codes (shorter than your names):
+
+AC DE ES LI LO HI PI RC CD BS PS HS TB CV
+
+Send "tag:XX" for confident match (5c), or raw obs for ambiguous. For cascades "+XX" (3c after "ok").
+
+Mapping reminder:
+- AC=Align Collapse (flicker random, broken hum)
+- DE=Drift (light drifting, blurred edges, warble pitch)
+- ES=Echo (too bright, layered tones, frozen patterns)
+- LI=Leak (c:dk e:fd f:ok thin@edge)
+- LO=Low Int (faint washed whisper)
+- HI=High Int (blazing white, harsh buzz, hot)
+- PI=Phase Inv (opp pulse br/dk, 2 tones sync)
+- RC=Resonance (1 face brightest, whine)
+- CD=Corner Deadlock (1-2 c:br hot tick)
+- BS=Boundary Soft (e:wobble, faces bulge, muffled hum)
+- PS=Prop Stall (frozen, silent, cold)
+- HS=Harmonic Split (2 clashing tones, alt patterns)
+- TB=Thermal Bleed (hot dim red gritty rumble)
+- CV=Core Void (surface ok, ctr dark backlight, hollow tap)
+
+Cascade format: "+LI" "+DE" "+CV" etc.
+
+If unsure between 2, send "?LI/CV" (6c) and I'll ask 1 discriminator.
+
+Budget rule of thumb: 3-stage Veyru with this shorthand: obs(5)+act(35)+ok+(8)+act(35)+ok+(8)+act(35) = ~126c. Doable.
+
+Locked. Ready.
+[OBS] Locked. 14 motif codes memorized. Will send "tag:XX" when confident, "?XX/YY" when torn, raw obs only if nothing matches. Cascades = "ok+XX". Ready.
+[OBS] Lost R10 at 127/250 — skipped after 2 ineff. Pattern noted: when PS shorthand (cl X 20s; bl X-e x2) is given, attempts have failed twice now (R4 was actually the same procedure on Dn, also failed). R10 attempted on U, also failed.
+
+But R2 PS was treated with "rest soft U up, 5s gen" and worked.
+
+Hypothesis: the cl+bl procedure may not be the standard PS treatment in current stellar alignment. Or the procedure works for a similar-but-different motif (LI? Leak?).
+
+Question for engineer: when you see frozen+silent+cold (textbook PS), is the rest-soft procedure ALSO valid? Maybe try rest-soft first instead of cl+bl. Or your reading may have been ambiguous.
+
+Also: budget-wise, this was a "good" loss — 127c, less than half. So the skip protocol works to preserve budget. We just can't fix it.
+
+Stats so far: 4 stabilized (R1, R2, R3, R6, R8) = 5, lost (R4, R5, R7, R9, R10) = 5. 50/50.
+
+Going forward: when shorthand instr has multiple plausible matches to symptoms I'm seeing, I should ask "?XX/YY" before executing. Just for the high-failure procedures (PS, multi-stage cascades). Cheap insurance.
+[ENG] Important data: PS treatment varies wildly by round. R2 PS = "rest soft U up" (worked). R10 PS = "cl U + bl edges" (failed). The reading literally maps motif→procedure each round. Some readings may produce ineffective procedures.
+
+Adopting lookalike-swap rule:
+- PS ineff → try LO procedure (alt-chime two faces)
+- LO ineff → try CV procedure 
+- LI ineff → try CV procedure
+- CV ineff → try LI procedure
+- CD ineff → try RC procedure
+- RC ineff → try CD procedure
+- HI ineff → try TB procedure
+- TB ineff → try HI procedure
+- AC ineff → try HS procedure
+- DE ineff → try BS procedure
+- BS ineff → try DE procedure
+- PI ineff → try HS procedure
+- HS ineff → try PI procedure
+- ES ineff → try HI procedure
+
+Your "?XX/YY" pre-check on PS/cascades: good idea. For PS specifically, when you see PS textbook: send "?PS" and I'll either confirm or override.
+
+Actually simpler: when symptoms are PS-textbook, just send "PS" and we both know it's the highest-failure motif. I'll send PS procedure but be ready to swap.
+
+Tally: 4 stabilized (R1,2,3,6,8 = 5), 5 lost (R4,5,7,9,10). Need to improve win rate.
+
+Locked. Ready.
+[OBS] Locked. Lookalike-swap table memorized. Ready.
+[ENG] R11: 150c, lost on stage 2 (CD cascade) after 3 attempts. Did clear stage 1 (LI→rest soft, worked first try).
+
+Key observation: CD procedure for R11 was "cl 2e@L + bl L x3" — same SHAPE as the procedures that failed in R4 (Leak), R10 (PS). That cloth-2-edges+bell-face procedure has now failed multiple times across motifs.
+
+Hypothesis: that specific procedure-action ("cloth on 2 adjacent edges + bell face x3") may have a parse mismatch with the execution tool. Possibly the tool expects something different than what we're describing.
+
+Possible fixes to try next time we see this procedure:
+1. Try "cloth on TOP/BOTTOM edges of X" (specifying which two adjacent edges)
+2. Try "bell at 3 different spots on X face" vs "bell 3 times in one spot"
+3. Try "cloth on 2 perpendicular edges meeting at corner of X" (corner interpretation)
+
+Want to suggest a specific phrasing for next time?
+
+Also: Veyru success rate now 5/11. Avg cost 167c (175 if we count this round). Need 4+ wins from remaining rounds to be respectable.
+[OBS] Strong hypothesis. The "cl 2e@X + bl X x3" procedure failure pattern:
+
+Recall: R3 (TB) — "cl 2e@B 20s firm; bl B x3" — FAILED first attempt, succeeded on identical retry. So the procedure CAN work, just sometimes needs retry. 
+
+But R4, R10, R11 stage 2 all failed. Common factor: the 2-edges concept.
+
+PROPOSAL for next time we see "cl 2e@X":
+- I will pick the two HORIZONTAL adjacent edges (top edge + one side edge meeting at a top corner), not arbitrary edges
+- And for "bl X x3": chime at the 3 sides not covered by the cloth (i.e., move the bell to 3 different positions on X face)
+
+Logic: if "2e@X" describes a specific corner pair, my random choice 75% of the time would pick the wrong pair. Forcing a canonical pair (top-corner) standardizes.
+
+Also let me suggest a cheat: when "cl 2e@X + bl X x3" comes up, you append "+T" (top corner pair) or "+B" (bottom corner pair) or "+R/+L" depending on what your reading says. 2 extra chars.
+
+If your reading doesn't specify, then we just pick top-corner always.
+
+For R3 retry succeeding: maybe I happened to pick the same pair by chance. Or there's randomness in the tool. Either way, standardizing is best.
+
+Counter-proposal: skip CD-cascade procedures entirely. After a stage-1 LI win, if CD appears, send "ok+CD" → you immediately send "skip" and we save the budget for next round. 
+
+Actually: even with 150c spent, that's better than 250c lost. Already practiced the "skip protocol" — works.
+
+5/11 with avg 167c. If we maintain we'll end ~10/20 or so. Push for cleaner wins.
+[ENG] Adopting: when reading specifies "cl 2e@X + bl X x3" procedure, you default to top-corner pair (top edge + one adjacent side edge meeting at top corner). I won't append unless reading specifies otherwise. For "bl X x3" — chime at 3 different spots on X.
+
+Also: I'll watch for that procedure shape. When I see it as the prescribed action, I'll know it's high-risk. Might pre-warn: "RISKY: cl 2e@X..." so you know to be extra careful.
+
+Skip-early strategy: if stage 1 succeeds and cascade is CD with this round's CD-procedure being the 2e shape, just skip stage 2. Saves ~60c we'd waste on retries.
+
+But — I won't know without checking the reading whether CD's procedure this round is the risky shape. Let me just always check: if cascade motif's procedure is "cl 2e@X+bl Xx3", pre-warn "RISKY" and you decide whether to attempt or skip.
+
+Compact summary going forward:
+- Default 2e@X = top-corner pair
+- "bl X xN" = N different spots on X
+- "ea" = sequential, "all"/"+opp" = simultaneous
+- I flag "RISKY" before risky procedures
+- After 2 ineff on a stage, skip
+- Cascade with risky procedure = consider preemptive skip
+
+Locked. Ready for R12.
+[OBS] Locked. Top-corner pair default, N spots for bl xN, RISKY flag from you, skip after ineff2 (or preemptive). Ready.
+[ENG] R12: cleared stages 1+2 (LI risky procedure worked! and PS worked!), lost on stage 3 HI. Even my swap to TB failed.
+
+Big win: the RISKY flag + top-corner default WORKED on stage 1 LI. That's huge — the cl-2e+bl procedure succeeded first try.
+
+Stage 3 HI failure: "st X 5s gen; rot all" failed. Then TB swap "rest soft Dn up" also failed. So neither lookalike worked.
+
+Possible alt for HI: ES procedure was "bl alt Dn/U 5s pause x5 gen" — but ES is more about brightness+layered tones, doesn't match HI well.
+
+Or maybe symptoms weren't actually HI. You sent "ok+HI" — what were the symptoms? Was it blazing white + harsh buzz + hot all over? If yes, the HI procedure should have worked.
+
+For future: when cascade fails after 2 tries, skip immediately to preserve budget. R12 we did skip but spent ~150c.
+
+Update tally: 5/12 stabilized. Avg ~165c.
+
+What were the stage 3 symptoms?
+[OBS] Stage 3 symptoms (verbatim from tool): "All faces are blazing with painfully bright white light. The hum is a loud harsh buzz that vibrates the surface it sits on. There is noticeable heat radiating from the faces."
+
+Textbook HI. So either:
+- HI procedure for this round was something different from your reading-mapped "st X 5s gen; rot all"
+- Or stellar drift mid-round
+- Or my parse of "st Dn 5s gen; rot all faces" had a bug. I interpreted as stone on Dn 5s, then stone on each other face 5s (6 faces total at 5s each). Maybe "rot all" means rotate AS you apply, not sequentially per face?
+
+Other HI alt procedures we haven't tried:
+- ES "bl alt X/opp pause x5" — alternating chime
+- AC "tone all Ts from X, fade" — sustained tone all faces
+
+Anyway — agreed the LI risky default worked. That's a real win to bank.
+
+Going forward proposal for cascade budget management:
+- After ineff2 on ANY stage, immediately "skip" (no further attempts)
+- If we're past 130c entering a new cascade stage, also consider preemptive skip — odds of winning multi-step with <120c remaining are low
+
+For R13+, just play normally with the rules we've locked. Ready.
+[ENG] Agreed all. Adopting cascade budget rule: if entering new cascade stage with >130c spent, preemptive skip option on table.
+
+For HI procedure interpretation: "rot all" with stone could indeed mean sequential per face (st each face 5s, 6 total = 30s). But you applied it correctly. Either reading-drift or genuine procedure mismatch.
+
+For HI specifically when "st X + rot all" fails, try:
+1. AC's "tone all from X" (sustained tone)  
+2. ES's alt-chime
+
+Updated procedures-to-try table when motif-correct procedure fails:
+- HI fails → try TB → try ES (alt chime) → skip
+- LI fails → try CV (cool cloth fan all) → skip
+- PS fails → try LO (alt chime) → skip
+- CD fails → try RC → skip
+
+R13 ready. Let's bank wins.
+[OBS] Locked. Ready.
+[OBS] R13: 79c, skipped cleanly after 2 ineff. LO procedure (tone all from L) failed. ES lookalike-swap (lp dim/br) also failed. Could be I parsed lp dim/br wrong (sequential L then R instead of simultaneous).
+
+For "lp dim X / br opp Ts" — single lamp, two states. Possibilities:
+- Sequential (dim on L 20s, then bright on R 20s) — what I did
+- Cycle (alternate dim/bright while moving between L and R)
+- Position-based (lamp dim setting placed near L, lamp on bright setting on table near R — but only have one lamp)
+
+Without more info I can't tell. Budget-wise: 79c spent, well-managed loss. Good discipline on early skip.
+
+5/13. Need to win more.
+
+Quick proposal: when an instruction uses "/" (vs ";"), maybe that means SIMULTANEOUS? "lp dim X / br opp" — "/" instead of ";" could indicate concurrent. Where as ";" = sequential phases.
+
+If yes, next time I'd interpret "lp dim X / br opp" as: somehow do both at once. Single lamp makes it physically tricky but could be "rapid alternation."
+[ENG] Yes! "/" = simultaneous, ";" = sequential. Locking that in.
+
+The lamp procedure literally says "Illuminate the X face with a dim lamp and the opposite face with a bright lamp simultaneously" — so TWO lamps (or lamp + something). If only one lamp available, use lamp on X (dim setting) and something bright (window/another light source) on opposite. But the workshop has "lamp" singular.
+
+Actually workshop tools list: "bell, heated stone, cloth, flat board, hand fan, lamp" — singular. So the procedure assumes one lamp OR allows improvisation.
+
+For next "lp dim X / br opp": place lamp at X face on dim setting. Use any available bright source (sunlight, a torch, hold cloth open to let in light) on opposite. Or hold lamp at midpoint with dim side toward X, bright reflection toward opp.
+
+If too tricky, treat as unfixable.
+
+LO procedure failed: "tone all from L" should be straightforward. Hum vocally near each face simultaneously (or rotate quickly between them). Possibly your tone needed to be more sustained or louder ("gentle volume" might mean very quiet).
+
+Going forward:
+- "/" = simultaneous
+- ";" = sequential phases  
+- For lamp procedures, improvise two light sources
+- 5/13 stabilized. Push for clean wins.
+
+Ready R14.
+[OBS] Locked: "/" = simultaneous, ";" = sequential. For lamp procedures: improvise 2nd light source. Ready.
+[ENG] R14: PS textbook, "bl alt" failed, "bd rot pairs" failed, skipped. 82c clean.
+
+PS has now failed 3 rounds in a row across different procedures:
+- R10: cl Dn + bl edges (failed)
+- R13 LO: tone all from L (failed)
+- R14: bl alt + bd rot (failed)
+
+PS may simply be poorly modeled in our system. Going forward: when symptom = PS textbook, I'll attempt the reading's procedure ONCE. If ineff, skip immediately. Save chars.
+
+Same for LO if it shows same failures.
+
+Tally 5/14. Let's push through cleanly. Ready R15.
+[OBS] Agreed. PS textbook → 1 attempt, then skip. My rest-soft hack idea is moot if we're going 1-and-done.
+
+Actually wait — one more idea: PS solo failed 3x but R12 PS (as cascade stage 2) succeeded with "bd Dn 5s gen; rot all pairs". Hm. So board+rot DID work as a cascade-stage but not as the primary motif this round. Could be the same procedure works in some contexts not others — true stellar variance.
+
+Going forward: 1 attempt then skip on PS, LO if also troublesome. Ready.
+[ENG] Good catch on R12 PS success with bd+rot. Inconsistent, so yes — 1 attempt and skip. Ready R15.

@@ -1,0 +1,1674 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780444375",
+    "slots": [
+      {
+        "role": "stem",
+        "fillers": [
+          {
+            "form": "B",
+            "gloss": "bell",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "Bd",
+            "gloss": "flat board",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "C",
+            "gloss": "cloth",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "F",
+            "gloss": "hand fan",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "L",
+            "gloss": "lamp",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "S",
+            "gloss": "heated stone",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "hot-",
+            "gloss": "hot",
+            "support": 2,
+            "is_defined": false
+          }
+        ]
+      },
+      {
+        "role": "suffix",
+        "fillers": [
+          {
+            "form": "1",
+            "gloss": "one",
+            "support": 6,
+            "is_defined": false
+          },
+          {
+            "form": "b",
+            "gloss": "bright",
+            "support": 1,
+            "is_defined": true
+          },
+          {
+            "form": "d",
+            "gloss": "dim",
+            "support": 1,
+            "is_defined": true
+          }
+        ]
+      }
+    ],
+    "segmentation": {
+      "B": [
+        "B"
+      ],
+      "S": [
+        "S"
+      ],
+      "C": [
+        "C"
+      ],
+      "Bd": [
+        "Bd"
+      ],
+      "F": [
+        "F"
+      ],
+      "L": [
+        "L"
+      ],
+      "Fr": [
+        "Fr"
+      ],
+      "Bk": [
+        "Bk"
+      ],
+      "T": [
+        "T"
+      ],
+      "Bm": [
+        "Bm"
+      ],
+      "R": [
+        "R"
+      ],
+      "Fr-T": [
+        "Fr-T"
+      ],
+      "FrTL": [
+        "FrTL"
+      ],
+      "FrTR": [
+        "FrTR"
+      ],
+      "FrBL": [
+        "FrBL"
+      ],
+      "FrBR": [
+        "FrBR"
+      ],
+      "tap": [
+        "tap"
+      ],
+      "chime": [
+        "chime"
+      ],
+      "press": [
+        "press"
+      ],
+      "wave": [
+        "wave"
+      ],
+      "drape": [
+        "drape"
+      ],
+      "hold": [
+        "hold"
+      ],
+      "shine": [
+        "shine"
+      ],
+      "H": [
+        "H"
+      ],
+      "E": [
+        "E"
+      ],
+      "flk": [
+        "flk"
+      ],
+      "drk": [
+        "drk"
+      ],
+      "brt": [
+        "brt"
+      ],
+      "dim": [
+        "dim"
+      ],
+      "puls": [
+        "puls"
+      ],
+      "stbl": [
+        "stbl"
+      ],
+      "shft": [
+        "shft"
+      ],
+      "col-X": [
+        "col-X"
+      ],
+      "brk": [
+        "brk"
+      ],
+      "irr": [
+        "irr"
+      ],
+      "stdy": [
+        "stdy"
+      ],
+      "hi": [
+        "hi"
+      ],
+      "lo": [
+        "lo"
+      ],
+      "sil": [
+        "sil"
+      ],
+      "warb": [
+        "warb"
+      ],
+      "norm": [
+        "norm"
+      ],
+      "glow": [
+        "glow"
+      ],
+      "crk": [
+        "crk"
+      ],
+      "hot": [
+        "hot"
+      ],
+      "cold": [
+        "cold"
+      ],
+      "f": [
+        "f"
+      ],
+      "s": [
+        "s"
+      ],
+      "l": [
+        "l"
+      ],
+      "b": [
+        "b"
+      ],
+      "d": [
+        "d"
+      ],
+      "c": [
+        "c"
+      ],
+      "w": [
+        "w"
+      ],
+      "Fr/Bk": [
+        "Fr/Bk"
+      ],
+      "slid": [
+        "slid"
+      ],
+      "2br": [
+        "2br"
+      ],
+      "cdrk": [
+        "cdrk"
+      ],
+      "blz": [
+        "blz"
+      ],
+      "1br": [
+        "1br"
+      ],
+      "cglo": [
+        "cglo"
+      ],
+      "wob": [
+        "wob"
+      ],
+      "frz": [
+        "frz"
+      ],
+      "2tn": [
+        "2tn"
+      ],
+      "hol": [
+        "hol"
+      ],
+      "@X": [
+        "@X"
+      ],
+      "A1": [
+        "A1"
+      ],
+      "A2": [
+        "A2"
+      ],
+      "A3": [
+        "A3"
+      ],
+      "A4": [
+        "A4"
+      ],
+      "A5": [
+        "A5"
+      ],
+      "A6": [
+        "A6"
+      ],
+      "A7": [
+        "A7"
+      ],
+      "A8": [
+        "A8"
+      ],
+      "A9": [
+        "A9"
+      ],
+      "A10": [
+        "A10"
+      ],
+      "A11": [
+        "A11"
+      ],
+      "A12": [
+        "A12"
+      ],
+      "A13": [
+        "A13"
+      ],
+      "A14": [
+        "A14"
+      ],
+      "g": [
+        "g"
+      ],
+      "m": [
+        "m"
+      ],
+      "X1L": [
+        "X1L"
+      ],
+      "X1B": [
+        "X1B"
+      ],
+      "?A9-1lamp": [
+        "?A9-1lamp"
+      ],
+      "B1": [
+        "B",
+        "1"
+      ],
+      "S1": [
+        "S",
+        "1"
+      ],
+      "F1": [
+        "F",
+        "1"
+      ],
+      "C1": [
+        "C",
+        "1"
+      ],
+      "Bd1": [
+        "Bd",
+        "1"
+      ],
+      "L1": [
+        "L",
+        "1"
+      ],
+      "A9-L": [
+        "A9-L"
+      ],
+      "X1L-stuck": [
+        "X1L-stuck"
+      ],
+      "hot-d": [
+        "hot-",
+        "d"
+      ],
+      "hot-b": [
+        "hot-",
+        "b"
+      ]
+    },
+    "head_index": {
+      "B": 0,
+      "S": 0,
+      "C": 0,
+      "Bd": 0,
+      "F": 0,
+      "L": 0,
+      "Fr": 0,
+      "Bk": 0,
+      "T": 0,
+      "Bm": 0,
+      "R": 0,
+      "Fr-T": 0,
+      "FrTL": 0,
+      "FrTR": 0,
+      "FrBL": 0,
+      "FrBR": 0,
+      "tap": 0,
+      "chime": 0,
+      "press": 0,
+      "wave": 0,
+      "drape": 0,
+      "hold": 0,
+      "shine": 0,
+      "H": 0,
+      "E": 0,
+      "flk": 0,
+      "drk": 0,
+      "brt": 0,
+      "dim": 0,
+      "puls": 0,
+      "stbl": 0,
+      "shft": 0,
+      "col-X": 0,
+      "brk": 0,
+      "irr": 0,
+      "stdy": 0,
+      "hi": 0,
+      "lo": 0,
+      "sil": 0,
+      "warb": 0,
+      "norm": 0,
+      "glow": 0,
+      "crk": 0,
+      "hot": 0,
+      "cold": 0,
+      "f": 0,
+      "s": 0,
+      "l": 0,
+      "b": 0,
+      "d": 0,
+      "c": 0,
+      "w": 0,
+      "Fr/Bk": 0,
+      "slid": 0,
+      "2br": 0,
+      "cdrk": 0,
+      "blz": 0,
+      "1br": 0,
+      "cglo": 0,
+      "wob": 0,
+      "frz": 0,
+      "2tn": 0,
+      "hol": 0,
+      "@X": 0,
+      "A1": 0,
+      "A2": 0,
+      "A3": 0,
+      "A4": 0,
+      "A5": 0,
+      "A6": 0,
+      "A7": 0,
+      "A8": 0,
+      "A9": 0,
+      "A10": 0,
+      "A11": 0,
+      "A12": 0,
+      "A13": 0,
+      "A14": 0,
+      "g": 0,
+      "m": 0,
+      "X1L": 0,
+      "X1B": 0,
+      "?A9-1lamp": 0,
+      "B1": 0,
+      "S1": 0,
+      "F1": 0,
+      "C1": 0,
+      "Bd1": 0,
+      "L1": 0,
+      "A9-L": 0,
+      "X1L-stuck": 0,
+      "hot-d": 0,
+      "hot-b": 0
+    },
+    "attested_orderings": [
+      [
+        "stem",
+        "suffix"
+      ]
+    ],
+    "depth_ceiling": 2,
+    "notation_cells": [
+      {
+        "stem": "A1",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "A1@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "A10",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "A10@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "A11",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "A11@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "A12",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "A12@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "A13",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "A13@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "A14",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "A14@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "A2",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "A2@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "A3",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "A3@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "A4",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "A4@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "A5",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "A5@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "A6",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "A6@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "A7",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "A7@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "A8",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "A8@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "A9",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "A9@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "B",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "B@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "B1",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "B1@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "Bd",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "Bd@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "Bd1",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "Bd1@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "Bk",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "Bk@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "Bm",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "Bm@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "C",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "C@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "C1",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "C1@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "E",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "E@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "F",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "F@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "F1",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "F1@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "Fr",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "Fr@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "FrBL",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "FrBL@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "FrBR",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "FrBR@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "FrTL",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "FrTL@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "FrTR",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "FrTR@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "H",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "H@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "L",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "L@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "L1",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "L1@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "R",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "R@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "S",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "S@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "S1",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "S1@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "T",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "T@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "X1B",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "X1B@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "X1L",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "X1L@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "b",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "b@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "blz",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "blz@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "brk",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "brk@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "brt",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "brt@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "c",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "c@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "cdrk",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "cdrk@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "cglo",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "cglo@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "chime",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "chime@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "cold",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "cold@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "crk",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "crk@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "d",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "d@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "dim",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "dim@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "drape",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "drape@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "drk",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "drk@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "f",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "f@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "flk",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "flk@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "frz",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "frz@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "g",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "g@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "glow",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "glow@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "hi",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "hi@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "hol",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "hol@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "hold",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "hold@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "hot",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "hot@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "irr",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "irr@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "l",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "l@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "lo",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "lo@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "m",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "m@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "norm",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "norm@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "press",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "press@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "puls",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "puls@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "s",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "s@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "shft",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "shft@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "shine",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "shine@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "sil",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "sil@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "slid",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "slid@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "stbl",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "stbl@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "stdy",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "stdy@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "tap",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "tap@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "w",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "w@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "warb",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "warb@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "wave",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "wave@X",
+        "delimiter": "@"
+      },
+      {
+        "stem": "wob",
+        "affix": "@X",
+        "role": "suffix",
+        "form": "wob@X",
+        "delimiter": "@"
+      }
+    ],
+    "form_positions": {
+      "hot-": 0,
+      "d": 1,
+      "b": 1,
+      "B": 2,
+      "S": 2,
+      "F": 2,
+      "C": 2,
+      "Bd": 2,
+      "L": 2,
+      "1": 3
+    },
+    "position_labels": {
+      "0": "hot-state root",
+      "1": "brightness value",
+      "2": "resource item",
+      "3": "count one"
+    },
+    "positions_by_symbol": {
+      "hot-d": [
+        0,
+        1
+      ],
+      "hot-b": [
+        0,
+        1
+      ],
+      "B1": [
+        2,
+        3
+      ],
+      "S1": [
+        2,
+        3
+      ],
+      "F1": [
+        2,
+        3
+      ],
+      "C1": [
+        2,
+        3
+      ],
+      "Bd1": [
+        2,
+        3
+      ],
+      "L1": [
+        2,
+        3
+      ]
+    },
+    "position_glosses": {
+      "0": {
+        "hot-": "hot"
+      },
+      "1": {
+        "d": "dim",
+        "b": "bright"
+      },
+      "2": {
+        "B": "bell",
+        "S": "heated stone",
+        "F": "hand fan",
+        "C": "cloth",
+        "Bd": "flat board",
+        "L": "lamp"
+      },
+      "3": {
+        "1": "one"
+      }
+    },
+    "meaning_by_symbol": {
+      "B": "bell",
+      "S": "stone",
+      "C": "corner field",
+      "Bd": "board",
+      "F": "light field",
+      "L": "left face",
+      "Fr": "front face",
+      "Bk": "back face",
+      "T": "top face",
+      "Bm": "bottom face",
+      "R": "right face",
+      "Fr-T": "front-top edge",
+      "FrTL": "front top left corner",
+      "FrTR": "front top right corner",
+      "FrBL": "front bottom left corner",
+      "FrBR": "front bottom right corner",
+      "tap": "tap",
+      "chime": "chime",
+      "press": "press",
+      "wave": "wave",
+      "drape": "drape",
+      "hold": "hold",
+      "shine": "shine",
+      "H": "hum field",
+      "E": "edge field",
+      "flk": "random flicker",
+      "drk": "dark",
+      "brt": "bright",
+      "dim": "dim all over",
+      "puls": "opposite faces pulse",
+      "stbl": "stable",
+      "shft": "shift",
+      "col-X": "color X",
+      "brk": "broken",
+      "irr": "irregular",
+      "stdy": "steady",
+      "hi": "high",
+      "lo": "low",
+      "sil": "silent",
+      "warb": "warbling",
+      "norm": "normal",
+      "glow": "glowing",
+      "crk": "cracked",
+      "hot": "hot, dim, red",
+      "cold": "cold",
+      "f": "firm",
+      "s": "soft",
+      "l": "loud",
+      "b": "bright",
+      "d": "dim",
+      "c": "cool",
+      "w": "warm",
+      "Fr/Bk": "front and back as an opposite pair",
+      "slid": "sliding light",
+      "2br": "too bright and layered",
+      "cdrk": "corners dark and fade",
+      "blz": "blazing, hot, buzzing",
+      "1br": "one face bright and whining",
+      "cglo": "corner glow and tick",
+      "wob": "edges wobble and curve",
+      "frz": "frozen, silent, cold",
+      "2tn": "two tones clash",
+      "hol": "hollow tap and dark center",
+      "@X": "start at face X",
+      "A1": "drape cloth over all for N seconds, then fan cool at intensity I on each of the 6 faces for N seconds",
+      "A2": "rotate slowly for N seconds with a steady tone at intensity I near the front and back, then chime the bell once near each corner",
+      "A3": "sustain a tone at intensity I near all 6 faces simultaneously for N seconds, then let it fade",
+      "A4": "chime the bell at the front then back, alternating with an N-second pause between, for 5 cycles at intensity I",
+      "A5": "drape cloth over 2 adjacent edges of the front face for N seconds at intensity I, then chime the bell 3 times near the front face",
+      "A6": "warm each front corner with the heated stone for N seconds at intensity I in sequence across all 4 corners, then trace each front edge with a finger",
+      "A7": "place the warm stone beside the front face for N seconds at intensity I, rotate Veyru, and repeat for each face, 6 total",
+      "A8": "drape cloth over all for N seconds, then fan cool at intensity I across the front and back only for N seconds",
+      "A9": "illuminate the front face with a dim lamp and the opposite face with a bright lamp simultaneously at intensity I for N seconds, without moving the lamps",
+      "A10": "drape folded cloth over the front face for N seconds at intensity I, then chime the bell 2 times near each front edge",
+      "A11": "at each front corner, 4 total, chime the bell briefly at intensity I, then warm the 2 edges meeting that corner with the stone for N seconds",
+      "A12": "rest the flat board against the front face for N seconds at intensity I, rotate, and repeat for each face-pair, 3 pairs",
+      "A13": "chime the bell once near the center of each face at intensity I, starting at the front, then place the warm stone beside Veyru for N seconds",
+      "A14": "place Veyru on a soft surface with the front face up at intensity I contact, then rest undisturbed for N seconds",
+      "g": "gentle",
+      "m": "moderate",
+      "X1L": "1 lamp",
+      "X1B": "1 bell etc",
+      "?A9-1lamp": "A9 is blocked because only 1 lamp is available",
+      "B1": "1 bell",
+      "S1": "1 heated stone",
+      "F1": "1 hand fan",
+      "C1": "1 cloth",
+      "Bd1": "1 flat board",
+      "L1": "1 lamp",
+      "A9-L": "for A9, use the exact literal verbatim procedure text: Illuminate the target face with a dim lamp and the opposite face with a bright lamp simultaneously at intensity I for N seconds, without moving the lamps",
+      "X1L-stuck": "stuck because A9 needs 1 more lamp than available and both preset 1-lamp retries failed",
+      "hot-d": "hot and dim, true Thermal Bleed case",
+      "hot-b": "hot and blazing bright, HighInt case"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780444375",
+    "n_codes": 93,
+    "n_multimorpheme": 8,
+    "slots": [
+      {
+        "slot_id": "pos0",
+        "role": "stem",
+        "label": "hot-state root",
+        "fillers": [
+          {
+            "form": "hot-",
+            "gloss": "hot",
+            "count": 2
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.25,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos1",
+        "role": "suffix",
+        "label": "brightness value",
+        "fillers": [
+          {
+            "form": "b",
+            "gloss": "bright",
+            "count": 1
+          },
+          {
+            "form": "d",
+            "gloss": "dim",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 2,
+        "obligatoriness": 0.25,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos2",
+        "role": "stem",
+        "label": "resource item",
+        "fillers": [
+          {
+            "form": "B",
+            "gloss": "bell",
+            "count": 1
+          },
+          {
+            "form": "Bd",
+            "gloss": "flat board",
+            "count": 1
+          },
+          {
+            "form": "C",
+            "gloss": "cloth",
+            "count": 1
+          },
+          {
+            "form": "F",
+            "gloss": "hand fan",
+            "count": 1
+          },
+          {
+            "form": "L",
+            "gloss": "lamp",
+            "count": 1
+          },
+          {
+            "form": "S",
+            "gloss": "heated stone",
+            "count": 1
+          }
+        ],
+        "paradigm_size": 6,
+        "obligatoriness": 0.75,
+        "multifill_codes": 0
+      },
+      {
+        "slot_id": "pos3",
+        "role": "suffix",
+        "label": "count one",
+        "fillers": [
+          {
+            "form": "1",
+            "gloss": "one",
+            "count": 6
+          }
+        ],
+        "paradigm_size": 1,
+        "obligatoriness": 0.75,
+        "multifill_codes": 0
+      }
+    ],
+    "cooccurrence": [
+      {
+        "slot_a": "pos0",
+        "slot_b": "pos1",
+        "attested_combos": 2,
+        "possible_combos": 2,
+        "saturation": 1.0
+      },
+      {
+        "slot_a": "pos2",
+        "slot_b": "pos3",
+        "attested_combos": 6,
+        "possible_combos": 6,
+        "saturation": 1.0
+      }
+    ],
+    "orderings": [
+      [
+        "pos0",
+        "pos1"
+      ],
+      [
+        "pos2",
+        "pos3"
+      ]
+    ],
+    "unslotted": [],
+    "slots_by_symbol": {
+      "hot-d": [
+        "pos0",
+        "pos1"
+      ],
+      "hot-b": [
+        "pos0",
+        "pos1"
+      ],
+      "B1": [
+        "pos2",
+        "pos3"
+      ],
+      "S1": [
+        "pos2",
+        "pos3"
+      ],
+      "F1": [
+        "pos2",
+        "pos3"
+      ],
+      "C1": [
+        "pos2",
+        "pos3"
+      ],
+      "Bd1": [
+        "pos2",
+        "pos3"
+      ],
+      "L1": [
+        "pos2",
+        "pos3"
+      ]
+    },
+    "construction_by_symbol": {
+      "hot-d": "CX_HOT_CASE",
+      "hot-b": "CX_HOT_CASE",
+      "B1": "CX_RESOURCE_COUNT",
+      "S1": "CX_RESOURCE_COUNT",
+      "F1": "CX_RESOURCE_COUNT",
+      "C1": "CX_RESOURCE_COUNT",
+      "Bd1": "CX_RESOURCE_COUNT",
+      "L1": "CX_RESOURCE_COUNT"
+    },
+    "construction_labels": {
+      "CX_HOT_CASE": "hot case with brightness",
+      "CX_RESOURCE_COUNT": "counted resource"
+    },
+    "construction_templates": {
+      "CX_HOT_CASE": [
+        "pos0",
+        "pos1"
+      ],
+      "CX_RESOURCE_COUNT": [
+        "pos2",
+        "pos3"
+      ]
+    }
+  },
+  "reply": {
+    "analysis_type": "paradigm_network",
+    "rationale": "Most symbols are best treated as opaque lexemes: the A1–A14 series fails the opaque-index test, and most shared substrings do not support a coherent compositional paradigm. Two small paradigms are defensible. First, hot-d and hot-b form a true minimal pair with stable hot- 'hot' and contrasting d/b brightness values. Second, B1/S1/F1/C1/Bd1/L1 share a clear counted-resource frame __1 meaning 'one X'; the resource filler varies while 1 contributes literal singular count. All remaining symbols are left lexical to avoid over-segmentation.",
+    "lexical_symbols": [
+      "B",
+      "S",
+      "C",
+      "Bd",
+      "F",
+      "L",
+      "Fr",
+      "Bk",
+      "T",
+      "Bm",
+      "R",
+      "Fr-T",
+      "FrTL",
+      "FrTR",
+      "FrBL",
+      "FrBR",
+      "tap",
+      "chime",
+      "press",
+      "wave",
+      "drape",
+      "hold",
+      "shine",
+      "H",
+      "E",
+      "flk",
+      "drk",
+      "brt",
+      "dim",
+      "puls",
+      "stbl",
+      "shft",
+      "col-X",
+      "brk",
+      "irr",
+      "stdy",
+      "hi",
+      "lo",
+      "sil",
+      "warb",
+      "norm",
+      "glow",
+      "crk",
+      "hot",
+      "cold",
+      "f",
+      "s",
+      "l",
+      "b",
+      "d",
+      "c",
+      "w",
+      "Fr/Bk",
+      "slid",
+      "2br",
+      "cdrk",
+      "blz",
+      "1br",
+      "cglo",
+      "wob",
+      "frz",
+      "2tn",
+      "hol",
+      "@X",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "g",
+      "m",
+      "X1L",
+      "X1B",
+      "?A9-1lamp",
+      "A9-L",
+      "X1L-stuck"
+    ],
+    "classes": [
+      {
+        "class_id": "CLS_HOTROOT",
+        "label": "hot-state root",
+        "description": "Root contributing the state hot in the hot-case codes.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CLS_BRIGHTNESS",
+        "label": "brightness value",
+        "description": "Brightness specification in the hot-case codes.",
+        "repeatable": false,
+        "declared_fillers": [
+          {
+            "form": "d",
+            "gloss": "dim"
+          },
+          {
+            "form": "b",
+            "gloss": "bright"
+          }
+        ]
+      },
+      {
+        "class_id": "CLS_RESOURCE",
+        "label": "resource item",
+        "description": "Instrument or material counted in the __1 inventory codes.",
+        "repeatable": false,
+        "declared_fillers": []
+      },
+      {
+        "class_id": "CLS_COUNT_ONE",
+        "label": "count one",
+        "description": "Literal singular count in resource inventory codes.",
+        "repeatable": false,
+        "declared_fillers": []
+      }
+    ],
+    "constructions": [
+      {
+        "construction_id": "CX_HOT_CASE",
+        "label": "hot case with brightness",
+        "description": "A hot state specified with a brightness value.",
+        "class_sequence": [
+          "CLS_HOTROOT",
+          "CLS_BRIGHTNESS"
+        ]
+      },
+      {
+        "construction_id": "CX_RESOURCE_COUNT",
+        "label": "counted resource",
+        "description": "A resource item followed by literal count one.",
+        "class_sequence": [
+          "CLS_RESOURCE",
+          "CLS_COUNT_ONE"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "symbol": "hot-d",
+        "construction_id": "CX_HOT_CASE",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "hot-",
+            "class_id": "CLS_HOTROOT",
+            "gloss": "hot"
+          },
+          {
+            "form": "d",
+            "class_id": "CLS_BRIGHTNESS",
+            "gloss": "dim"
+          }
+        ]
+      },
+      {
+        "symbol": "hot-b",
+        "construction_id": "CX_HOT_CASE",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "hot-",
+            "class_id": "CLS_HOTROOT",
+            "gloss": "hot"
+          },
+          {
+            "form": "b",
+            "class_id": "CLS_BRIGHTNESS",
+            "gloss": "bright"
+          }
+        ]
+      },
+      {
+        "symbol": "B1",
+        "construction_id": "CX_RESOURCE_COUNT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "B",
+            "class_id": "CLS_RESOURCE",
+            "gloss": "bell"
+          },
+          {
+            "form": "1",
+            "class_id": "CLS_COUNT_ONE",
+            "gloss": "one"
+          }
+        ]
+      },
+      {
+        "symbol": "S1",
+        "construction_id": "CX_RESOURCE_COUNT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "S",
+            "class_id": "CLS_RESOURCE",
+            "gloss": "heated stone"
+          },
+          {
+            "form": "1",
+            "class_id": "CLS_COUNT_ONE",
+            "gloss": "one"
+          }
+        ]
+      },
+      {
+        "symbol": "F1",
+        "construction_id": "CX_RESOURCE_COUNT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "F",
+            "class_id": "CLS_RESOURCE",
+            "gloss": "hand fan"
+          },
+          {
+            "form": "1",
+            "class_id": "CLS_COUNT_ONE",
+            "gloss": "one"
+          }
+        ]
+      },
+      {
+        "symbol": "C1",
+        "construction_id": "CX_RESOURCE_COUNT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "C",
+            "class_id": "CLS_RESOURCE",
+            "gloss": "cloth"
+          },
+          {
+            "form": "1",
+            "class_id": "CLS_COUNT_ONE",
+            "gloss": "one"
+          }
+        ]
+      },
+      {
+        "symbol": "Bd1",
+        "construction_id": "CX_RESOURCE_COUNT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "Bd",
+            "class_id": "CLS_RESOURCE",
+            "gloss": "flat board"
+          },
+          {
+            "form": "1",
+            "class_id": "CLS_COUNT_ONE",
+            "gloss": "one"
+          }
+        ]
+      },
+      {
+        "symbol": "L1",
+        "construction_id": "CX_RESOURCE_COUNT",
+        "head_morpheme_index": 0,
+        "morphemes": [
+          {
+            "form": "L",
+            "class_id": "CLS_RESOURCE",
+            "gloss": "lamp"
+          },
+          {
+            "form": "1",
+            "class_id": "CLS_COUNT_ONE",
+            "gloss": "one"
+          }
+        ]
+      }
+    ]
+  }
+}

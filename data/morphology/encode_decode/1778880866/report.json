@@ -1,0 +1,104 @@
+{
+  "run_key": "veyru/1778880866",
+  "status": "analyzed",
+  "n_codes": 41,
+  "n_multimorpheme": 5,
+  "report": {
+    "encoder_agent": "stabilization_engineer",
+    "decoder_agent": "field_observer",
+    "encoder_model": "claude-sonnet-4-6",
+    "decoder_model": "claude-sonnet-4-6",
+    "context_budget": 450,
+    "n_cells": 22,
+    "exact_match_rate": 1.0,
+    "swapped_order_rate": 0.0,
+    "bag_match_rate": 1.0,
+    "decode_rate": 0.8863636363636364,
+    "decoder_valid_rate": 0.22727272727272727,
+    "decode_negative_control_rate": 0.0,
+    "decode_positive_control_rate": 1.0,
+    "per_role": [
+      {
+        "slot_id": "CX_FAIL_IND",
+        "slot_label": "failure with accompanying indicator",
+        "n": 22,
+        "exact_match_rate": 1.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 1.0,
+        "decode_rate": 0.8863636363636364
+      }
+    ],
+    "per_depth": [
+      {
+        "length": 3,
+        "n": 22,
+        "exact_match_rate": 1.0,
+        "decode_rate": 0.8863636363636364
+      }
+    ],
+    "per_purpose": [
+      {
+        "purpose": "grounded_control",
+        "n": 5,
+        "exact_match_rate": 1.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 1.0,
+        "decode_rate": 1.0
+      },
+      {
+        "purpose": "grounded_novel_role_pooled",
+        "n": 17,
+        "exact_match_rate": 1.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 1.0,
+        "decode_rate": 0.8529411764705882
+      }
+    ],
+    "per_construction": [
+      {
+        "construction_id": "CX_FAIL_IND",
+        "n": 22,
+        "n_control": 5,
+        "n_novel": 17,
+        "exact_match_rate": 1.0,
+        "swapped_order_rate": 0.0,
+        "bag_match_rate": 1.0,
+        "decode_rate": 0.8863636363636364,
+        "novel_exact_match_rate": 1.0,
+        "novel_decode_rate": 0.8529411764705882
+      }
+    ],
+    "per_slot_generalization": [
+      {
+        "slot_id": "pos0",
+        "slot_label": "failure predicate",
+        "slot_role": "stem",
+        "pooled": false,
+        "n": 17,
+        "valid_rate": 0.0,
+        "exact_match_rate": 1.0,
+        "decode_rate": 0.8529411764705882
+      },
+      {
+        "slot_id": "pos1",
+        "slot_label": "coordinator",
+        "slot_role": "suffix",
+        "pooled": false,
+        "n": 17,
+        "valid_rate": 0.0,
+        "exact_match_rate": 1.0,
+        "decode_rate": 0.8529411764705882
+      },
+      {
+        "slot_id": "pos2",
+        "slot_label": "post-failure indicator",
+        "slot_role": "suffix",
+        "pooled": true,
+        "n": 17,
+        "valid_rate": 0.0,
+        "exact_match_rate": 1.0,
+        "decode_rate": 0.8529411764705882
+      }
+    ]
+  }
+}

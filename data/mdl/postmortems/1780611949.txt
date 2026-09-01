@@ -1,0 +1,63 @@
+[ENG] Shorthand proposal for future rounds: observer sends only symptom keys, I reply with bare procedure only. Fast mapping used: dim corners + fading edges + fine centers + hollow edge hum = leak.
+[OBS] Got it. I’ll send symptom keys only.
+[ENG] Good. I’ll answer with procedure only unless ambiguity needs one clarifier.
+[OBS] OK. Procedure format idea: tool, face, duration, count/level, order only.
+[ENG] Agreed. I’ll keep to that format when possible while preserving exact action.
+[OBS] OK.
+[ENG] Ready.
+[OBS] Ready.
+[ENG] Round 2 map used: dim+still+silent+cold+unresponsive = stall. Immediate bare procedure saved budget.
+[OBS] Got it: stall.
+[ENG] Round 3 map: hot all over + dim + low rumble + rough/gritty + red tint = thermal bleed.
+[OBS] Got it: thermal bleed.
+[ENG] We lost on comm budget. Next rounds: you send motif name only if clear; I send exact procedure only, no extras, and no post-link chatter until discussion. For combos, send both motif names in priority order if you can recognize them.
+[OBS] Understood. Also: I have one lamp only. Last step needed 2 lamps at once. If that symptom returns, please give a one-lamp procedure.
+[ENG] I have to relay the star-mapped step exactly. If the dim/bright opposite-face step returns and you truly have one lamp only, tell me immediately before acting; if any fixed ambient light exists, use lamp direct on the bright face and ambient on the dim face as the closest match.
+[OBS] Got it: I’ll report one-lamp limit immediately; use ambient + lamp if available.
+[ENG] Budget fix: your link msg must be motif only. Mine stays exact procedure only. If first fix changes symptoms, send new motif only, not descriptions. We cannot survive free-text symptoms plus exact replies under 250.
+[OBS] Agreed. Need names for V5 motifs.
+[ENG] V5 first was Low Intensity. Second was Echo Saturation. If unsure in future, send shortest symptom key possible.
+[OBS] Got it: Low Intensity; Echo Saturation.
+[ENG] Good—motif-only worked. Keep link msgs to motif names only.
+[OBS] Understood.
+[ENG] Key lesson: two link exchanges can exceed budget even with motif-only. If first fix changes symptoms, send only the new motif instantly. Also, if you can recognize a combo up front, send both motif names in priority order so I can decide faster.
+[OBS] Understood. Need names for both R7 motifs; also the 2nd step arrived after action phase closed for me.
+[ENG] R7 motifs: Corner Deadlock, then Phase Inversion. If the action phase is nearly closed after first fix, send both motifs together if visible, or say 'combo?' before acting so I watch for priority.
+[OBS] Got it: Corner Deadlock; Phase Inversion. I’ll use “combo?” if needed.
+[ENG] R8 succeeded. Your compact symptom key also works when motif name is uncertain.
+[OBS] Understood.
+[OBS] Need name for R9 second motif. Unknown follow-on cost us the round.
+[ENG] R9 second motif was Core Void.
+Link shorthand from now on:
+A=sustain tone all 6
+B=bell alternate opposite faces
+C=cloth on 2 adjacent edges, then bell x3
+D=warm each corner, then trace edges
+E=warm stone beside each face
+F=cool cloth whole, then fan start+opposite
+G=dim/bright opposite-face lamps
+H=folded cloth on face, then bell each edge x2
+I=each corner bell, then warm 2 meeting edges
+J=flat board on each face-pair
+K=bell center each face, then warm stone beside Veyru
+L=soft surface, face up, rest
+M=cool cloth whole, then fan all 6
+N=rotate with steady tone, then bell corners
+Face codes: Bk/Tp/Bt/Lf/Rt/Fr. Intensity: g/m/f. Link format: CODE FACE INTENSITYSECONDS. Example: B Bt m10.
+[OBS] Got it. I’ll keep motif-only/compact keys; your code format works for procedures.
+[ENG] Success. Link shorthand is valid. Keep motif-only from you and code-only from me.
+[OBS] Understood.
+[ENG] R11 succeeded through three fixes. Codes are robust.
+[OBS] Need motif name for “competing tones+alt patterns+edge shimmer.”
+[ENG] That symptom set is Harmonic Split.
+[OBS] Got it: Harmonic Split.
+[ENG] R12 stabilized. Note: J needed a one-line reminder; otherwise code system held.
+[OBS] Agreed. Please name “whiteout+buzz+heat.”
+[ENG] That one is High Intensity.
+[OBS] Got it: High Intensity.
+[ENG] R13 clean. Codes fast enough even with 20s actions.
+[OBS] Understood.
+[ENG] R14 three-step success; compact symptom keys + codes are enough.
+[OBS] Need motif name for “1 bright vib whine face.”
+[ENG] That is Resonance Cascade.
+[OBS] Got it: Resonance Cascade.

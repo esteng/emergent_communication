@@ -1,0 +1,74 @@
+{
+  "per_slot": {
+    "pos0": [
+      [
+        "opp-faces",
+        "opposite faces are involved"
+      ]
+    ],
+    "pos1": [
+      [
+        "corners-bright",
+        "the corners are bright"
+      ],
+      [
+        "dark-center",
+        "the center is dark"
+      ],
+      [
+        "dark-corners",
+        "the corners are dim or almost dark"
+      ],
+      [
+        "dark-ctr",
+        "the center is dark, center only, held to light"
+      ],
+      [
+        "dark-edges",
+        "the edges are faint or dark"
+      ]
+    ]
+  },
+  "stackable": [
+    [
+      "?-face",
+      "the affected face cannot be identified"
+    ],
+    [
+      "B",
+      "bottom face"
+    ],
+    [
+      "Bk",
+      "back face"
+    ],
+    [
+      "F",
+      "front face"
+    ],
+    [
+      "L",
+      "left face"
+    ],
+    [
+      "R",
+      "right face"
+    ],
+    [
+      "T",
+      "top face"
+    ],
+    [
+      "drift",
+      "the light drifts"
+    ],
+    [
+      "flicker",
+      "the light flickers"
+    ],
+    [
+      "pulse",
+      "the light pulses"
+    ]
+  ]
+}

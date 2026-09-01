@@ -1,0 +1,539 @@
+{
+  "grammar": {
+    "run_key": "veyru/1778877857",
+    "slots": [],
+    "segmentation": {
+      "PS": [
+        "PS"
+      ],
+      "AC": [
+        "AC"
+      ],
+      "DE": [
+        "DE"
+      ],
+      "ES": [
+        "ES"
+      ],
+      "LI": [
+        "LI"
+      ],
+      "LO": [
+        "LO"
+      ],
+      "HI": [
+        "HI"
+      ],
+      "PI": [
+        "PI"
+      ],
+      "RC": [
+        "RC"
+      ],
+      "CD": [
+        "CD"
+      ],
+      "BS": [
+        "BS"
+      ],
+      "HS": [
+        "HS"
+      ],
+      "TB": [
+        "TB"
+      ],
+      "CV": [
+        "CV"
+      ],
+      "B": [
+        "B"
+      ],
+      "S": [
+        "S"
+      ],
+      "C": [
+        "C"
+      ],
+      "Bd": [
+        "Bd"
+      ],
+      "F": [
+        "F"
+      ],
+      "L": [
+        "L"
+      ],
+      "T": [
+        "T"
+      ],
+      "Bt": [
+        "Bt"
+      ],
+      "Fr": [
+        "Fr"
+      ],
+      "Bk": [
+        "Bk"
+      ],
+      "Lf": [
+        "Lf"
+      ],
+      "Rt": [
+        "Rt"
+      ],
+      "g": [
+        "g"
+      ],
+      "m": [
+        "m"
+      ],
+      "s": [
+        "s"
+      ],
+      "Rot": [
+        "Rot"
+      ],
+      "Cr": [
+        "Cr"
+      ],
+      "Ed": [
+        "Ed"
+      ],
+      "Fc": [
+        "Fc"
+      ],
+      "Opp": [
+        "Opp"
+      ],
+      "ea": [
+        "ea"
+      ],
+      "Adj": [
+        "Adj"
+      ],
+      "Sim": [
+        "Sim"
+      ],
+      "Cov": [
+        "Cov"
+      ],
+      "Wm": [
+        "Wm"
+      ],
+      "Br": [
+        "Br"
+      ],
+      "Tn": [
+        "Tn"
+      ],
+      "Ct": [
+        "Ct"
+      ],
+      "Seq": [
+        "Seq"
+      ],
+      "Cy": [
+        "Cy"
+      ],
+      "Ps": [
+        "Ps"
+      ],
+      "Alt": [
+        "Alt"
+      ],
+      "Und": [
+        "Und"
+      ],
+      "Surf": [
+        "Surf"
+      ],
+      "Ctr": [
+        "Ctr"
+      ],
+      "same": [
+        "same"
+      ],
+      "StnBs": [
+        "StnBs"
+      ],
+      "StnOn": [
+        "StnOn"
+      ],
+      "ClothOn": [
+        "ClothOn"
+      ],
+      "BdAg": [
+        "BdAg"
+      ],
+      "V": [
+        "V"
+      ],
+      "Cl": [
+        "Cl"
+      ],
+      "SusTn": [
+        "SusTn"
+      ],
+      "tr": [
+        "tr"
+      ],
+      "brtLyrFz": [
+        "brtLyrFz"
+      ],
+      "dimWhs": [
+        "dimWhs"
+      ],
+      "dCrHlw": [
+        "dCrHlw"
+      ],
+      "frzSil": [
+        "frzSil"
+      ],
+      "hotRed": [
+        "hotRed"
+      ],
+      "hlwDkCtr": [
+        "hlwDkCtr"
+      ],
+      "flkBrk": [
+        "flkBrk"
+      ],
+      "wblEdMuf": [
+        "wblEdMuf"
+      ],
+      "drftWv": [
+        "drftWv"
+      ],
+      "brtBuzz": [
+        "brtBuzz"
+      ],
+      "pulsOpp": [
+        "pulsOpp"
+      ],
+      "oneFcBrt": [
+        "oneFcBrt"
+      ],
+      "CrBrtClk": [
+        "CrBrtClk"
+      ],
+      "2Tn2Pat": [
+        "2Tn2Pat"
+      ],
+      "StnBsV": [
+        "StnBsV"
+      ],
+      "ClV": [
+        "ClV"
+      ],
+      "Frm": [
+        "Frm"
+      ],
+      "brtFrz": [
+        "brtFrz"
+      ],
+      "wblMuf": [
+        "wblMuf"
+      ],
+      "hlwDk": [
+        "hlwDk"
+      ],
+      "CrClk": [
+        "CrClk"
+      ],
+      "1FcBrt": [
+        "1FcBrt"
+      ],
+      "brtBz": [
+        "brtBz"
+      ],
+      "2TnPt": [
+        "2TnPt"
+      ],
+      "plsOp": [
+        "plsOp"
+      ]
+    },
+    "head_index": {
+      "PS": 0,
+      "AC": 0,
+      "DE": 0,
+      "ES": 0,
+      "LI": 0,
+      "LO": 0,
+      "HI": 0,
+      "PI": 0,
+      "RC": 0,
+      "CD": 0,
+      "BS": 0,
+      "HS": 0,
+      "TB": 0,
+      "CV": 0,
+      "B": 0,
+      "S": 0,
+      "C": 0,
+      "Bd": 0,
+      "F": 0,
+      "L": 0,
+      "T": 0,
+      "Bt": 0,
+      "Fr": 0,
+      "Bk": 0,
+      "Lf": 0,
+      "Rt": 0,
+      "g": 0,
+      "m": 0,
+      "s": 0,
+      "Rot": 0,
+      "Cr": 0,
+      "Ed": 0,
+      "Fc": 0,
+      "Opp": 0,
+      "ea": 0,
+      "Adj": 0,
+      "Sim": 0,
+      "Cov": 0,
+      "Wm": 0,
+      "Br": 0,
+      "Tn": 0,
+      "Ct": 0,
+      "Seq": 0,
+      "Cy": 0,
+      "Ps": 0,
+      "Alt": 0,
+      "Und": 0,
+      "Surf": 0,
+      "Ctr": 0,
+      "same": 0,
+      "StnBs": 0,
+      "StnOn": 0,
+      "ClothOn": 0,
+      "BdAg": 0,
+      "V": 0,
+      "Cl": 0,
+      "SusTn": 0,
+      "tr": 0,
+      "brtLyrFz": 0,
+      "dimWhs": 0,
+      "dCrHlw": 0,
+      "frzSil": 0,
+      "hotRed": 0,
+      "hlwDkCtr": 0,
+      "flkBrk": 0,
+      "wblEdMuf": 0,
+      "drftWv": 0,
+      "brtBuzz": 0,
+      "pulsOpp": 0,
+      "oneFcBrt": 0,
+      "CrBrtClk": 0,
+      "2Tn2Pat": 0,
+      "StnBsV": 0,
+      "ClV": 0,
+      "Frm": 0,
+      "brtFrz": 0,
+      "wblMuf": 0,
+      "hlwDk": 0,
+      "CrClk": 0,
+      "1FcBrt": 0,
+      "brtBz": 0,
+      "2TnPt": 0,
+      "plsOp": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "PS": "Propagation Stall",
+      "AC": "Alignment Collapse",
+      "DE": "Drift Escalation",
+      "ES": "Echo Saturation",
+      "LI": "Leak Instability",
+      "LO": "Low Intensity",
+      "HI": "High Intensity",
+      "PI": "Phase Inversion",
+      "RC": "Resonance Cascade",
+      "CD": "Corner Deadlock",
+      "BS": "Boundary Softening",
+      "HS": "Harmonic Split",
+      "TB": "Thermal Bleed",
+      "CV": "Core Void",
+      "B": "bell",
+      "S": "stone",
+      "C": "cloth",
+      "Bd": "board",
+      "F": "fan",
+      "L": "lamp",
+      "T": "top face",
+      "Bt": "bottom face",
+      "Fr": "front face",
+      "Bk": "back face",
+      "Lf": "left face",
+      "Rt": "right face",
+      "g": "gentle intensity",
+      "m": "moderate intensity",
+      "s": "strong intensity",
+      "Rot": "rotate",
+      "Cr": "corners",
+      "Ed": "edges",
+      "Fc": "faces",
+      "Opp": "opposite",
+      "ea": "each",
+      "Adj": "adjacent",
+      "Sim": "simultaneous",
+      "Cov": "coverage",
+      "Wm": "warmth",
+      "Br": "brightness",
+      "Tn": "tone",
+      "Ct": "contact",
+      "Seq": "sequence",
+      "Cy": "cycle",
+      "Ps": "pause",
+      "Alt": "alternate",
+      "Und": "undisturbed",
+      "Surf": "surface",
+      "Ctr": "center",
+      "same": "the action failed and the state is unchanged",
+      "StnBs": "stone beside",
+      "StnOn": "stone on",
+      "ClothOn": "cloth draped on or over",
+      "BdAg": "board resting against",
+      "V": "Veyru",
+      "Cl": "cloth",
+      "SusTn": "sustained tone",
+      "tr": "trace",
+      "brtLyrFz": "Echo Saturation",
+      "dimWhs": "Low Intensity",
+      "dCrHlw": "Leak Instability",
+      "frzSil": "Propagation Stall",
+      "hotRed": "Thermal Bleed",
+      "hlwDkCtr": "Core Void",
+      "flkBrk": "Alignment Collapse",
+      "wblEdMuf": "Boundary Softening",
+      "drftWv": "Drift Escalation",
+      "brtBuzz": "High Intensity",
+      "pulsOpp": "Phase Inversion",
+      "oneFcBrt": "Resonance Cascade",
+      "CrBrtClk": "Corner Deadlock",
+      "2Tn2Pat": "Harmonic Split",
+      "StnBsV": "stone beside the whole Veyru",
+      "ClV": "cloth over the whole Veyru",
+      "Frm": "firm intensity",
+      "brtFrz": "Echo Saturation",
+      "wblMuf": "Boundary Softening",
+      "hlwDk": "Core Void",
+      "CrClk": "Corner Deadlock",
+      "1FcBrt": "Resonance Cascade",
+      "brtBz": "High Intensity",
+      "2TnPt": "Harmonic Split",
+      "plsOp": "Phase Inversion"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1778877857",
+    "n_codes": 83,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No proposed split meets the codebook's paradigm requirements strongly enough to justify morphology. Several candidate families show repeated strings, but they fail one or more core tests: no robust same-frame substitution set, no stable independently recoverable contribution for all parts, or no predictable compositional meaning across multiple entries. Examples: brt- occurs only in whole-code synonyms for two unrelated meanings; -FcBrt, hlwD-, -Muf, -Clk, 2Tn-, -pp, -tr, Su-, and Cl- are driven by substring overlap rather than a demonstrated substitution paradigm. The most tempting family is StnBs / StnOn / StnBsV, but it does not extend to a sufficiently supported global construction inventory without introducing unsupported singleton classes or speculative morphemes. Per instructions, a flat lexicon is preferred over false morphology.",
+    "lexical_symbols": [
+      "PS",
+      "AC",
+      "DE",
+      "ES",
+      "LI",
+      "LO",
+      "HI",
+      "PI",
+      "RC",
+      "CD",
+      "BS",
+      "HS",
+      "TB",
+      "CV",
+      "B",
+      "S",
+      "C",
+      "Bd",
+      "F",
+      "L",
+      "T",
+      "Bt",
+      "Fr",
+      "Bk",
+      "Lf",
+      "Rt",
+      "g",
+      "m",
+      "s",
+      "Rot",
+      "Cr",
+      "Ed",
+      "Fc",
+      "Opp",
+      "ea",
+      "Adj",
+      "Sim",
+      "Cov",
+      "Wm",
+      "Br",
+      "Tn",
+      "Ct",
+      "Seq",
+      "Cy",
+      "Ps",
+      "Alt",
+      "Und",
+      "Surf",
+      "Ctr",
+      "same",
+      "StnBs",
+      "StnOn",
+      "ClothOn",
+      "BdAg",
+      "V",
+      "Cl",
+      "SusTn",
+      "tr",
+      "brtLyrFz",
+      "dimWhs",
+      "dCrHlw",
+      "frzSil",
+      "hotRed",
+      "hlwDkCtr",
+      "flkBrk",
+      "wblEdMuf",
+      "drftWv",
+      "brtBuzz",
+      "pulsOpp",
+      "oneFcBrt",
+      "CrBrtClk",
+      "2Tn2Pat",
+      "StnBsV",
+      "ClV",
+      "Frm",
+      "brtFrz",
+      "wblMuf",
+      "hlwDk",
+      "CrClk",
+      "1FcBrt",
+      "brtBz",
+      "2TnPt",
+      "plsOp"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

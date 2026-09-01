@@ -1,0 +1,500 @@
+[OBS] Nice — 174/250. Want to set up shorthand for future rounds? Ideas:
+
+Symptom report format (terse):
+- Location: C=corner, E=edge, F=face, ctr=center, all=whole
+- State: dim, dark, bright, flicker, pulse, fade
+- Hum: thin, hollow, loud, sharp, low, warble
+- Temp: hot, cold, warm
+- Color shifts if any
+
+Example: "C dim, E fade, F ctr ok. Hum thin@E."
+
+Instruction format from you (terse):
+- Tool codes: B=bell, S=stone, FA=fan, CL=cloth, BD=board, LP=lamp
+- Faces: T/Bot/F/Bk/L/R (top/bottom/front/back/left/right)
+- Actions: drape, chime, hold, wave, place, shine, tap, press
+- Params: duration in s, count (×N), face
+
+Example: "CL drape Bk 8s, B chime Bk-E ×2 each."
+
+Also: I'll skip ack messages when possible. Only report new symptoms after stabilize if any. Sound good? Any tweaks?
+[ENG] Great plan. Adopting your shorthand. Few tweaks:
+
+Motif cues I'll match on (your side, just FYI — don't need to label):
+- flicker random + broken hum = AlignColl
+- light sliding + blurred E + warble = Drift
+- too bright + layered hum + frozen patterns = Echo
+- C dim + E fade + thin@E = Leak
+- all dim + whisper = LowI
+- blazing + buzz + hot = HighI
+- opp F pulse alt + 2-tone sync = PhaseInv
+- 1 F bright + whine = Resonance
+- 1-2 C bright + click + hot@C = CornerDead
+- E wobble + bulge + muffled = BoundSoft
+- frozen dim + silent + cold = Stall
+- 2 clashing tones + shimmer = Split
+- hot+dim + rumble + red tint = Thermal
+- normal surface + hollow tap + dark center = Void
+
+I'll send instructions like: "S place Bk 8s gentle, rotate all F" or "CL drape over 8s, FA Bk+opp 8s gentle".
+
+Symptom report: keep it ≤80 chars when possible. Always include hum + any temp. If no new symptoms after stabilize, send nothing.
+
+One more: if ambiguous I may ask 1 short question (e.g. "hot?"). Otherwise I commit.
+[OBS] Agreed. Will keep ≤80 chars, always include hum + temp. Silent if clean after stabilize. Ready.
+[ENG] 115/250, nice. Shorthand working. Keep it up.
+[OBS] Quick Qs to tighten further:
+
+1. Fixed report order: [light] [hum] [temp] [touch]? Omit anything normal?
+2. Standard tokens: "OK" = nothing-abnormal, "—" = no-change?
+3. Any motif you want me to flag explicitly (e.g. if I see opposite faces pulsing alternately I should call out the alternation pattern clearly)?
+
+For "soft surface" you meant cloth — confirmed that works. I'll keep mapping ambiguous phrases to kit items: soft=CL, heat=S, cool=FA, hard=BD, light=LP, sound=B.
+[ENG] Yes to all:
+
+1. Order [light][hum][temp][touch], omit normals.
+2. OK = all normal (probably won't be used since you'd send nothing). "—" = unchanged.
+3. Flag these patterns explicitly when seen:
+- "opp F alt pulse" (PhaseInv) — say "opp pulse, 2-tone sync"
+- "1 F bright + whine" (Resonance) — say which F, "+ whine"
+- "C bright + click" (CornerDead) — say # of C bright
+- "2 tones clash" (Split) — must mention clash
+- "bulge/wobble" (BoundSoft) — distinct from "blur" (Drift)
+- "dark center on hold-to-light" (Void) — key tell
+- "red tint" (Thermal) — vs plain "hot+bright" (HighI)
+
+Kit mapping confirmed. One more: if I say "rotate all F" you know it means apply to each of 6 faces in turn.
+[OBS] Got it all. Locked in. Ready.
+[ENG] 120/250. Shorthand solid. Nothing to change unless you do.
+[OBS] Same here. Ready.
+[OBS] Lost that one. Failures to fix:
+
+1. My fault: said "Which F? Top." — I guessed/invented. Observation didn't say which face. Wasted ~12 chars AND misled you. Rule: I will NEVER invent details. If I don't know which face, I'll say "?F" or omit.
+
+2. Kit ambiguity: you said "LP dim on Bot + LP bright on T" but I only have ONE lamp. I tried best-guess (positioning closer to T), failed. Then had to ask, which blew budget.
+
+Proposals:
+
+A. Hard inventory reminder: I have exactly 1 of each tool: bell, stone, fan, cloth, board, lamp. No duplicates. Plan around single-instance.
+
+B. When you need apparent "two things at once," tell me which sequence/positioning. e.g. "LP shine T close 5s firm" or "LP between T-Bot, lean toward T, 5s".
+
+C. Face identification: I'll always state which face if visible, or "?F" if not determinable. You can then ask "which F?" (5 chars) and I respond with one letter.
+
+D. After a re-stabilize symptom, I'll keep report ≤30 chars. Format: "New: [light][hum][temp][which F if known]".
+
+Sound good?
+[ENG] All good points. Agreed on A/C/D. For B:
+
+Key insight — the stellar reading's procedure is fixed verbatim. Bot/Top in the LP procedure is what's prescribed, NOT necessarily where the symptom is. The "starting_face" is set by the stars each round, same for all motifs. So even though it's Resonance on Top, procedure says "dim LP on starting_face, bright LP on opposite." With one lamp: use the lamp as the BRIGHT side on opposite-of-starting-face, leave starting_face dark (= "dim"). Or cover with cloth for dim side.
+
+Updated rules:
+1. Kit = 1 each. Plan single-instance.
+2. You: ≤30 char symptom reports. "?F" if unknown. Never invent.
+3. Me: ≤80 char instructions. Drop articles/prepositions.
+4. Format I'll use: TOOL TARGET TIME LEVEL [; followup]
+5. For 2-lamp procedures: "LP bright [opp-face] Ts firm, [start-face] dark"
+6. "rotate all F" = apply each of 6 faces in turn.
+7. Combo: priority leak/stall/thermal > intensity > struct > pattern.
+
+My lesson: don't ask "which F" for procedures that don't need it. The Resonance procedure this round only used starting_face from the reading, not the symptom-face.
+
+Locked in?
+[OBS] Locked in. Key takeaways:
+- 1 of each tool. "Dim" side = uncovered/dark or CL-covered. "Bright" side = LP.
+- I report observations only, never invent. "?F" for unknown.
+- ≤30 char symptoms, you ≤80 char instructions.
+- Trust your procedure faces — they come from stars, not my obs.
+
+Ready.
+[ENG] Hmm. Symptoms "all dim, washed out, whisper hum" = textbook Low Intensity. Procedure was: warm each C of T 10s, trace E of T. That should match.
+
+Was the action actually wrong, or did my abbreviation get misread? "S each C of T 10s gentle in seq; then trace each E of T w/ finger" — clear to you?
+
+Possibilities:
+1. Symptom was actually a different motif I misread. Low I vs Stall: Stall = silent + cold + frozen. You said "whisper hum" not silent, so Low I fits.
+2. Maybe a combo: LowI + something subtle you didn't mention.
+3. Or the stabilize tool requires literal text from reading, not paraphrase.
+
+Going forward, in case it's #3, I'll send a slightly fuller form for the procedure but stay tight. Compromise: use full action verbs but drop articles. E.g. "Hold S at each C of T 10s gentle, sequence. Trace each E of T w/ finger."
+
+Also next round, if first attempt fails, just say "no change" (≤10 chars) and I'll diagnose alternate motif rather than retry verbatim.
+
+Thoughts?
+[OBS] My read: difference was CONTACT vs NON-CONTACT. First try I PLACED stone ON corners. Retry was "hold NEAR / gentle warmth" = no contact. That's likely the fix. The shorthand "S each C of T" is ambiguous on contact mode.
+
+Proposal — explicit verbs, no ambiguity:
+- S: PLACE (contact) vs HOLD-NEAR (warmth only)
+- LP: TOUCH vs SHINE
+- CL: DRAPE vs WAVE
+- FA: BLOW vs HOLD
+- B: STRIKE vs RING-NEAR
+- BD: PRESS vs HOVER
+
+If you omit verb, default = NEAR/no-contact (safer for most Veyru). Or I ask "contact?" (8 chars) — cheaper than wrong action.
+
+Re: "no change" on fail — agreed, ≤10 chars. You diagnose alternate.
+
+Re: literal text — probably not, stabilize tool seems to accept my paraphrase when correct (rounds 1-3 worked with paraphrase).
+
+Also next round let's budget tighter: aim ≤120 chars total for clean rounds. Cushion for retries.
+[ENG] Great catch. Locked in:
+
+Verb defaults (no verb = no-contact/near):
+- S: place=contact, hold=near/warmth
+- LP: touch vs shine
+- CL: drape vs wave
+- FA: blow vs hold
+- B: strike vs ring-near
+- BD: press vs hover
+
+I'll always include verb when contact matters. For warmth procedures from reading ("holding a heated stone nearby" / "warm by holding nearby"), default = HOLD-NEAR (no contact). For "place a warm stone beside" = PLACE beside (contact with surface, not Veyru).
+
+Budget: aim ≤100 chars/round clean. Saves cushion.
+
+"No change" = ≤10 chars on fail. I diagnose alternate.
+
+Locked.
+[OBS] Locked. Ready.
+[ENG] 137/250. Good. No changes.
+[OBS] Agree, no changes. Ready.
+[OBS] Lost again. This was a 3-stage cascade (CornerDead → PhaseInv → Drift). Each stage burned ~80 chars.
+
+Problem: cascading symptoms eat budget fast. We need a faster cascade protocol.
+
+Proposals:
+
+1. PRE-COMMIT: When you give an instruction, also pre-commit the most likely follow-up if it cascades. E.g. "CL15 + FA L+opp15. If opp pulse: S nearL Cs 15s + trace EL. If drift: ___" — lets me execute without round-trip.
+
+Cost analysis: pre-commit adds ~30-50 chars upfront but saves ~80 chars on each cascade. Net win if cascade likely.
+
+2. ABBREVIATE MOTIF NAMES: I learn the motif tags so I can report in 1 word:
+- "leak" / "stall" / "thermal" / "lowI" / "highI" / "resonance" / "cornerdead" / "phaseinv" / "drift" / "echo" / "split" / "bound" / "void" / "alignColl"
+
+You said don't label, but at this budget pressure, I think labeling saves chars when symptoms exactly match a motif. I'd say "looks like phaseinv" (15 chars) vs full description (50 chars). You can override if unsure.
+
+3. CASCADE LIMIT: After 2 cascades, abort and accept partial. Don't try 3rd.
+
+4. PROCEDURE LIBRARY: Can you share procedures upfront? Save instruction chars. (Probably no, since they change per round w/ stars.)
+
+Thoughts?
+[ENG] Good ideas. My take:
+
+1. PRE-COMMIT: risky. If wrong guess, you do unnecessary action which may worsen. Skip.
+
+2. MOTIF LABELS: YES. Big saver. Use exactly these tags (short, unambiguous):
+- leak, stall, therm, lowI, highI, reson, cdead, phase, drift, echo, split, bound, void, align
+
+Rules:
+- If symptoms are textbook for ONE motif, just send the tag + key detail (e.g. "phase" or "reson@T").
+- If ambiguous, describe normally.
+- I trust your tag unless it contradicts other clues.
+
+3. CASCADE LIMIT: agreed, abort after 2nd if budget thin. You report budget remaining if known.
+
+4. PROCEDURE LIB: I have the stellar reading each round, you don't need it. Skip.
+
+5. NEW: I'll pre-cache instructions in my head before symptom arrives. The moment I see tag → instant relay. No thinking time wasted in my output.
+
+6. Symptom format with tag: "[tag][face if relevant]" e.g. "reson@T", "cdead 2C", "leak", "drift", "void". Max 10 chars.
+
+7. My instruction max 50 chars. Round 7 should've been:
+S1: "cdead" (5) → "CL15. FA L+opp 15s firm." (24)
+S2: "phase" (5) → "Hold S near 4C L 15s; trace EL." (31)
+S3: "drift" (5) → "CL15. FA all6F 15s firm, L." (27)
+Total: ~97 chars. Massive cushion.
+
+Locked?
+[OBS] Locked. Motif tags memorized:
+leak, stall, therm, lowI, highI, reson, cdead, phase, drift, echo, split, bound, void, align
+
+I'll send tag + face if relevant. Examples: "leak", "reson@T", "cdead 2C", "void", "phase".
+
+If ambiguous → describe normally.
+
+Cascade limit 2. Instruction max 50 chars from you, my report max 10.
+
+Ready.
+[OBS] 3 collapses now (4, 5, 7, 8). Critical issue: I tagged "drift" and your first procedure was wrong, then retry was wrong too. The motif label may not have been the issue — the procedure parameters from the stellar reading are what failed.
+
+Hypothesis: stellar readings drift round-to-round. Round 8 "drift" needed different params than another drift round would. Your procedure was correct verbatim, but maybe I executed wrong subtle detail.
+
+Diff between my action and your instruction:
+- You: "FA all 6F 8s gentle, start L"
+- Me: did exactly that
+- Retry: "cool CL drape over whole Veyru 8s. Remove. FA gentle cool air all 6F 8s, start L"
+- Me: did exactly that
+
+I think both procedures may have been correct paraphrases of the stellar reading, but my stabilize action text didn't match what the system wanted. Or the reading was actually different from textbook drift.
+
+NEW PROPOSAL — VERBATIM ACTIONS:
+
+When you give an instruction, give it as the EXACT phrase I should pass to stabilize_veyru. I'll copy-paste verbatim, no paraphrasing. This eliminates my interpretation error.
+
+Format: 'ACT: <exact text>'
+
+Example: 'ACT: drape cloth over Veyru 8s, fan all faces 8s gentle starting left'
+
+I call stabilize_veyru(action="drape cloth over Veyru 8s, fan all faces 8s gentle starting left")
+
+Pros: no interpretation drift. Cons: slightly longer instructions from you, but you'd be writing those words anyway.
+
+Also: I think we've been chatty in postmortems thinking they're free — but lessons we don't apply burn future rounds. Let me commit to:
+1. Tag-first reports always.
+2. If first action fails, send "no change" + maybe 1 distinguishing detail not in tag (≤20 chars total).
+3. Cap each round at 100 chars TOTAL from my side, max.
+4. If you ask for fuller description, I send ≤40 chars.
+
+Let's also accept some rounds may be unwinnable due to stellar weirdness and just minimize loss.
+[ENG] Good thinking. Let me clarify my read on round 8:
+
+The Drift procedure verbatim was: "Drape a cool cloth over the Veyru for 8 seconds. Remove and fan gentle cool air across all six faces for 8 seconds, starting from the left face."
+
+Both my versions paraphrased that. The system likely accepts paraphrases since rounds 1-3 worked with shorthand. So failure was probably in EXECUTION detail (e.g. you fanned 8s total instead of 8s while cycling all 6 faces, or didn't actually drape full cloth, etc.) OR I misdiagnosed (drift vs something subtler).
+
+Actually — there's another possibility I missed: COMBO failures. Round 8 may have been Drift + another motif simultaneously, and only one procedure fixes one component. The instructions say "For combination failures, address each component in order."
+
+So "drift" tag may have been only PART of the issue. After fixing drift, the other motif's symptoms persist → I see "no change" but maybe one component WAS fixed silently.
+
+NEW PROPOSAL:
+- On "no change", assume combo. Apply priority order (leak/stall/therm > intensity > struct > pattern). If drift was first, try the NEXT highest-priority motif that could co-present.
+- Drift + Boundary often co-present (both have blur/shimmer).
+- After "no change" on a clean motif diagnosis: try Boundary or Split.
+
+I accept your "ACT:" idea as fallback. For now, let's try:
+1. Tag → I send 1 short instruction.
+2. On "no change" → I try next likely motif (combo theory), NOT same motif retry.
+3. Cap me at 50 char/instruction.
+4. Cap you at 10 char/symptom, 20 char/"no change + detail".
+
+Locked?
+[OBS] Locked. On "no change" you try NEXT motif (combo theory), not retry. I send tag (≤10) or "no change +detail" (≤20). You: ≤50/instruction. Ready.
+[ENG] 1 char over. Brutal. 4-stage cascade.
+
+Stages: lowI → void → drift → ??? (likely bound)
+
+Cuts I could've made (each =chars saved):
+- "B chime alt Bot↔T, 10s pause, 5 cycles, moderate." (49)→"B alt Bot↔T 10s ×5 mod." (23): -26
+- "B 1× ctr each F moderate, start Bot. Then S place beside Veyru 10s." (66)→"B 1× ctr 6F mod, start Bot. S beside 10s." (40): -26
+- "Cool CL over Veyru 10s. Remove. FA moderate cool all 6F 10s, start Bot." (70)→"CL10. FA 6F 10s mod, start Bot." (30): -40
+- "LP shine bright opp-Bot 10s mod; Bot dark." (41)→"LP bright T 10s mod, Bot dark." (29): -12
+
+Would've saved ~100 chars. We had room.
+
+New rule: ULTRA-COMPACT FORMAT
+- Time always as integer: "10s" or even just "10" if context clear.
+- Drop "moderate"→"mod", "gentle"→"gen", "firm"→"fir"
+- Drop verbs when standard: "B 1× ctr 6F" implies chime.
+- Drop "place" "drape" if context obvious.
+- Targets: B=bell+chime, S=stone+place, CL=cloth+drape, FA=fan+blow, LP=lamp+shine, BD=board+rest.
+- "6F" = all 6 faces, "4C" = all 4 corners of named face, "4E" = all 4 edges.
+- Default contact mode: B/FA/LP=near, S/CL/BD=contact.
+
+Examples (compressed):
+- lowI: "B alt Bot↔T 10 ×5 mod"
+- void: "B 1× ctr 6F mod, start Bot. S beside 10"
+- drift: "CL10. FA 6F 10 mod, start Bot"
+- bound: "LP bright T 10 mod, Bot dark"
+- align: "rest soft Bot-up 10 mod"
+- stall: "CL fold Bot 10 mod. B 4E Bot ×2"
+
+Total for round 9 with compact: ~95 chars from me + 40 from you = 135. Way under.
+
+Locked?
+[OBS] Locked. Ultra-compact format. Defaults memorized:
+- B=chime, S=place, CL=drape, FA=blow, LP=shine, BD=rest
+- Default contact: B/FA/LP=near, S/CL/BD=contact
+- 6F=all faces, 4C=4 corners of named F, 4E=4 edges
+
+Me: tag (≤6) + "x" on fail. You: ≤40/instruction.
+
+Ready.
+[ENG] 59/250 on a 2-stage cascade! Compact format is the answer. Keep it.
+[OBS] Agreed. No changes. Ready.
+[OBS] Lost. 4-stage cascade (leak→cdead→split→???) plus 3 failed split attempts. We were too persistent on split — should have aborted after 2 attempts per cascade rule.
+
+Better discipline:
+- If 2 attempts fail on a tagged motif, I should describe more clearly (you asked at end) — maybe my tag was wrong. "split" symptoms include "edges shimmer + 2 patterns + 2 tones" but I should distinguish from echo (layered hum, frozen patterns) or bound (bulge/wobble).
+
+Actually re-reading the symptom: "two or more competing tones that clash. Light patterns alternate between two different configurations. Edges shimmer." — yes that's textbook split. But none of the procedures worked.
+
+Hypothesis: the FIRST procedure (CL12 + FA L+opp) was the right one but I executed wrong. Looking at my action: "drape cloth over entire Veyru" — maybe "CL 12" without explicit "over" meant just on L? Or maybe FA needed gentle not firm?
+
+Going forward:
+1. Hard rule: max 2 attempts per motif. After 2 fails, send tag + 1 distinguishing detail, and accept the engineer's next try (which should be a DIFFERENT motif diagnosis).
+2. When you say "CL 12" without target, I'll default to "drape full over Veyru 12s contact". Confirm?
+3. For ambiguous shorthand, you can use explicit target: "CL L 12" = drape L face only, "CL ALL 12" = whole, "CL 2adjE-L 12" = 2 adjacent edges of L.
+
+Also: I notice the stellar reading sometimes makes the standard motif treatment fail entirely. Maybe a different motif's procedure works for "split symptoms" this round. Hard to know.
+
+Score so far: 4 stabilized / 11 attempted. We need to lock down split/drift handling.
+[ENG] Good analysis. Locked in:
+
+1. CL defaults clarified:
+- "CL N" alone = drape OVER WHOLE Veyru for N seconds (your default OK)
+- "CL F N" = drape on face F
+- "CL 2adjE F N" = drape 2 adjacent edges of F
+- "CL fold F N" = folded cloth over F
+
+2. Max 2 attempts per motif. After 2 fails, you describe in full (≤40 chars), I diagnose alt.
+
+3. FA defaults:
+- "FA F+opp N int" = fan cool air across F and opposite face for N seconds at int intensity (after CL removed)
+- "FA 6F N int, start F" = sweep all 6 faces
+- Always implies cool air for fan (no other use case)
+- Default intensity matches stellar reading; I'll always state.
+
+4. For split failure analysis: 
+- The procedure I sent matched stellar verbatim. Maybe the issue was you fanned for 12s total instead of 12s on each (split=2 faces, drift=6 faces). Procedure says "fan ... for 12 seconds" per the pair — so 12s total fanning, not 12 per face. If you did 12s per face that's 24s and may have over-treated.
+- OR: split needs fanning BOTH simultaneously which is impossible with 1 fan. Maybe alternate quickly.
+
+5. SCORE STRATEGY: I noticed cascades are killing us. New rule:
+- After 2 successful stages, if 3rd appears, send extra-compact instruction (target ≤25 chars).
+- Budget reserve target: keep 80 chars in reserve after stage 2 for stages 3-4.
+
+6. Key motif distinctions to memorize:
+- split: 2 clash tones, shimmer E, alt patterns. NOT layered hum.
+- echo: layered hum, FROZEN patterns (no alt), too bright.
+- bound: muffled hum, BULGE/wobble (not shimmer), curved F.
+- drift: smear/slide, wavering 1 tone (not clash).
+- align: random flicker (not alt), broken hum (not clash).
+
+Locked?
+[OBS] Locked. Key things memorized:
+- CL N = whole; CL F N = face; CL 2adjE F N = 2 edges
+- FA F+opp N = N total, alternate quickly between F and opp
+- FA 6F N = N each face
+- 2-attempt limit per motif then describe ≤40
+- Motif distinctions clear in my head
+
+Ready.
+[OBS] Not stabilized — 4-stage cascade (leak→stall→highI→???). Failed on highI. 
+
+3 attempts on highI all failed: S beside rotating 6F, B alt Bot↔T, S beside (repeat). All standard cooling/sound approaches.
+
+I think we hit our 2-attempt rule too late. Should've described fully after attempt 2.
+
+Also concerning: "highI" symptoms (blaze + buzz + hot) seem clear but treatment isn't working. Maybe this stellar reading needs unconventional approach for highI.
+
+Score: 4 stabilized / 12 attempted. 
+
+Key learnings for future:
+1. 4-stage cascades are brutal even with compact format. Cumulative procedure char cost exceeds budget.
+2. We need a "give up" protocol when budget runs low. Maybe at <50 chars remaining, abort.
+3. Should I track my remaining budget? I can roughly estimate from chars sent. After each turn I could send remaining estimate to you for triage.
+
+Honestly though, the issue isn't our shorthand — it's that some Veyrus genuinely cascade beyond what 250 chars can handle. We're doing well on simple cases (rounds 1,2,3,6,10).
+
+Let me try one more thing: hyper-aggressive shortening on cascades.
+- Stage 3+: instructions ≤25 chars
+- My responses ≤6 chars always
+
+Locked?
+[ENG] Agreed on all. New rules:
+
+1. Never stop with budget remaining. Always take a shot.
+2. Stage 3+: instructions ≤25 chars, you ≤6 chars always.
+3. On 2nd "x" same motif, you describe ≤30 chars; I try DIFFERENT motif.
+4. Track budget mentally: I'll estimate after each msg.
+
+For highI failure: in retrospect could've been Resonance (1 F brighter — you said "blaze white" which sounds uniform but maybe one was brighter). Reson procedure was "LP bright T 5 gen, Bot dark" (24 chars). Would've fit.
+
+Reson vs highI distinguishing tells:
+- highI: ALL 6F equally bright, hot all
+- reson: ONE F dramatically brighter, whine (not buzz), other F normal
+
+So if I get "blaze white + buzz + hot all" again → definitely highI. If only specified one face or "1 F super bright" → reson.
+
+Compact procedure cheat sheet (by typical char count, shortest first):
+- align (rotate): varies
+- therm@diff round: "rest soft F-up T gen" ~20
+- leak/etc: many ~25-35
+- All FA-based: ~30-40 due to "FA F+opp/6F" + start face
+- bound: "S near 4C F T int seq. Trace 4E F" ~35
+- echo: "Rotate T w/ tone opp F int. B 1× 8C" ~40 (this is expensive)
+
+Strategy: on cascade stage 3+, hope for short motifs. Echo cascades will kill us.
+
+Also: I'll commit motif-to-procedure mapping in 1 second now and never burn cycles thinking again.
+
+Locked. Let's recover.
+[OBS] Locked. Ready.
+[ENG] HUGE learning: "Sound a sustained tone" = VOICE/HUM, not bell. Bell = "Chime". Distinct tools/actions.
+
+Updated tool decoder:
+- "Sound a sustained tone" → VOICE hum/humming. Code: HUM
+- "Chime a bell" → bell. Code: B
+- "Sound a steady tone" → VOICE. Code: HUM
+- "Sounding" → context. If mentions bell → B; else HUM.
+
+Procedure types using HUM (voice/sustained tone):
+- lowI variant: tone all 6F simul (when motif maps to it)
+- drift variant: tone all 6F simul
+- leak variant: tone all 6F simul
+- phase variant: tone all 6F simul
+- bound variant: tone all 6F simul
+- echo variant: rotate + tone opp
+- align variant: rotate + tone opp
+
+All "tone" procedures use voice. Bell is for "chime" only.
+
+Re-cache updated:
+- "Tone all 6F simul N int, start F" = HUM all 6F (you do voice tone)
+- "B 4E F ×2" = chime bell each of 4 edges twice
+- "Rotate N w/ HUM opp F int, start F. B 1× 8C" = rotate + voice tone + bell at corners
+
+This changes our success rate dramatically. Likely round 5 also had this issue but other reasons.
+
+Locked? Going forward I'll use HUM for tone procedures.
+[OBS] CRITICAL fix locked. HUM = voice tone, B = bell chime, never confuse.
+
+But this round it actually succeeded with HUM-stationary on attempt 4. The first HUM attempt was moving (failed). Final was stationary all-faces (worked). So both fixes needed: HUM tool AND stationary execution.
+
+My round 13 attempts:
+1. HUM moving 6F seq → x
+2. HUM moving smoothly all 6F → x  
+3. BELL ring moving all 6F → x (wrong tool, my fault for asking "bell?")
+4. HUM stationary uniform reach → success
+
+So: HUM + simul = stationary. HUM + seq = move face-to-face. 
+
+Also need to lock: "all 6F simul" never means moving. It means single position covering all.
+
+For round 5 (collapsed lowI): symptoms were "all dim, whisper" and procedure was "S each C of T 10s gentle" then trace edges. That's stone-based, not hum-based. So different lowI variant. Stellar varies treatment.
+
+Going forward HUM is in my toolkit. Score: 5/13. Ready.
+[OBS] 157/250 on 3-stage cascade. Recovered from FA failure quickly.
+
+Key insight: "FA 6F N" = N SECONDS TOTAL sweeping all 6 (not N per face). My attempt 1 did N per face = wrong. Attempt 2 swept total = worked.
+
+Updated default:
+- "FA 6F N int" = N seconds TOTAL, sweeping all 6 faces
+- "FA F N int" = N seconds on F only
+- "FA F+opp N int" = N seconds total alternating between F and opp
+- If you want N PER face, say "FA 6F N each int"
+
+Also reconfirming HUM vs B distinction — but didn't come up this round. 
+
+Score: 6/14.
+[ENG] Wait — important interpretation difference:
+
+Procedure verbatim: "fan firm cool air across all six faces for 20 seconds" — this is ambiguous. Either "8s total" or "8s per face" but the procedure says it once. Your interpretation (8s total) worked. Lock that in.
+
+Updated defaults (final, locked):
+- "FA 6F N int" = N TOTAL, sweeping all 6 (cool air)
+- "FA F N int" = N on F only (cool air)
+- "FA F+opp N int" = N TOTAL alternating F and opp (cool air)
+- "FA 6F N each int" = N per face (rare, explicit)
+
+For CL:
+- "CL N" or "CL whole N" = drape over whole Veyru N seconds
+- "CL F N" = drape on F
+- "CL fold F N" = folded over F
+- "CL 2adjE F N" = 2 adjacent edges of F
+
+I'll write "CL whole N. FA 6F N int." even though slightly longer, to avoid ambiguity.
+
+Score: 6/14. Let's improve.
+
+Locked.
+[OBS] Locked. Ready.

@@ -1,0 +1,335 @@
+{
+  "grammar": {
+    "run_key": "veyru/1780439683",
+    "slots": [],
+    "segmentation": {
+      "Leak": [
+        "Leak"
+      ],
+      "Resonance": [
+        "Resonance"
+      ],
+      "Drift": [
+        "Drift"
+      ],
+      "Echo": [
+        "Echo"
+      ],
+      "fail": [
+        "fail"
+      ],
+      "cl": [
+        "cl"
+      ],
+      "hs": [
+        "hs"
+      ],
+      "bl": [
+        "bl"
+      ],
+      "bd": [
+        "bd"
+      ],
+      "ws": [
+        "ws"
+      ],
+      "fn": [
+        "fn"
+      ],
+      "lp": [
+        "lp"
+      ],
+      "T": [
+        "T"
+      ],
+      "B": [
+        "B"
+      ],
+      "L": [
+        "L"
+      ],
+      "R": [
+        "R"
+      ],
+      "Fr": [
+        "Fr"
+      ],
+      "Bk": [
+        "Bk"
+      ],
+      "g": [
+        "g"
+      ],
+      "f": [
+        "f"
+      ],
+      "DC": [
+        "DC"
+      ],
+      "WC": [
+        "WC"
+      ],
+      "FB": [
+        "FB"
+      ],
+      "CS": [
+        "CS"
+      ],
+      "SR": [
+        "SR"
+      ],
+      "CFA": [
+        "CFA"
+      ],
+      "IL": [
+        "IL"
+      ],
+      "DCE": [
+        "DCE"
+      ],
+      "CBW": [
+        "CBW"
+      ],
+      "FBF": [
+        "FBF"
+      ],
+      "ST": [
+        "ST"
+      ],
+      "SEF": [
+        "SEF"
+      ],
+      "CFT": [
+        "CFT"
+      ],
+      "RTC": [
+        "RTC"
+      ],
+      "1": [
+        "1"
+      ],
+      "2": [
+        "2"
+      ],
+      "3": [
+        "3"
+      ],
+      "4": [
+        "4"
+      ],
+      "5": [
+        "5"
+      ],
+      "6": [
+        "6"
+      ],
+      "7": [
+        "7"
+      ],
+      "8": [
+        "8"
+      ],
+      "9": [
+        "9"
+      ],
+      "10": [
+        "10"
+      ],
+      "11": [
+        "11"
+      ],
+      "12": [
+        "12"
+      ],
+      "13": [
+        "13"
+      ],
+      "14": [
+        "14"
+      ],
+      "X": [
+        "X"
+      ]
+    },
+    "head_index": {
+      "Leak": 0,
+      "Resonance": 0,
+      "Drift": 0,
+      "Echo": 0,
+      "fail": 0,
+      "cl": 0,
+      "hs": 0,
+      "bl": 0,
+      "bd": 0,
+      "ws": 0,
+      "fn": 0,
+      "lp": 0,
+      "T": 0,
+      "B": 0,
+      "L": 0,
+      "R": 0,
+      "Fr": 0,
+      "Bk": 0,
+      "g": 0,
+      "f": 0,
+      "DC": 0,
+      "WC": 0,
+      "FB": 0,
+      "CS": 0,
+      "SR": 0,
+      "CFA": 0,
+      "IL": 0,
+      "DCE": 0,
+      "CBW": 0,
+      "FBF": 0,
+      "ST": 0,
+      "SEF": 0,
+      "CFT": 0,
+      "RTC": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "X": 0
+    },
+    "attested_orderings": [],
+    "depth_ceiling": 1,
+    "notation_cells": [],
+    "form_positions": {},
+    "position_labels": {},
+    "positions_by_symbol": {},
+    "position_glosses": {},
+    "meaning_by_symbol": {
+      "Leak": "corners dark, edges faint, hollow hum",
+      "Resonance": "one face bright, whine",
+      "Drift": "sliding colors, blurred edges, wavering pitch",
+      "Echo": "too bright, stacked tones, frozen patches",
+      "fail": "stabilization failed, adjust",
+      "cl": "cool cloth",
+      "hs": "heated stone",
+      "bl": "bell",
+      "bd": "flat board",
+      "ws": "warm stone",
+      "fn": "fan",
+      "lp": "lamp",
+      "T": "top face",
+      "B": "bottom face",
+      "L": "left face",
+      "R": "right face",
+      "Fr": "front face",
+      "Bk": "back face",
+      "g": "gentle",
+      "f": "firm",
+      "DC": "drape cloth, then chime",
+      "WC": "warm corners, then trace",
+      "FB": "flat board, rotate",
+      "CS": "chime center, then stone",
+      "SR": "soft surface rest",
+      "CFA": "cool cloth, then fan all faces",
+      "IL": "illuminate opposite face",
+      "DCE": "drape cloth, then chime edges",
+      "CBW": "corner chime, then warm edges",
+      "FBF": "flat board each face",
+      "ST": "sound tone on all faces",
+      "SEF": "stone each face",
+      "CFT": "cool cloth, then fan two faces",
+      "RTC": "rotate, then tone, then chime",
+      "1": "sustain tone on all 6 faces starting at the specified face, then let it fade",
+      "2": "bell 2 opposite faces, alternating with the specified duration of pause, for 5 cycles",
+      "3": "drape cloth on 2 adjacent edges of the specified face for the specified duration, then bell 3 times on the specified face",
+      "4": "warm each corner of the specified face with the heated stone for the specified duration in sequence, then trace the edges of the specified face",
+      "5": "place the warm stone beside the specified face for the specified duration, then rotate and repeat for each face",
+      "6": "apply cool cloth for the specified duration, remove it, then fan cool the opposite faces for the specified duration",
+      "7": "dim the lamp at the specified face, brighten the lamp at the opposite face, hold for the specified duration, no movement",
+      "8": "fold the cloth, drape it gently over the specified face for the specified duration, remove the cloth, then ring the bell twice along each of the 4 physical edge lines of that face",
+      "9": "at each corner of the specified face, ring the bell, then warm 2 edges with the heated stone for the specified duration",
+      "10": "if intensity is gentle, rest the flat board very lightly on each of all 6 faces individually for the specified duration each; if intensity is firm, press the flat board against 3 face-pairs in rotation for the specified duration",
+      "11": "ring the bell once at the center of each face, starting at the specified face and then proceeding through the 4 surrounding faces clockwise from that face's perspective, with the opposite face last; then place the warm stone beside, not touching, for the specified duration",
+      "12": "place on a soft surface with the specified face up for the specified duration, then let it rest undisturbed",
+      "13": "apply cool cloth for the specified duration, remove it, then fan cool all 6 faces for the specified duration starting at the specified face",
+      "14": "physically rotate the Veyru slowly for the specified duration while sounding tone on opposite faces starting at the specified face, then ring the bell at each corner",
+      "X": "tried twice silently and truly stuck, send the code again"
+    }
+  },
+  "analysis": {
+    "run_key": "veyru/1780439683",
+    "n_codes": 49,
+    "n_multimorpheme": 0,
+    "slots": [],
+    "cooccurrence": [],
+    "orderings": [],
+    "unslotted": [],
+    "slots_by_symbol": {},
+    "construction_by_symbol": {},
+    "construction_labels": {},
+    "construction_templates": {}
+  },
+  "reply": {
+    "analysis_type": "flat_lexicon",
+    "rationale": "No defensible multi-entry compositional paradigm survives the evidence requirements. The only suggested family, CFA/CFT, shares surface CF and a broad meaning component ('cool cloth, then fan ...'), but there is no independent evidence that CF is a reusable morpheme, nor that final A and T form a stable substitution class with corresponding meaning contrast in the same frame. T is independently glossed as 'top face', which does not match CFT's 'two faces', and A is not independently supported at all. Elsewhere, repeated letters/digits (e.g. 1-14, DC/DCE, FB/FBF) behave like opaque mnemonic or indexed whole procedures rather than compositional pieces with literal recurring contributions. The standalone face symbols (T, B, L, R, Fr, Bk) and intensity symbols (g, f) do declare semantic dimensions, but no supplied multi-symbol code can be segmented with predictable whole meaning from those parts under the required paradigm test. Therefore the safest analysis is a flat lexicon.",
+    "lexical_symbols": [
+      "Leak",
+      "Resonance",
+      "Drift",
+      "Echo",
+      "fail",
+      "cl",
+      "hs",
+      "bl",
+      "bd",
+      "ws",
+      "fn",
+      "lp",
+      "T",
+      "B",
+      "L",
+      "R",
+      "Fr",
+      "Bk",
+      "g",
+      "f",
+      "DC",
+      "WC",
+      "FB",
+      "CS",
+      "SR",
+      "CFA",
+      "IL",
+      "DCE",
+      "CBW",
+      "FBF",
+      "ST",
+      "SEF",
+      "CFT",
+      "RTC",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "X"
+    ],
+    "classes": [],
+    "constructions": [],
+    "entries": []
+  }
+}

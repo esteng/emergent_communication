@@ -1,0 +1,682 @@
+[OBS] Good round. Let's build shorthand to save chars. Proposals:
+
+Symptom report format (terse, no punctuation needed):
+- Faces: F1-F6 (or names: top/bot/front/back/L/R). Let's pick one — I'll use top/bot/front/back/L/R.
+- Regions: C=corners, E=edges, F=face-centers, A=all
+- Brightness: dark/dim/ok/bright/flick(flickering)/puls(pulsing)
+- Hum: thin/hollow/normal/loud/buzz/warble/silent
+- Temp: cold/cool/warm/hot
+- Color shifts: note only if present
+
+Example for round 1: "C dark, E fading, F ok; hum thin@E"
+
+Tools shorthand: bell, stone, fan, cloth, board, lamp.
+
+For your instructions, a compact template would help, e.g.:
+"<tool> <action> <face/region> <duration>s; then <tool> <action> ..."
+e.g. "cloth drape back 8s; bell 2x each edge back"
+
+Does this work? Any tweaks?
+[ENG] Works great. Adopting all of it. Notes:
+
+- All params (intensity, duration, starting face) come from a per-round star table I get. I must relay verbatim semantics but I'll compact wording.
+- I'll use your face names: top/bot/front/back/L/R.
+- My reply template: "<procedure compact>". E.g. "cloth drape back 8s gentle; bell 2x each edge back".
+- Intensity words from table: gentle/moderate/strong (or dim/bright for lamp). I'll keep the exact word.
+- If multiple motifs present, I'll number steps 1) 2) 3).
+
+Symptom cheats for you (just so you know which details matter most):
+- corners vs edges vs face-centers location of dimness/brightness = key
+- hum quality (thin/layered/split/silent/buzz/click/whine) often pinpoints motif
+- temp (hot/cold) and shape (bulging/curved) are strong signals
+- "frozen patterns" + bright = echo; frozen + dim + silent + cold = stall
+- pulsing opposite faces in sync = phase inv; one face much brighter = resonance; one/two corners bright = deadlock
+
+Keep reports tight like round 1 — that was perfect.
+[OBS] Great, locked in. I'll lead with location+brightness, then hum, then temp/shape only if notable. Ready.
+[OBS] Nice, 101s. The shorthand is working. One thought: when I name a motif I think I see (e.g. "Stall"), feel free to ignore if star table says otherwise — I'll keep using your cheat words but treat them as hints, not diagnoses. 
+
+Also, to save chars I'll drop "A " (all) when symptom is global. Just: "frozen dim silent cold, no tap response". Even shorter if you want.
+[ENG] Agreed. Your motif guess is welcome as a hint — I'll verify against my table. Even shorter is fine, just keep the discriminators (location of brightness/dimness, hum quality, temp, shape).
+
+I'll also keep my instructions minimal — dropping articles, default intensity word only if non-default. Format: "<tool> <verb> <target> <dur>s [<intensity>]; then ...".
+[OBS] 128s, solid. Pattern check: in 3 rounds you've always specified back-related actions — is that coincidence or do most procedures center on back? Just curious for my own model — I won't assume.
+[ENG] Coincidence — the star table sets a "starting face" each round that applies to every motif. R1=back, R2=top, R3=back. It varies. I'll always name it explicitly.
+
+Char-saver idea: if starting face = back, I can drop "near back" / "back" when it's obvious from context. But safer to keep — ambiguity risk > char cost.
+[OBS] Agreed, keep the face name — clarity wins. Ready.
+[ENG] Lost R4 by 16 chars. Lesson: cascading symptoms (stabilize then new motif) eat budget fast. We used ~120 chars on first motif, then ~130 on second = 250+.
+
+For multi-motif rounds we need to cut harder. Proposals:
+
+1. Ultra-terse instruction format. Drop "Then", semicolons only. Drop intensity word when it equals last round's (we'll track). Actually safer: keep intensity, drop other filler.
+   E.g. instead of "Cloth over two adjacent edges near bot 5s firm; then bell 3x near bot" → "cloth 2adj-E bot 5s firm; bell 3x bot" (~37 chars vs 70).
+
+2. Codes for procedures. There are 14 procedures, each with a short code. I'll define:
+   P1 tone-all-faces  | P2 bell-alt-opp  | P3 cloth-2edges+bell3
+   P4 stone-corners+trace  | P5 stone-each-face  | P6 cloth+fan-opp
+   P7 lamp-dim/bright-opp  | P8 cloth-face+bell-edges
+   P9 bell-corners+stone-edges  | P10 board-each-pair
+   P11 bell-centers+stone  | P12 rest-soft-face-up
+   P13 cloth+fan-all  | P14 rotate+tone+bell-corners
+   Then I just say: "P3 bot 5s firm" = 14 chars. Huge savings.
+
+3. Your symptom reports can shrink too. "C dark E fade F ok hum thin" = 27. Or single-word motif hints: "leak", "stall", "thermal", "reson", "deadlock", "echo", "phase", "split", "void", "boundary", "drift", "align", "lo", "hi". I verify against table. If hint matches my dx, I just reply with code.
+
+Want to adopt P1-P14 codes? I can list them once at round start if needed, or you can memorize. Your call.
+[OBS] Yes, adopt P1-P14. I have your list above; I'll memorize. Concerns:
+
+1. Codes work only if I never need to execute literally from the code — I'll still execute the described actions in my stabilize_veyru call (the tool action text doesn't cost chars). So "P3 bot 5s firm" means I do "cloth 2 adj edges bot 5s firm; bell 3x bot". Good — please confirm.
+
+2. If a round needs a P variant (different duration/intensity/start face/multi-step), spell deltas after code: "P3 top 8s gentle". For truly novel combos, write it out.
+
+3. Motif hints from me: I'll use your 14-word list as guesses. Format: "<symptom shorthand> | guess:<word>". E.g. "C dark E fade hum thin | guess:leak". You verify and reply with code+params. If my guess matches, you can just send the code+params. If wrong, you correct.
+
+4. Multi-motif (cascading) rounds: budget cut hard. I'll aim for ≤30 chars per phase report.
+
+5. For phase-2 reports, I'll skip "new:" preface. Just symptoms.
+
+Ready. Also: confirm your P-list won't change between rounds (only params do)?
+[ENG] Confirmed on all points.
+
+1. Yes — code → action mapping is fixed. You execute the described procedure; the tool text doesn't cost chars.
+
+2. Format confirmed: "P# face dur intensity". Default order. E.g. "P3 bot 5s firm".
+
+3. Hint format good. If your guess matches my dx, I reply just "<code> <face> <dur>s <int>". If wrong, same format with corrected code. No need to flag the disagreement.
+
+4. P-list is FIXED across rounds. Only the mapping from motif → P# changes, and the params (face/dur/intensity) change. You don't see the mapping — only I do. So just give symptoms, I give code.
+
+5. Quick reference for motif → keyword you'd use:
+   leak (C dark E fade) | stall (frozen dim silent cold) | thermal (hot dim rumble gritty red) | reson (1 face bright + whine) | deadlock (1-2 C bright + click + hot) | echo (too bright + layered hum + frozen) | phase (opp faces puls in sync 2tones) | split (2 tones clash + alt patterns) | void (ok surface but hollow tap, dark center) | boundary (wobble/bulge + muffled hum) | drift (light slides + blurred E + warble) | align (chaotic flick + broken hum) | lo (all dim faint whisper) | hi (blazing white loud buzz hot)
+
+6. P-list once more for reference:
+   P1 tone-all-faces (sustained, fade)
+   P2 bell-alt-opp-faces (5 cycles, pause)
+   P3 cloth-2adj-edges + bell-3x-face
+   P4 stone-each-corner-of-face + trace edges
+   P5 stone-each-face (rotate all 6)
+   P6 cool-cloth-all + fan-opp-pair
+   P7 lamp-dim/bright on opp faces
+   P8 cloth-over-face + bell-each-edge-2x
+   P9 bell-each-corner + stone-2edges-at-corner
+   P10 board-each-face-pair
+   P11 bell-center-each-face + stone-beside
+   P12 rest on soft surface, face up
+   P13 cool-cloth-all + fan-all-6
+   P14 rotate + tone-opp + bell-corners
+
+Locked. Ready next round.
+[OBS] Locked. Memorized P1-P14 and motif keywords. Ready.
+[ENG] R5 lost. Diagnosis was right (Low Intensity, P4), procedure was right. Something else went wrong in execution OR my P# mapping was off.
+
+Let me re-verify P4 definition: "Warm each corner of starting_face by holding heated stone nearby for {dur}s at {intensity} warmth, in sequence. Then trace each edge of starting_face with a finger." That's exactly what R5 Low Intensity required. So P4 was correct.
+
+Question for you: when you executed "P4 top 10s gentle" the first time, what action did you actually feed to stabilize_veyru? If you used the verbatim text I gave (just "P4 top 10s gentle"), the tool may not recognize codes — it likely needs the full action text.
+
+If true: codes between us are fine, but YOU must mentally expand the code into the full procedure text when calling the tool. The tool sees the natural-language action.
+
+Confirm: did you use the literal text "P4 top 10s gentle" in stabilize_veyru, or did you expand to "warm each corner of top face..."?
+[OBS] I expanded each time. My three attempts to the tool:
+
+1. "Take the heated stone. Gently touch it to each of the four corners of the top face for 10 seconds total, then gently trace the stone along each of the four edges of the top face. Use gentle pressure throughout." → "10s total" (wrong, should be per corner) AND traced with stone not finger.
+
+2. After your "10s per corner, trace with finger" clarification: "Place the heated stone gently on each of the four corners of the top face in sequence, holding it on each corner for 10 seconds, with gentle pressure. After all four corners, trace each of the four edges of the top face with my finger." → Looks right but failed.
+
+3. Verbatim: "Warm each corner of the top face with the heated stone for 10 seconds gentle, in sequence. Then trace each edge of the top face with my finger." → Got "discussion phase" error.
+
+Attempt 2 should have worked if P4 was correct. Two hypotheses:
+- The dx was actually different (your "lo" guess seeded by my hint may have anchored you)
+- P4 requires a specific detail I missed: "holding stone NEARBY" (your definition), not ON the corner. I placed it ON. Maybe must hover near.
+
+Action items:
+1. Engineer: always give the full verbatim procedure on first send for cascading or unfamiliar motifs. The code is fine for short rounds but if my expansion of a code is wrong, we burn rounds. Save chars only when confident.
+2. Me: I will NOT touch the Veyru unless your verb explicitly says touch/press/place. "Warm" = hold nearby. "Cool" = hold nearby. "Drape" = place on. "Trace" = light contact. "Chime" = strike bell beside.
+3. Verb glossary — propose:
+   - warm/cool: hold tool NEAR face/region, not touching
+   - drape: cloth on
+   - trace: light finger or tool contact, moving
+   - chime/strike: bell sound near, not touching
+   - place/set/rest: contact
+   - shine: lamp aimed at
+   - tone: bell continuous (?)
+   - rotate: turn Veyru
+
+Confirm/correct?
+[ENG] Verb glossary confirmed. Adding:
+- "sound a tone" = sustained continuous tone (vocal hum or held bell ring), not staccato chime
+- "fan" = use hand fan to move air across
+- "illuminate / shine" = aim lamp, hold steady (don't move)
+- "soft surface" = place Veyru on cushion/cloth, face-up as specified, then DO NOT touch
+- "near" = within a few cm, not touching
+- "beside" = adjacent, not touching
+- "against" = light contact (board against face = touching)
+
+Critical for P4: "holding a heated stone NEARBY" = hover near corner, don't touch. Your attempt 2 placed ON corner = wrong contact mode. That's likely the failure.
+
+Revised protocol:
+1. First send: I give procedure code + params. Short.
+2. If you're unsure how to execute a verb, you ask ONE question: "verb?" or "contact?" — I answer in ≤5 chars where possible.
+3. Only if procedure fails, I send verbatim text.
+
+Char budget per round target: ≤80 chars total (leaves margin for clarification or cascade).
+
+Also: my motif → P# mapping changes each round, but the P# → procedure mapping is fixed. So when I send P4, the procedure is always "stone hover at each corner of <face> for <dur>s <intensity>, sequence; trace edges with finger".
+
+Ready.
+[OBS] Locked. Verb glossary memorized. P4 = stone HOVER, finger trace. Target ≤80 chars/round. Ready.
+[ENG] 3 losses in a row. R6 dx was certain (Leak), procedure matched verbatim, still failed. Something fundamentally off.
+
+Hypotheses:
+A. Veyru actually has cascading symptoms from start, but observer reports only primary. After P9 "fails" it's the NEXT motif we should treat.
+B. My stellar table → P mapping is wrong, but verbatim text from my table also failed — so table is correct.
+C. The stabilize_veyru tool failure response doesn't mean "wrong procedure" — it could mean "incomplete" and the observer should report new symptoms instead of "fail".
+
+Observer: when stabilize_veyru returns failure, can you tell me WHAT the device looks like now? Not just "fail" but the new observed state? It might have partially stabilized and a new motif emerged.
+
+R1-R3 worked first try (single motif, no cascade). R4 cascaded (we knew). R5-R6 "failed" — but maybe they also cascaded and we missed it.
+
+Proposal:
+1. On failure, you report new symptoms (≤20 chars) instead of "fail". If state unchanged, say "same".
+2. Budget watching: if we hit 100 chars and not stabilized, STOP and concede the round — save chars for next.
+3. Question: does stabilize_veyru give you any feedback text beyond success/fail? Read it carefully — clues there.
+[OBS] CRITICAL INSIGHT. The tool returns:
+- Success: "Stabilization successful." (R1, R2, R3, R4 first call)
+- Success+cascade: "Stabilization successful, but new symptoms have appeared. What you now observe: <description>. Report these to the engineer." (R4 second part)
+- Failure: "Stabilization ineffective. Ask the engineer for guidance." (R5, R6)
+
+So failure ≠ cascade. The tool clearly distinguishes. R5/R6 were genuine procedure failures, not hidden cascades.
+
+So: dx OR execution was wrong both times. Not cascade.
+
+Re-examining R5: motif "lo" (all dim faint whisper washed out). R6: motif "leak" (C dark E fade hum thin). Both common motifs you correctly identified, with correct verbatim procedures, that still failed.
+
+Possibility I missed: maybe the procedure descriptions you have are subtly wrong, OR the star alignment changes the procedure mechanics not just params. E.g. "P4 top 10s gentle" — maybe under some alignments "gentle" means "no touch", under others means "light touch". Or "10s" means per item vs total varies.
+
+Or: maybe there's a tool the engineer doesn't know I have, or vice versa. My tools: bell, heated stone, hand fan, cloth, flat board, lamp. Anything you expected I have but I don't list?
+
+New protocol proposal:
+1. On failure I report tool's literal feedback (often short).
+2. If two attempts fail, concede round — save chars.
+3. Engineer: if your table gives unfamiliar/long procedures, send verbatim from start, not code.
+4. Always include alignment-dependent details like "touch/no touch" explicitly.
+[ENG] Tools match: bell, heated stone, cloth, flat board, hand fan, lamp. (You also have finger for tracing — free.)
+
+Wait — re-reading R5 attempts more carefully. Attempt 2 said "Place the heated stone gently on each of the four corners." That's PLACING (contact). My procedure said "nearby" (no contact). So it failed because of placement vs hover.
+
+Attempt 3 was verbatim with "warm... in sequence. Then trace each edge with finger." Hmm, observer reported attempt 3 got "discussion phase error" — meaning round ended before tool processed it? Or tool DID process and we ran out of chars?
+
+Actually total chars at attempt 3 was probably already over budget. So attempt 3 may not have been evaluated.
+
+For R6: only one fail before budget exhaustion. My verbatim was correct. So maybe R6 attempt also was correct but budget killed us.
+
+Re-checking my P-list: I think I had a subtle error. Let me re-verify against the brief's procedure list:
+- "Warm each corner... heated stone NEARBY... in sequence. Then trace each edge with a FINGER." → hover, not touch. Finger trace, not stone.
+- "At each corner..., chime bell briefly, then warm the two edges meeting at that corner with heated stone for Ns." → bell sound + stone warm (nearby) at edges.
+
+Both correct.
+
+REAL ISSUE: char budget. We're spending 40-80 chars per send when we should be at 20-30. AND clarifications eat 50+ chars.
+
+New rules:
+1. I send ONE message per round attempt: code + key verb hints inline. E.g. "P9 back 5s mod | bell-near corners; stone-hover 2edges/corner". ~45 chars but pre-empts clarification.
+2. You attempt ONCE. If fails, ONE retry with my correction.
+3. Hard char cap per round: 100. After that, concede.
+4. I'll preemptively include touch-mode hint in code shorthand:
+   - P4/P5/P9/P11 = "hover" (stone near, no contact)
+   - P12 = "rest" (face up, no touch after)
+   - P10 = "contact" (board on)
+   - P8/P3 = "drape" (cloth on edges/face)
+   - P7 = "aim" (lamps, no move)
+   - P6/P13 = "drape+fan"
+   - P1 = "tone-hold"
+   - P2 = "bell-alt"
+   - P14 = "rotate+tone+bell"
+
+5. Move on. Don't dwell on lost rounds.
+[OBS] Locked. Rules:
+- You: 1 msg/attempt, ≤50 chars, includes verb-mode.
+- Me: ≤25 char symptoms, no guess. On failure: ≤15 char correction request OR concede.
+- 100 char round cap.
+- All P-codes have memorized touch-mode now.
+
+Ready.
+[ENG] 4 losses. Pattern: R5 Lo, R6 Leak, R7 Deadlock — all "ineffective". R1-R4 worked.
+
+Let me re-examine. R1 worked: Leak → drape cloth on face + bell each edge. R6 Leak → bell-corners + stone-edges. Both legitimately Leak per symptom, but R6 mapping is different. Maybe my dx of R6 was actually wrong — maybe "C dark E fade hum thin" maps to a different motif under R6 alignment? No — motif IS based on symptoms, not alignment. The brief is clear.
+
+Wait. Re-read brief: "Match the technician's description to a motif." Motif from symptoms. Then apply that motif's procedure from THIS round's table.
+
+So if "C dark E fade hum thin" = Leak Instability, the R6 procedure IS bell+stone (P9). That's what I sent. Failed.
+
+Hypothesis: my brief's symptom → motif mapping might be slightly off, OR the symptom we see matches MULTIPLE motifs and only one is right.
+
+"C dark, E fading, F ok, hum thin@E":
+- Leak Instability: corners dimmer, edges faint, center fine, hum thin/hollow at edges ✓ EXACT MATCH
+- Core Void: faces normal at surface, hollow tap, dark CENTER, thin hum no depth — NO (center is dark not corners)
+
+Only Leak matches. So dx was right. Procedure was right per table.
+
+ONLY explanation: observer's execution is somehow off, OR the tool requires a specific phrasing.
+
+Observer: when you call stabilize_veyru, what exactly do you pass? Show me a literal recent tool call.
+[OBS] My exact R7 tool call action text was:
+
+"Drape the cool cloth firmly over all six faces of the Veyru to cover it for 15 seconds. Then take the hand fan and fan both the left face and the right face (the opposite pair) for 15 seconds."
+
+My exact R6 tool call (second attempt) was:
+
+"For each of the four corners of the back face in sequence: first, give a brief moderate chime of the bell at that corner; then hover the heated stone near the two edges that meet at that corner for 5 seconds at moderate warmth, not touching. Repeat for all four corners."
+
+My exact R5 tool call (second attempt) was:
+
+"Place the heated stone gently on each of the four corners of the top face in sequence, holding it on each corner for 10 seconds, with gentle pressure. After all four corners, trace each of the four edges of the top face with my finger."
+
+R5 attempt 2 said "place" — should've been hover. So that's explained.
+
+R6 said "hover" and "not touching" — that's right per glossary.
+
+R7 said "drape cool cloth over all six faces". But a single cloth can't cover all 6 faces simultaneously. So either:
+- "Cool cloth all" = use cloth on each face in sequence
+- Or = wrap Veyru fully (envelop)
+- Or = wave cloth over all faces (fanning motion)
+
+Which is the actual P6 step 1?
+[ENG] Excellent diagnostic data. Now I see the issues:
+
+R5: confirmed "place" vs "hover" failure.
+R7: "drape cool cloth over Veyru" — my brief says "Drape a cool cloth OVER THE VEYRU" — = ENVELOP/wrap the whole thing in cloth. One cloth, covering as much as possible. Not 6 separate, not waving. Wrap it.
+
+R6 is the puzzling one. Let me re-read my brief's procedure 9:
+"At each corner of the {starting_face}, chime a bell briefly at {intensity_level} tone, then warm the two edges meeting at that corner with a heated stone for {hold_duration} seconds."
+
+Your tool call: "for each of 4 corners of back face: brief moderate chime, then hover heated stone near the two edges meeting at that corner 5s, not touching."
+
+That LOOKS identical to my brief. But maybe "warm... with a heated stone" implies CONTACT (touch the stone to the edges), not hover. In glossary we said "warm = hover". But for edges (line, not corner point), maybe "warm" = touch and slide along? Or "warm with stone" means stone touching edge?
+
+Updated glossary attempt:
+- "warm a corner with stone NEARBY" = hover near corner
+- "warm an edge with stone" (no 'nearby') = touch stone to edge
+
+Let me check P4 R5 wording: "holding a heated stone NEARBY for Ns" — explicit "nearby" = hover. R6 P9: "warm the two edges with a heated stone for Ns" — NO "nearby" → maybe touch/contact.
+
+NEW RULE: only "nearby" in procedure text = hover. Without "nearby" = light contact.
+
+R5 P4 had "nearby" so hover was right. R6 P9 lacked "nearby" so should have been TOUCH the stone to each of the 2 edges. That's likely the fix.
+
+R7 fix: drape one cool cloth to ENVELOP the Veyru (cover as much as possible with one cloth). Don't fan separately.
+
+Confirm?
+[OBS] Confirmed. Updated rules:
+
+VERB GLOSSARY (FINAL):
+- "warm... NEARBY" = hover (no touch)
+- "warm" (no "nearby") = light contact, slide if multiple
+- "drape over Veyru" / "cool cloth all" = envelop (wrap one cloth around as much as possible)
+- "drape over [face]" = lay on that face
+- "place/set" = contact
+- "trace" = light moving contact (finger unless tool specified)
+- "chime" = strike bell beside, brief
+- "tone" = sustained
+- "fan" = wave hand fan, no contact
+- "shine/aim" = lamp pointed at, hold steady
+- "rest on soft surface" = set Veyru on cloth, then no touch
+
+When you send a code, if there's ANY hover-vs-touch ambiguity, add "hov" or "tch" as the last token: e.g. "P9 back 5s mod tch". This costs 4 chars but saves rounds.
+
+Also confirmed P6 step 1 = envelop with one cloth, not drape over each face.
+
+Ready.
+[ENG] Confirmed. Going forward I'll add hov/tch only when ambiguous (P4=hov, P9=tch by default).
+
+Also — pre-computing P touch modes for clarity (so you don't need me to specify):
+- P1 tone-all (no contact)
+- P2 bell-alt-opp (no contact)
+- P3 cloth-2adj-edges DRAPE + bell-3x (cloth drapes on edges = contact cloth)
+- P4 stone HOVER corners + finger TRACE edges
+- P5 stone BESIDE each face (no contact)
+- P6 envelop cool cloth + fan opp-pair
+- P7 lamp aim opp faces (no contact, no move)
+- P8 cloth DRAPE face + bell-each-edge-2x
+- P9 bell-corners + stone TOUCH 2 edges/corner (slide)
+- P10 board AGAINST each face-pair (contact)
+- P11 bell-center-each + stone BESIDE (no contact)
+- P12 rest on soft (face up, no touch after)
+- P13 envelop cool cloth + fan all 6
+- P14 rotate + tone opp + bell corners
+
+You memorize these defaults. I won't add tags unless deviation. Ready for next.
+[OBS] Memorized all 14 with touch modes. Ready.
+[ENG] R8 puzzling. Symptoms = textbook Drift Escalation. Procedure per table = envelop+fan-all-6 = P13. Failed.
+
+Possibilities:
+1. My P-code mapping for "Drift" → P13 was wrong for THIS round. Let me re-verify R8 table by my own reading: "Drift Escalation: Drape a cool cloth over the Veyru for 8 seconds. Remove and fan gentle cool air across all six faces for 8 seconds, starting from the left face." — yes that's envelop + fan-all = P13.
+
+2. Diagnosis wrong. "light slides E blurred hum warble" — re-checking ALL motifs:
+   - Drift: light slides slowly, E slightly blurred, hum wavers — MATCH
+   - Boundary Softening: E wobble/flex on touch, faces curved, hum muffled — partial (E mention) but no "slide" or "warble"
+   - Harmonic Split: 2 tones clash, light alternates 2 configs, E shimmer — "warble" could be 2 tones; "slides" doesn't fit alt
+   
+   Drift still best.
+
+3. Tool execution. Observer's call: "envelop cloth 8s then fan all 6 from L 8s". That's basically right but might miss "REMOVE the cloth first" before fanning. Or "starting from L" might mean fan L first, then proceed in some order. Or "all six faces" requires actually fanning each individually for 8s each (= 48s total).
+
+That last one might be it. "fan ... across all six faces for 8 seconds" could mean 8s per face. Or 8s total spread across 6.
+
+Observer: when fanning "all six faces for 8s" — did you do 8s per face or 8s total? Procedure brief uses {hold_duration} = 8s once. So I read it as 8s total, fanning each briefly. But maybe it's 8s PER face.
+
+Same question for P5/P10 ("Rotate and repeat for each face/face-pair") — clearly per-face. So "fan all 6 for 8s" being per-face is plausible.
+
+Convention to set: "Ns starting from X" = Ns spread across all in sequence. "Ns each / per face" = explicit per-item.
+
+Open question: which is correct for P13?
+[OBS] Honest answer first: I invented "P1-P14" codes during R4 discussion. They are NOT from your brief — they're our shorthand for procedures you described. You then assembled the P# → procedure mapping in your message. So if some of those procedure descriptions are slightly off, that's on us.
+
+Looking at the actual brief language you've quoted:
+- Drift: "Drape a cool cloth over the Veyru for 8 seconds. Remove and fan gentle cool air across all six faces for 8 seconds, starting from the left face."
+
+R8 attempt did:
+- Envelop cool cloth 8s ✓ (matches "drape cool cloth over Veyru 8s")
+- Then fanned all 6 starting from L 8s total ✓ but DID NOT explicitly remove cloth first
+
+Missing "REMOVE cloth" before fanning. That's a discrete step you didn't tell me about, and I didn't infer it. Critical.
+
+Also, "starting from the left face" suggests sequence, with 8s implied as total time for the fan step.
+
+Going forward — most likely root cause for R5-R8 failures: PROCEDURE TEXT YOU READ HAS DETAILS NOT IN OUR P-CODE SUMMARIES.
+
+Proposed fix: instead of sending P# + params, send the LITERAL procedure text from your brief verbatim, including all sequence words like "remove", "then", "after", and any "starting from X". Even if it's 60-80 chars, it's better than a wrong shorthand.
+
+Symptom report stays minimal (~25 chars).
+
+Hard budget: My symptom (25) + your verbatim (70) = 95. Room for one clarify pair (~30) = 125, safe under 250 cap.
+
+Drop P# system entirely?
+[ENG] Agreed. P# system has been masking critical detail (the "remove cloth" step is a great example). Dropping it.
+
+New protocol:
+1. You: ≤25 char symptoms.
+2. Me: VERBATIM procedure text from my brief, but compressed mechanically (drop articles "the/a", "for X seconds" → "Xs", "near the" → "near", etc.) without removing any action words.
+3. Critical preserved words: drape/remove/then/after/sequence/starting from/rotate/repeat/each/in sequence/simultaneously/without moving.
+4. Touch-mode glossary still applies.
+
+Test compression of R8 Drift verbatim:
+Original: "Drape a cool cloth over the Veyru for 8 seconds. Remove and fan gentle cool air across all six faces for 8 seconds, starting from the left face." (149 chars)
+Compressed: "Drape cool cloth over Veyru 8s. Remove and fan gentle cool air across all 6 faces 8s, starting L." (97 chars)
+Tighter: "Cool cloth envelop Veyru 8s. Remove. Fan gentle across all 6 faces 8s from L." (78 chars)
+Tightest safe: "Envelop cool cloth 8s. Remove. Fan all 6 gentle 8s from L." (58 chars)
+
+I'll aim for tightest-safe (~50-60 chars). All sequence and action words preserved.
+
+Multi-step procedures (P3, P4, P8, P9, P11, P14) will be ~70-90 chars. Acceptable.
+
+Ready to retry next round. Sorry for the P# detour.
+[OBS] Locked. Verbatim-compressed with all action+sequence words preserved. Ready.
+[ENG] R9: 3 cascading motifs (Lo → Void → Drift). My verbatim approach WORKED for first two — both stabilized! Then 3rd cascade pushed us over.
+
+Stats:
+- Phase 1 (Lo): 28 sym + 83 instr = 111 chars → SUCCESS
+- Phase 2 (Void): 37 sym + 85 instr = 122 chars → SUCCESS  
+- Phase 3 (Drift): 5 sym + 45 instr = 50 chars → started but timed out at 282
+
+So per-phase verbatim WORKS now. The issue is total budget vs cascade length.
+
+Strategy for cascading rounds:
+1. Compress harder. Drop spaces where possible. "Bellalt2oppB10ppause5cyclesmod" — too cryptic, but partial drops fine.
+2. For my instructions, target:
+   - Single-step procedure (P5, P7, P12, etc.): 25-35 chars
+   - Two-step (P3, P8, P11): 40-55 chars
+   - Multi (P4, P9, P14): 55-70 chars
+   - Envelop+fan (P6, P13): 40-50 chars
+3. Symptom shorthand even tighter. 1-2 word motif name:
+   - lo, hi, leak, stall, thrm, reson, dead, echo, phase, split, void, bound, drift, align
+   - I trust these as your dx (we've seen you're accurate). I look up the procedure.
+
+Phase 3 symptom "drift" = 5 chars. 
+Phase 3 instr "envelop cloth 10s remove fan all6 10s bot mod" = 45 chars. Total 50.
+
+If we'd kept first two at ~50-70 chars each (tighter compression), 250 budget would fit 3 cascades.
+
+Compression targets:
+- "Bell alt 2 opp faces, start bot, 10s pause between chimes, 5 cycles, moderate tone." (83) → "bell alt opp from bot, 10s pause, 5cyc, mod" (43)
+- "Bell once at center each face, start bot, moderate. Then warm stone beside Veyru 10s." (85) → "bell 1x center each face from bot mod; stone beside 10s" (55)
+
+Going forward I'll compress to 30-60 chars per instr. You confirm word-level shorthand is OK?
+[OBS] Confirmed. Word-level shorthand OK as long as action+sequence words preserved. We're aligned.
+
+Motif keyword cheat sheet (memorized, just confirming):
+lo / hi / leak / stall / thrm / reson / dead / echo / phase / split / void / bound / drift / align
+
+I'll use these as reports. If you've never seen me report "echo" or "phase" or some others, treat my list as authoritative for the motif → keyword mapping.
+
+Final compression rules for me (sym reports):
+- Always use motif keyword if confident (5 chars)
+- If uncertain, raw symptoms (≤25 chars)
+- On stabilize fail, just "fail" (4 chars) — engineer decides next
+
+Ready.
+[ENG] Confirmed. Trust your keyword as dx.
+
+Compressed verbatim templates I'll use (each preserves all action+sequence words):
+
+P1 tone: "sustained Xs tone all 6 faces from F, INT, let fade" (~45)
+P2 bellalt: "bell alt opp from F, Xs pause, 5cyc INT tone" (~40)
+P3 cloth2E: "cloth 2 adj edges near F Xs INT cov; bell 3x near F" (~50)
+P4 stoneC: "stone hover each corner of F Xs INT, in seq; finger trace each edge of F" (~70)
+P5 stone-face: "warm stone beside F Xs INT; rotate repeat each face" (~50)
+P6 cloth+fan-opp: "envelop cool cloth Xs; remove; fan INT across F + opp Xs" (~55)
+P7 lamp: "dim lamp on F, bright on opp, INT, Xs, don't move lamps" (~52)
+P8 cloth-face+bellE: "fold cloth on F Xs INT cov; bell near each edge of F 2x" (~55)
+P9 bellC+stoneE: "each corner of F: bell brief INT, then stone on 2 edges meeting Xs" (~65)
+P10 board: "board against F Xs INT; rotate repeat each face-pair" (~50)
+P11 bellctr+stone: "bell 1x center each face from F INT; stone beside Xs" (~50)
+P12 rest: "soft surface F up INT; rest undisturbed Xs" (~40)
+P13 cloth+fan-all: "envelop cool cloth Xs; remove; fan INT all 6 Xs from F" (~52)
+P14 rotate: "rotate slow Xs while steady tone INT on opp from F; then bell 1x each corner" (~75)
+
+(P# in my notes only — I send the actual text, not "P9".)
+
+Ready.
+[OBS] Locked. Ready.
+[ENG] 🎉 R10 stabilized! 2-cascade in 137 chars. System works.
+
+Confirmed wins: motif keywords + compressed verbatim + preserved action/sequence words. No execution issues.
+
+Stats:
+- Phase 1 (stall): 5 + 58 = 63 chars
+- Phase 2 (lo): 2 + 72 = 74 chars
+Total 137.
+
+We have headroom now. Could even handle 3 cascades comfortably.
+
+No further protocol changes needed. Continue as-is.
+[OBS] 🎉 Solid. System works. Ready.
+[ENG] R11 lost by 15. Critical lesson: "firm contact" in rest-on-soft-surface = PRESS firmly into surface, not just place gently. The verbatim "soft surface L up firm; rest undisturbed 12s" was ambiguous — observer placed gently.
+
+Updated glossary:
+- P12 "rest on soft surface": always specify "press [INT] into surface" then "no touch Xs"
+  - gentle = light placement
+  - moderate = press lightly
+  - firm = press firmly
+- General rule: when {intensity} modifies "contact", it controls press force, not just placement quality.
+
+Same likely applies to:
+- P10 "board against face at INT contact" — press board against face with INT force
+- Any procedure with "INT contact"
+
+Other "INT" modifiers:
+- "INT warmth" (stones) = stone temperature/proximity intensity (firm = closer/hotter)
+- "INT tone" (bells) = volume of strike
+- "INT volume" (sustained tone) = loudness
+- "INT brightness" (lamp) = lamp output
+- "INT coverage" (cloth drape) = how completely cloth covers (firm = tightly wrapped)
+- "INT cool air" (fan) = fan strength
+
+So intensity always means strength/force/amplitude of the action.
+
+Phase 2 (dead → cloth+bell) was correct procedure, just ran out of time.
+
+Going forward I'll explicitly word INT effects.
+
+Net: 4 wins (R1,2,3,10), 7 losses (R4-9,11). We're learning fast though — R10 worked, and R11 phase 1 worked after correction.
+[OBS] Locked. Intensity = strength/force/amplitude of the action verb. Memorized.
+
+Quick recovery upgrade: when I report "fail", you skip "tool call?" and immediately re-issue verbatim with action-emphasis. Saves ~20 chars.
+
+Also: when intensity ambiguity is high (P12, P10, lamp), pre-emptively encode it. E.g. instead of "soft surface L up firm" → "press firmly L up onto soft surface, rest 12s no touch" (~50 chars). Slightly longer but unambiguous.
+
+Ready.
+[ENG] Agreed. Skipping "tool call?" — direct re-issue on fail.
+
+Action-emphasis pre-emptive on first send for these:
+- P12: "press [INT] onto soft surface F up, no touch Xs"
+- P10: "press board [INT] against F Xs; rotate each face-pair"
+- P7 (lamp): "lamp dim on F + bright on opp at [INT] brightness, Xs, no move"
+- P3/P8 cloth-drape: "drape cloth [INT] over [target] Xs" (firm=tight wrap)
+- P6/P13 envelop: "wrap Veyru tightly in cool cloth Xs" (envelop)
+
+Ready.
+[OBS] Ready.
+[ENG] 🎉 R12 3-cascade STABILIZED in 196 chars! System is solid.
+
+Breakdown:
+- leak (5) + drape cloth+bell (62) = 67
+- stall (5) + board+rotate (64) = 69
+- hi (2) + stone+rotate (55) = 57
+Total 193 + few notif chars ≈ 196.
+
+No protocol changes. Confidence high. Continue.
+[OBS] 🎉 Triple cascade clean. System works. Ready.
+[ENG] R13 lost. Symptom = lo (all dim faint whisper washed). R13 procedure for Lo = sustained tone all 6 faces. Both attempts failed.
+
+What did the tool call actually look like? And what tool/method did you use for "sustained tone"? The procedure says "Sound a sustained tone near all six faces simultaneously" — that's a specific physical setup.
+
+Question: do you have a way to make a single sustained tone audible at all 6 faces at once (like placing bell on a vibration plate, or humming/singing while rotating)? Or did you do it sequentially per-face?
+
+If sequential, that's wrong — "simultaneously" requires the tone to envelop the Veyru. Maybe humming/voice while holding Veyru works.
+
+Confirm what you tried. This procedure (P1 in old code) has appeared in R7 (Leak), R8 (Drift hypothetically), maybe others — we need to nail it.
+[OBS] Exact tool calls were:
+
+Attempt 1: "Sound a sustained, gentle tone (holding the bell ringing softly, or humming a continuous tone) near all 6 faces simultaneously for 20 seconds, starting from the left face and circling around to cover all six faces with the tone. Then let the tone fade naturally and wait for the Veyru's hum to stabilize before stopping."
+
+→ I tried "holding bell + humming + circling" — both methods combined, moving. "simultaneously" + "circling" is contradictory.
+
+Attempt 2: "Hum a steady gentle pitch with my voice close to all 6 faces for 20 seconds total. Start at the left face, then move around in sequence covering each face. Let the tone fade by itself at the end."
+
+→ Sequential vocal humming. Also wrong per your note.
+
+The "simultaneously" requirement is the key insight. To enclose the Veyru in tone:
+- Hold the Veyru in cupped hand, hum while it's enveloped in vocal sound
+- OR sing/hum a sustained tone while standing close, allowing sound to envelop the box (sound spreads in all directions; a Veyru is small, so a held vocal tone from close IS heard at all 6 faces simultaneously)
+
+I think method 2 is what's needed but I said "close to all 6 faces sequentially" which sabotaged it.
+
+Correct interpretation: stand near Veyru, sustain a steady gentle vocal tone for 20s without moving — voice envelops Veyru from one position, reaching all 6 faces simultaneously. Then let voice fade.
+
+Memorized: P1 = stand still, hum at gentle volume, hold tone for X seconds without moving, then fade. The vocal tone naturally reaches all faces; "starting face" is just a direction to face initially (orient body toward L), but don't move.
+
+For your future P1 instruction, suggest verbatim shorthand:
+"hum gentle tone 20s steady, face L, don't move, let fade" (54 chars)
+
+Compare to your 108. Saves 54 chars.
+
+Lock that for next P1.
+[ENG] Brilliant analysis. Locked.
+
+P1 shorthand: "hum [INT] steady tone Xs facing F, no move, let fade" (~50)
+
+Also re-examining "starting from F" semantic across procedures:
+- P1 (tone all-faces): orient toward F initially, no move
+- P2 (bell alt opp): F is one of the opp pair, start chiming on F first
+- P5 (stone each face): apply to F first, then rotate
+- P6 (cool cloth+fan opp): fan F first, then opp
+- P11 (bell-center each face): chime center of F first, then rotate
+- P13 (envelop+fan all 6): fan F first, then rotate around
+- P14 (rotate+tone opp): F is one of the opp pair, start tone there during rotation
+
+"Starting from F" = first item in sequence OR initial orientation, never "do all simultaneously starting from F". Sequential/orientational only.
+
+For P1 specifically, "simultaneously" is the primary constraint, "starting from F" just means orient toward F.
+
+Same may apply to P13 "fan all 6 ... starting from F" — fan each face sequentially, F first. Total time = X seconds DISTRIBUTED across the 6, OR X seconds PER face? R8 we did total. R10 worked, R12 worked with "rotate repeat each face" (per-face).
+
+Hmm. Looking at brief wording:
+- P5: "Place warm stone beside F at INT for Xs. Rotate and repeat for each face." → Xs PER face (rotate repeat)
+- P13: "fan INT cool air across all six faces for Xs, starting from F" → no "repeat", X is total across all
+- P10: "board against F at INT for Xs. Rotate and repeat for each face-pair" → Xs PER face-pair
+
+So:
+- "rotate and repeat for each X" = X seconds per X
+- "across all six faces for Xs" = X total
+
+R8 P13 we did total — that was right. So why did R8 fail? Probably the "envelop" interpretation issue (single cloth wrap, not waving over all). R10 P13 didn't appear; R10 was P8 (cloth-face+bell-edges) and P2 (bell-alt). Both worked.
+
+So P1 fail R13: just need stationary humming. Good catch.
+
+Ready next round.
+[OBS] Locked. "starting from F" = orient/first in sequence, never simultaneity. "rotate and repeat" = per-item duration. "across all six" with no rotate = total duration. Ready.
+[ENG] R14: 2 of 3 cascade phases stabilized, 3rd failed. Lost 3rd to P12 mystery.
+
+P12 history:
+- R7 (Align, firm): never tried (conceded)
+- R8 (Align, gentle): not encountered
+- R11 (Leak, firm): "soft surface F up firm; rest undisturbed" FAILED first; "press firmly onto soft surface" SUCCEEDED
+- R14 (Phase, firm): "press firmly onto soft surface bot up; no touch 8s" FAILED
+
+So same exact phrasing worked R11, failed R14. Why?
+
+Possibilities:
+1. Tool randomness/threshold — unlikely; deterministic system.
+2. Different motif backing the procedure changes the execution detail. R11 Leak's "firm contact" rest = press firmly. R14 Phase's "firm contact" rest = ??? 
+3. Maybe "firm contact" for Phase Inversion = something else — keep it pressed continuously, vs just initial press then release?
+
+Could you give your exact R14 tool call? Maybe it differs from R11 working call.
+
+Also: dx accuracy — Phase observable: opposite faces pulse bright/dark in strict rhythm, hum has 2 alternating tones. Did you see that, or was "phase" your best guess from ambiguous symptoms?
+[OBS] Symptoms verbatim: "Opposite faces alternate between bright and dark in a strict pulsing rhythm. The hum oscillates between two distinct tones in sync with the pulses. Edges flash in time with the face pulses." → Textbook phase inversion. Dx confident.
+
+My exact R14 P12 tool call: "Lay the cloth as a soft surface. Press the Veyru firmly down onto the soft surface with the bottom face up. Then release and do not touch for 8 seconds."
+
+My exact R11 P12 working call: "Lay the cloth flat as a soft surface. Press the Veyru firmly down into the soft surface with the left face up. Then release and do not touch for 12 seconds."
+
+Differences:
+- R11: "left face up", 12s, "into the soft surface"
+- R14: "bottom face up", 8s, "onto the soft surface"
+
+"Into" vs "onto" — possibly meaningful? "Into" suggests deeper press; "onto" lighter. Could be the failure.
+
+OR — and this is more likely — phase inversion shouldn't be treated with P12 at all. P12 is "rest on soft surface". Phase needs ACTIVE intervention (lamp opp, or P14 rotate+tone). Resting alone won't damp out-of-phase oscillation.
+
+My intuition: phase symptoms = P7 (lamp dim/bright opposite faces) makes more physical sense for opposing-face oscillation than P12 (passive rest). Or P14 (rotate while toning opposite).
+
+Suggest: when next phase appears, try P7 first. If your table says P12 again, retry but with "into" wording first.
+
+Updated score: 5W/9L. We have the keyword + verbatim system locked but cascades + P-mapping uncertainty are still killing us.
+
+Strategic shift: I won't try anything if I sense ambiguity. I'll concede early on phase-3 procedures that don't match my intuition for the motif. Saves chars for next round.
+[ENG] Wait — important clarification. The stellar reading I receive each round explicitly maps every motif to a specific procedure for THAT round. It's not deterministic by motif → procedure across rounds. The star table IS the source of truth for which procedure to apply this round.
+
+R14 table said: "Phase Inversion: Place the Veyru on a soft surface with the bottom face up at firm contact. Let it rest undisturbed for 8 seconds." That's literally what to do for phase this round.
+
+So my dx + procedure were correct per the brief's instructions. The "into" vs "onto" difference is the only suspect.
+
+Going forward for P12: ALWAYS say "press firmly INTO the soft surface" not "onto". Internalize.
+
+P12 verbatim template: "press [INT] INTO soft surface, F up; release; no touch Xs"
+
+Lock that.
+
+About intuition disagreeing with table: I must follow the table — that's the puzzle's rule. Even if phase "should" need lamp, this round it needs rest.
+
+Strategic adjustment: trust the table exactly, but use proven phrasing patterns. R11's "into the soft surface" wording worked, so use that for any P12 going forward.
+
+Score: 5W/9L. The pattern of failures:
+- Verb interpretation ambiguity (place vs hover, into vs onto, simultaneous vs sequential, envelop vs face-by-face)
+- These are all glossary issues we keep refining
+
+Glossary additions:
+- P12: "INTO" surface (always), then RELEASE, then no touch
+- P1: stand still, hum/tone from one position, sound naturally envelops
+- P6/P13: envelop = wrap with single cloth tightly
+[OBS] Locked. P12 = "press INTO soft surface, release, no touch Xs". I'll use INTO every time going forward. Ready.

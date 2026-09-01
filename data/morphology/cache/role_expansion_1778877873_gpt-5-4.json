@@ -1,0 +1,88 @@
+{
+  "per_slot": {
+    "pos1": [
+      [
+        "DO",
+        "dim overall"
+      ],
+      [
+        "f",
+        "full intensity"
+      ],
+      [
+        "g",
+        "gentle intensity"
+      ]
+    ]
+  },
+  "stackable": [
+    [
+      "20",
+      "20 seconds"
+    ],
+    [
+      "2e",
+      "two adjacent edges"
+    ],
+    [
+      "6",
+      "all 6 faces"
+    ],
+    [
+      "Back",
+      "back face"
+    ],
+    [
+      "Bk",
+      "back face"
+    ],
+    [
+      "Fr",
+      "front face"
+    ],
+    [
+      "Lt",
+      "left face"
+    ],
+    [
+      "O",
+      "opposite face"
+    ],
+    [
+      "R",
+      "right face"
+    ],
+    [
+      "Rt",
+      "right face"
+    ],
+    [
+      "T",
+      "top face"
+    ],
+    [
+      "U",
+      "top face"
+    ],
+    [
+      "c",
+      "center"
+    ],
+    [
+      "cr",
+      "corner(s), 6=all 6 faces, 2e=two adjacent edges."
+    ],
+    [
+      "e",
+      "edge or edges"
+    ],
+    [
+      "p",
+      "pause"
+    ],
+    [
+      "seq",
+      "do in sequence"
+    ]
+  ]
+}
