@@ -1,6 +1,8 @@
 # [GlossoGen: Emergent Language in Complex Multi-Agent LLM Interactions]()
 
-Elias Stengel-Eskin, Newton Sander, Carlos Bonetti, Sasha Boguraev, James Bowler, Hale Sirin, Simon Kirby
+**[Elias Stengel-Eskin](https://esteng.github.io), [Newton Sander](https://ae.studio/alignment), [Carlos Bonetti](https://ae.studio/alignment), [Sasha Boguraev](https://sashaboguraev.github.io), [James Bowler](https://ae.studio/alignment), [Hale Sirin](https://www.schmidtsciences.org/person/hale-sirin/), [Simon Kirby](https://www.simonkirby.net)**
+
+![Figure 1](assets/fig1.jpg)
 
 Reproduces the figures, tables and reported statistics of the paper. 
 
