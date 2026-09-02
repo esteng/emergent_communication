@@ -1,4 +1,4 @@
-# [GlossoGen: Emergent Language in Complex Multi-Agent LLM Interactions]()
+# [GlossoGen: Emergent Language in Complex Multi-Agent LLM Interactions](http://arxiv.org/abs/2609.01491)
 
 **[Elias Stengel-Eskin](https://esteng.github.io), [Newton Sander](https://ae.studio/alignment), [Carlos Bonetti](https://ae.studio/alignment), [Sasha Boguraev](https://sashaboguraev.github.io), [James Bowler](https://ae.studio/alignment), [Hale Sirin](https://www.schmidtsciences.org/person/hale-sirin/), [Simon Kirby](https://www.simonkirby.net)**
 
@@ -132,9 +132,10 @@ gold-eval scorer and the judge's concurrency cap. No network and no credentials 
 @article{stengeleskin2026glossogen,
   title={GlossoGen: Emergent Language in Complex Multi-Agent LLM Interactions},
   author={Stengel-Eskin, Elias and Sander, Newton and Bonetti, Carlos and Boguraev, Sasha and Bowler, James and Sirin, Hale and Kirby, Simon},
-  journal={arXiv preprint arXiv:},
+  journal={arXiv preprint arXiv:2609.01491},
   year={2026}
 }
 ```
+
 
 
